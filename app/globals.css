@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: 'Inter', system-ui, sans-serif;
+    color-scheme: light;
+  }
+
+  * {
+    @apply border-gray-200;
+  }
+
+  body {
+    @apply bg-white text-gray-900 antialiased;
+    background: radial-gradient(1200px 800px at 10% -10%, rgba(40, 183, 255, 0.18), transparent 60%),
+      radial-gradient(900px 600px at 90% 10%, rgba(23, 158, 255, 0.16), transparent 55%),
+      #f8fbff;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::selection {
+    background: rgba(23, 158, 255, 0.2);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-draw {
+    stroke-dasharray: 6 10;
+    animation: draw 6s linear infinite;
+  }
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -200;
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "meta": {
+    "title": "UniSearch — Universal search for Android",
+    "description": "Find apps, contacts, files, actions, and more from one fast search bar. Built for speed, privacy, and offline-first use.",
+    "privacyTitle": "Privacy Policy",
+    "privacyDescription": "Learn how UniSearch processes data locally and keeps your searches private.",
+    "termsTitle": "Terms of Service",
+    "termsDescription": "Basic terms for using the UniSearch app and website."
+  },
+  "common": {
+    "back": "Back"
+  },
+  "nav": {
+    "features": "Features",
+    "freePro": "Free vs Pro",
+    "privacy": "Privacy",
+    "faq": "FAQ",
+    "getApp": "Get it on Google Play",
+    "how": "How it works",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "Universal search for Android",
+    "title": "Find everything on your phone in seconds.",
+    "subtitle": "Apps, contacts, files, actions, calculator, and AI — all from one lightning-fast search bar.",
+    "primaryCta": "Get it on Google Play",
+    "secondaryCta": "Explore features",
+    "note": "No account required. Works offline by default."
+  },
+  "trust": {
+    "title": "Built for speed and control",
+    "items": [
+      {
+        "title": "Fast",
+        "description": "Instant results with real-time filtering and smart ranking."
+      },
+      {
+        "title": "Privacy",
+        "description": "Your data stays on-device. Optional analytics only."
+      },
+      {
+        "title": "Offline-first",
+        "description": "Search works even without an internet connection."
+      },
+      {
+        "title": "Personalization",
+        "description": "Tune themes, sections, spacing, and behavior."
+      }
+    ]
+  },
+  "features": {
+    "title": "Everything you want to find — instantly",
+    "subtitle": "UniSearch brings every source into one smooth, unified result list.",
+    "groups": {
+      "search": {
+        "title": "Unified search",
+        "description": "Find anything with smart ranking and noise filtering."
+      },
+      "actions": {
+        "title": "Actions & shortcuts",
+        "description": "Launch actions, deep links, and curated shortcuts."
+      },
+      "files": {
+        "title": "Files & media",
+        "description": "Search documents, photos, videos, music, and folders."
+      },
+      "contacts": {
+        "title": "Contacts",
+        "description": "Call, message, or open linked apps instantly."
+      },
+      "calculator": {
+        "title": "Calculator",
+        "description": "Inline calculator with precision math."
+      },
+      "customization": {
+        "title": "Customization",
+        "description": "Control layout, themes, and visibility."
+      },
+      "ai": {
+        "title": "AI prompts",
+        "description": "Optional AI helpers with clear data boundaries."
+      }
+    },
+    "items": {
+      "search": {
+        "universal": "Apps, contacts, files, settings, and shortcuts in one query",
+        "instant": "Real-time filtering with instant results",
+        "frecency": "Frecency ranking that adapts to your habits"
+      },
+      "actions": {
+        "shortcuts": "App shortcuts and deep links",
+        "system": "System actions and settings search",
+        "workflow": "Launch from Assistant, widget, or Quick Settings"
+      },
+      "files": {
+        "documents": "Documents, images, videos, music",
+        "media": "Folders and MediaStore-powered results",
+        "filters": "Type filters and exclusions"
+      },
+      "contacts": {
+        "smart": "Smart matching and ranking",
+        "actions": "Call, message, or open linked apps",
+        "permissions": "Optional permissions with clear control"
+      },
+      "calculator": {
+        "inline": "Inline math as you type",
+        "precision": "BigDecimal precision with brackets",
+        "copy": "Copy results in one tap"
+      },
+      "customization": {
+        "themes": "Light, dark, and curated themes",
+        "layout": "Icon size, grid spacing, labels",
+        "sections": "Show, hide, and reorder sections"
+      },
+      "ai": {
+        "prompts": "Create quick AI prompts",
+        "safe": "Clear opt-in usage",
+        "optional": "Disable AI anytime"
+      }
+    }
+  },
+  "how": {
+    "title": "How it works",
+    "subtitle": "A simple flow designed for speed.",
+    "steps": {
+      "index": {
+        "title": "Index",
+        "description": "UniSearch indexes apps, contacts, files, and settings locally."
+      },
+      "search": {
+        "title": "Search",
+        "description": "Type once and get ranked results instantly."
+      },
+      "action": {
+        "title": "Action",
+        "description": "Open, call, calculate, or run a shortcut in one tap."
+      }
+    }
+  },
+  "freePro": {
+    "title": "Free vs Pro",
+    "subtitle": "Start free, upgrade once for full control.",
+    "free": {
+      "title": "Free",
+      "description": "Everything you need to search fast.",
+      "items": {
+        "universal": "Universal search across apps, contacts, files, settings",
+        "instant": "Instant results with real-time filtering",
+        "launch": "Launch from Assistant, widget, or Quick Settings",
+        "visibility": "Show or hide any result type and section",
+        "autofocus": "Auto-focus search bar",
+        "clear": "Clear search on selection",
+        "themes": "2 free themes: UniSearch + High Contrast",
+        "modes": "Light and dark mode",
+        "animations": "Basic animations (fade, slide)",
+        "icons": "Icon size: Small, Medium, Large",
+        "labels": "Icon labels on/off",
+        "spacing": "Grid spacing control",
+        "sections": "View all result sections",
+        "custom": "1 free custom section (no reordering)",
+        "analytics": "Basic analytics (opt-in)",
+        "privacy": "Privacy mode",
+        "languages": "All 25 languages"
+      }
+    },
+    "pro": {
+      "title": "Pro",
+      "description": "One-time purchase. Unlock full design power.",
+      "badge": "Most popular",
+      "priceNote": "One-time purchase · about $5–6",
+      "items": {
+        "themes": "Premium themes + custom theme creator",
+        "colors": "Advanced colors (52 points) and wallpaper blur",
+        "animations": "Advanced animations and load order control",
+        "geometry": "Full geometry control for search bar, sections, widget",
+        "sections": "Unlimited custom sections and drag & drop order",
+        "iconPacks": "External icon packs support",
+        "pinned": "Pinned items",
+        "backup": "Backup & restore (JSON export/import)",
+        "ads": "Remove sponsored sections",
+        "support": "Support future development"
+      }
+    },
+    "summary": {
+      "title": "Quick summary",
+      "rows": {
+        "customization": "Customization",
+        "sections": "Custom sections",
+        "backup": "Backup",
+        "ads": "Ads"
+      },
+      "values": {
+        "basic": "Basic",
+        "unlimited": "Unlimited",
+        "limited": "1 only",
+        "none": "Not included",
+        "included": "Included",
+        "sponsored": "Sponsored sections"
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to speed up your phone?",
+    "subtitle": "Install UniSearch and get the fastest way to find anything.",
+    "button": "Get it on Google Play"
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Quick answers to common questions.",
+    "items": [
+      {
+        "q": "Does UniSearch send my data to the cloud?",
+        "a": "No. Search data and indexing stay on your device."
+      },
+      {
+        "q": "Which permissions are required?",
+        "a": "All permissions are optional. Contacts and files only if you enable those sections."
+      },
+      {
+        "q": "Can I use it offline?",
+        "a": "Yes. UniSearch works fully offline by default."
+      },
+      {
+        "q": "What exactly is indexed?",
+        "a": "Apps, shortcuts, system settings, contacts, and files you allow."
+      },
+      {
+        "q": "Is Pro a subscription?",
+        "a": "No. Pro is a one-time purchase around $5–6."
+      },
+      {
+        "q": "Can I restore my settings?",
+        "a": "Pro includes backup and restore via JSON export/import."
+      },
+      {
+        "q": "Is AI required?",
+        "a": "No. AI prompts are optional and can be disabled."
+      },
+      {
+        "q": "How can I contact support?",
+        "a": "Email us and we will respond quickly."
+      }
+    ]
+  },
+  "footer": {
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact",
+    "googlePlay": "Google Play",
+    "copyright": "© {year} UniSearch. All rights reserved."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Last updated: February 11, 2026",
+    "intro": "This Privacy Policy explains how UniSearch processes data locally and keeps your searches private.",
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "body": [
+          "UniSearch is designed around on-device processing.",
+          "Most data never leaves your phone."
+        ]
+      },
+      "data": {
+        "title": "Data we process",
+        "body": [
+          "Installed apps, contacts, and files are indexed locally for fast search.",
+          "Search history is stored locally to improve ranking.",
+          "Settings and customization are stored on-device."
+        ]
+      },
+      "permissions": {
+        "title": "Permissions",
+        "body": [
+          "Contacts, files, photos, and notifications are optional permissions.",
+          "If you deny a permission, the related section simply stays disabled.",
+          "You can change permissions anytime in Android settings."
+        ]
+      },
+      "analytics": {
+        "title": "Analytics (opt-in)",
+        "body": [
+          "Basic analytics may be offered as an opt-in to improve the app.",
+          "We will update this policy before enabling analytics."
+        ]
+      },
+      "ads": {
+        "title": "Ads / sponsored sections",
+        "body": [
+          "The free version may show sponsored sections.",
+          "Pro removes sponsored content."
+        ]
+      },
+      "sharing": {
+        "title": "Data sharing",
+        "body": [
+          "We do not sell or share personal data with third parties.",
+          "If you use AI prompts, only the prompt text is sent to the selected provider."
+        ]
+      },
+      "security": {
+        "title": "Security",
+        "body": [
+          "All indexed data stays on your device.",
+          "We follow best practices to protect local storage."
+        ]
+      },
+      "rights": {
+        "title": "User rights",
+        "body": [
+          "You can delete your local data anytime by clearing the app storage.",
+          "You control all permissions and visibility settings."
+        ]
+      },
+      "contact": {
+        "title": "Contact",
+        "body": [
+          "If you have questions about privacy, contact us via email."
+        ]
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "Last updated: February 11, 2026",
+    "intro": "These terms outline the basic rules for using UniSearch.",
+    "sections": {
+      "usage": {
+        "title": "Use of the app",
+        "body": [
+          "Use UniSearch in accordance with local laws and platform policies.",
+          "Do not misuse the app for unlawful activities."
+        ]
+      },
+      "purchases": {
+        "title": "Purchases",
+        "body": [
+          "Pro is a one-time purchase handled by Google Play.",
+          "Refunds follow Google Play policies."
+        ]
+      },
+      "liability": {
+        "title": "Limitation of liability",
+        "body": [
+          "The app is provided as-is without warranties.",
+          "We are not liable for indirect damages."
+        ]
+      },
+      "contact": {
+        "title": "Contact",
+        "body": [
+          "Questions? Reach out via email."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "meta": {
+    "title": "UniSearch — Uniwersalna wyszukiwarka dla Androida",
+    "description": "Szukaj aplikacji, kontaktów, plików i akcji z jednego szybkiego paska. Zaprojektowane pod wydajność, prywatność i tryb offline.",
+    "privacyTitle": "Polityka prywatności",
+    "privacyDescription": "Sprawdź, jak UniSearch przetwarza dane lokalnie i chroni Twoje wyszukiwania.",
+    "termsTitle": "Warunki korzystania",
+    "termsDescription": "Podstawowe zasady korzystania z aplikacji i strony UniSearch."
+  },
+  "common": {
+    "back": "Powrót"
+  },
+  "nav": {
+    "features": "Funkcje",
+    "freePro": "Free vs Pro",
+    "privacy": "Prywatność",
+    "faq": "FAQ",
+    "getApp": "Pobierz z Google Play",
+    "how": "Jak to działa",
+    "language": "Język"
+  },
+  "hero": {
+    "badge": "Uniwersalna wyszukiwarka dla Androida",
+    "title": "Znajdź wszystko na telefonie w sekundę.",
+    "subtitle": "Aplikacje, kontakty, pliki, akcje, kalkulator i AI — wszystko w jednym, błyskawicznym pasku wyszukiwania.",
+    "primaryCta": "Pobierz z Google Play",
+    "secondaryCta": "Zobacz funkcje",
+    "note": "Bez konta. Domyślnie offline."
+  },
+  "trust": {
+    "title": "Zaprojektowane z myślą o szybkości",
+    "items": [
+      {
+        "title": "Szybko",
+        "description": "Natychmiastowe wyniki i filtrowanie w czasie rzeczywistym."
+      },
+      {
+        "title": "Prywatnie",
+        "description": "Dane zostają na urządzeniu. Analityka tylko za zgodą."
+      },
+      {
+        "title": "Offline-first",
+        "description": "Wyszukiwanie działa bez internetu."
+      },
+      {
+        "title": "Personalizacja",
+        "description": "Motywy, sekcje i układ dopasowane do Ciebie."
+      }
+    ]
+  },
+  "features": {
+    "title": "Wszystko, co chcesz znaleźć — natychmiast",
+    "subtitle": "UniSearch łączy wszystkie źródła w jednym, płynnym widoku wyników.",
+    "groups": {
+      "search": {
+        "title": "Uniwersalne wyszukiwanie",
+        "description": "Inteligentny ranking i filtracja szumów."
+      },
+      "actions": {
+        "title": "Akcje i skróty",
+        "description": "Uruchamiaj akcje, deep linki i skróty."
+      },
+      "files": {
+        "title": "Pliki i multimedia",
+        "description": "Szukaj dokumentów, zdjęć, wideo i folderów."
+      },
+      "contacts": {
+        "title": "Kontakty",
+        "description": "Dzwoń, pisz lub otwieraj powiązane aplikacje."
+      },
+      "calculator": {
+        "title": "Kalkulator",
+        "description": "Kalkulator w linii z precyzyjną matematyką."
+      },
+      "customization": {
+        "title": "Personalizacja",
+        "description": "Kontroluj układ, motywy i widoczność."
+      },
+      "ai": {
+        "title": "AI prompty",
+        "description": "Opcjonalne AI z jasnymi zasadami danych."
+      }
+    },
+    "items": {
+      "search": {
+        "universal": "Aplikacje, kontakty, pliki, ustawienia i skróty",
+        "instant": "Wyniki w czasie rzeczywistym",
+        "frecency": "Ranking frecency dopasowany do nawyków"
+      },
+      "actions": {
+        "shortcuts": "Skróty aplikacji i deep linki",
+        "system": "Akcje systemowe i ustawienia",
+        "workflow": "Start z Asystenta, widgetu lub Szybkich ustawień"
+      },
+      "files": {
+        "documents": "Dokumenty, obrazy, wideo, muzyka",
+        "media": "Foldery i wyniki z MediaStore",
+        "filters": "Filtry typów i wykluczenia"
+      },
+      "contacts": {
+        "smart": "Inteligentne dopasowania",
+        "actions": "Dzwoń, pisz lub otwieraj komunikatory",
+        "permissions": "Uprawnienia opcjonalne i pod kontrolą"
+      },
+      "calculator": {
+        "inline": "Obliczenia w trakcie pisania",
+        "precision": "Precyzja BigDecimal z nawiasami",
+        "copy": "Kopiowanie wyniku jednym tapnięciem"
+      },
+      "customization": {
+        "themes": "Tryb jasny, ciemny i motywy",
+        "layout": "Rozmiar ikon, odstępy, etykiety",
+        "sections": "Pokazuj, ukrywaj i sortuj sekcje"
+      },
+      "ai": {
+        "prompts": "Szybkie prompty AI",
+        "safe": "Wyraźny opt-in",
+        "optional": "Możesz wyłączyć w każdej chwili"
+      }
+    }
+  },
+  "how": {
+    "title": "Jak to działa",
+    "subtitle": "Prosty przepływ zaprojektowany dla szybkości.",
+    "steps": {
+      "index": {
+        "title": "Indeks",
+        "description": "UniSearch indeksuje aplikacje, kontakty, pliki i ustawienia lokalnie."
+      },
+      "search": {
+        "title": "Szukaj",
+        "description": "Wpisz jedno hasło i zobacz natychmiastowe wyniki."
+      },
+      "action": {
+        "title": "Akcja",
+        "description": "Otwórz, zadzwoń, policz lub uruchom skrót jednym tapnięciem."
+      }
+    }
+  },
+  "freePro": {
+    "title": "Free vs Pro",
+    "subtitle": "Zacznij za darmo, odblokuj pełną kontrolę raz na zawsze.",
+    "free": {
+      "title": "Free",
+      "description": "Wszystko, co potrzebne do szybkiego wyszukiwania.",
+      "items": {
+        "universal": "Uniwersalne wyszukiwanie: aplikacje, kontakty, pliki, ustawienia",
+        "instant": "Wyniki w czasie rzeczywistym",
+        "launch": "Start z Asystenta, widgetu lub Szybkich ustawień",
+        "visibility": "Pokazuj/ukrywaj typy wyników i sekcje",
+        "autofocus": "Auto-focus paska wyszukiwania",
+        "clear": "Czyść wyszukiwanie po wyborze",
+        "themes": "2 darmowe motywy: UniSearch + High Contrast",
+        "modes": "Tryb jasny i ciemny",
+        "animations": "Podstawowe animacje (fade/slide)",
+        "icons": "Rozmiar ikon: Small/Medium/Large",
+        "labels": "Etykiety ikon włącz/wyłącz",
+        "spacing": "Kontrola odstępów siatki",
+        "sections": "Podgląd wszystkich sekcji",
+        "custom": "1 darmowa sekcja niestandardowa (bez sortowania)",
+        "analytics": "Podstawowa analityka (opt-in)",
+        "privacy": "Tryb prywatności",
+        "languages": "Wszystkie 25 języków"
+      }
+    },
+    "pro": {
+      "title": "Pro",
+      "description": "Jednorazowy zakup. Pełna moc personalizacji.",
+      "badge": "Najpopularniejsze",
+      "priceNote": "Jednorazowy zakup · ok. $5–6",
+      "items": {
+        "themes": "Premium motywy + kreator własnych",
+        "colors": "Zaawansowane kolory (52 punkty) i blur tapety",
+        "animations": "Zaawansowane animacje i kolejność ładowania",
+        "geometry": "Pełna kontrola geometrii paska, sekcji i widgetu",
+        "sections": "Nielimitowane sekcje i drag & drop",
+        "iconPacks": "Wsparcie zewnętrznych packów ikon",
+        "pinned": "Przypięte elementy",
+        "backup": "Backup i restore (eksport/import JSON)",
+        "ads": "Usuń sponsorowane sekcje",
+        "support": "Wsparcie rozwoju aplikacji"
+      }
+    },
+    "summary": {
+      "title": "Szybkie porównanie",
+      "rows": {
+        "customization": "Personalizacja",
+        "sections": "Sekcje niestandardowe",
+        "backup": "Backup",
+        "ads": "Reklamy"
+      },
+      "values": {
+        "basic": "Podstawowa",
+        "unlimited": "Nielimitowana",
+        "limited": "Tylko 1",
+        "none": "Brak",
+        "included": "W cenie",
+        "sponsored": "Sekcje sponsorowane"
+      }
+    }
+  },
+  "cta": {
+    "title": "Gotowy przyspieszyć swój telefon?",
+    "subtitle": "Zainstaluj UniSearch i znajdź wszystko natychmiast.",
+    "button": "Pobierz z Google Play"
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Szybkie odpowiedzi na najczęstsze pytania.",
+    "items": [
+      {
+        "q": "Czy UniSearch wysyła dane do chmury?",
+        "a": "Nie. Dane wyszukiwania i indeks są lokalne."
+      },
+      {
+        "q": "Jakie uprawnienia są wymagane?",
+        "a": "Wszystkie uprawnienia są opcjonalne. Kontakty i pliki tylko po włączeniu sekcji."
+      },
+      {
+        "q": "Czy mogę używać offline?",
+        "a": "Tak. UniSearch działa w pełni offline."
+      },
+      {
+        "q": "Co dokładnie jest indeksowane?",
+        "a": "Aplikacje, skróty, ustawienia, kontakty i pliki, na które zezwolisz."
+      },
+      {
+        "q": "Czy Pro to subskrypcja?",
+        "a": "Nie. Pro to jednorazowy zakup ok. $5–6."
+      },
+      {
+        "q": "Czy mogę przywrócić ustawienia?",
+        "a": "W Pro dostępny jest backup i restore przez JSON."
+      },
+      {
+        "q": "Czy AI jest wymagane?",
+        "a": "Nie. Prompty AI są opcjonalne i można je wyłączyć."
+      },
+      {
+        "q": "Jak skontaktować się ze wsparciem?",
+        "a": "Napisz do nas, a szybko odpowiemy."
+      }
+    ]
+  },
+  "footer": {
+    "privacy": "Prywatność",
+    "terms": "Warunki",
+    "contact": "Kontakt",
+    "googlePlay": "Google Play",
+    "copyright": "© {year} UniSearch. Wszelkie prawa zastrzeżone."
+  },
+  "privacy": {
+    "title": "Polityka prywatności",
+    "subtitle": "Ostatnia aktualizacja: 11 lutego 2026",
+    "intro": "Niniejsza Polityka Prywatności wyjaśnia, jak UniSearch przetwarza dane lokalnie i chroni Twoje wyszukiwania.",
+    "sections": {
+      "introduction": {
+        "title": "Wstęp",
+        "body": [
+          "UniSearch został zaprojektowany z myślą o przetwarzaniu danych na urządzeniu.",
+          "Większość danych nigdy nie opuszcza Twojego telefonu."
+        ]
+      },
+      "data": {
+        "title": "Jakie dane przetwarzamy",
+        "body": [
+          "Zainstalowane aplikacje, kontakty i pliki są indeksowane lokalnie dla szybkiego wyszukiwania.",
+          "Historia wyszukiwań jest przechowywana lokalnie w celu poprawy rankingu.",
+          "Ustawienia i personalizacja są zapisywane na urządzeniu."
+        ]
+      },
+      "permissions": {
+        "title": "Uprawnienia",
+        "body": [
+          "Kontakty, pliki, zdjęcia i powiadomienia to uprawnienia opcjonalne.",
+          "Jeśli odmówisz uprawnienia, odpowiednia sekcja pozostanie nieaktywna.",
+          "Uprawnienia możesz zmienić w dowolnym momencie w ustawieniach Androida."
+        ]
+      },
+      "analytics": {
+        "title": "Analityka (opt-in)",
+        "body": [
+          "Możemy oferować podstawową analitykę jako opcję opt-in, aby ulepszać aplikację.",
+          "Przed włączeniem analityki zaktualizujemy tę politykę."
+        ]
+      },
+      "ads": {
+        "title": "Reklamy / sekcje sponsorowane",
+        "body": [
+          "Wersja darmowa może wyświetlać sekcje sponsorowane.",
+          "Pro usuwa treści sponsorowane."
+        ]
+      },
+      "sharing": {
+        "title": "Udostępnianie danych",
+        "body": [
+          "Nie sprzedajemy ani nie udostępniamy danych osobom trzecim.",
+          "Jeśli używasz promptów AI, do dostawcy trafia tylko treść zapytania."
+        ]
+      },
+      "security": {
+        "title": "Bezpieczeństwo",
+        "body": [
+          "Wszystkie zindeksowane dane pozostają na Twoim urządzeniu.",
+          "Stosujemy najlepsze praktyki ochrony lokalnych danych."
+        ]
+      },
+      "rights": {
+        "title": "Prawa użytkownika",
+        "body": [
+          "Możesz usunąć dane lokalne w dowolnym momencie, czyszcząc pamięć aplikacji.",
+          "Masz pełną kontrolę nad uprawnieniami i widocznością sekcji."
+        ]
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": [
+          "W sprawach prywatności napisz do nas na adres email."
+        ]
+      }
+    }
+  },
+  "terms": {
+    "title": "Warunki korzystania",
+    "subtitle": "Ostatnia aktualizacja: 11 lutego 2026",
+    "intro": "Niniejsze warunki określają podstawowe zasady korzystania z UniSearch.",
+    "sections": {
+      "usage": {
+        "title": "Korzystanie z aplikacji",
+        "body": [
+          "Korzystaj z UniSearch zgodnie z prawem i zasadami platformy.",
+          "Nie używaj aplikacji do działań niezgodnych z prawem."
+        ]
+      },
+      "purchases": {
+        "title": "Zakupy",
+        "body": [
+          "Pro to jednorazowy zakup realizowany przez Google Play.",
+          "Zwroty podlegają polityce Google Play."
+        ]
+      },
+      "liability": {
+        "title": "Ograniczenie odpowiedzialności",
+        "body": [
+          "Aplikacja jest dostarczana w stanie \"tak jak jest\" bez gwarancji.",
+          "Nie ponosimy odpowiedzialności za szkody pośrednie."
+        ]
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": [
+          "Masz pytania? Skontaktuj się z nami mailem."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+'use client';
+
+import { LazyMotion, domAnimation, m, useReducedMotion } from 'framer-motion';
+
+interface RevealProps {
+  children: React.ReactNode;
+  delay?: number;
+  direction?: 'up' | 'down' | 'left' | 'right';
+  className?: string;
+}
+
+export function Reveal({ children, delay = 0, direction = 'up', className }: RevealProps) {
+  const shouldReduceMotion = useReducedMotion();
+
+  const directionOffset = {
+    up: { y: 30 },
+    down: { y: -30 },
+    left: { x: 30 },
+    right: { x: -30 },
+  };
+
+  if (shouldReduceMotion) {
+    return <div className={className}>{children}</div>;
+  }
+
+  return (
+    <LazyMotion features={domAnimation}>
+      <m.div
+        initial={{
+          opacity: 0,
+          ...directionOffset[direction],
+        }}
+        whileInView={{
+          opacity: 1,
+          y: 0,
+          x: 0,
+        }}
+        viewport={{ once: true, margin: '-50px' }}
+        transition={{
+          duration: 0.5,
+          delay,
+          ease: [0.22, 1, 0.36, 1],
+        }}
+        className={className}
+      >
+        {children}
+      </m.div>
+    </LazyMotion>
+  );
+}

@@ -1,0 +1,68 @@
+export const freeProContent = {
+  free: {
+    titleKey: 'freePro.free.title',
+    descriptionKey: 'freePro.free.description',
+    items: [
+      'freePro.free.items.universal',
+      'freePro.free.items.instant',
+      'freePro.free.items.launch',
+      'freePro.free.items.visibility',
+      'freePro.free.items.autofocus',
+      'freePro.free.items.clear',
+      'freePro.free.items.themes',
+      'freePro.free.items.modes',
+      'freePro.free.items.animations',
+      'freePro.free.items.icons',
+      'freePro.free.items.labels',
+      'freePro.free.items.spacing',
+      'freePro.free.items.sections',
+      'freePro.free.items.custom',
+      'freePro.free.items.analytics',
+      'freePro.free.items.privacy',
+      'freePro.free.items.languages',
+    ],
+  },
+  pro: {
+    titleKey: 'freePro.pro.title',
+    descriptionKey: 'freePro.pro.description',
+    badgeKey: 'freePro.pro.badge',
+    priceNoteKey: 'freePro.pro.priceNote',
+    items: [
+      'freePro.pro.items.themes',
+      'freePro.pro.items.colors',
+      'freePro.pro.items.animations',
+      'freePro.pro.items.geometry',
+      'freePro.pro.items.sections',
+      'freePro.pro.items.iconPacks',
+      'freePro.pro.items.pinned',
+      'freePro.pro.items.backup',
+      'freePro.pro.items.ads',
+      'freePro.pro.items.support',
+    ],
+  },
+  summary: {
+    titleKey: 'freePro.summary.title',
+    rows: [
+      {
+        labelKey: 'freePro.summary.rows.customization',
+        freeKey: 'freePro.summary.values.basic',
+        proKey: 'freePro.summary.values.unlimited',
+      },
+      {
+        labelKey: 'freePro.summary.rows.sections',
+        freeKey: 'freePro.summary.values.limited',
+        proKey: 'freePro.summary.values.unlimited',
+      },
+      {
+        labelKey: 'freePro.summary.rows.backup',
+        freeKey: 'freePro.summary.values.none',
+        proKey: 'freePro.summary.values.included',
+      },
+      {
+        labelKey: 'freePro.summary.rows.ads',
+        freeKey: 'freePro.summary.values.sponsored',
+        proKey: 'freePro.summary.values.none',
+      },
+    ],
+  },
+} as const;
