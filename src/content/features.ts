@@ -55,6 +55,17 @@ export const featureGroups = [
     ],
   },
   {
+    id: 'providers',
+    titleKey: 'features.groups.providers.title',
+    descriptionKey: 'features.groups.providers.description',
+    icon: 'Globe',
+    items: [
+      'features.items.providers.preset',
+      'features.items.providers.toggle',
+      'features.items.providers.always',
+    ],
+  },
+  {
     id: 'customization',
     titleKey: 'features.groups.customization.title',
     descriptionKey: 'features.groups.customization.description',

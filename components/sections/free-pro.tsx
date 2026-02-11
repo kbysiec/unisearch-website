@@ -71,6 +71,11 @@ export function FreePro({ messages }: FreeProProps) {
               {t(messages, summary.titleKey)}
             </div>
             <div className="grid divide-y divide-white/60">
+              <div className="grid grid-cols-3 gap-4 bg-white/70 px-6 py-3 text-xs font-semibold uppercase tracking-wide text-gray-500">
+                <div />
+                <div>{t(messages, 'freePro.summary.headers.free')}</div>
+                <div>{t(messages, 'freePro.summary.headers.pro')}</div>
+              </div>
               {summary.rows.map((row) => (
                 <div key={row.labelKey} className="grid grid-cols-3 gap-4 px-6 py-4 text-sm">
                   <div className="font-medium text-gray-700">{t(messages, row.labelKey)}</div>

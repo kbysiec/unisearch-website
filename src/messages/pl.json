@@ -79,6 +79,10 @@
       "ai": {
         "title": "AI prompty",
         "description": "Opcjonalne AI z jasnymi zasadami danych."
+      },
+      "providers": {
+        "title": "Dostawcy wyszukiwania",
+        "description": "Wybierz, gdzie UniSearch kieruje zapytania zewnętrzne."
       }
     },
     "items": {
@@ -116,6 +120,11 @@
         "prompts": "Szybkie prompty AI",
         "safe": "Wyraźny opt-in",
         "optional": "Możesz wyłączyć w każdej chwili"
+      },
+      "providers": {
+        "preset": "Preset providers like Google, YouTube or ChatGPT",
+        "toggle": "Włączanie/wyłączanie dostawców",
+        "always": "Ability to define custom ones"
       }
     }
   },
@@ -145,22 +154,44 @@
       "description": "Wszystko, co potrzebne do szybkiego wyszukiwania.",
       "items": {
         "universal": "Uniwersalne wyszukiwanie: aplikacje, kontakty, pliki, ustawienia",
-        "instant": "Wyniki w czasie rzeczywistym",
-        "launch": "Start z Asystenta, widgetu lub Szybkich ustawień",
-        "visibility": "Pokazuj/ukrywaj typy wyników i sekcje",
+        "algorithms": "Wszystkie algorytmy: prefix, fuzzy, phonetic, acronym, token",
+        "frecency": "Ranking frecency dla wszystkich źródeł",
+        "calculator": "Wbudowany kalkulator",
+        "appShortcutSyntax": "Składnia \"App: Shortcut\"",
+        "highlight": "Podświetlanie dopasowań",
+        "entryPoints": "Start z Asystenta, widgetu lub Szybkich ustawień",
+        "quickSettings": "Quick Settings Tile",
+        "assistantRole": "Assistant role",
+        "notificationListener": "NotificationListenerService",
+        "searchBarPosition": "Pozycja SearchBar (TOP/BOTTOM)",
+        "layout": "Layout aplikacji (GRID/LIST)",
+        "gridColumns": "Liczba kolumn grid (4–6)",
+        "iconSize": "Rozmiar ikon (Small/Medium/Large)",
+        "gridSpacing": "Odstępy grid (Small/Medium/Large)",
+        "iconLabels": "Etykiety ikon włącz/wyłącz",
+        "sectionHeaderIcons": "Ikony nagłówków sekcji",
         "autofocus": "Auto-focus paska wyszukiwania",
-        "clear": "Czyść wyszukiwanie po wyborze",
-        "themes": "2 darmowe motywy: UniSearch + High Contrast",
+        "clearOnSelect": "Wyczyść wyszukiwanie po wyborze",
+        "hideRecentsEmpty": "Ukryj sekcję jeśli recents puste",
+        "sectionVisibilityDefault": "Widoczność sekcji na starcie (7 sekcji)",
+        "resultLimits": "Limity wyników (3 slidery)",
+        "showHideTypes": "Pokaż/ukrywaj typy wyników i sekcje",
+        "hideApps": "Ukrywanie aplikacji",
+        "hideContacts": "Ukrywanie kontaktów",
+        "hideActions": "Ukrywanie akcji/shortcuts",
+        "excludeFiles": "Wykluczanie plików/folderów",
+        "fileTypes": "Typy plików (7 typów)",
+        "freeThemes": "2 darmowe motywy: UniSearch + High Contrast",
         "modes": "Tryb jasny i ciemny",
-        "animations": "Podstawowe animacje (fade/slide)",
-        "icons": "Rozmiar ikon: Small/Medium/Large",
-        "labels": "Etykiety ikon włącz/wyłącz",
-        "spacing": "Kontrola odstępów siatki",
-        "sections": "Podgląd wszystkich sekcji",
-        "custom": "1 darmowa sekcja niestandardowa (bez sortowania)",
+        "basicAnimations": "Podstawowe animacje (fade/slide)",
+        "providersPreset": "Predefiniowane providers (Google, DuckDuckGo, etc.)",
+        "providersToggle": "Włączanie/wyłączanie providers",
+        "providersAlwaysShow": "\"Zawsze pokazuj\" switch",
+        "customSection": "1 darmowa sekcja niestandardowa (bez sortowania)",
         "analytics": "Podstawowa analityka (opt-in)",
         "privacy": "Tryb prywatności",
-        "languages": "Wszystkie 25 języków"
+        "languages": "Wszystkie 25 języków",
+        "sponsored": "Sponsorowane sekcje (Native Ads)"
       }
     },
     "pro": {
@@ -169,15 +200,43 @@
       "badge": "Najpopularniejsze",
       "priceNote": "Jednorazowy zakup · ok. $5–6",
       "items": {
-        "themes": "Premium motywy + kreator własnych",
-        "colors": "Zaawansowane kolory (52 punkty) i blur tapety",
-        "animations": "Zaawansowane animacje i kolejność ładowania",
-        "geometry": "Pełna kontrola geometrii paska, sekcji i widgetu",
-        "sections": "Nielimitowane sekcje i drag & drop",
+        "premiumThemes": "3 premium motywy: Glass, Material You, Minimal Dark",
+        "themeCreator": "Custom theme creator",
+        "presets": "Tworzenie i zapisywanie własnych presetów",
+        "perSectionStyle": "Indywidualny styl per sekcja (Section Style Overrides)",
+        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
+        "searchbarColors": "SearchBar: 7 kolorów × Light/Dark",
+        "sectionColors": "Sekcje: 7 kolorów × Light/Dark",
+        "itemIconColors": "Ikony elementów: 2 kolory × Light/Dark",
+        "bottomSheetColors": "BottomSheet: 5 kolorów × Light/Dark",
+        "widgetColors": "Widget: 5 kolorów × Light/Dark",
+        "wallpaperBlur": "Niestandardowy kolor tapety + blur effect",
+        "advancedAnimations": "SearchBar load: 11 typów",
+        "sectionAnimations": "Section load: 11 typów",
+        "sectionResize": "Section resize: ANIMATED / INSTANT / NONE",
+        "loadOrder": "Kolejność ładowania: TOP/BOTTOM/SIMULTANEOUS",
+        "animationSpeed": "Prędkość animacji (5 wartości)",
+        "geometrySearchbar": "SearchBar: radius, padding, border, opacity",
+        "searchbarLeadingIcon": "SearchBar: lewa ikona (Material Symbol picker)",
+        "hidePlaceholder": "Ukryj placeholder",
+        "geometrySections": "Sekcje: radius, padding, border, opacity",
+        "geometryWidget": "Widget: radius, padding, height, border, opacity",
+        "widgetLeadingIcon": "Widget: lewa ikona (Material Symbol picker)",
+        "unlimitedSections": "Nieograniczone sekcje niestandardowe (Free: 1)",
+        "dragDropSections": "Drag & drop reorder sekcji",
+        "customItems": "Tworzenie elementów: APP, ACTION, CONTACT, FILE, SETTING",
+        "reorderItems": "Zmiana kolejności elementów",
+        "sectionIconColors": "Kolory ikony sekcji (Light/Dark)",
+        "pinnedItems": "Przypięte elementy (Pinned items)",
         "iconPacks": "Wsparcie zewnętrznych packów ikon",
-        "pinned": "Przypięte elementy",
-        "backup": "Backup i restore (eksport/import JSON)",
-        "ads": "Usuń sponsorowane sekcje",
+        "customProviders": "Własne search providers (URL template z {{Q}})",
+        "providersReorder": "Zmiana kolejności drag & drop",
+        "aiPrompts": "Własne prompty AI (Label + template + target app)",
+        "aiManage": "Edycja/usuwanie",
+        "aiReorder": "Zmiana kolejności drag & drop",
+        "backupExport": "Eksport ustawień (JSON)",
+        "backupImport": "Import ustawień (przywrócenie konfiguracji)",
+        "removeAds": "Brak reklam (usunięcie Native Ads)",
         "support": "Wsparcie rozwoju aplikacji"
       }
     },
@@ -196,6 +255,10 @@
         "none": "Brak",
         "included": "W cenie",
         "sponsored": "Sekcje sponsorowane"
+      },
+      "headers": {
+        "free": "Free",
+        "pro": "Pro"
       }
     }
   },
@@ -349,5 +412,27 @@
         ]
       }
     }
+  },
+  "searchProviders": {
+    "title": "Dostawcy wyszukiwania",
+    "subtitle": "Wybierz, gdzie szukasz i kontroluj widoczność wyników.",
+    "items": [
+      {
+        "title": "Predefiniowani dostawcy",
+        "description": "Google, DuckDuckGo i inne popularne źródła."
+      },
+      {
+        "title": "Włącz / wyłącz",
+        "description": "Pełna kontrola nad tym, które źródła są aktywne."
+      },
+      {
+        "title": "Zawsze pokazuj",
+        "description": "Opcja stałej widoczności wybranego dostawcy."
+      },
+      {
+        "title": "Szybkie przełączanie",
+        "description": "Przełączaj się między providerami bez wychodzenia z wyszukiwarki."
+      }
+    ]
   }
 }

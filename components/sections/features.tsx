@@ -6,6 +6,7 @@ import {
   FolderSearch,
   Users,
   Calculator,
+  Globe,
   Palette,
   Sparkles,
 } from 'lucide-react';
@@ -20,6 +21,7 @@ const iconMap = {
   FolderSearch,
   Users,
   Calculator,
+  Globe,
   Palette,
   Sparkles,
 };
