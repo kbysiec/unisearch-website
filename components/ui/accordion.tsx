@@ -13,10 +13,10 @@ export function AccordionItem({ question, answer, defaultOpen = false }: Accordi
   const [isOpen, setIsOpen] = React.useState(defaultOpen);
 
   return (
-    <div className="border-b border-gray-200 last:border-0">
+    <div className="last:border-0">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex w-full items-center justify-between py-5 text-left transition-colors hover:text-primary-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500"
+        className="flex w-full items-center justify-between py-5 text-left transition-colors hover:text-primary-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 dark:text-slate-100"
         aria-expanded={isOpen}
       >
         <span className="text-lg font-medium">{question}</span>
@@ -31,7 +31,7 @@ export function AccordionItem({ question, answer, defaultOpen = false }: Accordi
           isOpen ? 'mb-5 max-h-96' : 'max-h-0'
         }`}
       >
-        <p className="text-gray-600 leading-relaxed">{answer}</p>
+        <p className="text-gray-600 leading-relaxed dark:text-slate-300">{answer}</p>
       </div>
     </div>
   );
@@ -43,7 +43,7 @@ interface AccordionProps {
 
 export function Accordion({ items }: AccordionProps) {
   return (
-    <div className="divide-y divide-gray-200">
+    <div className="divide-y divide-gray-200 dark:divide-white/10">
       {items.map((item, index) => (
         <AccordionItem key={index} {...item} />
       ))}

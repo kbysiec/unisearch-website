@@ -16,14 +16,14 @@ export function FAQ({ messages }: FAQProps) {
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         <Reveal>
           <div className="text-center">
-            <h2 className="text-3xl font-semibold text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-semibold text-gray-900 dark:text-white sm:text-4xl">
               {messages.faq.title}
             </h2>
-            <p className="mt-3 text-lg text-gray-600">{messages.faq.subtitle}</p>
+            <p className="mt-3 text-lg text-gray-600 dark:text-slate-300">{messages.faq.subtitle}</p>
           </div>
         </Reveal>
 
-        <div className="mt-10 rounded-3xl border border-white/60 bg-white/80 p-6 shadow-sm backdrop-blur">
+        <div className="mt-10 rounded-3xl border border-white/60 bg-white/80 p-6 shadow-sm backdrop-blur dark:border-white/10 dark:bg-slate-900/70">
           <Accordion
             items={faqItems.map((item) => ({
               question: t(messages, item.questionKey),

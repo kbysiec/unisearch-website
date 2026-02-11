@@ -18,8 +18,8 @@ export function PhoneMock({ className, priority = false }: PhoneMockProps) {
       )}
     >
       <div className="absolute -inset-4 rounded-[48px] bg-gradient-to-br from-primary-200/40 via-white/10 to-primary-400/20 blur-2xl" />
-      <div className="relative rounded-[40px] border border-black/80 bg-black p-3 shadow-2xl shadow-primary-500/20">
-        <div className="relative aspect-[9/19.5] w-full overflow-hidden rounded-[32px] border border-black/70 bg-gray-900">
+      <div className="relative rounded-[40px] border border-gray-700 bg-gray-700 p-3 shadow-2xl shadow-primary-500/20">
+        <div className="relative aspect-[9/19.5] w-full overflow-hidden rounded-[32px] border border-gray-700 bg-gray-900">
           <Image
             src={ASSETS.screenshot}
             alt={`${APP_NAME} app screenshot`}

@@ -45,8 +45,8 @@ export function PrivacyContent({ locale, messages }: PrivacyContentProps) {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white via-white to-primary-50">
-      <div className="border-b border-white/50 bg-white/90 backdrop-blur">
+    <div className="min-h-screen bg-gradient-to-b from-white via-white to-primary-50 dark:from-slate-950 dark:via-slate-950 dark:to-slate-900">
+      <div className="border-b border-white/50 bg-white/90 backdrop-blur dark:border-white/10 dark:bg-slate-950/90">
         <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
           <Link
             href={`/${locale}`}
@@ -55,10 +55,12 @@ export function PrivacyContent({ locale, messages }: PrivacyContentProps) {
             <ArrowLeft className="h-4 w-4" />
             {messages.common.back}
           </Link>
-          <h1 className="text-3xl font-semibold text-gray-900 sm:text-4xl">
+          <h1 className="text-3xl font-semibold text-gray-900 dark:text-white sm:text-4xl">
             {messages.privacy.title}
           </h1>
-          <p className="mt-2 text-sm text-gray-600">{messages.privacy.subtitle}</p>
+          <p className="mt-2 text-sm text-gray-600 dark:text-slate-300">
+            {messages.privacy.subtitle}
+          </p>
         </div>
       </div>
 
@@ -84,8 +86,8 @@ export function PrivacyContent({ locale, messages }: PrivacyContentProps) {
           </aside>
 
           <div className="lg:col-span-3">
-            <div className="prose prose-gray max-w-none rounded-3xl border border-white/60 bg-white/90 p-8 shadow-sm backdrop-blur">
-              <p className="text-lg text-gray-700">{messages.privacy.intro}</p>
+            <div className="prose prose-gray max-w-none rounded-3xl border border-white/60 bg-white/90 p-8 shadow-sm backdrop-blur dark:border-white/10 dark:bg-slate-900/80 dark:prose-invert">
+              <p className="text-lg text-gray-700 dark:text-slate-200">{messages.privacy.intro}</p>
 
               {privacySections.map((section) => {
                 const content = (messages.privacy.sections as any)[section.id];

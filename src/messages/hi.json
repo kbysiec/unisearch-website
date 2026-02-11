@@ -17,7 +17,8 @@
     "faq": "FAQ",
     "getApp": "Get it on Google Play",
     "how": "How it works",
-    "language": "Language"
+    "language": "Language",
+    "changelog": "Changelog"
   },
   "hero": {
     "badge": "Universal search for Android",
@@ -198,7 +199,7 @@
       "title": "Pro",
       "description": "One-time purchase. Unlock full design power.",
       "badge": "Most popular",
-      "priceNote": "One-time purchase · about $5–6",
+      "priceNote": "About $5–6",
       "items": {
         "premiumThemes": "3 premium themes: Glass, Material You, Minimal Dark",
         "themeCreator": "Custom theme creator",
@@ -276,10 +277,6 @@
         "a": "No. Search data and indexing stay on your device."
       },
       {
-        "q": "Which permissions are required?",
-        "a": "All permissions are optional. Contacts and files only if you enable those sections."
-      },
-      {
         "q": "What exactly is indexed?",
         "a": "Apps, shortcuts, system settings, contacts, and files you allow."
       },
@@ -306,7 +303,8 @@
     "terms": "Terms",
     "contact": "Contact",
     "googlePlay": "Google Play",
-    "copyright": "© {year} UniSearch. All rights reserved."
+    "copyright": "© {year} UniSearch. All rights reserved.",
+    "createdBy": "Stworzone przez Webybox"
   },
   "privacy": {
     "title": "Privacy Policy",

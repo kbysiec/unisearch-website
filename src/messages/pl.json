@@ -17,7 +17,8 @@
     "faq": "FAQ",
     "getApp": "Pobierz z Google Play",
     "how": "Jak to działa",
-    "language": "Język"
+    "language": "Język",
+    "changelog": "Changelog"
   },
   "hero": {
     "badge": "Uniwersalna wyszukiwarka dla Androida",
@@ -198,7 +199,7 @@
       "title": "Pro",
       "description": "Jednorazowy zakup. Pełna moc personalizacji.",
       "badge": "Najpopularniejsze",
-      "priceNote": "Jednorazowy zakup · ok. $5–6",
+      "priceNote": "Około $5–6",
       "items": {
         "premiumThemes": "3 premium motywy: Glass, Material You, Minimal Dark",
         "themeCreator": "Custom theme creator",
@@ -306,7 +307,8 @@
     "terms": "Warunki",
     "contact": "Kontakt",
     "googlePlay": "Google Play",
-    "copyright": "© {year} UniSearch. Wszelkie prawa zastrzeżone."
+    "copyright": "© {year} UniSearch. Wszelkie prawa zastrzeżone.",
+    "createdBy": "Stworzone przez Webybox"
   },
   "privacy": {
     "title": "Privacy Policy",

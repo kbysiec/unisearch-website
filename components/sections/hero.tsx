@@ -7,6 +7,7 @@ import { PhoneMock } from '@/components/ui/phone-mock';
 import { Reveal } from '@/components/motion/reveal';
 import { StaggerContainer, StaggerItem } from '@/components/motion/stagger-container';
 import { PLAY_STORE_URL } from '@/src/config/brand';
+import { GooglePlayIcon } from '@/components/ui/google-play-icon';
 import type { Messages } from '@/src/lib/i18n';
 
 interface HeroProps {
@@ -25,17 +26,17 @@ export function Hero({ messages }: HeroProps) {
         <div>
           <StaggerContainer className="space-y-6">
             <StaggerItem>
-              <span className="inline-flex items-center rounded-full bg-white/80 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-primary-700 shadow-sm">
+              <span className="inline-flex items-center rounded-full bg-white/80 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-primary-700 shadow-sm dark:bg-white/10 dark:text-primary-200">
                 {messages.hero.badge}
               </span>
             </StaggerItem>
             <StaggerItem>
-              <h1 className="text-balance text-4xl font-semibold leading-tight text-gray-900 sm:text-5xl lg:text-6xl">
+              <h1 className="text-balance text-4xl font-semibold leading-tight text-gray-900 dark:text-white sm:text-5xl lg:text-6xl">
                 {messages.hero.title}
               </h1>
             </StaggerItem>
             <StaggerItem>
-              <p className="text-balance text-lg text-gray-600 sm:text-xl">
+              <p className="text-balance text-lg text-gray-600 dark:text-slate-300 sm:text-xl">
                 {messages.hero.subtitle}
               </p>
             </StaggerItem>
@@ -47,6 +48,7 @@ export function Hero({ messages }: HeroProps) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  <GooglePlayIcon className="h-5 w-5 text-white" />
                   {messages.hero.primaryCta}
                 </a>
                 <Link
@@ -58,7 +60,7 @@ export function Hero({ messages }: HeroProps) {
               </div>
             </StaggerItem>
             <StaggerItem>
-              <div className="flex items-center gap-2 text-sm text-gray-500">
+              <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-slate-400">
                 <ChevronDown className="h-4 w-4" />
                 {messages.hero.note}
               </div>
