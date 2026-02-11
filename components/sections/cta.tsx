@@ -28,7 +28,7 @@ export function CTA({ messages }: CTAProps) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <GooglePlayIcon className="h-[18px] w-[18px] text-primary-700" />
+                <GooglePlayIcon className="h-[18px] w-[18px] text-current" />
                 {messages.cta.button}
               </a>
             </div>

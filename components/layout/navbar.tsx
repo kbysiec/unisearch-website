@@ -100,7 +100,7 @@ export function Navbar({ locale, messages }: NavbarProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <GooglePlayIcon className="h-3.5 w-3.5 text-white" />
+            <GooglePlayIcon className="h-3.5 w-3.5 text-current" />
             <span className="overflow-hidden whitespace-nowrap transition-all duration-300 lg:max-w-[160px] lg:opacity-100 max-w-0 opacity-0">
               {messages.nav.getApp}
             </span>
@@ -164,7 +164,7 @@ export function Navbar({ locale, messages }: NavbarProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <GooglePlayIcon className="h-3.5 w-3.5 text-white" />
+            <GooglePlayIcon className="h-3.5 w-3.5 text-current" />
             {messages.nav.getApp}
           </a>
         </div>

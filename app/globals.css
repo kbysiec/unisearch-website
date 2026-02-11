@@ -34,6 +34,18 @@
       #020617;
   }
 
+  html.dark .text-primary-600 {
+    color: rgb(80 210 255 / var(--tw-text-opacity, 1));
+  }
+
+  html.dark .bg-primary-600 {
+    background-color: rgb(80 210 255 / var(--tw-bg-opacity, 1));
+  }
+
+  html.dark .border-primary-600 {
+    border-color: rgb(80 210 255 / var(--tw-border-opacity, 1));
+  }
+
   @media (prefers-reduced-motion: reduce) {
     html {
       scroll-behavior: auto;

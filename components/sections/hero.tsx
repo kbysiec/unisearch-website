@@ -9,6 +9,7 @@ import { StaggerContainer, StaggerItem } from '@/components/motion/stagger-conta
 import { PLAY_STORE_URL } from '@/src/config/brand';
 import { GooglePlayIcon } from '@/components/ui/google-play-icon';
 import type { Messages } from '@/src/lib/i18n';
+import { cn } from '@/lib/cn';
 
 interface HeroProps {
   messages: Messages;
@@ -48,11 +49,14 @@ export function Hero({ messages }: HeroProps) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <GooglePlayIcon className="h-5 w-5 text-white" />
+                  <GooglePlayIcon className="h-5 w-5 text-current" />
                   {messages.hero.primaryCta}
                 </a>
                 <Link
-                  className={buttonVariants({ variant: 'secondary', size: 'lg' })}
+                  className={cn(
+                    buttonVariants({ variant: 'secondary', size: 'lg' }),
+                    'border-primary-500 text-primary-700 hover:bg-primary-50 dark:border-primary-400 dark:bg-slate-950 dark:text-primary-200 dark:hover:bg-white/5'
+                  )}
                   href="#features"
                 >
                   {messages.hero.secondaryCta}
