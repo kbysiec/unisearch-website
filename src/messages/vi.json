@@ -1,443 +1,443 @@
 {
   "meta": {
-    "title": "UniSearch — Universal search for Android",
-    "description": "Find apps, contacts, files, actions, and more from one fast search bar. Built for speed, privacy, and offline-first use.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDescription": "Learn how UniSearch processes data locally and keeps your searches private.",
-    "termsTitle": "Terms of Service",
-    "termsDescription": "Basic terms for using the UniSearch app and website."
+    "title": "UniSearch — Tìm kiếm toàn năng cho Android",
+    "description": "Tìm ứng dụng, danh bạ, tệp, hành động và hơn thế nữa từ một thanh tìm kiếm nhanh chóng. Được xây dựng cho tốc độ, quyền riêng tư và sử dụng offline-first.",
+    "privacyTitle": "Chính sách Bảo mật",
+    "privacyDescription": "Tìm hiểu cách UniSearch xử lý dữ liệu cục bộ và giữ bí mật các tìm kiếm của bạn.",
+    "termsTitle": "Điều khoản Dịch vụ",
+    "termsDescription": "Các điều khoản cơ bản để sử dụng ứng dụng và trang web UniSearch."
   },
   "common": {
-    "back": "Back"
+    "back": "Quay lại"
   },
   "nav": {
-    "features": "Features",
-    "freePro": "Free vs Pro",
-    "privacy": "Privacy",
-    "faq": "FAQ",
-    "getApp": "Get it on Google Play",
-    "how": "How it works",
-    "language": "Language",
-    "changelog": "Changelog"
+    "features": "Tính năng",
+    "freePro": "Miễn phí vs Pro",
+    "privacy": "Bảo mật",
+    "faq": "Câu hỏi thường gặp",
+    "getApp": "Tải trên Google Play",
+    "how": "Cách hoạt động",
+    "language": "Ngôn ngữ",
+    "changelog": "Nhật ký thay đổi"
   },
   "hero": {
-    "badge": "Universal search for Android",
-    "title": "Find everything on your phone in seconds.",
-    "subtitle": "Apps, contacts, files, actions, calculator, and AI — all from one lightning-fast search bar.",
-    "primaryCta": "Get it on Google Play",
-    "secondaryCta": "Explore features",
-    "note": "No account required. Works offline by default."
+    "badge": "Tìm kiếm toàn năng cho Android",
+    "title": "Tìm mọi thứ trên điện thoại của bạn trong vài giây.",
+    "subtitle": "Ứng dụng, danh bạ, tệp, hành động, máy tính và AI — tất cả từ một thanh tìm kiếm siêu nhanh.",
+    "primaryCta": "Tải trên Google Play",
+    "secondaryCta": "Khám phá tính năng",
+    "note": "Không cần tài khoản. Hoạt động offline theo mặc định."
   },
   "trust": {
-    "title": "Built for speed and control",
+    "title": "Xây dựng để tốc độ và kiểm soát",
     "items": [
       {
-        "title": "Fast",
-        "description": "Instant results with real-time filtering and smart ranking."
+        "title": "Nhanh",
+        "description": "Kết quả tức thì với lọc thời gian thực và xếp hạng thông minh."
       },
       {
-        "title": "Privacy",
-        "description": "Your data stays on-device. Optional analytics only."
+        "title": "Bảo mật",
+        "description": "Dữ liệu của bạn vẫn ở trên thiết bị. Chỉ phân tích tùy chọn."
       },
       {
         "title": "Offline-first",
-        "description": "Search works even without an internet connection."
+        "description": "Tìm kiếm hoạt động ngay cả khi không có kết nối Internet."
       },
       {
-        "title": "Personalization",
-        "description": "Tune themes, sections, spacing, and behavior."
+        "title": "Cá nhân hóa",
+        "description": "Điều chỉnh chủ đề, phần, khoảng cách và hành vi."
       }
     ]
   },
   "features": {
-    "title": "Everything you want to find — instantly",
-    "subtitle": "UniSearch brings every source into one smooth, unified result list.",
+    "title": "Mọi thứ bạn muốn tìm — ngay lập tức",
+    "subtitle": "UniSearch đưa mọi nguồn vào một danh sách kết quả thống nhất mượt mà.",
     "groups": {
       "search": {
-        "title": "Unified search",
-        "description": "Find anything with smart ranking and noise filtering."
+        "title": "Tìm kiếm thống nhất",
+        "description": "Tìm bất cứ thứ gì với xếp hạng thông minh và lọc nhiễu."
       },
       "actions": {
-        "title": "Actions & shortcuts",
-        "description": "Launch actions, deep links, and curated shortcuts."
+        "title": "Hành động và phím tắt",
+        "description": "Khởi chạy hành động, liên kết sâu và phím tắt được sắp xếp."
       },
       "files": {
-        "title": "Files & media",
-        "description": "Search documents, photos, videos, music, and folders."
+        "title": "Tệp và phương tiện",
+        "description": "Tìm kiếm tài liệu, ảnh, video, nhạc và thư mục."
       },
       "contacts": {
-        "title": "Contacts",
-        "description": "Call, message, or open linked apps instantly."
+        "title": "Danh bạ",
+        "description": "Gọi, nhắn tin hoặc mở các ứng dụng liên kết ngay lập tức."
       },
       "calculator": {
-        "title": "Calculator",
-        "description": "Inline calculator with precision math."
+        "title": "Máy tính",
+        "description": "Máy tính nội tuyến với toán học chính xác."
       },
       "customization": {
-        "title": "Customization",
-        "description": "Control layout, themes, and visibility."
+        "title": "Tùy chỉnh",
+        "description": "Kiểm soát bố cục, chủ đề và khả năng hiển thị."
       },
       "ai": {
-        "title": "AI prompts",
-        "description": "Optional AI helpers with clear data boundaries."
+        "title": "Lời nhắc AI",
+        "description": "Trợ giúp AI tùy chọn với ranh giới dữ liệu rõ ràng."
       },
       "providers": {
-        "title": "Search providers",
-        "description": "Choose where UniSearch sends external queries."
+        "title": "Nhà cung cấp tìm kiếm",
+        "description": "Chọn nơi UniSearch gửi các truy vấn bên ngoài."
       }
     },
     "items": {
       "search": {
-        "universal": "Apps, contacts, files, settings, and shortcuts in one query",
-        "instant": "Real-time filtering with instant results",
-        "frecency": "Frecency ranking that adapts to your habits"
+        "universal": "Ứng dụng, danh bạ, tệp, cài đặt và phím tắt trong một truy vấn",
+        "instant": "Lọc thời gian thực với kết quả tức thì",
+        "frecency": "Xếp hạng Frecency thích ứng với thói quen của bạn"
       },
       "actions": {
-        "shortcuts": "App shortcuts and deep links",
-        "system": "System actions and settings search",
-        "workflow": "Launch from Assistant, widget, or Quick Settings"
+        "shortcuts": "Phím tắt ứng dụng và liên kết sâu",
+        "system": "Hành động hệ thống và tìm kiếm cài đặt",
+        "workflow": "Khởi chạy từ Trợ lý, tiện ích hoặc Cài đặt nhanh"
       },
       "files": {
-        "documents": "Documents, images, videos, music",
-        "media": "Folders and MediaStore-powered results",
-        "filters": "Type filters and exclusions"
+        "documents": "Tài liệu, hình ảnh, video, nhạc",
+        "media": "Thư mục và kết quả được MediaStore hỗ trợ",
+        "filters": "Bộ lọc loại và loại trừ"
       },
       "contacts": {
-        "smart": "Smart matching and ranking",
-        "actions": "Call, message, or open linked apps",
-        "permissions": "Optional permissions with clear control"
+        "smart": "Khớp thông minh và xếp hạng",
+        "actions": "Gọi, nhắn tin hoặc mở các ứng dụng liên kết",
+        "permissions": "Quyền tùy chọn với kiểm soát rõ ràng"
       },
       "calculator": {
-        "inline": "Inline math as you type",
-        "precision": "BigDecimal precision with brackets",
-        "copy": "Copy results in one tap"
+        "inline": "Toán học nội tuyến khi bạn gõ",
+        "precision": "Độ chính xác BigDecimal với dấu ngoặc",
+        "copy": "Sao chép kết quả bằng một lần nhấp"
       },
       "customization": {
-        "themes": "Light, dark, and curated themes",
-        "layout": "Icon size, grid spacing, labels",
-        "sections": "Show, hide, and reorder sections"
+        "themes": "Chủ đề sáng, tối và được sắp xếp",
+        "layout": "Kích thước biểu tượng, khoảng cách lưới, nhãn",
+        "sections": "Hiển thị, ẩn và sắp xếp lại các phần"
       },
       "ai": {
-        "prompts": "Create quick AI prompts",
-        "safe": "Clear opt-in usage",
-        "optional": "Disable AI anytime"
+        "prompts": "Tạo lời nhắc AI nhanh chóng",
+        "safe": "Sử dụng rõ ràng được chọn tham gia",
+        "optional": "Vô hiệu hóa AI bất kỳ lúc nào"
       },
       "providers": {
-        "preset": "Preset providers like Google, YouTube or ChatGPT",
-        "toggle": "Enable or disable providers",
-        "always": "Ability to define custom ones"
+        "preset": "Nhà cung cấp đặt trước như Google, YouTube hoặc ChatGPT",
+        "toggle": "Bật hoặc tắt nhà cung cấp",
+        "always": "Khả năng xác định các bộ tùy chỉnh"
       }
     }
   },
   "how": {
-    "title": "How it works",
-    "subtitle": "A simple flow designed for speed.",
+    "title": "Cách hoạt động",
+    "subtitle": "Một quy trình đơn giản được thiết kế cho tốc độ.",
     "steps": {
       "index": {
-        "title": "Index",
-        "description": "UniSearch indexes apps, contacts, files, and settings locally."
+        "title": "Chỉ mục",
+        "description": "UniSearch lập chỉ mục các ứng dụng, danh bạ, tệp và cài đặt cục bộ."
       },
       "search": {
-        "title": "Search",
-        "description": "Type once and get ranked results instantly."
+        "title": "Tìm kiếm",
+        "description": "Nhập một lần và nhận kết quả xếp hạng ngay lập tức."
       },
       "action": {
-        "title": "Action",
-        "description": "Open, call, calculate, or run a shortcut in one tap."
+        "title": "Hành động",
+        "description": "Mở, gọi, tính toán hoặc chạy phím tắt bằng một lần nhấp."
       }
     }
   },
   "freePro": {
-    "title": "Free vs Pro",
-    "subtitle": "Start free, upgrade once for full control.",
+    "title": "Miễn phí vs Pro",
+    "subtitle": "Bắt đầu miễn phí, nâng cấp một lần để kiểm soát đầy đủ.",
     "free": {
-      "title": "Free",
-      "description": "Everything you need to search fast.",
+      "title": "Miễn phí",
+      "description": "Tất cả những gì bạn cần để tìm kiếm nhanh chóng.",
       "items": {
-        "universal": "Universal search: apps, contacts, files, settings",
-        "algorithms": "All search algorithms: prefix, fuzzy, phonetic, acronym, token",
-        "frecency": "Frecency ranking across all sources",
-        "calculator": "Built-in calculator",
-        "appShortcutSyntax": "\"App: Shortcut\" query syntax",
-        "highlight": "Match highlighting",
-        "entryPoints": "Launch from Assistant, widget, or Quick Settings",
-        "quickSettings": "Quick Settings tile",
-        "assistantRole": "Assistant role support",
-        "notificationListener": "NotificationListenerService support",
-        "searchBarPosition": "Search bar position (top/bottom)",
-        "layout": "App layout (grid/list)",
-        "gridColumns": "Grid columns (4–6)",
-        "iconSize": "Icon size (S/M/L)",
-        "gridSpacing": "Grid spacing (S/M/L)",
-        "iconLabels": "Icon labels on/off",
-        "sectionHeaderIcons": "Section header icons",
-        "autofocus": "Auto-focus search bar",
-        "clearOnSelect": "Clear search on selection",
-        "hideRecentsEmpty": "Hide section when recents are empty",
-        "sectionVisibilityDefault": "Default visibility for 7 sections",
-        "resultLimits": "Result limits (3 sliders)",
-        "showHideTypes": "Show/hide result types and sections",
-        "hideApps": "Hide apps",
-        "hideContacts": "Hide contacts",
-        "hideActions": "Hide actions/shortcuts",
-        "excludeFiles": "Exclude files/folders",
-        "fileTypes": "File types (7 types)",
-        "freeThemes": "2 free themes: UniSearch + High Contrast",
-        "modes": "Light and dark mode",
-        "basicAnimations": "Basic animations (fade/slide)",
-        "providersPreset": "Preset search providers (Google, DuckDuckGo, etc.)",
-        "providersToggle": "Enable/disable providers",
-        "providersAlwaysShow": "\"Always show\" provider switch",
-        "customSection": "1 free custom section (no sorting)",
-        "analytics": "Basic analytics (opt-in)",
-        "privacy": "Privacy mode",
-        "languages": "All 25 languages",
-        "sponsored": "Sponsored sections (Native Ads)"
+        "universal": "Tìm kiếm toàn năng: ứng dụng, danh bạ, tệp, cài đặt",
+        "algorithms": "Tất cả các thuật toán tìm kiếm: tiền tố, mờ, âm vị, từ viết tắt, mã thông báo",
+        "frecency": "Xếp hạng Frecency trên tất cả các nguồn",
+        "calculator": "Máy tính tích hợp",
+        "appShortcutSyntax": "Cú pháp truy vấn \"App: Shortcut\"",
+        "highlight": "Đánh dấu phù hợp",
+        "entryPoints": "Khởi chạy từ Trợ lý, tiện ích hoặc Cài đặt nhanh",
+        "quickSettings": "Gạch nhanh Cài đặt nhanh",
+        "assistantRole": "Hỗ trợ vai trò Trợ lý",
+        "notificationListener": "Hỗ trợ NotificationListenerService",
+        "searchBarPosition": "Vị trí thanh tìm kiếm (trên/dưới)",
+        "layout": "Bố cục ứng dụng (lưới/danh sách)",
+        "gridColumns": "Cột lưới (4–6)",
+        "iconSize": "Kích thước biểu tượng (S/M/L)",
+        "gridSpacing": "Khoảng cách lưới (S/M/L)",
+        "iconLabels": "Nhãn biểu tượng bật/tắt",
+        "sectionHeaderIcons": "Biểu tượng tiêu đề phần",
+        "autofocus": "Tự động lấy nét thanh tìm kiếm",
+        "clearOnSelect": "Xóa tìm kiếm khi chọn",
+        "hideRecentsEmpty": "Ẩn phần khi gần đây trống",
+        "sectionVisibilityDefault": "Khả năng hiển thị mặc định cho 7 phần",
+        "resultLimits": "Giới hạn kết quả (3 thanh trượt)",
+        "showHideTypes": "Hiển thị/ẩn loại kết quả và phần",
+        "hideApps": "Ẩn ứng dụng",
+        "hideContacts": "Ẩn danh bạ",
+        "hideActions": "Ẩn hành động/phím tắt",
+        "excludeFiles": "Loại trừ tệp/thư mục",
+        "fileTypes": "Loại tệp (7 loại)",
+        "freeThemes": "2 chủ đề miễn phí: UniSearch + High Contrast",
+        "modes": "Chế độ sáng và tối",
+        "basicAnimations": "Hoạt ảnh cơ bản (mờ/trượt)",
+        "providersPreset": "Nhà cung cấp tìm kiếm đặt trước (Google, DuckDuckGo, v.v.)",
+        "providersToggle": "Bật/tắt nhà cung cấp",
+        "providersAlwaysShow": "Công tắc nhà cung cấp \"Luôn hiển thị\"",
+        "customSection": "1 phần tùy chỉnh miễn phí (không sắp xếp)",
+        "analytics": "Phân tích cơ bản (chọn tham gia)",
+        "privacy": "Chế độ riêng tư",
+        "languages": "Tất cả 25 ngôn ngữ",
+        "sponsored": "Phần được tài trợ (Quảng cáo gốc)"
       }
     },
     "pro": {
       "title": "Pro",
-      "description": "One-time purchase. Unlock full design power.",
-      "badge": "Most popular",
-      "priceNote": "About $5–6",
+      "description": "Mua một lần. Mở khóa sức mạnh thiết kế đầy đủ.",
+      "badge": "Được yêu thích nhất",
+      "priceNote": "Khoảng $5–6",
       "items": {
-        "premiumThemes": "3 premium themes: Glass, Material You, Minimal Dark",
-        "themeCreator": "Custom theme creator",
-        "presets": "Unlimited theme presets",
-        "perSectionStyle": "Per-section style overrides",
-        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
-        "searchbarColors": "Search bar colors (7 × Light/Dark)",
-        "sectionColors": "Section colors (7 × Light/Dark)",
-        "itemIconColors": "Item icon colors (2 × Light/Dark)",
-        "bottomSheetColors": "Bottom sheet colors (5 × Light/Dark)",
-        "widgetColors": "Widget colors (5 × Light/Dark)",
-        "wallpaperBlur": "Custom wallpaper color + blur",
-        "advancedAnimations": "Search bar load animations (11 types)",
-        "sectionAnimations": "Section load animations (11 types)",
-        "sectionResize": "Section resize: animated / instant / none",
-        "loadOrder": "Load order: top to bottom / bottom to top / simultaneous",
-        "animationSpeed": "Animation speed (5 levels)",
-        "geometrySearchbar": "Search bar geometry: radius, padding, border, opacity",
-        "searchbarLeadingIcon": "Search bar leading icon picker",
-        "hidePlaceholder": "Hide placeholder",
-        "geometrySections": "Section geometry: radius, padding, border, opacity",
-        "geometryWidget": "Widget geometry: radius, padding, height, border, opacity",
-        "widgetLeadingIcon": "Widget leading icon picker",
-        "unlimitedSections": "Unlimited custom sections (Free: 1)",
-        "dragDropSections": "Drag & drop section reorder",
-        "customItems": "Custom items: App, Action, Contact, File, Setting",
-        "reorderItems": "Reorder items",
-        "sectionIconColors": "Section icon colors (Light/Dark)",
-        "pinnedItems": "Pinned items",
-        "iconPacks": "External icon packs",
-        "customProviders": "Custom search providers (URL template with {{Q}})",
-        "providersReorder": "Drag & drop provider order",
-        "aiPrompts": "Custom AI prompts (label + template + target app)",
-        "aiManage": "Edit/remove AI prompts",
-        "aiReorder": "Drag & drop prompt order",
-        "backupExport": "Export settings (JSON)",
-        "backupImport": "Import settings (restore configuration)",
-        "removeAds": "Remove sponsored sections",
-        "support": "Support future development"
+        "premiumThemes": "3 chủ đề cao cấp: Glass, Material You, Minimal Dark",
+        "themeCreator": "Trình tạo chủ đề tùy chỉnh",
+        "presets": "Cài đặt trước chủ đề không giới hạn",
+        "perSectionStyle": "Ghi đè kiểu mỗi phần",
+        "advancedColors": "52 vị trí với khả năng thay đổi màu sắc (Thanh tìm kiếm, Phần, Tiện ích, Bảng điều khiển dưới)",
+        "searchbarColors": "Màu thanh tìm kiếm (7 × Sáng/Tối)",
+        "sectionColors": "Màu phần (7 × Sáng/Tối)",
+        "itemIconColors": "Màu biểu tượng mục (2 × Sáng/Tối)",
+        "bottomSheetColors": "Màu tờ dưới (5 × Sáng/Tối)",
+        "widgetColors": "Màu tiện ích (5 × Sáng/Tối)",
+        "wallpaperBlur": "Màu hình nền tùy chỉnh + mờ",
+        "advancedAnimations": "Hoạt ảnh tải thanh tìm kiếm (11 loại)",
+        "sectionAnimations": "Hoạt ảnh tải phần (11 loại)",
+        "sectionResize": "Thay đổi kích thước phần: hoạt ảnh / tức thì / không",
+        "loadOrder": "Thứ tự tải: từ trên xuống dưới / từ dưới lên / đồng thời",
+        "animationSpeed": "Tốc độ hoạt ảnh (5 mức)",
+        "geometrySearchbar": "Hình học thanh tìm kiếm: bán kính, phần đệm, đường viền, độ mờ",
+        "searchbarLeadingIcon": "Bộ chọn biểu tượng dẫn thanh tìm kiếm",
+        "hidePlaceholder": "Ẩn trình giữ chỗ",
+        "geometrySections": "Hình học phần: bán kính, phần đệm, đường viền, độ mờ",
+        "geometryWidget": "Hình học tiện ích: bán kính, phần đệm, chiều cao, đường viền, độ mờ",
+        "widgetLeadingIcon": "Bộ chọn biểu tượng dẫn tiện ích",
+        "unlimitedSections": "Phần tùy chỉnh không giới hạn (Miễn phí: 1)",
+        "dragDropSections": "Sắp xếp lại phần kéo và thả",
+        "customItems": "Mục tùy chỉnh: Ứng dụng, Hành động, Danh bạ, Tệp, Cài đặt",
+        "reorderItems": "Sắp xếp lại các mục",
+        "sectionIconColors": "Màu biểu tượng phần (Sáng/Tối)",
+        "pinnedItems": "Mục được ghim",
+        "iconPacks": "Gói biểu tượng bên ngoài",
+        "customProviders": "Nhà cung cấp tìm kiếm tùy chỉnh (Mẫu URL với {{Q}})",
+        "providersReorder": "Thứ tự nhà cung cấp kéo và thả",
+        "aiPrompts": "Lời nhắc AI tùy chỉnh (nhãn + mẫu + ứng dụng đích)",
+        "aiManage": "Chỉnh sửa/xóa lời nhắc AI",
+        "aiReorder": "Thứ tự lời nhắc kéo và thả",
+        "backupExport": "Xuất cài đặt (JSON)",
+        "backupImport": "Nhập cài đặt (khôi phục cấu hình)",
+        "removeAds": "Xóa phần được tài trợ",
+        "support": "Hỗ trợ phát triển trong tương lai"
       }
     },
     "summary": {
-      "title": "Quick summary",
+      "title": "Tóm tắt nhanh",
       "rows": {
-        "customization": "Customization",
-        "sections": "Custom sections",
-        "backup": "Backup",
-        "ads": "Ads"
+        "customization": "Tùy chỉnh",
+        "sections": "Phần tùy chỉnh",
+        "backup": "Sao lưu",
+        "ads": "Quảng cáo"
       },
       "values": {
-        "basic": "Basic",
-        "unlimited": "Unlimited",
-        "limited": "1 only",
-        "none": "Not included",
-        "included": "Included",
-        "sponsored": "Sponsored sections"
+        "basic": "Cơ bản",
+        "unlimited": "Không giới hạn",
+        "limited": "Chỉ 1",
+        "none": "Không bao gồm",
+        "included": "Bao gồm",
+        "sponsored": "Phần được tài trợ"
       },
       "headers": {
-        "free": "Free",
+        "free": "Miễn phí",
         "pro": "Pro"
       }
     }
   },
   "cta": {
-    "title": "Ready to speed up your phone?",
-    "subtitle": "Install UniSearch and get the fastest way to find anything.",
-    "button": "Get it on Google Play"
+    "title": "Sẵn sàng tăng tốc độ điện thoại của bạn?",
+    "subtitle": "Cài đặt UniSearch và nhận cách nhanh nhất để tìm bất cứ thứ gì.",
+    "button": "Tải trên Google Play"
   },
   "faq": {
-    "title": "FAQ",
-    "subtitle": "Quick answers to common questions.",
+    "title": "Câu hỏi thường gặp",
+    "subtitle": "Câu trả lời nhanh cho các câu hỏi phổ biến.",
     "items": [
       {
-        "q": "Does UniSearch send my data to the cloud?",
-        "a": "No. Search data and indexing stay on your device."
+        "q": "UniSearch có gửi dữ liệu của tôi lên đám mây không?",
+        "a": "Không. Dữ liệu tìm kiếm và lập chỉ mục vẫn ở trên thiết bị của bạn."
       },
       {
-        "q": "What exactly is indexed?",
-        "a": "Apps, shortcuts, system settings, contacts, and files you allow."
+        "q": "Chính xác thì cái gì được lập chỉ mục?",
+        "a": "Ứng dụng, phím tắt, cài đặt hệ thống, danh bạ và tệp bạn cho phép."
       },
       {
-        "q": "Is Pro a subscription?",
-        "a": "No. Pro is a one-time purchase around $5–6."
+        "q": "Pro có phải là đăng ký không?",
+        "a": "Không. Pro là lần mua một lần khoảng $5–6."
       },
       {
-        "q": "Can I restore my settings?",
-        "a": "Pro includes backup and restore via JSON export/import."
+        "q": "Tôi có thể khôi phục cài đặt của mình không?",
+        "a": "Pro bao gồm sao lưu và khôi phục thông qua xuất/nhập JSON."
       },
       {
-        "q": "Is AI required?",
-        "a": "No. AI prompts are optional and can be disabled."
+        "q": "AI có bắt buộc không?",
+        "a": "Không. Lời nhắc AI là tùy chọn và có thể được vô hiệu hóa."
       },
       {
-        "q": "How can I contact support?",
-        "a": "Email us and we will respond quickly."
+        "q": "Tôi có thể liên hệ với hỗ trợ như thế nào?",
+        "a": "Gửi email cho chúng tôi và chúng tôi sẽ phản hồi nhanh chóng."
       }
     ]
   },
   "footer": {
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "contact": "Contact",
+    "privacy": "Bảo mật",
+    "terms": "Điều khoản",
+    "contact": "Liên hệ",
     "googlePlay": "Google Play",
-    "copyright": "© {year} UniSearch. All rights reserved.",
-    "createdBy": "Created by Webybox"
+    "copyright": "© {year} UniSearch. Tất cả quyền được bảo lưu.",
+    "createdBy": "Được tạo bởi Webybox"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "Effective date: 2026-02-10",
-    "intro": "This app is designed to work locally on your device. We do not run our own backend servers for your data.",
+    "title": "Chính sách Bảo mật",
+    "subtitle": "Ngày có hiệu lực: 2026-02-10",
+    "intro": "Ứng dụng này được thiết kế để hoạt động cục bộ trên thiết bị của bạn. Chúng tôi không chạy máy chủ phụ trợ riêng cho dữ liệu của bạn.",
     "sections": {
       "introduction": {
-        "title": "Overview",
+        "title": "Tổng quan",
         "body": [
-          "This app is designed to work locally on your device.",
-          "We do not run our own backend servers for your data."
+          "Ứng dụng này được thiết kế để hoạt động cục bộ trên thiết bị của bạn.",
+          "Chúng tôi không chạy máy chủ phụ trợ riêng cho dữ liệu của bạn."
         ]
       },
       "data": {
-        "title": "Data We Collect",
+        "title": "Dữ liệu chúng tôi thu thập",
         "body": [
-          "We do not collect or upload your contacts, files, or search data to our servers.",
-          "The app uses the following third-party services which may collect data according to their policies:",
-          "Google AdMob (ads)",
-          "Google Firebase Analytics (usage analytics)",
-          "Google Firebase Crashlytics (crash reports)",
-          "Google User Messaging Platform (consent management)",
-          "These services may collect device identifiers and usage information. You can review their policies in Google’s documentation."
+          "Chúng tôi không thu thập hoặc tải các danh bạ, tệp hoặc dữ liệu tìm kiếm của bạn lên máy chủ của chúng tôi.",
+          "Ứng dụng sử dụng các dịch vụ của bên thứ ba sau có thể thu thập dữ liệu theo chính sách của họ:",
+          "Google AdMob (quảng cáo)",
+          "Google Firebase Analytics (phân tích sử dụng)",
+          "Google Firebase Crashlytics (báo cáo sự cố)",
+          "Nền tảng Nhắn tin Người dùng Google (quản lý sự đồng ý)",
+          "Các dịch vụ này có thể thu thập các định danh thiết bị và thông tin sử dụng. Bạn có thể xem lại chính sách của họ trong tài liệu Google."
         ]
       },
       "permissions": {
-        "title": "Permissions We Use",
+        "title": "Quyền mà chúng tôi sử dụng",
         "body": [
-          "READ_CONTACTS: to search and display contacts on-device.",
-          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: to search files across device storage, including non-media files and full folder paths. This is required for fast, system-wide file search and exclusions. SAF/MediaStore alone do not provide complete coverage for all file types and paths.",
-          "QUERY_ALL_PACKAGES: to index all installed apps, show them in search results, and enable launch of any app or shortcut. Without this, the app cannot provide full app search.",
-          "INTERNET: required by Google services and ads.",
-          "We use these permissions only for the features described above and only on-device."
+          "READ_CONTACTS: để tìm kiếm và hiển thị danh bạ trên thiết bị.",
+          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: để tìm kiếm tệp trên toàn bộ bộ nhớ thiết bị, bao gồm các tệp không phải phương tiện và đường dẫn thư mục đầy đủ. Điều này là bắt buộc để tìm kiếm tệp nhanh và toàn hệ thống và loại trừ. SAF/MediaStore riêng lẻ không cung cấp phạm vi đầy đủ cho tất cả các loại tệp và đường dẫn.",
+          "QUERY_ALL_PACKAGES: để lập chỉ mục tất cả các ứng dụng đã cài đặt, hiển thị chúng trong kết quả tìm kiếm và bật khởi chạy bất kỳ ứng dụng hoặc phím tắt nào. Nếu không, ứng dụng không thể cung cấp tìm kiếm ứng dụng đầy đủ.",
+          "INTERNET: yêu cầu bởi các dịch vụ Google và quảng cáo.",
+          "Chúng tôi chỉ sử dụng các quyền này cho các tính năng được mô tả ở trên và chỉ trên thiết bị."
         ]
       },
       "analytics": {
-        "title": "Analytics",
+        "title": "Phân tích",
         "body": [
-          "Usage analytics may be provided by Google Firebase Analytics.",
-          "Crash reports may be provided by Google Firebase Crashlytics."
+          "Phân tích sử dụng có thể được cung cấp bởi Google Firebase Analytics.",
+          "Báo cáo sự cố có thể được cung cấp bởi Google Firebase Crashlytics."
         ]
       },
       "ads": {
-        "title": "Ads",
+        "title": "Quảng cáo",
         "body": [
-          "Ads may be served via Google AdMob.",
-          "Consent management may be handled by Google User Messaging Platform."
+          "Quảng cáo có thể được phục vụ thông qua Google AdMob.",
+          "Quản lý sự đồng ý có thể được xử lý bởi Nền tảng Nhắn tin Người dùng Google."
         ]
       },
       "sharing": {
-        "title": "Data Sharing",
+        "title": "Chia sẻ dữ liệu",
         "body": [
-          "We do not sell your personal data.",
-          "Data may be processed by the third-party services listed above as part of ads, analytics, and crash reporting."
+          "Chúng tôi không bán dữ liệu cá nhân của bạn.",
+          "Dữ liệu có thể được xử lý bởi các dịch vụ của bên thứ ba được liệt kê ở trên như một phần của quảng cáo, phân tích và báo cáo sự cố."
         ]
       },
       "security": {
-        "title": "Security",
+        "title": "Bảo mật",
         "body": [
-          "We take reasonable measures to protect data on-device.",
-          "No method of transmission or storage is 100% secure."
+          "Chúng tôi thực hiện các biện pháp hợp lý để bảo vệ dữ liệu trên thiết bị.",
+          "Không có phương pháp truyền tải hoặc lưu trữ nào là 100% an toàn."
         ]
       },
       "rights": {
-        "title": "Data Retention & Children’s Privacy",
+        "title": "Lưu giữ dữ liệu và Quyền riêng tư trẻ em",
         "body": [
-          "We do not store your personal data on our servers.",
-          "Retention by third-party services is governed by their policies.",
-          "This app is not directed to children under 13.",
-          "We may update this policy. Changes will be posted in this file with a new effective date."
+          "Chúng tôi không lưu trữ dữ liệu cá nhân của bạn trên máy chủ của chúng tôi.",
+          "Lưu giữ bởi các dịch vụ của bên thứ ba được quản lý bởi chính sách của họ.",
+          "Ứng dụng này không nhắm mục tiêu vào trẻ em dưới 13 tuổi.",
+          "Chúng tôi có thể cập nhật chính sách này. Những thay đổi sẽ được đăng trong tệp này với ngày có hiệu lực mới."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "Liên hệ",
         "body": [
-          "If you have questions, contact: contact@webybox.com"
+          "Nếu bạn có câu hỏi, hãy liên hệ: contact@webybox.com"
         ]
       }
     }
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Last updated: February 11, 2026",
-    "intro": "These terms outline the basic rules for using UniSearch.",
+    "title": "Điều khoản Dịch vụ",
+    "subtitle": "Cập nhật lần cuối: Ngày 11 tháng 2 năm 2026",
+    "intro": "Các điều khoản này nêu các quy tắc cơ bản để sử dụng UniSearch.",
     "sections": {
       "usage": {
-        "title": "Use of the app",
+        "title": "Sử dụng ứng dụng",
         "body": [
-          "Use UniSearch in accordance with local laws and platform policies.",
-          "Do not misuse the app for unlawful activities."
+          "Sử dụng UniSearch phù hợp với luật địa phương và chính sách nền tảng.",
+          "Đừng sử dụng sai ứng dụng cho các hoạt động bất hợp pháp."
         ]
       },
       "purchases": {
-        "title": "Purchases",
+        "title": "Mua hàng",
         "body": [
-          "Pro is a one-time purchase handled by Google Play.",
-          "Refunds follow Google Play policies."
+          "Pro là lần mua một lần được xử lý bởi Google Play.",
+          "Hoàn tiền tuân theo chính sách Google Play."
         ]
       },
       "liability": {
-        "title": "Limitation of liability",
+        "title": "Giới hạn trách nhiệp",
         "body": [
-          "The app is provided as-is without warranties.",
-          "We are not liable for indirect damages."
+          "Ứng dụng được cung cấp như hiện tại mà không có bảo hành.",
+          "Chúng tôi không chịu trách nhiệm về thiệt hại gián tiếp."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "Liên hệ",
         "body": [
-          "Questions? Reach out via email."
+          "Có câu hỏi? Hãy liên hệ qua email."
         ]
       }
     }
   },
   "searchProviders": {
-    "title": "Search with providers",
-    "subtitle": "Choose where to search and control when results appear.",
+    "title": "Tìm kiếm với nhà cung cấp",
+    "subtitle": "Chọn nơi tìm kiếm và kiểm soát khi nào kết quả xuất hiện.",
     "items": [
       {
-        "title": "Preset providers",
-        "description": "Google, DuckDuckGo, and other popular sources."
+        "title": "Nhà cung cấp đặt trước",
+        "description": "Google, DuckDuckGo và các nguồn phổ biến khác."
       },
       {
-        "title": "Enable / disable",
-        "description": "Full control over which providers are active."
+        "title": "Bật / tắt",
+        "description": "Kiểm soát đầy đủ các nhà cung cấp nào đang hoạt động."
       },
       {
-        "title": "Always show",
-        "description": "Keep a chosen provider visible at all times."
+        "title": "Luôn hiển thị",
+        "description": "Giữ nhà cung cấp đã chọn hiển thị mọi lúc."
       },
       {
-        "title": "Quick switching",
-        "description": "Swap providers without leaving the search bar."
+        "title": "Chuyển đổi nhanh",
+        "description": "Hoán đổi nhà cung cấp mà không cần rời thanh tìm kiếm."
       }
     ]
   }

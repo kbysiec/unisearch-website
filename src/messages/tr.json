@@ -1,443 +1,443 @@
 {
   "meta": {
-    "title": "UniSearch — Universal search for Android",
-    "description": "Find apps, contacts, files, actions, and more from one fast search bar. Built for speed, privacy, and offline-first use.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDescription": "Learn how UniSearch processes data locally and keeps your searches private.",
-    "termsTitle": "Terms of Service",
-    "termsDescription": "Basic terms for using the UniSearch app and website."
+    "title": "UniSearch — Android için evrensel arama",
+    "description": "Uygulamalar, kişiler, dosyalar, işlemler ve daha fazlasını tek bir hızlı arama çubuğundan bulun. Hız, gizlilik ve çevrimdışı kullanım için tasarlanmıştır.",
+    "privacyTitle": "Gizlilik Politikası",
+    "privacyDescription": "UniSearch'ün verileri yerel olarak nasıl işlediğini ve aramalarınızı nasıl gizli tuttuğunu öğrenin.",
+    "termsTitle": "Hizmet Şartları",
+    "termsDescription": "UniSearch uygulaması ve web sitesini kullanmak için temel şartlar."
   },
   "common": {
-    "back": "Back"
+    "back": "Geri"
   },
   "nav": {
-    "features": "Features",
-    "freePro": "Free vs Pro",
-    "privacy": "Privacy",
-    "faq": "FAQ",
-    "getApp": "Get it on Google Play",
-    "how": "How it works",
-    "language": "Language",
-    "changelog": "Changelog"
+    "features": "Özellikler",
+    "freePro": "Ücretsiz vs Pro",
+    "privacy": "Gizlilik",
+    "faq": "SSS",
+    "getApp": "Google Play'den İndir",
+    "how": "Nasıl Çalışır",
+    "language": "Dil",
+    "changelog": "Değişiklik Günlüğü"
   },
   "hero": {
-    "badge": "Universal search for Android",
-    "title": "Find everything on your phone in seconds.",
-    "subtitle": "Apps, contacts, files, actions, calculator, and AI — all from one lightning-fast search bar.",
-    "primaryCta": "Get it on Google Play",
-    "secondaryCta": "Explore features",
-    "note": "No account required. Works offline by default."
+    "badge": "Android için evrensel arama",
+    "title": "Telefonunuzdaki her şeyi saniyeler içinde bulun.",
+    "subtitle": "Uygulamalar, kişiler, dosyalar, işlemler, hesap makinesi ve yapay zeka — hepsi tek bir yıldırım hızlı arama çubuğundan.",
+    "primaryCta": "Google Play'den İndir",
+    "secondaryCta": "Özellikleri Keşfet",
+    "note": "Hesap gerekli değil. Varsayılan olarak çevrimdışı çalışır."
   },
   "trust": {
-    "title": "Built for speed and control",
+    "title": "Hız ve kontrol için tasarlanmış",
     "items": [
       {
-        "title": "Fast",
-        "description": "Instant results with real-time filtering and smart ranking."
+        "title": "Hızlı",
+        "description": "Gerçek zamanlı filtreleme ve akıllı sıralama ile anlık sonuçlar."
       },
       {
-        "title": "Privacy",
-        "description": "Your data stays on-device. Optional analytics only."
+        "title": "Gizlilik",
+        "description": "Verileriniz cihazda kalır. Yalnızca isteğe bağlı analitikler."
       },
       {
-        "title": "Offline-first",
-        "description": "Search works even without an internet connection."
+        "title": "Çevrimdışı-ilk",
+        "description": "Arama, internet bağlantısı olmasa bile çalışır."
       },
       {
-        "title": "Personalization",
-        "description": "Tune themes, sections, spacing, and behavior."
+        "title": "Kişiselleştirme",
+        "description": "Temalar, bölümler, aralıklar ve davranışı ayarlayın."
       }
     ]
   },
   "features": {
-    "title": "Everything you want to find — instantly",
-    "subtitle": "UniSearch brings every source into one smooth, unified result list.",
+    "title": "Bulmak istediğiniz her şey — anında",
+    "subtitle": "UniSearch her kaynağı tek bir düzgün, birleştirilmiş sonuç listesine getiriyor.",
     "groups": {
       "search": {
-        "title": "Unified search",
-        "description": "Find anything with smart ranking and noise filtering."
+        "title": "Birleştirilmiş arama",
+        "description": "Akıllı sıralama ve gürültü filtreleme ile her şeyi bulun."
       },
       "actions": {
-        "title": "Actions & shortcuts",
-        "description": "Launch actions, deep links, and curated shortcuts."
+        "title": "İşlemler ve Kısayollar",
+        "description": "İşlemleri, derin bağlantıları ve seçilmiş kısayolları başlatın."
       },
       "files": {
-        "title": "Files & media",
-        "description": "Search documents, photos, videos, music, and folders."
+        "title": "Dosyalar ve Medya",
+        "description": "Belgeler, fotoğraflar, videolar, müzik ve klasörleri arayın."
       },
       "contacts": {
-        "title": "Contacts",
-        "description": "Call, message, or open linked apps instantly."
+        "title": "Kişiler",
+        "description": "Anında arama yapın, mesaj gönderin veya bağlantılı uygulamaları açın."
       },
       "calculator": {
-        "title": "Calculator",
-        "description": "Inline calculator with precision math."
+        "title": "Hesap Makinesi",
+        "description": "Satır içi hesap makinesi kesin matematiği ile."
       },
       "customization": {
-        "title": "Customization",
-        "description": "Control layout, themes, and visibility."
+        "title": "Kişiselleştirme",
+        "description": "Düzen, temalar ve görünürlüğü kontrol edin."
       },
       "ai": {
-        "title": "AI prompts",
-        "description": "Optional AI helpers with clear data boundaries."
+        "title": "Yapay zeka İstemleri",
+        "description": "Net veri sınırları olan isteğe bağlı yapay zeka yardımcıları."
       },
       "providers": {
-        "title": "Search providers",
-        "description": "Choose where UniSearch sends external queries."
+        "title": "Arama Sağlayıcıları",
+        "description": "UniSearch'ün harici sorguları nereye gönderdiğini seçin."
       }
     },
     "items": {
       "search": {
-        "universal": "Apps, contacts, files, settings, and shortcuts in one query",
-        "instant": "Real-time filtering with instant results",
-        "frecency": "Frecency ranking that adapts to your habits"
+        "universal": "Uygulamalar, kişiler, dosyalar, ayarlar ve kısayollar tek sorguda",
+        "instant": "Anlık sonuçlar ile gerçek zamanlı filtreleme",
+        "frecency": "Alışkanlıklarınıza uyarlanmış sıklık sıralaması"
       },
       "actions": {
-        "shortcuts": "App shortcuts and deep links",
-        "system": "System actions and settings search",
-        "workflow": "Launch from Assistant, widget, or Quick Settings"
+        "shortcuts": "Uygulama kısayolları ve derin bağlantılar",
+        "system": "Sistem işlemleri ve ayarlar araması",
+        "workflow": "Asistan, widget veya Hızlı Ayarlardan başlatın"
       },
       "files": {
-        "documents": "Documents, images, videos, music",
-        "media": "Folders and MediaStore-powered results",
-        "filters": "Type filters and exclusions"
+        "documents": "Belgeler, görseller, videolar, müzik",
+        "media": "Klasörler ve MediaStore tarafından desteklenen sonuçlar",
+        "filters": "Tür filtreleri ve hariç tutmalar"
       },
       "contacts": {
-        "smart": "Smart matching and ranking",
-        "actions": "Call, message, or open linked apps",
-        "permissions": "Optional permissions with clear control"
+        "smart": "Akıllı eşleştirme ve sıralama",
+        "actions": "Arama yapın, mesaj gönderin veya bağlantılı uygulamaları açın",
+        "permissions": "Net kontrolü olan isteğe bağlı izinler"
       },
       "calculator": {
-        "inline": "Inline math as you type",
-        "precision": "BigDecimal precision with brackets",
-        "copy": "Copy results in one tap"
+        "inline": "Yazarken satır içi matematik",
+        "precision": "Parantez ile BigDecimal kesinliği",
+        "copy": "Sonuçları tek dokunuşta kopyalayın"
       },
       "customization": {
-        "themes": "Light, dark, and curated themes",
-        "layout": "Icon size, grid spacing, labels",
-        "sections": "Show, hide, and reorder sections"
+        "themes": "Açık, koyu ve seçilmiş temalar",
+        "layout": "Simge boyutu, ızgara aralığı, etiketler",
+        "sections": "Bölümleri göster, gizle ve yeniden düzenle"
       },
       "ai": {
-        "prompts": "Create quick AI prompts",
-        "safe": "Clear opt-in usage",
-        "optional": "Disable AI anytime"
+        "prompts": "Hızlı yapay zeka istekleri oluşturun",
+        "safe": "Net kabul edilen kullanım",
+        "optional": "İstediğiniz zaman yapay zekayı devre dışı bırakın"
       },
       "providers": {
-        "preset": "Preset providers like Google, YouTube or ChatGPT",
-        "toggle": "Enable or disable providers",
-        "always": "Ability to define custom ones"
+        "preset": "Google, YouTube veya ChatGPT gibi ön ayarlı sağlayıcılar",
+        "toggle": "Sağlayıcıları etkinleştirin veya devre dışı bırakın",
+        "always": "Özel olanları tanımlama yeteneği"
       }
     }
   },
   "how": {
-    "title": "How it works",
-    "subtitle": "A simple flow designed for speed.",
+    "title": "Nasıl Çalışır",
+    "subtitle": "Hız için tasarlanmış basit bir akış.",
     "steps": {
       "index": {
-        "title": "Index",
-        "description": "UniSearch indexes apps, contacts, files, and settings locally."
+        "title": "Dizin",
+        "description": "UniSearch uygulamaları, kişileri, dosyaları ve ayarları yerel olarak dizine alır."
       },
       "search": {
-        "title": "Search",
-        "description": "Type once and get ranked results instantly."
+        "title": "Arama",
+        "description": "Bir kez yazın ve sıralanan sonuçları anında alın."
       },
       "action": {
-        "title": "Action",
-        "description": "Open, call, calculate, or run a shortcut in one tap."
+        "title": "İşlem",
+        "description": "Tek dokunuşta açın, arama yapın, hesaplayın veya bir kısayol çalıştırın."
       }
     }
   },
   "freePro": {
-    "title": "Free vs Pro",
-    "subtitle": "Start free, upgrade once for full control.",
+    "title": "Ücretsiz vs Pro",
+    "subtitle": "Ücretsiz başlayın, tam kontrolü için bir kez yükseltin.",
     "free": {
-      "title": "Free",
-      "description": "Everything you need to search fast.",
+      "title": "Ücretsiz",
+      "description": "Hızlı arama yapmak için ihtiyacınız olan her şey.",
       "items": {
-        "universal": "Universal search: apps, contacts, files, settings",
-        "algorithms": "All search algorithms: prefix, fuzzy, phonetic, acronym, token",
-        "frecency": "Frecency ranking across all sources",
-        "calculator": "Built-in calculator",
-        "appShortcutSyntax": "\"App: Shortcut\" query syntax",
-        "highlight": "Match highlighting",
-        "entryPoints": "Launch from Assistant, widget, or Quick Settings",
-        "quickSettings": "Quick Settings tile",
-        "assistantRole": "Assistant role support",
-        "notificationListener": "NotificationListenerService support",
-        "searchBarPosition": "Search bar position (top/bottom)",
-        "layout": "App layout (grid/list)",
-        "gridColumns": "Grid columns (4–6)",
-        "iconSize": "Icon size (S/M/L)",
-        "gridSpacing": "Grid spacing (S/M/L)",
-        "iconLabels": "Icon labels on/off",
-        "sectionHeaderIcons": "Section header icons",
-        "autofocus": "Auto-focus search bar",
-        "clearOnSelect": "Clear search on selection",
-        "hideRecentsEmpty": "Hide section when recents are empty",
-        "sectionVisibilityDefault": "Default visibility for 7 sections",
-        "resultLimits": "Result limits (3 sliders)",
-        "showHideTypes": "Show/hide result types and sections",
-        "hideApps": "Hide apps",
-        "hideContacts": "Hide contacts",
-        "hideActions": "Hide actions/shortcuts",
-        "excludeFiles": "Exclude files/folders",
-        "fileTypes": "File types (7 types)",
-        "freeThemes": "2 free themes: UniSearch + High Contrast",
-        "modes": "Light and dark mode",
-        "basicAnimations": "Basic animations (fade/slide)",
-        "providersPreset": "Preset search providers (Google, DuckDuckGo, etc.)",
-        "providersToggle": "Enable/disable providers",
-        "providersAlwaysShow": "\"Always show\" provider switch",
-        "customSection": "1 free custom section (no sorting)",
-        "analytics": "Basic analytics (opt-in)",
-        "privacy": "Privacy mode",
-        "languages": "All 25 languages",
-        "sponsored": "Sponsored sections (Native Ads)"
+        "universal": "Evrensel arama: uygulamalar, kişiler, dosyalar, ayarlar",
+        "algorithms": "Tüm arama algoritmaları: ön ek, bulanık, fonetik, akronim, belirteç",
+        "frecency": "Tüm kaynaklar arasında sıklık sıralaması",
+        "calculator": "Yerleşik hesap makinesi",
+        "appShortcutSyntax": "\"Uygulama: Kısayol\" sorgu söz dizimi",
+        "highlight": "Eşleştirme vurgulaması",
+        "entryPoints": "Asistan, widget veya Hızlı Ayarlardan başlatın",
+        "quickSettings": "Hızlı Ayarlar döşemesi",
+        "assistantRole": "Asistan rol desteği",
+        "notificationListener": "NotificationListenerService desteği",
+        "searchBarPosition": "Arama çubuğu konumu (üst/alt)",
+        "layout": "Uygulama düzeni (ızgara/liste)",
+        "gridColumns": "Izgara sütunları (4–6)",
+        "iconSize": "Simge boyutu (S/M/L)",
+        "gridSpacing": "Izgara aralığı (S/M/L)",
+        "iconLabels": "Simge etiketleri açık/kapalı",
+        "sectionHeaderIcons": "Bölüm başlığı simgeleri",
+        "autofocus": "Arama çubuğunu otomatik odakla",
+        "clearOnSelect": "Seçimde aramayı temizle",
+        "hideRecentsEmpty": "Kalan boş olduğunda bölümü gizle",
+        "sectionVisibilityDefault": "7 bölüm için varsayılan görünürlük",
+        "resultLimits": "Sonuç sınırları (3 kaydırıcı)",
+        "showHideTypes": "Sonuç türlerini ve bölümleri göster/gizle",
+        "hideApps": "Uygulamaları gizle",
+        "hideContacts": "Kişileri gizle",
+        "hideActions": "İşlemleri/kısayolları gizle",
+        "excludeFiles": "Dosyaları/klasörleri hariç tut",
+        "fileTypes": "Dosya türleri (7 tür)",
+        "freeThemes": "2 ücretsiz tema: UniSearch + Yüksek Kontrast",
+        "modes": "Açık ve koyu mod",
+        "basicAnimations": "Temel animasyonlar (solma/kaydırma)",
+        "providersPreset": "Ön ayarlı arama sağlayıcıları (Google, DuckDuckGo, vb.)",
+        "providersToggle": "Sağlayıcıları etkinleştir/devre dışı bırak",
+        "providersAlwaysShow": "\"Her zaman göster\" sağlayıcı değiştirme",
+        "customSection": "1 ücretsiz özel bölüm (sıralama yok)",
+        "analytics": "Temel analitikler (kabul etme)",
+        "privacy": "Gizlilik modu",
+        "languages": "Tüm 25 dil",
+        "sponsored": "Sponsorlu bölümler (Yerel Reklamlar)"
       }
     },
     "pro": {
       "title": "Pro",
-      "description": "One-time purchase. Unlock full design power.",
-      "badge": "Most popular",
-      "priceNote": "About $5–6",
+      "description": "Tek seferlik satın alma. Tam tasarım gücünün kilidini açın.",
+      "badge": "En popüler",
+      "priceNote": "Yaklaşık $5–6",
       "items": {
-        "premiumThemes": "3 premium themes: Glass, Material You, Minimal Dark",
-        "themeCreator": "Custom theme creator",
-        "presets": "Unlimited theme presets",
-        "perSectionStyle": "Per-section style overrides",
-        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
-        "searchbarColors": "Search bar colors (7 × Light/Dark)",
-        "sectionColors": "Section colors (7 × Light/Dark)",
-        "itemIconColors": "Item icon colors (2 × Light/Dark)",
-        "bottomSheetColors": "Bottom sheet colors (5 × Light/Dark)",
-        "widgetColors": "Widget colors (5 × Light/Dark)",
-        "wallpaperBlur": "Custom wallpaper color + blur",
-        "advancedAnimations": "Search bar load animations (11 types)",
-        "sectionAnimations": "Section load animations (11 types)",
-        "sectionResize": "Section resize: animated / instant / none",
-        "loadOrder": "Load order: top to bottom / bottom to top / simultaneous",
-        "animationSpeed": "Animation speed (5 levels)",
-        "geometrySearchbar": "Search bar geometry: radius, padding, border, opacity",
-        "searchbarLeadingIcon": "Search bar leading icon picker",
-        "hidePlaceholder": "Hide placeholder",
-        "geometrySections": "Section geometry: radius, padding, border, opacity",
-        "geometryWidget": "Widget geometry: radius, padding, height, border, opacity",
-        "widgetLeadingIcon": "Widget leading icon picker",
-        "unlimitedSections": "Unlimited custom sections (Free: 1)",
-        "dragDropSections": "Drag & drop section reorder",
-        "customItems": "Custom items: App, Action, Contact, File, Setting",
-        "reorderItems": "Reorder items",
-        "sectionIconColors": "Section icon colors (Light/Dark)",
-        "pinnedItems": "Pinned items",
-        "iconPacks": "External icon packs",
-        "customProviders": "Custom search providers (URL template with {{Q}})",
-        "providersReorder": "Drag & drop provider order",
-        "aiPrompts": "Custom AI prompts (label + template + target app)",
-        "aiManage": "Edit/remove AI prompts",
-        "aiReorder": "Drag & drop prompt order",
-        "backupExport": "Export settings (JSON)",
-        "backupImport": "Import settings (restore configuration)",
-        "removeAds": "Remove sponsored sections",
-        "support": "Support future development"
+        "premiumThemes": "3 premium tema: Glass, Material You, Minimal Dark",
+        "themeCreator": "Özel tema oluşturucu",
+        "presets": "Sınırsız tema ön ayarları",
+        "perSectionStyle": "Bölüm başına stil geçersiz kılmaları",
+        "advancedColors": "52 renk değiştirme yeri (Arama çubuğu, Bölümler, Widget, Alt Panel)",
+        "searchbarColors": "Arama çubuğu renkleri (7 × Açık/Koyu)",
+        "sectionColors": "Bölüm renkleri (7 × Açık/Koyu)",
+        "itemIconColors": "Öğe simge renkleri (2 × Açık/Koyu)",
+        "bottomSheetColors": "Alt sayfa renkleri (5 × Açık/Koyu)",
+        "widgetColors": "Widget renkleri (5 × Açık/Koyu)",
+        "wallpaperBlur": "Özel duvar kağıdı rengi + bulanıklık",
+        "advancedAnimations": "Arama çubuğu yükleme animasyonları (11 tür)",
+        "sectionAnimations": "Bölüm yükleme animasyonları (11 tür)",
+        "sectionResize": "Bölüm yeniden boyutlandırma: animasyonlu / anlık / hiçbiri",
+        "loadOrder": "Yükleme sırası: üstten alta / alttan üste / eşzamanlı",
+        "animationSpeed": "Animasyon hızı (5 seviye)",
+        "geometrySearchbar": "Arama çubuğu geometrisi: yarıçap, dolgu, kenarlık, opaklık",
+        "searchbarLeadingIcon": "Arama çubuğu öncü simge seçici",
+        "hidePlaceholder": "Yer tutucuyu gizle",
+        "geometrySections": "Bölüm geometrisi: yarıçap, dolgu, kenarlık, opaklık",
+        "geometryWidget": "Widget geometrisi: yarıçap, dolgu, yükseklik, kenarlık, opaklık",
+        "widgetLeadingIcon": "Widget öncü simge seçici",
+        "unlimitedSections": "Sınırsız özel bölümler (Ücretsiz: 1)",
+        "dragDropSections": "Sürükle ve bırak bölüm yeniden sırası",
+        "customItems": "Özel öğeler: Uygulama, İşlem, Kişi, Dosya, Ayar",
+        "reorderItems": "Öğeleri yeniden sırala",
+        "sectionIconColors": "Bölüm simge renkleri (Açık/Koyu)",
+        "pinnedItems": "Sabitlenmiş öğeler",
+        "iconPacks": "Harici simge paketleri",
+        "customProviders": "Özel arama sağlayıcıları ({{Q}} ile URL şablonu)",
+        "providersReorder": "Sürükle ve bırak sağlayıcı sırası",
+        "aiPrompts": "Özel yapay zeka istekleri (etiket + şablon + hedef uygulama)",
+        "aiManage": "Yapay zeka isteklerini düzenle/kaldır",
+        "aiReorder": "Sürükle ve bırak istemi sırası",
+        "backupExport": "Ayarları Dışa Aktar (JSON)",
+        "backupImport": "Ayarları İçe Aktar (yapılandırmayı geri yükle)",
+        "removeAds": "Sponsorlu bölümleri kaldır",
+        "support": "Gelecek geliştirmeyi destekle"
       }
     },
     "summary": {
-      "title": "Quick summary",
+      "title": "Hızlı özet",
       "rows": {
-        "customization": "Customization",
-        "sections": "Custom sections",
-        "backup": "Backup",
-        "ads": "Ads"
+        "customization": "Kişiselleştirme",
+        "sections": "Özel bölümler",
+        "backup": "Yedekleme",
+        "ads": "Reklamlar"
       },
       "values": {
-        "basic": "Basic",
-        "unlimited": "Unlimited",
-        "limited": "1 only",
-        "none": "Not included",
-        "included": "Included",
-        "sponsored": "Sponsored sections"
+        "basic": "Temel",
+        "unlimited": "Sınırsız",
+        "limited": "Yalnızca 1",
+        "none": "Dahil değil",
+        "included": "Dahil",
+        "sponsored": "Sponsorlu bölümler"
       },
       "headers": {
-        "free": "Free",
+        "free": "Ücretsiz",
         "pro": "Pro"
       }
     }
   },
   "cta": {
-    "title": "Ready to speed up your phone?",
-    "subtitle": "Install UniSearch and get the fastest way to find anything.",
-    "button": "Get it on Google Play"
+    "title": "Telefonunuzu hızlandırmaya hazır mısınız?",
+    "subtitle": "UniSearch'ü kurun ve her şeyi bulmanın en hızlı yolunu alın.",
+    "button": "Google Play'den İndir"
   },
   "faq": {
-    "title": "FAQ",
-    "subtitle": "Quick answers to common questions.",
+    "title": "SSS",
+    "subtitle": "Sık sorulan sorulara hızlı cevaplar.",
     "items": [
       {
-        "q": "Does UniSearch send my data to the cloud?",
-        "a": "No. Search data and indexing stay on your device."
+        "q": "UniSearch verilerimizi buluta gönderiyor mu?",
+        "a": "Hayır. Arama verileri ve dizin oluşturma cihazınızda kalır."
       },
       {
-        "q": "What exactly is indexed?",
-        "a": "Apps, shortcuts, system settings, contacts, and files you allow."
+        "q": "Tam olarak neler dizine alınıyor?",
+        "a": "İzin verdiğiniz uygulamalar, kısayollar, sistem ayarları, kişiler ve dosyalar."
       },
       {
-        "q": "Is Pro a subscription?",
-        "a": "No. Pro is a one-time purchase around $5–6."
+        "q": "Pro bir abonelik mi?",
+        "a": "Hayır. Pro, yaklaşık $5–6 karşılığında tek seferlik satın almadır."
       },
       {
-        "q": "Can I restore my settings?",
-        "a": "Pro includes backup and restore via JSON export/import."
+        "q": "Ayarlarımı geri yükleyebilir miyim?",
+        "a": "Pro, JSON dışa aktarma/içe aktarma yoluyla yedekleme ve geri yükleme içerir."
       },
       {
-        "q": "Is AI required?",
-        "a": "No. AI prompts are optional and can be disabled."
+        "q": "Yapay zeka gerekli mi?",
+        "a": "Hayır. Yapay zeka istekleri isteğe bağlıdır ve devre dışı bırakılabilir."
       },
       {
-        "q": "How can I contact support?",
-        "a": "Email us and we will respond quickly."
+        "q": "Desteğe nasıl ulaşabilirim?",
+        "a": "Bize e-posta gönderin ve hızlı bir şekilde yanıt vereceğiz."
       }
     ]
   },
   "footer": {
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "contact": "Contact",
+    "privacy": "Gizlilik",
+    "terms": "Şartlar",
+    "contact": "İletişim",
     "googlePlay": "Google Play",
-    "copyright": "© {year} UniSearch. All rights reserved.",
-    "createdBy": "Created by Webybox"
+    "copyright": "© {year} UniSearch. Tüm hakları saklıdır.",
+    "createdBy": "Webybox tarafından oluşturuldu"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "Effective date: 2026-02-10",
-    "intro": "This app is designed to work locally on your device. We do not run our own backend servers for your data.",
+    "title": "Gizlilik Politikası",
+    "subtitle": "Yürürlük tarihi: 2026-02-10",
+    "intro": "Bu uygulama, cihazınızda yerel olarak çalışmak için tasarlanmıştır. Verileriniz için kendi arka uç sunucularımızı çalıştırmıyoruz.",
     "sections": {
       "introduction": {
-        "title": "Overview",
+        "title": "Genel Bakış",
         "body": [
-          "This app is designed to work locally on your device.",
-          "We do not run our own backend servers for your data."
+          "Bu uygulama, cihazınızda yerel olarak çalışmak için tasarlanmıştır.",
+          "Verileriniz için kendi arka uç sunucularımızı çalıştırmıyoruz."
         ]
       },
       "data": {
-        "title": "Data We Collect",
+        "title": "Topladığımız Veriler",
         "body": [
-          "We do not collect or upload your contacts, files, or search data to our servers.",
-          "The app uses the following third-party services which may collect data according to their policies:",
-          "Google AdMob (ads)",
-          "Google Firebase Analytics (usage analytics)",
-          "Google Firebase Crashlytics (crash reports)",
-          "Google User Messaging Platform (consent management)",
-          "These services may collect device identifiers and usage information. You can review their policies in Google’s documentation."
+          "Kişilerinizi, dosyalarınızı veya arama verilerinizi sunucularımıza toplamıyoruz veya yüklemiyoruz.",
+          "Uygulama, politikalarına göre veri toplayabilen aşağıdaki üçüncü taraf hizmetlerini kullanır:",
+          "Google AdMob (reklamlar)",
+          "Google Firebase Analytics (kullanım analitikleri)",
+          "Google Firebase Crashlytics (kilitlenme raporları)",
+          "Google User Messaging Platform (onay yönetimi)",
+          "Bu hizmetler cihaz tanımlayıcıları ve kullanım bilgilerini toplayabilir. Politikalarını Google'ın belgelerinde inceleyebilirsiniz."
         ]
       },
       "permissions": {
-        "title": "Permissions We Use",
+        "title": "Kullandığımız İzinler",
         "body": [
-          "READ_CONTACTS: to search and display contacts on-device.",
-          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: to search files across device storage, including non-media files and full folder paths. This is required for fast, system-wide file search and exclusions. SAF/MediaStore alone do not provide complete coverage for all file types and paths.",
-          "QUERY_ALL_PACKAGES: to index all installed apps, show them in search results, and enable launch of any app or shortcut. Without this, the app cannot provide full app search.",
-          "INTERNET: required by Google services and ads.",
-          "We use these permissions only for the features described above and only on-device."
+          "READ_CONTACTS: kişileri cihazda aramak ve göstermek için.",
+          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: medya olmayan dosyalar ve tam klasör yolları dahil olmak üzere cihaz depolama alanında dosyaları aramak için. Bu, hızlı, sistem genelinde dosya arama ve hariç tutmalar için gereklidir. SAF/MediaStore tek başına tüm dosya türleri ve yolları için tam kapsamı sağlamaz.",
+          "QUERY_ALL_PACKAGES: tüm yüklü uygulamaları dizine almak, arama sonuçlarında göstermek ve herhangi bir uygulamayı veya kısayolu başlatmayı etkinleştirmek için. Bunu olmadan uygulama tam uygulama araması sağlayamaz.",
+          "INTERNET: Google hizmetleri ve reklamlar tarafından gerekli.",
+          "Bu izinleri yalnızca yukarıda açıklanan özellikler için ve yalnızca cihazda kullanırız."
         ]
       },
       "analytics": {
-        "title": "Analytics",
+        "title": "Analitikler",
         "body": [
-          "Usage analytics may be provided by Google Firebase Analytics.",
-          "Crash reports may be provided by Google Firebase Crashlytics."
+          "Kullanım analitikleri Google Firebase Analytics tarafından sağlanabilir.",
+          "Kilitlenme raporları Google Firebase Crashlytics tarafından sağlanabilir."
         ]
       },
       "ads": {
-        "title": "Ads",
+        "title": "Reklamlar",
         "body": [
-          "Ads may be served via Google AdMob.",
-          "Consent management may be handled by Google User Messaging Platform."
+          "Reklamlar Google AdMob aracılığıyla sunulabilir.",
+          "Onay yönetimi Google User Messaging Platform tarafından ele alınabilir."
         ]
       },
       "sharing": {
-        "title": "Data Sharing",
+        "title": "Veri Paylaşımı",
         "body": [
-          "We do not sell your personal data.",
-          "Data may be processed by the third-party services listed above as part of ads, analytics, and crash reporting."
+          "Kişisel verilerinizi satmıyoruz.",
+          "Veriler, reklamlar, analitikler ve kilitlenme raporlaması kapsamında yukarıda listelenen üçüncü taraf hizmetleri tarafından işlenebilir."
         ]
       },
       "security": {
-        "title": "Security",
+        "title": "Güvenlik",
         "body": [
-          "We take reasonable measures to protect data on-device.",
-          "No method of transmission or storage is 100% secure."
+          "Cihazda verileri korumak için makul önlemler alıyoruz.",
+          "İletim veya depolama yöntemi 100% güvenli değildir."
         ]
       },
       "rights": {
-        "title": "Data Retention & Children’s Privacy",
+        "title": "Veri Saklama ve Çocukların Gizliliği",
         "body": [
-          "We do not store your personal data on our servers.",
-          "Retention by third-party services is governed by their policies.",
-          "This app is not directed to children under 13.",
-          "We may update this policy. Changes will be posted in this file with a new effective date."
+          "Kişisel verilerinizi sunucularımızda depolamıyoruz.",
+          "Üçüncü taraf hizmetleri tarafından saklama, politikaları tarafından yönetilir.",
+          "Bu uygulama 13 yaşından küçük çocuklara yönelik değildir.",
+          "Bu politikayı güncelleyebiliriz. Değişiklikler bu dosyada yeni bir yürürlük tarihi ile yayınlanacaktır."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "İletişim",
         "body": [
-          "If you have questions, contact: contact@webybox.com"
+          "Soruların varsa, iletişime geçin: contact@webybox.com"
         ]
       }
     }
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Last updated: February 11, 2026",
-    "intro": "These terms outline the basic rules for using UniSearch.",
+    "title": "Hizmet Şartları",
+    "subtitle": "Son güncelleme: 11 Şubat 2026",
+    "intro": "Bu şartlar, UniSearch'ü kullanmak için temel kuralları özetlemektedir.",
     "sections": {
       "usage": {
-        "title": "Use of the app",
+        "title": "Uygulamanın Kullanımı",
         "body": [
-          "Use UniSearch in accordance with local laws and platform policies.",
-          "Do not misuse the app for unlawful activities."
+          "UniSearch'ü yerel yasalar ve platform politikaları uyarınca kullanın.",
+          "Uygulamayı yasa dışı faaliyetler için kötüye kullanmayın."
         ]
       },
       "purchases": {
-        "title": "Purchases",
+        "title": "Satın Almalar",
         "body": [
-          "Pro is a one-time purchase handled by Google Play.",
-          "Refunds follow Google Play policies."
+          "Pro, Google Play tarafından işlenen tek seferlik satın almadır.",
+          "İade işlemleri Google Play politikalarını izler."
         ]
       },
       "liability": {
-        "title": "Limitation of liability",
+        "title": "Sorumluluk Sınırlandırması",
         "body": [
-          "The app is provided as-is without warranties.",
-          "We are not liable for indirect damages."
+          "Uygulama garantiler olmadan olduğu gibi sağlanır.",
+          "Dolaylı hasarlardan sorumlu değiliz."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "İletişim",
         "body": [
-          "Questions? Reach out via email."
+          "Sorular mı var? E-posta yoluyla bize ulaşın."
         ]
       }
     }
   },
   "searchProviders": {
-    "title": "Search with providers",
-    "subtitle": "Choose where to search and control when results appear.",
+    "title": "Sağlayıcılarla Ara",
+    "subtitle": "Nerede arayacağını seç ve sonuçların ne zaman görüneceğini kontrol et.",
     "items": [
       {
-        "title": "Preset providers",
-        "description": "Google, DuckDuckGo, and other popular sources."
+        "title": "Ön ayarlı sağlayıcılar",
+        "description": "Google, DuckDuckGo ve diğer popüler kaynaklar."
       },
       {
-        "title": "Enable / disable",
-        "description": "Full control over which providers are active."
+        "title": "Etkinleştir / Devre Dışı Bırak",
+        "description": "Hangi sağlayıcıların etkin olduğu üzerinde tam kontrol."
       },
       {
-        "title": "Always show",
-        "description": "Keep a chosen provider visible at all times."
+        "title": "Her zaman göster",
+        "description": "Seçilen sağlayıcıyı her zaman görünür tut."
       },
       {
-        "title": "Quick switching",
-        "description": "Swap providers without leaving the search bar."
+        "title": "Hızlı geçiş",
+        "description": "Arama çubuğundan ayrılmadan sağlayıcıları değiştir."
       }
     ]
   }

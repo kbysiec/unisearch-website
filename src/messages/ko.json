@@ -1,443 +1,443 @@
 {
   "meta": {
-    "title": "UniSearch — Universal search for Android",
-    "description": "Find apps, contacts, files, actions, and more from one fast search bar. Built for speed, privacy, and offline-first use.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDescription": "Learn how UniSearch processes data locally and keeps your searches private.",
-    "termsTitle": "Terms of Service",
-    "termsDescription": "Basic terms for using the UniSearch app and website."
+    "title": "UniSearch — Android용 통합 검색",
+    "description": "앱, 연락처, 파일, 작업 등을 하나의 빠른 검색창에서 찾으세요. 속도, 개인정보 보호, 오프라인 우선 사용을 위해 설계되었습니다.",
+    "privacyTitle": "개인정보 보호정책",
+    "privacyDescription": "UniSearch가 데이터를 로컬에서 어떻게 처리하고 검색을 비공개로 유지하는지 알아보세요.",
+    "termsTitle": "서비스 약관",
+    "termsDescription": "UniSearch 앱과 웹사이트 사용을 위한 기본 약관입니다."
   },
   "common": {
-    "back": "Back"
+    "back": "뒤로"
   },
   "nav": {
-    "features": "Features",
-    "freePro": "Free vs Pro",
-    "privacy": "Privacy",
-    "faq": "FAQ",
-    "getApp": "Get it on Google Play",
-    "how": "How it works",
-    "language": "Language",
-    "changelog": "Changelog"
+    "features": "기능",
+    "freePro": "무료 vs Pro",
+    "privacy": "개인정보 보호",
+    "faq": "자주 묻는 질문",
+    "getApp": "Google Play에서 다운로드",
+    "how": "작동 방식",
+    "language": "언어",
+    "changelog": "변경 사항"
   },
   "hero": {
-    "badge": "Universal search for Android",
-    "title": "Find everything on your phone in seconds.",
-    "subtitle": "Apps, contacts, files, actions, calculator, and AI — all from one lightning-fast search bar.",
-    "primaryCta": "Get it on Google Play",
-    "secondaryCta": "Explore features",
-    "note": "No account required. Works offline by default."
+    "badge": "Android용 통합 검색",
+    "title": "휴대폰의 모든 것을 몇 초 안에 찾으세요.",
+    "subtitle": "앱, 연락처, 파일, 작업, 계산기, AI — 모두 하나의 초고속 검색창에서.",
+    "primaryCta": "Google Play에서 다운로드",
+    "secondaryCta": "기능 탐색",
+    "note": "계정이 필요하지 않습니다. 기본적으로 오프라인에서 작동합니다."
   },
   "trust": {
-    "title": "Built for speed and control",
+    "title": "속도와 제어를 위해 설계됨",
     "items": [
       {
-        "title": "Fast",
-        "description": "Instant results with real-time filtering and smart ranking."
+        "title": "빠름",
+        "description": "실시간 필터링 및 스마트 순위 지정을 통한 즉시 결과."
       },
       {
-        "title": "Privacy",
-        "description": "Your data stays on-device. Optional analytics only."
+        "title": "개인정보 보호",
+        "description": "귀하의 데이터는 기기에 유지됩니다. 선택적 분석만 해당됩니다."
       },
       {
-        "title": "Offline-first",
-        "description": "Search works even without an internet connection."
+        "title": "오프라인 우선",
+        "description": "인터넷 연결이 없어도 검색이 작동합니다."
       },
       {
-        "title": "Personalization",
-        "description": "Tune themes, sections, spacing, and behavior."
+        "title": "개인화",
+        "description": "테마, 섹션, 간격 및 동작을 조정합니다."
       }
     ]
   },
   "features": {
-    "title": "Everything you want to find — instantly",
-    "subtitle": "UniSearch brings every source into one smooth, unified result list.",
+    "title": "찾고 싶은 모든 것 — 즉시",
+    "subtitle": "UniSearch는 모든 출처를 하나의 부드러운 통합 결과 목록으로 가져옵니다.",
     "groups": {
       "search": {
-        "title": "Unified search",
-        "description": "Find anything with smart ranking and noise filtering."
+        "title": "통합 검색",
+        "description": "스마트 순위 지정 및 노이즈 필터링으로 모든 것을 찾으세요."
       },
       "actions": {
-        "title": "Actions & shortcuts",
-        "description": "Launch actions, deep links, and curated shortcuts."
+        "title": "작업 및 단축키",
+        "description": "작업, 딥 링크 및 선별된 단축키를 실행합니다."
       },
       "files": {
-        "title": "Files & media",
-        "description": "Search documents, photos, videos, music, and folders."
+        "title": "파일 및 미디어",
+        "description": "문서, 사진, 비디오, 음악 및 폴더를 검색합니다."
       },
       "contacts": {
-        "title": "Contacts",
-        "description": "Call, message, or open linked apps instantly."
+        "title": "연락처",
+        "description": "즉시 전화, 메시지 또는 연결된 앱을 엽니다."
       },
       "calculator": {
-        "title": "Calculator",
-        "description": "Inline calculator with precision math."
+        "title": "계산기",
+        "description": "정밀한 수학을 포함한 인라인 계산기."
       },
       "customization": {
-        "title": "Customization",
-        "description": "Control layout, themes, and visibility."
+        "title": "커스터마이제이션",
+        "description": "레이아웃, 테마 및 가시성을 제어합니다."
       },
       "ai": {
-        "title": "AI prompts",
-        "description": "Optional AI helpers with clear data boundaries."
+        "title": "AI 프롬프트",
+        "description": "명확한 데이터 경계를 가진 선택적 AI 도우미."
       },
       "providers": {
-        "title": "Search providers",
-        "description": "Choose where UniSearch sends external queries."
+        "title": "검색 제공자",
+        "description": "UniSearch가 외부 쿼리를 보내는 위치를 선택합니다."
       }
     },
     "items": {
       "search": {
-        "universal": "Apps, contacts, files, settings, and shortcuts in one query",
-        "instant": "Real-time filtering with instant results",
-        "frecency": "Frecency ranking that adapts to your habits"
+        "universal": "한 번의 쿼리로 앱, 연락처, 파일, 설정 및 단축키",
+        "instant": "실시간 필터링을 통한 즉시 결과",
+        "frecency": "귀하의 습관에 맞게 조정되는 빈도 순위"
       },
       "actions": {
-        "shortcuts": "App shortcuts and deep links",
-        "system": "System actions and settings search",
-        "workflow": "Launch from Assistant, widget, or Quick Settings"
+        "shortcuts": "앱 단축키 및 딥 링크",
+        "system": "시스템 작업 및 설정 검색",
+        "workflow": "Assistant, 위젯 또는 빠른 설정에서 시작"
       },
       "files": {
-        "documents": "Documents, images, videos, music",
-        "media": "Folders and MediaStore-powered results",
-        "filters": "Type filters and exclusions"
+        "documents": "문서, 이미지, 비디오, 음악",
+        "media": "폴더 및 MediaStore 기반 결과",
+        "filters": "유형 필터 및 제외"
       },
       "contacts": {
-        "smart": "Smart matching and ranking",
-        "actions": "Call, message, or open linked apps",
-        "permissions": "Optional permissions with clear control"
+        "smart": "스마트 매칭 및 순위",
+        "actions": "전화, 메시지 또는 연결된 앱 열기",
+        "permissions": "명확한 제어 기능이 있는 선택적 권한"
       },
       "calculator": {
-        "inline": "Inline math as you type",
-        "precision": "BigDecimal precision with brackets",
-        "copy": "Copy results in one tap"
+        "inline": "입력하면서 인라인 수학",
+        "precision": "괄호가 있는 BigDecimal 정밀도",
+        "copy": "한 번의 탭으로 결과 복사"
       },
       "customization": {
-        "themes": "Light, dark, and curated themes",
-        "layout": "Icon size, grid spacing, labels",
-        "sections": "Show, hide, and reorder sections"
+        "themes": "밝음, 어두움 및 선별된 테마",
+        "layout": "아이콘 크기, 그리드 간격, 레이블",
+        "sections": "섹션 표시, 숨김 및 재정렬"
       },
       "ai": {
-        "prompts": "Create quick AI prompts",
-        "safe": "Clear opt-in usage",
-        "optional": "Disable AI anytime"
+        "prompts": "빠른 AI 프롬프트 만들기",
+        "safe": "명확한 옵트인 사용",
+        "optional": "언제든지 AI 비활성화"
       },
       "providers": {
-        "preset": "Preset providers like Google, YouTube or ChatGPT",
-        "toggle": "Enable or disable providers",
-        "always": "Ability to define custom ones"
+        "preset": "Google, YouTube 또는 ChatGPT와 같은 사전 설정 제공자",
+        "toggle": "제공자 활성화 또는 비활성화",
+        "always": "사용자 정의 제공자를 정의하는 기능"
       }
     }
   },
   "how": {
-    "title": "How it works",
-    "subtitle": "A simple flow designed for speed.",
+    "title": "작동 방식",
+    "subtitle": "속도를 위해 설계된 간단한 흐름.",
     "steps": {
       "index": {
-        "title": "Index",
-        "description": "UniSearch indexes apps, contacts, files, and settings locally."
+        "title": "색인",
+        "description": "UniSearch는 앱, 연락처, 파일 및 설정을 로컬로 색인합니다."
       },
       "search": {
-        "title": "Search",
-        "description": "Type once and get ranked results instantly."
+        "title": "검색",
+        "description": "한 번 입력하면 즉시 순위가 지정된 결과를 얻습니다."
       },
       "action": {
-        "title": "Action",
-        "description": "Open, call, calculate, or run a shortcut in one tap."
+        "title": "작업",
+        "description": "한 번의 탭으로 열기, 전화, 계산 또는 단축키 실행."
       }
     }
   },
   "freePro": {
-    "title": "Free vs Pro",
-    "subtitle": "Start free, upgrade once for full control.",
+    "title": "무료 vs Pro",
+    "subtitle": "무료로 시작하고 완전한 제어를 위해 한 번 업그레이드하세요.",
     "free": {
-      "title": "Free",
-      "description": "Everything you need to search fast.",
+      "title": "무료",
+      "description": "빠르게 검색하는 데 필요한 모든 것.",
       "items": {
-        "universal": "Universal search: apps, contacts, files, settings",
-        "algorithms": "All search algorithms: prefix, fuzzy, phonetic, acronym, token",
-        "frecency": "Frecency ranking across all sources",
-        "calculator": "Built-in calculator",
-        "appShortcutSyntax": "\"App: Shortcut\" query syntax",
-        "highlight": "Match highlighting",
-        "entryPoints": "Launch from Assistant, widget, or Quick Settings",
-        "quickSettings": "Quick Settings tile",
-        "assistantRole": "Assistant role support",
-        "notificationListener": "NotificationListenerService support",
-        "searchBarPosition": "Search bar position (top/bottom)",
-        "layout": "App layout (grid/list)",
-        "gridColumns": "Grid columns (4–6)",
-        "iconSize": "Icon size (S/M/L)",
-        "gridSpacing": "Grid spacing (S/M/L)",
-        "iconLabels": "Icon labels on/off",
-        "sectionHeaderIcons": "Section header icons",
-        "autofocus": "Auto-focus search bar",
-        "clearOnSelect": "Clear search on selection",
-        "hideRecentsEmpty": "Hide section when recents are empty",
-        "sectionVisibilityDefault": "Default visibility for 7 sections",
-        "resultLimits": "Result limits (3 sliders)",
-        "showHideTypes": "Show/hide result types and sections",
-        "hideApps": "Hide apps",
-        "hideContacts": "Hide contacts",
-        "hideActions": "Hide actions/shortcuts",
-        "excludeFiles": "Exclude files/folders",
-        "fileTypes": "File types (7 types)",
-        "freeThemes": "2 free themes: UniSearch + High Contrast",
-        "modes": "Light and dark mode",
-        "basicAnimations": "Basic animations (fade/slide)",
-        "providersPreset": "Preset search providers (Google, DuckDuckGo, etc.)",
-        "providersToggle": "Enable/disable providers",
-        "providersAlwaysShow": "\"Always show\" provider switch",
-        "customSection": "1 free custom section (no sorting)",
-        "analytics": "Basic analytics (opt-in)",
-        "privacy": "Privacy mode",
-        "languages": "All 25 languages",
-        "sponsored": "Sponsored sections (Native Ads)"
+        "universal": "통합 검색: 앱, 연락처, 파일, 설정",
+        "algorithms": "모든 검색 알고리즘: 접두사, 흐릿한, 음성, 약자, 토큰",
+        "frecency": "모든 출처에서의 빈도 순위",
+        "calculator": "내장 계산기",
+        "appShortcutSyntax": "\"앱: 단축키\" 쿼리 구문",
+        "highlight": "일치 강조",
+        "entryPoints": "Assistant, 위젯 또는 빠른 설정에서 시작",
+        "quickSettings": "빠른 설정 타일",
+        "assistantRole": "Assistant 역할 지원",
+        "notificationListener": "NotificationListenerService 지원",
+        "searchBarPosition": "검색 바 위치(위쪽/아래쪽)",
+        "layout": "앱 레이아웃(그리드/목록)",
+        "gridColumns": "그리드 열(4–6)",
+        "iconSize": "아이콘 크기(S/M/L)",
+        "gridSpacing": "그리드 간격(S/M/L)",
+        "iconLabels": "아이콘 레이블 켜기/끄기",
+        "sectionHeaderIcons": "섹션 헤더 아이콘",
+        "autofocus": "자동 초점 검색 바",
+        "clearOnSelect": "선택 시 검색 지우기",
+        "hideRecentsEmpty": "최근 항목이 비어있을 때 섹션 숨기기",
+        "sectionVisibilityDefault": "7개 섹션의 기본 가시성",
+        "resultLimits": "결과 제한(3개 슬라이더)",
+        "showHideTypes": "결과 유형 및 섹션 표시/숨기기",
+        "hideApps": "앱 숨기기",
+        "hideContacts": "연락처 숨기기",
+        "hideActions": "작업/단축키 숨기기",
+        "excludeFiles": "파일/폴더 제외",
+        "fileTypes": "파일 유형(7가지)",
+        "freeThemes": "2개의 무료 테마: UniSearch + 고대비",
+        "modes": "밝음 및 어두움 모드",
+        "basicAnimations": "기본 애니메이션(페이드/슬라이드)",
+        "providersPreset": "사전 설정 검색 제공자(Google, DuckDuckGo 등)",
+        "providersToggle": "제공자 활성화/비활성화",
+        "providersAlwaysShow": "\"항상 표시\" 제공자 스위치",
+        "customSection": "1개의 무료 사용자 정의 섹션(정렬 없음)",
+        "analytics": "기본 분석(옵트인)",
+        "privacy": "개인정보 보호 모드",
+        "languages": "모든 25개 언어",
+        "sponsored": "스폰서 섹션(네이티브 광고)"
       }
     },
     "pro": {
       "title": "Pro",
-      "description": "One-time purchase. Unlock full design power.",
-      "badge": "Most popular",
-      "priceNote": "About $5–6",
+      "description": "일회 구매. 완전한 디자인 파워를 잠금 해제하세요.",
+      "badge": "가장 인기있는",
+      "priceNote": "약 $5–6",
       "items": {
-        "premiumThemes": "3 premium themes: Glass, Material You, Minimal Dark",
-        "themeCreator": "Custom theme creator",
-        "presets": "Unlimited theme presets",
-        "perSectionStyle": "Per-section style overrides",
-        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
-        "searchbarColors": "Search bar colors (7 × Light/Dark)",
-        "sectionColors": "Section colors (7 × Light/Dark)",
-        "itemIconColors": "Item icon colors (2 × Light/Dark)",
-        "bottomSheetColors": "Bottom sheet colors (5 × Light/Dark)",
-        "widgetColors": "Widget colors (5 × Light/Dark)",
-        "wallpaperBlur": "Custom wallpaper color + blur",
-        "advancedAnimations": "Search bar load animations (11 types)",
-        "sectionAnimations": "Section load animations (11 types)",
-        "sectionResize": "Section resize: animated / instant / none",
-        "loadOrder": "Load order: top to bottom / bottom to top / simultaneous",
-        "animationSpeed": "Animation speed (5 levels)",
-        "geometrySearchbar": "Search bar geometry: radius, padding, border, opacity",
-        "searchbarLeadingIcon": "Search bar leading icon picker",
-        "hidePlaceholder": "Hide placeholder",
-        "geometrySections": "Section geometry: radius, padding, border, opacity",
-        "geometryWidget": "Widget geometry: radius, padding, height, border, opacity",
-        "widgetLeadingIcon": "Widget leading icon picker",
-        "unlimitedSections": "Unlimited custom sections (Free: 1)",
-        "dragDropSections": "Drag & drop section reorder",
-        "customItems": "Custom items: App, Action, Contact, File, Setting",
-        "reorderItems": "Reorder items",
-        "sectionIconColors": "Section icon colors (Light/Dark)",
-        "pinnedItems": "Pinned items",
-        "iconPacks": "External icon packs",
-        "customProviders": "Custom search providers (URL template with {{Q}})",
-        "providersReorder": "Drag & drop provider order",
-        "aiPrompts": "Custom AI prompts (label + template + target app)",
-        "aiManage": "Edit/remove AI prompts",
-        "aiReorder": "Drag & drop prompt order",
-        "backupExport": "Export settings (JSON)",
-        "backupImport": "Import settings (restore configuration)",
-        "removeAds": "Remove sponsored sections",
-        "support": "Support future development"
+        "premiumThemes": "3개의 프리미엄 테마: Glass, Material You, Minimal Dark",
+        "themeCreator": "사용자 정의 테마 제작자",
+        "presets": "무제한 테마 사전 설정",
+        "perSectionStyle": "섹션별 스타일 재정의",
+        "advancedColors": "52개 위치에서 색상 변경 가능(검색 바, 섹션, 위젯, 하단 패널)",
+        "searchbarColors": "검색 바 색상(7 × 밝음/어두움)",
+        "sectionColors": "섹션 색상(7 × 밝음/어두움)",
+        "itemIconColors": "항목 아이콘 색상(2 × 밝음/어두움)",
+        "bottomSheetColors": "하단 시트 색상(5 × 밝음/어두움)",
+        "widgetColors": "위젯 색상(5 × 밝음/어두움)",
+        "wallpaperBlur": "사용자 정의 배경화면 색상 + 흐리기",
+        "advancedAnimations": "검색 바 로드 애니메이션(11가지 유형)",
+        "sectionAnimations": "섹션 로드 애니메이션(11가지 유형)",
+        "sectionResize": "섹션 크기 조정: 애니메이션 / 즉시 / 없음",
+        "loadOrder": "로드 순서: 위에서 아래로 / 아래에서 위로 / 동시",
+        "animationSpeed": "애니메이션 속도(5단계)",
+        "geometrySearchbar": "검색 바 기하학: 반경, 패딩, 테두리, 불투명도",
+        "searchbarLeadingIcon": "검색 바 선행 아이콘 선택기",
+        "hidePlaceholder": "자리표시자 숨기기",
+        "geometrySections": "섹션 기하학: 반경, 패딩, 테두리, 불투명도",
+        "geometryWidget": "위젯 기하학: 반경, 패딩, 높이, 테두리, 불투명도",
+        "widgetLeadingIcon": "위젯 선행 아이콘 선택기",
+        "unlimitedSections": "무제한 사용자 정의 섹션(무료: 1)",
+        "dragDropSections": "드래그 및 드롭 섹션 재정렬",
+        "customItems": "사용자 정의 항목: 앱, 작업, 연락처, 파일, 설정",
+        "reorderItems": "항목 재정렬",
+        "sectionIconColors": "섹션 아이콘 색상(밝음/어두움)",
+        "pinnedItems": "고정된 항목",
+        "iconPacks": "외부 아이콘 팩",
+        "customProviders": "사용자 정의 검색 제공자({{Q}}를 포함한 URL 템플릿)",
+        "providersReorder": "드래그 및 드롭 제공자 순서",
+        "aiPrompts": "사용자 정의 AI 프롬프트(레이블 + 템플릿 + 대상 앱)",
+        "aiManage": "AI 프롬프트 편집/제거",
+        "aiReorder": "드래그 및 드롭 프롬프트 순서",
+        "backupExport": "설정 내보내기(JSON)",
+        "backupImport": "설정 가져오기(구성 복원)",
+        "removeAds": "스폰서 섹션 제거",
+        "support": "향후 개발 지원"
       }
     },
     "summary": {
-      "title": "Quick summary",
+      "title": "빠른 요약",
       "rows": {
-        "customization": "Customization",
-        "sections": "Custom sections",
-        "backup": "Backup",
-        "ads": "Ads"
+        "customization": "커스터마이제이션",
+        "sections": "사용자 정의 섹션",
+        "backup": "백업",
+        "ads": "광고"
       },
       "values": {
-        "basic": "Basic",
-        "unlimited": "Unlimited",
-        "limited": "1 only",
-        "none": "Not included",
-        "included": "Included",
-        "sponsored": "Sponsored sections"
+        "basic": "기본",
+        "unlimited": "무제한",
+        "limited": "1개만",
+        "none": "포함되지 않음",
+        "included": "포함됨",
+        "sponsored": "스폰서 섹션"
       },
       "headers": {
-        "free": "Free",
+        "free": "무료",
         "pro": "Pro"
       }
     }
   },
   "cta": {
-    "title": "Ready to speed up your phone?",
-    "subtitle": "Install UniSearch and get the fastest way to find anything.",
-    "button": "Get it on Google Play"
+    "title": "휴대폰을 빠르게 할 준비가 되었나요?",
+    "subtitle": "UniSearch를 설치하고 모든 것을 찾을 수 있는 가장 빠른 방법을 얻습니다.",
+    "button": "Google Play에서 다운로드"
   },
   "faq": {
-    "title": "FAQ",
-    "subtitle": "Quick answers to common questions.",
+    "title": "자주 묻는 질문",
+    "subtitle": "일반적인 질문에 대한 빠른 답변.",
     "items": [
       {
-        "q": "Does UniSearch send my data to the cloud?",
-        "a": "No. Search data and indexing stay on your device."
+        "q": "UniSearch가 내 데이터를 클라우드로 전송하나요?",
+        "a": "아니요. 검색 데이터 및 색인은 기기에 유지됩니다."
       },
       {
-        "q": "What exactly is indexed?",
-        "a": "Apps, shortcuts, system settings, contacts, and files you allow."
+        "q": "정확히 무엇이 색인되나요?",
+        "a": "앱, 단축키, 시스템 설정, 연락처 및 허용한 파일."
       },
       {
-        "q": "Is Pro a subscription?",
-        "a": "No. Pro is a one-time purchase around $5–6."
+        "q": "Pro는 구독인가요?",
+        "a": "아니요. Pro는 약 $5–6의 일회 구매입니다."
       },
       {
-        "q": "Can I restore my settings?",
-        "a": "Pro includes backup and restore via JSON export/import."
+        "q": "내 설정을 복원할 수 있나요?",
+        "a": "Pro에는 JSON 내보내기/가져오기를 통한 백업 및 복원이 포함됩니다."
       },
       {
-        "q": "Is AI required?",
-        "a": "No. AI prompts are optional and can be disabled."
+        "q": "AI가 필요한가요?",
+        "a": "아니요. AI 프롬프트는 선택 사항이며 비활성화할 수 있습니다."
       },
       {
-        "q": "How can I contact support?",
-        "a": "Email us and we will respond quickly."
+        "q": "지원팀에 어떻게 연락하나요?",
+        "a": "이메일로 문의하시면 빠르게 응답드리겠습니다."
       }
     ]
   },
   "footer": {
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "contact": "Contact",
+    "privacy": "개인정보 보호",
+    "terms": "약관",
+    "contact": "문의",
     "googlePlay": "Google Play",
-    "copyright": "© {year} UniSearch. All rights reserved.",
-    "createdBy": "Created by Webybox"
+    "copyright": "© {year} UniSearch. 모든 권리 보유.",
+    "createdBy": "Webybox에서 제작"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "Effective date: 2026-02-10",
-    "intro": "This app is designed to work locally on your device. We do not run our own backend servers for your data.",
+    "title": "개인정보 보호정책",
+    "subtitle": "유효 날짜: 2026-02-10",
+    "intro": "이 앱은 기기에서 로컬로 작동하도록 설계되었습니다. 우리는 귀하의 데이터를 위한 자체 백엔드 서버를 운영하지 않습니다.",
     "sections": {
       "introduction": {
-        "title": "Overview",
+        "title": "개요",
         "body": [
-          "This app is designed to work locally on your device.",
-          "We do not run our own backend servers for your data."
+          "이 앱은 기기에서 로컬로 작동하도록 설계되었습니다.",
+          "우리는 귀하의 데이터를 위한 자체 백엔드 서버를 운영하지 않습니다."
         ]
       },
       "data": {
-        "title": "Data We Collect",
+        "title": "수집하는 데이터",
         "body": [
-          "We do not collect or upload your contacts, files, or search data to our servers.",
-          "The app uses the following third-party services which may collect data according to their policies:",
-          "Google AdMob (ads)",
-          "Google Firebase Analytics (usage analytics)",
-          "Google Firebase Crashlytics (crash reports)",
-          "Google User Messaging Platform (consent management)",
-          "These services may collect device identifiers and usage information. You can review their policies in Google’s documentation."
+          "우리는 귀하의 연락처, 파일 또는 검색 데이터를 우리 서버로 수집하거나 업로드하지 않습니다.",
+          "앱은 다음의 타사 서비스를 사용하며, 이는 정책에 따라 데이터를 수집할 수 있습니다:",
+          "Google AdMob(광고)",
+          "Google Firebase Analytics(사용 분석)",
+          "Google Firebase Crashlytics(충돌 보고)",
+          "Google User Messaging Platform(동의 관리)",
+          "이러한 서비스는 기기 식별자 및 사용 정보를 수집할 수 있습니다. Google 문서에서 정책을 검토할 수 있습니다."
         ]
       },
       "permissions": {
-        "title": "Permissions We Use",
+        "title": "사용하는 권한",
         "body": [
-          "READ_CONTACTS: to search and display contacts on-device.",
-          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: to search files across device storage, including non-media files and full folder paths. This is required for fast, system-wide file search and exclusions. SAF/MediaStore alone do not provide complete coverage for all file types and paths.",
-          "QUERY_ALL_PACKAGES: to index all installed apps, show them in search results, and enable launch of any app or shortcut. Without this, the app cannot provide full app search.",
-          "INTERNET: required by Google services and ads.",
-          "We use these permissions only for the features described above and only on-device."
+          "READ_CONTACTS: 기기에서 연락처를 검색하고 표시합니다.",
+          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: 미디어 파일이 아닌 파일 및 전체 폴더 경로를 포함하여 기기 저장소에서 파일을 검색합니다. 이는 빠르고 시스템 전체 파일 검색 및 제외에 필요합니다. SAF/MediaStore만으로는 모든 파일 유형 및 경로에 대한 완전한 범위를 제공하지 않습니다.",
+          "QUERY_ALL_PACKAGES: 설치된 모든 앱을 색인하고, 검색 결과에 표시하며, 모든 앱 또는 단축키 시작을 활성화합니다. 이것이 없으면 앱은 전체 앱 검색을 제공할 수 없습니다.",
+          "INTERNET: Google 서비스 및 광고에 필요합니다.",
+          "위에서 설명한 기능에만 기기에서만 이러한 권한을 사용합니다."
         ]
       },
       "analytics": {
-        "title": "Analytics",
+        "title": "분석",
         "body": [
-          "Usage analytics may be provided by Google Firebase Analytics.",
-          "Crash reports may be provided by Google Firebase Crashlytics."
+          "사용 분석은 Google Firebase Analytics에서 제공할 수 있습니다.",
+          "충돌 보고는 Google Firebase Crashlytics에서 제공할 수 있습니다."
         ]
       },
       "ads": {
-        "title": "Ads",
+        "title": "광고",
         "body": [
-          "Ads may be served via Google AdMob.",
-          "Consent management may be handled by Google User Messaging Platform."
+          "광고는 Google AdMob을 통해 제공될 수 있습니다.",
+          "동의 관리는 Google User Messaging Platform에서 처리할 수 있습니다."
         ]
       },
       "sharing": {
-        "title": "Data Sharing",
+        "title": "데이터 공유",
         "body": [
-          "We do not sell your personal data.",
-          "Data may be processed by the third-party services listed above as part of ads, analytics, and crash reporting."
+          "우리는 귀하의 개인 데이터를 판매하지 않습니다.",
+          "데이터는 광고, 분석 및 충돌 보고의 일부로 위에 나열된 타사 서비스에서 처리될 수 있습니다."
         ]
       },
       "security": {
-        "title": "Security",
+        "title": "보안",
         "body": [
-          "We take reasonable measures to protect data on-device.",
-          "No method of transmission or storage is 100% secure."
+          "우리는 기기의 데이터를 보호하기 위해 합리적인 조치를 취합니다.",
+          "전송 또는 저장의 어떤 방법도 100% 안전하지 않습니다."
         ]
       },
       "rights": {
-        "title": "Data Retention & Children’s Privacy",
+        "title": "데이터 보존 및 아동 개인정보 보호",
         "body": [
-          "We do not store your personal data on our servers.",
-          "Retention by third-party services is governed by their policies.",
-          "This app is not directed to children under 13.",
-          "We may update this policy. Changes will be posted in this file with a new effective date."
+          "우리는 귀하의 개인 데이터를 우리 서버에 저장하지 않습니다.",
+          "타사 서비스에 의한 보존은 정책에 따라 결정됩니다.",
+          "이 앱은 13세 미만의 아동을 대상으로 하지 않습니다.",
+          "이 정책을 업데이트할 수 있습니다. 변경 사항은 새로운 유효 날짜와 함께 이 파일에 게시됩니다."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "문의",
         "body": [
-          "If you have questions, contact: contact@webybox.com"
+          "질문이 있으시면 다음으로 문의하세요: contact@webybox.com"
         ]
       }
     }
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Last updated: February 11, 2026",
-    "intro": "These terms outline the basic rules for using UniSearch.",
+    "title": "서비스 약관",
+    "subtitle": "마지막 업데이트: 2026년 2월 11일",
+    "intro": "이 약관은 UniSearch 사용을 위한 기본 규칙을 설명합니다.",
     "sections": {
       "usage": {
-        "title": "Use of the app",
+        "title": "앱 사용",
         "body": [
-          "Use UniSearch in accordance with local laws and platform policies.",
-          "Do not misuse the app for unlawful activities."
+          "현지 법률 및 플랫폼 정책에 따라 UniSearch를 사용합니다.",
+          "불법적인 활동으로 앱을 오용하지 마십시오."
         ]
       },
       "purchases": {
-        "title": "Purchases",
+        "title": "구매",
         "body": [
-          "Pro is a one-time purchase handled by Google Play.",
-          "Refunds follow Google Play policies."
+          "Pro는 Google Play에서 처리하는 일회 구매입니다.",
+          "환불은 Google Play 정책을 따릅니다."
         ]
       },
       "liability": {
-        "title": "Limitation of liability",
+        "title": "책임 제한",
         "body": [
-          "The app is provided as-is without warranties.",
-          "We are not liable for indirect damages."
+          "앱은 보증 없이 있는 그대로 제공됩니다.",
+          "우리는 간접적인 손해에 대해 책임을 지지 않습니다."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "문의",
         "body": [
-          "Questions? Reach out via email."
+          "질문이 있나요? 이메일로 연락하세요."
         ]
       }
     }
   },
   "searchProviders": {
-    "title": "Search with providers",
-    "subtitle": "Choose where to search and control when results appear.",
+    "title": "제공자와 검색",
+    "subtitle": "검색 위치를 선택하고 결과가 나타날 때를 제어합니다.",
     "items": [
       {
-        "title": "Preset providers",
-        "description": "Google, DuckDuckGo, and other popular sources."
+        "title": "사전 설정 제공자",
+        "description": "Google, DuckDuckGo 및 기타 인기 있는 소스."
       },
       {
-        "title": "Enable / disable",
-        "description": "Full control over which providers are active."
+        "title": "활성화 / 비활성화",
+        "description": "활성화된 제공자에 대한 완전한 제어."
       },
       {
-        "title": "Always show",
-        "description": "Keep a chosen provider visible at all times."
+        "title": "항상 표시",
+        "description": "선택한 제공자를 항상 표시합니다."
       },
       {
-        "title": "Quick switching",
-        "description": "Swap providers without leaving the search bar."
+        "title": "빠른 전환",
+        "description": "검색 바를 떠나지 않고 제공자를 전환합니다."
       }
     ]
   }

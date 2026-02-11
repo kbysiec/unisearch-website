@@ -1,443 +1,443 @@
 {
   "meta": {
-    "title": "UniSearch — Universal search for Android",
-    "description": "Find apps, contacts, files, actions, and more from one fast search bar. Built for speed, privacy, and offline-first use.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDescription": "Learn how UniSearch processes data locally and keeps your searches private.",
-    "termsTitle": "Terms of Service",
-    "termsDescription": "Basic terms for using the UniSearch app and website."
+    "title": "UniSearch — Universeel zoeken voor Android",
+    "description": "Vind apps, contacten, bestanden, acties en meer vanuit één snelle zoekbalk. Gebouwd voor snelheid, privacy en offline-first gebruik.",
+    "privacyTitle": "Privacybeleid",
+    "privacyDescription": "Ontdek hoe UniSearch gegevens lokaal verwerkt en je zoekopdrachten privé houdt.",
+    "termsTitle": "Servicevoorwaarden",
+    "termsDescription": "Basisvoorwaarden voor het gebruik van de UniSearch-app en website."
   },
   "common": {
-    "back": "Back"
+    "back": "Terug"
   },
   "nav": {
-    "features": "Features",
-    "freePro": "Free vs Pro",
+    "features": "Functies",
+    "freePro": "Gratis vs Pro",
     "privacy": "Privacy",
-    "faq": "FAQ",
-    "getApp": "Get it on Google Play",
-    "how": "How it works",
-    "language": "Language",
-    "changelog": "Changelog"
+    "faq": "Veelgestelde vragen",
+    "getApp": "Haal het op Google Play",
+    "how": "Hoe het werkt",
+    "language": "Taal",
+    "changelog": "Wijzigingslogboek"
   },
   "hero": {
-    "badge": "Universal search for Android",
-    "title": "Find everything on your phone in seconds.",
-    "subtitle": "Apps, contacts, files, actions, calculator, and AI — all from one lightning-fast search bar.",
-    "primaryCta": "Get it on Google Play",
-    "secondaryCta": "Explore features",
-    "note": "No account required. Works offline by default."
+    "badge": "Universeel zoeken voor Android",
+    "title": "Vind alles op je telefoon in enkele seconden.",
+    "subtitle": "Apps, contacten, bestanden, acties, rekenmachine en AI — allemaal vanuit één bliksemsnelle zoekbalk.",
+    "primaryCta": "Haal het op Google Play",
+    "secondaryCta": "Verken functies",
+    "note": "Geen account vereist. Werkt standaard offline."
   },
   "trust": {
-    "title": "Built for speed and control",
+    "title": "Gebouwd voor snelheid en controle",
     "items": [
       {
-        "title": "Fast",
-        "description": "Instant results with real-time filtering and smart ranking."
+        "title": "Snel",
+        "description": "Directe resultaten met realtime filtering en slimme rangschikking."
       },
       {
         "title": "Privacy",
-        "description": "Your data stays on-device. Optional analytics only."
+        "description": "Je gegevens blijven op het apparaat. Alleen optionele analyse."
       },
       {
         "title": "Offline-first",
-        "description": "Search works even without an internet connection."
+        "description": "Zoeken werkt ook zonder internetverbinding."
       },
       {
-        "title": "Personalization",
-        "description": "Tune themes, sections, spacing, and behavior."
+        "title": "Personalisatie",
+        "description": "Pas thema's, secties, afstand en gedrag aan."
       }
     ]
   },
   "features": {
-    "title": "Everything you want to find — instantly",
-    "subtitle": "UniSearch brings every source into one smooth, unified result list.",
+    "title": "Alles wat je wilt vinden — direct",
+    "subtitle": "UniSearch brengt elke bron in één soepele, uniforme resultatenlijst.",
     "groups": {
       "search": {
         "title": "Unified search",
-        "description": "Find anything with smart ranking and noise filtering."
+        "description": "Vind alles met slimme rangschikking en ruisfiltering."
       },
       "actions": {
-        "title": "Actions & shortcuts",
-        "description": "Launch actions, deep links, and curated shortcuts."
+        "title": "Acties & snelkoppelingen",
+        "description": "Start acties, deep links en gecureerde snelkoppelingen."
       },
       "files": {
-        "title": "Files & media",
-        "description": "Search documents, photos, videos, music, and folders."
+        "title": "Bestanden & media",
+        "description": "Zoek documenten, foto's, video's, muziek en mappen."
       },
       "contacts": {
-        "title": "Contacts",
-        "description": "Call, message, or open linked apps instantly."
+        "title": "Contacten",
+        "description": "Bel, verstuur berichten of open gekoppelde apps direct."
       },
       "calculator": {
-        "title": "Calculator",
-        "description": "Inline calculator with precision math."
+        "title": "Rekenmachine",
+        "description": "Inline rekenmachine met nauwkeurige wiskunde."
       },
       "customization": {
-        "title": "Customization",
-        "description": "Control layout, themes, and visibility."
+        "title": "Aanpassingen",
+        "description": "Beheer indeling, thema's en zichtbaarheid."
       },
       "ai": {
-        "title": "AI prompts",
-        "description": "Optional AI helpers with clear data boundaries."
+        "title": "AI-prompts",
+        "description": "Optionele AI-hulpen met duidelijke gegevensgrenzen."
       },
       "providers": {
-        "title": "Search providers",
-        "description": "Choose where UniSearch sends external queries."
+        "title": "Zoekproviders",
+        "description": "Kies waar UniSearch externe zoekopdrachten naartoe stuurt."
       }
     },
     "items": {
       "search": {
-        "universal": "Apps, contacts, files, settings, and shortcuts in one query",
-        "instant": "Real-time filtering with instant results",
-        "frecency": "Frecency ranking that adapts to your habits"
+        "universal": "Apps, contacten, bestanden, instellingen en snelkoppelingen in één zoekopdracht",
+        "instant": "Realtime filtering met directe resultaten",
+        "frecency": "Frecency-rangschikking die zich aanpast aan je gewoonten"
       },
       "actions": {
-        "shortcuts": "App shortcuts and deep links",
-        "system": "System actions and settings search",
-        "workflow": "Launch from Assistant, widget, or Quick Settings"
+        "shortcuts": "App-snelkoppelingen en deep links",
+        "system": "Systeemacties en instellingen zoeken",
+        "workflow": "Start vanuit Assistent, widget of Snelle instellingen"
       },
       "files": {
-        "documents": "Documents, images, videos, music",
-        "media": "Folders and MediaStore-powered results",
-        "filters": "Type filters and exclusions"
+        "documents": "Documenten, afbeeldingen, video's, muziek",
+        "media": "Mappen en MediaStore-aangedreven resultaten",
+        "filters": "Type filters en uitsluitingen"
       },
       "contacts": {
-        "smart": "Smart matching and ranking",
-        "actions": "Call, message, or open linked apps",
-        "permissions": "Optional permissions with clear control"
+        "smart": "Slimme overeenkomstvorming en rangschikking",
+        "actions": "Bel, verstuur berichten of open gekoppelde apps",
+        "permissions": "Optionele machtigingen met duidelijke controle"
       },
       "calculator": {
-        "inline": "Inline math as you type",
-        "precision": "BigDecimal precision with brackets",
-        "copy": "Copy results in one tap"
+        "inline": "Inline wiskunde terwijl je typt",
+        "precision": "BigDecimal-nauwkeurigheid met haakjes",
+        "copy": "Kopieer resultaten in één tik"
       },
       "customization": {
-        "themes": "Light, dark, and curated themes",
-        "layout": "Icon size, grid spacing, labels",
-        "sections": "Show, hide, and reorder sections"
+        "themes": "Licht-, donker- en gecureerde thema's",
+        "layout": "Pictogramgrootte, rasterafstand, labels",
+        "sections": "Toon, verberg en herschik secties"
       },
       "ai": {
-        "prompts": "Create quick AI prompts",
-        "safe": "Clear opt-in usage",
-        "optional": "Disable AI anytime"
+        "prompts": "Maak snelle AI-prompts",
+        "safe": "Duidelijke opt-in-gebruik",
+        "optional": "Schakel AI op elk moment uit"
       },
       "providers": {
-        "preset": "Preset providers like Google, YouTube or ChatGPT",
-        "toggle": "Enable or disable providers",
-        "always": "Ability to define custom ones"
+        "preset": "Vooraf ingestelde providers zoals Google, YouTube of ChatGPT",
+        "toggle": "Schakel providers in of uit",
+        "always": "Mogelijkheid om aangepaste providers te definiëren"
       }
     }
   },
   "how": {
-    "title": "How it works",
-    "subtitle": "A simple flow designed for speed.",
+    "title": "Hoe het werkt",
+    "subtitle": "Een eenvoudige workflow ontworpen voor snelheid.",
     "steps": {
       "index": {
         "title": "Index",
-        "description": "UniSearch indexes apps, contacts, files, and settings locally."
+        "description": "UniSearch indexeert apps, contacten, bestanden en instellingen lokaal."
       },
       "search": {
-        "title": "Search",
-        "description": "Type once and get ranked results instantly."
+        "title": "Zoeken",
+        "description": "Typ eenmaal en krijg onmiddellijk gerangschikte resultaten."
       },
       "action": {
-        "title": "Action",
-        "description": "Open, call, calculate, or run a shortcut in one tap."
+        "title": "Actie",
+        "description": "Open, bel, bereken of voer een snelkoppeling uit in één tik."
       }
     }
   },
   "freePro": {
-    "title": "Free vs Pro",
-    "subtitle": "Start free, upgrade once for full control.",
+    "title": "Gratis vs Pro",
+    "subtitle": "Begin gratis, upgrade eenmaal voor volledige controle.",
     "free": {
-      "title": "Free",
-      "description": "Everything you need to search fast.",
+      "title": "Gratis",
+      "description": "Alles wat je nodig hebt om snel te zoeken.",
       "items": {
-        "universal": "Universal search: apps, contacts, files, settings",
-        "algorithms": "All search algorithms: prefix, fuzzy, phonetic, acronym, token",
-        "frecency": "Frecency ranking across all sources",
-        "calculator": "Built-in calculator",
-        "appShortcutSyntax": "\"App: Shortcut\" query syntax",
-        "highlight": "Match highlighting",
-        "entryPoints": "Launch from Assistant, widget, or Quick Settings",
-        "quickSettings": "Quick Settings tile",
-        "assistantRole": "Assistant role support",
-        "notificationListener": "NotificationListenerService support",
-        "searchBarPosition": "Search bar position (top/bottom)",
-        "layout": "App layout (grid/list)",
-        "gridColumns": "Grid columns (4–6)",
-        "iconSize": "Icon size (S/M/L)",
-        "gridSpacing": "Grid spacing (S/M/L)",
-        "iconLabels": "Icon labels on/off",
-        "sectionHeaderIcons": "Section header icons",
-        "autofocus": "Auto-focus search bar",
-        "clearOnSelect": "Clear search on selection",
-        "hideRecentsEmpty": "Hide section when recents are empty",
-        "sectionVisibilityDefault": "Default visibility for 7 sections",
-        "resultLimits": "Result limits (3 sliders)",
-        "showHideTypes": "Show/hide result types and sections",
-        "hideApps": "Hide apps",
-        "hideContacts": "Hide contacts",
-        "hideActions": "Hide actions/shortcuts",
-        "excludeFiles": "Exclude files/folders",
-        "fileTypes": "File types (7 types)",
-        "freeThemes": "2 free themes: UniSearch + High Contrast",
-        "modes": "Light and dark mode",
-        "basicAnimations": "Basic animations (fade/slide)",
-        "providersPreset": "Preset search providers (Google, DuckDuckGo, etc.)",
-        "providersToggle": "Enable/disable providers",
-        "providersAlwaysShow": "\"Always show\" provider switch",
-        "customSection": "1 free custom section (no sorting)",
-        "analytics": "Basic analytics (opt-in)",
-        "privacy": "Privacy mode",
-        "languages": "All 25 languages",
-        "sponsored": "Sponsored sections (Native Ads)"
+        "universal": "Universeel zoeken: apps, contacten, bestanden, instellingen",
+        "algorithms": "Alle zoekalgoritmes: prefix, fuzzy, phonetic, acronym, token",
+        "frecency": "Frecency-rangschikking over alle bronnen",
+        "calculator": "Ingebouwde rekenmachine",
+        "appShortcutSyntax": "\"App: Shortcut\"-querysyntaxis",
+        "highlight": "Markeerbaarheid van resultaten",
+        "entryPoints": "Start vanuit Assistent, widget of Snelle instellingen",
+        "quickSettings": "Snelle instellingen tegel",
+        "assistantRole": "Assistentrolondersteuning",
+        "notificationListener": "NotificationListenerService-ondersteuning",
+        "searchBarPosition": "Zoekbalk positie (boven/beneden)",
+        "layout": "App-indeling (raster/lijst)",
+        "gridColumns": "Rasterkolommen (4–6)",
+        "iconSize": "Pictogramgrootte (S/M/L)",
+        "gridSpacing": "Rasterafstand (S/M/L)",
+        "iconLabels": "Pictogramlabels aan/uit",
+        "sectionHeaderIcons": "Sectiekoptekstpictogrammen",
+        "autofocus": "Auto-focus zoekbalk",
+        "clearOnSelect": "Wis zoekopdracht bij selectie",
+        "hideRecentsEmpty": "Verberg sectie als recente items leeg zijn",
+        "sectionVisibilityDefault": "Standaard zichtbaarheid voor 7 secties",
+        "resultLimits": "Resultaatlimiet (3 schuifregelaars)",
+        "showHideTypes": "Toon/verberg resultaattypen en secties",
+        "hideApps": "Verberg apps",
+        "hideContacts": "Verberg contacten",
+        "hideActions": "Verberg acties/snelkoppelingen",
+        "excludeFiles": "Sluit bestanden/mappen uit",
+        "fileTypes": "Bestandstypen (7 typen)",
+        "freeThemes": "2 gratis thema's: UniSearch + High Contrast",
+        "modes": "Licht- en donkere modus",
+        "basicAnimations": "Basisanimaties (fade/slide)",
+        "providersPreset": "Vooraf ingestelde zoekproviders (Google, DuckDuckGo, enz.)",
+        "providersToggle": "In-/uitschakelen providers",
+        "providersAlwaysShow": "\"Altijd weergeven\" provider switch",
+        "customSection": "1 gratis aangepaste sectie (geen sortering)",
+        "analytics": "Basisanalytics (opt-in)",
+        "privacy": "Privacy-modus",
+        "languages": "Alle 25 talen",
+        "sponsored": "Gesponsorde secties (Native Ads)"
       }
     },
     "pro": {
       "title": "Pro",
-      "description": "One-time purchase. Unlock full design power.",
-      "badge": "Most popular",
-      "priceNote": "About $5–6",
+      "description": "Eenmalige aankoop. Ontgrendel volledige ontwerpkracht.",
+      "badge": "Meest populair",
+      "priceNote": "Ongeveer 5–6 dollar",
       "items": {
-        "premiumThemes": "3 premium themes: Glass, Material You, Minimal Dark",
-        "themeCreator": "Custom theme creator",
-        "presets": "Unlimited theme presets",
-        "perSectionStyle": "Per-section style overrides",
-        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
-        "searchbarColors": "Search bar colors (7 × Light/Dark)",
-        "sectionColors": "Section colors (7 × Light/Dark)",
-        "itemIconColors": "Item icon colors (2 × Light/Dark)",
-        "bottomSheetColors": "Bottom sheet colors (5 × Light/Dark)",
-        "widgetColors": "Widget colors (5 × Light/Dark)",
-        "wallpaperBlur": "Custom wallpaper color + blur",
-        "advancedAnimations": "Search bar load animations (11 types)",
-        "sectionAnimations": "Section load animations (11 types)",
-        "sectionResize": "Section resize: animated / instant / none",
-        "loadOrder": "Load order: top to bottom / bottom to top / simultaneous",
-        "animationSpeed": "Animation speed (5 levels)",
-        "geometrySearchbar": "Search bar geometry: radius, padding, border, opacity",
-        "searchbarLeadingIcon": "Search bar leading icon picker",
-        "hidePlaceholder": "Hide placeholder",
-        "geometrySections": "Section geometry: radius, padding, border, opacity",
-        "geometryWidget": "Widget geometry: radius, padding, height, border, opacity",
-        "widgetLeadingIcon": "Widget leading icon picker",
-        "unlimitedSections": "Unlimited custom sections (Free: 1)",
-        "dragDropSections": "Drag & drop section reorder",
-        "customItems": "Custom items: App, Action, Contact, File, Setting",
-        "reorderItems": "Reorder items",
-        "sectionIconColors": "Section icon colors (Light/Dark)",
-        "pinnedItems": "Pinned items",
-        "iconPacks": "External icon packs",
-        "customProviders": "Custom search providers (URL template with {{Q}})",
-        "providersReorder": "Drag & drop provider order",
-        "aiPrompts": "Custom AI prompts (label + template + target app)",
-        "aiManage": "Edit/remove AI prompts",
-        "aiReorder": "Drag & drop prompt order",
-        "backupExport": "Export settings (JSON)",
-        "backupImport": "Import settings (restore configuration)",
-        "removeAds": "Remove sponsored sections",
-        "support": "Support future development"
+        "premiumThemes": "3 premiumthema's: Glass, Material You, Minimal Dark",
+        "themeCreator": "Aangepaste themamaken",
+        "presets": "Onbeperkte thema-voorinstellingen",
+        "perSectionStyle": "Stijloverrides per sectie",
+        "advancedColors": "52 plaatsen met mogelijkheid tot kleurverandering (Zoekbalk, Secties, Widget, Onderste paneel)",
+        "searchbarColors": "Zoekbalkkleurenpaletten (7 × Licht/Donker)",
+        "sectionColors": "Sectiepaletten (7 × Licht/Donker)",
+        "itemIconColors": "Pictogramkleurenpaletten (2 × Licht/Donker)",
+        "bottomSheetColors": "Kleurenpaletten onderste blad (5 × Licht/Donker)",
+        "widgetColors": "Widgetkleurenpaletten (5 × Licht/Donker)",
+        "wallpaperBlur": "Aangepaste achtergrondkleur + blur",
+        "advancedAnimations": "Laadanimaties zoekbalk (11 typen)",
+        "sectionAnimations": "Laadanimaties secties (11 typen)",
+        "sectionResize": "Sectie aanpassen: geanimeerd / instant / geen",
+        "loadOrder": "Laadvolgorde: top naar beneden / beneden naar top / gelijktijdig",
+        "animationSpeed": "Animatiesnelheid (5 niveaus)",
+        "geometrySearchbar": "Zoekbalk geometrie: straal, padding, rand, dekking",
+        "searchbarLeadingIcon": "Zoekbalk voorlooppictogrampkiezer",
+        "hidePlaceholder": "Verberg placeholder",
+        "geometrySections": "Sectiegeometrie: straal, padding, rand, dekking",
+        "geometryWidget": "Widgetgeometrie: straal, padding, hoogte, rand, dekking",
+        "widgetLeadingIcon": "Widgetvoorlooppictogrampkiezer",
+        "unlimitedSections": "Onbeperkte aangepaste secties (Gratis: 1)",
+        "dragDropSections": "Sleep & zet sectie herschikken",
+        "customItems": "Aangepaste items: App, Actie, Contact, Bestand, Instelling",
+        "reorderItems": "Items herschikken",
+        "sectionIconColors": "Sectie-pictogramkleurenpaletten (Licht/Donker)",
+        "pinnedItems": "Vastgemaakte items",
+        "iconPacks": "Externe pictogrampakketten",
+        "customProviders": "Aangepaste zoekproviders (URL-sjabloon met {{Q}})",
+        "providersReorder": "Sleep & zet provider herschikken",
+        "aiPrompts": "Aangepaste AI-prompts (label + sjabloon + doel-app)",
+        "aiManage": "Bewerk/verwijder AI-prompts",
+        "aiReorder": "Sleep & zet promptvolgorde",
+        "backupExport": "Exporteer instellingen (JSON)",
+        "backupImport": "Importeer instellingen (herstel configuratie)",
+        "removeAds": "Verwijder gesponsorde secties",
+        "support": "Ondersteun toekomstige ontwikkeling"
       }
     },
     "summary": {
-      "title": "Quick summary",
+      "title": "Snelle samenvatting",
       "rows": {
-        "customization": "Customization",
-        "sections": "Custom sections",
-        "backup": "Backup",
-        "ads": "Ads"
+        "customization": "Aanpassingen",
+        "sections": "Aangepaste secties",
+        "backup": "Back-up",
+        "ads": "Advertenties"
       },
       "values": {
-        "basic": "Basic",
-        "unlimited": "Unlimited",
-        "limited": "1 only",
-        "none": "Not included",
-        "included": "Included",
-        "sponsored": "Sponsored sections"
+        "basic": "Basis",
+        "unlimited": "Onbeperkt",
+        "limited": "Alleen 1",
+        "none": "Niet inbegrepen",
+        "included": "Inbegrepen",
+        "sponsored": "Gesponsorde secties"
       },
       "headers": {
-        "free": "Free",
+        "free": "Gratis",
         "pro": "Pro"
       }
     }
   },
   "cta": {
-    "title": "Ready to speed up your phone?",
-    "subtitle": "Install UniSearch and get the fastest way to find anything.",
-    "button": "Get it on Google Play"
+    "title": "Klaar om je telefoon sneller te maken?",
+    "subtitle": "Installeer UniSearch en krijg de snelste manier om alles te vinden.",
+    "button": "Haal het op Google Play"
   },
   "faq": {
-    "title": "FAQ",
-    "subtitle": "Quick answers to common questions.",
+    "title": "Veelgestelde vragen",
+    "subtitle": "Snelle antwoorden op veelgestelde vragen.",
     "items": [
       {
-        "q": "Does UniSearch send my data to the cloud?",
-        "a": "No. Search data and indexing stay on your device."
+        "q": "Stuurt UniSearch mijn gegevens naar de cloud?",
+        "a": "Nee. Zoekopdrachten en indexering blijven op je apparaat."
       },
       {
-        "q": "What exactly is indexed?",
-        "a": "Apps, shortcuts, system settings, contacts, and files you allow."
+        "q": "Wat wordt er precies geïndexeerd?",
+        "a": "Apps, snelkoppelingen, systeeminstellingen, contacten en bestanden die je toestaat."
       },
       {
-        "q": "Is Pro a subscription?",
-        "a": "No. Pro is a one-time purchase around $5–6."
+        "q": "Is Pro een abonnement?",
+        "a": "Nee. Pro is een eenmalige aankoop van ongeveer 5–6 dollar."
       },
       {
-        "q": "Can I restore my settings?",
-        "a": "Pro includes backup and restore via JSON export/import."
+        "q": "Kan ik mijn instellingen herstellen?",
+        "a": "Pro bevat back-up en herstel via JSON export/import."
       },
       {
-        "q": "Is AI required?",
-        "a": "No. AI prompts are optional and can be disabled."
+        "q": "Is AI vereist?",
+        "a": "Nee. AI-prompts zijn optioneel en kunnen worden uitgeschakeld."
       },
       {
-        "q": "How can I contact support?",
-        "a": "Email us and we will respond quickly."
+        "q": "Hoe kan ik contact opnemen met ondersteuning?",
+        "a": "Stuur ons een e-mail en we reageren snel."
       }
     ]
   },
   "footer": {
     "privacy": "Privacy",
-    "terms": "Terms",
+    "terms": "Voorwaarden",
     "contact": "Contact",
     "googlePlay": "Google Play",
-    "copyright": "© {year} UniSearch. All rights reserved.",
-    "createdBy": "Created by Webybox"
+    "copyright": "© {year} UniSearch. Alle rechten voorbehouden.",
+    "createdBy": "Gemaakt door Webybox"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "Effective date: 2026-02-10",
-    "intro": "This app is designed to work locally on your device. We do not run our own backend servers for your data.",
+    "title": "Privacybeleid",
+    "subtitle": "Geldig van: 2026-02-10",
+    "intro": "Deze app is ontworpen om lokaal op je apparaat te werken. We voeren geen eigen backendservers voor je gegevens.",
     "sections": {
       "introduction": {
-        "title": "Overview",
+        "title": "Overzicht",
         "body": [
-          "This app is designed to work locally on your device.",
-          "We do not run our own backend servers for your data."
+          "Deze app is ontworpen om lokaal op je apparaat te werken.",
+          "We voeren geen eigen backendservers voor je gegevens."
         ]
       },
       "data": {
-        "title": "Data We Collect",
+        "title": "Gegevens die wij verzamelen",
         "body": [
-          "We do not collect or upload your contacts, files, or search data to our servers.",
-          "The app uses the following third-party services which may collect data according to their policies:",
-          "Google AdMob (ads)",
-          "Google Firebase Analytics (usage analytics)",
-          "Google Firebase Crashlytics (crash reports)",
-          "Google User Messaging Platform (consent management)",
-          "These services may collect device identifiers and usage information. You can review their policies in Google’s documentation."
+          "We verzamelen of uploaden je contacten, bestanden of zoekopdrachten niet naar onze servers.",
+          "De app gebruikt de volgende services van derden die mogelijk gegevens verzamelen volgens hun beleid:",
+          "Google AdMob (advertenties)",
+          "Google Firebase Analytics (gebruiksanalytics)",
+          "Google Firebase Crashlytics (crashrapporten)",
+          "Google User Messaging Platform (toestemmingsbeheer)",
+          "Deze services kunnen apparaatidentificaties en gebruiksinformatie verzamelen. U kunt hun beleid bekijken in de Google-documentatie."
         ]
       },
       "permissions": {
-        "title": "Permissions We Use",
+        "title": "Machtigingen die we gebruiken",
         "body": [
-          "READ_CONTACTS: to search and display contacts on-device.",
-          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: to search files across device storage, including non-media files and full folder paths. This is required for fast, system-wide file search and exclusions. SAF/MediaStore alone do not provide complete coverage for all file types and paths.",
-          "QUERY_ALL_PACKAGES: to index all installed apps, show them in search results, and enable launch of any app or shortcut. Without this, the app cannot provide full app search.",
-          "INTERNET: required by Google services and ads.",
-          "We use these permissions only for the features described above and only on-device."
+          "READ_CONTACTS: om contacten op het apparaat te zoeken en weer te geven.",
+          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: om bestanden in de apparaatopslag te zoeken, inclusief niet-mediabestanden en volledige mappaden. Dit is vereist voor snel, systeembreed bestandzoeken en uitsluitingen. SAF/MediaStore alleen bieden geen volledige dekking voor alle bestandstypen en paden.",
+          "QUERY_ALL_PACKAGES: om alle geïnstalleerde apps te indexeren, ze in zoekopdrachten weer te geven en het starten van elke app of snelkoppeling in te schakelen. Zonder dit kan de app geen volledige app-zoekopdracht bieden.",
+          "INTERNET: vereist door Google-services en advertenties.",
+          "We gebruiken deze machtigingen alleen voor de hierboven beschreven functies en alleen op het apparaat."
         ]
       },
       "analytics": {
         "title": "Analytics",
         "body": [
-          "Usage analytics may be provided by Google Firebase Analytics.",
-          "Crash reports may be provided by Google Firebase Crashlytics."
+          "Gebruiksanalytics kunnen worden geleverd door Google Firebase Analytics.",
+          "Crashrapporten kunnen worden geleverd door Google Firebase Crashlytics."
         ]
       },
       "ads": {
-        "title": "Ads",
+        "title": "Advertenties",
         "body": [
-          "Ads may be served via Google AdMob.",
-          "Consent management may be handled by Google User Messaging Platform."
+          "Advertenties kunnen via Google AdMob worden weergegeven.",
+          "Toestemmingsbeheer kan door Google User Messaging Platform worden beheerd."
         ]
       },
       "sharing": {
-        "title": "Data Sharing",
+        "title": "Gegevensuitwisseling",
         "body": [
-          "We do not sell your personal data.",
-          "Data may be processed by the third-party services listed above as part of ads, analytics, and crash reporting."
+          "We verkopen je persoonlijke gegevens niet.",
+          "Gegevens kunnen door de services van derden die hierboven zijn opgesomd, worden verwerkt als onderdeel van advertenties, analytics en crashrapportage."
         ]
       },
       "security": {
-        "title": "Security",
+        "title": "Beveiliging",
         "body": [
-          "We take reasonable measures to protect data on-device.",
-          "No method of transmission or storage is 100% secure."
+          "We nemen redelijke maatregelen om gegevens op het apparaat te beschermen.",
+          "Geen transmissie- of opslagmethode is 100% veilig."
         ]
       },
       "rights": {
-        "title": "Data Retention & Children’s Privacy",
+        "title": "Gegevensbewaring & Privacy van kinderen",
         "body": [
-          "We do not store your personal data on our servers.",
-          "Retention by third-party services is governed by their policies.",
-          "This app is not directed to children under 13.",
-          "We may update this policy. Changes will be posted in this file with a new effective date."
+          "We slaan je persoonlijke gegevens niet op onze servers op.",
+          "Bewaring door services van derden wordt beheerst door hun beleid.",
+          "Deze app is niet gericht op kinderen onder de 13 jaar.",
+          "We kunnen dit beleid bijwerken. Wijzigingen worden in dit bestand met een nieuwe ingangsdatum geplaatst."
         ]
       },
       "contact": {
         "title": "Contact",
         "body": [
-          "If you have questions, contact: contact@webybox.com"
+          "Als je vragen hebt, neem contact op: contact@webybox.com"
         ]
       }
     }
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Last updated: February 11, 2026",
-    "intro": "These terms outline the basic rules for using UniSearch.",
+    "title": "Servicevoorwaarden",
+    "subtitle": "Laatst bijgewerkt: 11 februari 2026",
+    "intro": "Deze voorwaarden schetsen de basisregels voor het gebruik van UniSearch.",
     "sections": {
       "usage": {
-        "title": "Use of the app",
+        "title": "Gebruik van de app",
         "body": [
-          "Use UniSearch in accordance with local laws and platform policies.",
-          "Do not misuse the app for unlawful activities."
+          "Gebruik UniSearch in overeenstemming met lokale wetten en beleidsregels van het platform.",
+          "Misbruik de app niet voor onwettige activiteiten."
         ]
       },
       "purchases": {
-        "title": "Purchases",
+        "title": "Aankopen",
         "body": [
-          "Pro is a one-time purchase handled by Google Play.",
-          "Refunds follow Google Play policies."
+          "Pro is een eenmalige aankoop via Google Play.",
+          "Terugbetalingen volgen Google Play-beleid."
         ]
       },
       "liability": {
-        "title": "Limitation of liability",
+        "title": "Beperking van aansprakelijkheid",
         "body": [
-          "The app is provided as-is without warranties.",
-          "We are not liable for indirect damages."
+          "De app wordt als-is aangeboden zonder garanties.",
+          "We zijn niet aansprakelijk voor indirecte schade."
         ]
       },
       "contact": {
         "title": "Contact",
         "body": [
-          "Questions? Reach out via email."
+          "Vragen? Neem contact per e-mail met ons op."
         ]
       }
     }
   },
   "searchProviders": {
-    "title": "Search with providers",
-    "subtitle": "Choose where to search and control when results appear.",
+    "title": "Zoeken met providers",
+    "subtitle": "Kies waar je wilt zoeken en beheer wanneer resultaten verschijnen.",
     "items": [
       {
-        "title": "Preset providers",
-        "description": "Google, DuckDuckGo, and other popular sources."
+        "title": "Vooraf ingestelde providers",
+        "description": "Google, DuckDuckGo en andere populaire bronnen."
       },
       {
-        "title": "Enable / disable",
-        "description": "Full control over which providers are active."
+        "title": "In-/uitschakelen",
+        "description": "Volledige controle over welke providers actief zijn."
       },
       {
-        "title": "Always show",
-        "description": "Keep a chosen provider visible at all times."
+        "title": "Altijd weergeven",
+        "description": "Zorg ervoor dat een gekozen provider altijd zichtbaar is."
       },
       {
-        "title": "Quick switching",
-        "description": "Swap providers without leaving the search bar."
+        "title": "Snel schakelen",
+        "description": "Wissel providers zonder de zoekbalk te verlaten."
       }
     ]
   }

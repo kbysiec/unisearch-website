@@ -1,443 +1,443 @@
 {
   "meta": {
-    "title": "UniSearch — Universal search for Android",
-    "description": "Find apps, contacts, files, actions, and more from one fast search bar. Built for speed, privacy, and offline-first use.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDescription": "Learn how UniSearch processes data locally and keeps your searches private.",
-    "termsTitle": "Terms of Service",
-    "termsDescription": "Basic terms for using the UniSearch app and website."
+    "title": "UniSearch — Universel søgning til Android",
+    "description": "Find apps, kontakter, filer, handlinger og mere fra én hurtig søgelinje. Bygget til hastighed, privatliv og offline-først brug.",
+    "privacyTitle": "Privatlivspolitik",
+    "privacyDescription": "Lær, hvordan UniSearch behandler data lokalt og holder dine søgninger private.",
+    "termsTitle": "Servicevilkår",
+    "termsDescription": "Grundlæggende vilkår for brug af UniSearch-appen og webstedet."
   },
   "common": {
-    "back": "Back"
+    "back": "Tilbage"
   },
   "nav": {
-    "features": "Features",
-    "freePro": "Free vs Pro",
-    "privacy": "Privacy",
-    "faq": "FAQ",
-    "getApp": "Get it on Google Play",
-    "how": "How it works",
-    "language": "Language",
-    "changelog": "Changelog"
+    "features": "Funktioner",
+    "freePro": "Gratis vs Pro",
+    "privacy": "Privatliv",
+    "faq": "Ofte stillede spørgsmål",
+    "getApp": "Hent det på Google Play",
+    "how": "Sådan fungerer det",
+    "language": "Sprog",
+    "changelog": "Ændringslog"
   },
   "hero": {
-    "badge": "Universal search for Android",
-    "title": "Find everything on your phone in seconds.",
-    "subtitle": "Apps, contacts, files, actions, calculator, and AI — all from one lightning-fast search bar.",
-    "primaryCta": "Get it on Google Play",
-    "secondaryCta": "Explore features",
-    "note": "No account required. Works offline by default."
+    "badge": "Universel søgning til Android",
+    "title": "Find alt på din telefon på sekunder.",
+    "subtitle": "Apps, kontakter, filer, handlinger, lommeregner og AI — alt fra én lynhurtig søgelinje.",
+    "primaryCta": "Hent det på Google Play",
+    "secondaryCta": "Udforsk funktioner",
+    "note": "Ingen konto påkrævet. Fungerer offline som standard."
   },
   "trust": {
-    "title": "Built for speed and control",
+    "title": "Bygget til hastighed og kontrol",
     "items": [
       {
-        "title": "Fast",
-        "description": "Instant results with real-time filtering and smart ranking."
+        "title": "Hurtig",
+        "description": "Øjeblikkelige resultater med realtidsfiltrering og smart rangering."
       },
       {
-        "title": "Privacy",
-        "description": "Your data stays on-device. Optional analytics only."
+        "title": "Privatliv",
+        "description": "Dine data forbliver på enheden. Kun valgfri analyser."
       },
       {
-        "title": "Offline-first",
-        "description": "Search works even without an internet connection."
+        "title": "Offline-først",
+        "description": "Søgning fungerer selv uden internetforbindelse."
       },
       {
-        "title": "Personalization",
-        "description": "Tune themes, sections, spacing, and behavior."
+        "title": "Personalisering",
+        "description": "Tilpas temaer, sektioner, mellemrum og adfærd."
       }
     ]
   },
   "features": {
-    "title": "Everything you want to find — instantly",
-    "subtitle": "UniSearch brings every source into one smooth, unified result list.",
+    "title": "Alt, du gerne vil finde — øjeblikkeligt",
+    "subtitle": "UniSearch bringer alle kilder til en jævn, samlet resultatliste.",
     "groups": {
       "search": {
-        "title": "Unified search",
-        "description": "Find anything with smart ranking and noise filtering."
+        "title": "Samlet søgning",
+        "description": "Find hvad som helst med smart rangering og støjfiltrering."
       },
       "actions": {
-        "title": "Actions & shortcuts",
-        "description": "Launch actions, deep links, and curated shortcuts."
+        "title": "Handlinger og genveje",
+        "description": "Start handlinger, dybe links og kuraterede genveje."
       },
       "files": {
-        "title": "Files & media",
-        "description": "Search documents, photos, videos, music, and folders."
+        "title": "Filer og medier",
+        "description": "Søg i dokumenter, billeder, videoer, musik og mapper."
       },
       "contacts": {
-        "title": "Contacts",
-        "description": "Call, message, or open linked apps instantly."
+        "title": "Kontakter",
+        "description": "Ring, send besked eller åbn linkede apps øjeblikkeligt."
       },
       "calculator": {
-        "title": "Calculator",
-        "description": "Inline calculator with precision math."
+        "title": "Lommeregner",
+        "description": "Indlejret lommeregner med præcisionsmatemematik."
       },
       "customization": {
-        "title": "Customization",
-        "description": "Control layout, themes, and visibility."
+        "title": "Tilpasning",
+        "description": "Kontroller layout, temaer og synlighed."
       },
       "ai": {
-        "title": "AI prompts",
-        "description": "Optional AI helpers with clear data boundaries."
+        "title": "AI-prompts",
+        "description": "Valgfri AI-hjælpere med klare datagrænser."
       },
       "providers": {
-        "title": "Search providers",
-        "description": "Choose where UniSearch sends external queries."
+        "title": "Søgeudbydere",
+        "description": "Vælg, hvor UniSearch sender eksterne forespørgsler."
       }
     },
     "items": {
       "search": {
-        "universal": "Apps, contacts, files, settings, and shortcuts in one query",
-        "instant": "Real-time filtering with instant results",
-        "frecency": "Frecency ranking that adapts to your habits"
+        "universal": "Apps, kontakter, filer, indstillinger og genveje i én forespørgsel",
+        "instant": "Realtidsfiltrering med øjeblikkelige resultater",
+        "frecency": "Hyppighed-rangering, der tilpasser sig dine vaner"
       },
       "actions": {
-        "shortcuts": "App shortcuts and deep links",
-        "system": "System actions and settings search",
-        "workflow": "Launch from Assistant, widget, or Quick Settings"
+        "shortcuts": "App-genveje og dybe links",
+        "system": "Systemhandlinger og indstillingssøgning",
+        "workflow": "Start fra Assistent, widget eller Hurtigindstillinger"
       },
       "files": {
-        "documents": "Documents, images, videos, music",
-        "media": "Folders and MediaStore-powered results",
-        "filters": "Type filters and exclusions"
+        "documents": "Dokumenter, billeder, videoer, musik",
+        "media": "Mapper og MediaStore-drevne resultater",
+        "filters": "Typefiltre og udelukkelser"
       },
       "contacts": {
-        "smart": "Smart matching and ranking",
-        "actions": "Call, message, or open linked apps",
-        "permissions": "Optional permissions with clear control"
+        "smart": "Smart matching og rangering",
+        "actions": "Ring, send besked eller åbn linkede apps",
+        "permissions": "Valgfri tilladelser med klar kontrol"
       },
       "calculator": {
-        "inline": "Inline math as you type",
-        "precision": "BigDecimal precision with brackets",
-        "copy": "Copy results in one tap"
+        "inline": "Indlejret matematik, mens du skriver",
+        "precision": "BigDecimal-præcision med parenteser",
+        "copy": "Kopier resultater på ét tryk"
       },
       "customization": {
-        "themes": "Light, dark, and curated themes",
-        "layout": "Icon size, grid spacing, labels",
-        "sections": "Show, hide, and reorder sections"
+        "themes": "Lyst, mørk og kuraterede temaer",
+        "layout": "Ikonstørrelse, gittermellemrum, etiketter",
+        "sections": "Vis, skjul og omordner sektioner"
       },
       "ai": {
-        "prompts": "Create quick AI prompts",
-        "safe": "Clear opt-in usage",
-        "optional": "Disable AI anytime"
+        "prompts": "Opret hurtige AI-prompts",
+        "safe": "Klar tilvalg-brug",
+        "optional": "Deaktiver AI når som helst"
       },
       "providers": {
-        "preset": "Preset providers like Google, YouTube or ChatGPT",
-        "toggle": "Enable or disable providers",
-        "always": "Ability to define custom ones"
+        "preset": "Forudindstillede udbydere som Google, YouTube eller ChatGPT",
+        "toggle": "Aktivér eller deaktivér udbydere",
+        "always": "Evne til at definere brugerdefinerede"
       }
     }
   },
   "how": {
-    "title": "How it works",
-    "subtitle": "A simple flow designed for speed.",
+    "title": "Sådan fungerer det",
+    "subtitle": "Et simpelt flow designet til hastighed.",
     "steps": {
       "index": {
-        "title": "Index",
-        "description": "UniSearch indexes apps, contacts, files, and settings locally."
+        "title": "Indeks",
+        "description": "UniSearch indekserer apps, kontakter, filer og indstillinger lokalt."
       },
       "search": {
-        "title": "Search",
-        "description": "Type once and get ranked results instantly."
+        "title": "Søgning",
+        "description": "Skriv én gang, og få rangerede resultater øjeblikkeligt."
       },
       "action": {
-        "title": "Action",
-        "description": "Open, call, calculate, or run a shortcut in one tap."
+        "title": "Handling",
+        "description": "Åbn, ring, beregn eller kør en genvej på ét tryk."
       }
     }
   },
   "freePro": {
-    "title": "Free vs Pro",
-    "subtitle": "Start free, upgrade once for full control.",
+    "title": "Gratis vs Pro",
+    "subtitle": "Start gratis, opgradér engang for fuld kontrol.",
     "free": {
-      "title": "Free",
-      "description": "Everything you need to search fast.",
+      "title": "Gratis",
+      "description": "Alt, du har brug for til hurtig søgning.",
       "items": {
-        "universal": "Universal search: apps, contacts, files, settings",
-        "algorithms": "All search algorithms: prefix, fuzzy, phonetic, acronym, token",
-        "frecency": "Frecency ranking across all sources",
-        "calculator": "Built-in calculator",
-        "appShortcutSyntax": "\"App: Shortcut\" query syntax",
-        "highlight": "Match highlighting",
-        "entryPoints": "Launch from Assistant, widget, or Quick Settings",
-        "quickSettings": "Quick Settings tile",
-        "assistantRole": "Assistant role support",
-        "notificationListener": "NotificationListenerService support",
-        "searchBarPosition": "Search bar position (top/bottom)",
-        "layout": "App layout (grid/list)",
-        "gridColumns": "Grid columns (4–6)",
-        "iconSize": "Icon size (S/M/L)",
-        "gridSpacing": "Grid spacing (S/M/L)",
-        "iconLabels": "Icon labels on/off",
-        "sectionHeaderIcons": "Section header icons",
-        "autofocus": "Auto-focus search bar",
-        "clearOnSelect": "Clear search on selection",
-        "hideRecentsEmpty": "Hide section when recents are empty",
-        "sectionVisibilityDefault": "Default visibility for 7 sections",
-        "resultLimits": "Result limits (3 sliders)",
-        "showHideTypes": "Show/hide result types and sections",
-        "hideApps": "Hide apps",
-        "hideContacts": "Hide contacts",
-        "hideActions": "Hide actions/shortcuts",
-        "excludeFiles": "Exclude files/folders",
-        "fileTypes": "File types (7 types)",
-        "freeThemes": "2 free themes: UniSearch + High Contrast",
-        "modes": "Light and dark mode",
-        "basicAnimations": "Basic animations (fade/slide)",
-        "providersPreset": "Preset search providers (Google, DuckDuckGo, etc.)",
-        "providersToggle": "Enable/disable providers",
-        "providersAlwaysShow": "\"Always show\" provider switch",
-        "customSection": "1 free custom section (no sorting)",
-        "analytics": "Basic analytics (opt-in)",
-        "privacy": "Privacy mode",
-        "languages": "All 25 languages",
-        "sponsored": "Sponsored sections (Native Ads)"
+        "universal": "Universel søgning: apps, kontakter, filer, indstillinger",
+        "algorithms": "Alle søgealgoritmer: præfiks, fuzzy, fonetisk, akronym, token",
+        "frecency": "Hyppighed-rangering på tværs af alle kilder",
+        "calculator": "Indbygget lommeregner",
+        "appShortcutSyntax": "\"App: Genvej\" forespørgselssyntaks",
+        "highlight": "Match-fremhævelse",
+        "entryPoints": "Start fra Assistent, widget eller Hurtigindstillinger",
+        "quickSettings": "Hurtigindstillinger-felt",
+        "assistantRole": "Assistentrole-support",
+        "notificationListener": "NotificationListenerService-support",
+        "searchBarPosition": "Søgelinjeposition (top/bund)",
+        "layout": "App-layout (gitter/liste)",
+        "gridColumns": "Gitterkolonner (4–6)",
+        "iconSize": "Ikonstørrelse (S/M/L)",
+        "gridSpacing": "Gittermellemrum (S/M/L)",
+        "iconLabels": "Ikonetikett til/fra",
+        "sectionHeaderIcons": "Sektionehovedikonier",
+        "autofocus": "Autofokus søgelinje",
+        "clearOnSelect": "Ryd søgning ved valg",
+        "hideRecentsEmpty": "Skjul sektion når de seneste er tomme",
+        "sectionVisibilityDefault": "Standardsynlighed for 7 sektioner",
+        "resultLimits": "Resultatgrænser (3 glidere)",
+        "showHideTypes": "Vis/skjul resultattyper og sektioner",
+        "hideApps": "Skjul apps",
+        "hideContacts": "Skjul kontakter",
+        "hideActions": "Skjul handlinger/genveje",
+        "excludeFiles": "Udeluk filer/mapper",
+        "fileTypes": "Filtyper (7 typer)",
+        "freeThemes": "2 gratis temaer: UniSearch + Høj kontrast",
+        "modes": "Lys og mørk tilstand",
+        "basicAnimations": "Grundlæggende animationer (fade/glide)",
+        "providersPreset": "Forudindstillede søgeudbydere (Google, DuckDuckGo osv.)",
+        "providersToggle": "Aktivér/deaktivér udbydere",
+        "providersAlwaysShow": "\"Altid vis\" udbyderkontakt",
+        "customSection": "1 gratis brugerdefineret sektion (uden sortering)",
+        "analytics": "Grundlæggende analyser (tilvalg)",
+        "privacy": "Privatlivstilstand",
+        "languages": "Alle 25 sprog",
+        "sponsored": "Sponsorerede sektioner (Native Ads)"
       }
     },
     "pro": {
       "title": "Pro",
-      "description": "One-time purchase. Unlock full design power.",
-      "badge": "Most popular",
-      "priceNote": "About $5–6",
+      "description": "Engangsindkøb. Lås fuld designkraft op.",
+      "badge": "Mest populær",
+      "priceNote": "Omkring $5–6",
       "items": {
-        "premiumThemes": "3 premium themes: Glass, Material You, Minimal Dark",
-        "themeCreator": "Custom theme creator",
-        "presets": "Unlimited theme presets",
-        "perSectionStyle": "Per-section style overrides",
-        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
-        "searchbarColors": "Search bar colors (7 × Light/Dark)",
-        "sectionColors": "Section colors (7 × Light/Dark)",
-        "itemIconColors": "Item icon colors (2 × Light/Dark)",
-        "bottomSheetColors": "Bottom sheet colors (5 × Light/Dark)",
-        "widgetColors": "Widget colors (5 × Light/Dark)",
-        "wallpaperBlur": "Custom wallpaper color + blur",
-        "advancedAnimations": "Search bar load animations (11 types)",
-        "sectionAnimations": "Section load animations (11 types)",
-        "sectionResize": "Section resize: animated / instant / none",
-        "loadOrder": "Load order: top to bottom / bottom to top / simultaneous",
-        "animationSpeed": "Animation speed (5 levels)",
-        "geometrySearchbar": "Search bar geometry: radius, padding, border, opacity",
-        "searchbarLeadingIcon": "Search bar leading icon picker",
-        "hidePlaceholder": "Hide placeholder",
-        "geometrySections": "Section geometry: radius, padding, border, opacity",
-        "geometryWidget": "Widget geometry: radius, padding, height, border, opacity",
-        "widgetLeadingIcon": "Widget leading icon picker",
-        "unlimitedSections": "Unlimited custom sections (Free: 1)",
-        "dragDropSections": "Drag & drop section reorder",
-        "customItems": "Custom items: App, Action, Contact, File, Setting",
-        "reorderItems": "Reorder items",
-        "sectionIconColors": "Section icon colors (Light/Dark)",
-        "pinnedItems": "Pinned items",
-        "iconPacks": "External icon packs",
-        "customProviders": "Custom search providers (URL template with {{Q}})",
-        "providersReorder": "Drag & drop provider order",
-        "aiPrompts": "Custom AI prompts (label + template + target app)",
-        "aiManage": "Edit/remove AI prompts",
-        "aiReorder": "Drag & drop prompt order",
-        "backupExport": "Export settings (JSON)",
-        "backupImport": "Import settings (restore configuration)",
-        "removeAds": "Remove sponsored sections",
-        "support": "Support future development"
+        "premiumThemes": "3 premium temaer: Glass, Material You, Minimal Dark",
+        "themeCreator": "Brugerdefineret temaopretning",
+        "presets": "Ubegrænsede temaforudsætninger",
+        "perSectionStyle": "Pr.-sektionsformat tilsidesætninger",
+        "advancedColors": "52 steder med mulighed for farveskift (Søgelinje, Sektioner, Widget, Bundpanel)",
+        "searchbarColors": "Søgelinjefarver (7 × Lys/Mørk)",
+        "sectionColors": "Sektionsfarver (7 × Lys/Mørk)",
+        "itemIconColors": "Elementikonifarver (2 × Lys/Mørk)",
+        "bottomSheetColors": "Bundarkfarver (5 × Lys/Mørk)",
+        "widgetColors": "Widgetfarver (5 × Lys/Mørk)",
+        "wallpaperBlur": "Brugerdefineret baggrundsbillede farve + blur",
+        "advancedAnimations": "Søgelinje indlæsningsanimationer (11 typer)",
+        "sectionAnimations": "Sektionindlæsningsanimationer (11 typer)",
+        "sectionResize": "Sektionsstørrelse: animeret / øjeblikkeligt / ingen",
+        "loadOrder": "Indlæsningsrækkefølge: top til bund / bund til top / samtidigt",
+        "animationSpeed": "Animationshastighed (5 niveauer)",
+        "geometrySearchbar": "Søgelinje geometri: radius, padding, kant, uigennemsigtighed",
+        "searchbarLeadingIcon": "Søgelinje ledende ikonpicker",
+        "hidePlaceholder": "Skjul pladsholder",
+        "geometrySections": "Sektionsgeometri: radius, padding, kant, uigennemsigtighed",
+        "geometryWidget": "Widgetgeometri: radius, padding, højde, kant, uigennemsigtighed",
+        "widgetLeadingIcon": "Widget ledende ikonpicker",
+        "unlimitedSections": "Ubegrænsede brugerdefinerede sektioner (Gratis: 1)",
+        "dragDropSections": "Træk og slip sektionsomodering",
+        "customItems": "Brugerdefinerede elementer: App, Handling, Kontakt, Fil, Indstilling",
+        "reorderItems": "Omordner elementer",
+        "sectionIconColors": "Sektionsikonifarver (Lys/Mørk)",
+        "pinnedItems": "Fastnålede elementer",
+        "iconPacks": "Eksterne ikonsæt",
+        "customProviders": "Brugerdefinerede søgeudbydere (URL-skabelon med {{Q}})",
+        "providersReorder": "Træk og slip udbyderækkefølge",
+        "aiPrompts": "Brugerdefinerede AI-prompts (etiket + skabelon + målapp)",
+        "aiManage": "Rediger/fjern AI-prompts",
+        "aiReorder": "Træk og slip promptrækkefølge",
+        "backupExport": "Eksportindstillinger (JSON)",
+        "backupImport": "Importindstillinger (gendanner konfiguration)",
+        "removeAds": "Fjern sponsorerede sektioner",
+        "support": "Understøt fremtidig udvikling"
       }
     },
     "summary": {
-      "title": "Quick summary",
+      "title": "Hurtig oversigt",
       "rows": {
-        "customization": "Customization",
-        "sections": "Custom sections",
-        "backup": "Backup",
-        "ads": "Ads"
+        "customization": "Tilpasning",
+        "sections": "Brugerdefinerede sektioner",
+        "backup": "Sikkerhedskopi",
+        "ads": "Annoncer"
       },
       "values": {
-        "basic": "Basic",
-        "unlimited": "Unlimited",
-        "limited": "1 only",
-        "none": "Not included",
-        "included": "Included",
-        "sponsored": "Sponsored sections"
+        "basic": "Grundlæggende",
+        "unlimited": "Ubegrænset",
+        "limited": "Kun 1",
+        "none": "Ikke inkluderet",
+        "included": "Inkluderet",
+        "sponsored": "Sponsorerede sektioner"
       },
       "headers": {
-        "free": "Free",
+        "free": "Gratis",
         "pro": "Pro"
       }
     }
   },
   "cta": {
-    "title": "Ready to speed up your phone?",
-    "subtitle": "Install UniSearch and get the fastest way to find anything.",
-    "button": "Get it on Google Play"
+    "title": "Klar til at øge hastigheden på din telefon?",
+    "subtitle": "Installer UniSearch og få den hurtigste måde til at finde hvad som helst.",
+    "button": "Hent det på Google Play"
   },
   "faq": {
-    "title": "FAQ",
-    "subtitle": "Quick answers to common questions.",
+    "title": "Ofte stillede spørgsmål",
+    "subtitle": "Hurtige svar på almindelige spørgsmål.",
     "items": [
       {
-        "q": "Does UniSearch send my data to the cloud?",
-        "a": "No. Search data and indexing stay on your device."
+        "q": "Sender UniSearch mine data til skyen?",
+        "a": "Nej. Søgedata og indeksering forbliver på din enhed."
       },
       {
-        "q": "What exactly is indexed?",
-        "a": "Apps, shortcuts, system settings, contacts, and files you allow."
+        "q": "Hvad indekseres nøjagtigt?",
+        "a": "Apps, genveje, systemindstillinger, kontakter og filer, som du tillader."
       },
       {
-        "q": "Is Pro a subscription?",
-        "a": "No. Pro is a one-time purchase around $5–6."
+        "q": "Er Pro et abonnement?",
+        "a": "Nej. Pro er et engangsindkøb omkring $5–6."
       },
       {
-        "q": "Can I restore my settings?",
-        "a": "Pro includes backup and restore via JSON export/import."
+        "q": "Kan jeg gendanne mine indstillinger?",
+        "a": "Pro inkluderer sikkerhedskopi og gendannelse via JSON eksport/import."
       },
       {
-        "q": "Is AI required?",
-        "a": "No. AI prompts are optional and can be disabled."
+        "q": "Er AI påkrævet?",
+        "a": "Nej. AI-prompts er valgfri og kan deaktiveres."
       },
       {
-        "q": "How can I contact support?",
-        "a": "Email us and we will respond quickly."
+        "q": "Hvordan kan jeg kontakte support?",
+        "a": "Send os en e-mail, og vi svarer hurtigt."
       }
     ]
   },
   "footer": {
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "contact": "Contact",
+    "privacy": "Privatliv",
+    "terms": "Vilkår",
+    "contact": "Kontakt",
     "googlePlay": "Google Play",
-    "copyright": "© {year} UniSearch. All rights reserved.",
-    "createdBy": "Created by Webybox"
+    "copyright": "© {year} UniSearch. Alle rettigheder forbeholdes.",
+    "createdBy": "Oprettet af Webybox"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "Effective date: 2026-02-10",
-    "intro": "This app is designed to work locally on your device. We do not run our own backend servers for your data.",
+    "title": "Privatlivspolitik",
+    "subtitle": "Ikrafttrædelsesdato: 2026-02-10",
+    "intro": "Denne app er designet til at fungere lokalt på din enhed. Vi kører ikke vores egne backend-servere til dine data.",
     "sections": {
       "introduction": {
-        "title": "Overview",
+        "title": "Oversigt",
         "body": [
-          "This app is designed to work locally on your device.",
-          "We do not run our own backend servers for your data."
+          "Denne app er designet til at fungere lokalt på din enhed.",
+          "Vi kører ikke vores egne backend-servere til dine data."
         ]
       },
       "data": {
-        "title": "Data We Collect",
+        "title": "Data, vi indsamler",
         "body": [
-          "We do not collect or upload your contacts, files, or search data to our servers.",
-          "The app uses the following third-party services which may collect data according to their policies:",
-          "Google AdMob (ads)",
-          "Google Firebase Analytics (usage analytics)",
-          "Google Firebase Crashlytics (crash reports)",
-          "Google User Messaging Platform (consent management)",
-          "These services may collect device identifiers and usage information. You can review their policies in Google’s documentation."
+          "Vi indsamler eller uploader ikke dine kontakter, filer eller søgedata til vores servere.",
+          "Appen bruger følgende tredjeparts-services, som kan indsamle data i henhold til deres politikker:",
+          "Google AdMob (annoncer)",
+          "Google Firebase Analytics (bruganalytik)",
+          "Google Firebase Crashlytics (fejlrapporter)",
+          "Google User Messaging Platform (samtykkestyring)",
+          "Disse services kan indsamle enhedsidentifikatorer og brugeroplysninger. Du kan gennemse deres politikker i Googles dokumentation."
         ]
       },
       "permissions": {
-        "title": "Permissions We Use",
+        "title": "Tilladelser, vi bruger",
         "body": [
-          "READ_CONTACTS: to search and display contacts on-device.",
-          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: to search files across device storage, including non-media files and full folder paths. This is required for fast, system-wide file search and exclusions. SAF/MediaStore alone do not provide complete coverage for all file types and paths.",
-          "QUERY_ALL_PACKAGES: to index all installed apps, show them in search results, and enable launch of any app or shortcut. Without this, the app cannot provide full app search.",
-          "INTERNET: required by Google services and ads.",
-          "We use these permissions only for the features described above and only on-device."
+          "READ_CONTACTS: til at søge og vise kontakter på enheden.",
+          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: til at søge i filer på tværs af enhedslager, herunder ikke-mediefiler og fulde mappenavne. Dette er påkrævet for hurtig, systemdækkende filsøgning og udelukkelser. SAF/MediaStore alene giver ikke fuldstændig dækning for alle filtyper og stier.",
+          "QUERY_ALL_PACKAGES: til at indeksere alle installerede apps, vise dem i søgeresultater og muliggøre lancering af enhver app eller genvej. Uden dette kan appen ikke give fuldstændig app-søgning.",
+          "INTERNET: påkrævet af Google-services og annoncer.",
+          "Vi bruger disse tilladelser kun til de funktioner, der er beskrevet ovenfor, og kun på enheden."
         ]
       },
       "analytics": {
-        "title": "Analytics",
+        "title": "Analyser",
         "body": [
-          "Usage analytics may be provided by Google Firebase Analytics.",
-          "Crash reports may be provided by Google Firebase Crashlytics."
+          "Brugeranalyser kan leveres af Google Firebase Analytics.",
+          "Fejlrapporter kan leveres af Google Firebase Crashlytics."
         ]
       },
       "ads": {
-        "title": "Ads",
+        "title": "Annoncer",
         "body": [
-          "Ads may be served via Google AdMob.",
-          "Consent management may be handled by Google User Messaging Platform."
+          "Annoncer kan vises via Google AdMob.",
+          "Samtykkestyring kan håndteres af Google User Messaging Platform."
         ]
       },
       "sharing": {
-        "title": "Data Sharing",
+        "title": "Datadeling",
         "body": [
-          "We do not sell your personal data.",
-          "Data may be processed by the third-party services listed above as part of ads, analytics, and crash reporting."
+          "Vi sælger ikke dine personlige data.",
+          "Data kan behandles af de tredjeparts-services, der er anført ovenfor, som en del af annoncer, analyser og fejlrapportering."
         ]
       },
       "security": {
-        "title": "Security",
+        "title": "Sikkerhed",
         "body": [
-          "We take reasonable measures to protect data on-device.",
-          "No method of transmission or storage is 100% secure."
+          "Vi træffer rimelige foranstaltninger for at beskytte data på enheden.",
+          "Ingen transmissions- eller lagringmetode er 100% sikker."
         ]
       },
       "rights": {
-        "title": "Data Retention & Children’s Privacy",
+        "title": "Dataopbevaring og børnenes privatliv",
         "body": [
-          "We do not store your personal data on our servers.",
-          "Retention by third-party services is governed by their policies.",
-          "This app is not directed to children under 13.",
-          "We may update this policy. Changes will be posted in this file with a new effective date."
+          "Vi lagrer ikke dine personlige data på vores servere.",
+          "Opbevaring af tredjeparts-services reguleres af deres politikker.",
+          "Denne app er ikke rettet mod børn under 13 år.",
+          "Vi kan opdatere denne politik. Ændringer vil blive sendt i denne fil med en ny ikrafttrædelsesdato."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "Kontakt",
         "body": [
-          "If you have questions, contact: contact@webybox.com"
+          "Hvis du har spørgsmål, skal du kontakte: contact@webybox.com"
         ]
       }
     }
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Last updated: February 11, 2026",
-    "intro": "These terms outline the basic rules for using UniSearch.",
+    "title": "Servicevilkår",
+    "subtitle": "Senest opdateret: 11. februar 2026",
+    "intro": "Disse vilkår skitserer de grundlæggende regler for brug af UniSearch.",
     "sections": {
       "usage": {
-        "title": "Use of the app",
+        "title": "Appens brug",
         "body": [
-          "Use UniSearch in accordance with local laws and platform policies.",
-          "Do not misuse the app for unlawful activities."
+          "Brug UniSearch i overensstemmelse med lokale love og platformens politikker.",
+          "Misbruge ikke appen til ulovlige aktiviteter."
         ]
       },
       "purchases": {
-        "title": "Purchases",
+        "title": "Indkøb",
         "body": [
-          "Pro is a one-time purchase handled by Google Play.",
-          "Refunds follow Google Play policies."
+          "Pro er et engangsindkøb håndteret af Google Play.",
+          "Refusioner følger Google Play-politikker."
         ]
       },
       "liability": {
-        "title": "Limitation of liability",
+        "title": "Ansvarsbegrænsning",
         "body": [
-          "The app is provided as-is without warranties.",
-          "We are not liable for indirect damages."
+          "Appen leveres som-er uden garantier.",
+          "Vi er ikke ansvarlige for indirekte skader."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "Kontakt",
         "body": [
-          "Questions? Reach out via email."
+          "Spørgsmål? Kontakt os via e-mail."
         ]
       }
     }
   },
   "searchProviders": {
-    "title": "Search with providers",
-    "subtitle": "Choose where to search and control when results appear.",
+    "title": "Søg med udbydere",
+    "subtitle": "Vælg, hvor du vil søge, og kontroller, hvornår resultaterne vises.",
     "items": [
       {
-        "title": "Preset providers",
-        "description": "Google, DuckDuckGo, and other popular sources."
+        "title": "Forudindstillede udbydere",
+        "description": "Google, DuckDuckGo og andre populære kilder."
       },
       {
-        "title": "Enable / disable",
-        "description": "Full control over which providers are active."
+        "title": "Aktivér/Deaktivér",
+        "description": "Fuld kontrol over, hvilke udbydere der er aktive."
       },
       {
-        "title": "Always show",
-        "description": "Keep a chosen provider visible at all times."
+        "title": "Altid vis",
+        "description": "Behold en valgt udbyder synlig hele tiden."
       },
       {
-        "title": "Quick switching",
-        "description": "Swap providers without leaving the search bar."
+        "title": "Hurtig skift",
+        "description": "Skift udbydere uden at forlade søgelinjen."
       }
     ]
   }

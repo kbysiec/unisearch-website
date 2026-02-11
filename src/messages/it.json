@@ -1,443 +1,443 @@
 {
   "meta": {
-    "title": "UniSearch — Universal search for Android",
-    "description": "Find apps, contacts, files, actions, and more from one fast search bar. Built for speed, privacy, and offline-first use.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDescription": "Learn how UniSearch processes data locally and keeps your searches private.",
-    "termsTitle": "Terms of Service",
-    "termsDescription": "Basic terms for using the UniSearch app and website."
+    "title": "UniSearch — Ricerca universale per Android",
+    "description": "Trova app, contatti, file, azioni e altro da una barra di ricerca veloce. Creato per velocità, privacy e utilizzo offline-first.",
+    "privacyTitle": "Informativa sulla privacy",
+    "privacyDescription": "Scopri come UniSearch elabora i dati localmente e mantiene le tue ricerche private.",
+    "termsTitle": "Termini di servizio",
+    "termsDescription": "Condizioni di base per l'utilizzo dell'app e del sito web UniSearch."
   },
   "common": {
-    "back": "Back"
+    "back": "Indietro"
   },
   "nav": {
-    "features": "Features",
-    "freePro": "Free vs Pro",
+    "features": "Funzionalità",
+    "freePro": "Gratis vs Pro",
     "privacy": "Privacy",
-    "faq": "FAQ",
-    "getApp": "Get it on Google Play",
-    "how": "How it works",
-    "language": "Language",
-    "changelog": "Changelog"
+    "faq": "Domande frequenti",
+    "getApp": "Scaricala su Google Play",
+    "how": "Come funziona",
+    "language": "Lingua",
+    "changelog": "Cronologia delle modifiche"
   },
   "hero": {
-    "badge": "Universal search for Android",
-    "title": "Find everything on your phone in seconds.",
-    "subtitle": "Apps, contacts, files, actions, calculator, and AI — all from one lightning-fast search bar.",
-    "primaryCta": "Get it on Google Play",
-    "secondaryCta": "Explore features",
-    "note": "No account required. Works offline by default."
+    "badge": "Ricerca universale per Android",
+    "title": "Trova tutto nel tuo telefono in pochi secondi.",
+    "subtitle": "App, contatti, file, azioni, calcolatrice e AI — tutto da una barra di ricerca ultra veloce.",
+    "primaryCta": "Scaricala su Google Play",
+    "secondaryCta": "Esplora le funzionalità",
+    "note": "Nessun account richiesto. Funziona offline per impostazione predefinita."
   },
   "trust": {
-    "title": "Built for speed and control",
+    "title": "Creato per velocità e controllo",
     "items": [
       {
-        "title": "Fast",
-        "description": "Instant results with real-time filtering and smart ranking."
+        "title": "Veloce",
+        "description": "Risultati istantanei con filtri in tempo reale e ranking intelligente."
       },
       {
         "title": "Privacy",
-        "description": "Your data stays on-device. Optional analytics only."
+        "description": "I tuoi dati rimangono sul dispositivo. Solo analitiche facoltative."
       },
       {
         "title": "Offline-first",
-        "description": "Search works even without an internet connection."
+        "description": "La ricerca funziona anche senza connessione internet."
       },
       {
-        "title": "Personalization",
-        "description": "Tune themes, sections, spacing, and behavior."
+        "title": "Personalizzazione",
+        "description": "Personalizza temi, sezioni, spaziatura e comportamento."
       }
     ]
   },
   "features": {
-    "title": "Everything you want to find — instantly",
-    "subtitle": "UniSearch brings every source into one smooth, unified result list.",
+    "title": "Tutto quello che desideri trovare — istantaneamente",
+    "subtitle": "UniSearch riunisce ogni fonte in un elenco di risultati unificato e fluido.",
     "groups": {
       "search": {
-        "title": "Unified search",
-        "description": "Find anything with smart ranking and noise filtering."
+        "title": "Ricerca unificata",
+        "description": "Trova qualsiasi cosa con ranking intelligente e filtri di rumore."
       },
       "actions": {
-        "title": "Actions & shortcuts",
-        "description": "Launch actions, deep links, and curated shortcuts."
+        "title": "Azioni e scorciatoie",
+        "description": "Avvia azioni, deep link e scorciatoie curate."
       },
       "files": {
-        "title": "Files & media",
-        "description": "Search documents, photos, videos, music, and folders."
+        "title": "File e media",
+        "description": "Cerca documenti, foto, video, musica e cartelle."
       },
       "contacts": {
-        "title": "Contacts",
-        "description": "Call, message, or open linked apps instantly."
+        "title": "Contatti",
+        "description": "Chiama, invia messaggi o apri app collegate istantaneamente."
       },
       "calculator": {
-        "title": "Calculator",
-        "description": "Inline calculator with precision math."
+        "title": "Calcolatrice",
+        "description": "Calcolatrice inline con matematica di precisione."
       },
       "customization": {
-        "title": "Customization",
-        "description": "Control layout, themes, and visibility."
+        "title": "Personalizzazione",
+        "description": "Controlla layout, temi e visibilità."
       },
       "ai": {
-        "title": "AI prompts",
-        "description": "Optional AI helpers with clear data boundaries."
+        "title": "Prompt AI",
+        "description": "Assistenti AI opzionali con chiari confini dei dati."
       },
       "providers": {
-        "title": "Search providers",
-        "description": "Choose where UniSearch sends external queries."
+        "title": "Provider di ricerca",
+        "description": "Scegli dove UniSearch invia le query esterne."
       }
     },
     "items": {
       "search": {
-        "universal": "Apps, contacts, files, settings, and shortcuts in one query",
-        "instant": "Real-time filtering with instant results",
-        "frecency": "Frecency ranking that adapts to your habits"
+        "universal": "App, contatti, file, impostazioni e scorciatoie in una query",
+        "instant": "Filtraggio in tempo reale con risultati istantanei",
+        "frecency": "Ranking di frecency che si adatta alle tue abitudini"
       },
       "actions": {
-        "shortcuts": "App shortcuts and deep links",
-        "system": "System actions and settings search",
-        "workflow": "Launch from Assistant, widget, or Quick Settings"
+        "shortcuts": "Scorciatoie app e deep link",
+        "system": "Azioni di sistema e ricerca impostazioni",
+        "workflow": "Avvia da Assistente, widget o Impostazioni rapide"
       },
       "files": {
-        "documents": "Documents, images, videos, music",
-        "media": "Folders and MediaStore-powered results",
-        "filters": "Type filters and exclusions"
+        "documents": "Documenti, immagini, video, musica",
+        "media": "Cartelle e risultati potenziati da MediaStore",
+        "filters": "Filtri di tipo ed esclusioni"
       },
       "contacts": {
-        "smart": "Smart matching and ranking",
-        "actions": "Call, message, or open linked apps",
-        "permissions": "Optional permissions with clear control"
+        "smart": "Corrispondenza intelligente e ranking",
+        "actions": "Chiama, invia messaggi o apri app collegate",
+        "permissions": "Autorizzazioni opzionali con controllo chiaro"
       },
       "calculator": {
-        "inline": "Inline math as you type",
-        "precision": "BigDecimal precision with brackets",
-        "copy": "Copy results in one tap"
+        "inline": "Matematica inline mentre digiti",
+        "precision": "Precisione BigDecimal con parentesi",
+        "copy": "Copia i risultati in un tocco"
       },
       "customization": {
-        "themes": "Light, dark, and curated themes",
-        "layout": "Icon size, grid spacing, labels",
-        "sections": "Show, hide, and reorder sections"
+        "themes": "Temi chiari, scuri e curati",
+        "layout": "Dimensioni icone, spaziatura griglia, etichette",
+        "sections": "Mostra, nascondi e riordina sezioni"
       },
       "ai": {
-        "prompts": "Create quick AI prompts",
-        "safe": "Clear opt-in usage",
-        "optional": "Disable AI anytime"
+        "prompts": "Crea prompt AI rapidi",
+        "safe": "Utilizzo chiaro con consenso esplicito",
+        "optional": "Disabilita AI in qualsiasi momento"
       },
       "providers": {
-        "preset": "Preset providers like Google, YouTube or ChatGPT",
-        "toggle": "Enable or disable providers",
-        "always": "Ability to define custom ones"
+        "preset": "Provider predefiniti come Google, YouTube o ChatGPT",
+        "toggle": "Abilita o disabilita provider",
+        "always": "Possibilità di definirne di personalizzati"
       }
     }
   },
   "how": {
-    "title": "How it works",
-    "subtitle": "A simple flow designed for speed.",
+    "title": "Come funziona",
+    "subtitle": "Un flusso semplice progettato per la velocità.",
     "steps": {
       "index": {
-        "title": "Index",
-        "description": "UniSearch indexes apps, contacts, files, and settings locally."
+        "title": "Indicizzazione",
+        "description": "UniSearch indicizza app, contatti, file e impostazioni localmente."
       },
       "search": {
-        "title": "Search",
-        "description": "Type once and get ranked results instantly."
+        "title": "Ricerca",
+        "description": "Digita una volta e ottieni risultati classificati istantaneamente."
       },
       "action": {
-        "title": "Action",
-        "description": "Open, call, calculate, or run a shortcut in one tap."
+        "title": "Azione",
+        "description": "Apri, chiama, calcola o esegui una scorciatoia in un tocco."
       }
     }
   },
   "freePro": {
-    "title": "Free vs Pro",
-    "subtitle": "Start free, upgrade once for full control.",
+    "title": "Gratis vs Pro",
+    "subtitle": "Inizia gratis, acquista una volta per il controllo totale.",
     "free": {
-      "title": "Free",
-      "description": "Everything you need to search fast.",
+      "title": "Gratis",
+      "description": "Tutto quello che ti serve per cercare velocemente.",
       "items": {
-        "universal": "Universal search: apps, contacts, files, settings",
-        "algorithms": "All search algorithms: prefix, fuzzy, phonetic, acronym, token",
-        "frecency": "Frecency ranking across all sources",
-        "calculator": "Built-in calculator",
-        "appShortcutSyntax": "\"App: Shortcut\" query syntax",
-        "highlight": "Match highlighting",
-        "entryPoints": "Launch from Assistant, widget, or Quick Settings",
-        "quickSettings": "Quick Settings tile",
-        "assistantRole": "Assistant role support",
-        "notificationListener": "NotificationListenerService support",
-        "searchBarPosition": "Search bar position (top/bottom)",
-        "layout": "App layout (grid/list)",
-        "gridColumns": "Grid columns (4–6)",
-        "iconSize": "Icon size (S/M/L)",
-        "gridSpacing": "Grid spacing (S/M/L)",
-        "iconLabels": "Icon labels on/off",
-        "sectionHeaderIcons": "Section header icons",
-        "autofocus": "Auto-focus search bar",
-        "clearOnSelect": "Clear search on selection",
-        "hideRecentsEmpty": "Hide section when recents are empty",
-        "sectionVisibilityDefault": "Default visibility for 7 sections",
-        "resultLimits": "Result limits (3 sliders)",
-        "showHideTypes": "Show/hide result types and sections",
-        "hideApps": "Hide apps",
-        "hideContacts": "Hide contacts",
-        "hideActions": "Hide actions/shortcuts",
-        "excludeFiles": "Exclude files/folders",
-        "fileTypes": "File types (7 types)",
-        "freeThemes": "2 free themes: UniSearch + High Contrast",
-        "modes": "Light and dark mode",
-        "basicAnimations": "Basic animations (fade/slide)",
-        "providersPreset": "Preset search providers (Google, DuckDuckGo, etc.)",
-        "providersToggle": "Enable/disable providers",
-        "providersAlwaysShow": "\"Always show\" provider switch",
-        "customSection": "1 free custom section (no sorting)",
-        "analytics": "Basic analytics (opt-in)",
-        "privacy": "Privacy mode",
-        "languages": "All 25 languages",
-        "sponsored": "Sponsored sections (Native Ads)"
+        "universal": "Ricerca universale: app, contatti, file, impostazioni",
+        "algorithms": "Tutti gli algoritmi di ricerca: prefix, fuzzy, phonetic, acronym, token",
+        "frecency": "Ranking di frecency su tutte le fonti",
+        "calculator": "Calcolatrice integrata",
+        "appShortcutSyntax": "Sintassi query \"App: Scorciatoia\"",
+        "highlight": "Evidenziazione delle corrispondenze",
+        "entryPoints": "Avvia da Assistente, widget o Impostazioni rapide",
+        "quickSettings": "Tile Impostazioni rapide",
+        "assistantRole": "Supporto ruolo Assistente",
+        "notificationListener": "Supporto NotificationListenerService",
+        "searchBarPosition": "Posizione barra di ricerca (alto/basso)",
+        "layout": "Layout app (griglia/elenco)",
+        "gridColumns": "Colonne griglia (4–6)",
+        "iconSize": "Dimensioni icone (S/M/L)",
+        "gridSpacing": "Spaziatura griglia (S/M/L)",
+        "iconLabels": "Etichette icone attive/disattive",
+        "sectionHeaderIcons": "Icone intestazione sezione",
+        "autofocus": "Auto-focus barra di ricerca",
+        "clearOnSelect": "Cancella ricerca alla selezione",
+        "hideRecentsEmpty": "Nascondi sezione quando non ci sono recenti",
+        "sectionVisibilityDefault": "Visibilità predefinita per 7 sezioni",
+        "resultLimits": "Limiti risultati (3 cursori)",
+        "showHideTypes": "Mostra/nascondi tipi di risultati e sezioni",
+        "hideApps": "Nascondi app",
+        "hideContacts": "Nascondi contatti",
+        "hideActions": "Nascondi azioni/scorciatoie",
+        "excludeFiles": "Escludi file/cartelle",
+        "fileTypes": "Tipi di file (7 tipi)",
+        "freeThemes": "2 temi gratuiti: UniSearch + Contrasto elevato",
+        "modes": "Modalità chiara e scura",
+        "basicAnimations": "Animazioni di base (dissolvenza/scorrimento)",
+        "providersPreset": "Provider di ricerca predefiniti (Google, DuckDuckGo, ecc.)",
+        "providersToggle": "Abilita/disabilita provider",
+        "providersAlwaysShow": "Switch provider \"Mostra sempre\"",
+        "customSection": "1 sezione personalizzata gratuita (senza ordinamento)",
+        "analytics": "Analitiche di base (consenso esplicito)",
+        "privacy": "Modalità privacy",
+        "languages": "Tutte le 25 lingue",
+        "sponsored": "Sezioni sponsorizzate (Annunci nativi)"
       }
     },
     "pro": {
       "title": "Pro",
-      "description": "One-time purchase. Unlock full design power.",
-      "badge": "Most popular",
-      "priceNote": "About $5–6",
+      "description": "Acquisto una tantum. Sblocca il pieno potere del design.",
+      "badge": "Più popolare",
+      "priceNote": "Circa 5–6 €",
       "items": {
-        "premiumThemes": "3 premium themes: Glass, Material You, Minimal Dark",
-        "themeCreator": "Custom theme creator",
-        "presets": "Unlimited theme presets",
-        "perSectionStyle": "Per-section style overrides",
-        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
-        "searchbarColors": "Search bar colors (7 × Light/Dark)",
-        "sectionColors": "Section colors (7 × Light/Dark)",
-        "itemIconColors": "Item icon colors (2 × Light/Dark)",
-        "bottomSheetColors": "Bottom sheet colors (5 × Light/Dark)",
-        "widgetColors": "Widget colors (5 × Light/Dark)",
-        "wallpaperBlur": "Custom wallpaper color + blur",
-        "advancedAnimations": "Search bar load animations (11 types)",
-        "sectionAnimations": "Section load animations (11 types)",
-        "sectionResize": "Section resize: animated / instant / none",
-        "loadOrder": "Load order: top to bottom / bottom to top / simultaneous",
-        "animationSpeed": "Animation speed (5 levels)",
-        "geometrySearchbar": "Search bar geometry: radius, padding, border, opacity",
-        "searchbarLeadingIcon": "Search bar leading icon picker",
-        "hidePlaceholder": "Hide placeholder",
-        "geometrySections": "Section geometry: radius, padding, border, opacity",
-        "geometryWidget": "Widget geometry: radius, padding, height, border, opacity",
-        "widgetLeadingIcon": "Widget leading icon picker",
-        "unlimitedSections": "Unlimited custom sections (Free: 1)",
-        "dragDropSections": "Drag & drop section reorder",
-        "customItems": "Custom items: App, Action, Contact, File, Setting",
-        "reorderItems": "Reorder items",
-        "sectionIconColors": "Section icon colors (Light/Dark)",
-        "pinnedItems": "Pinned items",
-        "iconPacks": "External icon packs",
-        "customProviders": "Custom search providers (URL template with {{Q}})",
-        "providersReorder": "Drag & drop provider order",
-        "aiPrompts": "Custom AI prompts (label + template + target app)",
-        "aiManage": "Edit/remove AI prompts",
-        "aiReorder": "Drag & drop prompt order",
-        "backupExport": "Export settings (JSON)",
-        "backupImport": "Import settings (restore configuration)",
-        "removeAds": "Remove sponsored sections",
-        "support": "Support future development"
+        "premiumThemes": "3 temi premium: Glass, Material You, Minimal Dark",
+        "themeCreator": "Creator di temi personalizzati",
+        "presets": "Preset di tema illimitati",
+        "perSectionStyle": "Override di stile per sezione",
+        "advancedColors": "52 posizioni con possibilità di cambio colore (Barra di ricerca, Sezioni, Widget, Pannello inferiore)",
+        "searchbarColors": "Colori barra di ricerca (7 × Chiaro/Scuro)",
+        "sectionColors": "Colori sezione (7 × Chiaro/Scuro)",
+        "itemIconColors": "Colori icone elemento (2 × Chiaro/Scuro)",
+        "bottomSheetColors": "Colori foglio inferiore (5 × Chiaro/Scuro)",
+        "widgetColors": "Colori widget (5 × Chiaro/Scuro)",
+        "wallpaperBlur": "Colore sfondo personalizzato + sfocatura",
+        "advancedAnimations": "Animazioni caricamento barra di ricerca (11 tipi)",
+        "sectionAnimations": "Animazioni caricamento sezione (11 tipi)",
+        "sectionResize": "Ridimensionamento sezione: animato / istantaneo / nessuno",
+        "loadOrder": "Ordine caricamento: dall'alto al basso / dal basso all'alto / simultaneo",
+        "animationSpeed": "Velocità animazione (5 livelli)",
+        "geometrySearchbar": "Geometria barra di ricerca: raggio, padding, bordo, opacità",
+        "searchbarLeadingIcon": "Selettore icona iniziale barra di ricerca",
+        "hidePlaceholder": "Nascondi segnaposto",
+        "geometrySections": "Geometria sezione: raggio, padding, bordo, opacità",
+        "geometryWidget": "Geometria widget: raggio, padding, altezza, bordo, opacità",
+        "widgetLeadingIcon": "Selettore icona iniziale widget",
+        "unlimitedSections": "Sezioni personalizzate illimitate (Gratis: 1)",
+        "dragDropSections": "Riordina sezioni con trascinamento",
+        "customItems": "Elementi personalizzati: App, Azione, Contatto, File, Impostazione",
+        "reorderItems": "Riordina elementi",
+        "sectionIconColors": "Colori icona sezione (Chiaro/Scuro)",
+        "pinnedItems": "Elementi bloccati",
+        "iconPacks": "Pack icone esterni",
+        "customProviders": "Provider di ricerca personalizzati (modello URL con {{Q}})",
+        "providersReorder": "Riordina provider con trascinamento",
+        "aiPrompts": "Prompt AI personalizzati (etichetta + modello + app target)",
+        "aiManage": "Modifica/rimuovi prompt AI",
+        "aiReorder": "Riordina prompt con trascinamento",
+        "backupExport": "Esporta impostazioni (JSON)",
+        "backupImport": "Importa impostazioni (ripristina configurazione)",
+        "removeAds": "Rimuovi sezioni sponsorizzate",
+        "support": "Supporta lo sviluppo futuro"
       }
     },
     "summary": {
-      "title": "Quick summary",
+      "title": "Riepilogo rapido",
       "rows": {
-        "customization": "Customization",
-        "sections": "Custom sections",
+        "customization": "Personalizzazione",
+        "sections": "Sezioni personalizzate",
         "backup": "Backup",
-        "ads": "Ads"
+        "ads": "Annunci"
       },
       "values": {
-        "basic": "Basic",
-        "unlimited": "Unlimited",
-        "limited": "1 only",
-        "none": "Not included",
-        "included": "Included",
-        "sponsored": "Sponsored sections"
+        "basic": "Base",
+        "unlimited": "Illimitato",
+        "limited": "Solo 1",
+        "none": "Non incluso",
+        "included": "Incluso",
+        "sponsored": "Sezioni sponsorizzate"
       },
       "headers": {
-        "free": "Free",
+        "free": "Gratis",
         "pro": "Pro"
       }
     }
   },
   "cta": {
-    "title": "Ready to speed up your phone?",
-    "subtitle": "Install UniSearch and get the fastest way to find anything.",
-    "button": "Get it on Google Play"
+    "title": "Pronto ad accelerare il tuo telefono?",
+    "subtitle": "Installa UniSearch e ottieni il modo più veloce per trovare qualsiasi cosa.",
+    "button": "Scaricala su Google Play"
   },
   "faq": {
-    "title": "FAQ",
-    "subtitle": "Quick answers to common questions.",
+    "title": "Domande frequenti",
+    "subtitle": "Risposte rapide alle domande comuni.",
     "items": [
       {
-        "q": "Does UniSearch send my data to the cloud?",
-        "a": "No. Search data and indexing stay on your device."
+        "q": "UniSearch invia i miei dati al cloud?",
+        "a": "No. I dati di ricerca e l'indicizzazione rimangono sul tuo dispositivo."
       },
       {
-        "q": "What exactly is indexed?",
-        "a": "Apps, shortcuts, system settings, contacts, and files you allow."
+        "q": "Che cosa viene esattamente indicizzato?",
+        "a": "App, scorciatoie, impostazioni di sistema, contatti e file che consenti."
       },
       {
-        "q": "Is Pro a subscription?",
-        "a": "No. Pro is a one-time purchase around $5–6."
+        "q": "Pro è un abbonamento?",
+        "a": "No. Pro è un acquisto una tantum di circa 5–6 €."
       },
       {
-        "q": "Can I restore my settings?",
-        "a": "Pro includes backup and restore via JSON export/import."
+        "q": "Posso ripristinare le mie impostazioni?",
+        "a": "Pro include backup e ripristino tramite esportazione/importazione JSON."
       },
       {
-        "q": "Is AI required?",
-        "a": "No. AI prompts are optional and can be disabled."
+        "q": "L'IA è obbligatoria?",
+        "a": "No. I prompt AI sono opzionali e possono essere disabilitati."
       },
       {
-        "q": "How can I contact support?",
-        "a": "Email us and we will respond quickly."
+        "q": "Come posso contattare il supporto?",
+        "a": "Inviaci un'email e risponderemo rapidamente."
       }
     ]
   },
   "footer": {
     "privacy": "Privacy",
-    "terms": "Terms",
-    "contact": "Contact",
+    "terms": "Termini",
+    "contact": "Contatti",
     "googlePlay": "Google Play",
-    "copyright": "© {year} UniSearch. All rights reserved.",
-    "createdBy": "Created by Webybox"
+    "copyright": "© {year} UniSearch. Tutti i diritti riservati.",
+    "createdBy": "Creato da Webybox"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "Effective date: 2026-02-10",
-    "intro": "This app is designed to work locally on your device. We do not run our own backend servers for your data.",
+    "title": "Informativa sulla privacy",
+    "subtitle": "Data effettiva: 10 febbraio 2026",
+    "intro": "Questa app è progettata per funzionare localmente sul tuo dispositivo. Non gestiamo server backend per i tuoi dati.",
     "sections": {
       "introduction": {
-        "title": "Overview",
+        "title": "Panoramica",
         "body": [
-          "This app is designed to work locally on your device.",
-          "We do not run our own backend servers for your data."
+          "Questa app è progettata per funzionare localmente sul tuo dispositivo.",
+          "Non gestiamo server backend per i tuoi dati."
         ]
       },
       "data": {
-        "title": "Data We Collect",
+        "title": "Dati che raccogliamo",
         "body": [
-          "We do not collect or upload your contacts, files, or search data to our servers.",
-          "The app uses the following third-party services which may collect data according to their policies:",
-          "Google AdMob (ads)",
-          "Google Firebase Analytics (usage analytics)",
-          "Google Firebase Crashlytics (crash reports)",
-          "Google User Messaging Platform (consent management)",
-          "These services may collect device identifiers and usage information. You can review their policies in Google’s documentation."
+          "Non raccogliamo o carichiamo i tuoi contatti, file o dati di ricerca sui nostri server.",
+          "L'app utilizza i seguenti servizi di terze parti che possono raccogliere dati secondo le loro politiche:",
+          "Google AdMob (annunci)",
+          "Google Firebase Analytics (analitiche di utilizzo)",
+          "Google Firebase Crashlytics (report di errori)",
+          "Google User Messaging Platform (gestione del consenso)",
+          "Questi servizi possono raccogliere identificatori dispositivo e informazioni di utilizzo. Puoi consultare le loro politiche nella documentazione di Google."
         ]
       },
       "permissions": {
-        "title": "Permissions We Use",
+        "title": "Autorizzazioni che utilizziamo",
         "body": [
-          "READ_CONTACTS: to search and display contacts on-device.",
-          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: to search files across device storage, including non-media files and full folder paths. This is required for fast, system-wide file search and exclusions. SAF/MediaStore alone do not provide complete coverage for all file types and paths.",
-          "QUERY_ALL_PACKAGES: to index all installed apps, show them in search results, and enable launch of any app or shortcut. Without this, the app cannot provide full app search.",
-          "INTERNET: required by Google services and ads.",
-          "We use these permissions only for the features described above and only on-device."
+          "READ_CONTACTS: per cercare e visualizzare i contatti sul dispositivo.",
+          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: per cercare file nell'archivio del dispositivo, inclusi file non multimediali e percorsi cartelle completi. Questo è necessario per ricerche di file rapide a livello di sistema e esclusioni. SAF/MediaStore da solo non forniscono copertura completa per tutti i tipi di file e percorsi.",
+          "QUERY_ALL_PACKAGES: per indicizzare tutte le app installate, mostrarle nei risultati di ricerca e abilitare l'avvio di qualsiasi app o scorciatoia. Senza ciò, l'app non può fornire una ricerca di app completa.",
+          "INTERNET: richiesto dai servizi Google e dagli annunci.",
+          "Utilizziamo queste autorizzazioni solo per le funzionalità descritte sopra e solo sul dispositivo."
         ]
       },
       "analytics": {
-        "title": "Analytics",
+        "title": "Analitiche",
         "body": [
-          "Usage analytics may be provided by Google Firebase Analytics.",
-          "Crash reports may be provided by Google Firebase Crashlytics."
+          "Le analitiche di utilizzo possono essere fornite da Google Firebase Analytics.",
+          "I report di errori possono essere forniti da Google Firebase Crashlytics."
         ]
       },
       "ads": {
-        "title": "Ads",
+        "title": "Annunci",
         "body": [
-          "Ads may be served via Google AdMob.",
-          "Consent management may be handled by Google User Messaging Platform."
+          "Gli annunci possono essere serviti tramite Google AdMob.",
+          "La gestione del consenso può essere gestita da Google User Messaging Platform."
         ]
       },
       "sharing": {
-        "title": "Data Sharing",
+        "title": "Condivisione dei dati",
         "body": [
-          "We do not sell your personal data.",
-          "Data may be processed by the third-party services listed above as part of ads, analytics, and crash reporting."
+          "Non vendiamo i tuoi dati personali.",
+          "I dati possono essere elaborati dai servizi di terze parti elencati sopra come parte di annunci, analitiche e report di errori."
         ]
       },
       "security": {
-        "title": "Security",
+        "title": "Sicurezza",
         "body": [
-          "We take reasonable measures to protect data on-device.",
-          "No method of transmission or storage is 100% secure."
+          "Adottiamo misure ragionevoli per proteggere i dati sul dispositivo.",
+          "Nessun metodo di trasmissione o archiviazione è al 100% sicuro."
         ]
       },
       "rights": {
-        "title": "Data Retention & Children’s Privacy",
+        "title": "Conservazione dei dati e privacy dei minori",
         "body": [
-          "We do not store your personal data on our servers.",
-          "Retention by third-party services is governed by their policies.",
-          "This app is not directed to children under 13.",
-          "We may update this policy. Changes will be posted in this file with a new effective date."
+          "Non archiviamo i tuoi dati personali sui nostri server.",
+          "La conservazione da parte di servizi di terze parti è regolata dalle loro politiche.",
+          "Questa app non è rivolta a minori di 13 anni.",
+          "Potremmo aggiornare questa politica. Le modifiche verranno pubblicate in questo file con una nuova data effettiva."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "Contatti",
         "body": [
-          "If you have questions, contact: contact@webybox.com"
+          "Se hai domande, contattaci: contact@webybox.com"
         ]
       }
     }
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Last updated: February 11, 2026",
-    "intro": "These terms outline the basic rules for using UniSearch.",
+    "title": "Termini di servizio",
+    "subtitle": "Ultimo aggiornamento: 11 febbraio 2026",
+    "intro": "Questi termini delineano le regole di base per l'utilizzo di UniSearch.",
     "sections": {
       "usage": {
-        "title": "Use of the app",
+        "title": "Utilizzo dell'app",
         "body": [
-          "Use UniSearch in accordance with local laws and platform policies.",
-          "Do not misuse the app for unlawful activities."
+          "Utilizza UniSearch in conformità alle leggi locali e alle politiche della piattaforma.",
+          "Non utilizzare l'app in modo improprio per attività illegittime."
         ]
       },
       "purchases": {
-        "title": "Purchases",
+        "title": "Acquisti",
         "body": [
-          "Pro is a one-time purchase handled by Google Play.",
-          "Refunds follow Google Play policies."
+          "Pro è un acquisto una tantum gestito da Google Play.",
+          "I rimborsi seguono le politiche di Google Play."
         ]
       },
       "liability": {
-        "title": "Limitation of liability",
+        "title": "Limitazione della responsabilità",
         "body": [
-          "The app is provided as-is without warranties.",
-          "We are not liable for indirect damages."
+          "L'app è fornita così com'è senza garanzie.",
+          "Non siamo responsabili per danni indiretti."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "Contatti",
         "body": [
-          "Questions? Reach out via email."
+          "Domande? Contattaci via email."
         ]
       }
     }
   },
   "searchProviders": {
-    "title": "Search with providers",
-    "subtitle": "Choose where to search and control when results appear.",
+    "title": "Ricerca con provider",
+    "subtitle": "Scegli dove cercare e controlla quando vengono visualizzati i risultati.",
     "items": [
       {
-        "title": "Preset providers",
-        "description": "Google, DuckDuckGo, and other popular sources."
+        "title": "Provider predefiniti",
+        "description": "Google, DuckDuckGo e altre fonti popolari."
       },
       {
-        "title": "Enable / disable",
-        "description": "Full control over which providers are active."
+        "title": "Abilita / Disabilita",
+        "description": "Controllo completo su quali provider sono attivi."
       },
       {
-        "title": "Always show",
-        "description": "Keep a chosen provider visible at all times."
+        "title": "Mostra sempre",
+        "description": "Mantieni un provider scelto sempre visibile."
       },
       {
-        "title": "Quick switching",
-        "description": "Swap providers without leaving the search bar."
+        "title": "Cambio rapido",
+        "description": "Cambia provider senza uscire dalla barra di ricerca."
       }
     ]
   }

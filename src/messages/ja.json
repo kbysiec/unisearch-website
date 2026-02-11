@@ -1,443 +1,443 @@
 {
   "meta": {
-    "title": "UniSearch — Universal search for Android",
-    "description": "Find apps, contacts, files, actions, and more from one fast search bar. Built for speed, privacy, and offline-first use.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDescription": "Learn how UniSearch processes data locally and keeps your searches private.",
-    "termsTitle": "Terms of Service",
-    "termsDescription": "Basic terms for using the UniSearch app and website."
+    "title": "UniSearch — Android用ユニバーサル検索",
+    "description": "アプリ、連絡先、ファイル、アクション、その他多くのものを1つの高速検索バーから探してください。速度、プライバシー、オフライン優先の使用のために設計されています。",
+    "privacyTitle": "プライバシーポリシー",
+    "privacyDescription": "UniSearchがデータをローカルで処理し、検索を非公開に保つ方法を学びます。",
+    "termsTitle": "利用規約",
+    "termsDescription": "UniSearchアプリとウェブサイトを使用するための基本的な条件。"
   },
   "common": {
-    "back": "Back"
+    "back": "戻る"
   },
   "nav": {
-    "features": "Features",
-    "freePro": "Free vs Pro",
-    "privacy": "Privacy",
-    "faq": "FAQ",
-    "getApp": "Get it on Google Play",
-    "how": "How it works",
-    "language": "Language",
-    "changelog": "Changelog"
+    "features": "機能",
+    "freePro": "無料 vs Pro",
+    "privacy": "プライバシー",
+    "faq": "よくある質問",
+    "getApp": "Google Playで入手",
+    "how": "仕組み",
+    "language": "言語",
+    "changelog": "更新履歴"
   },
   "hero": {
-    "badge": "Universal search for Android",
-    "title": "Find everything on your phone in seconds.",
-    "subtitle": "Apps, contacts, files, actions, calculator, and AI — all from one lightning-fast search bar.",
-    "primaryCta": "Get it on Google Play",
-    "secondaryCta": "Explore features",
-    "note": "No account required. Works offline by default."
+    "badge": "Android用ユニバーサル検索",
+    "title": "スマートフォンのすべてを数秒で見つけてください。",
+    "subtitle": "アプリ、連絡先、ファイル、アクション、計算機、AI — すべて1つの超高速検索バーから。",
+    "primaryCta": "Google Playで入手",
+    "secondaryCta": "機能を詳しく見る",
+    "note": "アカウント不要。デフォルトではオフラインで動作します。"
   },
   "trust": {
-    "title": "Built for speed and control",
+    "title": "速度と制御のために構築",
     "items": [
       {
-        "title": "Fast",
-        "description": "Instant results with real-time filtering and smart ranking."
+        "title": "高速",
+        "description": "リアルタイムフィルタリングとスマートランキングで即座に結果を取得します。"
       },
       {
-        "title": "Privacy",
-        "description": "Your data stays on-device. Optional analytics only."
+        "title": "プライバシー",
+        "description": "データはデバイス上に留まります。オプションの分析のみです。"
       },
       {
-        "title": "Offline-first",
-        "description": "Search works even without an internet connection."
+        "title": "オフラインファースト",
+        "description": "インターネット接続がなくても検索が機能します。"
       },
       {
-        "title": "Personalization",
-        "description": "Tune themes, sections, spacing, and behavior."
+        "title": "パーソナライゼーション",
+        "description": "テーマ、セクション、間隔、動作を調整します。"
       }
     ]
   },
   "features": {
-    "title": "Everything you want to find — instantly",
-    "subtitle": "UniSearch brings every source into one smooth, unified result list.",
+    "title": "探したいすべてのものを即座に見つけてください",
+    "subtitle": "UniSearchはすべてのソースを1つの滑らかで統一された結果リストにもたらします。",
     "groups": {
       "search": {
-        "title": "Unified search",
-        "description": "Find anything with smart ranking and noise filtering."
+        "title": "統合検索",
+        "description": "スマートランキングとノイズフィルタリングで何でも見つけます。"
       },
       "actions": {
-        "title": "Actions & shortcuts",
-        "description": "Launch actions, deep links, and curated shortcuts."
+        "title": "アクション&ショートカット",
+        "description": "アクション、ディープリンク、厳選されたショートカットを起動します。"
       },
       "files": {
-        "title": "Files & media",
-        "description": "Search documents, photos, videos, music, and folders."
+        "title": "ファイル&メディア",
+        "description": "ドキュメント、写真、ビデオ、音楽、フォルダを検索します。"
       },
       "contacts": {
-        "title": "Contacts",
-        "description": "Call, message, or open linked apps instantly."
+        "title": "連絡先",
+        "description": "電話、メッセージ、またはリンクされたアプリを即座に開きます。"
       },
       "calculator": {
-        "title": "Calculator",
-        "description": "Inline calculator with precision math."
+        "title": "電卓",
+        "description": "正確な数学演算が可能なインライン計算機。"
       },
       "customization": {
-        "title": "Customization",
-        "description": "Control layout, themes, and visibility."
+        "title": "カスタマイズ",
+        "description": "レイアウト、テーマ、表示を制御します。"
       },
       "ai": {
-        "title": "AI prompts",
-        "description": "Optional AI helpers with clear data boundaries."
+        "title": "AIプロンプト",
+        "description": "明確なデータ境界を持つオプションのAIヘルパー。"
       },
       "providers": {
-        "title": "Search providers",
-        "description": "Choose where UniSearch sends external queries."
+        "title": "検索プロバイダー",
+        "description": "UniSearchが外部クエリを送信する場所を選択します。"
       }
     },
     "items": {
       "search": {
-        "universal": "Apps, contacts, files, settings, and shortcuts in one query",
-        "instant": "Real-time filtering with instant results",
-        "frecency": "Frecency ranking that adapts to your habits"
+        "universal": "アプリ、連絡先、ファイル、設定、ショートカットを1つのクエリで検索",
+        "instant": "リアルタイムフィルタリングで即座に結果を表示",
+        "frecency": "習慣に適応するフリークエンシーランキング"
       },
       "actions": {
-        "shortcuts": "App shortcuts and deep links",
-        "system": "System actions and settings search",
-        "workflow": "Launch from Assistant, widget, or Quick Settings"
+        "shortcuts": "アプリショートカットとディープリンク",
+        "system": "システムアクションと設定検索",
+        "workflow": "Assistant、ウィジェット、またはクイック設定から起動"
       },
       "files": {
-        "documents": "Documents, images, videos, music",
-        "media": "Folders and MediaStore-powered results",
-        "filters": "Type filters and exclusions"
+        "documents": "ドキュメント、画像、ビデオ、音楽",
+        "media": "フォルダとMediaStore対応の結果",
+        "filters": "タイプフィルターと除外"
       },
       "contacts": {
-        "smart": "Smart matching and ranking",
-        "actions": "Call, message, or open linked apps",
-        "permissions": "Optional permissions with clear control"
+        "smart": "スマートマッチングとランキング",
+        "actions": "電話、メッセージ、またはリンクされたアプリを開く",
+        "permissions": "明確な制御を備えたオプションのアクセス許可"
       },
       "calculator": {
-        "inline": "Inline math as you type",
-        "precision": "BigDecimal precision with brackets",
-        "copy": "Copy results in one tap"
+        "inline": "入力時のインライン数学演算",
+        "precision": "括弧付きのBigDecimal精度",
+        "copy": "1タップで結果をコピー"
       },
       "customization": {
-        "themes": "Light, dark, and curated themes",
-        "layout": "Icon size, grid spacing, labels",
-        "sections": "Show, hide, and reorder sections"
+        "themes": "ライト、ダーク、厳選されたテーマ",
+        "layout": "アイコンサイズ、グリッド間隔、ラベル",
+        "sections": "セクションを表示、非表示、並び替え"
       },
       "ai": {
-        "prompts": "Create quick AI prompts",
-        "safe": "Clear opt-in usage",
-        "optional": "Disable AI anytime"
+        "prompts": "クイックAIプロンプトを作成",
+        "safe": "明確なオプトイン使用",
+        "optional": "いつでもAIを無効化"
       },
       "providers": {
-        "preset": "Preset providers like Google, YouTube or ChatGPT",
-        "toggle": "Enable or disable providers",
-        "always": "Ability to define custom ones"
+        "preset": "Google、YouTube、ChatGPTなどのプリセットプロバイダー",
+        "toggle": "プロバイダーの有効/無効を切り替え",
+        "always": "カスタムプロバイダーを定義する機能"
       }
     }
   },
   "how": {
-    "title": "How it works",
-    "subtitle": "A simple flow designed for speed.",
+    "title": "仕組み",
+    "subtitle": "速度のために設計されたシンプルなフロー。",
     "steps": {
       "index": {
-        "title": "Index",
-        "description": "UniSearch indexes apps, contacts, files, and settings locally."
+        "title": "インデックス",
+        "description": "UniSearchはアプリ、連絡先、ファイル、設定をローカルでインデックスします。"
       },
       "search": {
-        "title": "Search",
-        "description": "Type once and get ranked results instantly."
+        "title": "検索",
+        "description": "1度入力して、ランク付けされた結果を即座に取得します。"
       },
       "action": {
-        "title": "Action",
-        "description": "Open, call, calculate, or run a shortcut in one tap."
+        "title": "アクション",
+        "description": "1タップで開く、電話をかける、計算、またはショートカットを実行します。"
       }
     }
   },
   "freePro": {
-    "title": "Free vs Pro",
-    "subtitle": "Start free, upgrade once for full control.",
+    "title": "無料 vs Pro",
+    "subtitle": "無料で開始し、完全な制御のために1度アップグレードします。",
     "free": {
-      "title": "Free",
-      "description": "Everything you need to search fast.",
+      "title": "無料",
+      "description": "高速検索に必要なすべてのもの。",
       "items": {
-        "universal": "Universal search: apps, contacts, files, settings",
-        "algorithms": "All search algorithms: prefix, fuzzy, phonetic, acronym, token",
-        "frecency": "Frecency ranking across all sources",
-        "calculator": "Built-in calculator",
-        "appShortcutSyntax": "\"App: Shortcut\" query syntax",
-        "highlight": "Match highlighting",
-        "entryPoints": "Launch from Assistant, widget, or Quick Settings",
-        "quickSettings": "Quick Settings tile",
-        "assistantRole": "Assistant role support",
-        "notificationListener": "NotificationListenerService support",
-        "searchBarPosition": "Search bar position (top/bottom)",
-        "layout": "App layout (grid/list)",
-        "gridColumns": "Grid columns (4–6)",
-        "iconSize": "Icon size (S/M/L)",
-        "gridSpacing": "Grid spacing (S/M/L)",
-        "iconLabels": "Icon labels on/off",
-        "sectionHeaderIcons": "Section header icons",
-        "autofocus": "Auto-focus search bar",
-        "clearOnSelect": "Clear search on selection",
-        "hideRecentsEmpty": "Hide section when recents are empty",
-        "sectionVisibilityDefault": "Default visibility for 7 sections",
-        "resultLimits": "Result limits (3 sliders)",
-        "showHideTypes": "Show/hide result types and sections",
-        "hideApps": "Hide apps",
-        "hideContacts": "Hide contacts",
-        "hideActions": "Hide actions/shortcuts",
-        "excludeFiles": "Exclude files/folders",
-        "fileTypes": "File types (7 types)",
-        "freeThemes": "2 free themes: UniSearch + High Contrast",
-        "modes": "Light and dark mode",
-        "basicAnimations": "Basic animations (fade/slide)",
-        "providersPreset": "Preset search providers (Google, DuckDuckGo, etc.)",
-        "providersToggle": "Enable/disable providers",
-        "providersAlwaysShow": "\"Always show\" provider switch",
-        "customSection": "1 free custom section (no sorting)",
-        "analytics": "Basic analytics (opt-in)",
-        "privacy": "Privacy mode",
-        "languages": "All 25 languages",
-        "sponsored": "Sponsored sections (Native Ads)"
+        "universal": "統合検索: アプリ、連絡先、ファイル、設定",
+        "algorithms": "すべての検索アルゴリズム: プレフィックス、ファジー、音声、頭文字、トークン",
+        "frecency": "すべてのソースにわたるフリークエンシーランキング",
+        "calculator": "組み込み電卓",
+        "appShortcutSyntax": "\"アプリ: ショートカット\"クエリ構文",
+        "highlight": "マッチハイライト",
+        "entryPoints": "Assistant、ウィジェット、またはクイック設定から起動",
+        "quickSettings": "クイック設定タイル",
+        "assistantRole": "Assistantロールサポート",
+        "notificationListener": "NotificationListenerServiceサポート",
+        "searchBarPosition": "検索バーの位置（上/下）",
+        "layout": "アプリレイアウト（グリッド/リスト）",
+        "gridColumns": "グリッド列（4～6）",
+        "iconSize": "アイコンサイズ（S/M/L）",
+        "gridSpacing": "グリッド間隔（S/M/L）",
+        "iconLabels": "アイコンラベルオン/オフ",
+        "sectionHeaderIcons": "セクションヘッダーアイコン",
+        "autofocus": "検索バーの自動フォーカス",
+        "clearOnSelect": "選択時に検索をクリア",
+        "hideRecentsEmpty": "最近使ったアイテムが空の場合にセクションを非表示",
+        "sectionVisibilityDefault": "7つのセクションのデフォルト表示",
+        "resultLimits": "結果制限（3つのスライダー）",
+        "showHideTypes": "結果タイプとセクションを表示/非表示",
+        "hideApps": "アプリを非表示",
+        "hideContacts": "連絡先を非表示",
+        "hideActions": "アクション/ショートカットを非表示",
+        "excludeFiles": "ファイル/フォルダを除外",
+        "fileTypes": "ファイルタイプ（7タイプ）",
+        "freeThemes": "2つの無料テーマ: UniSearch + ハイコントラスト",
+        "modes": "ライトモードとダークモード",
+        "basicAnimations": "基本的なアニメーション（フェード/スライド）",
+        "providersPreset": "プリセット検索プロバイダー（Google、DuckDuckGoなど）",
+        "providersToggle": "プロバイダーの有効/無効を切り替え",
+        "providersAlwaysShow": "\"常に表示\"プロバイダースイッチ",
+        "customSection": "1つの無料カスタムセクション（ソートなし）",
+        "analytics": "基本的な分析（オプトイン）",
+        "privacy": "プライバシーモード",
+        "languages": "全25言語",
+        "sponsored": "スポンサーセクション（ネイティブ広告）"
       }
     },
     "pro": {
       "title": "Pro",
-      "description": "One-time purchase. Unlock full design power.",
-      "badge": "Most popular",
-      "priceNote": "About $5–6",
+      "description": "1度の購入。フルデザインパワーをアンロック。",
+      "badge": "最も人気がある",
+      "priceNote": "約$5～6",
       "items": {
-        "premiumThemes": "3 premium themes: Glass, Material You, Minimal Dark",
-        "themeCreator": "Custom theme creator",
-        "presets": "Unlimited theme presets",
-        "perSectionStyle": "Per-section style overrides",
-        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
-        "searchbarColors": "Search bar colors (7 × Light/Dark)",
-        "sectionColors": "Section colors (7 × Light/Dark)",
-        "itemIconColors": "Item icon colors (2 × Light/Dark)",
-        "bottomSheetColors": "Bottom sheet colors (5 × Light/Dark)",
-        "widgetColors": "Widget colors (5 × Light/Dark)",
-        "wallpaperBlur": "Custom wallpaper color + blur",
-        "advancedAnimations": "Search bar load animations (11 types)",
-        "sectionAnimations": "Section load animations (11 types)",
-        "sectionResize": "Section resize: animated / instant / none",
-        "loadOrder": "Load order: top to bottom / bottom to top / simultaneous",
-        "animationSpeed": "Animation speed (5 levels)",
-        "geometrySearchbar": "Search bar geometry: radius, padding, border, opacity",
-        "searchbarLeadingIcon": "Search bar leading icon picker",
-        "hidePlaceholder": "Hide placeholder",
-        "geometrySections": "Section geometry: radius, padding, border, opacity",
-        "geometryWidget": "Widget geometry: radius, padding, height, border, opacity",
-        "widgetLeadingIcon": "Widget leading icon picker",
-        "unlimitedSections": "Unlimited custom sections (Free: 1)",
-        "dragDropSections": "Drag & drop section reorder",
-        "customItems": "Custom items: App, Action, Contact, File, Setting",
-        "reorderItems": "Reorder items",
-        "sectionIconColors": "Section icon colors (Light/Dark)",
-        "pinnedItems": "Pinned items",
-        "iconPacks": "External icon packs",
-        "customProviders": "Custom search providers (URL template with {{Q}})",
-        "providersReorder": "Drag & drop provider order",
-        "aiPrompts": "Custom AI prompts (label + template + target app)",
-        "aiManage": "Edit/remove AI prompts",
-        "aiReorder": "Drag & drop prompt order",
-        "backupExport": "Export settings (JSON)",
-        "backupImport": "Import settings (restore configuration)",
-        "removeAds": "Remove sponsored sections",
-        "support": "Support future development"
+        "premiumThemes": "3つのプレミアムテーマ: Glass、Material You、Minimal Dark",
+        "themeCreator": "カスタムテーマクリエーター",
+        "presets": "無制限のテーマプリセット",
+        "perSectionStyle": "セクションごとのスタイルオーバーライド",
+        "advancedColors": "52の色変更可能な場所（検索バー、セクション、ウィジェット、下部パネル）",
+        "searchbarColors": "検索バーの色（7 × ライト/ダーク）",
+        "sectionColors": "セクションの色（7 × ライト/ダーク）",
+        "itemIconColors": "アイテムアイコンの色（2 × ライト/ダーク）",
+        "bottomSheetColors": "ボトムシートの色（5 × ライト/ダーク）",
+        "widgetColors": "ウィジェットの色（5 × ライト/ダーク）",
+        "wallpaperBlur": "カスタム壁紙色+ブラー",
+        "advancedAnimations": "検索バー読み込みアニメーション（11タイプ）",
+        "sectionAnimations": "セクション読み込みアニメーション（11タイプ）",
+        "sectionResize": "セクションリサイズ: アニメーション / インスタント / なし",
+        "loadOrder": "読み込み順: 上から下へ / 下から上へ / 同時",
+        "animationSpeed": "アニメーション速度（5レベル）",
+        "geometrySearchbar": "検索バーの幾何学: 半径、パディング、ボーダー、不透明度",
+        "searchbarLeadingIcon": "検索バーの先頭アイコンピッカー",
+        "hidePlaceholder": "プレースホルダーを非表示",
+        "geometrySections": "セクションの幾何学: 半径、パディング、ボーダー、不透明度",
+        "geometryWidget": "ウィジェットの幾何学: 半径、パディング、高さ、ボーダー、不透明度",
+        "widgetLeadingIcon": "ウィジェットの先頭アイコンピッカー",
+        "unlimitedSections": "無制限のカスタムセクション（無料: 1）",
+        "dragDropSections": "ドラッグ&ドロップセクション並び替え",
+        "customItems": "カスタムアイテム: App、Action、Contact、File、Setting",
+        "reorderItems": "アイテムを並び替え",
+        "sectionIconColors": "セクションアイコンの色（ライト/ダーク）",
+        "pinnedItems": "固定アイテム",
+        "iconPacks": "外部アイコンパック",
+        "customProviders": "カスタム検索プロバイダー（{{Q}}付きのURLテンプレート）",
+        "providersReorder": "ドラッグ&ドロッププロバイダー並び替え",
+        "aiPrompts": "カスタムAIプロンプト（ラベル+テンプレート+対象アプリ）",
+        "aiManage": "AIプロンプトを編集/削除",
+        "aiReorder": "ドラッグ&ドロッププロンプト並び替え",
+        "backupExport": "設定をエクスポート（JSON）",
+        "backupImport": "設定をインポート（設定を復元）",
+        "removeAds": "スポンサーセクションを削除",
+        "support": "今後の開発を支援"
       }
     },
     "summary": {
-      "title": "Quick summary",
+      "title": "クイック概要",
       "rows": {
-        "customization": "Customization",
-        "sections": "Custom sections",
-        "backup": "Backup",
-        "ads": "Ads"
+        "customization": "カスタマイズ",
+        "sections": "カスタムセクション",
+        "backup": "バックアップ",
+        "ads": "広告"
       },
       "values": {
-        "basic": "Basic",
-        "unlimited": "Unlimited",
-        "limited": "1 only",
-        "none": "Not included",
-        "included": "Included",
-        "sponsored": "Sponsored sections"
+        "basic": "基本",
+        "unlimited": "無制限",
+        "limited": "1のみ",
+        "none": "含まれていない",
+        "included": "含まれている",
+        "sponsored": "スポンサーセクション"
       },
       "headers": {
-        "free": "Free",
+        "free": "無料",
         "pro": "Pro"
       }
     }
   },
   "cta": {
-    "title": "Ready to speed up your phone?",
-    "subtitle": "Install UniSearch and get the fastest way to find anything.",
-    "button": "Get it on Google Play"
+    "title": "スマートフォンを高速化する準備はありますか?",
+    "subtitle": "UniSearchをインストールして、最速の検索方法を手に入れます。",
+    "button": "Google Playで入手"
   },
   "faq": {
-    "title": "FAQ",
-    "subtitle": "Quick answers to common questions.",
+    "title": "よくある質問",
+    "subtitle": "一般的な質問への素早い回答。",
     "items": [
       {
-        "q": "Does UniSearch send my data to the cloud?",
-        "a": "No. Search data and indexing stay on your device."
+        "q": "UniSearchはデータをクラウドに送信しますか?",
+        "a": "いいえ。検索データとインデックスはデバイス上に留まります。"
       },
       {
-        "q": "What exactly is indexed?",
-        "a": "Apps, shortcuts, system settings, contacts, and files you allow."
+        "q": "正確には何がインデックスされていますか?",
+        "a": "アプリ、ショートカット、システム設定、連絡先、許可されたファイル。"
       },
       {
-        "q": "Is Pro a subscription?",
-        "a": "No. Pro is a one-time purchase around $5–6."
+        "q": "Proはサブスクリプションですか?",
+        "a": "いいえ。Proは約$5～6の1度の購入です。"
       },
       {
-        "q": "Can I restore my settings?",
-        "a": "Pro includes backup and restore via JSON export/import."
+        "q": "設定を復元できますか?",
+        "a": "ProはJSONエクスポート/インポート経由のバックアップと復元を含みます。"
       },
       {
-        "q": "Is AI required?",
-        "a": "No. AI prompts are optional and can be disabled."
+        "q": "AIは必須ですか?",
+        "a": "いいえ。AIプロンプトはオプションで無効化できます。"
       },
       {
-        "q": "How can I contact support?",
-        "a": "Email us and we will respond quickly."
+        "q": "サポートに連絡するにはどうすればよいですか?",
+        "a": "メールでお問い合わせください。素早く返信いたします。"
       }
     ]
   },
   "footer": {
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "contact": "Contact",
+    "privacy": "プライバシー",
+    "terms": "利用規約",
+    "contact": "お問い合わせ",
     "googlePlay": "Google Play",
-    "copyright": "© {year} UniSearch. All rights reserved.",
-    "createdBy": "Created by Webybox"
+    "copyright": "© {year} UniSearch。すべての権利を保有します。",
+    "createdBy": "Webyboxによって作成されました"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "Effective date: 2026-02-10",
-    "intro": "This app is designed to work locally on your device. We do not run our own backend servers for your data.",
+    "title": "プライバシーポリシー",
+    "subtitle": "発効日: 2026年2月10日",
+    "intro": "このアプリはデバイス上でローカルに動作するように設計されています。データ用に独自のバックエンドサーバーを実行していません。",
     "sections": {
       "introduction": {
-        "title": "Overview",
+        "title": "概要",
         "body": [
-          "This app is designed to work locally on your device.",
-          "We do not run our own backend servers for your data."
+          "このアプリはデバイス上でローカルに動作するように設計されています。",
+          "データ用に独自のバックエンドサーバーを実行していません。"
         ]
       },
       "data": {
-        "title": "Data We Collect",
+        "title": "収集するデータ",
         "body": [
-          "We do not collect or upload your contacts, files, or search data to our servers.",
-          "The app uses the following third-party services which may collect data according to their policies:",
-          "Google AdMob (ads)",
-          "Google Firebase Analytics (usage analytics)",
-          "Google Firebase Crashlytics (crash reports)",
-          "Google User Messaging Platform (consent management)",
-          "These services may collect device identifiers and usage information. You can review their policies in Google’s documentation."
+          "連絡先、ファイル、検索データをサーバーに収集またはアップロードしません。",
+          "このアプリは以下の第三者サービスを使用しており、それらのポリシーに従ってデータを収集する場合があります。",
+          "Google AdMob（広告）",
+          "Google Firebase Analytics（使用分析）",
+          "Google Firebase Crashlytics（クラッシュレポート）",
+          "Google User Messaging Platform（同意管理）",
+          "これらのサービスはデバイス識別子と使用情報を収集する場合があります。Googleのドキュメントでそれらのポリシーを確認できます。"
         ]
       },
       "permissions": {
-        "title": "Permissions We Use",
+        "title": "使用するアクセス許可",
         "body": [
-          "READ_CONTACTS: to search and display contacts on-device.",
-          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: to search files across device storage, including non-media files and full folder paths. This is required for fast, system-wide file search and exclusions. SAF/MediaStore alone do not provide complete coverage for all file types and paths.",
-          "QUERY_ALL_PACKAGES: to index all installed apps, show them in search results, and enable launch of any app or shortcut. Without this, the app cannot provide full app search.",
-          "INTERNET: required by Google services and ads.",
-          "We use these permissions only for the features described above and only on-device."
+          "READ_CONTACTS: デバイス上で連絡先を検索および表示するため。",
+          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: メディア以外のファイルと完全なフォルダパスを含む、デバイスストレージ全体のファイルを検索するため。これは高速なシステム全体のファイル検索と除外に必要です。SAF/MediaStoreだけでは、すべてのファイルタイプとパスの完全なカバレッジを提供しません。",
+          "QUERY_ALL_PACKAGES: インストール済みアプリをすべてインデックスし、検索結果に表示し、任意のアプリまたはショートカットの起動を有効にするため。これがない場合、アプリは完全なアプリ検索を提供できません。",
+          "INTERNET: Googleサービスと広告に必要です。",
+          "これらのアクセス許可は上記で説明したフィーチャーのためだけに、デバイス上のみで使用します。"
         ]
       },
       "analytics": {
-        "title": "Analytics",
+        "title": "分析",
         "body": [
-          "Usage analytics may be provided by Google Firebase Analytics.",
-          "Crash reports may be provided by Google Firebase Crashlytics."
+          "使用分析はGoogle Firebase Analyticsによって提供される場合があります。",
+          "クラッシュレポートはGoogle Firebase Crashlyticsによって提供される場合があります。"
         ]
       },
       "ads": {
-        "title": "Ads",
+        "title": "広告",
         "body": [
-          "Ads may be served via Google AdMob.",
-          "Consent management may be handled by Google User Messaging Platform."
+          "広告はGoogle AdMobを通じて配信される場合があります。",
+          "同意管理はGoogle User Messaging Platformによって処理される場合があります。"
         ]
       },
       "sharing": {
-        "title": "Data Sharing",
+        "title": "データ共有",
         "body": [
-          "We do not sell your personal data.",
-          "Data may be processed by the third-party services listed above as part of ads, analytics, and crash reporting."
+          "個人データを販売しません。",
+          "データは広告、分析、クラッシュレポートの一部として上記に記載された第三者サービスによって処理される場合があります。"
         ]
       },
       "security": {
-        "title": "Security",
+        "title": "セキュリティ",
         "body": [
-          "We take reasonable measures to protect data on-device.",
-          "No method of transmission or storage is 100% secure."
+          "デバイス上のデータを保護するため、合理的な措置を講じています。",
+          "送信または保存の方法は100%安全ではありません。"
         ]
       },
       "rights": {
-        "title": "Data Retention & Children’s Privacy",
+        "title": "データ保持と児童プライバシー",
         "body": [
-          "We do not store your personal data on our servers.",
-          "Retention by third-party services is governed by their policies.",
-          "This app is not directed to children under 13.",
-          "We may update this policy. Changes will be posted in this file with a new effective date."
+          "個人データをサーバーに保存しません。",
+          "第三者サービスによる保持はそれらのポリシーによって管理されます。",
+          "このアプリは13歳未満の児童を対象としていません。",
+          "このポリシーを更新する場合があります。変更は新しい発効日とともにこのファイルに投稿されます。"
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "お問い合わせ",
         "body": [
-          "If you have questions, contact: contact@webybox.com"
+          "ご質問がある場合は、以下にお問い合わせください: contact@webybox.com"
         ]
       }
     }
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Last updated: February 11, 2026",
-    "intro": "These terms outline the basic rules for using UniSearch.",
+    "title": "利用規約",
+    "subtitle": "最終更新: 2026年2月11日",
+    "intro": "これらの条件はUniSearchを使用するための基本的なルールの概要を示しています。",
     "sections": {
       "usage": {
-        "title": "Use of the app",
+        "title": "アプリの使用",
         "body": [
-          "Use UniSearch in accordance with local laws and platform policies.",
-          "Do not misuse the app for unlawful activities."
+          "現地の法律とプラットフォームポリシーに従ってUniSearchを使用してください。",
+          "違法な活動のためにアプリを誤用しないでください。"
         ]
       },
       "purchases": {
-        "title": "Purchases",
+        "title": "購入",
         "body": [
-          "Pro is a one-time purchase handled by Google Play.",
-          "Refunds follow Google Play policies."
+          "ProはGoogle Playで処理される1度の購入です。",
+          "払い戻しはGoogle Playのポリシーに従います。"
         ]
       },
       "liability": {
-        "title": "Limitation of liability",
+        "title": "責任の制限",
         "body": [
-          "The app is provided as-is without warranties.",
-          "We are not liable for indirect damages."
+          "アプリは保証なしで現状のまま提供されます。",
+          "間接的な損害について当社は責任を負いません。"
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "お問い合わせ",
         "body": [
-          "Questions? Reach out via email."
+          "ご質問がありますか? メール経由でお問い合わせください。"
         ]
       }
     }
   },
   "searchProviders": {
-    "title": "Search with providers",
-    "subtitle": "Choose where to search and control when results appear.",
+    "title": "プロバイダーで検索",
+    "subtitle": "どこで検索するかを選択し、結果がいつ表示されるかを制御します。",
     "items": [
       {
-        "title": "Preset providers",
-        "description": "Google, DuckDuckGo, and other popular sources."
+        "title": "プリセットプロバイダー",
+        "description": "Google、DuckDuckGo、およびその他の一般的なソース。"
       },
       {
-        "title": "Enable / disable",
-        "description": "Full control over which providers are active."
+        "title": "有効/無効",
+        "description": "アクティブなプロバイダーを完全に制御。"
       },
       {
-        "title": "Always show",
-        "description": "Keep a chosen provider visible at all times."
+        "title": "常に表示",
+        "description": "選択したプロバイダーを常に表示させておく。"
       },
       {
-        "title": "Quick switching",
-        "description": "Swap providers without leaving the search bar."
+        "title": "クイック切り替え",
+        "description": "検索バーを離れずにプロバイダーを切り替え。"
       }
     ]
   }

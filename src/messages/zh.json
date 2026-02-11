@@ -1,443 +1,443 @@
 {
   "meta": {
-    "title": "UniSearch — Universal search for Android",
-    "description": "Find apps, contacts, files, actions, and more from one fast search bar. Built for speed, privacy, and offline-first use.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDescription": "Learn how UniSearch processes data locally and keeps your searches private.",
-    "termsTitle": "Terms of Service",
-    "termsDescription": "Basic terms for using the UniSearch app and website."
+    "title": "UniSearch — Android 通用搜索",
+    "description": "从一个快速搜索栏中查找应用、联系人、文件、操作等。为速度、隐私和离线优先使用而构建。",
+    "privacyTitle": "隐私政策",
+    "privacyDescription": "了解 UniSearch 如何在本地处理数据并保持您的搜索隐私。",
+    "termsTitle": "服务条款",
+    "termsDescription": "使用 UniSearch 应用和网站的基本条款。"
   },
   "common": {
-    "back": "Back"
+    "back": "返回"
   },
   "nav": {
-    "features": "Features",
-    "freePro": "Free vs Pro",
-    "privacy": "Privacy",
-    "faq": "FAQ",
-    "getApp": "Get it on Google Play",
-    "how": "How it works",
-    "language": "Language",
-    "changelog": "Changelog"
+    "features": "功能",
+    "freePro": "免费 vs Pro",
+    "privacy": "隐私",
+    "faq": "常见问题",
+    "getApp": "在 Google Play 上获取",
+    "how": "工作原理",
+    "language": "语言",
+    "changelog": "更新日志"
   },
   "hero": {
-    "badge": "Universal search for Android",
-    "title": "Find everything on your phone in seconds.",
-    "subtitle": "Apps, contacts, files, actions, calculator, and AI — all from one lightning-fast search bar.",
-    "primaryCta": "Get it on Google Play",
-    "secondaryCta": "Explore features",
-    "note": "No account required. Works offline by default."
+    "badge": "Android 通用搜索",
+    "title": "在几秒内找到手机上的所有内容。",
+    "subtitle": "应用、联系人、文件、操作、计算器和 AI — 全部来自一个闪电般快速的搜索栏。",
+    "primaryCta": "在 Google Play 上获取",
+    "secondaryCta": "探索功能",
+    "note": "无需账户。默认离线工作。"
   },
   "trust": {
-    "title": "Built for speed and control",
+    "title": "为速度和控制而构建",
     "items": [
       {
-        "title": "Fast",
-        "description": "Instant results with real-time filtering and smart ranking."
+        "title": "快速",
+        "description": "实时过滤和智能排名的即时结果。"
       },
       {
-        "title": "Privacy",
-        "description": "Your data stays on-device. Optional analytics only."
+        "title": "隐私",
+        "description": "您的数据保留在设备上。仅可选分析。"
       },
       {
-        "title": "Offline-first",
-        "description": "Search works even without an internet connection."
+        "title": "离线优先",
+        "description": "即使没有互联网连接，搜索也能工作。"
       },
       {
-        "title": "Personalization",
-        "description": "Tune themes, sections, spacing, and behavior."
+        "title": "个性化",
+        "description": "调整主题、部分、间距和行为。"
       }
     ]
   },
   "features": {
-    "title": "Everything you want to find — instantly",
-    "subtitle": "UniSearch brings every source into one smooth, unified result list.",
+    "title": "一切您想找到的 — 立即获得",
+    "subtitle": "UniSearch 将每个来源融入一个光滑、统一的结果列表。",
     "groups": {
       "search": {
-        "title": "Unified search",
-        "description": "Find anything with smart ranking and noise filtering."
+        "title": "统一搜索",
+        "description": "通过智能排名和噪声过滤找到任何内容。"
       },
       "actions": {
-        "title": "Actions & shortcuts",
-        "description": "Launch actions, deep links, and curated shortcuts."
+        "title": "操作和快捷方式",
+        "description": "启动操作、深层链接和精选快捷方式。"
       },
       "files": {
-        "title": "Files & media",
-        "description": "Search documents, photos, videos, music, and folders."
+        "title": "文件和媒体",
+        "description": "搜索文档、照片、视频、音乐和文件夹。"
       },
       "contacts": {
-        "title": "Contacts",
-        "description": "Call, message, or open linked apps instantly."
+        "title": "联系人",
+        "description": "立即拨打、发送信息或打开链接的应用。"
       },
       "calculator": {
-        "title": "Calculator",
-        "description": "Inline calculator with precision math."
+        "title": "计算器",
+        "description": "具有精确数学的内联计算器。"
       },
       "customization": {
-        "title": "Customization",
-        "description": "Control layout, themes, and visibility."
+        "title": "自定义",
+        "description": "控制布局、主题和可见性。"
       },
       "ai": {
-        "title": "AI prompts",
-        "description": "Optional AI helpers with clear data boundaries."
+        "title": "AI 提示",
+        "description": "具有明确数据边界的可选 AI 助手。"
       },
       "providers": {
-        "title": "Search providers",
-        "description": "Choose where UniSearch sends external queries."
+        "title": "搜索提供商",
+        "description": "选择 UniSearch 发送外部查询的位置。"
       }
     },
     "items": {
       "search": {
-        "universal": "Apps, contacts, files, settings, and shortcuts in one query",
-        "instant": "Real-time filtering with instant results",
-        "frecency": "Frecency ranking that adapts to your habits"
+        "universal": "应用、联系人、文件、设置和快捷方式中的一个查询",
+        "instant": "实时过滤和即时结果",
+        "frecency": "适应您习惯的频率排名"
       },
       "actions": {
-        "shortcuts": "App shortcuts and deep links",
-        "system": "System actions and settings search",
-        "workflow": "Launch from Assistant, widget, or Quick Settings"
+        "shortcuts": "应用快捷方式和深层链接",
+        "system": "系统操作和设置搜索",
+        "workflow": "从助手、小部件或快速设置启动"
       },
       "files": {
-        "documents": "Documents, images, videos, music",
-        "media": "Folders and MediaStore-powered results",
-        "filters": "Type filters and exclusions"
+        "documents": "文档、图像、视频、音乐",
+        "media": "文件夹和 MediaStore 支持的结果",
+        "filters": "类型过滤器和排除项"
       },
       "contacts": {
-        "smart": "Smart matching and ranking",
-        "actions": "Call, message, or open linked apps",
-        "permissions": "Optional permissions with clear control"
+        "smart": "智能匹配和排名",
+        "actions": "拨打、发送信息或打开链接的应用",
+        "permissions": "具有明确控制的可选权限"
       },
       "calculator": {
-        "inline": "Inline math as you type",
-        "precision": "BigDecimal precision with brackets",
-        "copy": "Copy results in one tap"
+        "inline": "键入时的内联数学",
+        "precision": "具有括号的 BigDecimal 精度",
+        "copy": "一键复制结果"
       },
       "customization": {
-        "themes": "Light, dark, and curated themes",
-        "layout": "Icon size, grid spacing, labels",
-        "sections": "Show, hide, and reorder sections"
+        "themes": "浅色、深色和精选主题",
+        "layout": "图标大小、网格间距、标签",
+        "sections": "显示、隐藏和重新排序部分"
       },
       "ai": {
-        "prompts": "Create quick AI prompts",
-        "safe": "Clear opt-in usage",
-        "optional": "Disable AI anytime"
+        "prompts": "创建快速 AI 提示",
+        "safe": "明确的选择使用",
+        "optional": "随时禁用 AI"
       },
       "providers": {
-        "preset": "Preset providers like Google, YouTube or ChatGPT",
-        "toggle": "Enable or disable providers",
-        "always": "Ability to define custom ones"
+        "preset": "预设提供商如 Google、YouTube 或 ChatGPT",
+        "toggle": "启用或禁用提供商",
+        "always": "能够定义自定义提供商"
       }
     }
   },
   "how": {
-    "title": "How it works",
-    "subtitle": "A simple flow designed for speed.",
+    "title": "工作原理",
+    "subtitle": "为速度而设计的简单流程。",
     "steps": {
       "index": {
-        "title": "Index",
-        "description": "UniSearch indexes apps, contacts, files, and settings locally."
+        "title": "索引",
+        "description": "UniSearch 在本地索引应用、联系人、文件和设置。"
       },
       "search": {
-        "title": "Search",
-        "description": "Type once and get ranked results instantly."
+        "title": "搜索",
+        "description": "输入一次即可获得排名结果。"
       },
       "action": {
-        "title": "Action",
-        "description": "Open, call, calculate, or run a shortcut in one tap."
+        "title": "操作",
+        "description": "一键打开、拨打、计算或运行快捷方式。"
       }
     }
   },
   "freePro": {
-    "title": "Free vs Pro",
-    "subtitle": "Start free, upgrade once for full control.",
+    "title": "免费 vs Pro",
+    "subtitle": "免费开始，升级一次即可获得完全控制。",
     "free": {
-      "title": "Free",
-      "description": "Everything you need to search fast.",
+      "title": "免费",
+      "description": "您快速搜索所需的一切。",
       "items": {
-        "universal": "Universal search: apps, contacts, files, settings",
-        "algorithms": "All search algorithms: prefix, fuzzy, phonetic, acronym, token",
-        "frecency": "Frecency ranking across all sources",
-        "calculator": "Built-in calculator",
-        "appShortcutSyntax": "\"App: Shortcut\" query syntax",
-        "highlight": "Match highlighting",
-        "entryPoints": "Launch from Assistant, widget, or Quick Settings",
-        "quickSettings": "Quick Settings tile",
-        "assistantRole": "Assistant role support",
-        "notificationListener": "NotificationListenerService support",
-        "searchBarPosition": "Search bar position (top/bottom)",
-        "layout": "App layout (grid/list)",
-        "gridColumns": "Grid columns (4–6)",
-        "iconSize": "Icon size (S/M/L)",
-        "gridSpacing": "Grid spacing (S/M/L)",
-        "iconLabels": "Icon labels on/off",
-        "sectionHeaderIcons": "Section header icons",
-        "autofocus": "Auto-focus search bar",
-        "clearOnSelect": "Clear search on selection",
-        "hideRecentsEmpty": "Hide section when recents are empty",
-        "sectionVisibilityDefault": "Default visibility for 7 sections",
-        "resultLimits": "Result limits (3 sliders)",
-        "showHideTypes": "Show/hide result types and sections",
-        "hideApps": "Hide apps",
-        "hideContacts": "Hide contacts",
-        "hideActions": "Hide actions/shortcuts",
-        "excludeFiles": "Exclude files/folders",
-        "fileTypes": "File types (7 types)",
-        "freeThemes": "2 free themes: UniSearch + High Contrast",
-        "modes": "Light and dark mode",
-        "basicAnimations": "Basic animations (fade/slide)",
-        "providersPreset": "Preset search providers (Google, DuckDuckGo, etc.)",
-        "providersToggle": "Enable/disable providers",
-        "providersAlwaysShow": "\"Always show\" provider switch",
-        "customSection": "1 free custom section (no sorting)",
-        "analytics": "Basic analytics (opt-in)",
-        "privacy": "Privacy mode",
-        "languages": "All 25 languages",
-        "sponsored": "Sponsored sections (Native Ads)"
+        "universal": "统一搜索：应用、联系人、文件、设置",
+        "algorithms": "所有搜索算法：前缀、模糊、音标、首字母、标记",
+        "frecency": "所有来源的频率排名",
+        "calculator": "内置计算器",
+        "appShortcutSyntax": "\"应用：快捷方式\" 查询语法",
+        "highlight": "匹配突出显示",
+        "entryPoints": "从助手、小部件或快速设置启动",
+        "quickSettings": "快速设置磁贴",
+        "assistantRole": "助手角色支持",
+        "notificationListener": "NotificationListenerService 支持",
+        "searchBarPosition": "搜索栏位置（顶部/底部）",
+        "layout": "应用布局（网格/列表）",
+        "gridColumns": "网格列（4-6）",
+        "iconSize": "图标大小（小/中/大）",
+        "gridSpacing": "网格间距（小/中/大）",
+        "iconLabels": "图标标签开/关",
+        "sectionHeaderIcons": "部分标题图标",
+        "autofocus": "自动对焦搜索栏",
+        "clearOnSelect": "选择时清除搜索",
+        "hideRecentsEmpty": "最近为空时隐藏部分",
+        "sectionVisibilityDefault": "7 个部分的默认可见性",
+        "resultLimits": "结果限制（3 个滑块）",
+        "showHideTypes": "显示/隐藏结果类型和部分",
+        "hideApps": "隐藏应用",
+        "hideContacts": "隐藏联系人",
+        "hideActions": "隐藏操作/快捷方式",
+        "excludeFiles": "排除文件/文件夹",
+        "fileTypes": "文件类型（7 种）",
+        "freeThemes": "2 个免费主题：UniSearch + 高对比度",
+        "modes": "浅色和深色模式",
+        "basicAnimations": "基本动画（淡入/滑动）",
+        "providersPreset": "预设搜索提供商（Google、DuckDuckGo 等）",
+        "providersToggle": "启用/禁用提供商",
+        "providersAlwaysShow": "\"总是显示\" 提供商开关",
+        "customSection": "1 个免费自定义部分（无排序）",
+        "analytics": "基本分析（选择加入）",
+        "privacy": "隐私模式",
+        "languages": "全部 25 种语言",
+        "sponsored": "赞助部分（原生广告）"
       }
     },
     "pro": {
       "title": "Pro",
-      "description": "One-time purchase. Unlock full design power.",
-      "badge": "Most popular",
-      "priceNote": "About $5–6",
+      "description": "一次性购买。解锁完整的设计权力。",
+      "badge": "最受欢迎",
+      "priceNote": "大约 5-6 美元",
       "items": {
-        "premiumThemes": "3 premium themes: Glass, Material You, Minimal Dark",
-        "themeCreator": "Custom theme creator",
-        "presets": "Unlimited theme presets",
-        "perSectionStyle": "Per-section style overrides",
-        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
-        "searchbarColors": "Search bar colors (7 × Light/Dark)",
-        "sectionColors": "Section colors (7 × Light/Dark)",
-        "itemIconColors": "Item icon colors (2 × Light/Dark)",
-        "bottomSheetColors": "Bottom sheet colors (5 × Light/Dark)",
-        "widgetColors": "Widget colors (5 × Light/Dark)",
-        "wallpaperBlur": "Custom wallpaper color + blur",
-        "advancedAnimations": "Search bar load animations (11 types)",
-        "sectionAnimations": "Section load animations (11 types)",
-        "sectionResize": "Section resize: animated / instant / none",
-        "loadOrder": "Load order: top to bottom / bottom to top / simultaneous",
-        "animationSpeed": "Animation speed (5 levels)",
-        "geometrySearchbar": "Search bar geometry: radius, padding, border, opacity",
-        "searchbarLeadingIcon": "Search bar leading icon picker",
-        "hidePlaceholder": "Hide placeholder",
-        "geometrySections": "Section geometry: radius, padding, border, opacity",
-        "geometryWidget": "Widget geometry: radius, padding, height, border, opacity",
-        "widgetLeadingIcon": "Widget leading icon picker",
-        "unlimitedSections": "Unlimited custom sections (Free: 1)",
-        "dragDropSections": "Drag & drop section reorder",
-        "customItems": "Custom items: App, Action, Contact, File, Setting",
-        "reorderItems": "Reorder items",
-        "sectionIconColors": "Section icon colors (Light/Dark)",
-        "pinnedItems": "Pinned items",
-        "iconPacks": "External icon packs",
-        "customProviders": "Custom search providers (URL template with {{Q}})",
-        "providersReorder": "Drag & drop provider order",
-        "aiPrompts": "Custom AI prompts (label + template + target app)",
-        "aiManage": "Edit/remove AI prompts",
-        "aiReorder": "Drag & drop prompt order",
-        "backupExport": "Export settings (JSON)",
-        "backupImport": "Import settings (restore configuration)",
-        "removeAds": "Remove sponsored sections",
-        "support": "Support future development"
+        "premiumThemes": "3 个高级主题：Glass、Material You、Minimal Dark",
+        "themeCreator": "自定义主题创建器",
+        "presets": "无限主题预设",
+        "perSectionStyle": "每个部分的样式覆盖",
+        "advancedColors": "52 个可更改颜色的位置（搜索栏、部分、小部件、底部面板）",
+        "searchbarColors": "搜索栏颜色（7 × 浅色/深色）",
+        "sectionColors": "部分颜色（7 × 浅色/深色）",
+        "itemIconColors": "项目图标颜色（2 × 浅色/深色）",
+        "bottomSheetColors": "底部表单颜色（5 × 浅色/深色）",
+        "widgetColors": "小部件颜色（5 × 浅色/深色）",
+        "wallpaperBlur": "自定义壁纸颜色 + 模糊",
+        "advancedAnimations": "搜索栏加载动画（11 种类型）",
+        "sectionAnimations": "部分加载动画（11 种类型）",
+        "sectionResize": "部分调整大小：动画 / 即时 / 无",
+        "loadOrder": "加载顺序：从上到下 / 从下到上 / 同时",
+        "animationSpeed": "动画速度（5 个级别）",
+        "geometrySearchbar": "搜索栏几何：半径、填充、边框、不透明度",
+        "searchbarLeadingIcon": "搜索栏前导图标选择器",
+        "hidePlaceholder": "隐藏占位符",
+        "geometrySections": "部分几何：半径、填充、边框、不透明度",
+        "geometryWidget": "小部件几何：半径、填充、高度、边框、不透明度",
+        "widgetLeadingIcon": "小部件前导图标选择器",
+        "unlimitedSections": "无限自定义部分（免费：1 个）",
+        "dragDropSections": "拖放部分重新排序",
+        "customItems": "自定义项目：应用、操作、联系人、文件、设置",
+        "reorderItems": "重新排序项目",
+        "sectionIconColors": "部分图标颜色（浅色/深色）",
+        "pinnedItems": "固定项目",
+        "iconPacks": "外部图标包",
+        "customProviders": "自定义搜索提供商（URL 模板含 {{Q}}）",
+        "providersReorder": "拖放提供商重新排序",
+        "aiPrompts": "自定义 AI 提示（标签 + 模板 + 目标应用）",
+        "aiManage": "编辑/移除 AI 提示",
+        "aiReorder": "拖放提示重新排序",
+        "backupExport": "导出设置（JSON）",
+        "backupImport": "导入设置（恢复配置）",
+        "removeAds": "移除赞助部分",
+        "support": "支持未来开发"
       }
     },
     "summary": {
-      "title": "Quick summary",
+      "title": "快速总结",
       "rows": {
-        "customization": "Customization",
-        "sections": "Custom sections",
-        "backup": "Backup",
-        "ads": "Ads"
+        "customization": "自定义",
+        "sections": "自定义部分",
+        "backup": "备份",
+        "ads": "广告"
       },
       "values": {
-        "basic": "Basic",
-        "unlimited": "Unlimited",
-        "limited": "1 only",
-        "none": "Not included",
-        "included": "Included",
-        "sponsored": "Sponsored sections"
+        "basic": "基础",
+        "unlimited": "无限",
+        "limited": "仅 1 个",
+        "none": "不包括",
+        "included": "包括",
+        "sponsored": "赞助部分"
       },
       "headers": {
-        "free": "Free",
+        "free": "免费",
         "pro": "Pro"
       }
     }
   },
   "cta": {
-    "title": "Ready to speed up your phone?",
-    "subtitle": "Install UniSearch and get the fastest way to find anything.",
-    "button": "Get it on Google Play"
+    "title": "准备好加速您的手机了吗？",
+    "subtitle": "安装 UniSearch 并获得查找任何内容的最快方式。",
+    "button": "在 Google Play 上获取"
   },
   "faq": {
-    "title": "FAQ",
-    "subtitle": "Quick answers to common questions.",
+    "title": "常见问题",
+    "subtitle": "常见问题的快速答案。",
     "items": [
       {
-        "q": "Does UniSearch send my data to the cloud?",
-        "a": "No. Search data and indexing stay on your device."
+        "q": "UniSearch 是否会将我的数据发送到云端？",
+        "a": "不会。搜索数据和索引保留在您的设备上。"
       },
       {
-        "q": "What exactly is indexed?",
-        "a": "Apps, shortcuts, system settings, contacts, and files you allow."
+        "q": "具体索引了什么？",
+        "a": "应用、快捷方式、系统设置、联系人和您允许的文件。"
       },
       {
-        "q": "Is Pro a subscription?",
-        "a": "No. Pro is a one-time purchase around $5–6."
+        "q": "Pro 是订阅吗？",
+        "a": "不是。Pro 是大约 5-6 美元的一次性购买。"
       },
       {
-        "q": "Can I restore my settings?",
-        "a": "Pro includes backup and restore via JSON export/import."
+        "q": "我能恢复我的设置吗？",
+        "a": "Pro 包括通过 JSON 导出/导入的备份和恢复。"
       },
       {
-        "q": "Is AI required?",
-        "a": "No. AI prompts are optional and can be disabled."
+        "q": "AI 是必需的吗？",
+        "a": "不是。AI 提示是可选的，可以随时禁用。"
       },
       {
-        "q": "How can I contact support?",
-        "a": "Email us and we will respond quickly."
+        "q": "我如何联系支持？",
+        "a": "给我们发送电子邮件，我们会快速回应。"
       }
     ]
   },
   "footer": {
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "contact": "Contact",
+    "privacy": "隐私",
+    "terms": "条款",
+    "contact": "联系",
     "googlePlay": "Google Play",
-    "copyright": "© {year} UniSearch. All rights reserved.",
-    "createdBy": "Created by Webybox"
+    "copyright": "© {year} UniSearch。版权所有。",
+    "createdBy": "由 Webybox 创建"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "Effective date: 2026-02-10",
-    "intro": "This app is designed to work locally on your device. We do not run our own backend servers for your data.",
+    "title": "隐私政策",
+    "subtitle": "生效日期：2026-02-10",
+    "intro": "此应用设计为在您的设备上本地工作。我们不为您的数据运行自己的后端服务器。",
     "sections": {
       "introduction": {
-        "title": "Overview",
+        "title": "概览",
         "body": [
-          "This app is designed to work locally on your device.",
-          "We do not run our own backend servers for your data."
+          "此应用设计为在您的设备上本地工作。",
+          "我们不为您的数据运行自己的后端服务器。"
         ]
       },
       "data": {
-        "title": "Data We Collect",
+        "title": "我们收集的数据",
         "body": [
-          "We do not collect or upload your contacts, files, or search data to our servers.",
-          "The app uses the following third-party services which may collect data according to their policies:",
-          "Google AdMob (ads)",
-          "Google Firebase Analytics (usage analytics)",
-          "Google Firebase Crashlytics (crash reports)",
-          "Google User Messaging Platform (consent management)",
-          "These services may collect device identifiers and usage information. You can review their policies in Google’s documentation."
+          "我们不收集或上传您的联系人、文件或搜索数据到我们的服务器。",
+          "该应用使用以下第三方服务，这些服务可能根据其政策收集数据：",
+          "Google AdMob（广告）",
+          "Google Firebase Analytics（使用分析）",
+          "Google Firebase Crashlytics（崩溃报告）",
+          "Google User Messaging Platform（同意管理）",
+          "这些服务可能收集设备标识符和使用信息。您可以在 Google 文档中查看他们的政策。"
         ]
       },
       "permissions": {
-        "title": "Permissions We Use",
+        "title": "我们使用的权限",
         "body": [
-          "READ_CONTACTS: to search and display contacts on-device.",
-          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: to search files across device storage, including non-media files and full folder paths. This is required for fast, system-wide file search and exclusions. SAF/MediaStore alone do not provide complete coverage for all file types and paths.",
-          "QUERY_ALL_PACKAGES: to index all installed apps, show them in search results, and enable launch of any app or shortcut. Without this, the app cannot provide full app search.",
-          "INTERNET: required by Google services and ads.",
-          "We use these permissions only for the features described above and only on-device."
+          "READ_CONTACTS：在设备上搜索和显示联系人。",
+          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE：在设备存储中搜索文件，包括非媒体文件和完整文件夹路径。这是快速、系统级文件搜索和排除所必需的。SAF/MediaStore 单独无法为所有文件类型和路径提供完整覆盖。",
+          "QUERY_ALL_PACKAGES：为了索引所有已安装的应用，在搜索结果中显示它们，并启用任何应用或快捷方式的启动。没有这个，应用无法提供完整的应用搜索。",
+          "INTERNET：Google 服务和广告需要。",
+          "我们仅将这些权限用于上述功能，且仅在设备上使用。"
         ]
       },
       "analytics": {
-        "title": "Analytics",
+        "title": "分析",
         "body": [
-          "Usage analytics may be provided by Google Firebase Analytics.",
-          "Crash reports may be provided by Google Firebase Crashlytics."
+          "使用分析可由 Google Firebase Analytics 提供。",
+          "崩溃报告可由 Google Firebase Crashlytics 提供。"
         ]
       },
       "ads": {
-        "title": "Ads",
+        "title": "广告",
         "body": [
-          "Ads may be served via Google AdMob.",
-          "Consent management may be handled by Google User Messaging Platform."
+          "广告可通过 Google AdMob 投放。",
+          "同意管理可由 Google User Messaging Platform 处理。"
         ]
       },
       "sharing": {
-        "title": "Data Sharing",
+        "title": "数据共享",
         "body": [
-          "We do not sell your personal data.",
-          "Data may be processed by the third-party services listed above as part of ads, analytics, and crash reporting."
+          "我们不出售您的个人数据。",
+          "数据可由上述第三方服务处理，作为广告、分析和崩溃报告的一部分。"
         ]
       },
       "security": {
-        "title": "Security",
+        "title": "安全",
         "body": [
-          "We take reasonable measures to protect data on-device.",
-          "No method of transmission or storage is 100% secure."
+          "我们采取合理措施保护设备上的数据。",
+          "没有传输或存储方法是 100% 安全的。"
         ]
       },
       "rights": {
-        "title": "Data Retention & Children’s Privacy",
+        "title": "数据保留和儿童隐私",
         "body": [
-          "We do not store your personal data on our servers.",
-          "Retention by third-party services is governed by their policies.",
-          "This app is not directed to children under 13.",
-          "We may update this policy. Changes will be posted in this file with a new effective date."
+          "我们不在我们的服务器上存储您的个人数据。",
+          "第三方服务的保留由其政策管理。",
+          "此应用不面向 13 岁以下的儿童。",
+          "我们可能更新此政策。更改将在此文件中发布，并带有新的生效日期。"
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "联系",
         "body": [
-          "If you have questions, contact: contact@webybox.com"
+          "如有问题，请联系：contact@webybox.com"
         ]
       }
     }
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Last updated: February 11, 2026",
-    "intro": "These terms outline the basic rules for using UniSearch.",
+    "title": "服务条款",
+    "subtitle": "最后更新：2026 年 2 月 11 日",
+    "intro": "这些条款概述了使用 UniSearch 的基本规则。",
     "sections": {
       "usage": {
-        "title": "Use of the app",
+        "title": "应用使用",
         "body": [
-          "Use UniSearch in accordance with local laws and platform policies.",
-          "Do not misuse the app for unlawful activities."
+          "按照当地法律和平台政策使用 UniSearch。",
+          "不要将应用用于非法活动。"
         ]
       },
       "purchases": {
-        "title": "Purchases",
+        "title": "购买",
         "body": [
-          "Pro is a one-time purchase handled by Google Play.",
-          "Refunds follow Google Play policies."
+          "Pro 是由 Google Play 处理的一次性购买。",
+          "退款遵循 Google Play 政策。"
         ]
       },
       "liability": {
-        "title": "Limitation of liability",
+        "title": "责任限制",
         "body": [
-          "The app is provided as-is without warranties.",
-          "We are not liable for indirect damages."
+          "应用按 \"原样\" 提供，无任何保证。",
+          "我们不对间接损害承担责任。"
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "联系",
         "body": [
-          "Questions? Reach out via email."
+          "有问题？通过电子邮件联系我们。"
         ]
       }
     }
   },
   "searchProviders": {
-    "title": "Search with providers",
-    "subtitle": "Choose where to search and control when results appear.",
+    "title": "使用提供商搜索",
+    "subtitle": "选择搜索位置并控制何时显示结果。",
     "items": [
       {
-        "title": "Preset providers",
-        "description": "Google, DuckDuckGo, and other popular sources."
+        "title": "预设提供商",
+        "description": "Google、DuckDuckGo 和其他热门来源。"
       },
       {
-        "title": "Enable / disable",
-        "description": "Full control over which providers are active."
+        "title": "启用 / 禁用",
+        "description": "完全控制哪些提供商处于活动状态。"
       },
       {
-        "title": "Always show",
-        "description": "Keep a chosen provider visible at all times."
+        "title": "总是显示",
+        "description": "始终保持选定的提供商可见。"
       },
       {
-        "title": "Quick switching",
-        "description": "Swap providers without leaving the search bar."
+        "title": "快速切换",
+        "description": "在不离开搜索栏的情况下交换提供商。"
       }
     ]
   }

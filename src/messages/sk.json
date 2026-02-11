@@ -1,443 +1,443 @@
 {
   "meta": {
-    "title": "UniSearch — Universal search for Android",
-    "description": "Find apps, contacts, files, actions, and more from one fast search bar. Built for speed, privacy, and offline-first use.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDescription": "Learn how UniSearch processes data locally and keeps your searches private.",
-    "termsTitle": "Terms of Service",
-    "termsDescription": "Basic terms for using the UniSearch app and website."
+    "title": "UniSearch — Univerzálne vyhľadávanie pre Android",
+    "description": "Nájdite aplikácie, kontakty, súbory, akcie a ďalšie z jedného rýchleho vyhľadávacieho poľa. Vytvorené pre rýchlosť, ochranu súkromia a offline používanie.",
+    "privacyTitle": "Zásady ochrany osobných údajov",
+    "privacyDescription": "Zistite, ako UniSearch spracováva dáta lokálne a udržiava vaše vyhľadávanie súkromné.",
+    "termsTitle": "Podmienky služby",
+    "termsDescription": "Základné podmienky na používanie aplikácie UniSearch a webových stránok."
   },
   "common": {
-    "back": "Back"
+    "back": "Späť"
   },
   "nav": {
-    "features": "Features",
-    "freePro": "Free vs Pro",
-    "privacy": "Privacy",
-    "faq": "FAQ",
-    "getApp": "Get it on Google Play",
-    "how": "How it works",
-    "language": "Language",
-    "changelog": "Changelog"
+    "features": "Funkcie",
+    "freePro": "Bezplatná vs Pro",
+    "privacy": "Súkromie",
+    "faq": "Často kladené otázky",
+    "getApp": "Stiahnuť z Google Play",
+    "how": "Ako to funguje",
+    "language": "Jazyk",
+    "changelog": "História zmien"
   },
   "hero": {
-    "badge": "Universal search for Android",
-    "title": "Find everything on your phone in seconds.",
-    "subtitle": "Apps, contacts, files, actions, calculator, and AI — all from one lightning-fast search bar.",
-    "primaryCta": "Get it on Google Play",
-    "secondaryCta": "Explore features",
-    "note": "No account required. Works offline by default."
+    "badge": "Univerzálne vyhľadávanie pre Android",
+    "title": "Nájdite všetko na vašom telefóne za sekundy.",
+    "subtitle": "Aplikácie, kontakty, súbory, akcie, kalkulačka a AI — všetko z jedného neuveriteľne rýchleho vyhľadávacieho poľa.",
+    "primaryCta": "Stiahnuť z Google Play",
+    "secondaryCta": "Preskúmať funkcie",
+    "note": "Nie je vyžadovaný účet. Predvolene funguje offline."
   },
   "trust": {
-    "title": "Built for speed and control",
+    "title": "Vytvorené pre rýchlosť a kontrolu",
     "items": [
       {
-        "title": "Fast",
-        "description": "Instant results with real-time filtering and smart ranking."
+        "title": "Rýchle",
+        "description": "Okamžité výsledky s filtrovaním v reálnom čase a inteligentným usporiadaním."
       },
       {
-        "title": "Privacy",
-        "description": "Your data stays on-device. Optional analytics only."
+        "title": "Súkromie",
+        "description": "Vaše dáta ostávajú v zariadení. Len voliteľná analytika."
       },
       {
-        "title": "Offline-first",
-        "description": "Search works even without an internet connection."
+        "title": "Offline",
+        "description": "Vyhľadávanie funguje aj bez pripojenia na internet."
       },
       {
-        "title": "Personalization",
-        "description": "Tune themes, sections, spacing, and behavior."
+        "title": "Personalizácia",
+        "description": "Prispôsobte si témy, sekcie, rozostúpenie a správanie."
       }
     ]
   },
   "features": {
-    "title": "Everything you want to find — instantly",
-    "subtitle": "UniSearch brings every source into one smooth, unified result list.",
+    "title": "Všetko, čo chcete nájsť — okamžite",
+    "subtitle": "UniSearch spája všetky zdroje do jedného hladkého, jednotného zoznamu výsledkov.",
     "groups": {
       "search": {
-        "title": "Unified search",
-        "description": "Find anything with smart ranking and noise filtering."
+        "title": "Jednotné vyhľadávanie",
+        "description": "Nájdite čokoľvek s inteligentným usporiadaním a filtrovaním šumu."
       },
       "actions": {
-        "title": "Actions & shortcuts",
-        "description": "Launch actions, deep links, and curated shortcuts."
+        "title": "Akcie a skratky",
+        "description": "Spúšťajte akcie, hlboké odkazy a vybraté skratky."
       },
       "files": {
-        "title": "Files & media",
-        "description": "Search documents, photos, videos, music, and folders."
+        "title": "Súbory a média",
+        "description": "Vyhľadávajte dokumenty, fotografie, videá, hudbu a zložky."
       },
       "contacts": {
-        "title": "Contacts",
-        "description": "Call, message, or open linked apps instantly."
+        "title": "Kontakty",
+        "description": "Zavolajte, odošlite správu alebo okamžite otvorte prepojené aplikácie."
       },
       "calculator": {
-        "title": "Calculator",
-        "description": "Inline calculator with precision math."
+        "title": "Kalkulačka",
+        "description": "Vstavená kalkulačka s presnou matematikou."
       },
       "customization": {
-        "title": "Customization",
-        "description": "Control layout, themes, and visibility."
+        "title": "Prispôsobenie",
+        "description": "Ovládajte rozloženie, témy a viditeľnosť."
       },
       "ai": {
-        "title": "AI prompts",
-        "description": "Optional AI helpers with clear data boundaries."
+        "title": "AI príkazy",
+        "description": "Voliteľní AI pomocníci s jasnými hranicami dát."
       },
       "providers": {
-        "title": "Search providers",
-        "description": "Choose where UniSearch sends external queries."
+        "title": "Poskytovatelia vyhľadávania",
+        "description": "Zvoľte, kam UniSearch posiela externé dotazy."
       }
     },
     "items": {
       "search": {
-        "universal": "Apps, contacts, files, settings, and shortcuts in one query",
-        "instant": "Real-time filtering with instant results",
-        "frecency": "Frecency ranking that adapts to your habits"
+        "universal": "Aplikácie, kontakty, súbory, nastavenia a skratky v jednom dotaze",
+        "instant": "Filtrovaní v reálnom čase s okamžitými výsledkami",
+        "frecency": "Usporiadanie podľa frekvencie a nedávnosti, ktoré sa prispôsobuje vašim zvykom"
       },
       "actions": {
-        "shortcuts": "App shortcuts and deep links",
-        "system": "System actions and settings search",
-        "workflow": "Launch from Assistant, widget, or Quick Settings"
+        "shortcuts": "Skratky aplikácií a hlboké odkazy",
+        "system": "Systémové akcie a vyhľadávanie nastavení",
+        "workflow": "Spustenie z Asistenta, widgetu alebo Rýchleho nastavenia"
       },
       "files": {
-        "documents": "Documents, images, videos, music",
-        "media": "Folders and MediaStore-powered results",
-        "filters": "Type filters and exclusions"
+        "documents": "Dokumenty, obrázky, videá, hudba",
+        "media": "Zložky a výsledky založené na MediaStore",
+        "filters": "Filtre typov a vylúčenia"
       },
       "contacts": {
-        "smart": "Smart matching and ranking",
-        "actions": "Call, message, or open linked apps",
-        "permissions": "Optional permissions with clear control"
+        "smart": "Inteligentné spárovanie a usporiadanie",
+        "actions": "Zavolajte, odošlite správu alebo otvorte prepojené aplikácie",
+        "permissions": "Voliteľné povolenia s jasnou kontrolou"
       },
       "calculator": {
-        "inline": "Inline math as you type",
-        "precision": "BigDecimal precision with brackets",
-        "copy": "Copy results in one tap"
+        "inline": "Vstavená matematika pri písaní",
+        "precision": "Presnosť BigDecimal so zátvorkami",
+        "copy": "Skopírujte výsledky jedným kliknutím"
       },
       "customization": {
-        "themes": "Light, dark, and curated themes",
-        "layout": "Icon size, grid spacing, labels",
-        "sections": "Show, hide, and reorder sections"
+        "themes": "Svetlé, tmavé a vybrané témy",
+        "layout": "Veľkosť ikon, rozostúpenie mriežky, popisy",
+        "sections": "Zobrazenie, skrytie a zmena poradia sekcií"
       },
       "ai": {
-        "prompts": "Create quick AI prompts",
-        "safe": "Clear opt-in usage",
-        "optional": "Disable AI anytime"
+        "prompts": "Vytvárajte rýchle AI príkazy",
+        "safe": "Jasné voliteľné použitie",
+        "optional": "Kedykoľvek zakážete AI"
       },
       "providers": {
-        "preset": "Preset providers like Google, YouTube or ChatGPT",
-        "toggle": "Enable or disable providers",
-        "always": "Ability to define custom ones"
+        "preset": "Prednastavení poskytovatelia ako Google, YouTube alebo ChatGPT",
+        "toggle": "Povolenie alebo zakázanie poskytovateľov",
+        "always": "Možnosť definovať vlastné"
       }
     }
   },
   "how": {
-    "title": "How it works",
-    "subtitle": "A simple flow designed for speed.",
+    "title": "Ako to funguje",
+    "subtitle": "Jednoduchý proces navrhnutý pre rýchlosť.",
     "steps": {
       "index": {
-        "title": "Index",
-        "description": "UniSearch indexes apps, contacts, files, and settings locally."
+        "title": "Indexovanie",
+        "description": "UniSearch indexuje aplikácie, kontakty, súbory a nastavenia lokálne."
       },
       "search": {
-        "title": "Search",
-        "description": "Type once and get ranked results instantly."
+        "title": "Vyhľadávanie",
+        "description": "Napíšte raz a okamžite dostanete usporiadané výsledky."
       },
       "action": {
-        "title": "Action",
-        "description": "Open, call, calculate, or run a shortcut in one tap."
+        "title": "Akcia",
+        "description": "Otvorte, zavolajte, vypočítajte alebo spustite skratku jedným kliknutím."
       }
     }
   },
   "freePro": {
-    "title": "Free vs Pro",
-    "subtitle": "Start free, upgrade once for full control.",
+    "title": "Bezplatná vs Pro",
+    "subtitle": "Začnite bezplatne, inovujte raz pre úplnú kontrolu.",
     "free": {
-      "title": "Free",
-      "description": "Everything you need to search fast.",
+      "title": "Bezplatná",
+      "description": "Všetko, čo potrebujete pre rýchle vyhľadávanie.",
       "items": {
-        "universal": "Universal search: apps, contacts, files, settings",
-        "algorithms": "All search algorithms: prefix, fuzzy, phonetic, acronym, token",
-        "frecency": "Frecency ranking across all sources",
-        "calculator": "Built-in calculator",
-        "appShortcutSyntax": "\"App: Shortcut\" query syntax",
-        "highlight": "Match highlighting",
-        "entryPoints": "Launch from Assistant, widget, or Quick Settings",
-        "quickSettings": "Quick Settings tile",
-        "assistantRole": "Assistant role support",
-        "notificationListener": "NotificationListenerService support",
-        "searchBarPosition": "Search bar position (top/bottom)",
-        "layout": "App layout (grid/list)",
-        "gridColumns": "Grid columns (4–6)",
-        "iconSize": "Icon size (S/M/L)",
-        "gridSpacing": "Grid spacing (S/M/L)",
-        "iconLabels": "Icon labels on/off",
-        "sectionHeaderIcons": "Section header icons",
-        "autofocus": "Auto-focus search bar",
-        "clearOnSelect": "Clear search on selection",
-        "hideRecentsEmpty": "Hide section when recents are empty",
-        "sectionVisibilityDefault": "Default visibility for 7 sections",
-        "resultLimits": "Result limits (3 sliders)",
-        "showHideTypes": "Show/hide result types and sections",
-        "hideApps": "Hide apps",
-        "hideContacts": "Hide contacts",
-        "hideActions": "Hide actions/shortcuts",
-        "excludeFiles": "Exclude files/folders",
-        "fileTypes": "File types (7 types)",
-        "freeThemes": "2 free themes: UniSearch + High Contrast",
-        "modes": "Light and dark mode",
-        "basicAnimations": "Basic animations (fade/slide)",
-        "providersPreset": "Preset search providers (Google, DuckDuckGo, etc.)",
-        "providersToggle": "Enable/disable providers",
-        "providersAlwaysShow": "\"Always show\" provider switch",
-        "customSection": "1 free custom section (no sorting)",
-        "analytics": "Basic analytics (opt-in)",
-        "privacy": "Privacy mode",
-        "languages": "All 25 languages",
-        "sponsored": "Sponsored sections (Native Ads)"
+        "universal": "Univerzálne vyhľadávanie: aplikácie, kontakty, súbory, nastavenia",
+        "algorithms": "Všetky vyhľadávacie algoritmy: predpona, fuzzy, fonetické, skratka, token",
+        "frecency": "Usporiadanie podľa frekvencie a nedávnosti naprieč všetkými zdrojmi",
+        "calculator": "Vstavená kalkulačka",
+        "appShortcutSyntax": "Syntaxe dotazu \"Aplikácia: Skratka\"",
+        "highlight": "Zvýraznenie zhôd",
+        "entryPoints": "Spustenie z Asistenta, widgetu alebo Rýchleho nastavenia",
+        "quickSettings": "Dlaždica Rýchleho nastavenia",
+        "assistantRole": "Podpora úlohy Asistenta",
+        "notificationListener": "Podpora NotificationListenerService",
+        "searchBarPosition": "Pozícia vyhľadávacieho poľa (hore/dole)",
+        "layout": "Rozloženie aplikácie (mriežka/zoznam)",
+        "gridColumns": "Stĺpce mriežky (4–6)",
+        "iconSize": "Veľkosť ikon (S/M/L)",
+        "gridSpacing": "Rozostúpenie mriežky (S/M/L)",
+        "iconLabels": "Popisy ikon zapnuté/vypnuté",
+        "sectionHeaderIcons": "Ikony záhlavia sekcií",
+        "autofocus": "Automatické zameranie vyhľadávacieho poľa",
+        "clearOnSelect": "Vymazať vyhľadávanie pri výbere",
+        "hideRecentsEmpty": "Skryť sekciu, keď sú posledné prázdne",
+        "sectionVisibilityDefault": "Predvolená viditeľnosť pre 7 sekcií",
+        "resultLimits": "Limity výsledkov (3 posúvače)",
+        "showHideTypes": "Zobrazenie/skrytie typov výsledkov a sekcií",
+        "hideApps": "Skryť aplikácie",
+        "hideContacts": "Skryť kontakty",
+        "hideActions": "Skryť akcie/skratky",
+        "excludeFiles": "Vylúčiť súbory/zložky",
+        "fileTypes": "Typy súborov (7 typov)",
+        "freeThemes": "2 bezplatné témy: UniSearch + Vysoký kontrast",
+        "modes": "Svetlý a tmavý režim",
+        "basicAnimations": "Základné animácie (fade/slide)",
+        "providersPreset": "Prednastavení poskytovatelia vyhľadávania (Google, DuckDuckGo atd.)",
+        "providersToggle": "Povolenie/zakázanie poskytovateľov",
+        "providersAlwaysShow": "Prepínač \"Vždy zobraziť\" poskytovatela",
+        "customSection": "1 bezplatná vlastná sekcia (bez usporiadania)",
+        "analytics": "Základná analytika (voliteľne)",
+        "privacy": "Režim súkromia",
+        "languages": "Všetkých 25 jazykov",
+        "sponsored": "Sponzorované sekcie (nativní reklamy)"
       }
     },
     "pro": {
       "title": "Pro",
-      "description": "One-time purchase. Unlock full design power.",
-      "badge": "Most popular",
-      "priceNote": "About $5–6",
+      "description": "Jednorazový nákup. Odomknite plnú silu dizajnu.",
+      "badge": "Najviac populárny",
+      "priceNote": "Približne 5–6 USD",
       "items": {
-        "premiumThemes": "3 premium themes: Glass, Material You, Minimal Dark",
-        "themeCreator": "Custom theme creator",
-        "presets": "Unlimited theme presets",
-        "perSectionStyle": "Per-section style overrides",
-        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
-        "searchbarColors": "Search bar colors (7 × Light/Dark)",
-        "sectionColors": "Section colors (7 × Light/Dark)",
-        "itemIconColors": "Item icon colors (2 × Light/Dark)",
-        "bottomSheetColors": "Bottom sheet colors (5 × Light/Dark)",
-        "widgetColors": "Widget colors (5 × Light/Dark)",
-        "wallpaperBlur": "Custom wallpaper color + blur",
-        "advancedAnimations": "Search bar load animations (11 types)",
-        "sectionAnimations": "Section load animations (11 types)",
-        "sectionResize": "Section resize: animated / instant / none",
-        "loadOrder": "Load order: top to bottom / bottom to top / simultaneous",
-        "animationSpeed": "Animation speed (5 levels)",
-        "geometrySearchbar": "Search bar geometry: radius, padding, border, opacity",
-        "searchbarLeadingIcon": "Search bar leading icon picker",
-        "hidePlaceholder": "Hide placeholder",
-        "geometrySections": "Section geometry: radius, padding, border, opacity",
-        "geometryWidget": "Widget geometry: radius, padding, height, border, opacity",
-        "widgetLeadingIcon": "Widget leading icon picker",
-        "unlimitedSections": "Unlimited custom sections (Free: 1)",
-        "dragDropSections": "Drag & drop section reorder",
-        "customItems": "Custom items: App, Action, Contact, File, Setting",
-        "reorderItems": "Reorder items",
-        "sectionIconColors": "Section icon colors (Light/Dark)",
-        "pinnedItems": "Pinned items",
-        "iconPacks": "External icon packs",
-        "customProviders": "Custom search providers (URL template with {{Q}})",
-        "providersReorder": "Drag & drop provider order",
-        "aiPrompts": "Custom AI prompts (label + template + target app)",
-        "aiManage": "Edit/remove AI prompts",
-        "aiReorder": "Drag & drop prompt order",
-        "backupExport": "Export settings (JSON)",
-        "backupImport": "Import settings (restore configuration)",
-        "removeAds": "Remove sponsored sections",
-        "support": "Support future development"
+        "premiumThemes": "3 prémiové témy: Sklo, Material You, Minimálny tmavý",
+        "themeCreator": "Tvorca vlastných tém",
+        "presets": "Neobmedzené predvoľby tém",
+        "perSectionStyle": "Prepísanie štýlu pre každú sekciu",
+        "advancedColors": "52 miest s možnosťou zmeny farieb (vyhľadávacie pole, sekcie, widget, dolný panel)",
+        "searchbarColors": "Farby vyhľadávacieho poľa (7 × svetlé/tmavé)",
+        "sectionColors": "Farby sekcií (7 × svetlé/tmavé)",
+        "itemIconColors": "Farby ikon položiek (2 × svetlé/tmavé)",
+        "bottomSheetColors": "Farby dolného panela (5 × svetlé/tmavé)",
+        "widgetColors": "Farby widgetu (5 × svetlé/tmavé)",
+        "wallpaperBlur": "Vlastná farba tapety + rozmazanie",
+        "advancedAnimations": "Animácie načítania vyhľadávacieho poľa (11 typov)",
+        "sectionAnimations": "Animácie načítania sekcií (11 typov)",
+        "sectionResize": "Zmena veľkosti sekcie: animovaná / okamžitá / žiadna",
+        "loadOrder": "Poradie načítania: zhora nadol / zdola nahor / súčasne",
+        "animationSpeed": "Rýchlosť animácie (5 úrovní)",
+        "geometrySearchbar": "Geometria vyhľadávacieho poľa: polomer, výplň, okraj, priehľadnosť",
+        "searchbarLeadingIcon": "Výber vedúcej ikony vyhľadávacieho poľa",
+        "hidePlaceholder": "Skryť zástupný text",
+        "geometrySections": "Geometria sekcií: polomer, výplň, okraj, priehľadnosť",
+        "geometryWidget": "Geometria widgetu: polomer, výplň, výška, okraj, priehľadnosť",
+        "widgetLeadingIcon": "Výber vedúcej ikony widgetu",
+        "unlimitedSections": "Neobmedzené vlastné sekcie (Bezplatná: 1)",
+        "dragDropSections": "Zmena poradia sekcií pretahaním",
+        "customItems": "Vlastné položky: Aplikácia, Akcia, Kontakt, Súbor, Nastavenie",
+        "reorderItems": "Zmena poradia položiek",
+        "sectionIconColors": "Farby ikon sekcií (svetlé/tmavé)",
+        "pinnedItems": "Pripnuté položky",
+        "iconPacks": "Externé balíčky ikon",
+        "customProviders": "Vlastní poskytovatelia vyhľadávania (šablóna URL s {{Q}})",
+        "providersReorder": "Zmena poradia poskytovateľov pretahaním",
+        "aiPrompts": "Vlastní AI príkazy (popis + šablóna + cieľová aplikácia)",
+        "aiManage": "Úprava/odstránenie AI príkazov",
+        "aiReorder": "Zmena poradia príkazov pretahaním",
+        "backupExport": "Exportovať nastavenia (JSON)",
+        "backupImport": "Importovať nastavenia (obnovenie konfigurácie)",
+        "removeAds": "Odstránite sponzorované sekcie",
+        "support": "Podpora budúceho vývoja"
       }
     },
     "summary": {
-      "title": "Quick summary",
+      "title": "Rýchle zhrnutie",
       "rows": {
-        "customization": "Customization",
-        "sections": "Custom sections",
-        "backup": "Backup",
-        "ads": "Ads"
+        "customization": "Prispôsobenie",
+        "sections": "Vlastné sekcie",
+        "backup": "Zálohovánie",
+        "ads": "Reklamy"
       },
       "values": {
-        "basic": "Basic",
-        "unlimited": "Unlimited",
-        "limited": "1 only",
-        "none": "Not included",
-        "included": "Included",
-        "sponsored": "Sponsored sections"
+        "basic": "Základné",
+        "unlimited": "Neobmedzené",
+        "limited": "Len 1",
+        "none": "Nie je zahrnuté",
+        "included": "Zahrnuté",
+        "sponsored": "Sponzorované sekcie"
       },
       "headers": {
-        "free": "Free",
+        "free": "Bezplatná",
         "pro": "Pro"
       }
     }
   },
   "cta": {
-    "title": "Ready to speed up your phone?",
-    "subtitle": "Install UniSearch and get the fastest way to find anything.",
-    "button": "Get it on Google Play"
+    "title": "Ste pripravení zrýchliť váš telefón?",
+    "subtitle": "Nainštalujte UniSearch a získajte najrýchlejší spôsob, ako nájsť čokoľvek.",
+    "button": "Stiahnuť z Google Play"
   },
   "faq": {
-    "title": "FAQ",
-    "subtitle": "Quick answers to common questions.",
+    "title": "Často kladené otázky",
+    "subtitle": "Rýchle odpovede na bežné otázky.",
     "items": [
       {
-        "q": "Does UniSearch send my data to the cloud?",
-        "a": "No. Search data and indexing stay on your device."
+        "q": "Posiela UniSearch moje dáta do cloudu?",
+        "a": "Nie. Dáta vyhľadávania a indexovanie ostávajú vo vašom zariadení."
       },
       {
-        "q": "What exactly is indexed?",
-        "a": "Apps, shortcuts, system settings, contacts, and files you allow."
+        "q": "Čo presne sa indexuje?",
+        "a": "Aplikácie, skratky, nastavenia systému, kontakty a súbory, ktoré povolíte."
       },
       {
-        "q": "Is Pro a subscription?",
-        "a": "No. Pro is a one-time purchase around $5–6."
+        "q": "Je Pro predplatné?",
+        "a": "Nie. Pro je jednorazový nákup za približne 5–6 USD."
       },
       {
-        "q": "Can I restore my settings?",
-        "a": "Pro includes backup and restore via JSON export/import."
+        "q": "Môžem obnoviť svoje nastavenia?",
+        "a": "Pro obsahuje zálohovánie a obnovenie prostredníctvom exportu/importu JSON."
       },
       {
-        "q": "Is AI required?",
-        "a": "No. AI prompts are optional and can be disabled."
+        "q": "Je AI povinný?",
+        "a": "Nie. AI príkazy sú voliteľné a možno ich kedykoľvek zakázať."
       },
       {
-        "q": "How can I contact support?",
-        "a": "Email us and we will respond quickly."
+        "q": "Ako môžem kontaktovať podporu?",
+        "a": "Napíšte nám email a rýchlo vám odpovieme."
       }
     ]
   },
   "footer": {
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "contact": "Contact",
+    "privacy": "Súkromie",
+    "terms": "Podmienky",
+    "contact": "Kontakt",
     "googlePlay": "Google Play",
-    "copyright": "© {year} UniSearch. All rights reserved.",
-    "createdBy": "Created by Webybox"
+    "copyright": "© {year} UniSearch. Všetky práva vyhradené.",
+    "createdBy": "Vytvorené spoločnosťou Webybox"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "Effective date: 2026-02-10",
-    "intro": "This app is designed to work locally on your device. We do not run our own backend servers for your data.",
+    "title": "Zásady ochrany osobných údajov",
+    "subtitle": "Dátum účinnosti: 10. február 2026",
+    "intro": "Táto aplikácia je navrhnutá tak, aby fungovala lokálne vo vašom zariadení. Neprevádzkujeme vlastné backendové servery pre vaše dáta.",
     "sections": {
       "introduction": {
-        "title": "Overview",
+        "title": "Prehľad",
         "body": [
-          "This app is designed to work locally on your device.",
-          "We do not run our own backend servers for your data."
+          "Táto aplikácia je navrhnutá tak, aby fungovala lokálne vo vašom zariadení.",
+          "Neprevádzkujeme vlastné backendové servery pre vaše dáta."
         ]
       },
       "data": {
-        "title": "Data We Collect",
+        "title": "Dáta, ktoré zbierame",
         "body": [
-          "We do not collect or upload your contacts, files, or search data to our servers.",
-          "The app uses the following third-party services which may collect data according to their policies:",
-          "Google AdMob (ads)",
-          "Google Firebase Analytics (usage analytics)",
-          "Google Firebase Crashlytics (crash reports)",
-          "Google User Messaging Platform (consent management)",
-          "These services may collect device identifiers and usage information. You can review their policies in Google’s documentation."
+          "Nezbierame ani nenahrávame vaše kontakty, súbory ani dáta vyhľadávania na naše servery.",
+          "Aplikácia používa nasledujúce služby tretích strán, ktoré môžu zbierať dáta podľa svojich zásad:",
+          "Google AdMob (reklamy)",
+          "Google Firebase Analytics (analytika používania)",
+          "Google Firebase Crashlytics (hlásenia pádu)",
+          "Google User Messaging Platform (správa súhlasu)",
+          "Tieto služby môžu zbierať identifikátory zariadenia a informácie o používaní. Ich zásady si môžete prehliadnuť v dokumentácii Google."
         ]
       },
       "permissions": {
-        "title": "Permissions We Use",
+        "title": "Povolenia, ktoré používame",
         "body": [
-          "READ_CONTACTS: to search and display contacts on-device.",
-          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: to search files across device storage, including non-media files and full folder paths. This is required for fast, system-wide file search and exclusions. SAF/MediaStore alone do not provide complete coverage for all file types and paths.",
-          "QUERY_ALL_PACKAGES: to index all installed apps, show them in search results, and enable launch of any app or shortcut. Without this, the app cannot provide full app search.",
-          "INTERNET: required by Google services and ads.",
-          "We use these permissions only for the features described above and only on-device."
+          "READ_CONTACTS: na vyhľadávanie a zobrazenie kontaktov v zariadení.",
+          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: na vyhľadávanie súborov v úložisku zariadenia vrátane mimo mediálnych súborov a úplných ciest zložiek. Toto je potrebné pre rýchle vyhľadávanie súborov na celom systéme a vylúčenia. SAF/MediaStore sami neposkytujú úplné pokrytie pre všetky typy súborov a cesty.",
+          "QUERY_ALL_PACKAGES: na indexovanie všetkých nainštalovaných aplikácií, ich zobrazenie vo výsledkoch vyhľadávania a umožnenie spustenia akejkoľvek aplikácie alebo skratky. Bez toho aplikácia nemôže poskytnúť úplné vyhľadávanie aplikácií.",
+          "INTERNET: vyžadované službami Google a reklamami.",
+          "Tieto povolenia používame iba pre funkcie popísané vyššie a iba v zariadení."
         ]
       },
       "analytics": {
-        "title": "Analytics",
+        "title": "Analytika",
         "body": [
-          "Usage analytics may be provided by Google Firebase Analytics.",
-          "Crash reports may be provided by Google Firebase Crashlytics."
+          "Analytiku používania môže poskytnúť Google Firebase Analytics.",
+          "Hlásenia pádu môže poskytnúť Google Firebase Crashlytics."
         ]
       },
       "ads": {
-        "title": "Ads",
+        "title": "Reklamy",
         "body": [
-          "Ads may be served via Google AdMob.",
-          "Consent management may be handled by Google User Messaging Platform."
+          "Reklamy môžu byť zobrazované prostredníctvom Google AdMob.",
+          "Správu súhlasu môže zajišťovať Google User Messaging Platform."
         ]
       },
       "sharing": {
-        "title": "Data Sharing",
+        "title": "Zdieľanie dát",
         "body": [
-          "We do not sell your personal data.",
-          "Data may be processed by the third-party services listed above as part of ads, analytics, and crash reporting."
+          "Nepredávame vaše osobné údaje.",
+          "Dáta môžu byť spracovávané službami tretích strán uvedenými vyššie ako súčasť reklám, analytiky a hlásení pádu."
         ]
       },
       "security": {
-        "title": "Security",
+        "title": "Bezpečnosť",
         "body": [
-          "We take reasonable measures to protect data on-device.",
-          "No method of transmission or storage is 100% secure."
+          "Podnikáme primerané opatrenia na ochranu dát v zariadení.",
+          "Žiadna metóda prenosu ani skladovania nie je 100% bezpečná."
         ]
       },
       "rights": {
-        "title": "Data Retention & Children’s Privacy",
+        "title": "Uchovávánie dát a súkromie detí",
         "body": [
-          "We do not store your personal data on our servers.",
-          "Retention by third-party services is governed by their policies.",
-          "This app is not directed to children under 13.",
-          "We may update this policy. Changes will be posted in this file with a new effective date."
+          "Vaše osobné údaje neuchovávame na našich serveroch.",
+          "Uchovávánie službami tretích strán sa riadi ich zásadami.",
+          "Táto aplikácia nie je určená pre deti mladšie ako 13 rokov.",
+          "Tieto zásady môžeme aktualizovať. Zmeny budú zverejnené v tomto súbore s novým dátumom účinnosti."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "Kontakt",
         "body": [
-          "If you have questions, contact: contact@webybox.com"
+          "Ak máte otázky, kontaktujte nás: contact@webybox.com"
         ]
       }
     }
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Last updated: February 11, 2026",
-    "intro": "These terms outline the basic rules for using UniSearch.",
+    "title": "Podmienky služby",
+    "subtitle": "Naposledy aktualizované: 11. február 2026",
+    "intro": "Tieto podmienky vymedzujú základné pravidlá na používanie UniSearch.",
     "sections": {
       "usage": {
-        "title": "Use of the app",
+        "title": "Používanie aplikácie",
         "body": [
-          "Use UniSearch in accordance with local laws and platform policies.",
-          "Do not misuse the app for unlawful activities."
+          "Používajte UniSearch v súlade s miestnymi zákonmi a zásadami platformy.",
+          "Nepoužívajte aplikáciu zneužívanie na nezákonné činnosti."
         ]
       },
       "purchases": {
-        "title": "Purchases",
+        "title": "Nákupy",
         "body": [
-          "Pro is a one-time purchase handled by Google Play.",
-          "Refunds follow Google Play policies."
+          "Pro je jednorazový nákup spracovaný prostredníctvom Google Play.",
+          "Vrátenie peňazí sa riadi zásadami Google Play."
         ]
       },
       "liability": {
-        "title": "Limitation of liability",
+        "title": "Obmedzenie zodpovednosti",
         "body": [
-          "The app is provided as-is without warranties.",
-          "We are not liable for indirect damages."
+          "Aplikácia je poskytovaná tak, ako je, bez záručí.",
+          "Nie sme zodpovední za nepriame škody."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "Kontakt",
         "body": [
-          "Questions? Reach out via email."
+          "Máte otázky? Kontaktujte nás cez email."
         ]
       }
     }
   },
   "searchProviders": {
-    "title": "Search with providers",
-    "subtitle": "Choose where to search and control when results appear.",
+    "title": "Vyhľadávanie s poskytovateľmi",
+    "subtitle": "Zvoľte, kde vyhľadávať a kontrolujte, kedy sa zobrazia výsledky.",
     "items": [
       {
-        "title": "Preset providers",
-        "description": "Google, DuckDuckGo, and other popular sources."
+        "title": "Prednastavení poskytovatelia",
+        "description": "Google, DuckDuckGo a ďalšie obľúbené zdroje."
       },
       {
-        "title": "Enable / disable",
-        "description": "Full control over which providers are active."
+        "title": "Povolenie / zakázanie",
+        "description": "Úplná kontrola nad tým, ktoří poskytovatelia sú aktívni."
       },
       {
-        "title": "Always show",
-        "description": "Keep a chosen provider visible at all times."
+        "title": "Vždy zobraziť",
+        "description": "Udržujte zvolené poskytovatele vždy viditeľného."
       },
       {
-        "title": "Quick switching",
-        "description": "Swap providers without leaving the search bar."
+        "title": "Rýchle prepínanie",
+        "description": "Prepínajte medzi poskytovateľmi bez opustenia vyhľadávacieho poľa."
       }
     ]
   }

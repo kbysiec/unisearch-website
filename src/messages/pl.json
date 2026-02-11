@@ -123,9 +123,9 @@
         "optional": "Możesz wyłączyć w każdej chwili"
       },
       "providers": {
-        "preset": "Preset providers like Google, YouTube or ChatGPT",
+        "preset": "Predefiniowani dostawcy jak Google, YouTube lub ChatGPT",
         "toggle": "Włączanie/wyłączanie dostawców",
-        "always": "Ability to define custom ones"
+        "always": "Możliwość definiowania własnych"
       }
     }
   },
@@ -311,80 +311,80 @@
     "createdBy": "Stworzone przez Webybox"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "Effective date: 2026-02-10",
-    "intro": "This app is designed to work locally on your device. We do not run our own backend servers for your data.",
+    "title": "Polityka prywatności",
+    "subtitle": "Data wejścia w życie: 2026-02-10",
+    "intro": "Ta aplikacja została zaprojektowana do pracy lokalnie na Twoim urządzeniu. Nie prowadzę własnych serwerów backendowych do przechowywania Twoich danych.",
     "sections": {
       "introduction": {
-        "title": "Overview",
+        "title": "Przegląd",
         "body": [
-          "This app is designed to work locally on your device.",
-          "We do not run our own backend servers for your data."
+          "Ta aplikacja została zaprojektowana do pracy lokalnie na Twoim urządzeniu.",
+          "Nie prowadzę własnych serwerów backendowych do przechowywania Twoich danych."
         ]
       },
       "data": {
-        "title": "Data We Collect",
+        "title": "Dane, które zbieramy",
         "body": [
-          "We do not collect or upload your contacts, files, or search data to our servers.",
-          "The app uses the following third-party services which may collect data according to their policies:",
-          "Google AdMob (ads)",
-          "Google Firebase Analytics (usage analytics)",
-          "Google Firebase Crashlytics (crash reports)",
-          "Google User Messaging Platform (consent management)",
-          "These services may collect device identifiers and usage information. You can review their policies in Google’s documentation."
+          "Nie zbieramy ani nie przesyłamy Twoich kontaktów, plików ani danych wyszukiwania na nasze serwery.",
+          "Aplikacja korzysta z następujących usług trzecich, które mogą zbierać dane zgodnie z ich polityką:",
+          "Google AdMob (reklamy)",
+          "Google Firebase Analytics (analityka użytkowania)",
+          "Google Firebase Crashlytics (raporty awarii)",
+          "Google User Messaging Platform (zarządzanie zgodą)",
+          "Te usługi mogą zbierać identyfikatory urządzeń i informacje o użytkowaniu. Możesz przejrzeć ich polityki w dokumentacji Google."
         ]
       },
       "permissions": {
-        "title": "Permissions We Use",
+        "title": "Uprawnienia, które używamy",
         "body": [
-          "READ_CONTACTS: to search and display contacts on-device.",
-          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: to search files across device storage, including non-media files and full folder paths. This is required for fast, system-wide file search and exclusions. SAF/MediaStore alone do not provide complete coverage for all file types and paths.",
-          "QUERY_ALL_PACKAGES: to index all installed apps, show them in search results, and enable launch of any app or shortcut. Without this, the app cannot provide full app search.",
-          "INTERNET: required by Google services and ads.",
-          "We use these permissions only for the features described above and only on-device."
+          "READ_CONTACTS: do wyszukiwania i wyświetlania kontaktów na urządzeniu.",
+          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: do wyszukiwania plików na całej pamięci urządzenia, w tym plików spoza multimediów i pełnych ścieżek folderów. Jest to wymagane do szybkiego wyszukiwania plików w całym systemie i wykluczeń. SAF/MediaStore samodzielnie nie zapewniają pełnego zakresu dla wszystkich typów plików i ścieżek.",
+          "QUERY_ALL_PACKAGES: do indeksowania wszystkich zainstalowanych aplikacji, wyświetlania ich w wynikach wyszukiwania i umożliwienia uruchomienia dowolnej aplikacji lub skrótu. Bez tego aplikacja nie może zapewnić pełnego wyszukiwania aplikacji.",
+          "INTERNET: wymagane przez usługi Google i reklamy.",
+          "Używamy tych uprawnień tylko dla funkcji opisanych powyżej i tylko na urządzeniu."
         ]
       },
       "analytics": {
-        "title": "Analytics",
+        "title": "Analityka",
         "body": [
-          "Usage analytics may be provided by Google Firebase Analytics.",
-          "Crash reports may be provided by Google Firebase Crashlytics."
+          "Analityka użytkowania może być zapewniana przez Google Firebase Analytics.",
+          "Raporty awarii mogą być zapewniane przez Google Firebase Crashlytics."
         ]
       },
       "ads": {
-        "title": "Ads",
+        "title": "Reklamy",
         "body": [
-          "Ads may be served via Google AdMob.",
-          "Consent management may be handled by Google User Messaging Platform."
+          "Reklamy mogą być wyświetlane za pośrednictwem Google AdMob.",
+          "Zarządzanie zgodą może być obsługiwane przez Google User Messaging Platform."
         ]
       },
       "sharing": {
-        "title": "Data Sharing",
+        "title": "Udostępnianie danych",
         "body": [
-          "We do not sell your personal data.",
-          "Data may be processed by the third-party services listed above as part of ads, analytics, and crash reporting."
+          "Nie sprzedajemy Twoich danych osobowych.",
+          "Dane mogą być przetwarzane przez usługi trzecie wymienione powyżej w ramach reklam, analityki i raportowania awarii."
         ]
       },
       "security": {
-        "title": "Security",
+        "title": "Bezpieczeństwo",
         "body": [
-          "We take reasonable measures to protect data on-device.",
-          "No method of transmission or storage is 100% secure."
+          "Podejmujemy rozsądne środki ochrony danych na urządzeniu.",
+          "Żadna metoda transmisji lub przechowywania nie jest w 100% bezpieczna."
         ]
       },
       "rights": {
-        "title": "Data Retention & Children’s Privacy",
+        "title": "Przechowywanie danych i prywatność dzieci",
         "body": [
-          "We do not store your personal data on our servers.",
-          "Retention by third-party services is governed by their policies.",
-          "This app is not directed to children under 13.",
-          "We may update this policy. Changes will be posted in this file with a new effective date."
+          "Nie przechowujemy Twoich danych osobowych na naszych serwerach.",
+          "Przechowywanie przez usługi trzecie podlega ich polityce.",
+          "Ta aplikacja nie jest skierowana do dzieci poniżej 13 lat.",
+          "Możemy aktualizować tę politykę. Zmiany będą opublikowane w tym pliku z nową datą wejścia w życie."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "Kontakt",
         "body": [
-          "If you have questions, contact: contact@webybox.com"
+          "Jeśli masz pytania, skontaktuj się z nami: contact@webybox.com"
         ]
       }
     }

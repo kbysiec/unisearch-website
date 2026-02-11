@@ -1,443 +1,443 @@
 {
   "meta": {
-    "title": "UniSearch — Universal search for Android",
-    "description": "Find apps, contacts, files, actions, and more from one fast search bar. Built for speed, privacy, and offline-first use.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDescription": "Learn how UniSearch processes data locally and keeps your searches private.",
-    "termsTitle": "Terms of Service",
-    "termsDescription": "Basic terms for using the UniSearch app and website."
+    "title": "UniSearch — Pencarian universal untuk Android",
+    "description": "Temukan aplikasi, kontak, file, tindakan, dan banyak lagi dari satu bilah pencarian yang cepat. Dibangun untuk kecepatan, privasi, dan penggunaan offline-first.",
+    "privacyTitle": "Kebijakan Privasi",
+    "privacyDescription": "Pelajari bagaimana UniSearch memproses data secara lokal dan menjaga pencarian Anda tetap pribadi.",
+    "termsTitle": "Syarat Layanan",
+    "termsDescription": "Syarat dasar untuk menggunakan aplikasi UniSearch dan situs web."
   },
   "common": {
-    "back": "Back"
+    "back": "Kembali"
   },
   "nav": {
-    "features": "Features",
-    "freePro": "Free vs Pro",
-    "privacy": "Privacy",
-    "faq": "FAQ",
-    "getApp": "Get it on Google Play",
-    "how": "How it works",
-    "language": "Language",
-    "changelog": "Changelog"
+    "features": "Fitur",
+    "freePro": "Gratis vs Pro",
+    "privacy": "Privasi",
+    "faq": "Tanya Jawab",
+    "getApp": "Dapatkan di Google Play",
+    "how": "Cara kerjanya",
+    "language": "Bahasa",
+    "changelog": "Catatan perubahan"
   },
   "hero": {
-    "badge": "Universal search for Android",
-    "title": "Find everything on your phone in seconds.",
-    "subtitle": "Apps, contacts, files, actions, calculator, and AI — all from one lightning-fast search bar.",
-    "primaryCta": "Get it on Google Play",
-    "secondaryCta": "Explore features",
-    "note": "No account required. Works offline by default."
+    "badge": "Pencarian universal untuk Android",
+    "title": "Temukan semua hal di ponsel Anda dalam hitungan detik.",
+    "subtitle": "Aplikasi, kontak, file, tindakan, kalkulator, dan AI — semuanya dari satu bilah pencarian yang sangat cepat.",
+    "primaryCta": "Dapatkan di Google Play",
+    "secondaryCta": "Jelajahi fitur",
+    "note": "Tidak perlu akun. Bekerja offline secara default."
   },
   "trust": {
-    "title": "Built for speed and control",
+    "title": "Dibangun untuk kecepatan dan kontrol",
     "items": [
       {
-        "title": "Fast",
-        "description": "Instant results with real-time filtering and smart ranking."
+        "title": "Cepat",
+        "description": "Hasil instan dengan penyaringan real-time dan peringkat cerdas."
       },
       {
-        "title": "Privacy",
-        "description": "Your data stays on-device. Optional analytics only."
+        "title": "Privasi",
+        "description": "Data Anda tetap di perangkat. Analitik opsional saja."
       },
       {
         "title": "Offline-first",
-        "description": "Search works even without an internet connection."
+        "description": "Pencarian bekerja bahkan tanpa koneksi internet."
       },
       {
-        "title": "Personalization",
-        "description": "Tune themes, sections, spacing, and behavior."
+        "title": "Personalisasi",
+        "description": "Sesuaikan tema, bagian, jarak, dan perilaku."
       }
     ]
   },
   "features": {
-    "title": "Everything you want to find — instantly",
-    "subtitle": "UniSearch brings every source into one smooth, unified result list.",
+    "title": "Semua yang ingin Anda temukan — secara instan",
+    "subtitle": "UniSearch membawa setiap sumber ke dalam satu daftar hasil yang mulus dan terpadu.",
     "groups": {
       "search": {
-        "title": "Unified search",
-        "description": "Find anything with smart ranking and noise filtering."
+        "title": "Pencarian terpadu",
+        "description": "Temukan apa pun dengan peringkat cerdas dan penyaringan kebisingan."
       },
       "actions": {
-        "title": "Actions & shortcuts",
-        "description": "Launch actions, deep links, and curated shortcuts."
+        "title": "Tindakan & pintasan",
+        "description": "Luncurkan tindakan, tautan mendalam, dan pintasan yang dikurasi."
       },
       "files": {
-        "title": "Files & media",
-        "description": "Search documents, photos, videos, music, and folders."
+        "title": "File & media",
+        "description": "Cari dokumen, foto, video, musik, dan folder."
       },
       "contacts": {
-        "title": "Contacts",
-        "description": "Call, message, or open linked apps instantly."
+        "title": "Kontak",
+        "description": "Hubungi, pesan, atau buka aplikasi tertaut secara instan."
       },
       "calculator": {
-        "title": "Calculator",
-        "description": "Inline calculator with precision math."
+        "title": "Kalkulator",
+        "description": "Kalkulator inline dengan matematika presisi."
       },
       "customization": {
-        "title": "Customization",
-        "description": "Control layout, themes, and visibility."
+        "title": "Kustomisasi",
+        "description": "Kontrol tata letak, tema, dan visibilitas."
       },
       "ai": {
-        "title": "AI prompts",
-        "description": "Optional AI helpers with clear data boundaries."
+        "title": "Prompt AI",
+        "description": "Pembantu AI opsional dengan batasan data yang jelas."
       },
       "providers": {
-        "title": "Search providers",
-        "description": "Choose where UniSearch sends external queries."
+        "title": "Penyedia pencarian",
+        "description": "Pilih di mana UniSearch mengirim permintaan eksternal."
       }
     },
     "items": {
       "search": {
-        "universal": "Apps, contacts, files, settings, and shortcuts in one query",
-        "instant": "Real-time filtering with instant results",
-        "frecency": "Frecency ranking that adapts to your habits"
+        "universal": "Aplikasi, kontak, file, pengaturan, dan pintasan dalam satu kueri",
+        "instant": "Penyaringan real-time dengan hasil instan",
+        "frecency": "Peringkat frecency yang beradaptasi dengan kebiasaan Anda"
       },
       "actions": {
-        "shortcuts": "App shortcuts and deep links",
-        "system": "System actions and settings search",
-        "workflow": "Launch from Assistant, widget, or Quick Settings"
+        "shortcuts": "Pintasan aplikasi dan tautan mendalam",
+        "system": "Tindakan sistem dan pencarian pengaturan",
+        "workflow": "Luncurkan dari Asisten, widget, atau Pengaturan Cepat"
       },
       "files": {
-        "documents": "Documents, images, videos, music",
-        "media": "Folders and MediaStore-powered results",
-        "filters": "Type filters and exclusions"
+        "documents": "Dokumen, gambar, video, musik",
+        "media": "Folder dan hasil bertenaga MediaStore",
+        "filters": "Filter tipe dan pengecualian"
       },
       "contacts": {
-        "smart": "Smart matching and ranking",
-        "actions": "Call, message, or open linked apps",
-        "permissions": "Optional permissions with clear control"
+        "smart": "Pencocokan dan peringkat cerdas",
+        "actions": "Hubungi, pesan, atau buka aplikasi tertaut",
+        "permissions": "Izin opsional dengan kontrol yang jelas"
       },
       "calculator": {
-        "inline": "Inline math as you type",
-        "precision": "BigDecimal precision with brackets",
-        "copy": "Copy results in one tap"
+        "inline": "Matematika inline saat Anda mengetik",
+        "precision": "Presisi BigDecimal dengan kurung",
+        "copy": "Salin hasil dalam satu ketukan"
       },
       "customization": {
-        "themes": "Light, dark, and curated themes",
-        "layout": "Icon size, grid spacing, labels",
-        "sections": "Show, hide, and reorder sections"
+        "themes": "Tema terang, gelap, dan yang dikurasi",
+        "layout": "Ukuran ikon, jarak kisi, label",
+        "sections": "Tampilkan, sembunyikan, dan atur ulang bagian"
       },
       "ai": {
-        "prompts": "Create quick AI prompts",
-        "safe": "Clear opt-in usage",
-        "optional": "Disable AI anytime"
+        "prompts": "Buat prompt AI cepat",
+        "safe": "Penggunaan opt-in yang jelas",
+        "optional": "Nonaktifkan AI kapan saja"
       },
       "providers": {
-        "preset": "Preset providers like Google, YouTube or ChatGPT",
-        "toggle": "Enable or disable providers",
-        "always": "Ability to define custom ones"
+        "preset": "Penyedia preset seperti Google, YouTube atau ChatGPT",
+        "toggle": "Aktifkan atau nonaktifkan penyedia",
+        "always": "Kemampuan untuk menentukan yang kustom"
       }
     }
   },
   "how": {
-    "title": "How it works",
-    "subtitle": "A simple flow designed for speed.",
+    "title": "Cara kerjanya",
+    "subtitle": "Alur sederhana yang dirancang untuk kecepatan.",
     "steps": {
       "index": {
-        "title": "Index",
-        "description": "UniSearch indexes apps, contacts, files, and settings locally."
+        "title": "Indeks",
+        "description": "UniSearch mengindeks aplikasi, kontak, file, dan pengaturan secara lokal."
       },
       "search": {
-        "title": "Search",
-        "description": "Type once and get ranked results instantly."
+        "title": "Pencarian",
+        "description": "Ketik sekali dan dapatkan hasil peringkat secara instan."
       },
       "action": {
-        "title": "Action",
-        "description": "Open, call, calculate, or run a shortcut in one tap."
+        "title": "Tindakan",
+        "description": "Buka, hubungi, hitung, atau jalankan pintasan dalam satu ketukan."
       }
     }
   },
   "freePro": {
-    "title": "Free vs Pro",
-    "subtitle": "Start free, upgrade once for full control.",
+    "title": "Gratis vs Pro",
+    "subtitle": "Mulai gratis, tingkatkan sekali untuk kontrol penuh.",
     "free": {
-      "title": "Free",
-      "description": "Everything you need to search fast.",
+      "title": "Gratis",
+      "description": "Semua yang Anda butuhkan untuk mencari dengan cepat.",
       "items": {
-        "universal": "Universal search: apps, contacts, files, settings",
-        "algorithms": "All search algorithms: prefix, fuzzy, phonetic, acronym, token",
-        "frecency": "Frecency ranking across all sources",
-        "calculator": "Built-in calculator",
-        "appShortcutSyntax": "\"App: Shortcut\" query syntax",
-        "highlight": "Match highlighting",
-        "entryPoints": "Launch from Assistant, widget, or Quick Settings",
-        "quickSettings": "Quick Settings tile",
-        "assistantRole": "Assistant role support",
-        "notificationListener": "NotificationListenerService support",
-        "searchBarPosition": "Search bar position (top/bottom)",
-        "layout": "App layout (grid/list)",
-        "gridColumns": "Grid columns (4–6)",
-        "iconSize": "Icon size (S/M/L)",
-        "gridSpacing": "Grid spacing (S/M/L)",
-        "iconLabels": "Icon labels on/off",
-        "sectionHeaderIcons": "Section header icons",
-        "autofocus": "Auto-focus search bar",
-        "clearOnSelect": "Clear search on selection",
-        "hideRecentsEmpty": "Hide section when recents are empty",
-        "sectionVisibilityDefault": "Default visibility for 7 sections",
-        "resultLimits": "Result limits (3 sliders)",
-        "showHideTypes": "Show/hide result types and sections",
-        "hideApps": "Hide apps",
-        "hideContacts": "Hide contacts",
-        "hideActions": "Hide actions/shortcuts",
-        "excludeFiles": "Exclude files/folders",
-        "fileTypes": "File types (7 types)",
-        "freeThemes": "2 free themes: UniSearch + High Contrast",
-        "modes": "Light and dark mode",
-        "basicAnimations": "Basic animations (fade/slide)",
-        "providersPreset": "Preset search providers (Google, DuckDuckGo, etc.)",
-        "providersToggle": "Enable/disable providers",
-        "providersAlwaysShow": "\"Always show\" provider switch",
-        "customSection": "1 free custom section (no sorting)",
-        "analytics": "Basic analytics (opt-in)",
-        "privacy": "Privacy mode",
-        "languages": "All 25 languages",
-        "sponsored": "Sponsored sections (Native Ads)"
+        "universal": "Pencarian universal: aplikasi, kontak, file, pengaturan",
+        "algorithms": "Semua algoritma pencarian: awalan, fuzzy, fonetik, akronim, token",
+        "frecency": "Peringkat frecency di semua sumber",
+        "calculator": "Kalkulator bawaan",
+        "appShortcutSyntax": "Sintaks kueri \"Aplikasi: Pintasan\"",
+        "highlight": "Penyorotan kecocokan",
+        "entryPoints": "Luncurkan dari Asisten, widget, atau Pengaturan Cepat",
+        "quickSettings": "Ubin Pengaturan Cepat",
+        "assistantRole": "Dukungan peran Asisten",
+        "notificationListener": "Dukungan NotificationListenerService",
+        "searchBarPosition": "Posisi bilah pencarian (atas/bawah)",
+        "layout": "Tata letak aplikasi (kisi/daftar)",
+        "gridColumns": "Kolom kisi (4–6)",
+        "iconSize": "Ukuran ikon (K/S/B)",
+        "gridSpacing": "Jarak kisi (K/S/B)",
+        "iconLabels": "Label ikon aktif/mati",
+        "sectionHeaderIcons": "Ikon header bagian",
+        "autofocus": "Bilah pencarian fokus otomatis",
+        "clearOnSelect": "Hapus pencarian saat dipilih",
+        "hideRecentsEmpty": "Sembunyikan bagian ketika yang terakhir kosong",
+        "sectionVisibilityDefault": "Visibilitas default untuk 7 bagian",
+        "resultLimits": "Batas hasil (3 penggeser)",
+        "showHideTypes": "Tampilkan/sembunyikan tipe hasil dan bagian",
+        "hideApps": "Sembunyikan aplikasi",
+        "hideContacts": "Sembunyikan kontak",
+        "hideActions": "Sembunyikan tindakan/pintasan",
+        "excludeFiles": "Kecualikan file/folder",
+        "fileTypes": "Jenis file (7 jenis)",
+        "freeThemes": "2 tema gratis: UniSearch + Kontras Tinggi",
+        "modes": "Mode terang dan gelap",
+        "basicAnimations": "Animasi dasar (fade/slide)",
+        "providersPreset": "Penyedia pencarian preset (Google, DuckDuckGo, dll.)",
+        "providersToggle": "Aktifkan/nonaktifkan penyedia",
+        "providersAlwaysShow": "Tombol penyedia \"Selalu tampilkan\"",
+        "customSection": "1 bagian kustom gratis (tanpa pengurutan)",
+        "analytics": "Analitik dasar (opt-in)",
+        "privacy": "Mode privasi",
+        "languages": "Semua 25 bahasa",
+        "sponsored": "Bagian bersponsor (Iklan Asli)"
       }
     },
     "pro": {
       "title": "Pro",
-      "description": "One-time purchase. Unlock full design power.",
-      "badge": "Most popular",
-      "priceNote": "About $5–6",
+      "description": "Pembelian sekali. Buka kekuatan desain penuh.",
+      "badge": "Paling populer",
+      "priceNote": "Sekitar $5–6",
       "items": {
-        "premiumThemes": "3 premium themes: Glass, Material You, Minimal Dark",
-        "themeCreator": "Custom theme creator",
-        "presets": "Unlimited theme presets",
-        "perSectionStyle": "Per-section style overrides",
-        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
-        "searchbarColors": "Search bar colors (7 × Light/Dark)",
-        "sectionColors": "Section colors (7 × Light/Dark)",
-        "itemIconColors": "Item icon colors (2 × Light/Dark)",
-        "bottomSheetColors": "Bottom sheet colors (5 × Light/Dark)",
-        "widgetColors": "Widget colors (5 × Light/Dark)",
-        "wallpaperBlur": "Custom wallpaper color + blur",
-        "advancedAnimations": "Search bar load animations (11 types)",
-        "sectionAnimations": "Section load animations (11 types)",
-        "sectionResize": "Section resize: animated / instant / none",
-        "loadOrder": "Load order: top to bottom / bottom to top / simultaneous",
-        "animationSpeed": "Animation speed (5 levels)",
-        "geometrySearchbar": "Search bar geometry: radius, padding, border, opacity",
-        "searchbarLeadingIcon": "Search bar leading icon picker",
-        "hidePlaceholder": "Hide placeholder",
-        "geometrySections": "Section geometry: radius, padding, border, opacity",
-        "geometryWidget": "Widget geometry: radius, padding, height, border, opacity",
-        "widgetLeadingIcon": "Widget leading icon picker",
-        "unlimitedSections": "Unlimited custom sections (Free: 1)",
-        "dragDropSections": "Drag & drop section reorder",
-        "customItems": "Custom items: App, Action, Contact, File, Setting",
-        "reorderItems": "Reorder items",
-        "sectionIconColors": "Section icon colors (Light/Dark)",
-        "pinnedItems": "Pinned items",
-        "iconPacks": "External icon packs",
-        "customProviders": "Custom search providers (URL template with {{Q}})",
-        "providersReorder": "Drag & drop provider order",
-        "aiPrompts": "Custom AI prompts (label + template + target app)",
-        "aiManage": "Edit/remove AI prompts",
-        "aiReorder": "Drag & drop prompt order",
-        "backupExport": "Export settings (JSON)",
-        "backupImport": "Import settings (restore configuration)",
-        "removeAds": "Remove sponsored sections",
-        "support": "Support future development"
+        "premiumThemes": "3 tema premium: Glass, Material You, Minimal Dark",
+        "themeCreator": "Pembuat tema kustom",
+        "presets": "Preset tema tak terbatas",
+        "perSectionStyle": "Penggantian gaya per-bagian",
+        "advancedColors": "52 tempat dengan kemungkinan mengubah warna (Bilah pencarian, Bagian, Widget, Panel bawah)",
+        "searchbarColors": "Warna bilah pencarian (7 × Terang/Gelap)",
+        "sectionColors": "Warna bagian (7 × Terang/Gelap)",
+        "itemIconColors": "Warna ikon item (2 × Terang/Gelap)",
+        "bottomSheetColors": "Warna lembar bawah (5 × Terang/Gelap)",
+        "widgetColors": "Warna widget (5 × Terang/Gelap)",
+        "wallpaperBlur": "Warna wallpaper kustom + blur",
+        "advancedAnimations": "Animasi pemuatan bilah pencarian (11 jenis)",
+        "sectionAnimations": "Animasi pemuatan bagian (11 jenis)",
+        "sectionResize": "Ubah ukuran bagian: animasi / instan / tidak ada",
+        "loadOrder": "Urutan muatan: atas ke bawah / bawah ke atas / bersamaan",
+        "animationSpeed": "Kecepatan animasi (5 tingkat)",
+        "geometrySearchbar": "Geometri bilah pencarian: jari-jari, padding, batas, opasitas",
+        "searchbarLeadingIcon": "Pemilih ikon terdepan bilah pencarian",
+        "hidePlaceholder": "Sembunyikan placeholder",
+        "geometrySections": "Geometri bagian: jari-jari, padding, batas, opasitas",
+        "geometryWidget": "Geometri widget: jari-jari, padding, tinggi, batas, opasitas",
+        "widgetLeadingIcon": "Pemilih ikon terdepan widget",
+        "unlimitedSections": "Bagian kustom tak terbatas (Gratis: 1)",
+        "dragDropSections": "Atur ulang bagian seret & lepas",
+        "customItems": "Item kustom: Aplikasi, Tindakan, Kontak, File, Pengaturan",
+        "reorderItems": "Atur ulang item",
+        "sectionIconColors": "Warna ikon bagian (Terang/Gelap)",
+        "pinnedItems": "Item tertancap",
+        "iconPacks": "Paket ikon eksternal",
+        "customProviders": "Penyedia pencarian kustom (template URL dengan {{Q}})",
+        "providersReorder": "Atur ulang pesanan penyedia seret & lepas",
+        "aiPrompts": "Prompt AI kustom (label + template + aplikasi target)",
+        "aiManage": "Edit/hapus prompt AI",
+        "aiReorder": "Atur ulang urutan prompt seret & lepas",
+        "backupExport": "Pengaturan ekspor (JSON)",
+        "backupImport": "Pengaturan impor (pulihkan konfigurasi)",
+        "removeAds": "Hapus bagian bersponsor",
+        "support": "Dukung pengembangan di masa depan"
       }
     },
     "summary": {
-      "title": "Quick summary",
+      "title": "Ringkasan cepat",
       "rows": {
-        "customization": "Customization",
-        "sections": "Custom sections",
-        "backup": "Backup",
-        "ads": "Ads"
+        "customization": "Kustomisasi",
+        "sections": "Bagian kustom",
+        "backup": "Cadangan",
+        "ads": "Iklan"
       },
       "values": {
-        "basic": "Basic",
-        "unlimited": "Unlimited",
-        "limited": "1 only",
-        "none": "Not included",
-        "included": "Included",
-        "sponsored": "Sponsored sections"
+        "basic": "Dasar",
+        "unlimited": "Tak terbatas",
+        "limited": "Hanya 1",
+        "none": "Tidak disertakan",
+        "included": "Disertakan",
+        "sponsored": "Bagian bersponsor"
       },
       "headers": {
-        "free": "Free",
+        "free": "Gratis",
         "pro": "Pro"
       }
     }
   },
   "cta": {
-    "title": "Ready to speed up your phone?",
-    "subtitle": "Install UniSearch and get the fastest way to find anything.",
-    "button": "Get it on Google Play"
+    "title": "Siap mempercepat ponsel Anda?",
+    "subtitle": "Instal UniSearch dan dapatkan cara tercepat untuk menemukan apa pun.",
+    "button": "Dapatkan di Google Play"
   },
   "faq": {
-    "title": "FAQ",
-    "subtitle": "Quick answers to common questions.",
+    "title": "Tanya Jawab",
+    "subtitle": "Jawaban cepat untuk pertanyaan umum.",
     "items": [
       {
-        "q": "Does UniSearch send my data to the cloud?",
-        "a": "No. Search data and indexing stay on your device."
+        "q": "Apakah UniSearch mengirim data saya ke cloud?",
+        "a": "Tidak. Data pencarian dan pengindeksan tetap di perangkat Anda."
       },
       {
-        "q": "What exactly is indexed?",
-        "a": "Apps, shortcuts, system settings, contacts, and files you allow."
+        "q": "Apa yang sebenarnya diindeks?",
+        "a": "Aplikasi, pintasan, pengaturan sistem, kontak, dan file yang Anda izinkan."
       },
       {
-        "q": "Is Pro a subscription?",
-        "a": "No. Pro is a one-time purchase around $5–6."
+        "q": "Apakah Pro adalah langganan?",
+        "a": "Tidak. Pro adalah pembelian sekali sekitar $5–6."
       },
       {
-        "q": "Can I restore my settings?",
-        "a": "Pro includes backup and restore via JSON export/import."
+        "q": "Bisakah saya mengembalikan pengaturan saya?",
+        "a": "Pro mencakup cadangan dan pemulihan melalui ekspor/impor JSON."
       },
       {
-        "q": "Is AI required?",
-        "a": "No. AI prompts are optional and can be disabled."
+        "q": "Apakah AI diperlukan?",
+        "a": "Tidak. Prompt AI bersifat opsional dan dapat dinonaktifkan."
       },
       {
-        "q": "How can I contact support?",
-        "a": "Email us and we will respond quickly."
+        "q": "Bagaimana cara menghubungi dukungan?",
+        "a": "Kirim email kepada kami dan kami akan merespons dengan cepat."
       }
     ]
   },
   "footer": {
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "contact": "Contact",
+    "privacy": "Privasi",
+    "terms": "Syarat",
+    "contact": "Kontak",
     "googlePlay": "Google Play",
-    "copyright": "© {year} UniSearch. All rights reserved.",
-    "createdBy": "Created by Webybox"
+    "copyright": "© {year} UniSearch. Semua hak dilindungi.",
+    "createdBy": "Dibuat oleh Webybox"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "Effective date: 2026-02-10",
-    "intro": "This app is designed to work locally on your device. We do not run our own backend servers for your data.",
+    "title": "Kebijakan Privasi",
+    "subtitle": "Tanggal efektif: 2026-02-10",
+    "intro": "Aplikasi ini dirancang untuk bekerja secara lokal di perangkat Anda. Kami tidak menjalankan server backend kami sendiri untuk data Anda.",
     "sections": {
       "introduction": {
-        "title": "Overview",
+        "title": "Ikhtisar",
         "body": [
-          "This app is designed to work locally on your device.",
-          "We do not run our own backend servers for your data."
+          "Aplikasi ini dirancang untuk bekerja secara lokal di perangkat Anda.",
+          "Kami tidak menjalankan server backend kami sendiri untuk data Anda."
         ]
       },
       "data": {
-        "title": "Data We Collect",
+        "title": "Data Yang Kami Kumpulkan",
         "body": [
-          "We do not collect or upload your contacts, files, or search data to our servers.",
-          "The app uses the following third-party services which may collect data according to their policies:",
-          "Google AdMob (ads)",
-          "Google Firebase Analytics (usage analytics)",
-          "Google Firebase Crashlytics (crash reports)",
-          "Google User Messaging Platform (consent management)",
-          "These services may collect device identifiers and usage information. You can review their policies in Google’s documentation."
+          "Kami tidak mengumpulkan atau mengunggah kontak, file, atau data pencarian Anda ke server kami.",
+          "Aplikasi menggunakan layanan pihak ketiga berikut yang dapat mengumpulkan data sesuai dengan kebijakan mereka:",
+          "Google AdMob (iklan)",
+          "Google Firebase Analytics (analitik penggunaan)",
+          "Google Firebase Crashlytics (laporan kerusakan)",
+          "Google User Messaging Platform (manajemen persetujuan)",
+          "Layanan ini dapat mengumpulkan pengenal perangkat dan informasi penggunaan. Anda dapat meninjau kebijakan mereka dalam dokumentasi Google."
         ]
       },
       "permissions": {
-        "title": "Permissions We Use",
+        "title": "Izin Yang Kami Gunakan",
         "body": [
-          "READ_CONTACTS: to search and display contacts on-device.",
-          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: to search files across device storage, including non-media files and full folder paths. This is required for fast, system-wide file search and exclusions. SAF/MediaStore alone do not provide complete coverage for all file types and paths.",
-          "QUERY_ALL_PACKAGES: to index all installed apps, show them in search results, and enable launch of any app or shortcut. Without this, the app cannot provide full app search.",
-          "INTERNET: required by Google services and ads.",
-          "We use these permissions only for the features described above and only on-device."
+          "READ_CONTACTS: untuk mencari dan menampilkan kontak di perangkat.",
+          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: untuk mencari file di seluruh penyimpanan perangkat, termasuk file non-media dan jalur folder lengkap. Ini diperlukan untuk pencarian file cepat di seluruh sistem dan pengecualian. SAF/MediaStore saja tidak memberikan cakupan lengkap untuk semua jenis file dan jalur.",
+          "QUERY_ALL_PACKAGES: untuk mengindeks semua aplikasi yang terinstal, menampilkannya dalam hasil pencarian, dan mengaktifkan peluncuran aplikasi atau pintasan apa pun. Tanpa ini, aplikasi tidak dapat memberikan pencarian aplikasi lengkap.",
+          "INTERNET: diperlukan oleh layanan Google dan iklan.",
+          "Kami menggunakan izin ini hanya untuk fitur yang dijelaskan di atas dan hanya di perangkat."
         ]
       },
       "analytics": {
-        "title": "Analytics",
+        "title": "Analitik",
         "body": [
-          "Usage analytics may be provided by Google Firebase Analytics.",
-          "Crash reports may be provided by Google Firebase Crashlytics."
+          "Analitik penggunaan dapat disediakan oleh Google Firebase Analytics.",
+          "Laporan kerusakan dapat disediakan oleh Google Firebase Crashlytics."
         ]
       },
       "ads": {
-        "title": "Ads",
+        "title": "Iklan",
         "body": [
-          "Ads may be served via Google AdMob.",
-          "Consent management may be handled by Google User Messaging Platform."
+          "Iklan dapat ditayangkan melalui Google AdMob.",
+          "Manajemen persetujuan dapat ditangani oleh Google User Messaging Platform."
         ]
       },
       "sharing": {
-        "title": "Data Sharing",
+        "title": "Berbagi Data",
         "body": [
-          "We do not sell your personal data.",
-          "Data may be processed by the third-party services listed above as part of ads, analytics, and crash reporting."
+          "Kami tidak menjual data pribadi Anda.",
+          "Data dapat diproses oleh layanan pihak ketiga yang tercantum di atas sebagai bagian dari iklan, analitik, dan pelaporan kerusakan."
         ]
       },
       "security": {
-        "title": "Security",
+        "title": "Keamanan",
         "body": [
-          "We take reasonable measures to protect data on-device.",
-          "No method of transmission or storage is 100% secure."
+          "Kami mengambil langkah yang wajar untuk melindungi data di perangkat.",
+          "Tidak ada metode transmisi atau penyimpanan yang 100% aman."
         ]
       },
       "rights": {
-        "title": "Data Retention & Children’s Privacy",
+        "title": "Retensi Data & Privasi Anak",
         "body": [
-          "We do not store your personal data on our servers.",
-          "Retention by third-party services is governed by their policies.",
-          "This app is not directed to children under 13.",
-          "We may update this policy. Changes will be posted in this file with a new effective date."
+          "Kami tidak menyimpan data pribadi Anda di server kami.",
+          "Retensi oleh layanan pihak ketiga diatur oleh kebijakan mereka.",
+          "Aplikasi ini tidak ditujukan kepada anak di bawah 13 tahun.",
+          "Kami dapat memperbarui kebijakan ini. Perubahan akan diposting di file ini dengan tanggal efektif baru."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "Kontak",
         "body": [
-          "If you have questions, contact: contact@webybox.com"
+          "Jika Anda memiliki pertanyaan, hubungi: contact@webybox.com"
         ]
       }
     }
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Last updated: February 11, 2026",
-    "intro": "These terms outline the basic rules for using UniSearch.",
+    "title": "Syarat Layanan",
+    "subtitle": "Terakhir diperbarui: 11 Februari 2026",
+    "intro": "Syarat ini menguraikan aturan dasar untuk menggunakan UniSearch.",
     "sections": {
       "usage": {
-        "title": "Use of the app",
+        "title": "Penggunaan aplikasi",
         "body": [
-          "Use UniSearch in accordance with local laws and platform policies.",
-          "Do not misuse the app for unlawful activities."
+          "Gunakan UniSearch sesuai dengan hukum lokal dan kebijakan platform.",
+          "Jangan menyalahgunakan aplikasi untuk aktivitas ilegal."
         ]
       },
       "purchases": {
-        "title": "Purchases",
+        "title": "Pembelian",
         "body": [
-          "Pro is a one-time purchase handled by Google Play.",
-          "Refunds follow Google Play policies."
+          "Pro adalah pembelian sekali yang ditangani oleh Google Play.",
+          "Pengembalian dana mengikuti kebijakan Google Play."
         ]
       },
       "liability": {
-        "title": "Limitation of liability",
+        "title": "Pembatasan tanggung jawab",
         "body": [
-          "The app is provided as-is without warranties.",
-          "We are not liable for indirect damages."
+          "Aplikasi disediakan sebagaimana adanya tanpa garansi.",
+          "Kami tidak bertanggung jawab atas kerusakan tidak langsung."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "Kontak",
         "body": [
-          "Questions? Reach out via email."
+          "Pertanyaan? Hubungi kami melalui email."
         ]
       }
     }
   },
   "searchProviders": {
-    "title": "Search with providers",
-    "subtitle": "Choose where to search and control when results appear.",
+    "title": "Cari dengan penyedia",
+    "subtitle": "Pilih tempat pencarian dan kontrol kapan hasil muncul.",
     "items": [
       {
-        "title": "Preset providers",
-        "description": "Google, DuckDuckGo, and other popular sources."
+        "title": "Penyedia preset",
+        "description": "Google, DuckDuckGo, dan sumber populer lainnya."
       },
       {
-        "title": "Enable / disable",
-        "description": "Full control over which providers are active."
+        "title": "Aktifkan / nonaktifkan",
+        "description": "Kontrol penuh atas penyedia mana yang aktif."
       },
       {
-        "title": "Always show",
-        "description": "Keep a chosen provider visible at all times."
+        "title": "Selalu tampilkan",
+        "description": "Jaga penyedia pilihan Anda terlihat setiap saat."
       },
       {
-        "title": "Quick switching",
-        "description": "Swap providers without leaving the search bar."
+        "title": "Pengalihan cepat",
+        "description": "Tukar penyedia tanpa meninggalkan bilah pencarian."
       }
     ]
   }

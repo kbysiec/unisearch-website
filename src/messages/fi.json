@@ -1,443 +1,443 @@
 {
   "meta": {
-    "title": "UniSearch — Universal search for Android",
-    "description": "Find apps, contacts, files, actions, and more from one fast search bar. Built for speed, privacy, and offline-first use.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDescription": "Learn how UniSearch processes data locally and keeps your searches private.",
-    "termsTitle": "Terms of Service",
-    "termsDescription": "Basic terms for using the UniSearch app and website."
+    "title": "UniSearch — yleinen haku Android-laitteille",
+    "description": "Etsi sovelluksia, yhteystietoja, tiedostoja, toimintoja ja paljon muuta yhdestä nopeasta hakupalkkista. Suunniteltu nopeudelle, yksityisyydelle ja offline-ensimmäiselle käytölle.",
+    "privacyTitle": "Tietosuojakäytäntö",
+    "privacyDescription": "Opi kuinka UniSearch käsittelee tietoja paikallisesti ja pitää hakujasi yksityisinä.",
+    "termsTitle": "Käyttöehdot",
+    "termsDescription": "Perusvaatimukset UniSearch-sovelluksen ja verkkosivuston käyttämiselle."
   },
   "common": {
-    "back": "Back"
+    "back": "Takaisin"
   },
   "nav": {
-    "features": "Features",
-    "freePro": "Free vs Pro",
-    "privacy": "Privacy",
-    "faq": "FAQ",
-    "getApp": "Get it on Google Play",
-    "how": "How it works",
-    "language": "Language",
-    "changelog": "Changelog"
+    "features": "Ominaisuudet",
+    "freePro": "Ilmainen vs Pro",
+    "privacy": "Yksityisyys",
+    "faq": "UKK",
+    "getApp": "Hanki Google Play -kaupasta",
+    "how": "Kuinka se toimii",
+    "language": "Kieli",
+    "changelog": "Muutosloki"
   },
   "hero": {
-    "badge": "Universal search for Android",
-    "title": "Find everything on your phone in seconds.",
-    "subtitle": "Apps, contacts, files, actions, calculator, and AI — all from one lightning-fast search bar.",
-    "primaryCta": "Get it on Google Play",
-    "secondaryCta": "Explore features",
-    "note": "No account required. Works offline by default."
+    "badge": "Yleinen haku Android-laitteille",
+    "title": "Etsi kaikkea puhelimestasi sekunneissa.",
+    "subtitle": "Sovellukset, yhteystiedot, tiedostot, toiminnot, laskin ja tekoäly — kaikki yhdestä salamannopasta hakupalkkista.",
+    "primaryCta": "Hanki Google Play -kaupasta",
+    "secondaryCta": "Tutustu ominaisuuksiin",
+    "note": "Ei tilinä vaadita. Toimii offline-tilassa oletuksena."
   },
   "trust": {
-    "title": "Built for speed and control",
+    "title": "Suunniteltu nopeudelle ja hallinnalle",
     "items": [
       {
-        "title": "Fast",
-        "description": "Instant results with real-time filtering and smart ranking."
+        "title": "Nopea",
+        "description": "Välitöntä tulokset reaaliaikaisella suodatuksella ja älyllä rankingilla."
       },
       {
-        "title": "Privacy",
-        "description": "Your data stays on-device. Optional analytics only."
+        "title": "Yksityisyys",
+        "description": "Tietosi pysyy laitteella. Vain valinnainen analytiikka."
       },
       {
-        "title": "Offline-first",
-        "description": "Search works even without an internet connection."
+        "title": "Offline-ensimmäinen",
+        "description": "Haku toimii myös ilman internet-yhteyttä."
       },
       {
-        "title": "Personalization",
-        "description": "Tune themes, sections, spacing, and behavior."
+        "title": "Personointi",
+        "description": "Säädä teemat, osat, välistys ja käyttäytyminen."
       }
     ]
   },
   "features": {
-    "title": "Everything you want to find — instantly",
-    "subtitle": "UniSearch brings every source into one smooth, unified result list.",
+    "title": "Kaikki mitä haluat löytää — välittömästi",
+    "subtitle": "UniSearch tuo jokaisen lähteen yhdeksi sujuvaksi, yhtenäiseksi tulosluetteloksi.",
     "groups": {
       "search": {
-        "title": "Unified search",
-        "description": "Find anything with smart ranking and noise filtering."
+        "title": "Yhtenäinen haku",
+        "description": "Etsi mitä tahansa älyllä rankingilla ja melun suodatuksella."
       },
       "actions": {
-        "title": "Actions & shortcuts",
-        "description": "Launch actions, deep links, and curated shortcuts."
+        "title": "Toiminnot ja pikavalintasat",
+        "description": "Käynnistä toiminnot, syvä linkit ja kuraatut pikavalintasat."
       },
       "files": {
-        "title": "Files & media",
-        "description": "Search documents, photos, videos, music, and folders."
+        "title": "Tiedostot ja media",
+        "description": "Etsi asiakirjoja, kuvia, videoita, musiikkia ja kansioita."
       },
       "contacts": {
-        "title": "Contacts",
-        "description": "Call, message, or open linked apps instantly."
+        "title": "Yhteystiedot",
+        "description": "Soita, lähetä viestejä tai avaa linkitettyjä sovelluksia välittömästi."
       },
       "calculator": {
-        "title": "Calculator",
-        "description": "Inline calculator with precision math."
+        "title": "Laskin",
+        "description": "Sisäänrakennettu laskin tarkan matematiikan kanssa."
       },
       "customization": {
-        "title": "Customization",
-        "description": "Control layout, themes, and visibility."
+        "title": "Mukauttaminen",
+        "description": "Hallitse asettelua, teemoja ja näkyvyyttä."
       },
       "ai": {
-        "title": "AI prompts",
-        "description": "Optional AI helpers with clear data boundaries."
+        "title": "Tekoäly-kehotukset",
+        "description": "Valinnaiset tekoäly-avustajat selkeillä datarajoilla."
       },
       "providers": {
-        "title": "Search providers",
-        "description": "Choose where UniSearch sends external queries."
+        "title": "Hakupalvelut",
+        "description": "Valitse minne UniSearch lähettää ulkoiset kyselyt."
       }
     },
     "items": {
       "search": {
-        "universal": "Apps, contacts, files, settings, and shortcuts in one query",
-        "instant": "Real-time filtering with instant results",
-        "frecency": "Frecency ranking that adapts to your habits"
+        "universal": "Sovellukset, yhteystiedot, tiedostot, asetukset ja pikavalintasat yhdessä kyselyssä",
+        "instant": "Reaaliaikainen suodatus välittömillä tuloksilla",
+        "frecency": "Taajuus-ranking joka mukautuu omiin tapoihisi"
       },
       "actions": {
-        "shortcuts": "App shortcuts and deep links",
-        "system": "System actions and settings search",
-        "workflow": "Launch from Assistant, widget, or Quick Settings"
+        "shortcuts": "Sovellusten pikavalinnat ja syvät linkit",
+        "system": "Järjestelmän toiminnot ja asetuksien haku",
+        "workflow": "Käynnistä Assistantista, widgetista tai Quick Settings -sovelluksesta"
       },
       "files": {
-        "documents": "Documents, images, videos, music",
-        "media": "Folders and MediaStore-powered results",
-        "filters": "Type filters and exclusions"
+        "documents": "Asiakirjat, kuvat, videot, musiikki",
+        "media": "Kansiot ja MediaStore-pohjaisia tuloksia",
+        "filters": "Tyypin suodattimet ja poissulkemiset"
       },
       "contacts": {
-        "smart": "Smart matching and ranking",
-        "actions": "Call, message, or open linked apps",
-        "permissions": "Optional permissions with clear control"
+        "smart": "Älykäs vastaavuus ja ranking",
+        "actions": "Soita, lähetä viestejä tai avaa linkitettyjä sovelluksia",
+        "permissions": "Valinnaiset käyttöoikeudet selkeällä hallinnalla"
       },
       "calculator": {
-        "inline": "Inline math as you type",
-        "precision": "BigDecimal precision with brackets",
-        "copy": "Copy results in one tap"
+        "inline": "Sisäinen matematiikka kirjoitettaessa",
+        "precision": "BigDecimal-tarkkuus suluilla",
+        "copy": "Kopioi tulokset yhdellä napsautuksella"
       },
       "customization": {
-        "themes": "Light, dark, and curated themes",
-        "layout": "Icon size, grid spacing, labels",
-        "sections": "Show, hide, and reorder sections"
+        "themes": "Vaaleita, tummeita ja kuraatuja teemoja",
+        "layout": "Kuvakkeen koko, verkon välistys, etiketit",
+        "sections": "Näytä, piilota ja järjestele osat uudelleen"
       },
       "ai": {
-        "prompts": "Create quick AI prompts",
-        "safe": "Clear opt-in usage",
-        "optional": "Disable AI anytime"
+        "prompts": "Luo pika tekoäly-kehotuksia",
+        "safe": "Selkeä opt-in -käyttö",
+        "optional": "Poista tekoäly käytöstä milloin tahansa"
       },
       "providers": {
-        "preset": "Preset providers like Google, YouTube or ChatGPT",
-        "toggle": "Enable or disable providers",
-        "always": "Ability to define custom ones"
+        "preset": "Ennalta määritetyt palvelut kuten Google, YouTube tai ChatGPT",
+        "toggle": "Ota käyttöön tai poista käytöstä palvelut",
+        "always": "Mahdollisuus määritellä mukautettuja"
       }
     }
   },
   "how": {
-    "title": "How it works",
-    "subtitle": "A simple flow designed for speed.",
+    "title": "Kuinka se toimii",
+    "subtitle": "Yksinkertainen prosessi suunniteltu nopeudelle.",
     "steps": {
       "index": {
-        "title": "Index",
-        "description": "UniSearch indexes apps, contacts, files, and settings locally."
+        "title": "Indeksointi",
+        "description": "UniSearch indeksoi sovellukset, yhteystiedot, tiedostot ja asetukset paikallisesti."
       },
       "search": {
-        "title": "Search",
-        "description": "Type once and get ranked results instantly."
+        "title": "Haku",
+        "description": "Kirjoita kerran ja saa rankituja tuloksia välittömästi."
       },
       "action": {
-        "title": "Action",
-        "description": "Open, call, calculate, or run a shortcut in one tap."
+        "title": "Toiminta",
+        "description": "Avaa, soita, laske tai suorita pikavalintas yhdellä napsautuksella."
       }
     }
   },
   "freePro": {
-    "title": "Free vs Pro",
-    "subtitle": "Start free, upgrade once for full control.",
+    "title": "Ilmainen vs Pro",
+    "subtitle": "Aloita ilmaiseksi, päivitä kerran saadaksesi täydellinen hallinto.",
     "free": {
-      "title": "Free",
-      "description": "Everything you need to search fast.",
+      "title": "Ilmainen",
+      "description": "Kaikki mitä tarvitset nopeaan hakuun.",
       "items": {
-        "universal": "Universal search: apps, contacts, files, settings",
-        "algorithms": "All search algorithms: prefix, fuzzy, phonetic, acronym, token",
-        "frecency": "Frecency ranking across all sources",
-        "calculator": "Built-in calculator",
-        "appShortcutSyntax": "\"App: Shortcut\" query syntax",
-        "highlight": "Match highlighting",
-        "entryPoints": "Launch from Assistant, widget, or Quick Settings",
-        "quickSettings": "Quick Settings tile",
-        "assistantRole": "Assistant role support",
-        "notificationListener": "NotificationListenerService support",
-        "searchBarPosition": "Search bar position (top/bottom)",
-        "layout": "App layout (grid/list)",
-        "gridColumns": "Grid columns (4–6)",
-        "iconSize": "Icon size (S/M/L)",
-        "gridSpacing": "Grid spacing (S/M/L)",
-        "iconLabels": "Icon labels on/off",
-        "sectionHeaderIcons": "Section header icons",
-        "autofocus": "Auto-focus search bar",
-        "clearOnSelect": "Clear search on selection",
-        "hideRecentsEmpty": "Hide section when recents are empty",
-        "sectionVisibilityDefault": "Default visibility for 7 sections",
-        "resultLimits": "Result limits (3 sliders)",
-        "showHideTypes": "Show/hide result types and sections",
-        "hideApps": "Hide apps",
-        "hideContacts": "Hide contacts",
-        "hideActions": "Hide actions/shortcuts",
-        "excludeFiles": "Exclude files/folders",
-        "fileTypes": "File types (7 types)",
-        "freeThemes": "2 free themes: UniSearch + High Contrast",
-        "modes": "Light and dark mode",
-        "basicAnimations": "Basic animations (fade/slide)",
-        "providersPreset": "Preset search providers (Google, DuckDuckGo, etc.)",
-        "providersToggle": "Enable/disable providers",
-        "providersAlwaysShow": "\"Always show\" provider switch",
-        "customSection": "1 free custom section (no sorting)",
-        "analytics": "Basic analytics (opt-in)",
-        "privacy": "Privacy mode",
-        "languages": "All 25 languages",
-        "sponsored": "Sponsored sections (Native Ads)"
+        "universal": "Yhtenäinen haku: sovellukset, yhteystiedot, tiedostot, asetukset",
+        "algorithms": "Kaikki hakualgoritmit: etuliite, sumea, foneettinen, lyhenne, tunnus",
+        "frecency": "Taajuus-ranking kaikissa lähteissä",
+        "calculator": "Sisäänrakennettu laskin",
+        "appShortcutSyntax": "\"Sovellus: Pikavalintas\" kyselyn syntaksi",
+        "highlight": "Vastaavuuden korostaminen",
+        "entryPoints": "Käynnistä Assistantista, widgetista tai Quick Settingsistä",
+        "quickSettings": "Quick Settings -ruutu",
+        "assistantRole": "Assistant-roolin tuki",
+        "notificationListener": "NotificationListenerService-tuki",
+        "searchBarPosition": "Hakupalkin sijainti (ylä/ala)",
+        "layout": "Sovelluksen asettelu (ruudukko/lista)",
+        "gridColumns": "Ruudukon sarakkeet (4–6)",
+        "iconSize": "Kuvakkeen koko (P/K/S)",
+        "gridSpacing": "Ruudukon välistys (P/K/S)",
+        "iconLabels": "Kuvakkeen etiketit päällä/pois",
+        "sectionHeaderIcons": "Osion otsikon kuvakkeet",
+        "autofocus": "Automaattinen fokus hakupalkkiin",
+        "clearOnSelect": "Tyhjennä haku valinnalla",
+        "hideRecentsEmpty": "Piilota osio kun viimeaikaisia ei ole",
+        "sectionVisibilityDefault": "Oletuksena näkyvyys 7 osiolle",
+        "resultLimits": "Tulosrajoitukset (3 liukusäädintä)",
+        "showHideTypes": "Näytä/piilota tulostyypit ja osat",
+        "hideApps": "Piilota sovellukset",
+        "hideContacts": "Piilota yhteystiedot",
+        "hideActions": "Piilota toiminnot/pikavalinnat",
+        "excludeFiles": "Jätä pois tiedostot/kansiot",
+        "fileTypes": "Tiedostotyypit (7 tyyppiä)",
+        "freeThemes": "2 ilmaista teemaa: UniSearch + Korkea kontrasti",
+        "modes": "Vaalea ja tumma tila",
+        "basicAnimations": "Perusanimaatiot (häivytys/liike)",
+        "providersPreset": "Ennalta määritetyt hakupalvelut (Google, DuckDuckGo, jne.)",
+        "providersToggle": "Ota käyttöön/poista käytöstä palvelut",
+        "providersAlwaysShow": "\"Näytä aina\" -palvelun kytkin",
+        "customSection": "1 ilmainen mukautettu osio (ei lajittelua)",
+        "analytics": "Perusanalytiikka (opt-in)",
+        "privacy": "Yksityisyystila",
+        "languages": "Kaikki 25 kieltä",
+        "sponsored": "Sponsoroidut osat (Native Ads)"
       }
     },
     "pro": {
       "title": "Pro",
-      "description": "One-time purchase. Unlock full design power.",
-      "badge": "Most popular",
-      "priceNote": "About $5–6",
+      "description": "Kertaostinto. Avaa täysi suunnitteluvalta.",
+      "badge": "Suosituin",
+      "priceNote": "Noin 5–6 euroa",
       "items": {
-        "premiumThemes": "3 premium themes: Glass, Material You, Minimal Dark",
-        "themeCreator": "Custom theme creator",
-        "presets": "Unlimited theme presets",
-        "perSectionStyle": "Per-section style overrides",
-        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
-        "searchbarColors": "Search bar colors (7 × Light/Dark)",
-        "sectionColors": "Section colors (7 × Light/Dark)",
-        "itemIconColors": "Item icon colors (2 × Light/Dark)",
-        "bottomSheetColors": "Bottom sheet colors (5 × Light/Dark)",
-        "widgetColors": "Widget colors (5 × Light/Dark)",
-        "wallpaperBlur": "Custom wallpaper color + blur",
-        "advancedAnimations": "Search bar load animations (11 types)",
-        "sectionAnimations": "Section load animations (11 types)",
-        "sectionResize": "Section resize: animated / instant / none",
-        "loadOrder": "Load order: top to bottom / bottom to top / simultaneous",
-        "animationSpeed": "Animation speed (5 levels)",
-        "geometrySearchbar": "Search bar geometry: radius, padding, border, opacity",
-        "searchbarLeadingIcon": "Search bar leading icon picker",
-        "hidePlaceholder": "Hide placeholder",
-        "geometrySections": "Section geometry: radius, padding, border, opacity",
-        "geometryWidget": "Widget geometry: radius, padding, height, border, opacity",
-        "widgetLeadingIcon": "Widget leading icon picker",
-        "unlimitedSections": "Unlimited custom sections (Free: 1)",
-        "dragDropSections": "Drag & drop section reorder",
-        "customItems": "Custom items: App, Action, Contact, File, Setting",
-        "reorderItems": "Reorder items",
-        "sectionIconColors": "Section icon colors (Light/Dark)",
-        "pinnedItems": "Pinned items",
-        "iconPacks": "External icon packs",
-        "customProviders": "Custom search providers (URL template with {{Q}})",
-        "providersReorder": "Drag & drop provider order",
-        "aiPrompts": "Custom AI prompts (label + template + target app)",
-        "aiManage": "Edit/remove AI prompts",
-        "aiReorder": "Drag & drop prompt order",
-        "backupExport": "Export settings (JSON)",
-        "backupImport": "Import settings (restore configuration)",
-        "removeAds": "Remove sponsored sections",
-        "support": "Support future development"
+        "premiumThemes": "3 premium-teemaa: Glass, Material You, Minimal Dark",
+        "themeCreator": "Mukautetun teeman luoja",
+        "presets": "Rajoittamaton teeman esiasetus",
+        "perSectionStyle": "Osion kohta tyylien ohitukset",
+        "advancedColors": "52 värin muutospaikka (Hakupalkki, Osat, Widget, Alaosa)",
+        "searchbarColors": "Hakupalkin värit (7 × Vaalea/Tumma)",
+        "sectionColors": "Osion värit (7 × Vaalea/Tumma)",
+        "itemIconColors": "Kohteen kuvakkeen värit (2 × Vaalea/Tumma)",
+        "bottomSheetColors": "Alaosan värit (5 × Vaalea/Tumma)",
+        "widgetColors": "Widgetin värit (5 × Vaalea/Tumma)",
+        "wallpaperBlur": "Mukautettu taustakuvan väri + sumennus",
+        "advancedAnimations": "Hakupalkin lataus animaatiot (11 tyyppiä)",
+        "sectionAnimations": "Osion lataus animaatiot (11 tyyppiä)",
+        "sectionResize": "Osion koon muuttaminen: animoitu / välitön / ei mitään",
+        "loadOrder": "Latauksen järjestys: ylä alaspäin / ala ylöspäin / samanaikaisesti",
+        "animationSpeed": "Animaation nopeus (5 tasoa)",
+        "geometrySearchbar": "Hakupalkin geometria: säde, sisämarginaali, reuna, läpinäkyvyys",
+        "searchbarLeadingIcon": "Hakupalkin johtava kuvake valitsin",
+        "hidePlaceholder": "Piilota paikanpitäjä",
+        "geometrySections": "Osion geometria: säde, sisämarginaali, reuna, läpinäkyvyys",
+        "geometryWidget": "Widgetin geometria: säde, sisämarginaali, korkeus, reuna, läpinäkyvyys",
+        "widgetLeadingIcon": "Widgetin johtava kuvake valitsin",
+        "unlimitedSections": "Rajoitettamattomat mukautetut osat (Ilmainen: 1)",
+        "dragDropSections": "Vedä ja pudota osion uudelleenjärjestely",
+        "customItems": "Mukautetut kohteet: Sovellus, Toiminta, Yhteystieto, Tiedosto, Asetus",
+        "reorderItems": "Järjestele kohteet uudelleen",
+        "sectionIconColors": "Osion kuvakkeen värit (Vaalea/Tumma)",
+        "pinnedItems": "Kiinnitetyt kohteet",
+        "iconPacks": "Ulkoiset kuvakesarjat",
+        "customProviders": "Mukautetut hakupalvelut (URL-malli {{Q}} kanssa)",
+        "providersReorder": "Vedä ja pudota palvelun uudelleenjärjestely",
+        "aiPrompts": "Mukautetut tekoäly-kehotukset (etiketti + malli + tavoitesovellus)",
+        "aiManage": "Muokkaa/poista tekoäly-kehotuksia",
+        "aiReorder": "Vedä ja pudota kehotuksen uudelleenjärjestely",
+        "backupExport": "Vie asetukset (JSON)",
+        "backupImport": "Tuo asetukset (palauta konfiguraatio)",
+        "removeAds": "Poista sponsoroidut osat",
+        "support": "Tue tulevaisuuden kehitystä"
       }
     },
     "summary": {
-      "title": "Quick summary",
+      "title": "Pikayhteenveto",
       "rows": {
-        "customization": "Customization",
-        "sections": "Custom sections",
-        "backup": "Backup",
-        "ads": "Ads"
+        "customization": "Mukauttaminen",
+        "sections": "Mukautetut osat",
+        "backup": "Varmuuskopio",
+        "ads": "Mainokset"
       },
       "values": {
-        "basic": "Basic",
-        "unlimited": "Unlimited",
-        "limited": "1 only",
-        "none": "Not included",
-        "included": "Included",
-        "sponsored": "Sponsored sections"
+        "basic": "Perus",
+        "unlimited": "Rajoittamaton",
+        "limited": "Vain 1",
+        "none": "Ei sisällytetty",
+        "included": "Sisällytetty",
+        "sponsored": "Sponsoroidut osat"
       },
       "headers": {
-        "free": "Free",
+        "free": "Ilmainen",
         "pro": "Pro"
       }
     }
   },
   "cta": {
-    "title": "Ready to speed up your phone?",
-    "subtitle": "Install UniSearch and get the fastest way to find anything.",
-    "button": "Get it on Google Play"
+    "title": "Valmis nopeuttamaan puhelintasi?",
+    "subtitle": "Asenna UniSearch ja saa nopein tapa löytää mitä tahansa.",
+    "button": "Hanki Google Play -kaupasta"
   },
   "faq": {
-    "title": "FAQ",
-    "subtitle": "Quick answers to common questions.",
+    "title": "UKK",
+    "subtitle": "Nopeat vastaukset yleisiin kysymyksiin.",
     "items": [
       {
-        "q": "Does UniSearch send my data to the cloud?",
-        "a": "No. Search data and indexing stay on your device."
+        "q": "Lähettääkö UniSearch tietojani pilveen?",
+        "a": "Ei. Hakutiedot ja indeksointi pysyvät laitteessasi."
       },
       {
-        "q": "What exactly is indexed?",
-        "a": "Apps, shortcuts, system settings, contacts, and files you allow."
+        "q": "Mitä tarkalleen indeksoidaan?",
+        "a": "Sovellukset, pikavalinnat, järjestelmän asetukset, yhteystiedot ja tiedostot joita sallit."
       },
       {
-        "q": "Is Pro a subscription?",
-        "a": "No. Pro is a one-time purchase around $5–6."
+        "q": "Onko Pro tilaus?",
+        "a": "Ei. Pro on kertaostinto noin 5–6 euroa."
       },
       {
-        "q": "Can I restore my settings?",
-        "a": "Pro includes backup and restore via JSON export/import."
+        "q": "Voinko palauttaa asetukseni?",
+        "a": "Pro sisältää varmuuskopioinnin ja palautuksen JSON-viennin/tuonnin kautta."
       },
       {
-        "q": "Is AI required?",
-        "a": "No. AI prompts are optional and can be disabled."
+        "q": "Onko tekoäly vaadittu?",
+        "a": "Ei. Tekoäly-kehotukset ovat valinnaisia ja voidaan poistaa käytöstä."
       },
       {
-        "q": "How can I contact support?",
-        "a": "Email us and we will respond quickly."
+        "q": "Kuinka voin ottaa yhteyttä tukeen?",
+        "a": "Lähhetä meille sähköpostia ja vastaamme nopeasti."
       }
     ]
   },
   "footer": {
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "contact": "Contact",
+    "privacy": "Yksityisyys",
+    "terms": "Ehdot",
+    "contact": "Ota yhteyttä",
     "googlePlay": "Google Play",
-    "copyright": "© {year} UniSearch. All rights reserved.",
-    "createdBy": "Created by Webybox"
+    "copyright": "© {year} UniSearch. Kaikki oikeudet pidätetään.",
+    "createdBy": "Luonut Webybox"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "Effective date: 2026-02-10",
-    "intro": "This app is designed to work locally on your device. We do not run our own backend servers for your data.",
+    "title": "Tietosuojakäytäntö",
+    "subtitle": "Voimaantulo: 2026-02-10",
+    "intro": "Tämä sovellus on suunniteltu toimimaan paikallisesti laitteellasi. Emme yllä omia backend-palvelimia tiedoillesi.",
     "sections": {
       "introduction": {
-        "title": "Overview",
+        "title": "Yleiskatsaus",
         "body": [
-          "This app is designed to work locally on your device.",
-          "We do not run our own backend servers for your data."
+          "Tämä sovellus on suunniteltu toimimaan paikallisesti laitteellasi.",
+          "Emme yllä omia backend-palvelimia tiedoillesi."
         ]
       },
       "data": {
-        "title": "Data We Collect",
+        "title": "Keräämämme tiedot",
         "body": [
-          "We do not collect or upload your contacts, files, or search data to our servers.",
-          "The app uses the following third-party services which may collect data according to their policies:",
-          "Google AdMob (ads)",
-          "Google Firebase Analytics (usage analytics)",
-          "Google Firebase Crashlytics (crash reports)",
-          "Google User Messaging Platform (consent management)",
-          "These services may collect device identifiers and usage information. You can review their policies in Google’s documentation."
+          "Emme kerää tai lataa yhteystietojasi, tiedostojasi tai hakutietojasi palvelimille.",
+          "Sovellus käyttää seuraavia kolmannen osapuolen palveluita, jotka voivat kerätä tietoja niiden käytäntöjen mukaisesti:",
+          "Google AdMob (mainokset)",
+          "Google Firebase Analytics (käytön analytiikka)",
+          "Google Firebase Crashlytics (kaatumisraportit)",
+          "Google User Messaging Platform (suostumuksenhallinto)",
+          "Nämä palvelut voivat kerätä laitteen tunnistajia ja käyttötietoja. Voit katsoa niiden käytäntöjä Googlen dokumentaatiosta."
         ]
       },
       "permissions": {
-        "title": "Permissions We Use",
+        "title": "Käyttämämme käyttöoikeudet",
         "body": [
-          "READ_CONTACTS: to search and display contacts on-device.",
-          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: to search files across device storage, including non-media files and full folder paths. This is required for fast, system-wide file search and exclusions. SAF/MediaStore alone do not provide complete coverage for all file types and paths.",
-          "QUERY_ALL_PACKAGES: to index all installed apps, show them in search results, and enable launch of any app or shortcut. Without this, the app cannot provide full app search.",
-          "INTERNET: required by Google services and ads.",
-          "We use these permissions only for the features described above and only on-device."
+          "READ_CONTACTS: yhteystietojen hakuun ja näyttämiseen laitteella.",
+          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: tiedostojen hakuun laitteen tallennustilasta, mukaan lukien muut kuin mediapaiikat ja koko kansion polut. Tämä vaaditaan nopeaa, järjestelmänlaajuista tiedostonhakua ja poissulkemisia varten. SAF/MediaStore yksin eivät anna täydellistä kattavuutta kaikille tiedostotyypeille ja poluille.",
+          "QUERY_ALL_PACKAGES: kaikkien asennettujen sovellusten indeksoimiseen, niiden näyttämiseen hakutuloksissa ja minkä tahansa sovelluksen tai pikavalinnan käynnistämisen mahdollistamiseen. Ilman tätä sovellus ei voi tarjota täydellistä sovellushakua.",
+          "INTERNET: vaaditaan Googlen palveluiden ja mainosten osalta.",
+          "Käytämme näitä käyttöoikeuksia vain edellä kuvattuihin ominaisuuksiin ja vain laitteella."
         ]
       },
       "analytics": {
-        "title": "Analytics",
+        "title": "Analytiikka",
         "body": [
-          "Usage analytics may be provided by Google Firebase Analytics.",
-          "Crash reports may be provided by Google Firebase Crashlytics."
+          "Käytön analytiikka voidaan toimittaa Google Firebase Analyticsin toimesta.",
+          "Kaatumisraportit voidaan toimittaa Google Firebase Crashlyticsin toimesta."
         ]
       },
       "ads": {
-        "title": "Ads",
+        "title": "Mainokset",
         "body": [
-          "Ads may be served via Google AdMob.",
-          "Consent management may be handled by Google User Messaging Platform."
+          "Mainoksia voidaan tarjoilla Google AdMobin kautta.",
+          "Suostumuksenhallintoa voidaan käsitellä Google User Messaging Platformin kautta."
         ]
       },
       "sharing": {
-        "title": "Data Sharing",
+        "title": "Tietojen jakaminen",
         "body": [
-          "We do not sell your personal data.",
-          "Data may be processed by the third-party services listed above as part of ads, analytics, and crash reporting."
+          "Emme myy henkilökohtaisia tietojasi.",
+          "Tietoja voidaan käsitellä edellä luetellut kolmannen osapuolen palvelut mainosten, analytiikan ja kaatumisraportoinnin osana."
         ]
       },
       "security": {
-        "title": "Security",
+        "title": "Tietoturva",
         "body": [
-          "We take reasonable measures to protect data on-device.",
-          "No method of transmission or storage is 100% secure."
+          "Otamme kohtuullisia toimia laitteella olevien tietojen suojaamiseksi.",
+          "Mikään siirto- tai tallennusmenetelmä ei ole 100 % turvallinen."
         ]
       },
       "rights": {
-        "title": "Data Retention & Children’s Privacy",
+        "title": "Tietojen säilyttäminen ja lasten yksityisyys",
         "body": [
-          "We do not store your personal data on our servers.",
-          "Retention by third-party services is governed by their policies.",
-          "This app is not directed to children under 13.",
-          "We may update this policy. Changes will be posted in this file with a new effective date."
+          "Emme säilytä henkilökohtaisia tietojasi palvelimiellemme.",
+          "Kolmannen osapuolen palvelut hallitsevat tietojen säilyttämistä niiden käytäntöjen mukaisesti.",
+          "Tämä sovellus ei ole suunnattu alle 13-vuotiaille lapsille.",
+          "Voimme päivittää tätä käytäntöä. Muutokset lähetetään tähän tiedostoon uuden voimaantulotöivispäivän kanssa."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "Ota yhteyttä",
         "body": [
-          "If you have questions, contact: contact@webybox.com"
+          "Jos sinulla on kysymyksiä, ota yhteyttä: contact@webybox.com"
         ]
       }
     }
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Last updated: February 11, 2026",
-    "intro": "These terms outline the basic rules for using UniSearch.",
+    "title": "Käyttöehdot",
+    "subtitle": "Viimeksi päivitetty: helmikuun 11. päivä 2026",
+    "intro": "Nämä ehdot määrittelevät UniSearchin käytön perussäännöt.",
     "sections": {
       "usage": {
-        "title": "Use of the app",
+        "title": "Sovelluksen käyttö",
         "body": [
-          "Use UniSearch in accordance with local laws and platform policies.",
-          "Do not misuse the app for unlawful activities."
+          "Käytä UniSearchia paikallisten lakien ja alustan käytäntöjen mukaisesti.",
+          "Älä väärinkäytä sovellusta laittomiin toimiin."
         ]
       },
       "purchases": {
-        "title": "Purchases",
+        "title": "Ostot",
         "body": [
-          "Pro is a one-time purchase handled by Google Play.",
-          "Refunds follow Google Play policies."
+          "Pro on kertaostinto, jonka käsittelee Google Play.",
+          "Hyvitykset noudattavat Google Play -käytäntöjä."
         ]
       },
       "liability": {
-        "title": "Limitation of liability",
+        "title": "Vastuun rajoitus",
         "body": [
-          "The app is provided as-is without warranties.",
-          "We are not liable for indirect damages."
+          "Sovellus toimitetaan sellaisenaan ilman takuita.",
+          "Emme ole vastuussa epäsuorista vahingoista."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "Ota yhteyttä",
         "body": [
-          "Questions? Reach out via email."
+          "Kysymyksiä? Ota yhteyttä sähköpostilla."
         ]
       }
     }
   },
   "searchProviders": {
-    "title": "Search with providers",
-    "subtitle": "Choose where to search and control when results appear.",
+    "title": "Haku palveluiden kanssa",
+    "subtitle": "Valitse mistä hakea ja hallitse milloin tulokset näkyvät.",
     "items": [
       {
-        "title": "Preset providers",
-        "description": "Google, DuckDuckGo, and other popular sources."
+        "title": "Ennalta määritetyt palvelut",
+        "description": "Google, DuckDuckGo ja muita suosittuja lähteitä."
       },
       {
-        "title": "Enable / disable",
-        "description": "Full control over which providers are active."
+        "title": "Ota käyttöön / poista käytöstä",
+        "description": "Täysi hallinto siitä mitkä palvelut ovat aktiivisia."
       },
       {
-        "title": "Always show",
-        "description": "Keep a chosen provider visible at all times."
+        "title": "Näytä aina",
+        "description": "Pidä valittu palvelu näkyvissä koko ajan."
       },
       {
-        "title": "Quick switching",
-        "description": "Swap providers without leaving the search bar."
+        "title": "Nopea vaihtaminen",
+        "description": "Vaihda palveluita poistumatta hakupalkeista."
       }
     ]
   }

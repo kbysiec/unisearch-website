@@ -1,443 +1,443 @@
 {
   "meta": {
-    "title": "UniSearch — Universal search for Android",
-    "description": "Find apps, contacts, files, actions, and more from one fast search bar. Built for speed, privacy, and offline-first use.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDescription": "Learn how UniSearch processes data locally and keeps your searches private.",
-    "termsTitle": "Terms of Service",
-    "termsDescription": "Basic terms for using the UniSearch app and website."
+    "title": "UniSearch — Android के लिए सार्वभौमिक खोज",
+    "description": "एक तेज़ खोज बार से ऐप्स, संपर्क, फ़ाइलें, क्रियाएं और बहुत कुछ खोजें। गति, गोपनीयता और ऑफ़लाइन-प्रथम उपयोग के लिए बनाया गया।",
+    "privacyTitle": "गोपनीयता नीति",
+    "privacyDescription": "जानें कि UniSearch डेटा को स्थानीय रूप से कैसे संसाधित करता है और आपकी खोजों को निजी कैसे रखता है।",
+    "termsTitle": "सेवा की शर्तें",
+    "termsDescription": "UniSearch ऐप और वेबसाइट का उपयोग करने की बुनियादी शर्तें।"
   },
   "common": {
-    "back": "Back"
+    "back": "वापस"
   },
   "nav": {
-    "features": "Features",
-    "freePro": "Free vs Pro",
-    "privacy": "Privacy",
+    "features": "विशेषताएं",
+    "freePro": "मुक्त बनाम Pro",
+    "privacy": "गोपनीयता",
     "faq": "FAQ",
-    "getApp": "Get it on Google Play",
-    "how": "How it works",
-    "language": "Language",
-    "changelog": "Changelog"
+    "getApp": "Google Play पर प्राप्त करें",
+    "how": "यह कैसे काम करता है",
+    "language": "भाषा",
+    "changelog": "परिवर्तन लॉग"
   },
   "hero": {
-    "badge": "Universal search for Android",
-    "title": "Find everything on your phone in seconds.",
-    "subtitle": "Apps, contacts, files, actions, calculator, and AI — all from one lightning-fast search bar.",
-    "primaryCta": "Get it on Google Play",
-    "secondaryCta": "Explore features",
-    "note": "No account required. Works offline by default."
+    "badge": "Android के लिए सार्वभौमिक खोज",
+    "title": "अपने फोन पर सब कुछ कुछ ही सेकंड में खोजें।",
+    "subtitle": "ऐप्स, संपर्क, फ़ाइलें, क्रियाएं, कैलकुलेटर और AI - सभी एक बिजली-तेज़ खोज बार से।",
+    "primaryCta": "Google Play पर प्राप्त करें",
+    "secondaryCta": "विशेषताओं की खोज करें",
+    "note": "कोई खाता आवश्यक नहीं। डिफ़ॉल्ट रूप से ऑफ़लाइन काम करता है।"
   },
   "trust": {
-    "title": "Built for speed and control",
+    "title": "गति और नियंत्रण के लिए निर्मित",
     "items": [
       {
-        "title": "Fast",
-        "description": "Instant results with real-time filtering and smart ranking."
+        "title": "तेज़",
+        "description": "वास्तविक समय फ़िल्टरिंग और स्मार्ट रैंकिंग के साथ तत्काल परिणाम।"
       },
       {
-        "title": "Privacy",
-        "description": "Your data stays on-device. Optional analytics only."
+        "title": "गोपनीयता",
+        "description": "आपका डेटा डिवाइस पर रहता है। केवल वैकल्पिक विश्लेषण।"
       },
       {
-        "title": "Offline-first",
-        "description": "Search works even without an internet connection."
+        "title": "ऑफ़लाइन-प्रथम",
+        "description": "बिना इंटरनेट कनेक्शन के भी खोज काम करती है।"
       },
       {
-        "title": "Personalization",
-        "description": "Tune themes, sections, spacing, and behavior."
+        "title": "व्यक्तिगतकरण",
+        "description": "थीम, सेक्शन, स्पेसिंग और व्यवहार को ट्यून करें।"
       }
     ]
   },
   "features": {
-    "title": "Everything you want to find — instantly",
-    "subtitle": "UniSearch brings every source into one smooth, unified result list.",
+    "title": "जो कुछ आप खोजना चाहते हैं - तुरंत",
+    "subtitle": "UniSearch हर स्रोत को एक सुचारु, एकीकृत परिणाम सूची में लाता है।",
     "groups": {
       "search": {
-        "title": "Unified search",
-        "description": "Find anything with smart ranking and noise filtering."
+        "title": "एकीकृत खोज",
+        "description": "स्मार्ट रैंकिंग और शोर फ़िल्टरिंग के साथ कुछ भी खोजें।"
       },
       "actions": {
-        "title": "Actions & shortcuts",
-        "description": "Launch actions, deep links, and curated shortcuts."
+        "title": "क्रियाएं और शॉर्टकट",
+        "description": "क्रियाएं, गहरी लिंक और क्यूरेट किए गए शॉर्टकट लॉन्च करें।"
       },
       "files": {
-        "title": "Files & media",
-        "description": "Search documents, photos, videos, music, and folders."
+        "title": "फ़ाइलें और मीडिया",
+        "description": "दस्तावेज़, तस्वीरें, वीडियो, संगीत और फ़ोल्डर खोजें।"
       },
       "contacts": {
-        "title": "Contacts",
-        "description": "Call, message, or open linked apps instantly."
+        "title": "संपर्क",
+        "description": "तुरंत कॉल करें, संदेश भेजें, या लिंक किए गए ऐप्स खोलें।"
       },
       "calculator": {
-        "title": "Calculator",
-        "description": "Inline calculator with precision math."
+        "title": "कैलकुलेटर",
+        "description": "सटीक गणित के साथ इनलाइन कैलकुलेटर।"
       },
       "customization": {
-        "title": "Customization",
-        "description": "Control layout, themes, and visibility."
+        "title": "अनुकूलन",
+        "description": "लेआउट, थीम और दृश्यमानता को नियंत्रित करें।"
       },
       "ai": {
-        "title": "AI prompts",
-        "description": "Optional AI helpers with clear data boundaries."
+        "title": "AI प्रॉम्प्ट",
+        "description": "स्पष्ट डेटा सीमाओं के साथ वैकल्पिक AI सहायक।"
       },
       "providers": {
-        "title": "Search providers",
-        "description": "Choose where UniSearch sends external queries."
+        "title": "खोज प्रदाता",
+        "description": "चुनें कि UniSearch बाहरी क्वेरीज़ कहाँ भेजता है।"
       }
     },
     "items": {
       "search": {
-        "universal": "Apps, contacts, files, settings, and shortcuts in one query",
-        "instant": "Real-time filtering with instant results",
-        "frecency": "Frecency ranking that adapts to your habits"
+        "universal": "एक ही क्वेरी में ऐप्स, संपर्क, फ़ाइलें, सेटिंग्स और शॉर्टकट",
+        "instant": "तत्काल परिणामों के साथ वास्तविक समय फ़िल्टरिंग",
+        "frecency": "फ्रीक्वेंसी रैंकिंग जो आपकी आदतों के अनुकूल है"
       },
       "actions": {
-        "shortcuts": "App shortcuts and deep links",
-        "system": "System actions and settings search",
-        "workflow": "Launch from Assistant, widget, or Quick Settings"
+        "shortcuts": "ऐप शॉर्टकट और गहरी लिंक",
+        "system": "सिस्टम क्रियाएं और सेटिंग्स खोज",
+        "workflow": "सहायक, विजेट या त्वरित सेटिंग्स से लॉन्च करें"
       },
       "files": {
-        "documents": "Documents, images, videos, music",
-        "media": "Folders and MediaStore-powered results",
-        "filters": "Type filters and exclusions"
+        "documents": "दस्तावेज़, छवियां, वीडियो, संगीत",
+        "media": "फ़ोल्डर और MediaStore-संचालित परिणाम",
+        "filters": "प्रकार फ़िल्टर और बहिष्करण"
       },
       "contacts": {
-        "smart": "Smart matching and ranking",
-        "actions": "Call, message, or open linked apps",
-        "permissions": "Optional permissions with clear control"
+        "smart": "स्मार्ट मिलान और रैंकिंग",
+        "actions": "कॉल करें, संदेश भेजें, या लिंक किए गए ऐप्स खोलें",
+        "permissions": "स्पष्ट नियंत्रण के साथ वैकल्पिक अनुमतियां"
       },
       "calculator": {
-        "inline": "Inline math as you type",
-        "precision": "BigDecimal precision with brackets",
-        "copy": "Copy results in one tap"
+        "inline": "टाइप करते समय इनलाइन गणित",
+        "precision": "कोष्ठक के साथ BigDecimal परिशुद्धता",
+        "copy": "एक टैप में परिणाम कॉपी करें"
       },
       "customization": {
-        "themes": "Light, dark, and curated themes",
-        "layout": "Icon size, grid spacing, labels",
-        "sections": "Show, hide, and reorder sections"
+        "themes": "हल्का, गहरा और क्यूरेट किए गए थीम",
+        "layout": "आइकन आकार, ग्रिड स्पेसिंग, लेबल",
+        "sections": "सेक्शन दिखाएं, छुपाएं और पुनः व्यवस्थित करें"
       },
       "ai": {
-        "prompts": "Create quick AI prompts",
-        "safe": "Clear opt-in usage",
-        "optional": "Disable AI anytime"
+        "prompts": "त्वरित AI प्रॉम्प्ट बनाएं",
+        "safe": "स्पष्ट ऑप्ट-इन उपयोग",
+        "optional": "कभी भी AI अक्षम करें"
       },
       "providers": {
-        "preset": "Preset providers like Google, YouTube or ChatGPT",
-        "toggle": "Enable or disable providers",
-        "always": "Ability to define custom ones"
+        "preset": "पूर्व निर्धारित प्रदाता जैसे Google, YouTube या ChatGPT",
+        "toggle": "प्रदाताओं को सक्षम या अक्षम करें",
+        "always": "कस्टम परिभाषित करने की क्षमता"
       }
     }
   },
   "how": {
-    "title": "How it works",
-    "subtitle": "A simple flow designed for speed.",
+    "title": "यह कैसे काम करता है",
+    "subtitle": "गति के लिए डिजाइन किया गया एक सरल प्रवाह।",
     "steps": {
       "index": {
-        "title": "Index",
-        "description": "UniSearch indexes apps, contacts, files, and settings locally."
+        "title": "इंडेक्स",
+        "description": "UniSearch ऐप्स, संपर्क, फ़ाइलें और सेटिंग्स को स्थानीय रूप से अनुक्रमित करता है।"
       },
       "search": {
-        "title": "Search",
-        "description": "Type once and get ranked results instantly."
+        "title": "खोज",
+        "description": "एक बार टाइप करें और तुरंत रैंक किए गए परिणाम प्राप्त करें।"
       },
       "action": {
-        "title": "Action",
-        "description": "Open, call, calculate, or run a shortcut in one tap."
+        "title": "क्रिया",
+        "description": "एक टैप में खोलें, कॉल करें, गणना करें या शॉर्टकट चलाएं।"
       }
     }
   },
   "freePro": {
-    "title": "Free vs Pro",
-    "subtitle": "Start free, upgrade once for full control.",
+    "title": "मुक्त बनाम Pro",
+    "subtitle": "मुक्त शुरू करें, पूर्ण नियंत्रण के लिए एक बार अपग्रेड करें।",
     "free": {
-      "title": "Free",
-      "description": "Everything you need to search fast.",
+      "title": "मुक्त",
+      "description": "तेजी से खोज करने के लिए आपको जो कुछ चाहिए।",
       "items": {
-        "universal": "Universal search: apps, contacts, files, settings",
-        "algorithms": "All search algorithms: prefix, fuzzy, phonetic, acronym, token",
-        "frecency": "Frecency ranking across all sources",
-        "calculator": "Built-in calculator",
-        "appShortcutSyntax": "\"App: Shortcut\" query syntax",
-        "highlight": "Match highlighting",
-        "entryPoints": "Launch from Assistant, widget, or Quick Settings",
-        "quickSettings": "Quick Settings tile",
-        "assistantRole": "Assistant role support",
-        "notificationListener": "NotificationListenerService support",
-        "searchBarPosition": "Search bar position (top/bottom)",
-        "layout": "App layout (grid/list)",
-        "gridColumns": "Grid columns (4–6)",
-        "iconSize": "Icon size (S/M/L)",
-        "gridSpacing": "Grid spacing (S/M/L)",
-        "iconLabels": "Icon labels on/off",
-        "sectionHeaderIcons": "Section header icons",
-        "autofocus": "Auto-focus search bar",
-        "clearOnSelect": "Clear search on selection",
-        "hideRecentsEmpty": "Hide section when recents are empty",
-        "sectionVisibilityDefault": "Default visibility for 7 sections",
-        "resultLimits": "Result limits (3 sliders)",
-        "showHideTypes": "Show/hide result types and sections",
-        "hideApps": "Hide apps",
-        "hideContacts": "Hide contacts",
-        "hideActions": "Hide actions/shortcuts",
-        "excludeFiles": "Exclude files/folders",
-        "fileTypes": "File types (7 types)",
-        "freeThemes": "2 free themes: UniSearch + High Contrast",
-        "modes": "Light and dark mode",
-        "basicAnimations": "Basic animations (fade/slide)",
-        "providersPreset": "Preset search providers (Google, DuckDuckGo, etc.)",
-        "providersToggle": "Enable/disable providers",
-        "providersAlwaysShow": "\"Always show\" provider switch",
-        "customSection": "1 free custom section (no sorting)",
-        "analytics": "Basic analytics (opt-in)",
-        "privacy": "Privacy mode",
-        "languages": "All 25 languages",
-        "sponsored": "Sponsored sections (Native Ads)"
+        "universal": "सार्वभौमिक खोज: ऐप्स, संपर्क, फ़ाइलें, सेटिंग्स",
+        "algorithms": "सभी खोज एल्गोरिदम: उपसर्ग, फजी, फोनेटिक, एक्रोनिम, टोकन",
+        "frecency": "सभी स्रोतों में फ्रीक्वेंसी रैंकिंग",
+        "calculator": "अंतर्निहित कैलकुलेटर",
+        "appShortcutSyntax": "\"ऐप: शॉर्टकट\" क्वेरी सिंटैक्स",
+        "highlight": "मेल हाइलाइटिंग",
+        "entryPoints": "सहायक, विजेट या त्वरित सेटिंग्स से लॉन्च करें",
+        "quickSettings": "त्वरित सेटिंग्स टाइल",
+        "assistantRole": "सहायक भूमिका समर्थन",
+        "notificationListener": "NotificationListenerService समर्थन",
+        "searchBarPosition": "खोज बार स्थिति (ऊपर/नीचे)",
+        "layout": "ऐप लेआउट (ग्रिड/सूची)",
+        "gridColumns": "ग्रिड कॉलम (4–6)",
+        "iconSize": "आइकन आकार (S/M/L)",
+        "gridSpacing": "ग्रिड स्पेसिंग (S/M/L)",
+        "iconLabels": "आइकन लेबल चालू/बंद",
+        "sectionHeaderIcons": "सेक्शन हेडर आइकन",
+        "autofocus": "स्वचालित-फोकस खोज बार",
+        "clearOnSelect": "चयन पर खोज साफ करें",
+        "hideRecentsEmpty": "जब हाल ही खाली हो तो सेक्शन छुपाएं",
+        "sectionVisibilityDefault": "7 सेक्शन के लिए डिफ़ॉल्ट दृश्यमानता",
+        "resultLimits": "परिणाम सीमाएं (3 स्लाइडर)",
+        "showHideTypes": "परिणाम प्रकार और सेक्शन दिखाएं/छुपाएं",
+        "hideApps": "ऐप्स छुपाएं",
+        "hideContacts": "संपर्क छुपाएं",
+        "hideActions": "क्रियाएं/शॉर्टकट छुपाएं",
+        "excludeFiles": "फ़ाइलें/फ़ोल्डर बाहर करें",
+        "fileTypes": "फ़ाइल प्रकार (7 प्रकार)",
+        "freeThemes": "2 मुक्त थीम: UniSearch + उच्च विपरीतता",
+        "modes": "हल्का और गहरा मोड",
+        "basicAnimations": "बुनियादी एनिमेशन (फीका/स्लाइड)",
+        "providersPreset": "पूर्व निर्धारित खोज प्रदाता (Google, DuckDuckGo, आदि)",
+        "providersToggle": "प्रदाता सक्षम/अक्षम करें",
+        "providersAlwaysShow": "\"हमेशा दिखाएं\" प्रदाता स्विच",
+        "customSection": "1 मुक्त कस्टम सेक्शन (कोई सॉर्टिंग नहीं)",
+        "analytics": "बुनियादी विश्लेषण (ऑप्ट-इन)",
+        "privacy": "गोपनीयता मोड",
+        "languages": "सभी 25 भाषाएं",
+        "sponsored": "प्रायोजित सेक्शन (नेटिव विज्ञापन)"
       }
     },
     "pro": {
       "title": "Pro",
-      "description": "One-time purchase. Unlock full design power.",
-      "badge": "Most popular",
-      "priceNote": "About $5–6",
+      "description": "एक बार खरीद। पूर्ण डिज़ाइन शक्ति को अनलॉक करें।",
+      "badge": "सबसे लोकप्रिय",
+      "priceNote": "लगभग $5–6",
       "items": {
-        "premiumThemes": "3 premium themes: Glass, Material You, Minimal Dark",
-        "themeCreator": "Custom theme creator",
-        "presets": "Unlimited theme presets",
-        "perSectionStyle": "Per-section style overrides",
-        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
-        "searchbarColors": "Search bar colors (7 × Light/Dark)",
-        "sectionColors": "Section colors (7 × Light/Dark)",
-        "itemIconColors": "Item icon colors (2 × Light/Dark)",
-        "bottomSheetColors": "Bottom sheet colors (5 × Light/Dark)",
-        "widgetColors": "Widget colors (5 × Light/Dark)",
-        "wallpaperBlur": "Custom wallpaper color + blur",
-        "advancedAnimations": "Search bar load animations (11 types)",
-        "sectionAnimations": "Section load animations (11 types)",
-        "sectionResize": "Section resize: animated / instant / none",
-        "loadOrder": "Load order: top to bottom / bottom to top / simultaneous",
-        "animationSpeed": "Animation speed (5 levels)",
-        "geometrySearchbar": "Search bar geometry: radius, padding, border, opacity",
-        "searchbarLeadingIcon": "Search bar leading icon picker",
-        "hidePlaceholder": "Hide placeholder",
-        "geometrySections": "Section geometry: radius, padding, border, opacity",
-        "geometryWidget": "Widget geometry: radius, padding, height, border, opacity",
-        "widgetLeadingIcon": "Widget leading icon picker",
-        "unlimitedSections": "Unlimited custom sections (Free: 1)",
-        "dragDropSections": "Drag & drop section reorder",
-        "customItems": "Custom items: App, Action, Contact, File, Setting",
-        "reorderItems": "Reorder items",
-        "sectionIconColors": "Section icon colors (Light/Dark)",
-        "pinnedItems": "Pinned items",
-        "iconPacks": "External icon packs",
-        "customProviders": "Custom search providers (URL template with {{Q}})",
-        "providersReorder": "Drag & drop provider order",
-        "aiPrompts": "Custom AI prompts (label + template + target app)",
-        "aiManage": "Edit/remove AI prompts",
-        "aiReorder": "Drag & drop prompt order",
-        "backupExport": "Export settings (JSON)",
-        "backupImport": "Import settings (restore configuration)",
-        "removeAds": "Remove sponsored sections",
-        "support": "Support future development"
+        "premiumThemes": "3 प्रीमियम थीम: Glass, Material You, Minimal Dark",
+        "themeCreator": "कस्टम थीम निर्माता",
+        "presets": "असीमित थीम प्रीसेट",
+        "perSectionStyle": "प्रति-सेक्शन शैली ओवरराइड",
+        "advancedColors": "रंग परिवर्तन के लिए 52 स्थान (खोज बार, सेक्शन, विजेट, नीचे पैनल)",
+        "searchbarColors": "खोज बार रंग (7 × हल्का/गहरा)",
+        "sectionColors": "सेक्शन रंग (7 × हल्का/गहरा)",
+        "itemIconColors": "आइटम आइकन रंग (2 × हल्का/गहरा)",
+        "bottomSheetColors": "नीचे की शीट रंग (5 × हल्का/गहरा)",
+        "widgetColors": "विजेट रंग (5 × हल्का/गहरा)",
+        "wallpaperBlur": "कस्टम वॉलपेपर रंग + धुंधला",
+        "advancedAnimations": "खोज बार लोड एनिमेशन (11 प्रकार)",
+        "sectionAnimations": "सेक्शन लोड एनिमेशन (11 प्रकार)",
+        "sectionResize": "सेक्शन आकार बदलें: एनिमेटेड / तत्काल / कोई नहीं",
+        "loadOrder": "लोड क्रम: ऊपर से नीचे / नीचे से ऊपर / एक साथ",
+        "animationSpeed": "एनिमेशन गति (5 स्तर)",
+        "geometrySearchbar": "खोज बार ज्यामिति: त्रिज्या, पैडिंग, सीमा, अस्पष्टता",
+        "searchbarLeadingIcon": "खोज बार अग्रणी आइकन पिकर",
+        "hidePlaceholder": "प्लेसहोल्डर छुपाएं",
+        "geometrySections": "सेक्शन ज्यामिति: त्रिज्या, पैडिंग, सीमा, अस्पष्टता",
+        "geometryWidget": "विजेट ज्यामिति: त्रिज्या, पैडिंग, ऊंचाई, सीमा, अस्पष्टता",
+        "widgetLeadingIcon": "विजेट अग्रणी आइकन पिकर",
+        "unlimitedSections": "असीमित कस्टम सेक्शन (मुक्त: 1)",
+        "dragDropSections": "ड्रैग और ड्रॉप सेक्शन पुनः व्यवस्थित करें",
+        "customItems": "कस्टम आइटम: ऐप, क्रिया, संपर्क, फ़ाइल, सेटिंग",
+        "reorderItems": "आइटम पुनः व्यवस्थित करें",
+        "sectionIconColors": "सेक्शन आइकन रंग (हल्का/गहरा)",
+        "pinnedItems": "पिन किए गए आइटम",
+        "iconPacks": "बाहरी आइकन पैक",
+        "customProviders": "कस्टम खोज प्रदाता (URL टेम्पलेट {{Q}} के साथ)",
+        "providersReorder": "ड्रैग और ड्रॉप प्रदाता क्रम",
+        "aiPrompts": "कस्टम AI प्रॉम्प्ट (लेबल + टेम्पलेट + लक्ष्य ऐप)",
+        "aiManage": "AI प्रॉम्प्ट संपादित/हटाएं",
+        "aiReorder": "ड्रैग और ड्रॉप प्रॉम्प्ट क्रम",
+        "backupExport": "सेटिंग्स निर्यात करें (JSON)",
+        "backupImport": "सेटिंग्स आयात करें (कॉन्फ़िगरेशन पुनर्स्थापित करें)",
+        "removeAds": "प्रायोजित सेक्शन हटाएं",
+        "support": "भविष्य के विकास का समर्थन करें"
       }
     },
     "summary": {
-      "title": "Quick summary",
+      "title": "त्वरित सारांश",
       "rows": {
-        "customization": "Customization",
-        "sections": "Custom sections",
-        "backup": "Backup",
-        "ads": "Ads"
+        "customization": "अनुकूलन",
+        "sections": "कस्टम सेक्शन",
+        "backup": "बैकअप",
+        "ads": "विज्ञापन"
       },
       "values": {
-        "basic": "Basic",
-        "unlimited": "Unlimited",
-        "limited": "1 only",
-        "none": "Not included",
-        "included": "Included",
-        "sponsored": "Sponsored sections"
+        "basic": "बुनियादी",
+        "unlimited": "असीमित",
+        "limited": "केवल 1",
+        "none": "शामिल नहीं",
+        "included": "शामिल है",
+        "sponsored": "प्रायोजित सेक्शन"
       },
       "headers": {
-        "free": "Free",
+        "free": "मुक्त",
         "pro": "Pro"
       }
     }
   },
   "cta": {
-    "title": "Ready to speed up your phone?",
-    "subtitle": "Install UniSearch and get the fastest way to find anything.",
-    "button": "Get it on Google Play"
+    "title": "अपने फोन को तेज़ करने के लिए तैयार हैं?",
+    "subtitle": "UniSearch इंस्टॉल करें और कुछ भी खोजने का सबसे तेज़ तरीका प्राप्त करें।",
+    "button": "Google Play पर प्राप्त करें"
   },
   "faq": {
     "title": "FAQ",
-    "subtitle": "Quick answers to common questions.",
+    "subtitle": "सामान्य प्रश्नों के त्वरित उत्तर।",
     "items": [
       {
-        "q": "Does UniSearch send my data to the cloud?",
-        "a": "No. Search data and indexing stay on your device."
+        "q": "क्या UniSearch मेरा डेटा क्लाउड में भेजता है?",
+        "a": "नहीं। खोज डेटा और अनुक्रमण आपके डिवाइस पर रहते हैं।"
       },
       {
-        "q": "What exactly is indexed?",
-        "a": "Apps, shortcuts, system settings, contacts, and files you allow."
+        "q": "वास्तव में क्या अनुक्रमित है?",
+        "a": "ऐप्स, शॉर्टकट, सिस्टम सेटिंग्स, संपर्क और फ़ाइलें जिनकी आप अनुमति देते हैं।"
       },
       {
-        "q": "Is Pro a subscription?",
-        "a": "No. Pro is a one-time purchase around $5–6."
+        "q": "क्या Pro एक सदस्यता है?",
+        "a": "नहीं। Pro एक बार की खरीद है जो लगभग $5–6 है।"
       },
       {
-        "q": "Can I restore my settings?",
-        "a": "Pro includes backup and restore via JSON export/import."
+        "q": "क्या मैं अपनी सेटिंग्स को पुनर्स्थापित कर सकता हूँ?",
+        "a": "Pro में JSON निर्यात/आयात के माध्यम से बैकअप और पुनर्स्थापन शामिल है।"
       },
       {
-        "q": "Is AI required?",
-        "a": "No. AI prompts are optional and can be disabled."
+        "q": "क्या AI आवश्यक है?",
+        "a": "नहीं। AI प्रॉम्प्ट वैकल्पिक हैं और अक्षम किए जा सकते हैं।"
       },
       {
-        "q": "How can I contact support?",
-        "a": "Email us and we will respond quickly."
+        "q": "मैं सहायता से कैसे संपर्क कर सकता हूँ?",
+        "a": "हमें ईमेल करें और हम जल्दी जवाब देंगे।"
       }
     ]
   },
   "footer": {
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "contact": "Contact",
+    "privacy": "गोपनीयता",
+    "terms": "शर्तें",
+    "contact": "संपर्क",
     "googlePlay": "Google Play",
-    "copyright": "© {year} UniSearch. All rights reserved.",
-    "createdBy": "Created by Webybox"
+    "copyright": "© {year} UniSearch। सर्वाधिकार सुरक्षित।",
+    "createdBy": "Webybox द्वारा बनाया गया"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "Effective date: 2026-02-10",
-    "intro": "This app is designed to work locally on your device. We do not run our own backend servers for your data.",
+    "title": "गोपनीयता नीति",
+    "subtitle": "प्रभावी तारीख: 2026-02-10",
+    "intro": "यह ऐप आपके डिवाइस पर स्थानीय रूप से काम करने के लिए डिज़ाइन किया गया है। हम आपके डेटा के लिए अपने स्वयं के बैकएंड सर्वर नहीं चलाते हैं।",
     "sections": {
       "introduction": {
-        "title": "Overview",
+        "title": "अवलोकन",
         "body": [
-          "This app is designed to work locally on your device.",
-          "We do not run our own backend servers for your data."
+          "यह ऐप आपके डिवाइस पर स्थानीय रूप से काम करने के लिए डिज़ाइन किया गया है।",
+          "हम आपके डेटा के लिए अपने स्वयं के बैकएंड सर्वर नहीं चलाते हैं।"
         ]
       },
       "data": {
-        "title": "Data We Collect",
+        "title": "हम जो डेटा एकत्र करते हैं",
         "body": [
-          "We do not collect or upload your contacts, files, or search data to our servers.",
-          "The app uses the following third-party services which may collect data according to their policies:",
-          "Google AdMob (ads)",
-          "Google Firebase Analytics (usage analytics)",
-          "Google Firebase Crashlytics (crash reports)",
-          "Google User Messaging Platform (consent management)",
-          "These services may collect device identifiers and usage information. You can review their policies in Google’s documentation."
+          "हम आपके संपर्क, फ़ाइलें या खोज डेटा को अपने सर्वर पर एकत्र या अपलोड नहीं करते हैं।",
+          "ऐप निम्नलिखित तृतीय-पक्ष सेवाओं का उपयोग करता है जो अपनी नीतियों के अनुसार डेटा एकत्र कर सकते हैं:",
+          "Google AdMob (विज्ञापन)",
+          "Google Firebase Analytics (उपयोग विश्लेषण)",
+          "Google Firebase Crashlytics (क्रैश रिपोर्ट)",
+          "Google User Messaging Platform (सहमति प्रबंधन)",
+          "ये सेवाएं डिवाइस पहचानकर्ता और उपयोग की जानकारी एकत्र कर सकती हैं। आप Google के दस्तावेज़ में उनकी नीतियों की समीक्षा कर सकते हैं।"
         ]
       },
       "permissions": {
-        "title": "Permissions We Use",
+        "title": "हम जो अनुमतियों का उपयोग करते हैं",
         "body": [
-          "READ_CONTACTS: to search and display contacts on-device.",
-          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: to search files across device storage, including non-media files and full folder paths. This is required for fast, system-wide file search and exclusions. SAF/MediaStore alone do not provide complete coverage for all file types and paths.",
-          "QUERY_ALL_PACKAGES: to index all installed apps, show them in search results, and enable launch of any app or shortcut. Without this, the app cannot provide full app search.",
-          "INTERNET: required by Google services and ads.",
-          "We use these permissions only for the features described above and only on-device."
+          "READ_CONTACTS: डिवाइस पर संपर्कों को खोज और प्रदर्शित करने के लिए।",
+          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: डिवाइस स्टोरेज के साथ फ़ाइलें खोजने के लिए, गैर-मीडिया फ़ाइलें और पूर्ण फ़ोल्डर पाथ सहित। यह तेज़, सिस्टम-व्यापी फ़ाइल खोज और बहिष्करण के लिए आवश्यक है। SAF/MediaStore अकेले सभी फ़ाइल प्रकारों और पाथों के लिए संपूर्ण कवरेज प्रदान नहीं करते हैं।",
+          "QUERY_ALL_PACKAGES: सभी इंस्टॉल किए गए ऐप्स को अनुक्रमित करने के लिए, उन्हें खोज परिणामों में दिखाने के लिए, और किसी भी ऐप या शॉर्टकट को लॉन्च करने में सक्षम करने के लिए। इसके बिना, ऐप पूर्ण ऐप खोज प्रदान नहीं कर सकता।",
+          "INTERNET: Google सेवाओं और विज्ञापनों द्वारा आवश्यक।",
+          "हम इन अनुमतियों का उपयोग केवल ऊपर वर्णित विशेषताओं के लिए और केवल डिवाइस पर करते हैं।"
         ]
       },
       "analytics": {
-        "title": "Analytics",
+        "title": "विश्लेषण",
         "body": [
-          "Usage analytics may be provided by Google Firebase Analytics.",
-          "Crash reports may be provided by Google Firebase Crashlytics."
+          "उपयोग विश्लेषण Google Firebase Analytics द्वारा प्रदान किया जा सकता है।",
+          "क्रैश रिपोर्ट Google Firebase Crashlytics द्वारा प्रदान की जा सकती है।"
         ]
       },
       "ads": {
-        "title": "Ads",
+        "title": "विज्ञापन",
         "body": [
-          "Ads may be served via Google AdMob.",
-          "Consent management may be handled by Google User Messaging Platform."
+          "विज्ञापन Google AdMob के माध्यम से परोसे जा सकते हैं।",
+          "सहमति प्रबंधन Google User Messaging Platform द्वारा संभाला जा सकता है।"
         ]
       },
       "sharing": {
-        "title": "Data Sharing",
+        "title": "डेटा साझाकरण",
         "body": [
-          "We do not sell your personal data.",
-          "Data may be processed by the third-party services listed above as part of ads, analytics, and crash reporting."
+          "हम आपके व्यक्तिगत डेटा को बेचते नहीं हैं।",
+          "डेटा को विज्ञापन, विश्लेषण और क्रैश रिपोर्टिंग के हिस्से के रूप में ऊपर सूचीबद्ध तृतीय-पक्ष सेवाओं द्वारा संसाधित किया जा सकता है।"
         ]
       },
       "security": {
-        "title": "Security",
+        "title": "सुरक्षा",
         "body": [
-          "We take reasonable measures to protect data on-device.",
-          "No method of transmission or storage is 100% secure."
+          "हम डिवाइस पर डेटा की सुरक्षा के लिए उचित उपाय करते हैं।",
+          "प्रसारण या भंडारण की कोई भी विधि 100% सुरक्षित नहीं है।"
         ]
       },
       "rights": {
-        "title": "Data Retention & Children’s Privacy",
+        "title": "डेटा प्रतिधारण और बच्चों की गोपनीयता",
         "body": [
-          "We do not store your personal data on our servers.",
-          "Retention by third-party services is governed by their policies.",
-          "This app is not directed to children under 13.",
-          "We may update this policy. Changes will be posted in this file with a new effective date."
+          "हम आपके व्यक्तिगत डेटा को अपने सर्वर पर संग्रहीत नहीं करते हैं।",
+          "तृतीय-पक्ष सेवाओं द्वारा प्रतिधारण उनकी नीतियों द्वारा संचालित होता है।",
+          "यह ऐप 13 से कम उम्र के बच्चों को निर्देशित नहीं है।",
+          "हम इस नीति को अपडेट कर सकते हैं। परिवर्तन एक नई प्रभावी तारीख के साथ इस फ़ाइल में पोस्ट किए जाएंगे।"
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "संपर्क",
         "body": [
-          "If you have questions, contact: contact@webybox.com"
+          "यदि आपके पास कोई सवाल है, तो संपर्क करें: contact@webybox.com"
         ]
       }
     }
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Last updated: February 11, 2026",
-    "intro": "These terms outline the basic rules for using UniSearch.",
+    "title": "सेवा की शर्तें",
+    "subtitle": "अंतिम अपडेट: 11 फरवरी, 2026",
+    "intro": "ये शर्तें UniSearch का उपयोग करने के लिए बुनियादी नियमों की रूपरेखा देती हैं।",
     "sections": {
       "usage": {
-        "title": "Use of the app",
+        "title": "ऐप का उपयोग",
         "body": [
-          "Use UniSearch in accordance with local laws and platform policies.",
-          "Do not misuse the app for unlawful activities."
+          "UniSearch का उपयोग स्थानीय कानूनों और प्लेटफॉर्म नीतियों के अनुसार करें।",
+          "अवैध गतिविधियों के लिए ऐप का दुरुपयोग न करें।"
         ]
       },
       "purchases": {
-        "title": "Purchases",
+        "title": "खरीद",
         "body": [
-          "Pro is a one-time purchase handled by Google Play.",
-          "Refunds follow Google Play policies."
+          "Pro एक बार की खरीद है जिसे Google Play द्वारा संभाला जाता है।",
+          "रिफंड Google Play नीतियों का पालन करते हैं।"
         ]
       },
       "liability": {
-        "title": "Limitation of liability",
+        "title": "देयता की सीमा",
         "body": [
-          "The app is provided as-is without warranties.",
-          "We are not liable for indirect damages."
+          "ऐप बिना किसी वारंटी के यथावत प्रदान किया जाता है।",
+          "हम अप्रत्यक्ष नुकसान के लिए जिम्मेदार नहीं हैं।"
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "संपर्क",
         "body": [
-          "Questions? Reach out via email."
+          "सवाल हैं? ईमेल के माध्यम से संपर्क करें।"
         ]
       }
     }
   },
   "searchProviders": {
-    "title": "Search with providers",
-    "subtitle": "Choose where to search and control when results appear.",
+    "title": "प्रदाताओं के साथ खोजें",
+    "subtitle": "चुनें कि कहाँ खोजना है और नियंत्रित करें कि परिणाम कब दिखाई दें।",
     "items": [
       {
-        "title": "Preset providers",
-        "description": "Google, DuckDuckGo, and other popular sources."
+        "title": "पूर्व निर्धारित प्रदाता",
+        "description": "Google, DuckDuckGo और अन्य लोकप्रिय स्रोत।"
       },
       {
-        "title": "Enable / disable",
-        "description": "Full control over which providers are active."
+        "title": "सक्षम/अक्षम करें",
+        "description": "इस बात का पूर्ण नियंत्रण कि कौन से प्रदाता सक्रिय हैं।"
       },
       {
-        "title": "Always show",
-        "description": "Keep a chosen provider visible at all times."
+        "title": "हमेशा दिखाएं",
+        "description": "चुने गए प्रदाता को हर समय दृश्यमान रखें।"
       },
       {
-        "title": "Quick switching",
-        "description": "Swap providers without leaving the search bar."
+        "title": "त्वरित स्विचिंग",
+        "description": "खोज बार छोड़े बिना प्रदाता को स्वैप करें।"
       }
     ]
   }

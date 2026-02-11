@@ -1,443 +1,443 @@
 {
   "meta": {
-    "title": "UniSearch — Universal search for Android",
-    "description": "Find apps, contacts, files, actions, and more from one fast search bar. Built for speed, privacy, and offline-first use.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDescription": "Learn how UniSearch processes data locally and keeps your searches private.",
-    "termsTitle": "Terms of Service",
-    "termsDescription": "Basic terms for using the UniSearch app and website."
+    "title": "UniSearch — Căutare universală pentru Android",
+    "description": "Găsiți aplicații, contacte, fișiere, acțiuni și multe altele din bara de căutare rapidă. Construit pentru viteză, confidențialitate și utilizare offline.",
+    "privacyTitle": "Politica de confidențialitate",
+    "privacyDescription": "Aflați cum UniSearch procesează datele local și vă păstrează căutările private.",
+    "termsTitle": "Termeni de serviciu",
+    "termsDescription": "Termeni de bază pentru utilizarea aplicației UniSearch și a site-ului web."
   },
   "common": {
-    "back": "Back"
+    "back": "Înapoi"
   },
   "nav": {
-    "features": "Features",
-    "freePro": "Free vs Pro",
-    "privacy": "Privacy",
-    "faq": "FAQ",
-    "getApp": "Get it on Google Play",
-    "how": "How it works",
-    "language": "Language",
-    "changelog": "Changelog"
+    "features": "Funcționalități",
+    "freePro": "Gratuit vs Pro",
+    "privacy": "Confidențialitate",
+    "faq": "Întrebări frecvente",
+    "getApp": "Obțineți pe Google Play",
+    "how": "Cum funcționează",
+    "language": "Limbă",
+    "changelog": "Jurnalul de modificări"
   },
   "hero": {
-    "badge": "Universal search for Android",
-    "title": "Find everything on your phone in seconds.",
-    "subtitle": "Apps, contacts, files, actions, calculator, and AI — all from one lightning-fast search bar.",
-    "primaryCta": "Get it on Google Play",
-    "secondaryCta": "Explore features",
-    "note": "No account required. Works offline by default."
+    "badge": "Căutare universală pentru Android",
+    "title": "Găsiți totul pe telefonul dvs. în secunde.",
+    "subtitle": "Aplicații, contacte, fișiere, acțiuni, calculator și IA — tot din bara de căutare ultrarapidă.",
+    "primaryCta": "Obțineți pe Google Play",
+    "secondaryCta": "Explorați funcționalități",
+    "note": "Fără cont necesar. Funcționează offline în mod implicit."
   },
   "trust": {
-    "title": "Built for speed and control",
+    "title": "Construit pentru viteză și control",
     "items": [
       {
-        "title": "Fast",
-        "description": "Instant results with real-time filtering and smart ranking."
+        "title": "Rapid",
+        "description": "Rezultate instantanee cu filtrare în timp real și clasare inteligentă."
       },
       {
-        "title": "Privacy",
-        "description": "Your data stays on-device. Optional analytics only."
+        "title": "Confidențialitate",
+        "description": "Datele dvs. rămân pe dispozitiv. Doar analitica opțională."
       },
       {
         "title": "Offline-first",
-        "description": "Search works even without an internet connection."
+        "description": "Căutarea funcționează chiar și fără conexiune la internet."
       },
       {
-        "title": "Personalization",
-        "description": "Tune themes, sections, spacing, and behavior."
+        "title": "Personalizare",
+        "description": "Ajustați teme, secțiuni, spațiere și comportament."
       }
     ]
   },
   "features": {
-    "title": "Everything you want to find — instantly",
-    "subtitle": "UniSearch brings every source into one smooth, unified result list.",
+    "title": "Tot ceea ce vrei să găsești — instantaneu",
+    "subtitle": "UniSearch aduce fiecare sursă într-o listă de rezultate uniformă și netedă.",
     "groups": {
       "search": {
-        "title": "Unified search",
-        "description": "Find anything with smart ranking and noise filtering."
+        "title": "Căutare unificată",
+        "description": "Găsiți orice cu clasare inteligentă și filtrare de zgomot."
       },
       "actions": {
-        "title": "Actions & shortcuts",
-        "description": "Launch actions, deep links, and curated shortcuts."
+        "title": "Acțiuni și comenzi rapide",
+        "description": "Lansați acțiuni, linkuri adânci și comenzi rapide selectate."
       },
       "files": {
-        "title": "Files & media",
-        "description": "Search documents, photos, videos, music, and folders."
+        "title": "Fișiere și media",
+        "description": "Căutați documente, fotografii, videoclipuri, muzică și dosare."
       },
       "contacts": {
-        "title": "Contacts",
-        "description": "Call, message, or open linked apps instantly."
+        "title": "Contacte",
+        "description": "Apelați, trimiteți mesaje sau deschideți aplicații conectate instantaneu."
       },
       "calculator": {
         "title": "Calculator",
-        "description": "Inline calculator with precision math."
+        "description": "Calculator inline cu matematică de precizie."
       },
       "customization": {
-        "title": "Customization",
-        "description": "Control layout, themes, and visibility."
+        "title": "Personalizare",
+        "description": "Controlați aspectul, temele și vizibilitatea."
       },
       "ai": {
-        "title": "AI prompts",
-        "description": "Optional AI helpers with clear data boundaries."
+        "title": "Instrucțiuni IA",
+        "description": "Asistenți opționali IA cu limite clare ale datelor."
       },
       "providers": {
-        "title": "Search providers",
-        "description": "Choose where UniSearch sends external queries."
+        "title": "Furnizori de căutare",
+        "description": "Alegeți unde UniSearch trimite interogări externe."
       }
     },
     "items": {
       "search": {
-        "universal": "Apps, contacts, files, settings, and shortcuts in one query",
-        "instant": "Real-time filtering with instant results",
-        "frecency": "Frecency ranking that adapts to your habits"
+        "universal": "Aplicații, contacte, fișiere, setări și comenzi rapide într-o singură interogare",
+        "instant": "Filtrare în timp real cu rezultate instantanee",
+        "frecency": "Clasare frecență care se adaptează la obiceiurile dvs."
       },
       "actions": {
-        "shortcuts": "App shortcuts and deep links",
-        "system": "System actions and settings search",
-        "workflow": "Launch from Assistant, widget, or Quick Settings"
+        "shortcuts": "Comenzi rapide ale aplicației și linkuri adânci",
+        "system": "Acțiuni de sistem și căutare setări",
+        "workflow": "Lansați din Asistent, widget sau Setări rapide"
       },
       "files": {
-        "documents": "Documents, images, videos, music",
-        "media": "Folders and MediaStore-powered results",
-        "filters": "Type filters and exclusions"
+        "documents": "Documente, imagini, videoclipuri, muzică",
+        "media": "Dosare și rezultate susținute de MediaStore",
+        "filters": "Filtre tip și excluderi"
       },
       "contacts": {
-        "smart": "Smart matching and ranking",
-        "actions": "Call, message, or open linked apps",
-        "permissions": "Optional permissions with clear control"
+        "smart": "Potrivire inteligentă și clasare",
+        "actions": "Apelați, trimiteți mesaje sau deschideți aplicații conectate",
+        "permissions": "Permisiuni opționale cu control clar"
       },
       "calculator": {
-        "inline": "Inline math as you type",
-        "precision": "BigDecimal precision with brackets",
-        "copy": "Copy results in one tap"
+        "inline": "Matematică inline în timp ce tastați",
+        "precision": "Precizie BigDecimal cu paranteze",
+        "copy": "Copiați rezultatele într-o singură atingere"
       },
       "customization": {
-        "themes": "Light, dark, and curated themes",
-        "layout": "Icon size, grid spacing, labels",
-        "sections": "Show, hide, and reorder sections"
+        "themes": "Teme ușoare, întunecate și selectate",
+        "layout": "Dimensiunea pictogramei, spațiere grilă, etichete",
+        "sections": "Afișați, ascundeți și reorganizați secțiuni"
       },
       "ai": {
-        "prompts": "Create quick AI prompts",
-        "safe": "Clear opt-in usage",
-        "optional": "Disable AI anytime"
+        "prompts": "Creați instrucțiuni IA rapide",
+        "safe": "Utilizare clară cu consimțământ",
+        "optional": "Dezactivați IA în orice moment"
       },
       "providers": {
-        "preset": "Preset providers like Google, YouTube or ChatGPT",
-        "toggle": "Enable or disable providers",
-        "always": "Ability to define custom ones"
+        "preset": "Furnizori presetați cum ar fi Google, YouTube sau ChatGPT",
+        "toggle": "Activați sau dezactivați furnizorii",
+        "always": "Posibilitatea de a defini cei personalizați"
       }
     }
   },
   "how": {
-    "title": "How it works",
-    "subtitle": "A simple flow designed for speed.",
+    "title": "Cum funcționează",
+    "subtitle": "Un flux simplu proiectat pentru viteză.",
     "steps": {
       "index": {
         "title": "Index",
-        "description": "UniSearch indexes apps, contacts, files, and settings locally."
+        "description": "UniSearch indexează aplicații, contacte, fișiere și setări local."
       },
       "search": {
-        "title": "Search",
-        "description": "Type once and get ranked results instantly."
+        "title": "Căutare",
+        "description": "Tastați o dată și obțineți rezultate clasate instantaneu."
       },
       "action": {
-        "title": "Action",
-        "description": "Open, call, calculate, or run a shortcut in one tap."
+        "title": "Acțiune",
+        "description": "Deschideți, apelați, calculați sau executați o comandă rapidă într-o singură atingere."
       }
     }
   },
   "freePro": {
-    "title": "Free vs Pro",
-    "subtitle": "Start free, upgrade once for full control.",
+    "title": "Gratuit vs Pro",
+    "subtitle": "Începeți gratuit, upgrade o dată pentru control total.",
     "free": {
-      "title": "Free",
-      "description": "Everything you need to search fast.",
+      "title": "Gratuit",
+      "description": "Tot ce trebuie să cauți rapid.",
       "items": {
-        "universal": "Universal search: apps, contacts, files, settings",
-        "algorithms": "All search algorithms: prefix, fuzzy, phonetic, acronym, token",
-        "frecency": "Frecency ranking across all sources",
-        "calculator": "Built-in calculator",
-        "appShortcutSyntax": "\"App: Shortcut\" query syntax",
-        "highlight": "Match highlighting",
-        "entryPoints": "Launch from Assistant, widget, or Quick Settings",
-        "quickSettings": "Quick Settings tile",
-        "assistantRole": "Assistant role support",
-        "notificationListener": "NotificationListenerService support",
-        "searchBarPosition": "Search bar position (top/bottom)",
-        "layout": "App layout (grid/list)",
-        "gridColumns": "Grid columns (4–6)",
-        "iconSize": "Icon size (S/M/L)",
-        "gridSpacing": "Grid spacing (S/M/L)",
-        "iconLabels": "Icon labels on/off",
-        "sectionHeaderIcons": "Section header icons",
-        "autofocus": "Auto-focus search bar",
-        "clearOnSelect": "Clear search on selection",
-        "hideRecentsEmpty": "Hide section when recents are empty",
-        "sectionVisibilityDefault": "Default visibility for 7 sections",
-        "resultLimits": "Result limits (3 sliders)",
-        "showHideTypes": "Show/hide result types and sections",
-        "hideApps": "Hide apps",
-        "hideContacts": "Hide contacts",
-        "hideActions": "Hide actions/shortcuts",
-        "excludeFiles": "Exclude files/folders",
-        "fileTypes": "File types (7 types)",
-        "freeThemes": "2 free themes: UniSearch + High Contrast",
-        "modes": "Light and dark mode",
-        "basicAnimations": "Basic animations (fade/slide)",
-        "providersPreset": "Preset search providers (Google, DuckDuckGo, etc.)",
-        "providersToggle": "Enable/disable providers",
-        "providersAlwaysShow": "\"Always show\" provider switch",
-        "customSection": "1 free custom section (no sorting)",
-        "analytics": "Basic analytics (opt-in)",
-        "privacy": "Privacy mode",
-        "languages": "All 25 languages",
-        "sponsored": "Sponsored sections (Native Ads)"
+        "universal": "Căutare universală: aplicații, contacte, fișiere, setări",
+        "algorithms": "Toți algoritmii de căutare: prefix, fuzzy, fonetic, acronim, token",
+        "frecency": "Clasare frecență pe toate sursele",
+        "calculator": "Calculator încorporat",
+        "appShortcutSyntax": "Sintaxa interogării \"App: Shortcut\"",
+        "highlight": "Evidențierea potrivirilor",
+        "entryPoints": "Lansați din Asistent, widget sau Setări rapide",
+        "quickSettings": "Țiglă Setări rapide",
+        "assistantRole": "Suport rol Asistent",
+        "notificationListener": "Suport NotificationListenerService",
+        "searchBarPosition": "Poziția barei de căutare (sus/jos)",
+        "layout": "Aspectul aplicației (grilă/listă)",
+        "gridColumns": "Coloane grilă (4–6)",
+        "iconSize": "Dimensiunea pictogramei (S/M/L)",
+        "gridSpacing": "Spațiere grilă (S/M/L)",
+        "iconLabels": "Etichete pictograme pornit/oprit",
+        "sectionHeaderIcons": "Pictograme antet secțiune",
+        "autofocus": "Focalizare automată bară de căutare",
+        "clearOnSelect": "Ștergeți căutarea la selecție",
+        "hideRecentsEmpty": "Ascundeți secțiunea când recenții sunt goi",
+        "sectionVisibilityDefault": "Vizibilitate implicită pentru 7 secțiuni",
+        "resultLimits": "Limite rezultate (3 cursoare)",
+        "showHideTypes": "Afișați/Ascundeți tipuri de rezultate și secțiuni",
+        "hideApps": "Ascundeți aplicații",
+        "hideContacts": "Ascundeți contacte",
+        "hideActions": "Ascundeți acțiuni/comenzi rapide",
+        "excludeFiles": "Excludeți fișiere/dosare",
+        "fileTypes": "Tipuri fișiere (7 tipuri)",
+        "freeThemes": "2 teme gratuite: UniSearch + Contrast înalt",
+        "modes": "Mod luminos și întunecat",
+        "basicAnimations": "Animații de bază (fade/slide)",
+        "providersPreset": "Furnizori de căutare presetați (Google, DuckDuckGo, etc.)",
+        "providersToggle": "Activați/dezactivați furnizorii",
+        "providersAlwaysShow": "Comutator furnizor \"Afișați întotdeauna\"",
+        "customSection": "1 secțiune personalizată gratuită (fără sortare)",
+        "analytics": "Analitica de bază (opt-in)",
+        "privacy": "Modul confidențialitate",
+        "languages": "Toate 25 de limbi",
+        "sponsored": "Secțiuni sponsorizate (Anunțuri native)"
       }
     },
     "pro": {
       "title": "Pro",
-      "description": "One-time purchase. Unlock full design power.",
-      "badge": "Most popular",
-      "priceNote": "About $5–6",
+      "description": "Cumpărare unică. Deblocați puterea design-ului complet.",
+      "badge": "Cel mai popular",
+      "priceNote": "Aproximativ 5–6 dolari",
       "items": {
-        "premiumThemes": "3 premium themes: Glass, Material You, Minimal Dark",
-        "themeCreator": "Custom theme creator",
-        "presets": "Unlimited theme presets",
-        "perSectionStyle": "Per-section style overrides",
-        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
-        "searchbarColors": "Search bar colors (7 × Light/Dark)",
-        "sectionColors": "Section colors (7 × Light/Dark)",
-        "itemIconColors": "Item icon colors (2 × Light/Dark)",
-        "bottomSheetColors": "Bottom sheet colors (5 × Light/Dark)",
-        "widgetColors": "Widget colors (5 × Light/Dark)",
-        "wallpaperBlur": "Custom wallpaper color + blur",
-        "advancedAnimations": "Search bar load animations (11 types)",
-        "sectionAnimations": "Section load animations (11 types)",
-        "sectionResize": "Section resize: animated / instant / none",
-        "loadOrder": "Load order: top to bottom / bottom to top / simultaneous",
-        "animationSpeed": "Animation speed (5 levels)",
-        "geometrySearchbar": "Search bar geometry: radius, padding, border, opacity",
-        "searchbarLeadingIcon": "Search bar leading icon picker",
-        "hidePlaceholder": "Hide placeholder",
-        "geometrySections": "Section geometry: radius, padding, border, opacity",
-        "geometryWidget": "Widget geometry: radius, padding, height, border, opacity",
-        "widgetLeadingIcon": "Widget leading icon picker",
-        "unlimitedSections": "Unlimited custom sections (Free: 1)",
-        "dragDropSections": "Drag & drop section reorder",
-        "customItems": "Custom items: App, Action, Contact, File, Setting",
-        "reorderItems": "Reorder items",
-        "sectionIconColors": "Section icon colors (Light/Dark)",
-        "pinnedItems": "Pinned items",
-        "iconPacks": "External icon packs",
-        "customProviders": "Custom search providers (URL template with {{Q}})",
-        "providersReorder": "Drag & drop provider order",
-        "aiPrompts": "Custom AI prompts (label + template + target app)",
-        "aiManage": "Edit/remove AI prompts",
-        "aiReorder": "Drag & drop prompt order",
-        "backupExport": "Export settings (JSON)",
-        "backupImport": "Import settings (restore configuration)",
-        "removeAds": "Remove sponsored sections",
-        "support": "Support future development"
+        "premiumThemes": "3 teme premium: Glass, Material You, Minimal Dark",
+        "themeCreator": "Creator de teme personalizate",
+        "presets": "Presetări de teme nelimitate",
+        "perSectionStyle": "Anulări de stil per-secțiune",
+        "advancedColors": "52 locuri cu posibilitate de schimbare a culorii (Bara de căutare, Secțiuni, Widget, Panou inferior)",
+        "searchbarColors": "Culori bară de căutare (7 × Luminos/Întunecat)",
+        "sectionColors": "Culori secțiuni (7 × Luminos/Întunecat)",
+        "itemIconColors": "Culori pictograme articol (2 × Luminos/Întunecat)",
+        "bottomSheetColors": "Culori foaie inferioară (5 × Luminos/Întunecat)",
+        "widgetColors": "Culori widget (5 × Luminos/Întunecat)",
+        "wallpaperBlur": "Culoare fundal personalizat + blur",
+        "advancedAnimations": "Animații de încărcare bară de căutare (11 tipuri)",
+        "sectionAnimations": "Animații de încărcare secțiune (11 tipuri)",
+        "sectionResize": "Redimensionare secțiune: animat / instant / niciunu",
+        "loadOrder": "Ordine de încărcare: sus în jos / jos în sus / simultan",
+        "animationSpeed": "Viteză animație (5 niveluri)",
+        "geometrySearchbar": "Geometrie bară de căutare: rază, umplutură, bordură, opacitate",
+        "searchbarLeadingIcon": "Alegător pictogramă principală bară de căutare",
+        "hidePlaceholder": "Ascundeți placeholder",
+        "geometrySections": "Geometrie secțiune: rază, umplutură, bordură, opacitate",
+        "geometryWidget": "Geometrie widget: rază, umplutură, înălțime, bordură, opacitate",
+        "widgetLeadingIcon": "Alegător pictogramă principală widget",
+        "unlimitedSections": "Secțiuni personalizate nelimitate (Gratuit: 1)",
+        "dragDropSections": "Reorganizare secțiune Drag & drop",
+        "customItems": "Articole personalizate: App, Action, Contact, File, Setting",
+        "reorderItems": "Reorganizați articolele",
+        "sectionIconColors": "Culori pictograme secțiune (Luminos/Întunecat)",
+        "pinnedItems": "Articole fixate",
+        "iconPacks": "Pachete pictograme externe",
+        "customProviders": "Furnizori de căutare personalizați (șablon URL cu {{Q}})",
+        "providersReorder": "Reorganizare furnizor Drag & drop",
+        "aiPrompts": "Instrucțiuni IA personalizate (etichetă + șablon + aplicație țintă)",
+        "aiManage": "Editați/eliminați instrucțiuni IA",
+        "aiReorder": "Reorganizare instrucțiuni Drag & drop",
+        "backupExport": "Exportați setări (JSON)",
+        "backupImport": "Importați setări (restaurare configurație)",
+        "removeAds": "Eliminați secțiuni sponsorizate",
+        "support": "Sprijiniți dezvoltarea viitoare"
       }
     },
     "summary": {
-      "title": "Quick summary",
+      "title": "Rezumat rapid",
       "rows": {
-        "customization": "Customization",
-        "sections": "Custom sections",
+        "customization": "Personalizare",
+        "sections": "Secțiuni personalizate",
         "backup": "Backup",
-        "ads": "Ads"
+        "ads": "Anunțuri"
       },
       "values": {
-        "basic": "Basic",
-        "unlimited": "Unlimited",
-        "limited": "1 only",
-        "none": "Not included",
-        "included": "Included",
-        "sponsored": "Sponsored sections"
+        "basic": "Bază",
+        "unlimited": "Nelimitat",
+        "limited": "Doar 1",
+        "none": "Nu este inclus",
+        "included": "Inclus",
+        "sponsored": "Secțiuni sponsorizate"
       },
       "headers": {
-        "free": "Free",
+        "free": "Gratuit",
         "pro": "Pro"
       }
     }
   },
   "cta": {
-    "title": "Ready to speed up your phone?",
-    "subtitle": "Install UniSearch and get the fastest way to find anything.",
-    "button": "Get it on Google Play"
+    "title": "Gata să vă accelerați telefonul?",
+    "subtitle": "Instalați UniSearch și obțineți cel mai rapid mod de a găsi orice.",
+    "button": "Obțineți pe Google Play"
   },
   "faq": {
-    "title": "FAQ",
-    "subtitle": "Quick answers to common questions.",
+    "title": "Întrebări frecvente",
+    "subtitle": "Răspunsuri rapide la întrebări frecvente.",
     "items": [
       {
-        "q": "Does UniSearch send my data to the cloud?",
-        "a": "No. Search data and indexing stay on your device."
+        "q": "UniSearch trimite datele mele în cloud?",
+        "a": "Nu. Datele de căutare și indexarea rămân pe dispozitivul dvs."
       },
       {
-        "q": "What exactly is indexed?",
-        "a": "Apps, shortcuts, system settings, contacts, and files you allow."
+        "q": "Ce este indexat exact?",
+        "a": "Aplicații, comenzi rapide, setări de sistem, contacte și fișiere pe care le autorizați."
       },
       {
-        "q": "Is Pro a subscription?",
-        "a": "No. Pro is a one-time purchase around $5–6."
+        "q": "Pro este o abonare?",
+        "a": "Nu. Pro este o cumpărare unică în jurul valorii de 5–6 dolari."
       },
       {
-        "q": "Can I restore my settings?",
-        "a": "Pro includes backup and restore via JSON export/import."
+        "q": "Pot restaura setările mele?",
+        "a": "Pro include backup și restaurare prin exportare/import JSON."
       },
       {
-        "q": "Is AI required?",
-        "a": "No. AI prompts are optional and can be disabled."
+        "q": "Este necesară IA?",
+        "a": "Nu. Instrucțiunile IA sunt opționale și pot fi dezactivate."
       },
       {
-        "q": "How can I contact support?",
-        "a": "Email us and we will respond quickly."
+        "q": "Cum pot contacta asistența?",
+        "a": "Trimiteți-ne un e-mail și vom răspunde rapid."
       }
     ]
   },
   "footer": {
-    "privacy": "Privacy",
-    "terms": "Terms",
+    "privacy": "Confidențialitate",
+    "terms": "Termeni",
     "contact": "Contact",
     "googlePlay": "Google Play",
-    "copyright": "© {year} UniSearch. All rights reserved.",
-    "createdBy": "Created by Webybox"
+    "copyright": "© {year} UniSearch. Toate drepturile rezervate.",
+    "createdBy": "Creat de Webybox"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "Effective date: 2026-02-10",
-    "intro": "This app is designed to work locally on your device. We do not run our own backend servers for your data.",
+    "title": "Politica de confidențialitate",
+    "subtitle": "Data efectivă: 2026-02-10",
+    "intro": "Această aplicație este proiectată să funcționeze local pe dispozitivul dvs. Nu rulăm servere backend proprii pentru datele dvs.",
     "sections": {
       "introduction": {
-        "title": "Overview",
+        "title": "Prezentare generală",
         "body": [
-          "This app is designed to work locally on your device.",
-          "We do not run our own backend servers for your data."
+          "Această aplicație este proiectată să funcționeze local pe dispozitivul dvs.",
+          "Nu rulăm servere backend proprii pentru datele dvs."
         ]
       },
       "data": {
-        "title": "Data We Collect",
+        "title": "Datele pe care le colectăm",
         "body": [
-          "We do not collect or upload your contacts, files, or search data to our servers.",
-          "The app uses the following third-party services which may collect data according to their policies:",
-          "Google AdMob (ads)",
-          "Google Firebase Analytics (usage analytics)",
-          "Google Firebase Crashlytics (crash reports)",
-          "Google User Messaging Platform (consent management)",
-          "These services may collect device identifiers and usage information. You can review their policies in Google’s documentation."
+          "Nu colectăm și nu încărcăm contactele, fișierele sau datele de căutare pe serverele noastre.",
+          "Aplicația utilizează următoarele servicii terță parte care pot colecta date conform politicilor lor:",
+          "Google AdMob (anunțuri)",
+          "Google Firebase Analytics (analitica utilizării)",
+          "Google Firebase Crashlytics (rapoarte de defecte)",
+          "Google User Messaging Platform (gestionarea consimțământului)",
+          "Aceste servicii pot colecta identificatori de dispozitiv și informații de utilizare. Puteți revizui politicile lor în documentația Google."
         ]
       },
       "permissions": {
-        "title": "Permissions We Use",
+        "title": "Permisiunile pe care le folosim",
         "body": [
-          "READ_CONTACTS: to search and display contacts on-device.",
-          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: to search files across device storage, including non-media files and full folder paths. This is required for fast, system-wide file search and exclusions. SAF/MediaStore alone do not provide complete coverage for all file types and paths.",
-          "QUERY_ALL_PACKAGES: to index all installed apps, show them in search results, and enable launch of any app or shortcut. Without this, the app cannot provide full app search.",
-          "INTERNET: required by Google services and ads.",
-          "We use these permissions only for the features described above and only on-device."
+          "READ_CONTACTS: pentru a căuta și afișa contacte pe dispozitiv.",
+          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: pentru a căuta fișiere pe stocarea dispozitivului, inclusiv fișiere non-media și căi complete ale dosarelor. Aceasta este necesară pentru căutarea rapidă a fișierelor pe nivelul sistemului și excluderi. SAF/MediaStore singure nu oferă acoperire completă pentru toate tipurile de fișiere și căi.",
+          "QUERY_ALL_PACKAGES: pentru a indexa toate aplicațiile instalate, a le afișa în rezultate de căutare și a activa lansarea oricărei aplicații sau comenzi rapide. Fără aceasta, aplicația nu poate oferi căutare completă de aplicații.",
+          "INTERNET: necesar de serviciile Google și anunțuri.",
+          "Folosim aceste permisiuni numai pentru funcționalitățile descrise mai sus și numai pe dispozitiv."
         ]
       },
       "analytics": {
-        "title": "Analytics",
+        "title": "Analitica",
         "body": [
-          "Usage analytics may be provided by Google Firebase Analytics.",
-          "Crash reports may be provided by Google Firebase Crashlytics."
+          "Analiza utilizării poate fi furnizată de Google Firebase Analytics.",
+          "Rapoartele de defecte pot fi furnizate de Google Firebase Crashlytics."
         ]
       },
       "ads": {
-        "title": "Ads",
+        "title": "Anunțuri",
         "body": [
-          "Ads may be served via Google AdMob.",
-          "Consent management may be handled by Google User Messaging Platform."
+          "Anunțurile pot fi servite prin Google AdMob.",
+          "Gestionarea consimțământului poate fi gestionată de Google User Messaging Platform."
         ]
       },
       "sharing": {
-        "title": "Data Sharing",
+        "title": "Partajarea datelor",
         "body": [
-          "We do not sell your personal data.",
-          "Data may be processed by the third-party services listed above as part of ads, analytics, and crash reporting."
+          "Nu vândemos datele dvs. personale.",
+          "Datele pot fi procesate de serviciile terță parte listate mai sus ca parte a anunțurilor, analiticii și raportării defectelor."
         ]
       },
       "security": {
-        "title": "Security",
+        "title": "Securitate",
         "body": [
-          "We take reasonable measures to protect data on-device.",
-          "No method of transmission or storage is 100% secure."
+          "Luăm măsuri rezonabile pentru a proteja datele pe dispozitiv.",
+          "Nici o metodă de transmisie sau stocare nu este 100% sigură."
         ]
       },
       "rights": {
-        "title": "Data Retention & Children’s Privacy",
+        "title": "Retenția datelor și confidențialitatea copiilor",
         "body": [
-          "We do not store your personal data on our servers.",
-          "Retention by third-party services is governed by their policies.",
-          "This app is not directed to children under 13.",
-          "We may update this policy. Changes will be posted in this file with a new effective date."
+          "Nu stocăm datele dvs. personale pe serverele noastre.",
+          "Retenția de serviciile terță parte este guvernată de politicile lor.",
+          "Această aplicație nu este destinată copiilor sub 13 ani.",
+          "Putem actualiza această politică. Modificările vor fi postate în acest fișier cu o nouă dată efectivă."
         ]
       },
       "contact": {
         "title": "Contact",
         "body": [
-          "If you have questions, contact: contact@webybox.com"
+          "Dacă aveți întrebări, contactați-ne: contact@webybox.com"
         ]
       }
     }
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Last updated: February 11, 2026",
-    "intro": "These terms outline the basic rules for using UniSearch.",
+    "title": "Termeni de serviciu",
+    "subtitle": "Ultima actualizare: 11 februarie 2026",
+    "intro": "Acești termeni descriu regulile de bază pentru utilizarea UniSearch.",
     "sections": {
       "usage": {
-        "title": "Use of the app",
+        "title": "Utilizarea aplicației",
         "body": [
-          "Use UniSearch in accordance with local laws and platform policies.",
-          "Do not misuse the app for unlawful activities."
+          "Utilizați UniSearch în conformitate cu legile locale și politicile platformei.",
+          "Nu abuzați de aplicație pentru activități ilegale."
         ]
       },
       "purchases": {
-        "title": "Purchases",
+        "title": "Achiziții",
         "body": [
-          "Pro is a one-time purchase handled by Google Play.",
-          "Refunds follow Google Play policies."
+          "Pro este o cumpărare unică gestionată de Google Play.",
+          "Restituirile urmează politicile Google Play."
         ]
       },
       "liability": {
-        "title": "Limitation of liability",
+        "title": "Limitarea răspunderii",
         "body": [
-          "The app is provided as-is without warranties.",
-          "We are not liable for indirect damages."
+          "Aplicația este furnizată așa cum este, fără garanții.",
+          "Nu suntem responsabili pentru daunele indirecte."
         ]
       },
       "contact": {
         "title": "Contact",
         "body": [
-          "Questions? Reach out via email."
+          "Întrebări? Contactați-ne prin e-mail."
         ]
       }
     }
   },
   "searchProviders": {
-    "title": "Search with providers",
-    "subtitle": "Choose where to search and control when results appear.",
+    "title": "Căutare cu furnizori",
+    "subtitle": "Alegeți unde să căutați și controlați când apar rezultatele.",
     "items": [
       {
-        "title": "Preset providers",
-        "description": "Google, DuckDuckGo, and other popular sources."
+        "title": "Furnizori presetați",
+        "description": "Google, DuckDuckGo și alte surse populare."
       },
       {
-        "title": "Enable / disable",
-        "description": "Full control over which providers are active."
+        "title": "Activare / dezactivare",
+        "description": "Control complet asupra furnizorilor care sunt activi."
       },
       {
-        "title": "Always show",
-        "description": "Keep a chosen provider visible at all times."
+        "title": "Afișați întotdeauna",
+        "description": "Păstrați un furnizor ales vizibil în orice moment."
       },
       {
-        "title": "Quick switching",
-        "description": "Swap providers without leaving the search bar."
+        "title": "Comutare rapidă",
+        "description": "Schimbați furnizorii fără a pleca din bara de căutare."
       }
     ]
   }

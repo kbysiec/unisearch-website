@@ -1,443 +1,443 @@
 {
   "meta": {
-    "title": "UniSearch — Universal search for Android",
-    "description": "Find apps, contacts, files, actions, and more from one fast search bar. Built for speed, privacy, and offline-first use.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDescription": "Learn how UniSearch processes data locally and keeps your searches private.",
-    "termsTitle": "Terms of Service",
-    "termsDescription": "Basic terms for using the UniSearch app and website."
+    "title": "UniSearch — Pandaigdigang paghahanap para sa Android",
+    "description": "Maghanap ng mga app, kontakto, file, aksyon, at marami pang iba mula sa isang mabilis na search bar. Dinisenyo para sa bilis, privacy, at offline-first na paggamit.",
+    "privacyTitle": "Patakaran sa Privacy",
+    "privacyDescription": "Alamin kung paano ini-proseso ng UniSearch ang datos nang lokal at pinapanatiling pribado ang iyong mga paghahanap.",
+    "termsTitle": "Mga Tuntunin ng Serbisyo",
+    "termsDescription": "Pangunahing tuntunin para sa paggamit ng UniSearch app at website."
   },
   "common": {
-    "back": "Back"
+    "back": "Bumalik"
   },
   "nav": {
-    "features": "Features",
-    "freePro": "Free vs Pro",
+    "features": "Mga Katangian",
+    "freePro": "Libre vs Pro",
     "privacy": "Privacy",
-    "faq": "FAQ",
-    "getApp": "Get it on Google Play",
-    "how": "How it works",
-    "language": "Language",
-    "changelog": "Changelog"
+    "faq": "Mga Tanong",
+    "getApp": "Kunin ito sa Google Play",
+    "how": "Paano ito gumagana",
+    "language": "Wika",
+    "changelog": "Talaan ng Pagbabago"
   },
   "hero": {
-    "badge": "Universal search for Android",
-    "title": "Find everything on your phone in seconds.",
-    "subtitle": "Apps, contacts, files, actions, calculator, and AI — all from one lightning-fast search bar.",
-    "primaryCta": "Get it on Google Play",
-    "secondaryCta": "Explore features",
-    "note": "No account required. Works offline by default."
+    "badge": "Pandaigdigang paghahanap para sa Android",
+    "title": "Maghanap ng lahat sa iyong telepono sa loob ng ilang segundo.",
+    "subtitle": "Mga app, kontakto, file, aksyon, calculator, at AI — lahat mula sa isang napakabilis na search bar.",
+    "primaryCta": "Kunin ito sa Google Play",
+    "secondaryCta": "Tuklasin ang mga katangian",
+    "note": "Walang kinakailangang account. Gumagana nang offline bilang default."
   },
   "trust": {
-    "title": "Built for speed and control",
+    "title": "Ginawa para sa bilis at kontrol",
     "items": [
       {
-        "title": "Fast",
-        "description": "Instant results with real-time filtering and smart ranking."
+        "title": "Mabilis",
+        "description": "Agarang resulta na may real-time na pagsasala at matalinong parangal."
       },
       {
         "title": "Privacy",
-        "description": "Your data stays on-device. Optional analytics only."
+        "description": "Ang iyong datos ay nananatili sa-device. Opsyonal na analytics lamang."
       },
       {
         "title": "Offline-first",
-        "description": "Search works even without an internet connection."
+        "description": "Ang paghahanap ay gumagana kahit walang koneksyon sa internet."
       },
       {
-        "title": "Personalization",
-        "description": "Tune themes, sections, spacing, and behavior."
+        "title": "Personalisasyon",
+        "description": "I-tune ang mga tema, seksyon, espasyo, at pag-uugali."
       }
     ]
   },
   "features": {
-    "title": "Everything you want to find — instantly",
-    "subtitle": "UniSearch brings every source into one smooth, unified result list.",
+    "title": "Lahat ng gusto mong hanapin — kaagad",
+    "subtitle": "Dala ng UniSearch ang bawat pinagkukunan sa isang makinis, unified na listahan ng resulta.",
     "groups": {
       "search": {
-        "title": "Unified search",
-        "description": "Find anything with smart ranking and noise filtering."
+        "title": "Unified na paghahanap",
+        "description": "Maghanap ng kahit ano gamit ang matalinong parangal at pagsasala ng ingay."
       },
       "actions": {
-        "title": "Actions & shortcuts",
-        "description": "Launch actions, deep links, and curated shortcuts."
+        "title": "Mga Aksyon at Shortcut",
+        "description": "Ilunsad ang mga aksyon, malalim na link, at curated na shortcut."
       },
       "files": {
-        "title": "Files & media",
-        "description": "Search documents, photos, videos, music, and folders."
+        "title": "Mga File at Media",
+        "description": "Maghanap ng mga dokumento, larawan, video, musika, at mga folder."
       },
       "contacts": {
-        "title": "Contacts",
-        "description": "Call, message, or open linked apps instantly."
+        "title": "Mga Kontakto",
+        "description": "Tumawag, magpadala ng mensahe, o buksan ang mga linked app kaagad."
       },
       "calculator": {
         "title": "Calculator",
-        "description": "Inline calculator with precision math."
+        "description": "Inline calculator na may presisyon sa matematika."
       },
       "customization": {
         "title": "Customization",
-        "description": "Control layout, themes, and visibility."
+        "description": "Kontrolin ang layout, mga tema, at visibility."
       },
       "ai": {
-        "title": "AI prompts",
-        "description": "Optional AI helpers with clear data boundaries."
+        "title": "AI na mga prompt",
+        "description": "Opsyonal na AI na mga tumutulong na may malinaw na data boundaries."
       },
       "providers": {
-        "title": "Search providers",
-        "description": "Choose where UniSearch sends external queries."
+        "title": "Mga search provider",
+        "description": "Piliin kung saan ipapadala ng UniSearch ang external na mga query."
       }
     },
     "items": {
       "search": {
-        "universal": "Apps, contacts, files, settings, and shortcuts in one query",
-        "instant": "Real-time filtering with instant results",
-        "frecency": "Frecency ranking that adapts to your habits"
+        "universal": "Mga app, kontakto, file, setting, at shortcut sa isang query",
+        "instant": "Real-time na pagsasala na may agarang resulta",
+        "frecency": "Frecency ranking na umaangkop sa iyong mga ugali"
       },
       "actions": {
-        "shortcuts": "App shortcuts and deep links",
-        "system": "System actions and settings search",
-        "workflow": "Launch from Assistant, widget, or Quick Settings"
+        "shortcuts": "App shortcut at malalim na link",
+        "system": "Mga system action at setting search",
+        "workflow": "Ilunsad mula sa Assistant, widget, o Quick Settings"
       },
       "files": {
-        "documents": "Documents, images, videos, music",
-        "media": "Folders and MediaStore-powered results",
-        "filters": "Type filters and exclusions"
+        "documents": "Mga dokumento, larawan, video, musika",
+        "media": "Mga folder at MediaStore-powered na resulta",
+        "filters": "Mga tipo ng filter at eksklusyon"
       },
       "contacts": {
-        "smart": "Smart matching and ranking",
-        "actions": "Call, message, or open linked apps",
-        "permissions": "Optional permissions with clear control"
+        "smart": "Matalinong pagsasama at parangal",
+        "actions": "Tumawag, magpadala ng mensahe, o buksan ang mga linked app",
+        "permissions": "Opsyonal na mga pahintulot na may malinaw na kontrol"
       },
       "calculator": {
-        "inline": "Inline math as you type",
-        "precision": "BigDecimal precision with brackets",
-        "copy": "Copy results in one tap"
+        "inline": "Inline math habang nag-type ka",
+        "precision": "BigDecimal precision na may bracket",
+        "copy": "Kopyahin ang resulta sa isang pindot"
       },
       "customization": {
-        "themes": "Light, dark, and curated themes",
-        "layout": "Icon size, grid spacing, labels",
-        "sections": "Show, hide, and reorder sections"
+        "themes": "Light, dark, at curated na mga tema",
+        "layout": "Sukat ng icon, spacing ng grid, label",
+        "sections": "Ipakita, itago, at muling ayusin ang mga seksyon"
       },
       "ai": {
-        "prompts": "Create quick AI prompts",
-        "safe": "Clear opt-in usage",
-        "optional": "Disable AI anytime"
+        "prompts": "Lumikha ng mabilis na AI na mga prompt",
+        "safe": "Malinaw na opt-in na paggamit",
+        "optional": "Paganahin ang AI anumang oras"
       },
       "providers": {
-        "preset": "Preset providers like Google, YouTube or ChatGPT",
-        "toggle": "Enable or disable providers",
-        "always": "Ability to define custom ones"
+        "preset": "Preset provider tulad ng Google, YouTube o ChatGPT",
+        "toggle": "Paganahin o paganahin ang mga provider",
+        "always": "Kakayahang magbigay ng mga custom na isa"
       }
     }
   },
   "how": {
-    "title": "How it works",
-    "subtitle": "A simple flow designed for speed.",
+    "title": "Paano ito gumagana",
+    "subtitle": "Isang simpleng daloy na dinisenyo para sa bilis.",
     "steps": {
       "index": {
         "title": "Index",
-        "description": "UniSearch indexes apps, contacts, files, and settings locally."
+        "description": "Ang UniSearch ay nag-index ng mga app, kontakto, file, at setting nang lokal."
       },
       "search": {
-        "title": "Search",
-        "description": "Type once and get ranked results instantly."
+        "title": "Paghahanap",
+        "description": "I-type minsan at makakuha ng ranked na resulta kaagad."
       },
       "action": {
-        "title": "Action",
-        "description": "Open, call, calculate, or run a shortcut in one tap."
+        "title": "Aksyon",
+        "description": "Buksan, tumawag, magkalkula, o magpatakbo ng shortcut sa isang pindot."
       }
     }
   },
   "freePro": {
-    "title": "Free vs Pro",
-    "subtitle": "Start free, upgrade once for full control.",
+    "title": "Libre vs Pro",
+    "subtitle": "Magsimula nang libre, mag-upgrade minsan para sa buong kontrol.",
     "free": {
-      "title": "Free",
-      "description": "Everything you need to search fast.",
+      "title": "Libre",
+      "description": "Lahat ng kailangan mo upang maghanap ng mabilis.",
       "items": {
-        "universal": "Universal search: apps, contacts, files, settings",
-        "algorithms": "All search algorithms: prefix, fuzzy, phonetic, acronym, token",
-        "frecency": "Frecency ranking across all sources",
+        "universal": "Universal na paghahanap: mga app, kontakto, file, setting",
+        "algorithms": "Lahat ng search algorithm: prefix, fuzzy, phonetic, acronym, token",
+        "frecency": "Frecency ranking sa lahat ng pinagkukunan",
         "calculator": "Built-in calculator",
         "appShortcutSyntax": "\"App: Shortcut\" query syntax",
         "highlight": "Match highlighting",
-        "entryPoints": "Launch from Assistant, widget, or Quick Settings",
+        "entryPoints": "Ilunsad mula sa Assistant, widget, o Quick Settings",
         "quickSettings": "Quick Settings tile",
         "assistantRole": "Assistant role support",
         "notificationListener": "NotificationListenerService support",
-        "searchBarPosition": "Search bar position (top/bottom)",
+        "searchBarPosition": "Posisyon ng search bar (itaas/ibaba)",
         "layout": "App layout (grid/list)",
-        "gridColumns": "Grid columns (4–6)",
-        "iconSize": "Icon size (S/M/L)",
+        "gridColumns": "Mga column ng grid (4–6)",
+        "iconSize": "Sukat ng icon (S/M/L)",
         "gridSpacing": "Grid spacing (S/M/L)",
-        "iconLabels": "Icon labels on/off",
-        "sectionHeaderIcons": "Section header icons",
+        "iconLabels": "Mga label ng icon bukas/sarado",
+        "sectionHeaderIcons": "Mga icon ng section header",
         "autofocus": "Auto-focus search bar",
-        "clearOnSelect": "Clear search on selection",
-        "hideRecentsEmpty": "Hide section when recents are empty",
-        "sectionVisibilityDefault": "Default visibility for 7 sections",
-        "resultLimits": "Result limits (3 sliders)",
-        "showHideTypes": "Show/hide result types and sections",
-        "hideApps": "Hide apps",
-        "hideContacts": "Hide contacts",
-        "hideActions": "Hide actions/shortcuts",
-        "excludeFiles": "Exclude files/folders",
-        "fileTypes": "File types (7 types)",
-        "freeThemes": "2 free themes: UniSearch + High Contrast",
-        "modes": "Light and dark mode",
-        "basicAnimations": "Basic animations (fade/slide)",
-        "providersPreset": "Preset search providers (Google, DuckDuckGo, etc.)",
-        "providersToggle": "Enable/disable providers",
-        "providersAlwaysShow": "\"Always show\" provider switch",
-        "customSection": "1 free custom section (no sorting)",
-        "analytics": "Basic analytics (opt-in)",
+        "clearOnSelect": "Linawin ang paghahanap sa pagpili",
+        "hideRecentsEmpty": "Itago ang seksyon kapag walang lolo",
+        "sectionVisibilityDefault": "Default visibility para sa 7 seksyon",
+        "resultLimits": "Mga limit ng resulta (3 slider)",
+        "showHideTypes": "Ipakita/itago ang mga tipo ng resulta at seksyon",
+        "hideApps": "Itago ang mga app",
+        "hideContacts": "Itago ang mga kontakto",
+        "hideActions": "Itago ang mga aksyon/shortcut",
+        "excludeFiles": "Ibukod ang mga file/folder",
+        "fileTypes": "Mga uri ng file (7 uri)",
+        "freeThemes": "2 libreng tema: UniSearch + High Contrast",
+        "modes": "Light at dark mode",
+        "basicAnimations": "Pangunahing animation (fade/slide)",
+        "providersPreset": "Preset na mga search provider (Google, DuckDuckGo, atl.)",
+        "providersToggle": "Paganahin/paganahin ang mga provider",
+        "providersAlwaysShow": "\"Laging ipakita\" na switch ng provider",
+        "customSection": "1 libreng custom na seksyon (walang sorting)",
+        "analytics": "Pangunahing analytics (opt-in)",
         "privacy": "Privacy mode",
-        "languages": "All 25 languages",
-        "sponsored": "Sponsored sections (Native Ads)"
+        "languages": "Lahat ng 25 na wika",
+        "sponsored": "Sponsored na mga seksyon (Native Ads)"
       }
     },
     "pro": {
       "title": "Pro",
-      "description": "One-time purchase. Unlock full design power.",
-      "badge": "Most popular",
-      "priceNote": "About $5–6",
+      "description": "Isang pagbili lamang. Buksan ang buong disenyo na kapangyarihan.",
+      "badge": "Pinakasikat",
+      "priceNote": "Tungkol sa $5–6",
       "items": {
-        "premiumThemes": "3 premium themes: Glass, Material You, Minimal Dark",
-        "themeCreator": "Custom theme creator",
-        "presets": "Unlimited theme presets",
-        "perSectionStyle": "Per-section style overrides",
-        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
-        "searchbarColors": "Search bar colors (7 × Light/Dark)",
-        "sectionColors": "Section colors (7 × Light/Dark)",
-        "itemIconColors": "Item icon colors (2 × Light/Dark)",
-        "bottomSheetColors": "Bottom sheet colors (5 × Light/Dark)",
-        "widgetColors": "Widget colors (5 × Light/Dark)",
-        "wallpaperBlur": "Custom wallpaper color + blur",
-        "advancedAnimations": "Search bar load animations (11 types)",
-        "sectionAnimations": "Section load animations (11 types)",
-        "sectionResize": "Section resize: animated / instant / none",
-        "loadOrder": "Load order: top to bottom / bottom to top / simultaneous",
-        "animationSpeed": "Animation speed (5 levels)",
-        "geometrySearchbar": "Search bar geometry: radius, padding, border, opacity",
+        "premiumThemes": "3 premium theme: Glass, Material You, Minimal Dark",
+        "themeCreator": "Custom na tagagawa ng tema",
+        "presets": "Walang hanggang theme preset",
+        "perSectionStyle": "Bawat seksyon na style override",
+        "advancedColors": "52 lugar na may kakayahang baguhin ang kulay (Search bar, Mga seksyon, Widget, Bottom panel)",
+        "searchbarColors": "Mga kulay ng search bar (7 × Light/Dark)",
+        "sectionColors": "Mga kulay ng seksyon (7 × Light/Dark)",
+        "itemIconColors": "Mga kulay ng item icon (2 × Light/Dark)",
+        "bottomSheetColors": "Mga kulay ng bottom sheet (5 × Light/Dark)",
+        "widgetColors": "Mga kulay ng widget (5 × Light/Dark)",
+        "wallpaperBlur": "Custom na kulay ng wallpaper + blur",
+        "advancedAnimations": "Mga animation ng pagload ng search bar (11 uri)",
+        "sectionAnimations": "Mga animation ng pagload ng seksyon (11 uri)",
+        "sectionResize": "Pagbabago ng laki ng seksyon: animated / instant / wala",
+        "loadOrder": "Pagkakasunod-sunod ng pagload: itaas hanggang ilalim / ilalim hanggang itaas / sabay-sabay",
+        "animationSpeed": "Bilis ng animation (5 antas)",
+        "geometrySearchbar": "Geometry ng search bar: radius, padding, border, opacity",
         "searchbarLeadingIcon": "Search bar leading icon picker",
-        "hidePlaceholder": "Hide placeholder",
-        "geometrySections": "Section geometry: radius, padding, border, opacity",
-        "geometryWidget": "Widget geometry: radius, padding, height, border, opacity",
+        "hidePlaceholder": "Itago ang placeholder",
+        "geometrySections": "Geometry ng seksyon: radius, padding, border, opacity",
+        "geometryWidget": "Geometry ng widget: radius, padding, height, border, opacity",
         "widgetLeadingIcon": "Widget leading icon picker",
-        "unlimitedSections": "Unlimited custom sections (Free: 1)",
+        "unlimitedSections": "Walang hanggang custom na mga seksyon (Libre: 1)",
         "dragDropSections": "Drag & drop section reorder",
-        "customItems": "Custom items: App, Action, Contact, File, Setting",
-        "reorderItems": "Reorder items",
-        "sectionIconColors": "Section icon colors (Light/Dark)",
-        "pinnedItems": "Pinned items",
-        "iconPacks": "External icon packs",
-        "customProviders": "Custom search providers (URL template with {{Q}})",
+        "customItems": "Custom na mga item: App, Action, Contact, File, Setting",
+        "reorderItems": "Muling ayusin ang mga item",
+        "sectionIconColors": "Mga kulay ng section icon (Light/Dark)",
+        "pinnedItems": "Mga pinned item",
+        "iconPacks": "External icon pack",
+        "customProviders": "Custom na mga search provider (URL template na may {{Q}})",
         "providersReorder": "Drag & drop provider order",
-        "aiPrompts": "Custom AI prompts (label + template + target app)",
-        "aiManage": "Edit/remove AI prompts",
+        "aiPrompts": "Custom na AI prompt (label + template + target app)",
+        "aiManage": "I-edit/tanggalin ang AI prompt",
         "aiReorder": "Drag & drop prompt order",
-        "backupExport": "Export settings (JSON)",
-        "backupImport": "Import settings (restore configuration)",
-        "removeAds": "Remove sponsored sections",
-        "support": "Support future development"
+        "backupExport": "I-export ang setting (JSON)",
+        "backupImport": "I-import ang setting (ibalik ang configuration)",
+        "removeAds": "Alisin ang sponsored na mga seksyon",
+        "support": "Suportahan ang hinaharap na development"
       }
     },
     "summary": {
-      "title": "Quick summary",
+      "title": "Mabilis na buod",
       "rows": {
         "customization": "Customization",
-        "sections": "Custom sections",
+        "sections": "Custom na mga seksyon",
         "backup": "Backup",
-        "ads": "Ads"
+        "ads": "Mga ads"
       },
       "values": {
-        "basic": "Basic",
-        "unlimited": "Unlimited",
-        "limited": "1 only",
-        "none": "Not included",
-        "included": "Included",
-        "sponsored": "Sponsored sections"
+        "basic": "Pangunahin",
+        "unlimited": "Walang hanggan",
+        "limited": "1 lamang",
+        "none": "Hindi kasama",
+        "included": "Kasama",
+        "sponsored": "Sponsored na mga seksyon"
       },
       "headers": {
-        "free": "Free",
+        "free": "Libre",
         "pro": "Pro"
       }
     }
   },
   "cta": {
-    "title": "Ready to speed up your phone?",
-    "subtitle": "Install UniSearch and get the fastest way to find anything.",
-    "button": "Get it on Google Play"
+    "title": "Handa na bang pabilisin ang iyong telepono?",
+    "subtitle": "I-install ang UniSearch at makakuha ng pinakamabilis na paraan upang maghanap ng kahit ano.",
+    "button": "Kunin ito sa Google Play"
   },
   "faq": {
-    "title": "FAQ",
-    "subtitle": "Quick answers to common questions.",
+    "title": "Mga Tanong",
+    "subtitle": "Mabilis na mga sagot sa mga karaniwang tanong.",
     "items": [
       {
-        "q": "Does UniSearch send my data to the cloud?",
-        "a": "No. Search data and indexing stay on your device."
+        "q": "Ipinapadala ba ng UniSearch ang aking datos sa cloud?",
+        "a": "Hindi. Ang data ng paghahanap at indexing ay nananatili sa iyong device."
       },
       {
-        "q": "What exactly is indexed?",
-        "a": "Apps, shortcuts, system settings, contacts, and files you allow."
+        "q": "Ano ang eksakto na naka-index?",
+        "a": "Mga app, shortcut, system setting, kontakto, at mga file na iyong pinayagan."
       },
       {
-        "q": "Is Pro a subscription?",
-        "a": "No. Pro is a one-time purchase around $5–6."
+        "q": "Ang Pro ay isang subscription?",
+        "a": "Hindi. Ang Pro ay isang pagbili lamang na tungkol sa $5–6."
       },
       {
-        "q": "Can I restore my settings?",
-        "a": "Pro includes backup and restore via JSON export/import."
+        "q": "Maaari ba akong ibalik ang aking mga setting?",
+        "a": "Ang Pro ay may kasamang backup at restore sa pamamagitan ng JSON export/import."
       },
       {
-        "q": "Is AI required?",
-        "a": "No. AI prompts are optional and can be disabled."
+        "q": "Kinakailangan ba ang AI?",
+        "a": "Hindi. Ang AI prompt ay opsyonal at maaaring paganahin."
       },
       {
-        "q": "How can I contact support?",
-        "a": "Email us and we will respond quickly."
+        "q": "Paano ako makipag-ugnayan sa suporta?",
+        "a": "I-email kami at kami ay tumutugon nang mabilis."
       }
     ]
   },
   "footer": {
     "privacy": "Privacy",
-    "terms": "Terms",
-    "contact": "Contact",
+    "terms": "Mga Tuntunin",
+    "contact": "Makipag-ugnayan",
     "googlePlay": "Google Play",
-    "copyright": "© {year} UniSearch. All rights reserved.",
-    "createdBy": "Created by Webybox"
+    "copyright": "© {year} UniSearch. Lahat ng karapatan ay nakalaan.",
+    "createdBy": "Ginawa ng Webybox"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "Effective date: 2026-02-10",
-    "intro": "This app is designed to work locally on your device. We do not run our own backend servers for your data.",
+    "title": "Patakaran sa Privacy",
+    "subtitle": "Epektibong petsa: 2026-02-10",
+    "intro": "Ang app na ito ay dinisenyo upang gumana nang lokal sa iyong device. Hindi kami tumatakbo sa aming sariling backend server para sa iyong mga datos.",
     "sections": {
       "introduction": {
-        "title": "Overview",
+        "title": "Pangkalahatang-Kaalaman",
         "body": [
-          "This app is designed to work locally on your device.",
-          "We do not run our own backend servers for your data."
+          "Ang app na ito ay dinisenyo upang gumana nang lokal sa iyong device.",
+          "Hindi kami tumatakbo sa aming sariling backend server para sa iyong mga datos."
         ]
       },
       "data": {
-        "title": "Data We Collect",
+        "title": "Data na Aming Kinukuha",
         "body": [
-          "We do not collect or upload your contacts, files, or search data to our servers.",
-          "The app uses the following third-party services which may collect data according to their policies:",
-          "Google AdMob (ads)",
+          "Hindi kami nagsasalin-alok o nag-upload ng iyong mga kontakto, file, o data sa paghahanap sa aming mga server.",
+          "Ang app ay gumagamit ng mga sumusunod na third-party na serbisyo na maaaring kumuha ng data ayon sa kanilang mga patakaran:",
+          "Google AdMob (mga ads)",
           "Google Firebase Analytics (usage analytics)",
           "Google Firebase Crashlytics (crash reports)",
           "Google User Messaging Platform (consent management)",
-          "These services may collect device identifiers and usage information. You can review their policies in Google’s documentation."
+          "Ang mga serbisyong ito ay maaaring kumuha ng mga identifier ng device at impormasyon sa paggamit. Maaari mong suriin ang kanilang mga patakaran sa dokumentasyon ng Google."
         ]
       },
       "permissions": {
-        "title": "Permissions We Use",
+        "title": "Mga Pahintulot na Aming Ginagamit",
         "body": [
-          "READ_CONTACTS: to search and display contacts on-device.",
-          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: to search files across device storage, including non-media files and full folder paths. This is required for fast, system-wide file search and exclusions. SAF/MediaStore alone do not provide complete coverage for all file types and paths.",
-          "QUERY_ALL_PACKAGES: to index all installed apps, show them in search results, and enable launch of any app or shortcut. Without this, the app cannot provide full app search.",
-          "INTERNET: required by Google services and ads.",
-          "We use these permissions only for the features described above and only on-device."
+          "READ_CONTACTS: upang maghanap at ipakita ang mga kontakto sa-device.",
+          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: upang maghanap ng mga file sa buong device storage, kabilang ang mga non-media file at buong path ng folder. Ito ay kinakailangan para sa mabilis, system-wide na paghahanap ng file at mga eksklusyon. Ang SAF/MediaStore mag-isa ay hindi nagbibigay ng kumpletong saklaw para sa lahat ng uri ng file at mga path.",
+          "QUERY_ALL_PACKAGES: upang i-index ang lahat ng naka-install na mga app, ipakita ang mga ito sa mga resulta ng paghahanap, at paganahin ang paglulunsad ng anumang app o shortcut. Nang walang ito, ang app ay hindi maaaring magbigay ng buong paghahanap ng app.",
+          "INTERNET: kinakailangan ng mga serbisyo ng Google at ads.",
+          "Ginagamit namin ang mga pahintulot na ito lamang para sa mga feature na inilarawan sa itaas at sa-device lamang."
         ]
       },
       "analytics": {
         "title": "Analytics",
         "body": [
-          "Usage analytics may be provided by Google Firebase Analytics.",
-          "Crash reports may be provided by Google Firebase Crashlytics."
+          "Ang usage analytics ay maaaring ibigay ng Google Firebase Analytics.",
+          "Ang mga crash report ay maaaring ibigay ng Google Firebase Crashlytics."
         ]
       },
       "ads": {
-        "title": "Ads",
+        "title": "Mga Ads",
         "body": [
-          "Ads may be served via Google AdMob.",
-          "Consent management may be handled by Google User Messaging Platform."
+          "Ang mga ads ay maaaring itayo sa pamamagitan ng Google AdMob.",
+          "Ang consent management ay maaaring hawakan ng Google User Messaging Platform."
         ]
       },
       "sharing": {
-        "title": "Data Sharing",
+        "title": "Pagbabahagi ng Data",
         "body": [
-          "We do not sell your personal data.",
-          "Data may be processed by the third-party services listed above as part of ads, analytics, and crash reporting."
+          "Hindi kami nagbebenta ng iyong personal na datos.",
+          "Ang data ay maaaring maproseso ng mga third-party na serbisyo na nakalista sa itaas bilang bahagi ng mga ads, analytics, at crash reporting."
         ]
       },
       "security": {
-        "title": "Security",
+        "title": "Seguridad",
         "body": [
-          "We take reasonable measures to protect data on-device.",
-          "No method of transmission or storage is 100% secure."
+          "Gumagawa kami ng mga makatwirang hakbang upang protektahan ang data sa-device.",
+          "Walang paraan ng pagpapadala o pag-ipon na 100% ligtas."
         ]
       },
       "rights": {
-        "title": "Data Retention & Children’s Privacy",
+        "title": "Pagsisiguro ng Data at Privacy ng mga Bata",
         "body": [
-          "We do not store your personal data on our servers.",
-          "Retention by third-party services is governed by their policies.",
-          "This app is not directed to children under 13.",
-          "We may update this policy. Changes will be posted in this file with a new effective date."
+          "Hindi kami nagsisiguro ng iyong personal na datos sa aming mga server.",
+          "Ang pagsisiguro ng mga third-party na serbisyo ay pinamamahalaan ng kanilang mga patakaran.",
+          "Ang app na ito ay hindi nakatuon sa mga bata sa ilalim ng 13.",
+          "Maaari naming i-update ang patakaran na ito. Ang mga pagbabago ay ipo-post sa file na ito na may bagong epektibong petsa."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "Makipag-ugnayan",
         "body": [
-          "If you have questions, contact: contact@webybox.com"
+          "Kung mayroon kang mga tanong, makipag-ugnayan: contact@webybox.com"
         ]
       }
     }
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Last updated: February 11, 2026",
-    "intro": "These terms outline the basic rules for using UniSearch.",
+    "title": "Mga Tuntunin ng Serbisyo",
+    "subtitle": "Huling ina-update: Pebrero 11, 2026",
+    "intro": "Ang mga tuntunin na ito ay naglalaman ng mga pangunahing patakaran para sa paggamit ng UniSearch.",
     "sections": {
       "usage": {
-        "title": "Use of the app",
+        "title": "Paggamit ng app",
         "body": [
-          "Use UniSearch in accordance with local laws and platform policies.",
-          "Do not misuse the app for unlawful activities."
+          "Gamitin ang UniSearch alinsunod sa lokal na batas at patakaran ng platform.",
+          "Huwag salitain ang app para sa iligal na mga gawain."
         ]
       },
       "purchases": {
-        "title": "Purchases",
+        "title": "Mga Pagbili",
         "body": [
-          "Pro is a one-time purchase handled by Google Play.",
-          "Refunds follow Google Play policies."
+          "Ang Pro ay isang pagbili lamang na hinahawakan ng Google Play.",
+          "Ang mga refund ay sumusunod sa mga patakaran ng Google Play."
         ]
       },
       "liability": {
-        "title": "Limitation of liability",
+        "title": "Limitasyon ng Pananagutan",
         "body": [
-          "The app is provided as-is without warranties.",
-          "We are not liable for indirect damages."
+          "Ang app ay ibinigay tulad-tulad nito nang walang mga garantiya.",
+          "Hindi kami responsable para sa mga hindi direktang pagkasira."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "Makipag-ugnayan",
         "body": [
-          "Questions? Reach out via email."
+          "Mga tanong? Makipag-ugnayan sa pamamagitan ng email."
         ]
       }
     }
   },
   "searchProviders": {
-    "title": "Search with providers",
-    "subtitle": "Choose where to search and control when results appear.",
+    "title": "Maghanap kasama ang mga provider",
+    "subtitle": "Piliin kung saan maghanap at kontrolin kung kailan lumilitaw ang mga resulta.",
     "items": [
       {
-        "title": "Preset providers",
-        "description": "Google, DuckDuckGo, and other popular sources."
+        "title": "Preset na mga provider",
+        "description": "Google, DuckDuckGo, at ibang mga sikat na pinagkukunan."
       },
       {
-        "title": "Enable / disable",
-        "description": "Full control over which providers are active."
+        "title": "Paganahin / Paganahin",
+        "description": "Buong kontrol kung aling mga provider ang aktibo."
       },
       {
-        "title": "Always show",
-        "description": "Keep a chosen provider visible at all times."
+        "title": "Laging Ipakita",
+        "description": "Panatilihing nakikita ang piniling provider sa lahat ng oras."
       },
       {
-        "title": "Quick switching",
-        "description": "Swap providers without leaving the search bar."
+        "title": "Mabilis na Pagpapalit",
+        "description": "Palitan ang mga provider nang hindi umaalis sa search bar."
       }
     ]
   }

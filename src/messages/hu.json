@@ -1,443 +1,443 @@
 {
   "meta": {
-    "title": "UniSearch — Universal search for Android",
-    "description": "Find apps, contacts, files, actions, and more from one fast search bar. Built for speed, privacy, and offline-first use.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDescription": "Learn how UniSearch processes data locally and keeps your searches private.",
-    "termsTitle": "Terms of Service",
-    "termsDescription": "Basic terms for using the UniSearch app and website."
+    "title": "UniSearch — Android univerzális keresés",
+    "description": "Keress alkalmazásokat, kontaktokat, fájlokat, műveleteket és még sok mást egy gyors keresősávban. Sebességre, adatvédelemre és offline-first használatra tervezve.",
+    "privacyTitle": "Adatvédelmi szabályzat",
+    "privacyDescription": "Tudj meg többet arról, hogyan feldolgozza a UniSearch az adataidat helyileg és hogyan tartja privát a kereséseidet.",
+    "termsTitle": "Szolgáltatási feltételek",
+    "termsDescription": "A UniSearch alkalmazás és weboldal használatának alapvető feltételei."
   },
   "common": {
-    "back": "Back"
+    "back": "Vissza"
   },
   "nav": {
-    "features": "Features",
-    "freePro": "Free vs Pro",
-    "privacy": "Privacy",
-    "faq": "FAQ",
-    "getApp": "Get it on Google Play",
-    "how": "How it works",
-    "language": "Language",
-    "changelog": "Changelog"
+    "features": "Funkciók",
+    "freePro": "Ingyenes vs Pro",
+    "privacy": "Adatvédelem",
+    "faq": "GYIK",
+    "getApp": "Letöltés a Google Play-ből",
+    "how": "Hogyan működik",
+    "language": "Nyelv",
+    "changelog": "Változások naplója"
   },
   "hero": {
-    "badge": "Universal search for Android",
-    "title": "Find everything on your phone in seconds.",
-    "subtitle": "Apps, contacts, files, actions, calculator, and AI — all from one lightning-fast search bar.",
-    "primaryCta": "Get it on Google Play",
-    "secondaryCta": "Explore features",
-    "note": "No account required. Works offline by default."
+    "badge": "Android univerzális keresés",
+    "title": "Találj meg mindent a telefonodban másodpercek alatt.",
+    "subtitle": "Alkalmazások, kontaktok, fájlok, műveletek, számológép és mesterséges intelligencia — mind egy villámgyors keresősávból.",
+    "primaryCta": "Letöltés a Google Play-ből",
+    "secondaryCta": "Fedezd fel a funkciókat",
+    "note": "Nincs szükség fiókra. Offline alapértelmezettként működik."
   },
   "trust": {
-    "title": "Built for speed and control",
+    "title": "Sebességre és vezérlésre tervezve",
     "items": [
       {
-        "title": "Fast",
-        "description": "Instant results with real-time filtering and smart ranking."
+        "title": "Gyors",
+        "description": "Azonnali eredmények valós idejű szűréssel és intelligens rangsorolással."
       },
       {
-        "title": "Privacy",
-        "description": "Your data stays on-device. Optional analytics only."
+        "title": "Adatvédelem",
+        "description": "Az adataid az eszközödön maradnak. Csak választható elemzés."
       },
       {
         "title": "Offline-first",
-        "description": "Search works even without an internet connection."
+        "description": "A keresés akkor is működik, ha nincs internetkapcsolat."
       },
       {
-        "title": "Personalization",
-        "description": "Tune themes, sections, spacing, and behavior."
+        "title": "Személyre szabás",
+        "description": "Testreszabj témákat, szekciók, távolságot és viselkedést."
       }
     ]
   },
   "features": {
-    "title": "Everything you want to find — instantly",
-    "subtitle": "UniSearch brings every source into one smooth, unified result list.",
+    "title": "Mindent, amit szeretnél megtalálni — azonnal",
+    "subtitle": "A UniSearch minden forrást egy sima, egységes eredménylista közé hoz.",
     "groups": {
       "search": {
-        "title": "Unified search",
-        "description": "Find anything with smart ranking and noise filtering."
+        "title": "Egységes keresés",
+        "description": "Találj meg bármit intelligens rangsorolással és zajszűréssel."
       },
       "actions": {
-        "title": "Actions & shortcuts",
-        "description": "Launch actions, deep links, and curated shortcuts."
+        "title": "Műveletek és billentyűzetek",
+        "description": "Indítsd el a műveleteket, mélyhivatkozásokat és kiválasztott parancsokat."
       },
       "files": {
-        "title": "Files & media",
-        "description": "Search documents, photos, videos, music, and folders."
+        "title": "Fájlok és média",
+        "description": "Keress dokumentumokat, fotókat, videókat, zenéket és mappákat."
       },
       "contacts": {
-        "title": "Contacts",
-        "description": "Call, message, or open linked apps instantly."
+        "title": "Kontaktok",
+        "description": "Hívj, küldjön üzenetet, vagy nyisd meg a csatolt alkalmazásokat azonnal."
       },
       "calculator": {
-        "title": "Calculator",
-        "description": "Inline calculator with precision math."
+        "title": "Számológép",
+        "description": "Beépített számológép precíz matematikával."
       },
       "customization": {
-        "title": "Customization",
-        "description": "Control layout, themes, and visibility."
+        "title": "Testreszabás",
+        "description": "Szabályozd az elrendezést, témákat és láthatóságot."
       },
       "ai": {
-        "title": "AI prompts",
-        "description": "Optional AI helpers with clear data boundaries."
+        "title": "Mesterséges intelligencia promptok",
+        "description": "Választható mesterséges intelligencia segédek egyértelmű adathatárokkal."
       },
       "providers": {
-        "title": "Search providers",
-        "description": "Choose where UniSearch sends external queries."
+        "title": "Keresési szolgáltatók",
+        "description": "Válaszd meg, hova küld a UniSearch külső lekérdezéseket."
       }
     },
     "items": {
       "search": {
-        "universal": "Apps, contacts, files, settings, and shortcuts in one query",
-        "instant": "Real-time filtering with instant results",
-        "frecency": "Frecency ranking that adapts to your habits"
+        "universal": "Alkalmazások, kontaktok, fájlok, beállítások és parancsok egy lekérdezésben",
+        "instant": "Valós idejű szűrés azonnali eredményekkel",
+        "frecency": "Frecency rangsorolás, amely alkalmazkodik a szokásaidhoz"
       },
       "actions": {
-        "shortcuts": "App shortcuts and deep links",
-        "system": "System actions and settings search",
-        "workflow": "Launch from Assistant, widget, or Quick Settings"
+        "shortcuts": "Alkalmazás parancsok és mélyhivatkozások",
+        "system": "Rendszer műveletek és beállítások keresése",
+        "workflow": "Indítsd el az Asszisztenst, widgetet vagy a Gyors beállításokat"
       },
       "files": {
-        "documents": "Documents, images, videos, music",
-        "media": "Folders and MediaStore-powered results",
-        "filters": "Type filters and exclusions"
+        "documents": "Dokumentumok, képek, videók, zene",
+        "media": "Mappák és MediaStore által működtetett eredmények",
+        "filters": "Típus szűrők és kizárások"
       },
       "contacts": {
-        "smart": "Smart matching and ranking",
-        "actions": "Call, message, or open linked apps",
-        "permissions": "Optional permissions with clear control"
+        "smart": "Intelligens egyeztetés és rangsorolás",
+        "actions": "Hívás, üzenet küldés vagy csatolt alkalmazások megnyitása",
+        "permissions": "Választható engedélyek egyértelmű vezérléssel"
       },
       "calculator": {
-        "inline": "Inline math as you type",
-        "precision": "BigDecimal precision with brackets",
-        "copy": "Copy results in one tap"
+        "inline": "Beépített matematika a gépelés közben",
+        "precision": "BigDecimal precizitás zárójelekkel",
+        "copy": "Másolj eredményeket egyetlen koppintással"
       },
       "customization": {
-        "themes": "Light, dark, and curated themes",
-        "layout": "Icon size, grid spacing, labels",
-        "sections": "Show, hide, and reorder sections"
+        "themes": "Világos, sötét és kiválasztott témák",
+        "layout": "Ikon mérete, rács távolsága, feliratok",
+        "sections": "Szekciók megjelenítése, elrejtése és átrendezése"
       },
       "ai": {
-        "prompts": "Create quick AI prompts",
-        "safe": "Clear opt-in usage",
-        "optional": "Disable AI anytime"
+        "prompts": "Hozz létre gyors mesterséges intelligencia promptokat",
+        "safe": "Egyértelmű önkéntes használat",
+        "optional": "Tiltsd le a mesterséges intelligenciát bármikor"
       },
       "providers": {
-        "preset": "Preset providers like Google, YouTube or ChatGPT",
-        "toggle": "Enable or disable providers",
-        "always": "Ability to define custom ones"
+        "preset": "Előre beállított szolgáltatók, mint a Google, YouTube vagy ChatGPT",
+        "toggle": "Engedélyezz vagy tiltson le szolgáltatókat",
+        "always": "Lehetőség egyéni összeállításokra"
       }
     }
   },
   "how": {
-    "title": "How it works",
-    "subtitle": "A simple flow designed for speed.",
+    "title": "Hogyan működik",
+    "subtitle": "Egy egyszerű folyamat sebességre tervezve.",
     "steps": {
       "index": {
-        "title": "Index",
-        "description": "UniSearch indexes apps, contacts, files, and settings locally."
+        "title": "Indexelés",
+        "description": "A UniSearch helyileg indexeli az alkalmazásokat, kontaktokat, fájlokat és beállításokat."
       },
       "search": {
-        "title": "Search",
-        "description": "Type once and get ranked results instantly."
+        "title": "Keresés",
+        "description": "Írj egyszer és azonnal kapd meg a rangsorolt eredményeket."
       },
       "action": {
-        "title": "Action",
-        "description": "Open, call, calculate, or run a shortcut in one tap."
+        "title": "Cselekmény",
+        "description": "Nyiss meg, hívj, számolj, vagy futtass egy parancsot egyetlen koppintással."
       }
     }
   },
   "freePro": {
-    "title": "Free vs Pro",
-    "subtitle": "Start free, upgrade once for full control.",
+    "title": "Ingyenes vs Pro",
+    "subtitle": "Kezdj ingyenesen, frissítsen egyszer a teljes vezérlésért.",
     "free": {
-      "title": "Free",
-      "description": "Everything you need to search fast.",
+      "title": "Ingyenes",
+      "description": "Mindent, amire szükséged van a gyors kereséshez.",
       "items": {
-        "universal": "Universal search: apps, contacts, files, settings",
-        "algorithms": "All search algorithms: prefix, fuzzy, phonetic, acronym, token",
-        "frecency": "Frecency ranking across all sources",
-        "calculator": "Built-in calculator",
-        "appShortcutSyntax": "\"App: Shortcut\" query syntax",
-        "highlight": "Match highlighting",
-        "entryPoints": "Launch from Assistant, widget, or Quick Settings",
-        "quickSettings": "Quick Settings tile",
-        "assistantRole": "Assistant role support",
-        "notificationListener": "NotificationListenerService support",
-        "searchBarPosition": "Search bar position (top/bottom)",
-        "layout": "App layout (grid/list)",
-        "gridColumns": "Grid columns (4–6)",
-        "iconSize": "Icon size (S/M/L)",
-        "gridSpacing": "Grid spacing (S/M/L)",
-        "iconLabels": "Icon labels on/off",
-        "sectionHeaderIcons": "Section header icons",
-        "autofocus": "Auto-focus search bar",
-        "clearOnSelect": "Clear search on selection",
-        "hideRecentsEmpty": "Hide section when recents are empty",
-        "sectionVisibilityDefault": "Default visibility for 7 sections",
-        "resultLimits": "Result limits (3 sliders)",
-        "showHideTypes": "Show/hide result types and sections",
-        "hideApps": "Hide apps",
-        "hideContacts": "Hide contacts",
-        "hideActions": "Hide actions/shortcuts",
-        "excludeFiles": "Exclude files/folders",
-        "fileTypes": "File types (7 types)",
-        "freeThemes": "2 free themes: UniSearch + High Contrast",
-        "modes": "Light and dark mode",
-        "basicAnimations": "Basic animations (fade/slide)",
-        "providersPreset": "Preset search providers (Google, DuckDuckGo, etc.)",
-        "providersToggle": "Enable/disable providers",
-        "providersAlwaysShow": "\"Always show\" provider switch",
-        "customSection": "1 free custom section (no sorting)",
-        "analytics": "Basic analytics (opt-in)",
-        "privacy": "Privacy mode",
-        "languages": "All 25 languages",
-        "sponsored": "Sponsored sections (Native Ads)"
+        "universal": "Univerzális keresés: alkalmazások, kontaktok, fájlok, beállítások",
+        "algorithms": "Összes keresési algoritmus: előtag, fuzzy, fonetikus, akroním, token",
+        "frecency": "Frecency rangsorolás az összes forrás között",
+        "calculator": "Beépített számológép",
+        "appShortcutSyntax": "\"App: Shortcut\" lekérdezés szintaxisa",
+        "highlight": "Egyezés kiemelése",
+        "entryPoints": "Indítsd el az Asszisztenst, widgetet vagy a Gyors beállításokat",
+        "quickSettings": "Gyors beállítások csempe",
+        "assistantRole": "Asszisztens szereptámogatás",
+        "notificationListener": "NotificationListenerService támogatás",
+        "searchBarPosition": "Keresősáv helyzete (felül/lent)",
+        "layout": "Alkalmazás elrendezés (rács/lista)",
+        "gridColumns": "Rács oszlopok (4–6)",
+        "iconSize": "Ikon mérete (S/M/L)",
+        "gridSpacing": "Rács távolság (S/M/L)",
+        "iconLabels": "Ikon feliratok be/ki",
+        "sectionHeaderIcons": "Szakasz fejléc ikonok",
+        "autofocus": "Automatikus fókusz keresősávra",
+        "clearOnSelect": "Keresés törlése a kiválasztásnál",
+        "hideRecentsEmpty": "Szekció elrejtése, ha a felsoroltuk üres",
+        "sectionVisibilityDefault": "Alapértelmezett láthatóság 7 szekció számára",
+        "resultLimits": "Eredmény korlátok (3 csúszkák)",
+        "showHideTypes": "Eredménytípusok és szekciók megjelenítése/elrejtése",
+        "hideApps": "Alkalmazások elrejtése",
+        "hideContacts": "Kontaktok elrejtése",
+        "hideActions": "Műveletek/parancsok elrejtése",
+        "excludeFiles": "Fájlok/mappák kizárása",
+        "fileTypes": "Fájltípusok (7 típus)",
+        "freeThemes": "2 ingyenes téma: UniSearch + Magas kontraszt",
+        "modes": "Világos és sötét mód",
+        "basicAnimations": "Alapvető animációk (elmosódás/csúsztatás)",
+        "providersPreset": "Előre beállított keresési szolgáltatók (Google, DuckDuckGo stb.)",
+        "providersToggle": "Szolgáltatók engedélyezése/letiltása",
+        "providersAlwaysShow": "\"Mindig mutasd\" szolgáltató kapcsoló",
+        "customSection": "1 ingyenes egyéni szekció (nincs rendezés)",
+        "analytics": "Alapvető analitika (önkéntes)",
+        "privacy": "Adatvédelem mód",
+        "languages": "Mind a 25 nyelv",
+        "sponsored": "Szponzorált szekciók (Natív hirdetések)"
       }
     },
     "pro": {
       "title": "Pro",
-      "description": "One-time purchase. Unlock full design power.",
-      "badge": "Most popular",
-      "priceNote": "About $5–6",
+      "description": "Egyszeri vásárlás. Tárj fel teljes tervezési erőt.",
+      "badge": "Legnépszerűbb",
+      "priceNote": "Körülbelül 5–6 dollár",
       "items": {
-        "premiumThemes": "3 premium themes: Glass, Material You, Minimal Dark",
-        "themeCreator": "Custom theme creator",
-        "presets": "Unlimited theme presets",
-        "perSectionStyle": "Per-section style overrides",
-        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
-        "searchbarColors": "Search bar colors (7 × Light/Dark)",
-        "sectionColors": "Section colors (7 × Light/Dark)",
-        "itemIconColors": "Item icon colors (2 × Light/Dark)",
-        "bottomSheetColors": "Bottom sheet colors (5 × Light/Dark)",
-        "widgetColors": "Widget colors (5 × Light/Dark)",
-        "wallpaperBlur": "Custom wallpaper color + blur",
-        "advancedAnimations": "Search bar load animations (11 types)",
-        "sectionAnimations": "Section load animations (11 types)",
-        "sectionResize": "Section resize: animated / instant / none",
-        "loadOrder": "Load order: top to bottom / bottom to top / simultaneous",
-        "animationSpeed": "Animation speed (5 levels)",
-        "geometrySearchbar": "Search bar geometry: radius, padding, border, opacity",
-        "searchbarLeadingIcon": "Search bar leading icon picker",
-        "hidePlaceholder": "Hide placeholder",
-        "geometrySections": "Section geometry: radius, padding, border, opacity",
-        "geometryWidget": "Widget geometry: radius, padding, height, border, opacity",
-        "widgetLeadingIcon": "Widget leading icon picker",
-        "unlimitedSections": "Unlimited custom sections (Free: 1)",
-        "dragDropSections": "Drag & drop section reorder",
-        "customItems": "Custom items: App, Action, Contact, File, Setting",
-        "reorderItems": "Reorder items",
-        "sectionIconColors": "Section icon colors (Light/Dark)",
-        "pinnedItems": "Pinned items",
-        "iconPacks": "External icon packs",
-        "customProviders": "Custom search providers (URL template with {{Q}})",
-        "providersReorder": "Drag & drop provider order",
-        "aiPrompts": "Custom AI prompts (label + template + target app)",
-        "aiManage": "Edit/remove AI prompts",
-        "aiReorder": "Drag & drop prompt order",
-        "backupExport": "Export settings (JSON)",
-        "backupImport": "Import settings (restore configuration)",
-        "removeAds": "Remove sponsored sections",
-        "support": "Support future development"
+        "premiumThemes": "3 prémium téma: Glass, Material You, Minimal Dark",
+        "themeCreator": "Egyéni téma készítő",
+        "presets": "Korlátlan téma előbeállítások",
+        "perSectionStyle": "Szekció szerinti stílusfelülbírálások",
+        "advancedColors": "52 hely a szín módosításához (Keresősáv, Szekciók, Widget, Alsó panel)",
+        "searchbarColors": "Keresősáv színek (7 × Világos/Sötét)",
+        "sectionColors": "Szekció színek (7 × Világos/Sötét)",
+        "itemIconColors": "Tétel ikon színek (2 × Világos/Sötét)",
+        "bottomSheetColors": "Alsó lap színek (5 × Világos/Sötét)",
+        "widgetColors": "Widget színek (5 × Világos/Sötét)",
+        "wallpaperBlur": "Egyéni háttérkép szín és elmosódás",
+        "advancedAnimations": "Keresősáv betöltési animációk (11 típus)",
+        "sectionAnimations": "Szekció betöltési animációk (11 típus)",
+        "sectionResize": "Szekció átméretezés: animált / azonnali / nincs",
+        "loadOrder": "Betöltési sorrend: felülről lefelé / lentről felfelé / egyidejű",
+        "animationSpeed": "Animáció sebessége (5 szint)",
+        "geometrySearchbar": "Keresősáv geometria: sugár, kitöltés, szegély, átlátszatlanság",
+        "searchbarLeadingIcon": "Keresősáv vezető ikon választó",
+        "hidePlaceholder": "Helyőrző elrejtése",
+        "geometrySections": "Szekció geometria: sugár, kitöltés, szegély, átlátszatlanság",
+        "geometryWidget": "Widget geometria: sugár, kitöltés, magasság, szegély, átlátszatlanság",
+        "widgetLeadingIcon": "Widget vezető ikon választó",
+        "unlimitedSections": "Korlátlan egyéni szekciók (Ingyenes: 1)",
+        "dragDropSections": "Szekció átrendezés húzás és ejtés segítségével",
+        "customItems": "Egyéni tételek: Alkalmazás, Cselekmény, Kontakt, Fájl, Beállítás",
+        "reorderItems": "Elemek átrendezése",
+        "sectionIconColors": "Szekció ikon színek (Világos/Sötét)",
+        "pinnedItems": "Kitűzött elemek",
+        "iconPacks": "Külső ikoncsomag",
+        "customProviders": "Egyéni keresési szolgáltatók (URL sablon {{Q}} jel segítségével)",
+        "providersReorder": "Szolgáltató sorrend húzás és ejtés segítségével",
+        "aiPrompts": "Egyéni mesterséges intelligencia promptok (címke + sablon + célalkalmazás)",
+        "aiManage": "Szerkeszd/távolítsd el a mesterséges intelligencia promptokat",
+        "aiReorder": "Prompt sorrend húzás és ejtés segítségével",
+        "backupExport": "Beállítások exportálása (JSON)",
+        "backupImport": "Beállítások importálása (konfiguráció visszaállítása)",
+        "removeAds": "Szponzorált szekciók eltávolítása",
+        "support": "Támogasd a jövőbeni fejlesztést"
       }
     },
     "summary": {
-      "title": "Quick summary",
+      "title": "Gyors összefoglalás",
       "rows": {
-        "customization": "Customization",
-        "sections": "Custom sections",
-        "backup": "Backup",
-        "ads": "Ads"
+        "customization": "Testreszabás",
+        "sections": "Egyéni szekciók",
+        "backup": "Biztonsági mentés",
+        "ads": "Hirdetések"
       },
       "values": {
-        "basic": "Basic",
-        "unlimited": "Unlimited",
-        "limited": "1 only",
-        "none": "Not included",
-        "included": "Included",
-        "sponsored": "Sponsored sections"
+        "basic": "Alapvető",
+        "unlimited": "Korlátlan",
+        "limited": "Csak 1",
+        "none": "Nem tartalmazza",
+        "included": "Tartalmazza",
+        "sponsored": "Szponzorált szekciók"
       },
       "headers": {
-        "free": "Free",
+        "free": "Ingyenes",
         "pro": "Pro"
       }
     }
   },
   "cta": {
-    "title": "Ready to speed up your phone?",
-    "subtitle": "Install UniSearch and get the fastest way to find anything.",
-    "button": "Get it on Google Play"
+    "title": "Készen állsz a telefon felgyorsítására?",
+    "subtitle": "Telepítsd a UniSearch alkalmazást és kapd meg a leggyorsabb módot bármi megtalálásához.",
+    "button": "Letöltés a Google Play-ből"
   },
   "faq": {
-    "title": "FAQ",
-    "subtitle": "Quick answers to common questions.",
+    "title": "GYIK",
+    "subtitle": "Gyors válaszok a gyakori kérdésekre.",
     "items": [
       {
-        "q": "Does UniSearch send my data to the cloud?",
-        "a": "No. Search data and indexing stay on your device."
+        "q": "A UniSearch elküldi az adataimat a felhőbe?",
+        "a": "Nem. A keresési adatok és indexelés az eszközödön maradnak."
       },
       {
-        "q": "What exactly is indexed?",
-        "a": "Apps, shortcuts, system settings, contacts, and files you allow."
+        "q": "Mit pontosan indexelnek?",
+        "a": "Alkalmazások, parancsok, rendszer beállítások, kontaktok és fájlok, amelyeket engedélyeztél."
       },
       {
-        "q": "Is Pro a subscription?",
-        "a": "No. Pro is a one-time purchase around $5–6."
+        "q": "A Pro előfizetés?",
+        "a": "Nem. A Pro egy körülbelül 5–6 dolláros egyszeri vásárlás."
       },
       {
-        "q": "Can I restore my settings?",
-        "a": "Pro includes backup and restore via JSON export/import."
+        "q": "Vissza tudom állítani a beállításaimat?",
+        "a": "A Pro tartalmazza a biztonsági mentést és a visszaállítást JSON exportálás/importálás révén."
       },
       {
-        "q": "Is AI required?",
-        "a": "No. AI prompts are optional and can be disabled."
+        "q": "A mesterséges intelligencia szükséges?",
+        "a": "Nem. A mesterséges intelligencia promptok választhatók és bármikor letilthatók."
       },
       {
-        "q": "How can I contact support?",
-        "a": "Email us and we will respond quickly."
+        "q": "Hogyan tudom felvenni a kapcsolatot az ügyfélszolgálattal?",
+        "a": "E-mailben írj nekünk, és gyorsan válaszolunk."
       }
     ]
   },
   "footer": {
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "contact": "Contact",
+    "privacy": "Adatvédelem",
+    "terms": "Feltételek",
+    "contact": "Kontakt",
     "googlePlay": "Google Play",
-    "copyright": "© {year} UniSearch. All rights reserved.",
-    "createdBy": "Created by Webybox"
+    "copyright": "© {year} UniSearch. Minden jog fenntartva.",
+    "createdBy": "Készítette a Webybox"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "Effective date: 2026-02-10",
-    "intro": "This app is designed to work locally on your device. We do not run our own backend servers for your data.",
+    "title": "Adatvédelmi szabályzat",
+    "subtitle": "Hatályos dátum: 2026-02-10",
+    "intro": "Ez az alkalmazás arra van tervezve, hogy helyileg működjön az eszközödön. Nem futtatunk saját backend szervereket az adataidhoz.",
     "sections": {
       "introduction": {
-        "title": "Overview",
+        "title": "Áttekintés",
         "body": [
-          "This app is designed to work locally on your device.",
-          "We do not run our own backend servers for your data."
+          "Ez az alkalmazás arra van tervezve, hogy helyileg működjön az eszközödön.",
+          "Nem futtatunk saját backend szervereket az adataidhoz."
         ]
       },
       "data": {
-        "title": "Data We Collect",
+        "title": "Milyen adatokat gyűjtünk",
         "body": [
-          "We do not collect or upload your contacts, files, or search data to our servers.",
-          "The app uses the following third-party services which may collect data according to their policies:",
-          "Google AdMob (ads)",
-          "Google Firebase Analytics (usage analytics)",
-          "Google Firebase Crashlytics (crash reports)",
-          "Google User Messaging Platform (consent management)",
-          "These services may collect device identifiers and usage information. You can review their policies in Google’s documentation."
+          "Nem gyűjtünk és nem töltünk fel a szervereinkre az kapcsolataid, fájljaid vagy keresési adataid.",
+          "Az alkalmazás az alábbi harmadik féltől származó szolgáltatásokat használja, amelyek az adatvédelmi szabályzataik szerint adatokat gyűjthetnek:",
+          "Google AdMob (hirdetések)",
+          "Google Firebase Analytics (használati analitika)",
+          "Google Firebase Crashlytics (crash jelentések)",
+          "Google User Messaging Platform (beleegyezéskezelés)",
+          "Ezek a szolgáltatások lehet, hogy eszközazonosítókat és használati információkat gyűjtenek. Tekintsd meg az adatvédelmi szabályzataikat a Google dokumentációjában."
         ]
       },
       "permissions": {
-        "title": "Permissions We Use",
+        "title": "Az engedélyek, amelyeket használunk",
         "body": [
-          "READ_CONTACTS: to search and display contacts on-device.",
-          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: to search files across device storage, including non-media files and full folder paths. This is required for fast, system-wide file search and exclusions. SAF/MediaStore alone do not provide complete coverage for all file types and paths.",
-          "QUERY_ALL_PACKAGES: to index all installed apps, show them in search results, and enable launch of any app or shortcut. Without this, the app cannot provide full app search.",
-          "INTERNET: required by Google services and ads.",
-          "We use these permissions only for the features described above and only on-device."
+          "READ_CONTACTS: a kontaktok keresésére és megjelenítésére az eszközödön.",
+          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: fájlok keresésére az eszköz tárhelyén, beleértve a nem médiafájlokat és a teljes mappa útvonalakat. Ez a gyors, rendszerszintű fájlkereséshez és kizárásokhoz szükséges. A SAF/MediaStore egyedül nem biztosít teljes fedezetet az összes fájltípushoz és útvonalhoz.",
+          "QUERY_ALL_PACKAGES: az összes telepített alkalmazás indexálásához, azok megjelenítéséhez a keresési eredményekben, és bármely alkalmazás vagy parancs elindításához. Ezen nélkül az alkalmazás nem tudja biztosítani a teljes alkalmazáskeresést.",
+          "INTERNET: a Google szolgáltatások és hirdetések által megkövetelt.",
+          "Ezeket az engedélyeket csak a fent leírt funkciók céljára használjuk, és csak az eszközödön."
         ]
       },
       "analytics": {
-        "title": "Analytics",
+        "title": "Analitika",
         "body": [
-          "Usage analytics may be provided by Google Firebase Analytics.",
-          "Crash reports may be provided by Google Firebase Crashlytics."
+          "A használati analitika lehet, hogy a Google Firebase Analytics által biztosított.",
+          "A crash jelentések lehet, hogy a Google Firebase Crashlytics által biztosított."
         ]
       },
       "ads": {
-        "title": "Ads",
+        "title": "Hirdetések",
         "body": [
-          "Ads may be served via Google AdMob.",
-          "Consent management may be handled by Google User Messaging Platform."
+          "A hirdetések lehet, hogy a Google AdMob segítségével kerülnek kiszolgálásra.",
+          "A beleegyezéskezelés lehet, hogy a Google User Messaging Platform által kezelve."
         ]
       },
       "sharing": {
-        "title": "Data Sharing",
+        "title": "Adatmegosztás",
         "body": [
-          "We do not sell your personal data.",
-          "Data may be processed by the third-party services listed above as part of ads, analytics, and crash reporting."
+          "Nem értékesítjük a személyes adataid.",
+          "Az adatok lehet, hogy a fent felsorolt harmadik féltől származó szolgáltatások által feldolgozva a hirdetések, analitika és crash jelentések részeként."
         ]
       },
       "security": {
-        "title": "Security",
+        "title": "Biztonság",
         "body": [
-          "We take reasonable measures to protect data on-device.",
-          "No method of transmission or storage is 100% secure."
+          "Ésszerű intézkedéseket tesz az adatok az eszközön történő védelmére.",
+          "Nincs olyan átviteli vagy tárolási módszer, amely 100% biztonságos."
         ]
       },
       "rights": {
-        "title": "Data Retention & Children’s Privacy",
+        "title": "Adatok megőrzése és gyermekek adatvédelme",
         "body": [
-          "We do not store your personal data on our servers.",
-          "Retention by third-party services is governed by their policies.",
-          "This app is not directed to children under 13.",
-          "We may update this policy. Changes will be posted in this file with a new effective date."
+          "Nem tároljuk a személyes adataid a szervereink.",
+          "A harmadik féltől származó szolgáltatások által végzett megőrzés azok adatvédelmi szabályzatai által szabályozott.",
+          "Ez az alkalmazás nem irányul a 13 év alatti gyermekeknek.",
+          "Frissíthetjük ezt az adatvédelmi szabályzatot. A változások ebben a fájlban lesznek közzétéve egy új hatályos dátummal."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "Kontakt",
         "body": [
-          "If you have questions, contact: contact@webybox.com"
+          "Ha kérdéseid vannak, vedd fel a kapcsolatot: contact@webybox.com"
         ]
       }
     }
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Last updated: February 11, 2026",
-    "intro": "These terms outline the basic rules for using UniSearch.",
+    "title": "Szolgáltatási feltételek",
+    "subtitle": "Utolsó frissítés: 2026. február 11.",
+    "intro": "Ezek a feltételek a UniSearch használatának alapvető szabályait ismertetik.",
     "sections": {
       "usage": {
-        "title": "Use of the app",
+        "title": "Az alkalmazás használata",
         "body": [
-          "Use UniSearch in accordance with local laws and platform policies.",
-          "Do not misuse the app for unlawful activities."
+          "Használd a UniSearch alkalmazást az érvényes törvényeknek és platform irányelveknek megfelelően.",
+          "Ne használd az alkalmazást jogszabálysértő tevékenységekhez."
         ]
       },
       "purchases": {
-        "title": "Purchases",
+        "title": "Vásárlások",
         "body": [
-          "Pro is a one-time purchase handled by Google Play.",
-          "Refunds follow Google Play policies."
+          "A Pro egy egyszeri vásárlás, amelyet a Google Play kezel.",
+          "A visszatérítések a Google Play adatvédelmi szabályzatát követik."
         ]
       },
       "liability": {
-        "title": "Limitation of liability",
+        "title": "Felelősség korlátozása",
         "body": [
-          "The app is provided as-is without warranties.",
-          "We are not liable for indirect damages."
+          "Az alkalmazás a jelenlegi állapotában biztosított, garancia nélkül.",
+          "Nem felelősek közvetett károkért."
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "Kontakt",
         "body": [
-          "Questions? Reach out via email."
+          "Kérdéseid vannak? Vedd fel a kapcsolatot e-mailben."
         ]
       }
     }
   },
   "searchProviders": {
-    "title": "Search with providers",
-    "subtitle": "Choose where to search and control when results appear.",
+    "title": "Keresés szolgáltatóival",
+    "subtitle": "Válaszd meg, hol keressél, és irányítsd az eredmények megjelenésének módját.",
     "items": [
       {
-        "title": "Preset providers",
-        "description": "Google, DuckDuckGo, and other popular sources."
+        "title": "Előre beállított szolgáltatók",
+        "description": "Google, DuckDuckGo és más népszerű források."
       },
       {
-        "title": "Enable / disable",
-        "description": "Full control over which providers are active."
+        "title": "Engedélyezés/letiltás",
+        "description": "Teljes kontrol, mely szolgáltatók aktívak."
       },
       {
-        "title": "Always show",
-        "description": "Keep a chosen provider visible at all times."
+        "title": "Mindig mutasd",
+        "description": "Tartsd a kiválasztott szolgáltatót mindig láthatóként."
       },
       {
-        "title": "Quick switching",
-        "description": "Swap providers without leaving the search bar."
+        "title": "Gyors váltás",
+        "description": "Vált a szolgáltatók között a keresősáv elhagyása nélkül."
       }
     ]
   }

@@ -1,443 +1,443 @@
 {
   "meta": {
-    "title": "UniSearch — Universal search for Android",
-    "description": "Find apps, contacts, files, actions, and more from one fast search bar. Built for speed, privacy, and offline-first use.",
-    "privacyTitle": "Privacy Policy",
-    "privacyDescription": "Learn how UniSearch processes data locally and keeps your searches private.",
-    "termsTitle": "Terms of Service",
-    "termsDescription": "Basic terms for using the UniSearch app and website."
+    "title": "UniSearch — การค้นหาสากลสำหรับ Android",
+    "description": "ค้นหาแอป ที่อยู่ติดต่อ ไฟล์ การดำเนินการ และอื่นๆ จากแถบค้นหาเดียวที่รวดเร็ว สร้างมาเพื่อความเร็ว ความเป็นส่วนตัว และการใช้งานแบบออฟไลน์",
+    "privacyTitle": "นโยบายความเป็นส่วนตัว",
+    "privacyDescription": "เรียนรู้วิธีที่ UniSearch ประมวลผลข้อมูลในเครื่องและรักษาความเป็นส่วนตัวของการค้นหาของคุณ",
+    "termsTitle": "เงื่อนไขการใช้งาน",
+    "termsDescription": "เงื่อนไขพื้นฐานสำหรับการใช้แอป UniSearch และเว็บไซต์"
   },
   "common": {
-    "back": "Back"
+    "back": "กลับ"
   },
   "nav": {
-    "features": "Features",
-    "freePro": "Free vs Pro",
-    "privacy": "Privacy",
-    "faq": "FAQ",
-    "getApp": "Get it on Google Play",
-    "how": "How it works",
-    "language": "Language",
-    "changelog": "Changelog"
+    "features": "คุณสมบัติ",
+    "freePro": "ฟรี vs Pro",
+    "privacy": "ความเป็นส่วนตัว",
+    "faq": "คำถามที่พบบ่อย",
+    "getApp": "ดาวน์โหลดจาก Google Play",
+    "how": "วิธีการทำงาน",
+    "language": "ภาษา",
+    "changelog": "บันทึกการเปลี่ยนแปลง"
   },
   "hero": {
-    "badge": "Universal search for Android",
-    "title": "Find everything on your phone in seconds.",
-    "subtitle": "Apps, contacts, files, actions, calculator, and AI — all from one lightning-fast search bar.",
-    "primaryCta": "Get it on Google Play",
-    "secondaryCta": "Explore features",
-    "note": "No account required. Works offline by default."
+    "badge": "การค้นหาสากลสำหรับ Android",
+    "title": "ค้นหาทุกอย่างบนโทรศัพท์ของคุณในไม่กี่วินาที",
+    "subtitle": "แอป ที่อยู่ติดต่อ ไฟล์ การดำเนินการ เครื่องคิดเลข และ AI ทั้งหมดจากแถบค้นหาเดียวที่เร็วฟ้าผ่า",
+    "primaryCta": "ดาวน์โหลดจาก Google Play",
+    "secondaryCta": "สำรวจคุณสมบัติ",
+    "note": "ไม่จำเป็นต้องมีบัญชี ทำงานแบบออฟไลน์ตามค่าเริ่มต้น"
   },
   "trust": {
-    "title": "Built for speed and control",
+    "title": "สร้างมาเพื่อความเร็วและการควบคุม",
     "items": [
       {
-        "title": "Fast",
-        "description": "Instant results with real-time filtering and smart ranking."
+        "title": "เร็ว",
+        "description": "ผลลัพธ์ทันทีพร้อมการกรองแบบเรียลไทม์และการจัดอันดับอัจฉริยะ"
       },
       {
-        "title": "Privacy",
-        "description": "Your data stays on-device. Optional analytics only."
+        "title": "ความเป็นส่วนตัว",
+        "description": "ข้อมูลของคุณยังคงอยู่ในอุปกรณ์ การวิเคราะห์ตัวเลือกเท่านั้น"
       },
       {
-        "title": "Offline-first",
-        "description": "Search works even without an internet connection."
+        "title": "ออฟไลน์ก่อน",
+        "description": "การค้นหาใช้ได้แม้ไม่มีการเชื่อมต่ออินเทอร์เน็ต"
       },
       {
-        "title": "Personalization",
-        "description": "Tune themes, sections, spacing, and behavior."
+        "title": "ตัวบุคคลเอง",
+        "description": "ปรับแต่งธีม ส่วน ระยะห่าง และพฤติกรรม"
       }
     ]
   },
   "features": {
-    "title": "Everything you want to find — instantly",
-    "subtitle": "UniSearch brings every source into one smooth, unified result list.",
+    "title": "ทุกอย่างที่คุณต้องการค้นหา ทันที",
+    "subtitle": "UniSearch นำแหล่งข้อมูลทั้งหมดเข้ามาในรายการผลลัพธ์เดียวที่ราบรื่นและรวมกัน",
     "groups": {
       "search": {
-        "title": "Unified search",
-        "description": "Find anything with smart ranking and noise filtering."
+        "title": "การค้นหาแบบรวมศูนย์",
+        "description": "ค้นหาสิ่งใดก็ได้โดยใช้การจัดอันดับอัจฉริยะและการกรองสัญญาณรบกวน"
       },
       "actions": {
-        "title": "Actions & shortcuts",
-        "description": "Launch actions, deep links, and curated shortcuts."
+        "title": "การดำเนินการ & ทางลัด",
+        "description": "เปิดใช้การดำเนินการ ลิงก์เชิงลึก และทางลัดที่คัดเลือก"
       },
       "files": {
-        "title": "Files & media",
-        "description": "Search documents, photos, videos, music, and folders."
+        "title": "ไฟล์ & สื่อ",
+        "description": "ค้นหาเอกสาร ภาพ วิดีโอ เพลง และโฟลเดอร์"
       },
       "contacts": {
-        "title": "Contacts",
-        "description": "Call, message, or open linked apps instantly."
+        "title": "ที่อยู่ติดต่อ",
+        "description": "โทร ส่งข้อความ หรือเปิดแอปที่เชื่อมโยงได้ทันที"
       },
       "calculator": {
-        "title": "Calculator",
-        "description": "Inline calculator with precision math."
+        "title": "เครื่องคิดเลข",
+        "description": "เครื่องคิดเลขแบบอินไลน์พร้อมคณิตศาสตร์ที่แม่นยำ"
       },
       "customization": {
-        "title": "Customization",
-        "description": "Control layout, themes, and visibility."
+        "title": "การปรับแต่ง",
+        "description": "ควบคุมเค้าโครง ธีม และความมองเห็น"
       },
       "ai": {
-        "title": "AI prompts",
-        "description": "Optional AI helpers with clear data boundaries."
+        "title": "พรอมต์ AI",
+        "description": "ผู้ช่วย AI เสริมมีขอบเขตข้อมูลที่ชัดเจน"
       },
       "providers": {
-        "title": "Search providers",
-        "description": "Choose where UniSearch sends external queries."
+        "title": "ผู้ให้บริการค้นหา",
+        "description": "เลือกว่า UniSearch จะส่งคำค้นหาภายนอกไปที่ใด"
       }
     },
     "items": {
       "search": {
-        "universal": "Apps, contacts, files, settings, and shortcuts in one query",
-        "instant": "Real-time filtering with instant results",
-        "frecency": "Frecency ranking that adapts to your habits"
+        "universal": "แอป ที่อยู่ติดต่อ ไฟล์ ตั้งค่า และทางลัดในการค้นหาเดียว",
+        "instant": "การกรองแบบเรียลไทม์พร้อมผลลัพธ์ทันที",
+        "frecency": "การจัดอันดับความถี่ที่ปรับตัวให้เหมาะสมกับนิสัยของคุณ"
       },
       "actions": {
-        "shortcuts": "App shortcuts and deep links",
-        "system": "System actions and settings search",
-        "workflow": "Launch from Assistant, widget, or Quick Settings"
+        "shortcuts": "ทางลัดแอปและลิงก์เชิงลึก",
+        "system": "การดำเนินการของระบบและการค้นหาตั้งค่า",
+        "workflow": "เปิดจาก Assistant วิดเจ็ต หรือ Quick Settings"
       },
       "files": {
-        "documents": "Documents, images, videos, music",
-        "media": "Folders and MediaStore-powered results",
-        "filters": "Type filters and exclusions"
+        "documents": "เอกสาร รูปภาพ วิดีโอ เพลง",
+        "media": "โฟลเดอร์และผลลัพธ์ที่ใช้ MediaStore",
+        "filters": "ตัวกรองประเภทและการยกเว้น"
       },
       "contacts": {
-        "smart": "Smart matching and ranking",
-        "actions": "Call, message, or open linked apps",
-        "permissions": "Optional permissions with clear control"
+        "smart": "การจับคู่และการจัดอันดับอัจฉริยะ",
+        "actions": "โทร ส่งข้อความ หรือเปิดแอปที่เชื่อมโยง",
+        "permissions": "สิทธิ์การใช้งานเสริมพร้อมการควบคุมที่ชัดเจน"
       },
       "calculator": {
-        "inline": "Inline math as you type",
-        "precision": "BigDecimal precision with brackets",
-        "copy": "Copy results in one tap"
+        "inline": "คณิตศาสตร์แบบอินไลน์ขณะที่คุณพิมพ์",
+        "precision": "ความแม่นยำ BigDecimal พร้อมวงเล็บ",
+        "copy": "คัดลอกผลลัพธ์ในหนึ่งแตะ"
       },
       "customization": {
-        "themes": "Light, dark, and curated themes",
-        "layout": "Icon size, grid spacing, labels",
-        "sections": "Show, hide, and reorder sections"
+        "themes": "ธีมสว่าง มืด และธีมที่คัดเลือก",
+        "layout": "ขนาดไอคอน ระยะห่างกริด ป้ายกำกับ",
+        "sections": "แสดง ซ่อน และจัดเรียงส่วนต่างๆ ใหม่"
       },
       "ai": {
-        "prompts": "Create quick AI prompts",
-        "safe": "Clear opt-in usage",
-        "optional": "Disable AI anytime"
+        "prompts": "สร้างพรอมต์ AI ที่รวดเร็ว",
+        "safe": "การใช้งานที่ชัดเจนและเลือกใช้",
+        "optional": "ปิดใช้งาน AI ได้ตลอดเวลา"
       },
       "providers": {
-        "preset": "Preset providers like Google, YouTube or ChatGPT",
-        "toggle": "Enable or disable providers",
-        "always": "Ability to define custom ones"
+        "preset": "ผู้ให้บริการที่ตั้งไว้ล่วงหน้าเช่น Google YouTube หรือ ChatGPT",
+        "toggle": "เปิดหรือปิดใช้งานผู้ให้บริการ",
+        "always": "ความสามารถในการกำหนดตัวเลือกที่กำหนดเอง"
       }
     }
   },
   "how": {
-    "title": "How it works",
-    "subtitle": "A simple flow designed for speed.",
+    "title": "วิธีการทำงาน",
+    "subtitle": "กระบวนการง่ายๆ ที่ออกแบบมาเพื่อความเร็ว",
     "steps": {
       "index": {
-        "title": "Index",
-        "description": "UniSearch indexes apps, contacts, files, and settings locally."
+        "title": "ดัชนี",
+        "description": "UniSearch จัดทำดัชนีแอป ที่อยู่ติดต่อ ไฟล์ และตั้งค่าในเครื่อง"
       },
       "search": {
-        "title": "Search",
-        "description": "Type once and get ranked results instantly."
+        "title": "ค้นหา",
+        "description": "พิมพ์เพียงครั้งเดียวและรับผลลัพธ์ที่จัดอันดับทันที"
       },
       "action": {
-        "title": "Action",
-        "description": "Open, call, calculate, or run a shortcut in one tap."
+        "title": "การดำเนินการ",
+        "description": "เปิด โทร คำนวณ หรือเรียกใช้ทางลัดในหนึ่งแตะ"
       }
     }
   },
   "freePro": {
-    "title": "Free vs Pro",
-    "subtitle": "Start free, upgrade once for full control.",
+    "title": "ฟรี vs Pro",
+    "subtitle": "เริ่มต้นฟรี อัพเกรดครั้งเดียวเพื่อควบคุมเต็มรูปแบบ",
     "free": {
-      "title": "Free",
-      "description": "Everything you need to search fast.",
+      "title": "ฟรี",
+      "description": "ทุกสิ่งที่คุณต้องการค้นหาอย่างรวดเร็ว",
       "items": {
-        "universal": "Universal search: apps, contacts, files, settings",
-        "algorithms": "All search algorithms: prefix, fuzzy, phonetic, acronym, token",
-        "frecency": "Frecency ranking across all sources",
-        "calculator": "Built-in calculator",
-        "appShortcutSyntax": "\"App: Shortcut\" query syntax",
-        "highlight": "Match highlighting",
-        "entryPoints": "Launch from Assistant, widget, or Quick Settings",
-        "quickSettings": "Quick Settings tile",
-        "assistantRole": "Assistant role support",
-        "notificationListener": "NotificationListenerService support",
-        "searchBarPosition": "Search bar position (top/bottom)",
-        "layout": "App layout (grid/list)",
-        "gridColumns": "Grid columns (4–6)",
-        "iconSize": "Icon size (S/M/L)",
-        "gridSpacing": "Grid spacing (S/M/L)",
-        "iconLabels": "Icon labels on/off",
-        "sectionHeaderIcons": "Section header icons",
-        "autofocus": "Auto-focus search bar",
-        "clearOnSelect": "Clear search on selection",
-        "hideRecentsEmpty": "Hide section when recents are empty",
-        "sectionVisibilityDefault": "Default visibility for 7 sections",
-        "resultLimits": "Result limits (3 sliders)",
-        "showHideTypes": "Show/hide result types and sections",
-        "hideApps": "Hide apps",
-        "hideContacts": "Hide contacts",
-        "hideActions": "Hide actions/shortcuts",
-        "excludeFiles": "Exclude files/folders",
-        "fileTypes": "File types (7 types)",
-        "freeThemes": "2 free themes: UniSearch + High Contrast",
-        "modes": "Light and dark mode",
-        "basicAnimations": "Basic animations (fade/slide)",
-        "providersPreset": "Preset search providers (Google, DuckDuckGo, etc.)",
-        "providersToggle": "Enable/disable providers",
-        "providersAlwaysShow": "\"Always show\" provider switch",
-        "customSection": "1 free custom section (no sorting)",
-        "analytics": "Basic analytics (opt-in)",
-        "privacy": "Privacy mode",
-        "languages": "All 25 languages",
-        "sponsored": "Sponsored sections (Native Ads)"
+        "universal": "การค้นหาสากล แอป ที่อยู่ติดต่อ ไฟล์ ตั้งค่า",
+        "algorithms": "อัลกอริธึมการค้นหาทั้งหมด คำนำหน้า คลุมเครือ สัทศาสตร์ ตัวย่อ โทเค็น",
+        "frecency": "การจัดอันดับความถี่ในทุกแหล่งข้อมูล",
+        "calculator": "เครื่องคิดเลขในตัว",
+        "appShortcutSyntax": "ไวยากรณ์คำค้นหา \"แอป: ทางลัด\"",
+        "highlight": "การไฮไลต์การจับคู่",
+        "entryPoints": "เปิดจาก Assistant วิดเจ็ต หรือ Quick Settings",
+        "quickSettings": "ไทล์ Quick Settings",
+        "assistantRole": "สนับสนุนบทบาท Assistant",
+        "notificationListener": "สนับสนุน NotificationListenerService",
+        "searchBarPosition": "ตำแหน่งแถบค้นหา (บน/ล่าง)",
+        "layout": "เค้าโครงแอป (กริด/รายการ)",
+        "gridColumns": "คอลัมน์กริด (4–6)",
+        "iconSize": "ขนาดไอคอน (S/M/L)",
+        "gridSpacing": "ระยะห่างกริด (S/M/L)",
+        "iconLabels": "ป้ายกำกับไอคอนเปิด/ปิด",
+        "sectionHeaderIcons": "ไอคอนส่วนหัวส่วน",
+        "autofocus": "โฟกัสอัตโนมัติแถบค้นหา",
+        "clearOnSelect": "ล้างการค้นหาเมื่อเลือก",
+        "hideRecentsEmpty": "ซ่อนส่วนเมื่อล่าสุดว่าง",
+        "sectionVisibilityDefault": "การมองเห็นเริ่มต้นสำหรับ 7 ส่วน",
+        "resultLimits": "ขีดจำกัดผลลัพธ์ (3 ตัวเลื่อน)",
+        "showHideTypes": "แสดง/ซ่อนประเภทผลลัพธ์และส่วน",
+        "hideApps": "ซ่อนแอป",
+        "hideContacts": "ซ่อนที่อยู่ติดต่อ",
+        "hideActions": "ซ่อนการดำเนินการ/ทางลัด",
+        "excludeFiles": "ยกเว้นไฟล์/โฟลเดอร์",
+        "fileTypes": "ประเภทไฟล์ (7 ประเภท)",
+        "freeThemes": "2 ธีมฟรี UniSearch + High Contrast",
+        "modes": "โหมดสว่างและมืด",
+        "basicAnimations": "ภาพเคลื่อนไหวพื้นฐาน (จางหาย/เลื่อน)",
+        "providersPreset": "ผู้ให้บริการค้นหาที่ตั้งไว้ล่วงหน้า (Google DuckDuckGo เป็นต้น)",
+        "providersToggle": "เปิด/ปิดใช้งานผู้ให้บริการ",
+        "providersAlwaysShow": "สวิตช์ผู้ให้บริการ \"แสดงเสมอ\"",
+        "customSection": "1 ส่วนที่กำหนดเองฟรี (ไม่มีการเรียงลำดับ)",
+        "analytics": "การวิเคราะห์พื้นฐาน (เลือกใช้)",
+        "privacy": "โหมดความเป็นส่วนตัว",
+        "languages": "ภาษาทั้ง 25 ภาษา",
+        "sponsored": "ส่วนที่ได้รับการสนับสนุน (Native Ads)"
       }
     },
     "pro": {
       "title": "Pro",
-      "description": "One-time purchase. Unlock full design power.",
-      "badge": "Most popular",
-      "priceNote": "About $5–6",
+      "description": "การซื้อครั้งเดียว ปลดล็อกพลังการออกแบบเต็มรูปแบบ",
+      "badge": "ยอดนิยมที่สุด",
+      "priceNote": "ประมาณ $5–6",
       "items": {
-        "premiumThemes": "3 premium themes: Glass, Material You, Minimal Dark",
-        "themeCreator": "Custom theme creator",
-        "presets": "Unlimited theme presets",
-        "perSectionStyle": "Per-section style overrides",
-        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
-        "searchbarColors": "Search bar colors (7 × Light/Dark)",
-        "sectionColors": "Section colors (7 × Light/Dark)",
-        "itemIconColors": "Item icon colors (2 × Light/Dark)",
-        "bottomSheetColors": "Bottom sheet colors (5 × Light/Dark)",
-        "widgetColors": "Widget colors (5 × Light/Dark)",
-        "wallpaperBlur": "Custom wallpaper color + blur",
-        "advancedAnimations": "Search bar load animations (11 types)",
-        "sectionAnimations": "Section load animations (11 types)",
-        "sectionResize": "Section resize: animated / instant / none",
-        "loadOrder": "Load order: top to bottom / bottom to top / simultaneous",
-        "animationSpeed": "Animation speed (5 levels)",
-        "geometrySearchbar": "Search bar geometry: radius, padding, border, opacity",
-        "searchbarLeadingIcon": "Search bar leading icon picker",
-        "hidePlaceholder": "Hide placeholder",
-        "geometrySections": "Section geometry: radius, padding, border, opacity",
-        "geometryWidget": "Widget geometry: radius, padding, height, border, opacity",
-        "widgetLeadingIcon": "Widget leading icon picker",
-        "unlimitedSections": "Unlimited custom sections (Free: 1)",
-        "dragDropSections": "Drag & drop section reorder",
-        "customItems": "Custom items: App, Action, Contact, File, Setting",
-        "reorderItems": "Reorder items",
-        "sectionIconColors": "Section icon colors (Light/Dark)",
-        "pinnedItems": "Pinned items",
-        "iconPacks": "External icon packs",
-        "customProviders": "Custom search providers (URL template with {{Q}})",
-        "providersReorder": "Drag & drop provider order",
-        "aiPrompts": "Custom AI prompts (label + template + target app)",
-        "aiManage": "Edit/remove AI prompts",
-        "aiReorder": "Drag & drop prompt order",
-        "backupExport": "Export settings (JSON)",
-        "backupImport": "Import settings (restore configuration)",
-        "removeAds": "Remove sponsored sections",
-        "support": "Support future development"
+        "premiumThemes": "3 ธีมพรีเมียม Glass Material You Minimal Dark",
+        "themeCreator": "ตัวสร้างธีมที่กำหนดเอง",
+        "presets": "ตั้งค่าล่วงหน้าธีมไม่จำกัด",
+        "perSectionStyle": "การแทนที่สไตล์ต่อส่วน",
+        "advancedColors": "52 ตำแหน่งพร้อมความเป็นไปได้ในการเปลี่ยนสี (แถบค้นหา ส่วน วิดเจ็ต แผงด้านล่าง)",
+        "searchbarColors": "สีแถบค้นหา (7 × สว่าง/มืด)",
+        "sectionColors": "สีส่วน (7 × สว่าง/มืด)",
+        "itemIconColors": "สีไอคอนรายการ (2 × สว่าง/มืด)",
+        "bottomSheetColors": "สีแผนด้านล่าง (5 × สว่าง/มืด)",
+        "widgetColors": "สีวิดเจ็ต (5 × สว่าง/มืด)",
+        "wallpaperBlur": "สีวอลเปเปอร์ที่กำหนดเองและเบลอ",
+        "advancedAnimations": "ภาพเคลื่อนไหวโหลดแถบค้นหา (11 ประเภท)",
+        "sectionAnimations": "ภาพเคลื่อนไหวโหลดส่วน (11 ประเภท)",
+        "sectionResize": "การปรับขนาดส่วน ภาพเคลื่อนไหว/ทันที/ไม่มี",
+        "loadOrder": "ลำดับโหลด บน/ล่าง/พร้อมกัน",
+        "animationSpeed": "ความเร็วภาพเคลื่อนไหว (5 ระดับ)",
+        "geometrySearchbar": "เรขาคณิตแถบค้นหา รัศมี แพดดิง เส้นขอบ ความเป็นคืน",
+        "searchbarLeadingIcon": "ตัวเลือกไอคอนนำแถบค้นหา",
+        "hidePlaceholder": "ซ่อนตัวยึด",
+        "geometrySections": "เรขาคณิตส่วน รัศมี แพดดิง เส้นขอบ ความเป็นคืน",
+        "geometryWidget": "เรขาคณิตวิดเจ็ต รัศมี แพดดิง ความสูง เส้นขอบ ความเป็นคืน",
+        "widgetLeadingIcon": "ตัวเลือกไอคอนนำวิดเจ็ต",
+        "unlimitedSections": "ส่วนที่กำหนดเองไม่จำกัด (ฟรี 1)",
+        "dragDropSections": "ลากและวางการจัดเรียงส่วนใหม่",
+        "customItems": "รายการที่กำหนดเอง แอป การดำเนินการ ที่อยู่ติดต่อ ไฟล์ ตั้งค่า",
+        "reorderItems": "จัดเรียงรายการใหม่",
+        "sectionIconColors": "สีไอคอนส่วน (สว่าง/มืด)",
+        "pinnedItems": "รายการที่ปักหมุด",
+        "iconPacks": "แพคไอคอนภายนอก",
+        "customProviders": "ผู้ให้บริการค้นหาที่กำหนดเอง (แม่แบบ URL พร้อม {{Q}})",
+        "providersReorder": "ลากและวางลำดับผู้ให้บริการ",
+        "aiPrompts": "พรอมต์ AI ที่กำหนดเอง (ป้ายกำกับ + แม่แบบ + แอปเป้าหมาย)",
+        "aiManage": "แก้ไข/ลบพรอมต์ AI",
+        "aiReorder": "ลากและวางลำดับพรอมต์",
+        "backupExport": "ตั้งค่าการส่งออก (JSON)",
+        "backupImport": "นำเข้าตั้งค่า (กู้คืนการกำหนดค่า)",
+        "removeAds": "ลบส่วนที่ได้รับการสนับสนุน",
+        "support": "สนับสนุนการพัฒนาในอนาคต"
       }
     },
     "summary": {
-      "title": "Quick summary",
+      "title": "สรุปย่อ",
       "rows": {
-        "customization": "Customization",
-        "sections": "Custom sections",
-        "backup": "Backup",
-        "ads": "Ads"
+        "customization": "การปรับแต่ง",
+        "sections": "ส่วนที่กำหนดเอง",
+        "backup": "การสำรองข้อมูล",
+        "ads": "โฆษณา"
       },
       "values": {
-        "basic": "Basic",
-        "unlimited": "Unlimited",
-        "limited": "1 only",
-        "none": "Not included",
-        "included": "Included",
-        "sponsored": "Sponsored sections"
+        "basic": "พื้นฐาน",
+        "unlimited": "ไม่จำกัด",
+        "limited": "เพียงอันเดียว",
+        "none": "ไม่รวม",
+        "included": "รวม",
+        "sponsored": "ส่วนที่ได้รับการสนับสนุน"
       },
       "headers": {
-        "free": "Free",
+        "free": "ฟรี",
         "pro": "Pro"
       }
     }
   },
   "cta": {
-    "title": "Ready to speed up your phone?",
-    "subtitle": "Install UniSearch and get the fastest way to find anything.",
-    "button": "Get it on Google Play"
+    "title": "พร้อมที่จะเพิ่มความเร็วให้กับโทรศัพท์ของคุณแล้วหรือ?",
+    "subtitle": "ติดตั้ง UniSearch และรับวิธีที่เร็วที่สุดในการค้นหาทุกอย่าง",
+    "button": "ดาวน์โหลดจาก Google Play"
   },
   "faq": {
-    "title": "FAQ",
-    "subtitle": "Quick answers to common questions.",
+    "title": "คำถามที่พบบ่อย",
+    "subtitle": "คำตอบด่วนสำหรับคำถามทั่วไป",
     "items": [
       {
-        "q": "Does UniSearch send my data to the cloud?",
-        "a": "No. Search data and indexing stay on your device."
+        "q": "UniSearch ส่งข้อมูลของฉันไปยังคลาวด์หรือไม่?",
+        "a": "ไม่ข้อมูลการค้นหาและการจัดทำดัชนียังคงอยู่ในอุปกรณ์ของคุณ"
       },
       {
-        "q": "What exactly is indexed?",
-        "a": "Apps, shortcuts, system settings, contacts, and files you allow."
+        "q": "มีการจัดทำดัชนีสิ่งใด?",
+        "a": "แอป ทางลัด ตั้งค่าระบบ ที่อยู่ติดต่อ และไฟล์ที่คุณอนุญาต"
       },
       {
-        "q": "Is Pro a subscription?",
-        "a": "No. Pro is a one-time purchase around $5–6."
+        "q": "Pro เป็นการสมัครสมาชิกหรือไม่?",
+        "a": "ไม่ Pro เป็นการซื้อครั้งเดียวประมาณ $5–6"
       },
       {
-        "q": "Can I restore my settings?",
-        "a": "Pro includes backup and restore via JSON export/import."
+        "q": "ฉันสามารถกู้คืนการตั้งค่าของฉันได้หรือไม่?",
+        "a": "Pro รวมการสำรองข้อมูลและกู้คืนผ่านการส่งออก/นำเข้า JSON"
       },
       {
-        "q": "Is AI required?",
-        "a": "No. AI prompts are optional and can be disabled."
+        "q": "AI จำเป็นหรือไม่?",
+        "a": "ไม่พรอมต์ AI เป็นตัวเลือกและสามารถปิดใช้งานได้"
       },
       {
-        "q": "How can I contact support?",
-        "a": "Email us and we will respond quickly."
+        "q": "ฉันจะติดต่อการสนับสนุนได้อย่างไร?",
+        "a": "ส่งอีเมลให้เราและเราจะตอบกลับอย่างรวดเร็ว"
       }
     ]
   },
   "footer": {
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "contact": "Contact",
+    "privacy": "ความเป็นส่วนตัว",
+    "terms": "เงื่อนไข",
+    "contact": "ติดต่อ",
     "googlePlay": "Google Play",
-    "copyright": "© {year} UniSearch. All rights reserved.",
-    "createdBy": "Created by Webybox"
+    "copyright": "© {year} UniSearch สงวนสิทธิ์ทั้งหมด",
+    "createdBy": "สร้างโดย Webybox"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "subtitle": "Effective date: 2026-02-10",
-    "intro": "This app is designed to work locally on your device. We do not run our own backend servers for your data.",
+    "title": "นโยบายความเป็นส่วนตัว",
+    "subtitle": "วันที่มีผลบังคับใช้ 2026-02-10",
+    "intro": "แอปนี้ออกแบบมาเพื่อทำงานในเครื่องบนอุปกรณ์ของคุณ เราไม่มีเซิร์ฟเวอร์แบ็กเอนด์ของตัวเองสำหรับข้อมูลของคุณ",
     "sections": {
       "introduction": {
-        "title": "Overview",
+        "title": "ภาพรวม",
         "body": [
-          "This app is designed to work locally on your device.",
-          "We do not run our own backend servers for your data."
+          "แอปนี้ออกแบบมาเพื่อทำงานในเครื่องบนอุปกรณ์ของคุณ",
+          "เราไม่มีเซิร์ฟเวอร์แบ็กเอนด์ของตัวเองสำหรับข้อมูลของคุณ"
         ]
       },
       "data": {
-        "title": "Data We Collect",
+        "title": "ข้อมูลที่เราเก็บรวบรวม",
         "body": [
-          "We do not collect or upload your contacts, files, or search data to our servers.",
-          "The app uses the following third-party services which may collect data according to their policies:",
-          "Google AdMob (ads)",
-          "Google Firebase Analytics (usage analytics)",
-          "Google Firebase Crashlytics (crash reports)",
-          "Google User Messaging Platform (consent management)",
-          "These services may collect device identifiers and usage information. You can review their policies in Google’s documentation."
+          "เราไม่เก็บรวบรวมหรืออัปโหลดที่อยู่ติดต่อ ไฟล์ หรือข้อมูลการค้นหาของคุณไปยังเซิร์ฟเวอร์ของเรา",
+          "แอปใช้บริการของบุคคลที่สามต่อไปนี้ซึ่งอาจเก็บรวบรวมข้อมูลตามนโยบายของพวกเขา",
+          "Google AdMob (โฆษณา)",
+          "Google Firebase Analytics (การวิเคราะห์การใช้งาน)",
+          "Google Firebase Crashlytics (รายงานข้อขัดข้อง)",
+          "Google User Messaging Platform (การจัดการความยินยอม)",
+          "บริการเหล่านี้อาจเก็บรวบรวมตัวระบุอุปกรณ์และข้อมูลการใช้งาน คุณสามารถตรวจสอบนโยบายของพวกเขาในเอกสารของ Google"
         ]
       },
       "permissions": {
-        "title": "Permissions We Use",
+        "title": "สิทธิ์ที่เราใช้",
         "body": [
-          "READ_CONTACTS: to search and display contacts on-device.",
-          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: to search files across device storage, including non-media files and full folder paths. This is required for fast, system-wide file search and exclusions. SAF/MediaStore alone do not provide complete coverage for all file types and paths.",
-          "QUERY_ALL_PACKAGES: to index all installed apps, show them in search results, and enable launch of any app or shortcut. Without this, the app cannot provide full app search.",
-          "INTERNET: required by Google services and ads.",
-          "We use these permissions only for the features described above and only on-device."
+          "READ_CONTACTS เพื่อค้นหาและแสดงที่อยู่ติดต่อในอุปกรณ์",
+          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE เพื่อค้นหาไฟล์ในที่เก็บอุปกรณ์ รวมถึงไฟล์ที่ไม่ใช่สื่อและเส้นทางโฟลเดอร์ทั้งหมด สิ่งนี้จำเป็นสำหรับการค้นหาไฟล์ที่รวดเร็วทั่วระบบและการยกเว้น SAF/MediaStore ไม่ได้ให้ความครอบคลุมที่สมบูรณ์สำหรับไฟล์ทั้งหมดและเส้นทาง",
+          "QUERY_ALL_PACKAGES เพื่อจัดทำดัชนีแอปที่ติดตั้งทั้งหมด แสดงผลลัพธ์ในการค้นหา และเปิดใช้งานการเปิดแอปหรือทางลัดใดๆ หากไม่มีสิ่งนี้ แอปไม่สามารถให้การค้นหาแอปแบบเต็มรูปแบบได้",
+          "INTERNET จำเป็นต้องใช้บริการของ Google และโฆษณา",
+          "เราใช้สิทธิ์เหล่านี้เฉพาะสำหรับคุณลักษณะที่อธิบายไว้ข้างต้นและเฉพาะในอุปกรณ์เท่านั้น"
         ]
       },
       "analytics": {
-        "title": "Analytics",
+        "title": "การวิเคราะห์",
         "body": [
-          "Usage analytics may be provided by Google Firebase Analytics.",
-          "Crash reports may be provided by Google Firebase Crashlytics."
+          "การวิเคราะห์การใช้งานอาจได้รับจาก Google Firebase Analytics",
+          "รายงานข้อขัดข้องอาจได้รับจาก Google Firebase Crashlytics"
         ]
       },
       "ads": {
-        "title": "Ads",
+        "title": "โฆษณา",
         "body": [
-          "Ads may be served via Google AdMob.",
-          "Consent management may be handled by Google User Messaging Platform."
+          "โฆษณาอาจจัดหาผ่าน Google AdMob",
+          "การจัดการความยินยอมอาจจัดการโดย Google User Messaging Platform"
         ]
       },
       "sharing": {
-        "title": "Data Sharing",
+        "title": "การแบ่งปันข้อมูล",
         "body": [
-          "We do not sell your personal data.",
-          "Data may be processed by the third-party services listed above as part of ads, analytics, and crash reporting."
+          "เราไม่ขายข้อมูลส่วนบุคคลของคุณ",
+          "ข้อมูลอาจได้รับการประมวลผลโดยบริการของบุคคลที่สามที่ระบุไว้ข้างต้นเป็นส่วนหนึ่งของโฆษณา การวิเคราะห์ และการรายงานข้อขัดข้อง"
         ]
       },
       "security": {
-        "title": "Security",
+        "title": "ความปลอดภัย",
         "body": [
-          "We take reasonable measures to protect data on-device.",
-          "No method of transmission or storage is 100% secure."
+          "เราใช้มาตรการที่สมควรเพื่อปกป้องข้อมูลในอุปกรณ์",
+          "ไม่มีวิธีการส่งข่าวหรือจัดเก็บข้อมูลที่ 100% ปลอดภัย"
         ]
       },
       "rights": {
-        "title": "Data Retention & Children’s Privacy",
+        "title": "การเก็บรักษาข้อมูล & ความเป็นส่วนตัวของเด็ก",
         "body": [
-          "We do not store your personal data on our servers.",
-          "Retention by third-party services is governed by their policies.",
-          "This app is not directed to children under 13.",
-          "We may update this policy. Changes will be posted in this file with a new effective date."
+          "เราไม่เก็บข้อมูลส่วนบุคคลของคุณไว้ในเซิร์ฟเวอร์ของเรา",
+          "การเก็บรักษาโดยบริการของบุคคลที่สามได้รับการควบคุมโดยนโยบายของพวกเขา",
+          "แอปนี้ไม่ได้มุ่งเป้าไปที่เด็กอายุต่ำกว่า 13 ปี",
+          "เราอาจอัปเดตนโยบายนี้ การเปลี่ยนแปลงจะโพสต์ในไฟล์นี้พร้อมวันที่มีผลบังคับใช้ใหม่"
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "ติดต่อ",
         "body": [
-          "If you have questions, contact: contact@webybox.com"
+          "หากคุณมีคำถามให้ติดต่อ contact@webybox.com"
         ]
       }
     }
   },
   "terms": {
-    "title": "Terms of Service",
-    "subtitle": "Last updated: February 11, 2026",
-    "intro": "These terms outline the basic rules for using UniSearch.",
+    "title": "เงื่อนไขการใช้งาน",
+    "subtitle": "อัปเดตครั้งล่าสุด 11 กุมภาพันธ์ 2026",
+    "intro": "เงื่อนไขเหล่านี้อธิบายกฎพื้นฐานสำหรับการใช้ UniSearch",
     "sections": {
       "usage": {
-        "title": "Use of the app",
+        "title": "การใช้แอป",
         "body": [
-          "Use UniSearch in accordance with local laws and platform policies.",
-          "Do not misuse the app for unlawful activities."
+          "ใช้ UniSearch ตามกฎหมายท้องถิ่นและนโยบายแพลตฟอร์ม",
+          "อย่าใช้แอปในทางที่ผิดสำหรับกิจกรรมที่ผิดกฎหมาย"
         ]
       },
       "purchases": {
-        "title": "Purchases",
+        "title": "การซื้อ",
         "body": [
-          "Pro is a one-time purchase handled by Google Play.",
-          "Refunds follow Google Play policies."
+          "Pro เป็นการซื้อครั้งเดียวที่จัดการโดย Google Play",
+          "การคืนเงินตามนโยบาย Google Play"
         ]
       },
       "liability": {
-        "title": "Limitation of liability",
+        "title": "จำกัดความรับผิด",
         "body": [
-          "The app is provided as-is without warranties.",
-          "We are not liable for indirect damages."
+          "แอปมีให้ใช้โดยไม่มีการรับประกัน",
+          "เราไม่รับผิดชอบต่อความเสียหายทางอ้อม"
         ]
       },
       "contact": {
-        "title": "Contact",
+        "title": "ติดต่อ",
         "body": [
-          "Questions? Reach out via email."
+          "มีคำถาม? ติดต่อผ่านอีเมล"
         ]
       }
     }
   },
   "searchProviders": {
-    "title": "Search with providers",
-    "subtitle": "Choose where to search and control when results appear.",
+    "title": "ค้นหาด้วยผู้ให้บริการ",
+    "subtitle": "เลือกตำแหน่งที่ค้นหาและควบคุมเมื่อปรากฏผลลัพธ์",
     "items": [
       {
-        "title": "Preset providers",
-        "description": "Google, DuckDuckGo, and other popular sources."
+        "title": "ผู้ให้บริการที่ตั้งไว้ล่วงหน้า",
+        "description": "Google DuckDuckGo และแหล่งที่มายอดนิยมอื่นๆ"
       },
       {
-        "title": "Enable / disable",
-        "description": "Full control over which providers are active."
+        "title": "เปิด / ปิด",
+        "description": "การควบคุมเต็มรูปแบบว่าผู้ให้บริการใดใช้งานอยู่"
       },
       {
-        "title": "Always show",
-        "description": "Keep a chosen provider visible at all times."
+        "title": "แสดงเสมอ",
+        "description": "เก็บผู้ให้บริการที่เลือกไว้ในสายตาตลอดเวลา"
       },
       {
-        "title": "Quick switching",
-        "description": "Swap providers without leaving the search bar."
+        "title": "การสลับที่รวดเร็ว",
+        "description": "สลับผู้ให้บริการโดยไม่ออกจากแถบค้นหา"
       }
     ]
   }
