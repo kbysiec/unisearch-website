@@ -10,6 +10,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        nav: '860px',
+      },
       colors: {
         primary: {
           50: '#edfbff',

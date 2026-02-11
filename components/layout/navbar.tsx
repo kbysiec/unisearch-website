@@ -2,11 +2,11 @@
 
 import * as React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 import { buttonVariants } from '@/components/ui/button';
 import { GooglePlayIcon } from '@/components/ui/google-play-icon';
-import { ASSETS, APP_NAME, PLAY_STORE_URL } from '@/src/config/brand';
+import { BrandLogo } from '@/components/ui/brand-logo';
+import { APP_NAME, PLAY_STORE_URL } from '@/src/config/brand';
 import type { Messages } from '@/src/lib/i18n';
 import type { Locale } from '@/src/config/i18n';
 import { LanguageSwitcher } from '@/components/layout/language-switcher';
@@ -58,12 +58,12 @@ export function Navbar({ locale, messages }: NavbarProps) {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href={`/${locale}`} className="flex items-center gap-3">
           <div className="relative h-10 w-10">
-            <Image src={ASSETS.logo} alt={`${APP_NAME} logo`} fill className="object-contain" />
+            <BrandLogo aria-label={`${APP_NAME} logo`} />
           </div>
           <span className="text-lg font-semibold text-gray-900 dark:text-white">{APP_NAME}</span>
         </Link>
 
-        <div className="hidden items-center gap-6 md:flex">
+        <div className="hidden items-center gap-6 min-[860px]:flex">
           {navLinks.map((link) =>
             link.href ? (
               <Link
@@ -85,7 +85,7 @@ export function Navbar({ locale, messages }: NavbarProps) {
           )}
         </div>
 
-        <div className="hidden items-center gap-3 md:flex">
+        <div className="hidden items-center gap-3 min-[860px]:flex">
           <div className="w-full md:w-auto">
             <LanguageSwitcher locale={locale} label={messages.nav.language} />
           </div>
@@ -93,22 +93,22 @@ export function Navbar({ locale, messages }: NavbarProps) {
           <a
             className={cn(
               buttonVariants({ variant: 'primary', size: 'sm' }),
-              'whitespace-nowrap transition-all duration-300 lg:px-4 lg:py-2 lg:text-sm',
-              'h-9 w-9 p-0 lg:h-9 lg:w-auto justify-center gap-0 lg:gap-2'
+              'whitespace-nowrap transition-all duration-300 min-[860px]:px-4 min-[860px]:py-2 min-[860px]:text-sm',
+              'h-9 w-9 p-0 min-[860px]:h-9 min-[860px]:w-auto justify-center gap-0 min-[860px]:gap-2'
             )}
             href={PLAY_STORE_URL}
             target="_blank"
             rel="noopener noreferrer"
           >
             <GooglePlayIcon className="h-3.5 w-3.5 text-current" />
-            <span className="overflow-hidden whitespace-nowrap transition-all duration-300 lg:max-w-[160px] lg:opacity-100 max-w-0 opacity-0">
+            <span className="inline-block overflow-hidden whitespace-nowrap transition-[max-width,opacity,transform] duration-300 max-w-0 opacity-0 -translate-x-1 lg:max-w-[160px] lg:opacity-100 lg:translate-x-0">
               {messages.nav.getApp}
             </span>
           </a>
         </div>
 
         <button
-          className="md:hidden"
+          className="min-[860px]:hidden"
           aria-label="Toggle menu"
           onClick={() => setIsMobileOpen((open) => !open)}
         >
@@ -118,7 +118,7 @@ export function Navbar({ locale, messages }: NavbarProps) {
 
       <div
         className={cn(
-          'overflow-hidden border-t border-white/20 bg-white/95 backdrop-blur-xl transition-all duration-300 ease-out md:hidden dark:border-white/10 dark:bg-slate-950/95',
+          'overflow-hidden border-t border-white/20 bg-white/95 backdrop-blur-xl transition-all duration-300 ease-out min-[860px]:hidden dark:border-white/10 dark:bg-slate-950/95',
           isMobileOpen ? 'max-h-[480px] opacity-100' : 'max-h-0 opacity-0'
         )}
         aria-hidden={!isMobileOpen}

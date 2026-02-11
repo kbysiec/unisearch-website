@@ -1,6 +1,7 @@
 'use client';
 
 import { buttonVariants } from '@/components/ui/button';
+import { cn } from '@/lib/cn';
 import { GooglePlayIcon } from '@/components/ui/google-play-icon';
 import { Reveal } from '@/components/motion/reveal';
 import { PLAY_STORE_URL } from '@/src/config/brand';
@@ -15,15 +16,18 @@ export function CTA({ messages }: CTAProps) {
     <section className="py-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <Reveal>
-          <div className="relative overflow-hidden rounded-3xl border border-primary-200 bg-gradient-to-r from-primary-600 via-primary-500 to-primary-400 p-10 text-white shadow-xl dark:border-primary-500/40">
+          <div className="relative overflow-hidden rounded-3xl border border-primary-200 bg-gradient-to-r from-primary-600 via-primary-500 to-primary-400 p-10 text-white shadow-xl dark:border-white/10 dark:bg-gradient-to-r dark:from-slate-900/90 dark:via-slate-900/70 dark:to-slate-900/50 dark:text-slate-100">
             <div className="absolute -right-10 top-0 h-40 w-40 rounded-full bg-white/20 blur-2xl" />
             <div className="relative flex flex-col items-start gap-6 sm:flex-row sm:items-center sm:justify-between">
               <div>
                 <h2 className="text-3xl font-semibold">{messages.cta.title}</h2>
-                <p className="mt-2 text-white/80">{messages.cta.subtitle}</p>
+                <p className="mt-2 text-white/80 dark:text-slate-300">{messages.cta.subtitle}</p>
               </div>
               <a
-                className={buttonVariants({ variant: 'secondary', size: 'lg' })}
+                className={cn(
+                  buttonVariants({ variant: 'secondary', size: 'lg' }),
+                  'dark:bg-white dark:text-slate-900 dark:hover:bg-slate-100'
+                )}
                 href={PLAY_STORE_URL}
                 target="_blank"
                 rel="noopener noreferrer"
