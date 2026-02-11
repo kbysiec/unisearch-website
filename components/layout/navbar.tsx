@@ -93,8 +93,8 @@ export function Navbar({ locale, messages }: NavbarProps) {
           <a
             className={cn(
               buttonVariants({ variant: 'primary', size: 'sm' }),
-              'whitespace-nowrap transition-all duration-300 min-[860px]:px-4 min-[860px]:py-2 min-[860px]:text-sm',
-              'h-9 w-9 p-0 min-[860px]:h-9 min-[860px]:w-auto justify-center gap-0 min-[860px]:gap-2'
+              'whitespace-nowrap transition-all duration-300 px-3 lg:px-4 min-[860px]:py-2 min-[860px]:text-sm',
+              'h-9 min-[860px]:h-9 min-[860px]:w-auto justify-center gap-0 lg:gap-2'
             )}
             href={PLAY_STORE_URL}
             target="_blank"
@@ -149,11 +149,15 @@ export function Navbar({ locale, messages }: NavbarProps) {
               </button>
             )
           )}
-          <div className="flex items-center justify-center gap-3">
-            <div className="w-full">
-              <LanguageSwitcher locale={locale} label={messages.nav.language} />
+          <div className="flex items-center gap-3">
+            <div className="min-w-0 flex-1">
+              <LanguageSwitcher
+                locale={locale}
+                label={messages.nav.language}
+                className="w-full"
+              />
             </div>
-            <ThemeToggle />
+            <ThemeToggle className="shrink-0" />
           </div>
           <a
             className={cn(

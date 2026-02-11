@@ -5,13 +5,15 @@ import { usePathname, useRouter } from 'next/navigation';
 import { ChevronDown } from 'lucide-react';
 import { locales, type Locale } from '@/src/config/i18n';
 import { getLocaleLabel } from '@/src/lib/i18n';
+import { cn } from '@/lib/cn';
 
 interface LanguageSwitcherProps {
   locale: Locale;
   label: string;
+  className?: string;
 }
 
-export function LanguageSwitcher({ locale, label }: LanguageSwitcherProps) {
+export function LanguageSwitcher({ locale, label, className }: LanguageSwitcherProps) {
   const router = useRouter();
   const pathname = usePathname();
 
@@ -30,9 +32,9 @@ export function LanguageSwitcher({ locale, label }: LanguageSwitcherProps) {
   };
 
   return (
-    <label className="flex items-center gap-2 text-sm font-medium text-gray-600">
+    <label className={cn('flex items-center gap-2 text-sm font-medium text-gray-600', className)}>
       <span className="sr-only">{label}</span>
-      <span className="relative w-full md:w-36">
+      <span className="relative block w-full min-[860px]:w-36">
         <select
           value={locale}
           onChange={handleChange}

@@ -2,6 +2,7 @@
 
 import * as React from 'react';
 import { Moon, Sun } from 'lucide-react';
+import { cn } from '@/lib/cn';
 
 type Theme = 'light' | 'dark';
 
@@ -10,7 +11,11 @@ function getSystemTheme(): Theme {
   return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 }
 
-export function ThemeToggle() {
+interface ThemeToggleProps {
+  className?: string;
+}
+
+export function ThemeToggle({ className }: ThemeToggleProps) {
   const [mounted, setMounted] = React.useState(false);
   const [theme, setTheme] = React.useState<Theme>('light');
 
@@ -44,7 +49,10 @@ export function ThemeToggle() {
     return (
       <button
         aria-label="Toggle theme"
-        className="h-9 w-9 rounded-full border border-primary-500 bg-white text-primary-700 shadow-sm"
+        className={cn(
+          'h-9 w-9 rounded-full border border-primary-500 bg-white text-primary-700 shadow-sm',
+          className
+        )}
       />
     );
   }
@@ -54,7 +62,10 @@ export function ThemeToggle() {
       type="button"
       onClick={toggle}
       aria-label="Toggle theme"
-      className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-primary-500 bg-white text-primary-700 shadow-sm transition hover:bg-primary-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 dark:border-primary-400 dark:bg-slate-950 dark:text-primary-200"
+      className={cn(
+        'inline-flex h-9 w-9 items-center justify-center rounded-full border border-primary-500 bg-white text-primary-700 shadow-sm transition hover:bg-primary-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 dark:border-primary-400 dark:bg-slate-950 dark:text-primary-200',
+        className
+      )}
     >
       {theme === 'dark' ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
     </button>
