@@ -310,71 +310,79 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "subtitle": "Last updated: February 11, 2026",
-    "intro": "This Privacy Policy explains how UniSearch processes data locally and keeps your searches private.",
+    "subtitle": "Effective date: 2026-02-10",
+    "intro": "This app is designed to work locally on your device. We do not run our own backend servers for your data.",
     "sections": {
       "introduction": {
-        "title": "Introduction",
+        "title": "Overview",
         "body": [
-          "UniSearch is designed around on-device processing.",
-          "Most data never leaves your phone."
+          "This app is designed to work locally on your device.",
+          "We do not run our own backend servers for your data."
         ]
       },
       "data": {
-        "title": "Data we process",
+        "title": "Data We Collect",
         "body": [
-          "Installed apps, contacts, and files are indexed locally for fast search.",
-          "Search history is stored locally to improve ranking.",
-          "Settings and customization are stored on-device."
+          "We do not collect or upload your contacts, files, or search data to our servers.",
+          "The app uses the following third-party services which may collect data according to their policies:",
+          "Google AdMob (ads)",
+          "Google Firebase Analytics (usage analytics)",
+          "Google Firebase Crashlytics (crash reports)",
+          "Google User Messaging Platform (consent management)",
+          "These services may collect device identifiers and usage information. You can review their policies in Google’s documentation."
         ]
       },
       "permissions": {
-        "title": "Permissions",
+        "title": "Permissions We Use",
         "body": [
-          "Contacts, files, photos, and notifications are optional permissions.",
-          "If you deny a permission, the related section simply stays disabled.",
-          "You can change permissions anytime in Android settings."
+          "READ_CONTACTS: to search and display contacts on-device.",
+          "READ_EXTERNAL_STORAGE / MANAGE_EXTERNAL_STORAGE: to search files across device storage, including non-media files and full folder paths. This is required for fast, system-wide file search and exclusions. SAF/MediaStore alone do not provide complete coverage for all file types and paths.",
+          "QUERY_ALL_PACKAGES: to index all installed apps, show them in search results, and enable launch of any app or shortcut. Without this, the app cannot provide full app search.",
+          "INTERNET: required by Google services and ads.",
+          "We use these permissions only for the features described above and only on-device."
         ]
       },
       "analytics": {
-        "title": "Analytics (opt-in)",
+        "title": "Analytics",
         "body": [
-          "Basic analytics may be offered as an opt-in to improve the app.",
-          "We will update this policy before enabling analytics."
+          "Usage analytics may be provided by Google Firebase Analytics.",
+          "Crash reports may be provided by Google Firebase Crashlytics."
         ]
       },
       "ads": {
-        "title": "Ads / sponsored sections",
+        "title": "Ads",
         "body": [
-          "The free version may show sponsored sections.",
-          "Pro removes sponsored content."
+          "Ads may be served via Google AdMob.",
+          "Consent management may be handled by Google User Messaging Platform."
         ]
       },
       "sharing": {
-        "title": "Data sharing",
+        "title": "Data Sharing",
         "body": [
-          "We do not sell or share personal data with third parties.",
-          "If you use AI prompts, only the prompt text is sent to the selected provider."
+          "We do not sell your personal data.",
+          "Data may be processed by the third-party services listed above as part of ads, analytics, and crash reporting."
         ]
       },
       "security": {
         "title": "Security",
         "body": [
-          "All indexed data stays on your device.",
-          "We follow best practices to protect local storage."
+          "We take reasonable measures to protect data on-device.",
+          "No method of transmission or storage is 100% secure."
         ]
       },
       "rights": {
-        "title": "User rights",
+        "title": "Data Retention & Children’s Privacy",
         "body": [
-          "You can delete your local data anytime by clearing the app storage.",
-          "You control all permissions and visibility settings."
+          "We do not store your personal data on our servers.",
+          "Retention by third-party services is governed by their policies.",
+          "This app is not directed to children under 13.",
+          "We may update this policy. Changes will be posted in this file with a new effective date."
         ]
       },
       "contact": {
         "title": "Contact",
         "body": [
-          "If you have questions about privacy, contact us via email."
+          "If you have questions, contact: contact@webybox.com"
         ]
       }
     }
