@@ -217,10 +217,6 @@
         "a": "Wszystkie uprawnienia są opcjonalne. Kontakty i pliki tylko po włączeniu sekcji."
       },
       {
-        "q": "Czy mogę używać offline?",
-        "a": "Tak. UniSearch działa w pełni offline."
-      },
-      {
         "q": "Co dokładnie jest indeksowane?",
         "a": "Aplikacje, skróty, ustawienia, kontakty i pliki, na które zezwolisz."
       },

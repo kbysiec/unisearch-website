@@ -217,10 +217,6 @@
         "a": "All permissions are optional. Contacts and files only if you enable those sections."
       },
       {
-        "q": "Can I use it offline?",
-        "a": "Yes. UniSearch works fully offline by default."
-      },
-      {
         "q": "What exactly is indexed?",
         "a": "Apps, shortcuts, system settings, contacts, and files you allow."
       },

@@ -52,8 +52,8 @@ export function Navbar({ locale, messages }: NavbarProps) {
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href={`/${locale}`} className="flex items-center gap-3">
-          <div className="relative h-10 w-10 overflow-hidden rounded-xl bg-white shadow-sm">
-            <Image src={ASSETS.logo} alt={`${APP_NAME} logo`} fill className="object-cover" />
+          <div className="relative h-10 w-10">
+            <Image src={ASSETS.logo} alt={`${APP_NAME} logo`} fill className="object-contain" />
           </div>
           <span className="text-lg font-semibold text-gray-900">{APP_NAME}</span>
         </Link>

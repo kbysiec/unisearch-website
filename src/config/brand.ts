@@ -6,7 +6,7 @@ export const CONTACT_EMAIL = 'hello@unisearch.app';
 export const SITE_URL = 'https://unisearch.app';
 
 export const ASSETS = {
-  logo: '/assets/logo.png',
+  logo: '/assets/icon.svg',
   screenshot: '/assets/app-screenshot.png',
   ogImage: '/og-image.png',
 };
