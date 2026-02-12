@@ -7,9 +7,10 @@ interface RevealProps {
   delay?: number;
   direction?: 'up' | 'down' | 'left' | 'right';
   className?: string;
+  immediate?: boolean;
 }
 
-export function Reveal({ children, delay = 0, direction = 'up', className }: RevealProps) {
+export function Reveal({ children, delay = 0, direction = 'up', className, immediate = false }: RevealProps) {
   const shouldReduceMotion = useReducedMotion();
 
   const directionOffset = {
@@ -23,26 +24,44 @@ export function Reveal({ children, delay = 0, direction = 'up', className }: Rev
     return <div className={className}>{children}</div>;
   }
 
-  return (
-    <LazyMotion features={domAnimation}>
-      <m.div
-        initial={{
+  const animationProps = immediate
+    ? {
+        initial: {
           opacity: 0,
           ...directionOffset[direction],
-        }}
-        whileInView={{
+        },
+        animate: {
           opacity: 1,
           y: 0,
           x: 0,
-        }}
-        viewport={{ once: true, margin: '-50px' }}
-        transition={{
+        },
+        transition: {
           duration: 0.5,
           delay,
           ease: [0.22, 1, 0.36, 1],
-        }}
-        className={className}
-      >
+        },
+      }
+    : {
+        initial: {
+          opacity: 0,
+          ...directionOffset[direction],
+        },
+        whileInView: {
+          opacity: 1,
+          y: 0,
+          x: 0,
+        },
+        viewport: { once: true, margin: '-50px' },
+        transition: {
+          duration: 0.5,
+          delay,
+          ease: [0.22, 1, 0.36, 1],
+        },
+      };
+
+  return (
+    <LazyMotion features={domAnimation}>
+      <m.div {...animationProps} className={className}>
         {children}
       </m.div>
     </LazyMotion>

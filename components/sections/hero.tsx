@@ -72,7 +72,7 @@ export function Hero({ messages }: HeroProps) {
           </StaggerContainer>
         </div>
 
-        <Reveal direction="up" className="flex justify-center lg:justify-end">
+        <Reveal direction="up" immediate className="flex justify-center lg:justify-end">
           <PhoneMock priority className="motion-safe:hover:rotate-2" />
         </Reveal>
       </div>
