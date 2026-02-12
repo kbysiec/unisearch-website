@@ -59,8 +59,6 @@ export function FreePro({ messages }: FreeProProps) {
             <div className="relative flex h-full flex-col gap-5 rounded-3xl border border-primary-200 bg-gradient-to-br from-white/95 via-white/85 to-primary-50 p-6 shadow-[0_25px_70px_-35px_rgba(23,158,255,0.5)] ring-1 ring-primary-300/40 dark:border-primary-500/40 dark:from-slate-900/90 dark:via-slate-900/80 dark:to-slate-900/60">
               <Badge variant="primary" className="absolute right-6 top-6 flex items-center gap-2">
                 <Star className="h-3 w-3" />
-                <span>{t(messages, pro.badgeKey)}</span>
-                <span className="opacity-80">·</span>
                 <span>{t(messages, pro.priceNoteKey)}</span>
               </Badge>
               <div className="flex flex-wrap items-center gap-3 pr-20">
