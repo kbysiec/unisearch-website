@@ -187,6 +187,7 @@
         "providersToggle": "제공자 활성화/비활성화",
         "providersAlwaysShow": "\"항상 표시\" 제공자 스위치",
         "customSection": "1개의 무료 사용자 정의 섹션(정렬 없음)",
+        "customAiPrompt": "1개의 무료 사용자 정의 AI 프롬프트(레이블 + 템플릿 + 대상 앱)",
         "privacy": "개인정보 보호 모드",
         "languages": "25개 언어 변형으로 번역",
         "sponsored": "스폰서 섹션(네이티브 광고)"

@@ -187,6 +187,7 @@
         "providersToggle": "Povolení/zakázání poskytovatelů",
         "providersAlwaysShow": "Přepínač \"Vždy zobrazit\" poskytovatele",
         "customSection": "1 bezplatná vlastní sekce (bez řazení)",
+        "customAiPrompt": "1 bezplatná vlastní výzva AI (štítek + šablona + cílová aplikace)",
         "privacy": "Režim soukromí",
         "languages": "Překlad do 25 jazykových variant",
         "sponsored": "Sponzorované sekce (nativní reklamy)"

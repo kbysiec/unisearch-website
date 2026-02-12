@@ -187,6 +187,7 @@
         "providersToggle": "Aktiver/deaktiver leverandører",
         "providersAlwaysShow": "\"Alltid vis\" leverandørbryter",
         "customSection": "1 gratis tilpasset seksjon (ingen sortering)",
+        "customAiPrompt": "1 gratis tilpasset AI-prompt (etikett + mal + målapp)",
         "privacy": "Personvernmodus",
         "languages": "Oversettelse til 25 språkvarianter",
         "sponsored": "Sponsede seksjoner (Native Ads)"

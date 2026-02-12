@@ -187,6 +187,7 @@
         "providersToggle": "Paganahin/huwag paganahin ang mga provider",
         "providersAlwaysShow": "\"Laging ipakita\" na switch ng provider",
         "customSection": "1 libreng custom na seksyon (walang sorting)",
+        "customAiPrompt": "1 libreng custom AI prompt (label + template + target app)",
         "privacy": "Privacy mode",
         "languages": "Pagsasalin sa 25 baryant ng wika",
         "sponsored": "Sponsored na mga seksyon (Native Ads)"

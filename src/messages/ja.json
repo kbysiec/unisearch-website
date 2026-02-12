@@ -187,6 +187,7 @@
         "providersToggle": "プロバイダーの有効/無効を切り替え",
         "providersAlwaysShow": "\"常に表示\"プロバイダースイッチ",
         "customSection": "1つの無料カスタムセクション（ソートなし）",
+        "customAiPrompt": "1つの無料カスタムAIプロンプト（ラベル＋テンプレート＋ターゲットアプリ）",
         "privacy": "プライバシーモード",
         "languages": "25種類の言語バリエーションに翻訳",
         "sponsored": "スポンサーセクション（ネイティブ広告）"

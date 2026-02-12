@@ -187,6 +187,7 @@
         "providersToggle": "Enable/disable providers",
         "providersAlwaysShow": "\"Always show\" provider switch",
         "customSection": "1 free custom section (no sorting)",
+        "customAiPrompt": "1 free custom AI prompt (label + template + target app)",
         "privacy": "Privacy mode",
         "languages": "Translation into 25 language variants",
         "sponsored": "Sponsored sections (Native Ads)"

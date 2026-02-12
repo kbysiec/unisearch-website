@@ -187,6 +187,7 @@
         "providersToggle": "Abilita/disabilita provider",
         "providersAlwaysShow": "Switch provider \"Mostra sempre\"",
         "customSection": "1 sezione personalizzata gratuita (senza ordinamento)",
+        "customAiPrompt": "1 prompt AI personalizzato gratuito (etichetta + modello + app di destinazione)",
         "privacy": "Modalità privacy",
         "languages": "Traduzione in 25 varianti linguistiche",
         "sponsored": "Sezioni sponsorizzate (Annunci nativi)"

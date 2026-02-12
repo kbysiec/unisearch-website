@@ -187,6 +187,7 @@
         "providersToggle": "Ativar/desativar provedores",
         "providersAlwaysShow": "Comutador de provedor \"Sempre mostrar\"",
         "customSection": "1 seção personalizada gratuita (sem classificação)",
+        "customAiPrompt": "1 prompt de IA personalizado gratuito (rótulo + modelo + aplicativo de destino)",
         "privacy": "Modo de privacidade",
         "languages": "Tradução em 25 variantes de idioma",
         "sponsored": "Seções patrocinadas (Anúncios nativos)"

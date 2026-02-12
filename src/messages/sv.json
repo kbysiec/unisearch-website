@@ -187,6 +187,7 @@
         "providersToggle": "Aktivera/inaktivera leverantörer",
         "providersAlwaysShow": "Växel \"Visa alltid\" leverantör",
         "customSection": "1 gratis anpassad sektion (ingen sortering)",
+        "customAiPrompt": "1 gratis anpassad AI-prompt (etikett + mall + målapp)",
         "privacy": "Sekretessläge",
         "languages": "Översättning till 25 språkvarianter",
         "sponsored": "Sponsrade sektioner (inbyggda annonser)"

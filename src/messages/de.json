@@ -187,6 +187,7 @@
         "providersToggle": "Anbieter aktivieren/deaktivieren",
         "providersAlwaysShow": "\"Immer anzeigen\" Anbieter-Schalter",
         "customSection": "1 kostenloser benutzerdefinierter Abschnitt (keine Sortierung)",
+        "customAiPrompt": "1 kostenlose benutzerdefinierte KI-Eingabeaufforderung (Label + Vorlage + Ziel-App)",
         "privacy": "Datenschutzmodus",
         "languages": "Übersetzung in 25 Sprachvarianten",
         "sponsored": "Gesponserte Abschnitte (Native Ads)"

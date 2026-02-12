@@ -187,6 +187,7 @@
         "providersToggle": "Sağlayıcıları etkinleştir/devre dışı bırak",
         "providersAlwaysShow": "\"Her zaman göster\" sağlayıcı değiştirme",
         "customSection": "1 ücretsiz özel bölüm (sıralama yok)",
+        "customAiPrompt": "1 ücretsiz özel AI istemi (etiket + şablon + hedef uygulama)",
         "privacy": "Gizlilik modu",
         "languages": "25 dil varyantına çeviri",
         "sponsored": "Sponsorlu bölümler (Yerel Reklamlar)"

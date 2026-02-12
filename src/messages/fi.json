@@ -187,6 +187,7 @@
         "providersToggle": "Ota käyttöön/poista käytöstä palvelut",
         "providersAlwaysShow": "\"Näytä aina\" -palvelun kytkin",
         "customSection": "1 ilmainen mukautettu osio (ei lajittelua)",
+        "customAiPrompt": "1 ilmainen mukautettu tekoälykehote (tunniste + malli + kohdisovellus)",
         "privacy": "Yksityisyystila",
         "languages": "Käännös 25 kieliversioon",
         "sponsored": "Sponsoroidut osat (Native Ads)"

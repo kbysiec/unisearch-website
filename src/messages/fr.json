@@ -187,6 +187,7 @@
         "providersToggle": "Activer/désactiver les fournisseurs",
         "providersAlwaysShow": "Commutateur \"Toujours afficher\" du fournisseur",
         "customSection": "1 section personnalisée gratuite (pas de tri)",
+        "customAiPrompt": "1 invite IA personnalisée gratuite (libellé + modèle + application cible)",
         "privacy": "Mode confidentialité",
         "languages": "Traduction en 25 variantes linguistiques",
         "sponsored": "Sections sponsorisées (Annonces natives)"

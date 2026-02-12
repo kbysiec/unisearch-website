@@ -187,6 +187,7 @@
         "providersToggle": "启用/禁用提供商",
         "providersAlwaysShow": "\"总是显示\" 提供商开关",
         "customSection": "1 个免费自定义部分（无排序）",
+        "customAiPrompt": "1 个免费自定义 AI 提示（标签 + 模板 + 目标应用）",
         "privacy": "隐私模式",
         "languages": "支持 25 种语言变体翻译",
         "sponsored": "赞助部分（原生广告）"

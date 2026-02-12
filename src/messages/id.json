@@ -187,6 +187,7 @@
         "providersToggle": "Aktifkan/nonaktifkan penyedia",
         "providersAlwaysShow": "Tombol penyedia \"Selalu tampilkan\"",
         "customSection": "1 bagian kustom gratis (tanpa pengurutan)",
+        "customAiPrompt": "1 prompt AI khusus gratis (label + template + aplikasi target)",
         "privacy": "Mode privasi",
         "languages": "Terjemahan ke 25 varian bahasa",
         "sponsored": "Bagian bersponsor (Iklan Asli)"

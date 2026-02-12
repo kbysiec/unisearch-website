@@ -187,6 +187,7 @@
         "providersToggle": "Aktivér/deaktivér udbydere",
         "providersAlwaysShow": "\"Altid vis\" udbyderkontakt",
         "customSection": "1 gratis brugerdefineret sektion (uden sortering)",
+        "customAiPrompt": "1 gratis brugerdefineret AI-prompt (mærkat + skabelon + målapp)",
         "privacy": "Privatlivstilstand",
         "languages": "Oversættelse til 25 sprogvarianter",
         "sponsored": "Sponsorerede sektioner (Native Ads)"

@@ -187,6 +187,7 @@
         "providersToggle": "Szolgáltatók engedélyezése/letiltása",
         "providersAlwaysShow": "\"Mindig mutasd\" szolgáltató kapcsoló",
         "customSection": "1 ingyenes egyéni szekció (nincs rendezés)",
+        "customAiPrompt": "1 ingyenes egyéni AI prompt (címke + sablon + célalkalmazás)",
         "privacy": "Adatvédelem mód",
         "languages": "Fordítás 25 nyelvi változatban",
         "sponsored": "Szponzorált szekciók (Natív hirdetések)"
