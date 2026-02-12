@@ -24,6 +24,7 @@ export function PhoneMock({ className, priority = false }: PhoneMockProps) {
             src={ASSETS.screenshot}
             alt={`${APP_NAME} app screenshot`}
             fill
+            className="object-cover"
             sizes="(max-width: 768px) 70vw, 360px"
             priority={priority}
           />
