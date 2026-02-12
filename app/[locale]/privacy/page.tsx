@@ -6,9 +6,10 @@ import { getMessages, requireLocale } from '@/src/lib/i18n';
 export async function generateMetadata({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const locale = requireLocale(params.locale);
+  const { locale: localeParam } = await params;
+  const locale = requireLocale(localeParam);
   const messages = getMessages(locale);
   const title = `${messages.meta.privacyTitle} · ${APP_NAME}`;
   const description = messages.meta.privacyDescription;
@@ -42,8 +43,9 @@ export async function generateMetadata({
   };
 }
 
-export default function PrivacyPage({ params }: { params: { locale: string } }) {
-  const locale = requireLocale(params.locale);
+export default async function PrivacyPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale: localeParam } = await params;
+  const locale = requireLocale(localeParam);
   const messages = getMessages(locale);
 
   return <PrivacyContent locale={locale} messages={messages} />;

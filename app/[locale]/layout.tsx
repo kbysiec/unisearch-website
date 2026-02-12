@@ -9,14 +9,15 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export default function LocaleLayout({
+export default async function LocaleLayout({
   children,
   params,
 }: {
   children: ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  const locale = requireLocale(params.locale);
+  const { locale: localeParam } = await params;
+  const locale = requireLocale(localeParam);
 
   return (
     <div className="min-h-screen">

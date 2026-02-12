@@ -16,7 +16,7 @@ interface PrivacyContentProps {
 }
 
 export function PrivacyContent({ locale, messages }: PrivacyContentProps) {
-  const [activeSection, setActiveSection] = React.useState(privacySections[0].id);
+  const [activeSection, setActiveSection] = React.useState<typeof privacySections[number]['id']>(privacySections[0].id);
 
   React.useEffect(() => {
     const handleScroll = () => {

@@ -6,9 +6,10 @@ import { getMessages, requireLocale } from '@/src/lib/i18n';
 export async function generateMetadata({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const locale = requireLocale(params.locale);
+  const { locale: localeParam } = await params;
+  const locale = requireLocale(localeParam);
   const messages = getMessages(locale);
   const title = `${messages.meta.termsTitle} · ${APP_NAME}`;
   const description = messages.meta.termsDescription;
@@ -42,8 +43,9 @@ export async function generateMetadata({
   };
 }
 
-export default function TermsPage({ params }: { params: { locale: string } }) {
-  const locale = requireLocale(params.locale);
+export default async function TermsPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale: localeParam } = await params;
+  const locale = requireLocale(localeParam);
   const messages = getMessages(locale);
 
   return <TermsContent locale={locale} messages={messages} />;
