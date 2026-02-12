@@ -73,7 +73,7 @@ export function Hero({ messages }: HeroProps) {
         </div>
 
         <Reveal direction="up" immediate delay={0.3} className="flex justify-center lg:justify-end">
-          <PhoneMock priority className="motion-safe:hover:rotate-2" />
+          <PhoneMock priority />
         </Reveal>
       </div>
     </section>
