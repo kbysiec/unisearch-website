@@ -197,7 +197,7 @@
       "title": "Pro",
       "description": "Jednorazowy zakup. Pełna moc personalizacji.",
       "badge": "Najpopularniejsze",
-      "priceNote": "Około $5–6",
+      "priceNote": "$5.99",
       "items": {
         "premiumThemes": "3 premium motywy: Glass, Material You, Minimal Dark",
         "themeCreator": "Custom theme creator",
@@ -283,7 +283,7 @@
       },
       {
         "q": "Czy Pro to subskrypcja?",
-        "a": "Nie. Pro to jednorazowy zakup ok. $5–6."
+        "a": "Nie. Pro to jednorazowy zakup za $5.99."
       },
       {
         "q": "Czy mogę przywrócić ustawienia?",

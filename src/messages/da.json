@@ -197,7 +197,7 @@
       "title": "Pro",
       "description": "Engangsindkøb. Lås fuld designkraft op.",
       "badge": "Mest populær",
-      "priceNote": "Omkring $5–6",
+      "priceNote": "$5.99",
       "items": {
         "premiumThemes": "3 premium temaer: Glass, Material You, Minimal Dark",
         "themeCreator": "Brugerdefineret temaopretning",
@@ -279,7 +279,7 @@
       },
       {
         "q": "Er Pro et abonnement?",
-        "a": "Nej. Pro er et engangsindkøb omkring $5–6."
+        "a": "Nej. Pro er et engangsindkøb omkring $5.99."
       },
       {
         "q": "Kan jeg gendanne mine indstillinger?",
