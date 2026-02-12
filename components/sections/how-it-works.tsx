@@ -40,7 +40,7 @@ export function HowItWorks({ messages }: HowItWorksProps) {
             {howItWorksSteps.map((step, index) => (
               <Reveal key={step.id} delay={index * 0.1}>
                 <div className="flex h-full flex-col gap-4 rounded-3xl border border-white/60 bg-white/80 p-6 shadow-sm backdrop-blur dark:border-white/10 dark:bg-slate-900/70">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary-100 text-sm font-semibold text-primary-700 dark:bg-primary-500/20 dark:text-primary-200">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary-100 text-sm font-semibold text-primary-700 dark:bg-primary-500/20 dark:text-primary-200">
                     {index + 1}
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 dark:text-white">

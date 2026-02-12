@@ -33,7 +33,7 @@ export function FreePro({ messages }: FreeProProps) {
             <div className="flex h-full flex-col gap-5 rounded-3xl border border-white/70 bg-white/80 p-6 shadow-[0_20px_60px_-40px_rgba(15,103,190,0.45)] backdrop-blur ring-1 ring-primary-200/40 dark:border-white/10 dark:bg-slate-900/70">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                  <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary-100 text-primary-700 shadow-[0_8px_20px_-10px_rgba(23,158,255,0.7)] dark:bg-primary-500/20 dark:text-primary-200">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary-100 text-primary-700 shadow-[0_8px_20px_-10px_rgba(23,158,255,0.7)] dark:bg-primary-500/20 dark:text-primary-200">
                     <Check className="h-5 w-5" />
                   </span>
                   <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
@@ -64,7 +64,7 @@ export function FreePro({ messages }: FreeProProps) {
                 <span>{t(messages, pro.priceNoteKey)}</span>
               </Badge>
               <div className="flex flex-wrap items-center gap-3 pr-20">
-                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary-100 text-primary-700 shadow-[0_10px_25px_-12px_rgba(23,158,255,0.7)] dark:bg-primary-500/20 dark:text-primary-200">
+                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary-100 text-primary-700 shadow-[0_10px_25px_-12px_rgba(23,158,255,0.7)] dark:bg-primary-500/20 dark:text-primary-200">
                   <Star className="h-5 w-5" />
                 </span>
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">

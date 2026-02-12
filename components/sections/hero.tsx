@@ -1,15 +1,18 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { ChevronDown } from 'lucide-react';
-import { buttonVariants } from '@/components/ui/button';
-import { PhoneMock } from '@/components/ui/phone-mock';
-import { Reveal } from '@/components/motion/reveal';
-import { StaggerContainer, StaggerItem } from '@/components/motion/stagger-container';
-import { PLAY_STORE_URL } from '@/src/config/brand';
-import { GooglePlayIcon } from '@/components/ui/google-play-icon';
-import type { Messages } from '@/src/lib/i18n';
-import { cn } from '@/lib/cn';
+import { Reveal } from "@/components/motion/reveal";
+import {
+  StaggerContainer,
+  StaggerItem,
+} from "@/components/motion/stagger-container";
+import { buttonVariants } from "@/components/ui/button";
+import { GooglePlayIcon } from "@/components/ui/google-play-icon";
+import { PhoneMock } from "@/components/ui/phone-mock";
+import { cn } from "@/lib/cn";
+import { PLAY_STORE_URL } from "@/src/config/brand";
+import type { Messages } from "@/src/lib/i18n";
+import { ChevronDown } from "lucide-react";
+import Link from "next/link";
 
 interface HeroProps {
   messages: Messages;
@@ -17,7 +20,7 @@ interface HeroProps {
 
 export function Hero({ messages }: HeroProps) {
   return (
-    <section className="relative overflow-hidden pb-16 pt-28 sm:pt-32">
+    <section className="relative overflow-hidden pb-28 pt-28 sm:pt-32">
       <div className="absolute inset-0 -z-10">
         <div className="absolute left-[-20%] top-[-10%] h-[420px] w-[420px] rounded-full bg-primary-200/50 blur-3xl" />
         <div className="absolute right-[-10%] top-[10%] h-[360px] w-[360px] rounded-full bg-primary-400/30 blur-3xl" />
@@ -44,7 +47,7 @@ export function Hero({ messages }: HeroProps) {
             <StaggerItem>
               <div className="flex flex-wrap items-center gap-4">
                 <a
-                  className={buttonVariants({ variant: 'primary', size: 'lg' })}
+                  className={buttonVariants({ variant: "primary", size: "lg" })}
                   href={PLAY_STORE_URL}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -54,8 +57,8 @@ export function Hero({ messages }: HeroProps) {
                 </a>
                 <Link
                   className={cn(
-                    buttonVariants({ variant: 'secondary', size: 'lg' }),
-                    'border-primary-500 text-primary-700 hover:bg-primary-50 dark:border-primary-400 dark:bg-slate-950 dark:text-primary-200 dark:hover:bg-white/5'
+                    buttonVariants({ variant: "secondary", size: "lg" }),
+                    "border-primary-500 text-primary-700 hover:bg-primary-50 dark:border-primary-400 dark:bg-slate-950 dark:text-primary-200 dark:hover:bg-white/5",
                   )}
                   href="#features"
                 >
@@ -72,7 +75,12 @@ export function Hero({ messages }: HeroProps) {
           </StaggerContainer>
         </div>
 
-        <Reveal direction="up" immediate delay={0.3} className="flex justify-center lg:justify-end">
+        <Reveal
+          direction="up"
+          immediate
+          delay={0.3}
+          className="flex justify-center lg:justify-end"
+        >
           <PhoneMock priority />
         </Reveal>
       </div>

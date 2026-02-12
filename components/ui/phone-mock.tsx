@@ -58,11 +58,21 @@ export function PhoneMock({ className, priority = false }: PhoneMockProps) {
 
             {/* Screen with glass effect - matches exact image aspect ratio */}
             <div className="relative aspect-[3171/6144] w-full overflow-hidden rounded-[34px] sm:rounded-[37px] bg-black shadow-[inset_0_0_0_1px_rgba(255,255,255,0.08),0_4px_16px_rgba(0,0,0,0.5)]">
+              {/* Light mode screenshot */}
               <Image
                 src={ASSETS.screenshot}
                 alt={`${APP_NAME} app screenshot`}
                 fill
-                className="object-cover"
+                className="object-cover dark:hidden"
+                sizes="(max-width: 768px) 280px, 360px"
+                priority={priority}
+              />
+              {/* Dark mode screenshot */}
+              <Image
+                src="/assets/phone_screen_dark.png"
+                alt={`${APP_NAME} app screenshot`}
+                fill
+                className="hidden object-cover dark:block"
                 sizes="(max-width: 768px) 280px, 360px"
                 priority={priority}
               />

@@ -38,7 +38,7 @@ export function Footer({ locale, messages, showTerms = true }: FooterProps) {
               href={PLAY_STORE_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 hover:text-primary-700"
+              className="inline-flex items-center gap-2 whitespace-nowrap hover:text-primary-700"
             >
               <GooglePlayIcon className="h-3.5 w-3.5 text-current" />
               {messages.footer.googlePlay}
