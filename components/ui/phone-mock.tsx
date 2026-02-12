@@ -48,15 +48,15 @@ export function PhoneMock({ className, priority = false }: PhoneMockProps) {
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-transparent via-white/[0.03] to-transparent" />
           </div>
 
-          {/* Dynamic Island / Notch */}
-          <div className="pointer-events-none absolute left-1/2 top-2 flex -translate-x-1/2 items-center justify-center">
-            <div className="relative h-[26px] w-[120px] rounded-full bg-black shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
-              {/* Camera */}
-              <div className="absolute left-[20px] top-1/2 h-[10px] w-[10px] -translate-y-1/2 rounded-full bg-gray-900 shadow-[inset_0_0_4px_rgba(0,0,0,0.5)]">
-                <div className="absolute left-1/2 top-1/2 h-[6px] w-[6px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-950" />
+          {/* Camera teardrop notch */}
+          <div className="pointer-events-none absolute left-1/2 top-2 -translate-x-1/2">
+            <div className="relative h-[18px] w-[18px] rounded-full bg-black shadow-[0_2px_6px_rgba(0,0,0,0.6)]">
+              {/* Camera lens */}
+              <div className="absolute left-1/2 top-1/2 h-[12px] w-[12px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gray-900 shadow-[inset_0_0_3px_rgba(0,0,0,0.5)]">
+                <div className="absolute left-1/2 top-1/2 h-[7px] w-[7px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-950" />
+                {/* Lens reflection */}
+                <div className="absolute left-[3px] top-[3px] h-[3px] w-[3px] rounded-full bg-white/40" />
               </div>
-              {/* Speaker */}
-              <div className="absolute left-1/2 top-1/2 h-[4px] w-[50px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gray-800" />
             </div>
           </div>
 
