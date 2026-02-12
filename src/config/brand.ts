@@ -7,7 +7,7 @@ export const SITE_URL = 'https://unisearch.app';
 
 export const ASSETS = {
   logo: '/assets/icon.svg',
-  screenshot: '/assets/app-screenshot.png',
+  screenshot: '/assets/phone_screen.png',
   ogImage: '/og-image.png',
 };
 
