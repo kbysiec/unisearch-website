@@ -9,8 +9,14 @@ const inter = Inter({
 
 export const metadata = {
   icons: {
-    icon: '/favicon.ico',
-    apple: '/apple-touch-icon.png',
+    icon: [
+      { url: '/favicon.ico', sizes: '16x16 32x32 48x48' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+      { url: '/favicon-152x152.png', sizes: '152x152', type: 'image/png' },
+      { url: '/favicon-167x167.png', sizes: '167x167', type: 'image/png' },
+    ],
   },
   manifest: '/site.webmanifest',
 };
