@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import { ASSETS, APP_NAME } from '@/src/config/brand';
-import { cn } from '@/lib/cn';
+import { cn } from "@/lib/cn";
+import { APP_NAME, ASSETS } from "@/src/config/brand";
+import Image from "next/image";
 
 interface PhoneMockProps {
   className?: string;
@@ -11,10 +11,10 @@ export function PhoneMock({ className, priority = false }: PhoneMockProps) {
   return (
     <div
       className={cn(
-        'group relative mx-auto w-[280px] max-w-full sm:w-[320px] lg:w-[360px]',
-        'motion-safe:transition-transform motion-safe:duration-500 motion-safe:ease-out',
-        'motion-safe:hover:-translate-y-2 motion-safe:hover:rotate-1',
-        className
+        "group relative mx-auto w-[280px] max-w-full sm:w-[320px] lg:w-[360px]",
+        "motion-safe:transition-transform motion-safe:duration-500 motion-safe:ease-out",
+        "motion-safe:hover:-translate-y-2 motion-safe:hover:rotate-1",
+        className,
       )}
     >
       <div className="absolute -inset-4 rounded-[48px] bg-gradient-to-br from-primary-200/40 via-white/10 to-primary-400/20 blur-2xl" />
@@ -24,7 +24,6 @@ export function PhoneMock({ className, priority = false }: PhoneMockProps) {
             src={ASSETS.screenshot}
             alt={`${APP_NAME} app screenshot`}
             fill
-            className="object-cover"
             sizes="(max-width: 768px) 70vw, 360px"
             priority={priority}
           />
