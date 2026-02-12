@@ -1,10 +1,14 @@
 import type { Metadata } from 'next';
 import fs from 'node:fs';
 import path from 'node:path';
+import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
+import { ArrowLeft } from 'lucide-react';
 import { APP_NAME, ASSETS, SITE_URL } from '@/src/config/brand';
-import { requireLocale } from '@/src/lib/i18n';
+import { getMessages, requireLocale } from '@/src/lib/i18n';
 import type { Locale } from '@/src/config/i18n';
+import { buttonVariants } from '@/components/ui/button';
+import { cn } from '@/lib/cn';
 
 export async function generateMetadata({
   params,
@@ -47,14 +51,22 @@ export async function generateMetadata({
 
 export default async function ChangelogPage({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale: localeParam } = await params;
-  requireLocale(localeParam);
+  const locale = requireLocale(localeParam);
+  const messages = getMessages(locale);
   const filePath = path.join(process.cwd(), 'src', 'content', 'changelog.md');
   const markdown = fs.readFileSync(filePath, 'utf-8');
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white via-white to-primary-50 dark:from-slate-950 dark:via-slate-950 dark:to-slate-900">
       <div className="border-b border-white/50 bg-white/90 backdrop-blur dark:border-white/10 dark:bg-slate-950/90">
-        <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+          <Link
+            href={`/${locale}`}
+            className={cn(buttonVariants({ variant: 'ghost', size: 'sm' }), 'mb-4 inline-flex')}
+          >
+            <ArrowLeft className="h-4 w-4" />
+            {messages.common.back}
+          </Link>
           <h1 className="text-3xl font-semibold text-gray-900 dark:text-white sm:text-4xl">Changelog</h1>
           <p className="mt-2 text-sm text-gray-600 dark:text-slate-300">Latest updates and improvements.</p>
         </div>
