@@ -205,7 +205,7 @@
         "themeCreator": "Custom theme creator",
         "presets": "Unlimited theme presets",
         "perSectionStyle": "Per-section style overrides",
-        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
+        "advancedColors": "52 places with color customization (Search bar, Sections, Widget, Bottom panel)",
         "searchbarColors": "Search bar colors (7 × Light/Dark)",
         "sectionColors": "Section colors (7 × Light/Dark)",
         "itemIconColors": "Item icon colors (2 × Light/Dark)",

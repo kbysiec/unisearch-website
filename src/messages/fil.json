@@ -186,7 +186,7 @@
         "modes": "Light at dark mode",
         "basicAnimations": "Pangunahing animation (fade/slide)",
         "providersPreset": "Preset na mga search provider (Google, DuckDuckGo, atl.)",
-        "providersToggle": "Paganahin/paganahin ang mga provider",
+        "providersToggle": "Paganahin/huwag paganahin ang mga provider",
         "providersAlwaysShow": "\"Laging ipakita\" na switch ng provider",
         "customSection": "1 libreng custom na seksyon (walang sorting)",
         "analytics": "Pangunahing analytics (opt-in)",
@@ -290,7 +290,7 @@
       },
       {
         "q": "Kinakailangan ba ang AI?",
-        "a": "Hindi. Ang AI prompt ay opsyonal at maaaring paganahin."
+        "a": "Hindi. Ang AI prompt ay opsyonal at maaaring huwag paganahin."
       },
       {
         "q": "Paano ako makipag-ugnayan sa suporta?",
@@ -394,7 +394,7 @@
         "title": "Paggamit ng app",
         "body": [
           "Gamitin ang UniSearch alinsunod sa lokal na batas at patakaran ng platform.",
-          "Huwag salitain ang app para sa iligal na mga gawain."
+          "Huwag abusuhin ang app para sa iligal na mga gawain."
         ]
       },
       "purchases": {

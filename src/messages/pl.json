@@ -205,7 +205,7 @@
         "themeCreator": "Custom theme creator",
         "presets": "Tworzenie i zapisywanie własnych presetów",
         "perSectionStyle": "Indywidualny styl per sekcja (Section Style Overrides)",
-        "advancedColors": "52 miejsca z mozliwoscia zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
+        "advancedColors": "52 miejsca z możliwością zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
         "searchbarColors": "SearchBar: 7 kolorów × Light/Dark",
         "sectionColors": "Sekcje: 7 kolorów × Light/Dark",
         "itemIconColors": "Ikony elementów: 2 kolory × Light/Dark",
@@ -432,7 +432,7 @@
         "description": "Google, DuckDuckGo i inne popularne źródła."
       },
       {
-        "title": "Włącz / wyłącz",
+        "title": "Włącz/wyłącz",
         "description": "Pełna kontrola nad tym, które źródła są aktywne."
       },
       {

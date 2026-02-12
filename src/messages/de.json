@@ -59,7 +59,7 @@
       },
       "actions": {
         "title": "Aktionen & Verknüpfungen",
-        "description": "Starten Sie Aktionen, Deep Links und kuratierte Verknüpfungen."
+        "description": "Starte Aktionen, Deep Links und kuratierte Verknüpfungen."
       },
       "files": {
         "title": "Dateien & Medien",
@@ -67,7 +67,7 @@
       },
       "contacts": {
         "title": "Kontakte",
-        "description": "Rufen Sie an, senden Sie Nachrichten oder öffnen Sie verknüpfte Apps sofort."
+        "description": "Rufe an, sende Nachrichten oder öffne verknüpfte Apps sofort."
       },
       "calculator": {
         "title": "Taschenrechner",
@@ -95,7 +95,7 @@
       "actions": {
         "shortcuts": "App-Verknüpfungen und Deep Links",
         "system": "Systemaktionen und Einstellungssuche",
-        "workflow": "Starten Sie vom Assistenten, Widget oder Quick Settings"
+        "workflow": "Starte vom Assistenten, Widget oder Quick Settings"
       },
       "files": {
         "documents": "Dokumente, Bilder, Videos, Musik",

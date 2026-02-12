@@ -3,16 +3,16 @@ import fs from 'node:fs';
 import path from 'node:path';
 import ReactMarkdown from 'react-markdown';
 import { APP_NAME, ASSETS, SITE_URL } from '@/src/config/brand';
-import { getMessages, requireLocale } from '@/src/lib/i18n';
+import { requireLocale } from '@/src/lib/i18n';
 import type { Locale } from '@/src/config/i18n';
 
 export async function generateMetadata({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const locale = requireLocale(params.locale);
-  const messages = getMessages(locale);
+  const { locale: localeParam } = await params;
+  const locale = requireLocale(localeParam);
   const title = `Changelog · ${APP_NAME}`;
   const description = 'Release notes and improvements for UniSearch.';
   const url = `${SITE_URL}/${locale}/changelog`;
@@ -45,8 +45,9 @@ export async function generateMetadata({
   };
 }
 
-export default function ChangelogPage({ params }: { params: { locale: Locale } }) {
-  const locale = requireLocale(params.locale);
+export default async function ChangelogPage({ params }: { params: Promise<{ locale: Locale }> }) {
+  const { locale: localeParam } = await params;
+  requireLocale(localeParam);
   const filePath = path.join(process.cwd(), 'src', 'content', 'changelog.md');
   const markdown = fs.readFileSync(filePath, 'utf-8');
 
