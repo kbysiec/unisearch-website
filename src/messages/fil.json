@@ -223,7 +223,6 @@
         "widgetLeadingIcon": "Widget leading icon picker",
         "unlimitedSections": "Walang hanggang custom na mga seksyon (Libre: 1)",
         "dragDropSections": "Drag & drop section reorder",
-        "customItems": "Custom na mga item: App, Action, Contact, File, Setting",
         "reorderItems": "Muling ayusin ang mga item",
         "sectionIconColors": "Mga kulay ng section icon (Light/Dark)",
         "pinnedItems": "Mga pinned item",

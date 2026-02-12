@@ -72,7 +72,6 @@ export const freeProContent = {
       "freePro.pro.items.widgetLeadingIcon",
       "freePro.pro.items.unlimitedSections",
       "freePro.pro.items.dragDropSections",
-      "freePro.pro.items.customItems",
       "freePro.pro.items.reorderItems",
       "freePro.pro.items.sectionIconColors",
       "freePro.pro.items.pinnedItems",
