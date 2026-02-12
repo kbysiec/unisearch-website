@@ -36,9 +36,9 @@ export function Reveal({ children, delay = 0, direction = 'up', className, immed
           x: 0,
         },
         transition: {
-          duration: 0.5,
+          duration: 0.8,
           delay,
-          ease: [0.22, 1, 0.36, 1],
+          ease: [0.16, 1, 0.3, 1],
         },
       }
     : {
