@@ -7,7 +7,21 @@
       "Bash(mkdir:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(convert:*)",
+      "Bash(rsvg-convert:*)",
+      "Bash(magick:*)",
+      "Bash(ls:*)",
+      "Bash(identify:*)",
+      "Bash(python3:*)",
+      "Bash(npm run dev:*)",
+      "Bash(grep:*)",
+      "Bash(for f in src/messages/*.json)",
+      "Bash(do grep -q '\"\"notificationListener\"\"' \"$f\")",
+      "Bash(done)",
+      "Bash(do grep -q '\"\"basicAnimations\"\"' \"$f\")",
+      "Bash(cat:*)",
+      "Bash(node -e:*)"
     ]
   }
 }

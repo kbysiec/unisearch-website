@@ -22,8 +22,8 @@ export function Hero({ messages }: HeroProps) {
   return (
     <section className="relative overflow-hidden pb-28 pt-28 sm:pt-32">
       <div className="absolute inset-0 -z-10">
-        <div className="absolute left-[-20%] top-[-10%] h-[420px] w-[420px] rounded-full bg-primary-200/50 blur-3xl" />
-        <div className="absolute right-[-10%] top-[10%] h-[360px] w-[360px] rounded-full bg-primary-400/30 blur-3xl" />
+        <div className="absolute left-[-20%] top-[-10%] h-[420px] w-[420px] rounded-full bg-primary-200/50 blur-2xl md:blur-3xl" style={{ willChange: 'transform' }} />
+        <div className="absolute right-[-10%] top-[10%] h-[360px] w-[360px] rounded-full bg-primary-400/30 blur-2xl md:blur-3xl" style={{ willChange: 'transform' }} />
       </div>
 
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">

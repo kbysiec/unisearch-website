@@ -163,7 +163,6 @@
         "entryPoints": "Spustenie z Asistenta, widgetu alebo Rýchleho nastavenia",
         "quickSettings": "Dlaždica Rýchleho nastavenia",
         "assistantRole": "Podpora úlohy Asistenta",
-        "notificationListener": "Podpora NotificationListenerService",
         "searchBarPosition": "Pozícia vyhľadávacieho poľa (hore/dole)",
         "layout": "Rozloženie aplikácie (mriežka/zoznam)",
         "gridColumns": "Stĺpce mriežky (4–6)",
@@ -184,12 +183,10 @@
         "fileTypes": "Typy súborov (7 typov)",
         "freeThemes": "2 bezplatné témy: UniSearch + Vysoký kontrast",
         "modes": "Svetlý a tmavý režim",
-        "basicAnimations": "Základné animácie (fade/slide)",
-        "providersPreset": "Prednastavení poskytovatelia vyhľadávania (Google, DuckDuckGo atd.)",
+        "providersPreset": "Prednastavení poskytovatelia vyhľadávania (Google, YouTube, ChatGPT, atd.)",
         "providersToggle": "Povolenie/zakázanie poskytovateľov",
         "providersAlwaysShow": "Prepínač \"Vždy zobraziť\" poskytovatela",
         "customSection": "1 bezplatná vlastná sekcia (bez usporiadania)",
-        "analytics": "Základná analytika (voliteľne)",
         "privacy": "Režim súkromia",
         "languages": "Preklad do 25 jazykových variantov",
         "sponsored": "Sponzorované sekcie (nativní reklamy)"
@@ -379,9 +376,7 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": [
-          "Ak máte otázky, kontaktujte nás: contact@webybox.com"
-        ]
+        "body": ["Ak máte otázky, kontaktujte nás: contact@webybox.com"]
       }
     }
   },
@@ -413,9 +408,7 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": [
-          "Máte otázky? Kontaktujte nás cez email."
-        ]
+        "body": ["Máte otázky? Kontaktujte nás cez email."]
       }
     }
   },

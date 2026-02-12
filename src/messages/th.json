@@ -163,7 +163,6 @@
         "entryPoints": "เปิดจาก Assistant วิดเจ็ต หรือ Quick Settings",
         "quickSettings": "ไทล์ Quick Settings",
         "assistantRole": "สนับสนุนบทบาท Assistant",
-        "notificationListener": "สนับสนุน NotificationListenerService",
         "searchBarPosition": "ตำแหน่งแถบค้นหา (บน/ล่าง)",
         "layout": "เค้าโครงแอป (กริด/รายการ)",
         "gridColumns": "คอลัมน์กริด (4–6)",
@@ -184,12 +183,10 @@
         "fileTypes": "ประเภทไฟล์ (7 ประเภท)",
         "freeThemes": "2 ธีมฟรี UniSearch + High Contrast",
         "modes": "โหมดสว่างและมืด",
-        "basicAnimations": "ภาพเคลื่อนไหวพื้นฐาน (จางหาย/เลื่อน)",
-        "providersPreset": "ผู้ให้บริการค้นหาที่ตั้งไว้ล่วงหน้า (Google DuckDuckGo เป็นต้น)",
+        "providersPreset": "ผู้ให้บริการค้นหาที่ตั้งไว้ล่วงหน้า (Google YouTube ChatGPT เป็นต้น)",
         "providersToggle": "เปิด/ปิดใช้งานผู้ให้บริการ",
         "providersAlwaysShow": "สวิตช์ผู้ให้บริการ \"แสดงเสมอ\"",
         "customSection": "1 ส่วนที่กำหนดเองฟรี (ไม่มีการเรียงลำดับ)",
-        "analytics": "การวิเคราะห์พื้นฐาน (เลือกใช้)",
         "privacy": "โหมดความเป็นส่วนตัว",
         "languages": "รองรับการแปล 25 รูปแบบภาษา",
         "sponsored": "ส่วนที่ได้รับการสนับสนุน (Native Ads)"
@@ -379,9 +376,7 @@
       },
       "contact": {
         "title": "ติดต่อ",
-        "body": [
-          "หากคุณมีคำถามให้ติดต่อ contact@webybox.com"
-        ]
+        "body": ["หากคุณมีคำถามให้ติดต่อ contact@webybox.com"]
       }
     }
   },
@@ -413,9 +408,7 @@
       },
       "contact": {
         "title": "ติดต่อ",
-        "body": [
-          "มีคำถาม? ติดต่อผ่านอีเมล"
-        ]
+        "body": ["มีคำถาม? ติดต่อผ่านอีเมล"]
       }
     }
   },

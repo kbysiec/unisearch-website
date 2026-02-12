@@ -163,7 +163,6 @@
         "entryPoints": "Lansați din Asistent, widget sau Setări rapide",
         "quickSettings": "Țiglă Setări rapide",
         "assistantRole": "Suport rol Asistent",
-        "notificationListener": "Suport NotificationListenerService",
         "searchBarPosition": "Poziția barei de căutare (sus/jos)",
         "layout": "Aspectul aplicației (grilă/listă)",
         "gridColumns": "Coloane grilă (4–6)",
@@ -184,12 +183,10 @@
         "fileTypes": "Tipuri fișiere (7 tipuri)",
         "freeThemes": "2 teme gratuite: UniSearch + Contrast înalt",
         "modes": "Mod luminos și întunecat",
-        "basicAnimations": "Animații de bază (fade/slide)",
-        "providersPreset": "Furnizori de căutare presetați (Google, DuckDuckGo, etc.)",
+        "providersPreset": "Furnizori de căutare presetați (Google, YouTube, ChatGPT, etc.)",
         "providersToggle": "Activați/dezactivați furnizorii",
         "providersAlwaysShow": "Comutator furnizor \"Afișați întotdeauna\"",
         "customSection": "1 secțiune personalizată gratuită (fără sortare)",
-        "analytics": "Analitica de bază (opt-in)",
         "privacy": "Modul confidențialitate",
         "languages": "Traducere în 25 de variante lingvistice",
         "sponsored": "Secțiuni sponsorizate (Anunțuri native)"
@@ -379,9 +376,7 @@
       },
       "contact": {
         "title": "Contact",
-        "body": [
-          "Dacă aveți întrebări, contactați-ne: contact@webybox.com"
-        ]
+        "body": ["Dacă aveți întrebări, contactați-ne: contact@webybox.com"]
       }
     }
   },
@@ -413,9 +408,7 @@
       },
       "contact": {
         "title": "Contact",
-        "body": [
-          "Întrebări? Contactați-ne prin e-mail."
-        ]
+        "body": ["Întrebări? Contactați-ne prin e-mail."]
       }
     }
   },

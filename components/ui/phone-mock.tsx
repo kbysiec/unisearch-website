@@ -22,12 +22,13 @@ export function PhoneMock({ className, priority = false }: PhoneMockProps) {
       style={{
         perspective: '1000px',
         animation: 'float 4.5s ease-in-out infinite',
+        willChange: 'transform',
       }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {/* Glow effect */}
-      <div className="absolute -inset-8 rounded-[56px] bg-gradient-to-br from-primary-400/30 via-primary-200/20 to-primary-500/30 opacity-60 blur-3xl" />
+      {/* Glow effect - hidden on mobile for performance */}
+      <div className="absolute -inset-8 hidden rounded-[56px] bg-gradient-to-br from-primary-400/30 via-primary-200/20 to-primary-500/30 opacity-60 blur-3xl md:block" />
 
       {/* Phone container with 3D transform */}
       <div
@@ -38,6 +39,7 @@ export function PhoneMock({ className, priority = false }: PhoneMockProps) {
             ? 'rotateY(0deg) rotateX(0deg)'
             : 'rotateY(-8deg) rotateX(2deg)',
           transition: 'transform 700ms ease-out',
+          willChange: 'transform',
         }}
       >
         {/* Phone frame - outer metallic bezel */}

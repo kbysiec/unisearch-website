@@ -163,7 +163,6 @@
         "entryPoints": "Ejecutar desde Asistente, widget o Configuración rápida",
         "quickSettings": "Mosaico de Configuración rápida",
         "assistantRole": "Soporte de rol de Asistente",
-        "notificationListener": "Soporte de NotificationListenerService",
         "searchBarPosition": "Posición de barra de búsqueda (arriba/abajo)",
         "layout": "Diseño de aplicación (cuadrícula/lista)",
         "gridColumns": "Columnas de cuadrícula (4–6)",
@@ -184,12 +183,10 @@
         "fileTypes": "Tipos de archivo (7 tipos)",
         "freeThemes": "2 temas gratis: UniSearch + Contraste alto",
         "modes": "Modo claro y oscuro",
-        "basicAnimations": "Animaciones básicas (fundido/deslizamiento)",
-        "providersPreset": "Proveedores de búsqueda preestablecidos (Google, DuckDuckGo, etc.)",
+        "providersPreset": "Proveedores de búsqueda preestablecidos (Google, YouTube, ChatGPT, etc.)",
         "providersToggle": "Habilitar/deshabilitar proveedores",
         "providersAlwaysShow": "Cambio de proveedor \"Mostrar siempre\"",
         "customSection": "1 sección personalizada gratis (sin ordenación)",
-        "analytics": "Análisis básico (opcional)",
         "privacy": "Modo de privacidad",
         "languages": "Traducción en 25 variantes de idioma",
         "sponsored": "Secciones patrocinadas (Anuncios nativos)"
@@ -379,9 +376,7 @@
       },
       "contact": {
         "title": "Contacto",
-        "body": [
-          "Si tienes preguntas, contacta: contact@webybox.com"
-        ]
+        "body": ["Si tienes preguntas, contacta: contact@webybox.com"]
       }
     }
   },
@@ -413,9 +408,7 @@
       },
       "contact": {
         "title": "Contacto",
-        "body": [
-          "¿Preguntas? Comunícate por correo electrónico."
-        ]
+        "body": ["¿Preguntas? Comunícate por correo electrónico."]
       }
     }
   },

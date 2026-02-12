@@ -51,9 +51,10 @@ export function Navbar({ locale, messages }: NavbarProps) {
       className={cn(
         'fixed top-0 z-50 w-full transition-colors duration-300 ease-out',
         isScrolled || isMobileOpen
-          ? 'bg-white/90 shadow-sm backdrop-blur-xl dark:bg-slate-950/90 dark:shadow-none'
+          ? 'bg-white/95 shadow-sm md:bg-white/90 md:backdrop-blur-xl dark:bg-slate-950/95 dark:shadow-none dark:md:bg-slate-950/90'
           : 'bg-transparent'
       )}
+      style={isScrolled || isMobileOpen ? { willChange: 'background-color' } : undefined}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href={`/${locale}`} className="flex items-center gap-3">
@@ -118,7 +119,7 @@ export function Navbar({ locale, messages }: NavbarProps) {
 
       <div
         className={cn(
-          'overflow-hidden border-t border-white/20 bg-white/95 backdrop-blur-xl transition-all duration-300 ease-out min-[860px]:hidden dark:border-white/10 dark:bg-slate-950/95',
+          'overflow-hidden border-t border-white/20 bg-white/98 transition-all duration-300 ease-out min-[860px]:hidden dark:border-white/10 dark:bg-slate-950/98',
           isMobileOpen ? 'max-h-[480px] opacity-100' : 'max-h-0 opacity-0'
         )}
         aria-hidden={!isMobileOpen}

@@ -163,7 +163,6 @@
         "entryPoints": "从助手、小部件或快速设置启动",
         "quickSettings": "快速设置磁贴",
         "assistantRole": "助手角色支持",
-        "notificationListener": "NotificationListenerService 支持",
         "searchBarPosition": "搜索栏位置（顶部/底部）",
         "layout": "应用布局（网格/列表）",
         "gridColumns": "网格列（4-6）",
@@ -184,12 +183,10 @@
         "fileTypes": "文件类型（7 种）",
         "freeThemes": "2 个免费主题：UniSearch + 高对比度",
         "modes": "浅色和深色模式",
-        "basicAnimations": "基本动画（淡入/滑动）",
-        "providersPreset": "预设搜索提供商（Google、DuckDuckGo 等）",
+        "providersPreset": "预设搜索提供商（Google、YouTube、ChatGPT 等）",
         "providersToggle": "启用/禁用提供商",
         "providersAlwaysShow": "\"总是显示\" 提供商开关",
         "customSection": "1 个免费自定义部分（无排序）",
-        "analytics": "基本分析（选择加入）",
         "privacy": "隐私模式",
         "languages": "支持 25 种语言变体翻译",
         "sponsored": "赞助部分（原生广告）"
@@ -379,9 +376,7 @@
       },
       "contact": {
         "title": "联系",
-        "body": [
-          "如有问题，请联系：contact@webybox.com"
-        ]
+        "body": ["如有问题，请联系：contact@webybox.com"]
       }
     }
   },
@@ -413,9 +408,7 @@
       },
       "contact": {
         "title": "联系",
-        "body": [
-          "有问题？通过电子邮件联系我们。"
-        ]
+        "body": ["有问题？通过电子邮件联系我们。"]
       }
     }
   },

@@ -163,7 +163,6 @@
         "entryPoints": "Käynnistä Assistantista, widgetista tai Quick Settingsistä",
         "quickSettings": "Quick Settings -ruutu",
         "assistantRole": "Assistant-roolin tuki",
-        "notificationListener": "NotificationListenerService-tuki",
         "searchBarPosition": "Hakupalkin sijainti (ylä/ala)",
         "layout": "Sovelluksen asettelu (ruudukko/lista)",
         "gridColumns": "Ruudukon sarakkeet (4–6)",
@@ -184,12 +183,10 @@
         "fileTypes": "Tiedostotyypit (7 tyyppiä)",
         "freeThemes": "2 ilmaista teemaa: UniSearch + Korkea kontrasti",
         "modes": "Vaalea ja tumma tila",
-        "basicAnimations": "Perusanimaatiot (häivytys/liike)",
-        "providersPreset": "Ennalta määritetyt hakupalvelut (Google, DuckDuckGo, jne.)",
+        "providersPreset": "Ennalta määritetyt hakupalvelut (Google, YouTube, ChatGPT, jne.)",
         "providersToggle": "Ota käyttöön/poista käytöstä palvelut",
         "providersAlwaysShow": "\"Näytä aina\" -palvelun kytkin",
         "customSection": "1 ilmainen mukautettu osio (ei lajittelua)",
-        "analytics": "Perusanalytiikka (opt-in)",
         "privacy": "Yksityisyystila",
         "languages": "Käännös 25 kieliversioon",
         "sponsored": "Sponsoroidut osat (Native Ads)"
@@ -379,9 +376,7 @@
       },
       "contact": {
         "title": "Ota yhteyttä",
-        "body": [
-          "Jos sinulla on kysymyksiä, ota yhteyttä: contact@webybox.com"
-        ]
+        "body": ["Jos sinulla on kysymyksiä, ota yhteyttä: contact@webybox.com"]
       }
     }
   },
@@ -413,9 +408,7 @@
       },
       "contact": {
         "title": "Ota yhteyttä",
-        "body": [
-          "Kysymyksiä? Ota yhteyttä sähköpostilla."
-        ]
+        "body": ["Kysymyksiä? Ota yhteyttä sähköpostilla."]
       }
     }
   },

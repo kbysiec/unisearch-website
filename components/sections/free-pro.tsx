@@ -30,7 +30,7 @@ export function FreePro({ messages }: FreeProProps) {
 
         <div className="mt-12 grid gap-6 lg:grid-cols-2">
           <Reveal>
-            <div className="flex h-full flex-col gap-5 rounded-3xl border border-white/70 bg-white/80 p-6 shadow-[0_20px_60px_-40px_rgba(15,103,190,0.45)] backdrop-blur ring-1 ring-primary-200/40 dark:border-white/10 dark:bg-slate-900/70">
+            <div className="flex h-full flex-col gap-5 rounded-3xl border border-white/70 bg-white/95 p-6 shadow-[0_20px_60px_-40px_rgba(15,103,190,0.45)] ring-1 ring-primary-200/40 md:bg-white/80 md:backdrop-blur dark:border-white/10 dark:bg-slate-900/90 dark:md:bg-slate-900/70">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
                   <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary-100 text-primary-700 shadow-[0_8px_20px_-10px_rgba(23,158,255,0.7)] dark:bg-primary-500/20 dark:text-primary-200">

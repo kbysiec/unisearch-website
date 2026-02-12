@@ -163,7 +163,6 @@
         "entryPoints": "Asistan, widget veya Hızlı Ayarlardan başlatın",
         "quickSettings": "Hızlı Ayarlar döşemesi",
         "assistantRole": "Asistan rol desteği",
-        "notificationListener": "NotificationListenerService desteği",
         "searchBarPosition": "Arama çubuğu konumu (üst/alt)",
         "layout": "Uygulama düzeni (ızgara/liste)",
         "gridColumns": "Izgara sütunları (4–6)",
@@ -184,12 +183,10 @@
         "fileTypes": "Dosya türleri (7 tür)",
         "freeThemes": "2 ücretsiz tema: UniSearch + Yüksek Kontrast",
         "modes": "Açık ve koyu mod",
-        "basicAnimations": "Temel animasyonlar (solma/kaydırma)",
-        "providersPreset": "Ön ayarlı arama sağlayıcıları (Google, DuckDuckGo, vb.)",
+        "providersPreset": "Ön ayarlı arama sağlayıcıları (Google, YouTube, ChatGPT,, vb.)",
         "providersToggle": "Sağlayıcıları etkinleştir/devre dışı bırak",
         "providersAlwaysShow": "\"Her zaman göster\" sağlayıcı değiştirme",
         "customSection": "1 ücretsiz özel bölüm (sıralama yok)",
-        "analytics": "Temel analitikler (kabul etme)",
         "privacy": "Gizlilik modu",
         "languages": "25 dil varyantına çeviri",
         "sponsored": "Sponsorlu bölümler (Yerel Reklamlar)"
@@ -379,9 +376,7 @@
       },
       "contact": {
         "title": "İletişim",
-        "body": [
-          "Soruların varsa, iletişime geçin: contact@webybox.com"
-        ]
+        "body": ["Soruların varsa, iletişime geçin: contact@webybox.com"]
       }
     }
   },
@@ -413,9 +408,7 @@
       },
       "contact": {
         "title": "İletişim",
-        "body": [
-          "Sorular mı var? E-posta yoluyla bize ulaşın."
-        ]
+        "body": ["Sorular mı var? E-posta yoluyla bize ulaşın."]
       }
     }
   },

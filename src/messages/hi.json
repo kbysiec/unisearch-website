@@ -163,7 +163,6 @@
         "entryPoints": "सहायक, विजेट या त्वरित सेटिंग्स से लॉन्च करें",
         "quickSettings": "त्वरित सेटिंग्स टाइल",
         "assistantRole": "सहायक भूमिका समर्थन",
-        "notificationListener": "NotificationListenerService समर्थन",
         "searchBarPosition": "खोज बार स्थिति (ऊपर/नीचे)",
         "layout": "ऐप लेआउट (ग्रिड/सूची)",
         "gridColumns": "ग्रिड कॉलम (4–6)",
@@ -184,12 +183,10 @@
         "fileTypes": "फ़ाइल प्रकार (7 प्रकार)",
         "freeThemes": "2 मुक्त थीम: UniSearch + उच्च विपरीतता",
         "modes": "हल्का और गहरा मोड",
-        "basicAnimations": "बुनियादी एनिमेशन (फीका/स्लाइड)",
-        "providersPreset": "पूर्व निर्धारित खोज प्रदाता (Google, DuckDuckGo, आदि)",
+        "providersPreset": "पूर्व निर्धारित खोज प्रदाता (Google, YouTube, ChatGPT, आदि)",
         "providersToggle": "प्रदाता सक्षम/अक्षम करें",
         "providersAlwaysShow": "\"हमेशा दिखाएं\" प्रदाता स्विच",
         "customSection": "1 मुक्त कस्टम सेक्शन (कोई सॉर्टिंग नहीं)",
-        "analytics": "बुनियादी विश्लेषण (ऑप्ट-इन)",
         "privacy": "गोपनीयता मोड",
         "languages": "25 भाषा रूपांतरों में अनुवाद",
         "sponsored": "प्रायोजित सेक्शन (नेटिव विज्ञापन)"
@@ -413,9 +410,7 @@
       },
       "contact": {
         "title": "संपर्क",
-        "body": [
-          "सवाल हैं? ईमेल के माध्यम से संपर्क करें।"
-        ]
+        "body": ["सवाल हैं? ईमेल के माध्यम से संपर्क करें।"]
       }
     }
   },

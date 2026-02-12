@@ -163,7 +163,6 @@
         "entryPoints": "Starta från Assistent, widget eller Snabbinställningar",
         "quickSettings": "Snabbinställningar-panel",
         "assistantRole": "Stöd för assistentroll",
-        "notificationListener": "NotificationListenerService-stöd",
         "searchBarPosition": "Sökfältposition (topp/botten)",
         "layout": "Applayout (rutnät/lista)",
         "gridColumns": "Rutnätskolumner (4–6)",
@@ -184,12 +183,10 @@
         "fileTypes": "Filtyper (7 typer)",
         "freeThemes": "2 kostnadsfria teman: UniSearch + High Contrast",
         "modes": "Ljust och mörkt läge",
-        "basicAnimations": "Grundläggande animeringar (fade/slide)",
-        "providersPreset": "Förinställda sökleverantörer (Google, DuckDuckGo, etc.)",
+        "providersPreset": "Förinställda sökleverantörer (Google, YouTube, ChatGPT, etc.)",
         "providersToggle": "Aktivera/inaktivera leverantörer",
         "providersAlwaysShow": "Växel \"Visa alltid\" leverantör",
         "customSection": "1 gratis anpassad sektion (ingen sortering)",
-        "analytics": "Grundläggande analys (opt-in)",
         "privacy": "Sekretessläge",
         "languages": "Översättning till 25 språkvarianter",
         "sponsored": "Sponsrade sektioner (inbyggda annonser)"
@@ -379,9 +376,7 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": [
-          "Om du har frågor, kontakta: contact@webybox.com"
-        ]
+        "body": ["Om du har frågor, kontakta: contact@webybox.com"]
       }
     }
   },
@@ -413,9 +408,7 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": [
-          "Frågor? Kontakta oss via e-post."
-        ]
+        "body": ["Frågor? Kontakta oss via e-post."]
       }
     }
   },

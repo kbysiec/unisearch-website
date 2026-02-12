@@ -163,7 +163,6 @@
         "entryPoints": "Starten vom Assistenten, Widget oder Quick Settings",
         "quickSettings": "Quick Settings Kachel",
         "assistantRole": "Assistentenrolle-Unterstützung",
-        "notificationListener": "NotificationListenerService-Unterstützung",
         "searchBarPosition": "Suchleistenposition (oben/unten)",
         "layout": "App-Layout (Gitter/Liste)",
         "gridColumns": "Gitterspalten (4–6)",
@@ -184,12 +183,10 @@
         "fileTypes": "Dateitypen (7 Typen)",
         "freeThemes": "2 kostenlose Designs: UniSearch + High Contrast",
         "modes": "Hell- und Dunkelmodus",
-        "basicAnimations": "Grundlegende Animationen (Fade/Slide)",
-        "providersPreset": "Vordefinierte Suchanbieter (Google, DuckDuckGo, etc.)",
+        "providersPreset": "Vordefinierte Suchanbieter (Google, YouTube, ChatGPT, etc.)",
         "providersToggle": "Anbieter aktivieren/deaktivieren",
         "providersAlwaysShow": "\"Immer anzeigen\" Anbieter-Schalter",
         "customSection": "1 kostenloser benutzerdefinierter Abschnitt (keine Sortierung)",
-        "analytics": "Grundlegende Analytik (Opt-in)",
         "privacy": "Datenschutzmodus",
         "languages": "Übersetzung in 25 Sprachvarianten",
         "sponsored": "Gesponserte Abschnitte (Native Ads)"
@@ -379,9 +376,7 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": [
-          "Wenn du Fragen hast, kontaktiere: contact@webybox.com"
-        ]
+        "body": ["Wenn du Fragen hast, kontaktiere: contact@webybox.com"]
       }
     }
   },
@@ -413,9 +408,7 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": [
-          "Fragen? Kontaktiere uns per E-Mail."
-        ]
+        "body": ["Fragen? Kontaktiere uns per E-Mail."]
       }
     }
   },

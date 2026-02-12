@@ -39,7 +39,7 @@ export function HowItWorks({ messages }: HowItWorksProps) {
           <div className="grid gap-8 lg:grid-cols-3">
             {howItWorksSteps.map((step, index) => (
               <Reveal key={step.id} delay={index * 0.1}>
-                <div className="flex h-full flex-col gap-4 rounded-3xl border border-white/60 bg-white/80 p-6 shadow-sm backdrop-blur dark:border-white/10 dark:bg-slate-900/70">
+                <div className="flex h-full flex-col gap-4 rounded-3xl border border-white/60 bg-white/95 p-6 shadow-sm md:bg-white/80 md:backdrop-blur dark:border-white/10 dark:bg-slate-900/90 dark:md:bg-slate-900/70">
                   <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary-100 text-sm font-semibold text-primary-700 dark:bg-primary-500/20 dark:text-primary-200">
                     {index + 1}
                   </div>

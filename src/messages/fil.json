@@ -163,7 +163,6 @@
         "entryPoints": "Ilunsad mula sa Assistant, widget, o Quick Settings",
         "quickSettings": "Quick Settings tile",
         "assistantRole": "Assistant role support",
-        "notificationListener": "NotificationListenerService support",
         "searchBarPosition": "Posisyon ng search bar (itaas/ibaba)",
         "layout": "App layout (grid/list)",
         "gridColumns": "Mga column ng grid (4–6)",
@@ -184,12 +183,10 @@
         "fileTypes": "Mga uri ng file (7 uri)",
         "freeThemes": "2 libreng tema: UniSearch + High Contrast",
         "modes": "Light at dark mode",
-        "basicAnimations": "Pangunahing animation (fade/slide)",
-        "providersPreset": "Preset na mga search provider (Google, DuckDuckGo, atl.)",
+        "providersPreset": "Preset na mga search provider (Google, YouTube, ChatGPT, atl.)",
         "providersToggle": "Paganahin/huwag paganahin ang mga provider",
         "providersAlwaysShow": "\"Laging ipakita\" na switch ng provider",
         "customSection": "1 libreng custom na seksyon (walang sorting)",
-        "analytics": "Pangunahing analytics (opt-in)",
         "privacy": "Privacy mode",
         "languages": "Pagsasalin sa 25 baryant ng wika",
         "sponsored": "Sponsored na mga seksyon (Native Ads)"
@@ -413,9 +410,7 @@
       },
       "contact": {
         "title": "Makipag-ugnayan",
-        "body": [
-          "Mga tanong? Makipag-ugnayan sa pamamagitan ng email."
-        ]
+        "body": ["Mga tanong? Makipag-ugnayan sa pamamagitan ng email."]
       }
     }
   },

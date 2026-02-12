@@ -15,7 +15,7 @@ export function Footer({ locale, messages, showTerms = true }: FooterProps) {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-white/30 bg-white/70 py-12 backdrop-blur dark:border-white/10 dark:bg-slate-950/80">
+    <footer className="border-t border-white/30 bg-white/95 py-12 md:bg-white/70 md:backdrop-blur dark:border-white/10 dark:bg-slate-950/95 dark:md:bg-slate-950/80">
       <div className="mx-auto flex max-w-7xl flex-col gap-8 px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap items-center justify-between gap-6">
           <div>

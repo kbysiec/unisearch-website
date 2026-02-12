@@ -163,7 +163,6 @@
         "entryPoints": "Luncurkan dari Asisten, widget, atau Pengaturan Cepat",
         "quickSettings": "Ubin Pengaturan Cepat",
         "assistantRole": "Dukungan peran Asisten",
-        "notificationListener": "Dukungan NotificationListenerService",
         "searchBarPosition": "Posisi bilah pencarian (atas/bawah)",
         "layout": "Tata letak aplikasi (kisi/daftar)",
         "gridColumns": "Kolom kisi (4–6)",
@@ -184,12 +183,10 @@
         "fileTypes": "Jenis file (7 jenis)",
         "freeThemes": "2 tema gratis: UniSearch + Kontras Tinggi",
         "modes": "Mode terang dan gelap",
-        "basicAnimations": "Animasi dasar (fade/slide)",
-        "providersPreset": "Penyedia pencarian preset (Google, DuckDuckGo, dll.)",
+        "providersPreset": "Penyedia pencarian preset (Google, YouTube, ChatGPT,, dll.)",
         "providersToggle": "Aktifkan/nonaktifkan penyedia",
         "providersAlwaysShow": "Tombol penyedia \"Selalu tampilkan\"",
         "customSection": "1 bagian kustom gratis (tanpa pengurutan)",
-        "analytics": "Analitik dasar (opt-in)",
         "privacy": "Mode privasi",
         "languages": "Terjemahan ke 25 varian bahasa",
         "sponsored": "Bagian bersponsor (Iklan Asli)"
@@ -379,9 +376,7 @@
       },
       "contact": {
         "title": "Kontak",
-        "body": [
-          "Jika Anda memiliki pertanyaan, hubungi: contact@webybox.com"
-        ]
+        "body": ["Jika Anda memiliki pertanyaan, hubungi: contact@webybox.com"]
       }
     }
   },
@@ -413,9 +408,7 @@
       },
       "contact": {
         "title": "Kontak",
-        "body": [
-          "Pertanyaan? Hubungi kami melalui email."
-        ]
+        "body": ["Pertanyaan? Hubungi kami melalui email."]
       }
     }
   },

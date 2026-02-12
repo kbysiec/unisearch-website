@@ -163,7 +163,6 @@
         "entryPoints": "Indítsd el az Asszisztenst, widgetet vagy a Gyors beállításokat",
         "quickSettings": "Gyors beállítások csempe",
         "assistantRole": "Asszisztens szereptámogatás",
-        "notificationListener": "NotificationListenerService támogatás",
         "searchBarPosition": "Keresősáv helyzete (felül/lent)",
         "layout": "Alkalmazás elrendezés (rács/lista)",
         "gridColumns": "Rács oszlopok (4–6)",
@@ -184,12 +183,10 @@
         "fileTypes": "Fájltípusok (7 típus)",
         "freeThemes": "2 ingyenes téma: UniSearch + Magas kontraszt",
         "modes": "Világos és sötét mód",
-        "basicAnimations": "Alapvető animációk (elmosódás/csúsztatás)",
-        "providersPreset": "Előre beállított keresési szolgáltatók (Google, DuckDuckGo stb.)",
+        "providersPreset": "Előre beállított keresési szolgáltatók (Google, YouTube, ChatGPT, stb.)",
         "providersToggle": "Szolgáltatók engedélyezése/letiltása",
         "providersAlwaysShow": "\"Mindig mutasd\" szolgáltató kapcsoló",
         "customSection": "1 ingyenes egyéni szekció (nincs rendezés)",
-        "analytics": "Alapvető analitika (önkéntes)",
         "privacy": "Adatvédelem mód",
         "languages": "Fordítás 25 nyelvi változatban",
         "sponsored": "Szponzorált szekciók (Natív hirdetések)"
@@ -413,9 +410,7 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": [
-          "Kérdéseid vannak? Vedd fel a kapcsolatot e-mailben."
-        ]
+        "body": ["Kérdéseid vannak? Vedd fel a kapcsolatot e-mailben."]
       }
     }
   },

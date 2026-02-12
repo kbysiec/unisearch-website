@@ -163,7 +163,6 @@
         "entryPoints": "Assistant、ウィジェット、またはクイック設定から起動",
         "quickSettings": "クイック設定タイル",
         "assistantRole": "Assistantロールサポート",
-        "notificationListener": "NotificationListenerServiceサポート",
         "searchBarPosition": "検索バーの位置（上/下）",
         "layout": "アプリレイアウト（グリッド/リスト）",
         "gridColumns": "グリッド列（4～6）",
@@ -184,12 +183,10 @@
         "fileTypes": "ファイルタイプ（7タイプ）",
         "freeThemes": "2つの無料テーマ: UniSearch + ハイコントラスト",
         "modes": "ライトモードとダークモード",
-        "basicAnimations": "基本的なアニメーション（フェード/スライド）",
-        "providersPreset": "プリセット検索プロバイダー（Google、DuckDuckGoなど）",
+        "providersPreset": "プリセット検索プロバイダー（Google、YouTube、ChatGPTなど）",
         "providersToggle": "プロバイダーの有効/無効を切り替え",
         "providersAlwaysShow": "\"常に表示\"プロバイダースイッチ",
         "customSection": "1つの無料カスタムセクション（ソートなし）",
-        "analytics": "基本的な分析（オプトイン）",
         "privacy": "プライバシーモード",
         "languages": "25種類の言語バリエーションに翻訳",
         "sponsored": "スポンサーセクション（ネイティブ広告）"
@@ -413,9 +410,7 @@
       },
       "contact": {
         "title": "お問い合わせ",
-        "body": [
-          "ご質問がありますか? メール経由でお問い合わせください。"
-        ]
+        "body": ["ご質問がありますか? メール経由でお問い合わせください。"]
       }
     }
   },

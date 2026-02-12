@@ -163,7 +163,6 @@
         "entryPoints": "Inicie do Assistente, widget ou Configurações rápidas",
         "quickSettings": "Bloco de Configurações rápidas",
         "assistantRole": "Suporte de função de Assistente",
-        "notificationListener": "Suporte a NotificationListenerService",
         "searchBarPosition": "Posição da barra de pesquisa (superior/inferior)",
         "layout": "Layout do app (grade/lista)",
         "gridColumns": "Colunas da grade (4–6)",
@@ -184,12 +183,10 @@
         "fileTypes": "Tipos de arquivo (7 tipos)",
         "freeThemes": "2 temas gratuitos: UniSearch + Alto contraste",
         "modes": "Modo claro e escuro",
-        "basicAnimations": "Animações básicas (fade/slide)",
-        "providersPreset": "Provedores de busca predefinidos (Google, DuckDuckGo, etc.)",
+        "providersPreset": "Provedores de busca predefinidos (Google, YouTube, ChatGPT, etc.)",
         "providersToggle": "Ativar/desativar provedores",
         "providersAlwaysShow": "Comutador de provedor \"Sempre mostrar\"",
         "customSection": "1 seção personalizada gratuita (sem classificação)",
-        "analytics": "Análises básicas (com consentimento)",
         "privacy": "Modo de privacidade",
         "languages": "Tradução em 25 variantes de idioma",
         "sponsored": "Seções patrocinadas (Anúncios nativos)"
@@ -379,9 +376,7 @@
       },
       "contact": {
         "title": "Contato",
-        "body": [
-          "Se você tiver dúvidas, entre em contato: contact@webybox.com"
-        ]
+        "body": ["Se você tiver dúvidas, entre em contato: contact@webybox.com"]
       }
     }
   },
@@ -413,9 +408,7 @@
       },
       "contact": {
         "title": "Contato",
-        "body": [
-          "Tem dúvidas? Entre em contato por email."
-        ]
+        "body": ["Tem dúvidas? Entre em contato por email."]
       }
     }
   },

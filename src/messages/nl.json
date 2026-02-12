@@ -163,7 +163,6 @@
         "entryPoints": "Start vanuit Assistent, widget of Snelle instellingen",
         "quickSettings": "Snelle instellingen tegel",
         "assistantRole": "Assistentrolondersteuning",
-        "notificationListener": "NotificationListenerService-ondersteuning",
         "searchBarPosition": "Zoekbalk positie (boven/beneden)",
         "layout": "App-indeling (raster/lijst)",
         "gridColumns": "Rasterkolommen (4–6)",
@@ -184,12 +183,10 @@
         "fileTypes": "Bestandstypen (7 typen)",
         "freeThemes": "2 gratis thema's: UniSearch + High Contrast",
         "modes": "Licht- en donkere modus",
-        "basicAnimations": "Basisanimaties (fade/slide)",
-        "providersPreset": "Vooraf ingestelde zoekproviders (Google, DuckDuckGo, enz.)",
+        "providersPreset": "Vooraf ingestelde zoekproviders (Google, YouTube, ChatGPT,, enz.)",
         "providersToggle": "In-/uitschakelen providers",
         "providersAlwaysShow": "\"Altijd weergeven\" provider switch",
         "customSection": "1 gratis aangepaste sectie (geen sortering)",
-        "analytics": "Basisanalytics (opt-in)",
         "privacy": "Privacy-modus",
         "languages": "Vertaling in 25 taalvarianten",
         "sponsored": "Gesponsorde secties (Native Ads)"
@@ -379,9 +376,7 @@
       },
       "contact": {
         "title": "Contact",
-        "body": [
-          "Als je vragen hebt, neem contact op: contact@webybox.com"
-        ]
+        "body": ["Als je vragen hebt, neem contact op: contact@webybox.com"]
       }
     }
   },
@@ -413,9 +408,7 @@
       },
       "contact": {
         "title": "Contact",
-        "body": [
-          "Vragen? Neem contact per e-mail met ons op."
-        ]
+        "body": ["Vragen? Neem contact per e-mail met ons op."]
       }
     }
   },

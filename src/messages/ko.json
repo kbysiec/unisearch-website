@@ -163,7 +163,6 @@
         "entryPoints": "Assistant, 위젯 또는 빠른 설정에서 시작",
         "quickSettings": "빠른 설정 타일",
         "assistantRole": "Assistant 역할 지원",
-        "notificationListener": "NotificationListenerService 지원",
         "searchBarPosition": "검색 바 위치(위쪽/아래쪽)",
         "layout": "앱 레이아웃(그리드/목록)",
         "gridColumns": "그리드 열(4–6)",
@@ -184,12 +183,10 @@
         "fileTypes": "파일 유형(7가지)",
         "freeThemes": "2개의 무료 테마: UniSearch + 고대비",
         "modes": "밝음 및 어두움 모드",
-        "basicAnimations": "기본 애니메이션(페이드/슬라이드)",
-        "providersPreset": "사전 설정 검색 제공자(Google, DuckDuckGo 등)",
+        "providersPreset": "사전 설정 검색 제공자(Google, YouTube, ChatGPT 등)",
         "providersToggle": "제공자 활성화/비활성화",
         "providersAlwaysShow": "\"항상 표시\" 제공자 스위치",
         "customSection": "1개의 무료 사용자 정의 섹션(정렬 없음)",
-        "analytics": "기본 분석(옵트인)",
         "privacy": "개인정보 보호 모드",
         "languages": "25개 언어 변형으로 번역",
         "sponsored": "스폰서 섹션(네이티브 광고)"
@@ -379,9 +376,7 @@
       },
       "contact": {
         "title": "문의",
-        "body": [
-          "질문이 있으시면 다음으로 문의하세요: contact@webybox.com"
-        ]
+        "body": ["질문이 있으시면 다음으로 문의하세요: contact@webybox.com"]
       }
     }
   },
@@ -413,9 +408,7 @@
       },
       "contact": {
         "title": "문의",
-        "body": [
-          "질문이 있나요? 이메일로 연락하세요."
-        ]
+        "body": ["질문이 있나요? 이메일로 연락하세요."]
       }
     }
   },

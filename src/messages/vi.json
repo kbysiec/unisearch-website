@@ -163,7 +163,6 @@
         "entryPoints": "Khởi chạy từ Trợ lý, tiện ích hoặc Cài đặt nhanh",
         "quickSettings": "Gạch nhanh Cài đặt nhanh",
         "assistantRole": "Hỗ trợ vai trò Trợ lý",
-        "notificationListener": "Hỗ trợ NotificationListenerService",
         "searchBarPosition": "Vị trí thanh tìm kiếm (trên/dưới)",
         "layout": "Bố cục ứng dụng (lưới/danh sách)",
         "gridColumns": "Cột lưới (4–6)",
@@ -184,12 +183,10 @@
         "fileTypes": "Loại tệp (7 loại)",
         "freeThemes": "2 chủ đề miễn phí: UniSearch + High Contrast",
         "modes": "Chế độ sáng và tối",
-        "basicAnimations": "Hoạt ảnh cơ bản (mờ/trượt)",
-        "providersPreset": "Nhà cung cấp tìm kiếm đặt trước (Google, DuckDuckGo, v.v.)",
+        "providersPreset": "Nhà cung cấp tìm kiếm đặt trước (Google, YouTube, ChatGPT, v.v.)",
         "providersToggle": "Bật/tắt nhà cung cấp",
         "providersAlwaysShow": "Công tắc nhà cung cấp \"Luôn hiển thị\"",
         "customSection": "1 phần tùy chỉnh miễn phí (không sắp xếp)",
-        "analytics": "Phân tích cơ bản (chọn tham gia)",
         "privacy": "Chế độ riêng tư",
         "languages": "Bản dịch sang 25 biến thể ngôn ngữ",
         "sponsored": "Phần được tài trợ (Quảng cáo gốc)"
@@ -379,9 +376,7 @@
       },
       "contact": {
         "title": "Liên hệ",
-        "body": [
-          "Nếu bạn có câu hỏi, hãy liên hệ: contact@webybox.com"
-        ]
+        "body": ["Nếu bạn có câu hỏi, hãy liên hệ: contact@webybox.com"]
       }
     }
   },
@@ -413,9 +408,7 @@
       },
       "contact": {
         "title": "Liên hệ",
-        "body": [
-          "Có câu hỏi? Hãy liên hệ qua email."
-        ]
+        "body": ["Có câu hỏi? Hãy liên hệ qua email."]
       }
     }
   },

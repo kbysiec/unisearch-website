@@ -50,7 +50,7 @@ export function Features({ messages }: FeaturesProps) {
             const Icon = iconMap[group.icon as keyof typeof iconMap];
             return (
               <Reveal key={group.id} delay={index * 0.05}>
-                <div className="flex h-full flex-col gap-4 rounded-3xl border border-white/60 bg-white/80 p-6 shadow-sm backdrop-blur dark:border-white/10 dark:bg-slate-900/70">
+                <div className="flex h-full flex-col gap-4 rounded-3xl border border-white/60 bg-white/95 p-6 shadow-sm md:bg-white/80 md:backdrop-blur dark:border-white/10 dark:bg-slate-900/90 dark:md:bg-slate-900/70">
                   <div className="flex items-center gap-3">
                     <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-primary-100 text-primary-700 dark:bg-primary-500/20 dark:text-primary-200">
                       <Icon className="h-5 w-5" />

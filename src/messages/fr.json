@@ -163,7 +163,6 @@
         "entryPoints": "Lancez depuis Assistant, widget ou Paramètres rapides",
         "quickSettings": "Tuile Paramètres rapides",
         "assistantRole": "Support du rôle Assistant",
-        "notificationListener": "Support de NotificationListenerService",
         "searchBarPosition": "Position de la barre de recherche (haut/bas)",
         "layout": "Mise en page de l'application (grille/liste)",
         "gridColumns": "Colonnes de grille (4–6)",
@@ -184,12 +183,10 @@
         "fileTypes": "Types de fichiers (7 types)",
         "freeThemes": "2 thèmes gratuits : UniSearch + Contraste élevé",
         "modes": "Mode clair et sombre",
-        "basicAnimations": "Animations de base (fondu/glissement)",
-        "providersPreset": "Fournisseurs de recherche prédéfinis (Google, DuckDuckGo, etc.)",
+        "providersPreset": "Fournisseurs de recherche prédéfinis (Google, YouTube, ChatGPT, etc.)",
         "providersToggle": "Activer/désactiver les fournisseurs",
         "providersAlwaysShow": "Commutateur \"Toujours afficher\" du fournisseur",
         "customSection": "1 section personnalisée gratuite (pas de tri)",
-        "analytics": "Analytique de base (opt-in)",
         "privacy": "Mode confidentialité",
         "languages": "Traduction en 25 variantes linguistiques",
         "sponsored": "Sections sponsorisées (Annonces natives)"
@@ -379,9 +376,7 @@
       },
       "contact": {
         "title": "Contact",
-        "body": [
-          "Si vous avez des questions, contactez : contact@webybox.com"
-        ]
+        "body": ["Si vous avez des questions, contactez : contact@webybox.com"]
       }
     }
   },
@@ -413,9 +408,7 @@
       },
       "contact": {
         "title": "Contact",
-        "body": [
-          "Des questions ? Contactez-nous par e-mail."
-        ]
+        "body": ["Des questions ? Contactez-nous par e-mail."]
       }
     }
   },

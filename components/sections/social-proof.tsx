@@ -24,7 +24,7 @@ export function SocialProof({ messages }: SocialProofProps) {
             const Icon = icons[index % icons.length];
             return (
               <Reveal key={item.title} delay={index * 0.05}>
-                <div className="flex h-full flex-col gap-2 rounded-2xl border border-white/60 bg-white/70 p-5 shadow-sm backdrop-blur dark:border-white/10 dark:bg-slate-900/70">
+                <div className="flex h-full flex-col gap-2 rounded-2xl border border-white/60 bg-white/95 p-5 shadow-sm md:bg-white/70 md:backdrop-blur dark:border-white/10 dark:bg-slate-900/90 dark:md:bg-slate-900/70">
                   <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary-100 text-primary-700 dark:bg-primary-500/20 dark:text-primary-200">
                     <Icon className="h-5 w-5" />
                   </div>
