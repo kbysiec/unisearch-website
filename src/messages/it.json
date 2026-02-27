@@ -258,7 +258,9 @@
         "free": "Gratis",
         "pro": "Pro"
       }
-    }
+    },
+    "pricing": "acquisto una tantum. Nessun abbonamento",
+    "featureHeader": "Funzionalità"
   },
   "cta": {
     "title": "Pronto ad accelerare il tuo telefono?",
@@ -376,7 +378,9 @@
       },
       "contact": {
         "title": "Contatti",
-        "body": ["Se hai domande, contattaci: contact@webybox.com"]
+        "body": [
+          "Se hai domande, contattaci: contact@webybox.com"
+        ]
       }
     }
   },
@@ -408,7 +412,9 @@
       },
       "contact": {
         "title": "Contatti",
-        "body": ["Domande? Contattaci via email."]
+        "body": [
+          "Domande? Contattaci via email."
+        ]
       }
     }
   },

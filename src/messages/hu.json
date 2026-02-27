@@ -258,7 +258,9 @@
         "free": "Ingyenes",
         "pro": "Pro"
       }
-    }
+    },
+    "pricing": "egyszeri vásárlás. Nincs előfizetés",
+    "featureHeader": "Funkció"
   },
   "cta": {
     "title": "Készen állsz a telefon felgyorsítására?",
@@ -410,7 +412,9 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": ["Kérdéseid vannak? Vedd fel a kapcsolatot e-mailben."]
+        "body": [
+          "Kérdéseid vannak? Vedd fel a kapcsolatot e-mailben."
+        ]
       }
     }
   },

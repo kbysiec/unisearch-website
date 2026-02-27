@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { cn } from "@/lib/cn";
 import { APP_NAME, ASSETS } from "@/src/config/brand";
@@ -20,9 +20,9 @@ export function PhoneMock({ className, priority = false }: PhoneMockProps) {
         className,
       )}
       style={{
-        perspective: '1000px',
-        animation: 'float 4.5s ease-in-out infinite',
-        willChange: 'transform',
+        perspective: "1000px",
+        animation: "float 4.5s ease-in-out infinite",
+        willChange: "transform",
       }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -34,19 +34,19 @@ export function PhoneMock({ className, priority = false }: PhoneMockProps) {
       <div
         className="relative"
         style={{
-          transformStyle: 'preserve-3d',
+          transformStyle: "preserve-3d",
           transform: isHovered
-            ? 'rotateY(0deg) rotateX(0deg)'
-            : 'rotateY(-8deg) rotateX(2deg)',
-          transition: 'transform 700ms ease-out',
-          willChange: 'transform',
+            ? "rotateY(0deg) rotateX(0deg)"
+            : "rotateY(-8deg) rotateX(2deg)",
+          transition: "transform 700ms ease-out",
+          willChange: "transform",
         }}
       >
         {/* Phone frame - outer metallic bezel */}
         <div className="relative rounded-[44px] bg-gradient-to-br from-gray-700 via-gray-800 to-gray-900 p-[4px] shadow-[0_25px_60px_-15px_rgba(0,0,0,0.8),0_10px_25px_-8px_rgba(0,0,0,0.6)]">
           {/* Metallic frame shine */}
           <div className="pointer-events-none absolute inset-0 rounded-[44px] bg-gradient-to-br from-white/[0.15] via-transparent via-50% to-black/30" />
-          
+
           {/* Inner frame shadow for depth */}
           <div className="absolute inset-0 rounded-[44px] shadow-[inset_0_2px_12px_rgba(0,0,0,0.5),inset_0_-1px_4px_rgba(255,255,255,0.05)]" />
 
@@ -65,7 +65,7 @@ export function PhoneMock({ className, priority = false }: PhoneMockProps) {
                 src={ASSETS.screenshot}
                 alt={`${APP_NAME} app screenshot`}
                 fill
-                className="object-cover dark:hidden"
+                className="object-fill dark:hidden"
                 sizes="(max-width: 768px) 280px, 360px"
                 priority={priority}
               />
@@ -74,7 +74,7 @@ export function PhoneMock({ className, priority = false }: PhoneMockProps) {
                 src="/assets/phone_screen_dark.png"
                 alt={`${APP_NAME} app screenshot`}
                 fill
-                className="hidden object-cover dark:block"
+                className="hidden object-fill dark:block"
                 sizes="(max-width: 768px) 280px, 360px"
                 priority={priority}
               />

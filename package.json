@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-markdown-content": "node scripts/generate-markdown-content.js"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

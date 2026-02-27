@@ -22,7 +22,13 @@
       "Bash(do grep -q '\"\"basicAnimations\"\"' \"$f\")",
       "Bash(cat:*)",
       "Bash(node -e:*)",
-      "Bash(echo:*)"
+      "Bash(echo:*)",
+      "Bash(curl:*)",
+      "Bash(node scripts/generate-markdown-content.js:*)",
+      "Bash(node test-parsing.js:*)",
+      "Bash(pkill:*)",
+      "Bash(node scripts/add-pricing-translations.js:*)",
+      "Bash(node scripts/add-feature-header-translations.js:*)"
     ]
   }
 }

@@ -258,7 +258,9 @@
         "free": "Free",
         "pro": "Pro"
       }
-    }
+    },
+    "pricing": "one-time purchase. No subscriptions",
+    "featureHeader": "Feature"
   },
   "cta": {
     "title": "Ready to speed up your phone?",

@@ -258,7 +258,9 @@
         "free": "Zdarma",
         "pro": "Pro"
       }
-    }
+    },
+    "pricing": "jednorázový nákup. Bez předplatného",
+    "featureHeader": "Funkce"
   },
   "cta": {
     "title": "Jste připraveni zrychlit svůj telefon?",
@@ -376,7 +378,9 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": ["Pokud máte dotazy, kontaktujte nás: contact@webybox.com"]
+        "body": [
+          "Pokud máte dotazy, kontaktujte nás: contact@webybox.com"
+        ]
       }
     }
   },
@@ -408,7 +412,9 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": ["Máte otázky? Obraťte se na nás prostřednictvím emailu."]
+        "body": [
+          "Máte otázky? Obraťte se na nás prostřednictvím emailu."
+        ]
       }
     }
   },

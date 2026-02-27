@@ -258,7 +258,9 @@
         "free": "Ücretsiz",
         "pro": "Pro"
       }
-    }
+    },
+    "pricing": "tek seferlik satın alma. Abonelik yok",
+    "featureHeader": "Özellik"
   },
   "cta": {
     "title": "Telefonunuzu hızlandırmaya hazır mısınız?",
@@ -376,7 +378,9 @@
       },
       "contact": {
         "title": "İletişim",
-        "body": ["Soruların varsa, iletişime geçin: contact@webybox.com"]
+        "body": [
+          "Soruların varsa, iletişime geçin: contact@webybox.com"
+        ]
       }
     }
   },
@@ -408,7 +412,9 @@
       },
       "contact": {
         "title": "İletişim",
-        "body": ["Sorular mı var? E-posta yoluyla bize ulaşın."]
+        "body": [
+          "Sorular mı var? E-posta yoluyla bize ulaşın."
+        ]
       }
     }
   },

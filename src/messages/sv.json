@@ -258,7 +258,9 @@
         "free": "Gratis",
         "pro": "Pro"
       }
-    }
+    },
+    "pricing": "engångsköp. Inga prenumerationer",
+    "featureHeader": "Funktion"
   },
   "cta": {
     "title": "Redo att påskynda din telefon?",
@@ -376,7 +378,9 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": ["Om du har frågor, kontakta: contact@webybox.com"]
+        "body": [
+          "Om du har frågor, kontakta: contact@webybox.com"
+        ]
       }
     }
   },
@@ -408,7 +412,9 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": ["Frågor? Kontakta oss via e-post."]
+        "body": [
+          "Frågor? Kontakta oss via e-post."
+        ]
       }
     }
   },

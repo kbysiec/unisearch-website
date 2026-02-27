@@ -258,7 +258,9 @@
         "free": "Free",
         "pro": "Pro"
       }
-    }
+    },
+    "pricing": "jednorazowy zakup. Bez subskrypcji",
+    "featureHeader": "Funkcja"
   },
   "cta": {
     "title": "Gotowy przyspieszyć swój telefon?",

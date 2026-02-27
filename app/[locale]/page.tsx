@@ -11,6 +11,7 @@ import { CTA } from '@/components/sections/cta';
 import { APP_NAME, ASSETS, SITE_URL } from '@/src/config/brand';
 import { locales } from '@/src/config/i18n';
 import { getMessages, requireLocale } from '@/src/lib/i18n';
+import { freeProMarkdownContent } from '@/src/content/free-pro-markdown';
 
 export async function generateMetadata({
   params,
@@ -65,6 +66,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const { locale: localeParam } = await params;
   const locale = requireLocale(localeParam);
   const messages = getMessages(locale);
+  const freeProMarkdown = freeProMarkdownContent[locale] || freeProMarkdownContent['en'];
 
   return (
     <>
@@ -74,7 +76,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <SocialProof messages={messages} />
         <Features messages={messages} />
         <HowItWorks messages={messages} />
-        <FreePro messages={messages} />
+        <FreePro messages={messages} locale={locale} markdownContent={freeProMarkdown} />
         <CTA messages={messages} />
         <FAQ messages={messages} />
       </main>

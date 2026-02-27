@@ -258,7 +258,9 @@
         "free": "Gratis",
         "pro": "Pro"
       }
-    }
+    },
+    "pricing": "compra única. Sin suscripciones",
+    "featureHeader": "Característica"
   },
   "cta": {
     "title": "¿Listo para acelerar tu teléfono?",
@@ -376,7 +378,9 @@
       },
       "contact": {
         "title": "Contacto",
-        "body": ["Si tienes preguntas, contacta: contact@webybox.com"]
+        "body": [
+          "Si tienes preguntas, contacta: contact@webybox.com"
+        ]
       }
     }
   },
@@ -408,7 +412,9 @@
       },
       "contact": {
         "title": "Contacto",
-        "body": ["¿Preguntas? Comunícate por correo electrónico."]
+        "body": [
+          "¿Preguntas? Comunícate por correo electrónico."
+        ]
       }
     }
   },

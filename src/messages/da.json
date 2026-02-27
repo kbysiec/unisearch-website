@@ -258,7 +258,9 @@
         "free": "Gratis",
         "pro": "Pro"
       }
-    }
+    },
+    "pricing": "enkelt køb. Ingen abonnementer",
+    "featureHeader": "Funktion"
   },
   "cta": {
     "title": "Klar til at øge hastigheden på din telefon?",
@@ -376,7 +378,9 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": ["Hvis du har spørgsmål, skal du kontakte: contact@webybox.com"]
+        "body": [
+          "Hvis du har spørgsmål, skal du kontakte: contact@webybox.com"
+        ]
       }
     }
   },
@@ -408,7 +412,9 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": ["Spørgsmål? Kontakt os via e-mail."]
+        "body": [
+          "Spørgsmål? Kontakt os via e-mail."
+        ]
       }
     }
   },

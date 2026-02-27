@@ -258,7 +258,9 @@
         "free": "Libre",
         "pro": "Pro"
       }
-    }
+    },
+    "pricing": "isahang pagbili. Walang subscription",
+    "featureHeader": "Feature"
   },
   "cta": {
     "title": "Handa na bang pabilisin ang iyong telepono?",
@@ -410,7 +412,9 @@
       },
       "contact": {
         "title": "Makipag-ugnayan",
-        "body": ["Mga tanong? Makipag-ugnayan sa pamamagitan ng email."]
+        "body": [
+          "Mga tanong? Makipag-ugnayan sa pamamagitan ng email."
+        ]
       }
     }
   },

@@ -258,7 +258,9 @@
         "free": "Kostenlos",
         "pro": "Pro"
       }
-    }
+    },
+    "pricing": "einmaliger Kauf. Kein Abo",
+    "featureHeader": "Funktion"
   },
   "cta": {
     "title": "Bereit, dein Telefon zu beschleunigen?",
@@ -376,7 +378,9 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": ["Wenn du Fragen hast, kontaktiere: contact@webybox.com"]
+        "body": [
+          "Wenn du Fragen hast, kontaktiere: contact@webybox.com"
+        ]
       }
     }
   },
@@ -408,7 +412,9 @@
       },
       "contact": {
         "title": "Kontakt",
-        "body": ["Fragen? Kontaktiere uns per E-Mail."]
+        "body": [
+          "Fragen? Kontaktiere uns per E-Mail."
+        ]
       }
     }
   },
