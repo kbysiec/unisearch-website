@@ -139,33 +139,38 @@ export function FreePro({ messages, locale, markdownContent }: FreeProProps) {
                   </h3>
                 </div>
 
-                {/* Table Header */}
-                <div className="grid grid-cols-[2fr,1fr,1fr] gap-4 border-b border-gray-200/50 bg-gray-50/50 px-6 py-3 dark:border-white/5 dark:bg-slate-800/30">
-                  <div className="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-slate-400">
-                    {messages.freePro.featureHeader}
-                  </div>
-                  <div className="text-center text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-slate-400">
-                    Free
-                  </div>
-                  <div className="text-center text-xs font-semibold uppercase tracking-wide text-primary-700 dark:text-primary-300">
-                    Pro
-                  </div>
-                </div>
-
-                {/* Table Rows */}
-                <div className="divide-y divide-gray-200/50 dark:divide-white/5">
-                  {table.rows.map((row, rowIdx) => (
-                    <div
-                      key={rowIdx}
-                      className="grid grid-cols-[2fr,1fr,1fr] gap-4 px-6 py-4 transition hover:bg-primary-50/30 dark:hover:bg-white/5"
-                    >
-                      <div className="text-sm font-medium text-gray-700 dark:text-slate-200">
-                        {row.feature}
+                {/* Scrollable table wrapper for mobile */}
+                <div className="overflow-x-auto">
+                  <div className="inline-block min-w-full align-middle">
+                    {/* Table Header */}
+                    <div className="grid grid-cols-[minmax(200px,2fr),100px,100px] gap-4 border-b border-gray-200/50 bg-gray-50/50 px-6 py-3 dark:border-white/5 dark:bg-slate-800/30">
+                      <div className="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-slate-400">
+                        {messages.freePro.featureHeader}
                       </div>
-                      <div className="flex items-center justify-center">{renderCell(row.free)}</div>
-                      <div className="flex items-center justify-center">{renderCell(row.pro)}</div>
+                      <div className="text-center text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-slate-400">
+                        Free
+                      </div>
+                      <div className="text-center text-xs font-semibold uppercase tracking-wide text-primary-700 dark:text-primary-300">
+                        Pro
+                      </div>
                     </div>
-                  ))}
+
+                    {/* Table Rows */}
+                    <div className="divide-y divide-gray-200/50 dark:divide-white/5">
+                      {table.rows.map((row, rowIdx) => (
+                        <div
+                          key={rowIdx}
+                          className="grid grid-cols-[minmax(200px,2fr),100px,100px] gap-4 px-6 py-4 transition hover:bg-primary-50/30 dark:hover:bg-white/5"
+                        >
+                          <div className="text-sm font-medium text-gray-700 dark:text-slate-200">
+                            {row.feature}
+                          </div>
+                          <div className="flex items-center justify-center">{renderCell(row.free)}</div>
+                          <div className="flex items-center justify-center">{renderCell(row.pro)}</div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </div>
             </Reveal>
