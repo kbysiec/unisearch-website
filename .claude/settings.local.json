@@ -21,7 +21,8 @@
       "Bash(done)",
       "Bash(do grep -q '\"\"basicAnimations\"\"' \"$f\")",
       "Bash(cat:*)",
-      "Bash(node -e:*)"
+      "Bash(node -e:*)",
+      "Bash(echo:*)"
     ]
   }
 }

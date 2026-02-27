@@ -1,30 +1,33 @@
 import * as React from 'react';
+import Image from 'next/image';
 import { cn } from '@/lib/cn';
 
-interface BrandLogoProps extends React.HTMLAttributes<HTMLSpanElement> {
+interface BrandLogoProps extends React.HTMLAttributes<HTMLDivElement> {
   className?: string;
 }
 
 export function BrandLogo({ className, ...props }: BrandLogoProps) {
   return (
-    <span
+    <div
       role="img"
       aria-label="UniSearch logo"
-      className={cn(
-        'inline-block h-10 w-10 bg-current text-primary-600 dark:text-primary-300',
-        className
-      )}
-      style={{
-        WebkitMaskImage: 'url(/assets/icon.svg)',
-        maskImage: 'url(/assets/icon.svg)',
-        WebkitMaskRepeat: 'no-repeat',
-        maskRepeat: 'no-repeat',
-        WebkitMaskPosition: 'center',
-        maskPosition: 'center',
-        WebkitMaskSize: 'contain',
-        maskSize: 'contain',
-      }}
+      className={cn('inline-block h-10 w-10 relative', className)}
       {...props}
-    />
+    >
+      <Image
+        src="/assets/icon.svg"
+        alt="UniSearch logo"
+        fill
+        className="object-contain dark:hidden"
+        priority
+      />
+      <Image
+        src="/assets/icon-night.svg"
+        alt="UniSearch logo"
+        fill
+        className="object-contain hidden dark:block"
+        priority
+      />
+    </div>
   );
 }
