@@ -7,13 +7,15 @@
 | Evrensel arama (uygulamalar, kişiler, dosyalar, ayarlar) | ✓ | ✓ |
 | Tüm arama algoritmaları (önek, belirsiz, fonetik) | ✓ | ✓ |
 | Dahili hesap makinesi | ✓ | ✓ |
+| Google Drive araması | ✓ | ✓ |
+| Dropbox & OneDrive araması | — | ✓ |
 | Dosya içeriği arama (tam metin) | — | ✓ |
 
 ## Özelleştirme
 
 | Özellik | Free | Pro |
 |---------|:----:|:---:|
-| Temalar | 2 tema | 5 tema + özel oluşturucu |
+| Temalar | 2 tema | 12 tema + özel oluşturucu |
 | Renkler | Varsayılan | 54 özelleştirme noktası |
 | Animasyonlar | Temel | 11 tür + hız kontrolü |
 | Düzen ve geometri | Varsayılan | Tam kontrol (yarıçap, dolgu, kenarlıklar) |
@@ -33,7 +35,7 @@
 
 | Özellik | Free | Pro |
 |---------|:----:|:---:|
-| Diller | 25+ | 25+ |
+| Diller | 26+ | 26+ |
 | Widget özelleştirme | Temel | Tam kontrol |
 | Yedekleme ve geri yükleme | — | Dışa Aktar/İçe Aktar (JSON) |
 | Reklamlar | Gösteriliyor | Kaldırıldı |

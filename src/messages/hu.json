@@ -84,6 +84,10 @@
       "providers": {
         "title": "Keresési szolgáltatók",
         "description": "Válaszd meg, hova küld a UniSearch külső lekérdezéseket."
+      },
+      "cloud": {
+        "title": "Felhő fájlok",
+        "description": "Keressen a Google Drive-ban, Dropboxban és OneDrive-ban."
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "Előre beállított szolgáltatók, mint a Google, YouTube vagy ChatGPT",
         "toggle": "Engedélyezz vagy tiltson le szolgáltatókat",
         "always": "Lehetőség egyéni összeállításokra"
+      },
+      "cloud": {
+        "drive": "Google Drive (ingyenes)",
+        "dropbox": "Dropbox & OneDrive (Pro)",
+        "search": "Felhőeredmények a helyi mellett"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1 ingyenes egyéni szekció (nincs rendezés)",
         "customAiPrompt": "1 ingyenes egyéni AI prompt (címke + sablon + célalkalmazás)",
         "privacy": "Adatvédelem mód",
-        "languages": "Fordítás 25 nyelvi változatban",
-        "sponsored": "Szponzorált szekciók (Natív hirdetések)"
+        "languages": "26 nyelvi változat",
+        "sponsored": "Szponzorált szekciók (Natív hirdetések)",
+        "googleDrive": "Google Drive keresés (ingyenes)"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "Legnépszerűbb",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 prémium téma: Glass, Material You, Minimal Dark",
+        "premiumThemes": "12 prémium téma: Glass, Nord, Terminal, Material You és még több",
         "themeCreator": "Egyéni téma készítő",
         "presets": "Korlátlan téma előbeállítások",
         "perSectionStyle": "Szekció szerinti stílusfelülbírálások",
-        "advancedColors": "52 hely a szín módosításához (Keresősáv, Szekciók, Widget, Alsó panel)",
+        "advancedColors": "54 testreszabható színhely (Keresősáv, Szakaszok, Ikonok, Widget, Alsó panel)",
         "searchbarColors": "Keresősáv színek (7 × Világos/Sötét)",
         "sectionColors": "Szekció színek (7 × Világos/Sötét)",
-        "itemIconColors": "Tétel ikon színek (2 × Világos/Sötét)",
+        "itemIconColors": "Elem ikon színek (3 × Világos/Sötét)",
         "bottomSheetColors": "Alsó lap színek (5 × Világos/Sötét)",
         "widgetColors": "Widget színek (5 × Világos/Sötét)",
         "wallpaperBlur": "Egyéni háttérkép szín és elmosódás",
@@ -235,7 +245,8 @@
         "backupExport": "Beállítások exportálása (JSON)",
         "backupImport": "Beállítások importálása (konfiguráció visszaállítása)",
         "removeAds": "Szponzorált szekciók eltávolítása",
-        "support": "Támogasd a jövőbeni fejlesztést"
+        "support": "Támogasd a jövőbeni fejlesztést",
+        "cloudStorage": "Dropbox & OneDrive felhőkeresés"
       }
     },
     "summary": {

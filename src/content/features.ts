@@ -87,4 +87,15 @@ export const featureGroups = [
       'features.items.ai.optional',
     ],
   },
+  {
+    id: 'cloud',
+    titleKey: 'features.groups.cloud.title',
+    descriptionKey: 'features.groups.cloud.description',
+    icon: 'Cloud',
+    items: [
+      'features.items.cloud.drive',
+      'features.items.cloud.dropbox',
+      'features.items.cloud.search',
+    ],
+  },
 ] as const;

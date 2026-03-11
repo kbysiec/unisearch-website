@@ -9,6 +9,7 @@ import {
   Globe,
   Palette,
   Sparkles,
+  Cloud,
 } from 'lucide-react';
 import { featureGroups } from '@/src/content/features';
 import type { Messages } from '@/src/lib/i18n';
@@ -24,6 +25,7 @@ const iconMap = {
   Globe,
   Palette,
   Sparkles,
+  Cloud,
 };
 
 interface FeaturesProps {

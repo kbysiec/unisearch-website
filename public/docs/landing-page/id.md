@@ -7,13 +7,15 @@
 | Pencarian universal (aplikasi, kontak, file, pengaturan) | ✓ | ✓ |
 | Semua algoritma pencarian (awalan, fuzzy, fonetik) | ✓ | ✓ |
 | Kalkulator bawaan | ✓ | ✓ |
+| Pencarian Google Drive | ✓ | ✓ |
+| Pencarian Dropbox & OneDrive | — | ✓ |
 | Pencarian konten file (teks lengkap) | — | ✓ |
 
 ## Kustomisasi
 
 | Fitur | Free | Pro |
 |---------|:----:|:---:|
-| Tema | 2 tema | 5 tema + pembuat kustom |
+| Tema | 2 tema | 12 tema + pembuat kustom |
 | Warna | Default | 54 titik kustomisasi |
 | Animasi | Dasar | 11 jenis + kontrol kecepatan |
 | Tata letak dan geometri | Default | Kontrol penuh (radius, padding, border) |
@@ -33,7 +35,7 @@
 
 | Fitur | Free | Pro |
 |---------|:----:|:---:|
-| Bahasa | 25+ | 25+ |
+| Bahasa | 26+ | 26+ |
 | Kustomisasi widget | Dasar | Kontrol penuh |
 | Cadangkan & pulihkan | — | Ekspor/Impor (JSON) |
 | Iklan | Ditampilkan | Dihapus |

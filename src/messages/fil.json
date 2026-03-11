@@ -84,6 +84,10 @@
       "providers": {
         "title": "Mga search provider",
         "description": "Piliin kung saan ipapadala ng UniSearch ang external na mga query."
+      },
+      "cloud": {
+        "title": "Mga cloud file",
+        "description": "Maghanap sa Google Drive, Dropbox at OneDrive."
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "Preset provider tulad ng Google, YouTube o ChatGPT",
         "toggle": "Paganahin o paganahin ang mga provider",
         "always": "Kakayahang magbigay ng mga custom na isa"
+      },
+      "cloud": {
+        "drive": "Google Drive (libre)",
+        "dropbox": "Dropbox at OneDrive (Pro)",
+        "search": "Mga resulta sa cloud kasama ang lokal"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1 libreng custom na seksyon (walang sorting)",
         "customAiPrompt": "1 libreng custom AI prompt (label + template + target app)",
         "privacy": "Privacy mode",
-        "languages": "Pagsasalin sa 25 baryant ng wika",
-        "sponsored": "Sponsored na mga seksyon (Native Ads)"
+        "languages": "26 variant ng wika",
+        "sponsored": "Sponsored na mga seksyon (Native Ads)",
+        "googleDrive": "Paghahanap sa Google Drive (libre)"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "Pinakasikat",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 premium theme: Glass, Material You, Minimal Dark",
+        "premiumThemes": "12 premium na tema: Glass, Nord, Terminal, Material You at iba pa",
         "themeCreator": "Custom na tagagawa ng tema",
         "presets": "Walang hanggang theme preset",
         "perSectionStyle": "Bawat seksyon na style override",
-        "advancedColors": "52 lugar na may kakayahang baguhin ang kulay (Search bar, Mga seksyon, Widget, Bottom panel)",
+        "advancedColors": "54 lugar ng pagpapasadya ng kulay (Search bar, Mga seksyon, Mga icon, Widget, Ibabang panel)",
         "searchbarColors": "Mga kulay ng search bar (7 × Light/Dark)",
         "sectionColors": "Mga kulay ng seksyon (7 × Light/Dark)",
-        "itemIconColors": "Mga kulay ng item icon (2 × Light/Dark)",
+        "itemIconColors": "Mga kulay ng icon ng item (3 × Liwanag/Madilim)",
         "bottomSheetColors": "Mga kulay ng bottom sheet (5 × Light/Dark)",
         "widgetColors": "Mga kulay ng widget (5 × Light/Dark)",
         "wallpaperBlur": "Custom na kulay ng wallpaper + blur",
@@ -235,7 +245,8 @@
         "backupExport": "I-export ang setting (JSON)",
         "backupImport": "I-import ang setting (ibalik ang configuration)",
         "removeAds": "Alisin ang sponsored na mga seksyon",
-        "support": "Suportahan ang hinaharap na development"
+        "support": "Suportahan ang hinaharap na development",
+        "cloudStorage": "Paghahanap sa cloud ng Dropbox at OneDrive"
       }
     },
     "summary": {

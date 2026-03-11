@@ -7,13 +7,15 @@
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
+| Google Drive (søk) | ✓ | ✓ |
+| Dropbox & OneDrive (søk) | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Tilpasning
 
 | Funksjon | Free | Pro |
 |---------|:----:|:---:|
-| Temaer | 2 temaer | 5 temaer + tilpasset skaper |
+| Temaer | 2 temaer | 12 temaer + tilpasset skaper |
 | Farger | Standard | 54 tilpasningspunkter |
 | Animasjoner | Grunnleggende | 11 typer + hastighetskontroll |
 | Oppsett og geometri | Standard | Full kontroll (radius, polstring, kanter) |
@@ -33,7 +35,7 @@
 
 | Funksjon | Free | Pro |
 |---------|:----:|:---:|
-| Språk | 25+ | 25+ |
+| Språk | 26+ | 26+ |
 | Widget-tilpasning | Grunnleggende | Full kontroll |
 | Sikkerhetskopiering og gjenoppretting | — | Eksporter/Importer (JSON) |
 | Annonser | Vist | Fjernet |

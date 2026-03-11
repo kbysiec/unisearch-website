@@ -84,6 +84,10 @@
       "providers": {
         "title": "搜索提供商",
         "description": "选择 UniSearch 发送外部查询的位置。"
+      },
+      "cloud": {
+        "title": "云端文件",
+        "description": "搜索 Google Drive、Dropbox 和 OneDrive。"
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "预设提供商如 Google、YouTube 或 ChatGPT",
         "toggle": "启用或禁用提供商",
         "always": "能够定义自定义提供商"
+      },
+      "cloud": {
+        "drive": "Google Drive（免费）",
+        "dropbox": "Dropbox & OneDrive（Pro）",
+        "search": "云端结果与本地结果并排显示"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1 个免费自定义部分（无排序）",
         "customAiPrompt": "1 个免费自定义 AI 提示（标签 + 模板 + 目标应用）",
         "privacy": "隐私模式",
-        "languages": "支持 25 种语言变体翻译",
-        "sponsored": "赞助部分（原生广告）"
+        "languages": "26种语言变体",
+        "sponsored": "赞助部分（原生广告）",
+        "googleDrive": "Google Drive 搜索（免费）"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "最受欢迎",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 个高级主题：Glass、Material You、Minimal Dark",
+        "premiumThemes": "12个高级主题：Glass、Nord、Terminal、Material You等",
         "themeCreator": "自定义主题创建器",
         "presets": "无限主题预设",
         "perSectionStyle": "每个部分的样式覆盖",
-        "advancedColors": "52 个可更改颜色的位置（搜索栏、部分、小部件、底部面板）",
+        "advancedColors": "54处颜色自定义（搜索栏、分区、图标、小部件、底部面板）",
         "searchbarColors": "搜索栏颜色（7 × 浅色/深色）",
         "sectionColors": "部分颜色（7 × 浅色/深色）",
-        "itemIconColors": "项目图标颜色（2 × 浅色/深色）",
+        "itemIconColors": "项目图标颜色（3 × 亮色/暗色）",
         "bottomSheetColors": "底部表单颜色（5 × 浅色/深色）",
         "widgetColors": "小部件颜色（5 × 浅色/深色）",
         "wallpaperBlur": "自定义壁纸颜色 + 模糊",
@@ -235,7 +245,8 @@
         "backupExport": "导出设置（JSON）",
         "backupImport": "导入设置（恢复配置）",
         "removeAds": "移除赞助部分",
-        "support": "支持未来开发"
+        "support": "支持未来开发",
+        "cloudStorage": "Dropbox 和 OneDrive 云搜索"
       }
     },
     "summary": {

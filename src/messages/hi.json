@@ -84,6 +84,10 @@
       "providers": {
         "title": "खोज प्रदाता",
         "description": "चुनें कि UniSearch बाहरी क्वेरीज़ कहाँ भेजता है।"
+      },
+      "cloud": {
+        "title": "क्लाउड फ़ाइलें",
+        "description": "Google Drive, Dropbox और OneDrive में खोजें।"
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "पूर्व निर्धारित प्रदाता जैसे Google, YouTube या ChatGPT",
         "toggle": "प्रदाताओं को सक्षम या अक्षम करें",
         "always": "कस्टम परिभाषित करने की क्षमता"
+      },
+      "cloud": {
+        "drive": "Google Drive (निःशुल्क)",
+        "dropbox": "Dropbox और OneDrive (Pro)",
+        "search": "स्थानीय परिणामों के साथ क्लाउड परिणाम"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1 मुक्त कस्टम सेक्शन (कोई सॉर्टिंग नहीं)",
         "customAiPrompt": "1 मुफ्त कस्टम AI प्रॉम्प्ट (लेबल + टेम्पलेट + लक्षित ऐप)",
         "privacy": "गोपनीयता मोड",
-        "languages": "25 भाषा रूपांतरों में अनुवाद",
-        "sponsored": "प्रायोजित सेक्शन (नेटिव विज्ञापन)"
+        "languages": "26 भाषा संस्करण",
+        "sponsored": "प्रायोजित सेक्शन (नेटिव विज्ञापन)",
+        "googleDrive": "Google Drive खोज (निःशुल्क)"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "सबसे लोकप्रिय",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 प्रीमियम थीम: Glass, Material You, Minimal Dark",
+        "premiumThemes": "12 प्रीमियम थीम: Glass, Nord, Terminal, Material You और अधिक",
         "themeCreator": "कस्टम थीम निर्माता",
         "presets": "असीमित थीम प्रीसेट",
         "perSectionStyle": "प्रति-सेक्शन शैली ओवरराइड",
-        "advancedColors": "रंग परिवर्तन के लिए 52 स्थान (खोज बार, सेक्शन, विजेट, नीचे पैनल)",
+        "advancedColors": "54 रंग अनुकूलन स्थान (खोज बार, सेक्शन, आइकन, विजेट, नीचे का पैनल)",
         "searchbarColors": "खोज बार रंग (7 × हल्का/गहरा)",
         "sectionColors": "सेक्शन रंग (7 × हल्का/गहरा)",
-        "itemIconColors": "आइटम आइकन रंग (2 × हल्का/गहरा)",
+        "itemIconColors": "आइटम आइकन रंग (3 × लाइट/डार्क)",
         "bottomSheetColors": "नीचे की शीट रंग (5 × हल्का/गहरा)",
         "widgetColors": "विजेट रंग (5 × हल्का/गहरा)",
         "wallpaperBlur": "कस्टम वॉलपेपर रंग + धुंधला",
@@ -235,7 +245,8 @@
         "backupExport": "सेटिंग्स निर्यात करें (JSON)",
         "backupImport": "सेटिंग्स आयात करें (कॉन्फ़िगरेशन पुनर्स्थापित करें)",
         "removeAds": "प्रायोजित सेक्शन हटाएं",
-        "support": "भविष्य के विकास का समर्थन करें"
+        "support": "भविष्य के विकास का समर्थन करें",
+        "cloudStorage": "Dropbox और OneDrive क्लाउड खोज"
       }
     },
     "summary": {

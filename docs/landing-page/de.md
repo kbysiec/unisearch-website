@@ -7,13 +7,15 @@
 | Universelle Suche (Apps, Kontakte, Dateien, Einstellungen) | ✓ | ✓ |
 | Alle Suchalgorithmen (Präfix, Fuzzy, phonetisch) | ✓ | ✓ |
 | Integrierter Rechner | ✓ | ✓ |
+| Google Drive (Suche) | ✓ | ✓ |
+| Dropbox & OneDrive (Suche) | — | ✓ |
 | Volltextsuche in Dateien | — | ✓ |
 
 ## Anpassung
 
 | Funktion | Free | Pro |
 |---------|:----:|:---:|
-| Designs | 2 Designs | 5 Designs + eigener Creator |
+| Designs | 2 Designs | 12 Designs + eigener Creator |
 | Farben | Standard | 54 Anpassungspunkte |
 | Animationen | Basis | 11 Typen + Geschwindigkeitskontrolle |
 | Layout & Geometrie | Standard | Volle Kontrolle (Radius, Padding, Ränder) |
@@ -33,7 +35,7 @@
 
 | Funktion | Free | Pro |
 |---------|:----:|:---:|
-| Sprachen | 25+ | 25+ |
+| Sprachen | 26+ | 26+ |
 | Widget-Anpassung | Basis | Volle Kontrolle |
 | Backup & Wiederherstellung | — | Export/Import (JSON) |
 | Werbung | Angezeigt | Entfernt |

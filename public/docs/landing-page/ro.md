@@ -7,13 +7,15 @@
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
+| Căutare Google Drive | ✓ | ✓ |
+| Căutare Dropbox & OneDrive | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Personalizare
 
 | Caracteristică | Free | Pro |
 |---------|:----:|:---:|
-| Teme | 2 teme | 5 teme + creator personalizat |
+| Teme | 2 teme | 12 teme + creator personalizat |
 | Culori | Implicit | 54 puncte de personalizare |
 | Animații | De bază | 11 tipuri + control viteză |
 | Aspect și geometrie | Implicit | Control complet (rază, padding, borduri) |
@@ -33,7 +35,7 @@
 
 | Caracteristică | Free | Pro |
 |---------|:----:|:---:|
-| Limbi | 25+ | 25+ |
+| Limbi | 26+ | 26+ |
 | Personalizare widget | De bază | Control complet |
 | Copie de rezervă și restaurare | — | Export/Import (JSON) |
 | Reclame | Afișate | Eliminate |

@@ -84,6 +84,10 @@
       "providers": {
         "title": "Zoekproviders",
         "description": "Kies waar UniSearch externe zoekopdrachten naartoe stuurt."
+      },
+      "cloud": {
+        "title": "Cloudbestanden",
+        "description": "Zoek in Google Drive, Dropbox en OneDrive."
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "Vooraf ingestelde providers zoals Google, YouTube of ChatGPT",
         "toggle": "Schakel providers in of uit",
         "always": "Mogelijkheid om aangepaste providers te definiëren"
+      },
+      "cloud": {
+        "drive": "Google Drive (gratis)",
+        "dropbox": "Dropbox & OneDrive (Pro)",
+        "search": "Cloudresultaten naast lokale"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1 gratis aangepaste sectie (geen sortering)",
         "customAiPrompt": "1 gratis aangepaste AI-prompt (label + sjabloon + doel-app)",
         "privacy": "Privacy-modus",
-        "languages": "Vertaling in 25 taalvarianten",
-        "sponsored": "Gesponsorde secties (Native Ads)"
+        "languages": "26 taalvarianten",
+        "sponsored": "Gesponsorde secties (Native Ads)",
+        "googleDrive": "Google Drive-zoeken (gratis)"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "Meest populair",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 premiumthema's: Glass, Material You, Minimal Dark",
+        "premiumThemes": "12 premium thema's: Glass, Nord, Terminal, Material You en meer",
         "themeCreator": "Aangepaste themamaken",
         "presets": "Onbeperkte thema-voorinstellingen",
         "perSectionStyle": "Stijloverrides per sectie",
-        "advancedColors": "52 plaatsen met mogelijkheid tot kleurverandering (Zoekbalk, Secties, Widget, Onderste paneel)",
+        "advancedColors": "54 aanpasbare kleurplekken (Zoekbalk, Secties, Iconen, Widget, Onderste paneel)",
         "searchbarColors": "Zoekbalkkleurenpaletten (7 × Licht/Donker)",
         "sectionColors": "Sectiepaletten (7 × Licht/Donker)",
-        "itemIconColors": "Pictogramkleurenpaletten (2 × Licht/Donker)",
+        "itemIconColors": "Item-icoonskleur (3 × Licht/Donker)",
         "bottomSheetColors": "Kleurenpaletten onderste blad (5 × Licht/Donker)",
         "widgetColors": "Widgetkleurenpaletten (5 × Licht/Donker)",
         "wallpaperBlur": "Aangepaste achtergrondkleur + blur",
@@ -235,7 +245,8 @@
         "backupExport": "Exporteer instellingen (JSON)",
         "backupImport": "Importeer instellingen (herstel configuratie)",
         "removeAds": "Verwijder gesponsorde secties",
-        "support": "Ondersteun toekomstige ontwikkeling"
+        "support": "Ondersteun toekomstige ontwikkeling",
+        "cloudStorage": "Dropbox & OneDrive cloud-zoeken"
       }
     },
     "summary": {

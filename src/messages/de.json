@@ -84,6 +84,10 @@
       "providers": {
         "title": "Suchanbieter",
         "description": "Wähle, wohin UniSearch externe Abfragen sendet."
+      },
+      "cloud": {
+        "title": "Cloud-Dateien",
+        "description": "Durchsuchen Sie Google Drive, Dropbox und OneDrive."
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "Vordefinierte Anbieter wie Google, YouTube oder ChatGPT",
         "toggle": "Anbieter aktivieren oder deaktivieren",
         "always": "Möglichkeit, benutzerdefinierte zu definieren"
+      },
+      "cloud": {
+        "drive": "Google Drive (kostenlos)",
+        "dropbox": "Dropbox & OneDrive (Pro)",
+        "search": "Cloud-Ergebnisse neben lokalen"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1 kostenloser benutzerdefinierter Abschnitt (keine Sortierung)",
         "customAiPrompt": "1 kostenlose benutzerdefinierte KI-Eingabeaufforderung (Label + Vorlage + Ziel-App)",
         "privacy": "Datenschutzmodus",
-        "languages": "Übersetzung in 25 Sprachvarianten",
-        "sponsored": "Gesponserte Abschnitte (Native Ads)"
+        "languages": "26 Sprachvarianten",
+        "sponsored": "Gesponserte Abschnitte (Native Ads)",
+        "googleDrive": "Google Drive-Suche (kostenlos)"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "Am beliebtesten",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 Premium-Designs: Glass, Material You, Minimal Dark",
+        "premiumThemes": "12 Premium-Themes: Glass, Nord, Terminal, Material You und mehr",
         "themeCreator": "Benutzerdefinierter Design-Ersteller",
         "presets": "Unbegrenzte Design-Voreinstellungen",
         "perSectionStyle": "Style-Overrides pro Abschnitt",
-        "advancedColors": "52 Orte mit Farbänderungsmöglichkeit (Suchleiste, Abschnitte, Widget, unteres Bedienfeld)",
+        "advancedColors": "54 Farbpunkte (Suchleiste, Bereiche, Icons, Widget, Unteres Panel)",
         "searchbarColors": "Suchleistenfarben (7 × Hell/Dunkel)",
         "sectionColors": "Abschnittfarben (7 × Hell/Dunkel)",
-        "itemIconColors": "Elementsymbolfarben (2 × Hell/Dunkel)",
+        "itemIconColors": "Element-Symbolfarben (3 × Hell/Dunkel)",
         "bottomSheetColors": "Farben des unteren Blatts (5 × Hell/Dunkel)",
         "widgetColors": "Widget-Farben (5 × Hell/Dunkel)",
         "wallpaperBlur": "Benutzerdefinierte Hintergrundfarbe + Unschärfe",
@@ -235,7 +245,8 @@
         "backupExport": "Einstellungen exportieren (JSON)",
         "backupImport": "Einstellungen importieren (Konfiguration wiederherstellen)",
         "removeAds": "Gesponserte Abschnitte entfernen",
-        "support": "Unterstützung zukünftiger Entwicklung"
+        "support": "Unterstützung zukünftiger Entwicklung",
+        "cloudStorage": "Dropbox & OneDrive Cloud-Suche"
       }
     },
     "summary": {

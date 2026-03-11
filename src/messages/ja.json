@@ -84,6 +84,10 @@
       "providers": {
         "title": "検索プロバイダー",
         "description": "UniSearchが外部クエリを送信する場所を選択します。"
+      },
+      "cloud": {
+        "title": "クラウドファイル",
+        "description": "Google Drive、Dropbox、OneDriveを検索。"
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "Google、YouTube、ChatGPTなどのプリセットプロバイダー",
         "toggle": "プロバイダーの有効/無効を切り替え",
         "always": "カスタムプロバイダーを定義する機能"
+      },
+      "cloud": {
+        "drive": "Google Drive（無料）",
+        "dropbox": "Dropbox & OneDrive（Pro）",
+        "search": "ローカルと並んでクラウド結果を表示"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1つの無料カスタムセクション（ソートなし）",
         "customAiPrompt": "1つの無料カスタムAIプロンプト（ラベル＋テンプレート＋ターゲットアプリ）",
         "privacy": "プライバシーモード",
-        "languages": "25種類の言語バリエーションに翻訳",
-        "sponsored": "スポンサーセクション（ネイティブ広告）"
+        "languages": "26言語対応",
+        "sponsored": "スポンサーセクション（ネイティブ広告）",
+        "googleDrive": "Google Driveの検索（無料）"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "最も人気がある",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3つのプレミアムテーマ: Glass、Material You、Minimal Dark",
+        "premiumThemes": "12種類のプレミアムテーマ：Glass、Nord、Terminal、Material Youなど",
         "themeCreator": "カスタムテーマクリエーター",
         "presets": "無制限のテーマプリセット",
         "perSectionStyle": "セクションごとのスタイルオーバーライド",
-        "advancedColors": "52の色変更可能な場所（検索バー、セクション、ウィジェット、下部パネル）",
+        "advancedColors": "54か所のカラーカスタマイズ（検索バー、セクション、アイコン、ウィジェット、ボトムパネル）",
         "searchbarColors": "検索バーの色（7 × ライト/ダーク）",
         "sectionColors": "セクションの色（7 × ライト/ダーク）",
-        "itemIconColors": "アイテムアイコンの色（2 × ライト/ダーク）",
+        "itemIconColors": "要素アイコン色（3 × ライト/ダーク）",
         "bottomSheetColors": "ボトムシートの色（5 × ライト/ダーク）",
         "widgetColors": "ウィジェットの色（5 × ライト/ダーク）",
         "wallpaperBlur": "カスタム壁紙色+ブラー",
@@ -235,7 +245,8 @@
         "backupExport": "設定をエクスポート（JSON）",
         "backupImport": "設定をインポート（設定を復元）",
         "removeAds": "スポンサーセクションを削除",
-        "support": "今後の開発を支援"
+        "support": "今後の開発を支援",
+        "cloudStorage": "Dropbox & OneDriveクラウド検索"
       }
     },
     "summary": {

@@ -7,13 +7,15 @@
 | Tìm kiếm toàn cục (ứng dụng, liên hệ, tệp, cài đặt) | ✓ | ✓ |
 | Tất cả thuật toán tìm kiếm (tiền tố, mờ, ngữ âm) | ✓ | ✓ |
 | Máy tính tích hợp | ✓ | ✓ |
+| Tìm kiếm Google Drive | ✓ | ✓ |
+| Tìm kiếm Dropbox & OneDrive | — | ✓ |
 | Tìm kiếm nội dung tệp (toàn văn) | — | ✓ |
 
 ## Tùy chỉnh
 
 | Tính năng | Free | Pro |
 |---------|:----:|:---:|
-| Chủ đề | 2 chủ đề | 5 chủ đề + trình tạo tùy chỉnh |
+| Chủ đề | 2 chủ đề | 12 chủ đề + trình tạo tùy chỉnh |
 | Màu sắc | Mặc định | 54 điểm tùy chỉnh |
 | Hoạt ảnh | Cơ bản | 11 loại + kiểm soát tốc độ |
 | Bố cục và hình học | Mặc định | Kiểm soát đầy đủ (bán kính, đệm, viền) |
@@ -33,7 +35,7 @@
 
 | Tính năng | Free | Pro |
 |---------|:----:|:---:|
-| Ngôn ngữ | 25+ | 25+ |
+| Ngôn ngữ | 26+ | 26+ |
 | Tùy chỉnh widget | Cơ bản | Kiểm soát đầy đủ |
 | Sao lưu và khôi phục | — | Xuất/Nhập (JSON) |
 | Quảng cáo | Hiển thị | Đã xóa |

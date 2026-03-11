@@ -84,6 +84,10 @@
       "providers": {
         "title": "Hakupalvelut",
         "description": "Valitse minne UniSearch lähettää ulkoiset kyselyt."
+      },
+      "cloud": {
+        "title": "Pilvitiedostot",
+        "description": "Hae Google Drivesta, Dropboxista ja OneDrivesta."
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "Ennalta määritetyt palvelut kuten Google, YouTube tai ChatGPT",
         "toggle": "Ota käyttöön tai poista käytöstä palvelut",
         "always": "Mahdollisuus määritellä mukautettuja"
+      },
+      "cloud": {
+        "drive": "Google Drive (ilmainen)",
+        "dropbox": "Dropbox & OneDrive (Pro)",
+        "search": "Pilvitulokset paikallisten rinnalla"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1 ilmainen mukautettu osio (ei lajittelua)",
         "customAiPrompt": "1 ilmainen mukautettu tekoälykehote (tunniste + malli + kohdisovellus)",
         "privacy": "Yksityisyystila",
-        "languages": "Käännös 25 kieliversioon",
-        "sponsored": "Sponsoroidut osat (Native Ads)"
+        "languages": "26 kielivarianttia",
+        "sponsored": "Sponsoroidut osat (Native Ads)",
+        "googleDrive": "Google Drive -haku (ilmainen)"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "Suosituin",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 premium-teemaa: Glass, Material You, Minimal Dark",
+        "premiumThemes": "12 premium-teemaa: Glass, Nord, Terminal, Material You ja lisää",
         "themeCreator": "Mukautetun teeman luoja",
         "presets": "Rajoittamaton teeman esiasetus",
         "perSectionStyle": "Osion kohta tyylien ohitukset",
-        "advancedColors": "52 värin muutospaikka (Hakupalkki, Osat, Widget, Alaosa)",
+        "advancedColors": "54 mukautettavaa väripaikkaa (Hakupalkki, Osiot, Kuvakkeet, Widget, Alapaneeli)",
         "searchbarColors": "Hakupalkin värit (7 × Vaalea/Tumma)",
         "sectionColors": "Osion värit (7 × Vaalea/Tumma)",
-        "itemIconColors": "Kohteen kuvakkeen värit (2 × Vaalea/Tumma)",
+        "itemIconColors": "Kohteen kuvakeväri (3 × Vaalea/Tumma)",
         "bottomSheetColors": "Alaosan värit (5 × Vaalea/Tumma)",
         "widgetColors": "Widgetin värit (5 × Vaalea/Tumma)",
         "wallpaperBlur": "Mukautettu taustakuvan väri + sumennus",
@@ -235,7 +245,8 @@
         "backupExport": "Vie asetukset (JSON)",
         "backupImport": "Tuo asetukset (palauta konfiguraatio)",
         "removeAds": "Poista sponsoroidut osat",
-        "support": "Tue tulevaisuuden kehitystä"
+        "support": "Tue tulevaisuuden kehitystä",
+        "cloudStorage": "Dropbox & OneDrive -pilvihaku"
       }
     },
     "summary": {

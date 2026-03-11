@@ -7,13 +7,15 @@
 | Pesquisa universal (apps, contatos, arquivos, configurações) | ✓ | ✓ |
 | Todos os algoritmos de pesquisa (prefixo, difuso, fonético) | ✓ | ✓ |
 | Calculadora integrada | ✓ | ✓ |
+| Pesquisa no Google Drive | ✓ | ✓ |
+| Pesquisa no Dropbox & OneDrive | — | ✓ |
 | Pesquisa no conteúdo de arquivos (texto completo) | — | ✓ |
 
 ## Personalização
 
 | Recurso | Free | Pro |
 |---------|:----:|:---:|
-| Temas | 2 temas | 5 temas + criador personalizado |
+| Temas | 2 temas | 12 temas + criador personalizado |
 | Cores | Padrão | 54 pontos de personalização |
 | Animações | Básicas | 11 tipos + controle de velocidade |
 | Layout e geometria | Padrão | Controle total (raio, padding, bordas) |
@@ -33,7 +35,7 @@
 
 | Recurso | Free | Pro |
 |---------|:----:|:---:|
-| Idiomas | 25+ | 25+ |
+| Idiomas | 26+ | 26+ |
 | Personalização do widget | Básica | Controle total |
 | Backup e restauração | — | Exportar/Importar (JSON) |
 | Anúncios | Exibidos | Removidos |

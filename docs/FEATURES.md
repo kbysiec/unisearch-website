@@ -1,6 +1,6 @@
 # UniSearch — Pełna Lista Funkcjonalności
 
-> Ostatnia aktualizacja: 2026-02-03
+> Ostatnia aktualizacja: 2026-03-08
 > Package: `com.webybox.unisearch`
 
 ---
@@ -24,11 +24,17 @@
 15. [Uprawnienia i Onboarding](#15-uprawnienia-i-onboarding)
 16. [Reklamy i Consent](#16-reklamy-i-consent)
 17. [System Pro / Paywall](#17-system-pro--paywall)
-18. [Podział Free vs Pro — REKOMENDACJA](#18-podział-free-vs-pro--rekomendacja)
-19. [Lista do prompta — oznaczenie isProFeature](#19-lista-do-prompta--oznaczenie-isprofeature)
+18. [Podział Free vs Pro — stan faktyczny](#18-podział-free-vs-pro--stan-faktyczny-audyt-kodu-2026-03-08)
+19. [Audyt isProFeature — stan z kodu](#19-audyt-isprofeature--stan-faktyczny-z-kodu-2026-03-08)
 20. [Co jeszcze można dodać / zmienić](#20-co-jeszcze-można-dodać--zmienić)
 21. [Lista do Paywallu (korzyści Pro)](#21-lista-do-paywallu-korzyści-pro)
 22. [Lista do Onboardingu (co apka oferuje)](#22-lista-do-onboardingu-co-apka-oferuje)
+23. [Lokalizacja](#23-lokalizacja)
+24. [Haptic Feedback](#24-haptic-feedback)
+25. [Receivers (zdarzenia systemowe)](#25-receivers-zdarzenia-systemowe)
+26. [Luki w paywallu — co powinno być PRO a nie jest](#26-luki-w-paywallu--co-powinno-być-pro-a-nie-jest)
+27. [Ocena Free vs Pro — rekomendacje zmian](#27-ocena-free-vs-pro--rekomendacje-zmian-2026-03-08)
+28. [Problemy paywallu — co naprawić](#28-problemy-paywallu--co-naprawić-2026-03-08)
 
 ---
 
@@ -107,18 +113,20 @@ Działa dla **WSZYSTKICH** źródeł: Apps, Actions, Contacts, Files, Settings.
 
 ### 2.1 Sekcje (SectionType enum)
 
-| #   | Sekcja              | SectionType   | Opis                               |
-| --- | ------------------- | ------------- | ---------------------------------- |
-| 1   | **Aplikacje**       | `APPS`        | Grid/List aplikacji                |
-| 2   | **Kontakty**        | `CONTACTS`    | Lista kontaktów z akcjami          |
-| 3   | **Pliki**           | `FILES`       | Pliki i foldery z MediaStore       |
-| 4   | **Ustawienia**      | `SETTINGS`    | Ustawienia systemowe               |
-| 5   | **Akcje/Shortcuts** | `ACTIONS`     | App Shortcuts (manifest + curated) |
-| 6   | **Kalkulator**      | `CALCULATOR`  | Wbudowany kalkulator               |
-| 7   | **Search With**     | `SEARCH_WITH` | Wyszukiwanie zewnętrzne            |
-| 8   | **AI Prompts**      | `AI`          | Prompty AI                         |
-| 9   | **Reklamy**         | `ADS`         | Native Ads (AdMob)                 |
-| 10  | **Niestandardowe**  | `CUSTOM`      | Sekcje użytkownika                 |
+| #   | Sekcja              | SectionType      | Opis                                        |
+| --- | ------------------- | ---------------- | ------------------------------------------- |
+| 1   | **Aplikacje**       | `APPS`           | Grid/List aplikacji                         |
+| 2   | **Kontakty**        | `CONTACTS`       | Lista kontaktów z akcjami                   |
+| 3   | **Pliki**           | `FILES`          | Pliki i foldery z MediaStore                |
+| 4   | **Treść plików**    | `FILE_CONTENT`   | FTS4 full-text search w treści dokumentów   |
+| 5   | **Ustawienia**      | `SETTINGS`       | Ustawienia systemowe                        |
+| 6   | **Akcje/Shortcuts** | `ACTIONS`        | App Shortcuts (manifest + curated)          |
+| 7   | **Kalkulator**      | `CALCULATOR`     | Wbudowany kalkulator                        |
+| 8   | **Search With**     | `SEARCH_WITH`    | Wyszukiwanie zewnętrzne                     |
+| 9   | **AI Prompts**      | `AI`             | Prompty AI                                  |
+| 10  | **Pliki chmurowe**  | `CLOUD_FILES`    | Pliki z Google Drive, Dropbox, OneDrive     |
+| 11  | **Reklamy**         | `ADS`            | Native Ads (AdMob)                          |
+| 12  | **Niestandardowe**  | `CUSTOM`         | Sekcje użytkownika                          |
 
 ### 2.2 Aplikacje — szczegóły
 
@@ -182,7 +190,58 @@ Działa dla **WSZYSTKICH** źródeł: Apps, Actions, Contacts, Files, Settings.
 
 **Dane:** id, label, keywords, intentAction, intentPackage, intentData, overlayTag
 
-### 2.7 Reklamy — szczegóły
+### 2.7 Treść plików (File Content) — szczegóły
+
+**Repozytorium:** `FileContentRepositoryImpl`
+
+- Źródło: MediaStore + FTS4 (Room full-text search)
+- Indeksowanie: `FileContentIndexWorker` (WorkManager, OneTimeWork)
+- FTS4 query: prefix matching (`word*`), multi-word
+- Snippet: 120 znaków z kontekstem, diacritics-aware
+- Auto-sync: MediaStore ContentObserver (debounce 5s) + foreground trigger (cooldown 2min)
+- Filtrowanie: wyłączanie rozszerzeń (`FileContentExtensionsPreferencesStore`), wykluczanie plików (`ExcludedFileContentPreferencesStore`)
+- State: `FileContentIndexingState` (Idle, Indexing(indexed, total), Done(total))
+
+**Obsługiwane rozszerzenia (`FileContentExtension.PREDEFINED`):**
+
+| Kategoria | Rozszerzenia |
+|---|---|
+| Tekst | `.txt`, `.md`, `.csv`, `.log` |
+| Dane strukturalne | `.json`, `.xml`, `.html`, `.htm`, `.yaml`, `.yml`, `.toml`, `.ini`, `.conf`, `.cfg`, `.properties` |
+| Kod źródłowy | `.kt`, `.java`, `.py`, `.js`, `.ts`, `.sh`, `.bash` |
+| Dokumenty Office | `.docx`, `.xlsx`, `.pptx` |
+| PDF | `.pdf` *(wymaga Android 15 / API 35 — systemowy PdfRenderer)* |
+
+- Wszystkie predefiniowane rozszerzenia domyślnie **włączone**
+- Użytkownik może **wyłączać** poszczególne rozszerzenia w ustawieniach
+- Użytkownik może **dodawać własne** rozszerzenia (custom, dowolne)
+- Merge z defaults: nowe rozszerzenia dodane w przyszłych wersjach pojawiają się automatycznie
+
+**UI:** `FileContentSection`
+
+- Ikona: Article (Material), konfigurowalny kolor (`fileContentIconColor` Light/Dark)
+- Wyświetlanie: nazwa pliku + snippet (podświetlanie) + ścieżka
+- IndexingIndicator: CircularProgressIndicator w headerze podczas indeksowania
+
+**Dane:** fileId, fileName, filePath, fileUri, mimeType, snippet, lastModified, originalContent (FTS)
+
+### 2.8 Pliki chmurowe (Cloud Files) — szczegóły
+
+**Providers:** `CloudProvider` enum
+
+| Provider       | Klasa auth                | isProFeature | Opis                        |
+| -------------- | ------------------------- | ------------ | --------------------------- |
+| Google Drive   | Google Sign-In            | ❌ FREE      | Pliki z Google Drive        |
+| Dropbox        | DropboxAuthActivity       | ✅ PRO       | Pliki z Dropbox             |
+| OneDrive       | OneDriveAuthActivity      | ✅ PRO       | Pliki z OneDrive            |
+
+- Konfiguracja w PermissionsUI.kt (zakładka Permissions → Cloud Access)
+- Stan połączenia: email konta
+- Preferences: `cloudDriveEnabled`, `cloudDropboxEnabled`, `cloudOneDriveEnabled`
+- Wyniki włączane per-provider: `cloudIncludeDriveResults`, `cloudIncludeDropboxResults`, `cloudIncludeOneDriveResults`
+- Sekcja `CLOUD_FILES` w SectionConfig (domyślnie włączona)
+
+### 2.9 Reklamy — szczegóły
 
 **Komponent:** `AdsSection`
 
@@ -319,6 +378,8 @@ Działa dla **WSZYSTKICH** źródeł: Apps, Actions, Contacts, Files, Settings.
 | Kontakty         | true     |
 | Ustawienia       | true     |
 | Pliki            | true     |
+| Pliki chmurowe   | true     |
+| Treść plików     | false    |
 | Akcje            | true     |
 | Search Providers | false    |
 | AI Prompts       | false    |
@@ -371,12 +432,13 @@ Wszystkie kolory konfigurowane osobno dla motywu Light i Dark.
 | Tekst podświetlenia       | 0 (z presetu) |
 | Ikona nagłówka            | 0 (z presetu) |
 
-### 5.3 Kolory ikon elementów (2 opcje × 2 motywy = 4)
+### 5.3 Kolory ikon elementów (3 opcje × 2 motywy = 6)
 
-| Kolor          | Domyślna      |
-| -------------- | ------------- |
-| Ikona plików   | 0 (z presetu) |
-| Ikona ustawień | 0 (z presetu) |
+| Kolor               | Domyślna      |
+| -------------------- | ------------- |
+| Ikona plików         | 0 (z presetu) |
+| Ikona treści plików  | 0 (z presetu) |
+| Ikona ustawień       | 0 (z presetu) |
 
 ### 5.4 Kolory BottomSheet (5 opcji × 2 motywy = 10)
 
@@ -398,7 +460,7 @@ Wszystkie kolory konfigurowane osobno dla motywu Light i Dark.
 | Ikona       | 0 (z presetu) |
 | Placeholder | 0 (z presetu) |
 
-**Łącznie: 52 opcje kolorów**
+**Łącznie: 54 miejsca z możliwością zmiany koloru (Pasek wyszukiwania, Sekcje, Ikony elementów, Widget, Panel dolny)**
 
 ---
 
@@ -412,18 +474,29 @@ Wszystkie kolory konfigurowane osobno dla motywu Light i Dark.
 | LIGHT   | Jasny                    |
 | DARK    | Ciemny                   |
 
-### 6.2 Style presets (6)
+### 6.2 Style presets (14 w allPresets + MinimalDark jako fallback)
 
-| Preset            | ID              | Opis                                          |
-| ----------------- | --------------- | --------------------------------------------- |
-| **UniSearch**     | `unisearch`     | Brandowy preset z niebieskim akcentem          |
-| **Glass**         | `glass`         | Glassmorphism — border 1dp, opacity 70%       |
-| **High Contrast** | `high_contrast` | Wysoki kontrast — border 1dp (domyślny)       |
-| **Material You**  | `material_you`  | Kolory Material Design 3, border 1dp          |
-| **Custom**        | `custom`        | Bazuje na Minimal Dark, pełna personalizacja  |
-| **Minimal Dark**  | `minimal_dark`  | Czysty, minimalny styl (dostępny, nie w liście) |
+| # | Preset            | ID               | isProFeature | Opis                                            |
+|---|-------------------|------------------|--------------|-------------------------------------------------|
+| 1 | **UniSearch**     | `unisearch`      | ❌ FREE      | Brandowy preset z niebieskim akcentem           |
+| 2 | **High Contrast** | `high_contrast`  | ❌ FREE      | Wysoki kontrast — border 1dp                    |
+| 3 | **Glass**         | `glass`          | ✅ PRO       | Glassmorphism — border 1dp, opacity 70%         |
+| 4 | **Soft Light**    | `soft_light`     | ✅ PRO       | Jasny, delikatny styl                           |
+| 5 | **Midnight Blue** | `midnight_blue`  | ✅ PRO       | Ciemny niebieski akcent                         |
+| 6 | **Mono Slate**    | `mono_slate`     | ✅ PRO       | Monochromatyczny, szary                         |
+| 7 | **Warm Paper**    | `warm_paper`     | ✅ PRO       | Ciepłe, papierowe kolory                        |
+| 8 | **Terminal**      | `terminal`       | ✅ PRO       | Styl terminala (zielony na czarnym)             |
+| 9 | **Forest**        | `forest`         | ✅ PRO       | Zieleń i naturalne tony                         |
+| 10 | **Pastel System** | `pastel_system`  | ✅ PRO       | Pastelowe kolory systemowe                      |
+| 11 | **Nord**          | `nord`           | ✅ PRO       | Zimny niebieski (paleta Nord)                   |
+| 12 | **Sepia Focus**   | `sepia_focus`    | ✅ PRO       | Sepii i brązów                                  |
+| 13 | **Material You**  | `material_you`   | ✅ PRO       | Statyczny preset z hardcoded kolorami M3, border 1dp |
+| 14 | **Custom**        | `custom`         | ✅ PRO       | Bazuje na Minimal Dark, pełna personalizacja    |
+| — | **Minimal Dark**  | `minimal_dark`   | — (fallback) | Czysty, minimalny styl — nie w liście, tylko fallback |
 
-**Domyślny:** `high_contrast`
+**Domyślny:** `unisearch`
+
+**Warunek PRO:** `preset.id != "unisearch" && preset.id != "high_contrast"` (GeneralSettingsSection.kt)
 
 ### 6.3 Custom Style Presets (NOWE)
 
@@ -454,20 +527,20 @@ Wszystkie kolory konfigurowane osobno dla motywu Light i Dark.
 
 **SearchBar:**
 
-| Opcja              | Zakres | Domyślna |
-| ------------------ | ------ | -------- |
-| Corner radius      | 0-40dp | 28dp     |
-| Horizontal padding | 0-20dp | 8dp      |
-| Border width       | 0-12dp | 0dp      |
-| Opacity            | 0-100% | 100%     |
+| Opcja              | Zakres | Domyślna | isProFeature |
+| ------------------ | ------ | -------- | ------------ |
+| Corner radius      | 0-40dp | 28dp     | ❌ FREE      |
+| Horizontal padding | 0-20dp | 8dp      | ✅ PRO       |
+| Border width       | 0-12dp | 0dp      | ✅ PRO       |
+| Opacity            | 0-100% | 100%     | ✅ PRO       |
 
 **Sekcje:**
 
 | Opcja              | Zakres | Domyślna | isProFeature |
 | ------------------ | ------ | -------- | ------------ |
-| Corner radius      | 0-40dp | 24dp     | ❌           |
-| Horizontal padding | 0-20dp | 8dp      | ❌           |
-| Vertical padding   | 0-20dp | 6dp      | ❌           |
+| Corner radius      | 0-40dp | 24dp     | ✅ PRO       |
+| Horizontal padding | 0-20dp | 8dp      | ✅ PRO       |
+| Vertical padding   | 0-20dp | 6dp      | ✅ PRO       |
 | Border width       | 0-12dp | 0dp      | ✅ PRO       |
 | Opacity            | 0-100% | 100%     | ✅ PRO       |
 
@@ -487,35 +560,40 @@ Wszystkie kolory konfigurowane osobno dla motywu Light i Dark.
 
 ### 7.1 Opcje w ustawieniach
 
-| Opcja                                | Typ kontrolki          | Domyślna       |
-| ------------------------------------ | ---------------------- | -------------- |
-| Animacje włączone                    | Switch (master toggle) | true           |
-| Animacja ładowania SearchBar         | Radio (11 typów)       | NONE           |
-| Animacja ładowania sekcji            | Radio (11 typów)       | NONE           |
-| Animacja zmiany rozmiaru sekcji      | Radio (2 typy)         | NONE           |
-| Kolejność ładowania sekcji           | Radio (3 typy)         | SIMULTANEOUSLY |
-| Prędkość animacji                    | Slider (5 wartości)    | MEDIUM         |
-| Opóźnij auto-focus do końca animacji | Switch                 | false          |
+| Opcja                                | Typ kontrolki          | Domyślna       | isProFeature         |
+| ------------------------------------ | ---------------------- | -------------- | -------------------- |
+| Animacje włączone                    | Switch (master toggle) | true           | ❌ FREE              |
+| Animacja ładowania SearchBar         | Radio (11 typów)       | NONE           | ❌ FREE (brak flagi) |
+| Animacja ładowania sekcji            | Radio (11 typów)       | NONE           | ⚠️ NONE/FADE/SCALE = FREE, reszta PRO |
+| Animacja zmiany rozmiaru sekcji      | Radio (2 typy)         | NONE           | ❌ FREE (brak flagi) |
+| Kolejność ładowania sekcji           | Radio (3 typy)         | SIMULTANEOUSLY | ✅ PRO               |
+| Prędkość animacji                    | Slider (5 wartości)    | MEDIUM         | ✅ PRO               |
+| Opóźnij auto-focus do końca animacji | Switch                 | false          | ❌ FREE              |
 
 ### 7.2 Typy animacji ładowania (SectionLoadAnimationType)
 
-| Typ                   | Opis                                                 |
-| --------------------- | ---------------------------------------------------- |
-| NONE                  | Brak animacji                                        |
-| FADE                  | Tylko fade-in (alpha)                                |
-| FADE_DOWN             | Fade + translationY od góry                          |
-| FADE_UP               | Fade + translationY od dołu                          |
-| FADE_LEFT             | Fade + translationX od lewej                         |
-| FADE_RIGHT            | Fade + translationX od prawej                        |
-| SCALE                 | Skalowanie (0.85→1.0) + fade                         |
-| SLIDE_UP_OVERSHOOT    | Przesunięcie w górę z lekkim odbiciem (cubic easing) |
-| FADE_DOWN_BOUNCE      | Fade w dół z efektem bounce (sin oscillation)        |
-| EXPAND_VERTICAL       | Rozszerzanie pionowe (scaleY 0.3→1.0)                |
-| FLIP_IN_X             | Obrót 3D wokół osi X (90°→0°) z bounce               |
+| Typ                   | Opis                                                 | isProFeature (Section Load) |
+| --------------------- | ---------------------------------------------------- | --------------------------- |
+| NONE                  | Brak animacji                                        | ❌ FREE                     |
+| FADE                  | Tylko fade-in (alpha)                                | ❌ FREE                     |
+| SCALE                 | Skalowanie (0.85→1.0) + fade                         | ❌ FREE                     |
+| FADE_DOWN             | Fade + translationY od góry                          | ✅ PRO                      |
+| FADE_UP               | Fade + translationY od dołu                          | ✅ PRO                      |
+| FADE_LEFT             | Fade + translationX od lewej                         | ✅ PRO                      |
+| FADE_RIGHT            | Fade + translationX od prawej                        | ✅ PRO                      |
+| SLIDE_UP_OVERSHOOT    | Przesunięcie w górę z lekkim odbiciem (cubic easing) | ✅ PRO                      |
+| FADE_DOWN_BOUNCE      | Fade w dół z efektem bounce (sin oscillation)        | ✅ PRO                      |
+| EXPAND_VERTICAL       | Rozszerzanie pionowe (scaleY 0.3→1.0)                | ✅ PRO                      |
+| FLIP_IN_X             | Obrót 3D wokół osi X (90°→0°) z bounce               | ✅ PRO                      |
+
+**SearchBar Load Animation:** brak isProFeature → wszystkie 11 typów FREE.
+**Warunek Section Load FREE:** `type == NONE || type == FADE || type == SCALE`
 
 Wszystkie animacje: `graphicsLayer` (GPU-accelerated), zero recomposition, zero alokacji.
 
 ### 7.3 Animacja zmiany rozmiaru (SectionResizeAnimationType)
+
+Brak flagi isProFeature — obie opcje **FREE**.
 
 | Typ      | Opis                                  |
 | -------- | ------------------------------------- |
@@ -679,7 +757,15 @@ AiPrompt:
 | Pliki systemowe                | Switch                                                              |
 | Foldery                        | Switch                                                              |
 
-### 13.2 Kolejność sekcji
+### 13.2 Filtry treści plików (File Content)
+
+| Filtr                          | Opis                                                                |
+| ------------------------------ | ------------------------------------------------------------------- |
+| Wykluczone pliki (content)     | `ExcludedFileContentPreferencesStore` — lista fileId                |
+| Rozszerzenia plików            | `FileContentExtensionsPreferencesStore` — per-extension enable/disable |
+| Rozszerzenia niestandardowe    | Custom extensions dodawane przez użytkownika                        |
+
+### 13.3 Kolejność sekcji
 
 | Funkcja        | Opis                                   |
 | -------------- | -------------------------------------- |
@@ -748,6 +834,7 @@ Parsowanie JSON → import preferencji → przywrócenie ukrytych elementów →
 | 1    | ConsentOnboardingScreen     | Consent reklam (UMP) — tylko jeśli wymagane |
 | 2    | PermissionsOnboardingScreen | Zbiorczy ekran uprawnień (Contacts, Files, Wallpaper, Notifications) |
 | 3    | IndexingScreen              | Indeksowanie aplikacji z progress bar       |
+| 4    | PaywallOnboardingScreen     | Ekran Pro (BillingManager connect, skip = free) |
 
 ---
 
@@ -777,38 +864,70 @@ Parsowanie JSON → import preferencji → przywrócenie ukrytych elementów →
 
 ### 17.1 Obecna implementacja
 
-| Komponent                             | Status            | Opis                                     |
-| ------------------------------------- | ----------------- | ---------------------------------------- |
-| ProFeatureManager                     | ✅ Gotowy         | State w mutableStateOf + DataStore       |
-| ProFeatureCache                       | ✅ Gotowy         | Object singleton dla szybkiego UI access |
-| PaywallActivity                       | ⚠️ Placeholder    | UI gotowe, brak Google Play Billing      |
-| ProBadge                              | ✅ Gotowy         | Badge "PRO" w UI                         |
-| SettingsSwitch/LinkRow/RadioButtonRow | ✅ Gotowy         | Parametr isProFeature blokuje UI         |
-| Google Play Billing                   | ❌ Brak           | TODO w PaywallActivity                   |
-| initialize()                          | ❌ Nie wywoływane | Brak w AppWarmupManager/Application      |
+| Komponent                             | Status          | Opis                                                       |
+| ------------------------------------- | --------------- | ---------------------------------------------------------- |
+| ProFeatureManager                     | ✅ Gotowy       | State w mutableStateOf + DataStore                         |
+| ProFeatureCache                       | ✅ Gotowy       | Object singleton dla szybkiego UI access                   |
+| BillingManager                        | ✅ Gotowy       | Google Play Billing Library (INAPP, auto-reconnect, acknowledge, restore) |
+| PaywallActivity                       | ✅ Gotowy       | UI + BillingManager integration                            |
+| PaywallOnboardingScreen               | ✅ Gotowy       | Onboarding step z PaywallContent                           |
+| ProBadge                              | ✅ Gotowy       | Badge "PRO" w UI                                           |
+| SettingsSwitch/LinkRow/RadioButtonRow | ✅ Gotowy       | Parametr isProFeature blokuje UI                           |
+| initialize()                          | ✅ Wywoływane   | W ZenSearchApplication + billing verify                    |
 
-### 17.2 Opcje z isProFeature = true (obecnie 2)
+### 17.2 Opcje z isProFeature = true (obecnie ~40+)
 
-| Opcja               | Plik                           |
-| ------------------- | ------------------------------ |
-| Border Width sekcji | SectionStyleSettingsSection.kt |
-| Opacity sekcji      | SectionStyleSettingsSection.kt |
+Pełna implementacja isProFeature we wszystkich odpowiednich komponentach:
 
-### 17.3 Paywall UI (strings)
+| Kategoria             | Pliki                                                                       | Liczba opcji |
+| --------------------- | --------------------------------------------------------------------------- | ------------ |
+| Style presets         | LookAndFeelUI.kt, GeneralSettingsSection.kt                                | 12 PRO (warunek: id != "unisearch" && id != "high_contrast") |
+| SearchBar style       | SearchBarStyleSettingsSection.kt                                            | ~7           |
+| Section style         | SectionStyleSettingsSection.kt                                              | ~7           |
+| Section icon colors   | SectionIconStyleSettingsSection.kt                                          | ~1           |
+| BottomSheet colors    | BottomSheetStyleSettingsSection.kt                                          | ~5           |
+| Widget style          | WidgetStyleSettingsSection.kt                                               | ~9           |
+| Animacje              | AnimationsUI.kt                                                             | ~4           |
+| Tapeta                | AppearanceUI.kt                                                             | ~2           |
+| Custom sections       | BehaviorUI.kt                                                               | ~1           |
+| Backup/Export         | InfoUI.kt                                                                   | ~2           |
 
-| Klucz                       | Tekst                                                                     |
-| --------------------------- | ------------------------------------------------------------------------- |
-| paywall_title               | UniSearch Pro                                                             |
-| paywall_headline            | Unlock Full Potential                                                     |
-| paywall_description         | Get access to all premium features with a one-time purchase. No subscriptions, no ads. |
-| paywall_feature_customization | Advanced customization options                                           |
-| paywall_feature_themes      | Premium themes and styles                                                 |
-| paywall_feature_animations  | Custom animation settings                                                 |
-| paywall_feature_backup      | Settings backup and restore                                               |
-| paywall_feature_support     | Support future development                                                |
-| paywall_purchase_button     | Unlock Pro – One-time purchase                                            |
-| paywall_restore_button      | Restore purchase                                                          |
-| paywall_one_time_purchase   | One-time purchase. Unlock forever.                                        |
+### 17.3 Paywall UI — stan faktyczny z kodu (2026-03-08)
+
+**Zdefiniowane strings (14 feature keys w values/strings.xml):**
+
+| Klucz                            | Tekst (EN)                                                        | Wyświetlany? |
+| -------------------------------- | ----------------------------------------------------------------- | ------------ |
+| paywall_feature_colors           | 52 customizable color slots (Search bar, Sections, Widget, Bottom panel) | ✅ TAK |
+| paywall_feature_themes           | Premium themes: Glass, Material You, Custom presets               | ✅ TAK |
+| paywall_feature_animations       | 11 animation types + speed control                                | ✅ TAK |
+| paywall_feature_file_content_search | File content search (PDF, DOCX, XLSX)                          | ✅ TAK |
+| paywall_feature_geometry         | Full style control (radius, padding, opacity, borders)            | ❌ NIE |
+| paywall_feature_custom_sections  | Unlimited custom sections (Free: 1 section)                       | ✅ TAK |
+| paywall_feature_reorder          | Reorder sections with drag & drop                                 | ❌ NIE |
+| paywall_feature_icon_packs       | Unlimited custom AI prompts (Free: 1 prompt) ⚠️ BUG: tekst o AI, klucz o icon packs | ✅ TAK |
+| paywall_feature_search_providers | Custom search providers                                           | ❌ NIE |
+| paywall_feature_ai_prompts       | AI prompts with custom templates                                  | ❌ NIE |
+| paywall_feature_wallpaper        | Custom wallpaper color + blur effect                              | ❌ NIE |
+| paywall_feature_backup           | Settings backup and restore (JSON)                                | ✅ TAK |
+| paywall_feature_no_ads           | Remove all ads                                                    | ✅ TAK |
+| paywall_feature_support          | and many many more...                                             | ✅ TAK |
+
+**Wyświetlane w PaywallContent.kt (PAYWALL_FEATURES — 9 pozycji):**
+
+| # | Ikona (MaterialSymbol) | String key                          |
+|---|------------------------|-------------------------------------|
+| 1 | Palette                | paywall_feature_colors              |
+| 2 | Style                  | paywall_feature_themes              |
+| 3 | Animation              | paywall_feature_animations          |
+| 4 | Article                | paywall_feature_file_content_search |
+| 5 | Dashboard              | paywall_feature_custom_sections     |
+| 6 | Apps                   | paywall_feature_icon_packs ⚠️ BUG  |
+| 7 | Save                   | paywall_feature_backup              |
+| 8 | Close                  | paywall_feature_no_ads              |
+| 9 | Favorite               | paywall_feature_support             |
+
+**Problemy paywallu — patrz sekcja 28.**
 
 ### 17.4 Analytics events (zdefiniowane, nieużywane)
 
@@ -821,9 +940,9 @@ Parsowanie JSON → import preferencji → przywrócenie ukrytych elementów →
 
 ---
 
-## 18. Podział Free vs Pro — REKOMENDACJA
+## 18. Podział Free vs Pro — STAN FAKTYCZNY (audyt kodu 2026-03-08)
 
-### 🆓 FREE — zawsze dostępne
+### 🆓 FREE — zawsze dostępne (potwierdzone w kodzie)
 
 #### Wyszukiwanie (100%)
 
@@ -835,13 +954,16 @@ Parsowanie JSON → import preferencji → przywrócenie ukrytych elementów →
 - ✅ Podświetlanie dopasowań
 - ✅ Normalizacja (diakrytyki, camelCase)
 
-#### Źródła danych (100%)
+#### Źródła danych
 
 - ✅ Aplikacje (pełny indeks, tokeny, cache ikon)
 - ✅ Akcje/Shortcuts (manifest + curated)
 - ✅ Kontakty (token search, lazy loading, linked apps detection)
 - ✅ Pliki (MediaStore, foldery, typy plików, wykluczenia)
 - ✅ Ustawienia (overlay detection, token search)
+- ✅ Pliki chmurowe — Google Drive (FREE, brak flagi isProFeature)
+- ❌ Pliki chmurowe — Dropbox, OneDrive → **PRO** (isProFeature = true w PermissionsUI)
+- ❌ Treść plików (FILE_CONTENT) — **PRO** (toggle w SectionsOrder zablokowany)
 
 #### Akcje i Deep Links (100%)
 
@@ -858,7 +980,6 @@ Parsowanie JSON → import preferencji → przywrócenie ukrytych elementów →
 - ✅ Rozmiar ikon (S/M/L)
 - ✅ Odstępy grid (S/M/L)
 - ✅ Etykiety ikon
-- ✅ Ikony nagłówków sekcji
 - ✅ Tryb kompaktowy kontaktów
 - ✅ Rozmiar ikon akcji kontaktu (S/M/L)
 
@@ -867,7 +988,7 @@ Parsowanie JSON → import preferencji → przywrócenie ukrytych elementów →
 - ✅ Auto-focus + opóźnienie do animacji
 - ✅ Wyczyść pole po wyborze
 - ✅ Ukryj sekcję jeśli recents puste
-- ✅ Widoczność sekcji na starcie (7 sekcji)
+- ✅ Widoczność sekcji na starcie (bez FILE_CONTENT)
 - ✅ Limity wyników (3 slidery)
 
 #### Zarządzanie widocznością
@@ -879,25 +1000,55 @@ Parsowanie JSON → import preferencji → przywrócenie ukrytych elementów →
 - ✅ Typy plików (7 typów)
 - ✅ Reindeksacja aplikacji
 
+#### Kolory (częściowo free)
+
+- ✅ 2 kolory SearchBar za darmo: **FocusedBackground** + **Text** (× 2 motywy = 4 free slots)
+- ❌ Pozostałe 50 color slots → PRO
+
 #### Motyw podstawowy
 
 - ✅ Tryb motywu (SYSTEM/LIGHT/DARK)
-- ✅ 2 presety: **UniSearch** (domyślny) + **High Contrast**
+- ✅ 2 presety: **UniSearch** + **High Contrast**
+- ❌ Pozostałe 12 presetów → PRO (Glass, Soft Light, Midnight Blue, Mono Slate, Warm Paper, Terminal, Forest, Pastel System, Nord, Sepia Focus, Material You, Custom)
 
-#### Search Providers podstawowe
+#### Search Providers
 
 - ✅ Predefiniowane providers (Google, DuckDuckGo, etc.)
 - ✅ Włączanie/wyłączanie providers
 - ✅ "Zawsze pokazuj" switch
+- ✅ Drag & drop reorder providers (brak flagi isProFeature w SearchProviderComponents.kt)
 
-#### Widget podstawowy
+#### AI Prompts
+
+- ✅ 1 prompt za darmo (limit `freePromptsLimit = 1`)
+- ❌ Dodatkowe prompty → PRO
+
+#### Widget
 
 - ✅ Widget paska wyszukiwania (domyślne kolory/styl)
 
-#### Animacje podstawowe
+#### Animacje
 
-- ✅ Włączenie/wyłączenie animacji (master toggle)
-- ✅ Animacje wbudowane (fade-in, section resize, header rotation)
+- ✅ Master toggle (włącz/wyłącz)
+- ✅ Animacje wbudowane (fade-in, header rotation, accordion, crossfade)
+- ✅ SearchBar Load Animation: **wszystkie 11 typów FREE** (brak isProFeature)
+- ✅ Section Load Animation: **NONE**, **FADE**, **SCALE** (3/11 free)
+- ✅ Section Resize Animation: **NONE** + **ANIMATED** — obie FREE (brak isProFeature)
+- ❌ Section Load Animation: pozostałe 8 typów → PRO
+- ❌ Load Order (TOP_TO_BOTTOM, BOTTOM_TO_TOP) → PRO
+- ❌ Animation Speed → PRO
+
+#### Sekcje
+
+- ✅ Ekran "Sections" (BehaviorUI link — brak isProFeature)
+- ✅ Enable/disable sekcji (switch toggle)
+- ✅ 1 custom section za darmo (`canAddSection = isPro || customSectionsCount < 1`)
+- ❌ Drag & drop reorder sekcji → PRO (`canReorder = isPro`)
+- ❌ Dodatkowe custom sections → PRO
+
+#### Per-section style overrides
+
+- ✅ Wejście do per-section override (context menu — brak flagi isProFeature)
 
 #### Punkty wejścia
 
@@ -907,328 +1058,254 @@ Parsowanie JSON → import preferencji → przywrócenie ukrytych elementów →
 
 ---
 
-### 💎 PRO — za paywallem
+### 💎 PRO — za paywallem (potwierdzone `isProFeature = true` w kodzie)
 
-#### 🎨 Personalizacja kolorów (52 opcje)
+#### 🔍 Treść plików (FILE_CONTENT)
 
-| Kategoria                          | Opcje              |
-| ---------------------------------- | ------------------ |
-| Kolory SearchBar (Light/Dark)      | 7 kolorów × 2 = 14 |
-| Kolory sekcji (Light/Dark)         | 7 kolorów × 2 = 14 |
-| Kolory ikon elementów (Light/Dark) | 2 kolory × 2 = 4   |
-| Kolory BottomSheet (Light/Dark)    | 5 kolorów × 2 = 10 |
-| Kolory widgetu (Light/Dark)        | 5 kolorów × 2 = 10 |
+| Funkcja | Plik |
+|---------|------|
+| Włączenie sekcji FILE_CONTENT | SectionsOrder.kt (`isPro && SettingsCache.filesEnabled`) |
+
+#### 🎨 Personalizacja kolorów (54 miejsca)
+
+| Kategoria | Plik | Opcje |
+|-----------|------|-------|
+| Kolory SearchBar | SearchBarStyleSettingsSection.kt | 5 kolorów × Light/Dark = 10 (FocusedBackground + Text = FREE) |
+| Kolory sekcji | SectionStyleSettingsSection.kt | 7 kolorów × Light/Dark = 14 |
+| Kolory ikon elementów | SectionIconStyleSettingsSection.kt | 3 kolory × Light/Dark = 6 |
+| Kolory BottomSheet | BottomSheetStyleSettingsSection.kt | 5 kolorów × Light/Dark = 10 |
+| Kolory widgetu | WidgetStyleSettingsSection.kt | 5 kolorów × Light/Dark = 10 |
 
 #### 🖼️ Style i motywy
 
-| Funkcja                                | Opis                                          |
-| -------------------------------------- | --------------------------------------------- |
-| Style presets: Glass                   | Glassmorphism z blur                          |
-| Style presets: Material You            | Material Design 3                             |
-| Style presets: Custom                  | Pełna personalizacja bazowa                   |
-| Custom Style Presets (zapis/load)      | Tworzenie i zapisywanie własnych presetów     |
-| Section Style Overrides (per-sekcja)   | Indywidualny styl per sekcja                  |
-| Pakiety ikon (zewnętrzne)              | Icon packs z urządzenia                       |
+| Funkcja | Plik | Szczegóły |
+|---------|------|-----------|
+| Style presets: Glass, Material You, Custom | LookAndFeelUI.kt, GeneralSettingsSection.kt | `isProFeature = preset.id != "unisearch" && preset.id != "high_contrast"` |
+| Custom Style Presets (zapis/load) | AppearanceUI.kt | `isProFeature = true` |
+| Pakiety ikon (poza SYSTEM) | LayoutSettingsSection.kt | `isProFeature = pack.packageName != IconPackDefaults.SYSTEM` |
 
-#### 📐 Style geometryczne zaawansowane
+#### 📐 Style geometryczne
 
-| Funkcja                         | Opis                    |
-| ------------------------------- | ----------------------- |
-| SearchBar corner radius         | 0-40dp                  |
-| SearchBar horizontal padding    | 0-20dp                  |
-| SearchBar border width          | 0-12dp                  |
-| SearchBar opacity               | 0-100%                  |
-| SearchBar lewa ikona            | Material Symbol picker  |
-| SearchBar ukryj placeholder     | Switch                  |
-| **Sekcje border width** (✅ PRO)| 0-12dp                  |
-| **Sekcje opacity** (✅ PRO)     | 0-100%                  |
-| Sekcje corner radius            | 0-40dp                  |
-| Sekcje horizontal padding       | 0-20dp                  |
-| Sekcje vertical padding         | 0-20dp                  |
+| Funkcja | Plik |
+|---------|------|
+| SearchBar: corner radius, padding, border, opacity | SearchBarStyleSettingsSection.kt |
+| SearchBar: lewa ikona, ukryj placeholder | SearchBarStyleSettingsSection.kt |
+| Sekcje: corner radius, paddings, border, opacity | SectionStyleSettingsSection.kt |
+| Sekcje: show header icons | SectionStyleSettingsSection.kt |
+| Widget: corner radius, padding, height, border, opacity | WidgetStyleSettingsSection.kt |
+| Widget: lewa ikona, ukryj placeholder | WidgetStyleSettingsSection.kt |
 
-#### 🎬 Zaawansowane animacje
+#### 🎬 Animacje
 
-| Funkcja                         | Opis                                 |
-| ------------------------------- | ------------------------------------ |
-| Animacja ładowania SearchBar    | 11 typów (FADE, SCALE, FLIP, etc.)  |
-| Animacja ładowania sekcji       | 11 typów                             |
-| Animacja zmiany rozmiaru sekcji | ANIMATED (spring)                    |
-| Kolejność ładowania             | TOP_TO_BOTTOM, BOTTOM_TO_TOP         |
-| Prędkość animacji               | 5 wartości (SUPER_SLOW → SUPER_FAST) |
+| Funkcja | Plik | Szczegóły |
+|---------|------|-----------|
+| SearchBar Load Animation (wszystkie typy) | AnimationsUI.kt | `isProFeature = true` |
+| Section Load Animation (9 z 11 typów) | LookAndFeelUI.kt | FADE i NONE = free, reszta PRO |
+| Section Resize Animation | AnimationsUI.kt | `isProFeature = true` |
+| Load Order (TOP_TO_BOTTOM, BOTTOM_TO_TOP) | AnimationsUI.kt | `isProFeature = true` |
+| Animation Speed | AnimationsUI.kt | `isProFeature = true` |
 
 #### 🖼️ Tapeta
 
-| Funkcja                     | Opis         |
-| --------------------------- | ------------ |
-| Niestandardowy kolor tapety | Color picker |
-| Blur tapety                 | Switch       |
+| Funkcja | Plik |
+|---------|------|
+| Background type (kolor/obraz) | AppearanceUI.kt |
+| Wallpaper opacity | AppearanceUI.kt |
+| Wallpaper blur | AppearanceUI.kt |
 
-#### 📦 Sekcje niestandardowe (Custom Sections)
+#### 📦 Custom Sections
 
-| Funkcja                     | Opis                                |
-| --------------------------- | ----------------------------------- |
-| Tworzenie sekcji            | Nazwa + ikona Material Symbols      |
-| Dodawanie elementów         | APP, ACTION, CONTACT, FILE, SETTING |
-| Zmiana kolejności elementów | Drag & drop                         |
-| Kolory ikony sekcji         | Light/Dark                          |
-| Edycja/usuwanie             | Pełne CRUD                          |
+| Funkcja | Plik | Szczegóły |
+|---------|------|-----------|
+| Pinned Items link | BehaviorUI.kt | `isProFeature = true` |
+| Dodatkowe custom sections (>1) | SectionsOrder.kt | `canAddSection = isPro \|\| customSectionsCount < 1` |
+| Drag & drop reorder sekcji | SectionsOrder.kt | `canReorder = isPro` |
 
-#### 🔀 Kolejność sekcji
+#### 🔍 Search Providers
 
-| Funkcja                  | Opis                     |
-| ------------------------ | ------------------------ |
-| Zmiana kolejności sekcji | Drag & drop              |
-| Przypięte elementy       | Zarządzanie pinned items |
-
-#### 🔍 Search Providers zaawansowane
-
-| Funkcja           | Opis                   |
-| ----------------- | ---------------------- |
-| Custom providers  | URL template z `{{Q}}` |
-| Zmiana kolejności | Drag & drop            |
+| Funkcja | Plik |
+|---------|------|
+| Add custom provider | SearchWithSettingsActivity.kt (`val isLocked = !isPro`) |
 
 #### 🤖 AI Prompts
 
-| Funkcja           | Opis                          |
-| ----------------- | ----------------------------- |
-| Własne prompty AI | Label + template + target app |
-| Edycja/usuwanie   | Pełne CRUD                    |
-| Zmiana kolejności | Drag & drop                   |
+| Funkcja | Plik | Szczegóły |
+|---------|------|-----------|
+| AI Prompts (>1) | AiPromptsSettingsSheet.kt | `freePromptsLimit = 1`, dodatkowe zablokowane |
 
 #### 📱 Widget zaawansowany
 
-| Funkcja           | Opis                  |
-| ----------------- | --------------------- |
-| Kolory widgetu    | 5 opcji × Light/Dark  |
-| Corner radius     | 0-40dp                |
-| Horizontal padding| 0-20dp                |
-| Height            | 48-80dp               |
-| Border width      | 0-12dp                |
-| Opacity           | 0-100%                |
-| Lewa ikona        | Material Symbol picker|
-| Ukryj placeholder | Switch                |
+| Funkcja | Plik |
+|---------|------|
+| Wszystkie opcje widgetu | WidgetStyleSettingsSection.kt (9 opcji) |
 
 #### 💾 Backup i Export
 
-| Funkcja          | Opis                                       |
-| ---------------- | ------------------------------------------ |
-| Eksport ustawień | JSON z preferencjami + ukrytymi elementami |
-| Import ustawień  | Przywrócenie pełnej konfiguracji           |
+| Funkcja | Plik |
+|---------|------|
+| Export Settings | InfoUI.kt |
+| Import Settings | InfoUI.kt |
+
+#### ☁️ Pliki chmurowe (Dropbox, OneDrive)
+
+| Funkcja | Plik |
+|---------|------|
+| Dropbox | PermissionsUI.kt (`isProFeature = true`) |
+| OneDrive | PermissionsUI.kt (`isProFeature = true`) |
 
 #### 🚫 Brak reklam
 
-| Funkcja              | Opis            |
-| -------------------- | --------------- |
-| Usunięcie AdsSection | Brak Native Ads |
+| Funkcja | Plik |
+|---------|------|
+| Ukrycie sekcji ADS | SectionsOrder.kt (`isPro → filtruje SectionType.ADS`) |
 
 ---
 
 ### 📊 Podsumowanie podziału
 
-| Kategoria                                  | Free                     | Pro                                           |
-| ------------------------------------------ | ------------------------ | --------------------------------------------- |
-| Wyszukiwanie (algorytmy + frecency)        | ✅ 100%                  | —                                             |
-| Źródła danych (5 typów)                    | ✅ 100%                  | —                                             |
-| Akcje i Deep Links (20+ typów)             | ✅ 100%                  | —                                             |
-| UI podstawowe (layout, limity, zachowanie) | ✅ 100%                  | —                                             |
-| Zarządzanie widocznością                   | ✅ 100%                  | —                                             |
-| Kolory (52 opcje)                          | Domyślne z presetu       | ✅ Pełne                                      |
-| Style presets                              | 2 (UniSearch + HighContrast) | ✅ 5 (+ Glass, Material You, Custom)       |
-| Custom Style Presets                       | ❌                       | ✅ Zapis/load własnych presetów               |
-| Section Style Overrides                    | ❌                       | ✅ Per-sekcja override                        |
-| Pakiety ikon                               | System                   | ✅ Zewnętrzne                                 |
-| Style geometryczne                         | Domyślne                 | ✅ Pełna konfiguracja SearchBar/Sekcje/Widget |
-| Animacje                                   | On/Off                   | ✅ Pełna konfiguracja (11 typów + speed)      |
-| Tapeta                                     | Systemowa                | ✅ Custom kolor + blur                        |
-| Sekcje niestandardowe                      | ❌                       | ✅ Pełne                                      |
-| Kolejność sekcji                           | ❌                       | ✅ Drag & drop                                |
-| Custom search providers                    | ❌                       | ✅ URL template                               |
-| AI Prompts własne                          | ❌                       | ✅ Pełne CRUD                                 |
-| Widget                                     | Podstawowy               | ✅ Pełna personalizacja                       |
-| Backup/Export                              | ❌                       | ✅ JSON                                       |
-| Reklamy                                    | ✅ Pokazywane            | ❌ Ukryte                                     |
+| Kategoria | Free | Pro |
+|-----------|------|-----|
+| Wyszukiwanie (algorytmy + frecency) | ✅ 100% | — |
+| Źródła: Apps, Actions, Contacts, Files, Settings | ✅ 100% | — |
+| Źródło: Cloud Files (Google Drive) | ✅ FREE | — |
+| Źródło: Cloud Files (Dropbox, OneDrive) | ❌ | ✅ PRO |
+| Źródło: File Content (FTS4) | ❌ | ✅ PRO |
+| Akcje i Deep Links (20+ typów) | ✅ 100% | — |
+| UI podstawowe (layout, limity, zachowanie) | ✅ 100% | — |
+| Zarządzanie widocznością | ✅ 100% | — |
+| Kolory (54 miejsca) | 4 free (SearchBar: FocusedBg + Text × 2) | ✅ 50 PRO + 4 free = 54 total |
+| Style presets | 2 (UniSearch + High Contrast) | ✅ 12 (Glass, Soft Light, Midnight Blue, Mono Slate, Warm Paper, Terminal, Forest, Pastel System, Nord, Sepia Focus, Material You, Custom) |
+| Custom Style Presets | ❌ | ✅ Zapis/load |
+| Pakiety ikon | SYSTEM | ✅ Zewnętrzne |
+| Style geometryczne (SearchBar/Sekcje/Widget) | Domyślne | ✅ Pełna konfiguracja |
+| Section Load Animation | NONE + FADE + SCALE (3/11) | ✅ 11 typów |
+| SearchBar Load Animation | ✅ 11 typów FREE (brak isProFeature) | — |
+| Section Resize Animation | ✅ Obie opcje FREE (brak isProFeature) | — |
+| Load Order / Speed | ❌ | ✅ PRO |
+| Tapeta | Systemowa | ✅ Custom kolor + opacity + blur |
+| Custom sections | 1 za darmo | ✅ Bez limitu + pinned items |
+| Kolejność sekcji (drag & drop) | ❌ | ✅ |
+| Custom search providers | ❌ | ✅ URL template |
+| AI Prompts | 1 za darmo | ✅ Bez limitu |
+| Widget | Domyślny styl | ✅ Pełna personalizacja |
+| Backup/Export | ❌ | ✅ JSON |
+| Reklamy | ✅ Pokazywane | ❌ Ukryte |
+| Search Provider reorder | ✅ Free | — |
+| Per-section style entry | ✅ Free | — |
 
 ---
 
-## 19. Lista do prompta — oznaczenie isProFeature
+## 19. Audyt isProFeature — stan faktyczny z kodu (2026-03-08)
 
-### 🔧 Obecny stan: 2 opcje z isProFeature = true
+### Potwierdzone `isProFeature = true`
 
-| # | Opcja | Plik | Status |
-|---|-------|------|--------|
-| 1 | Sekcje → Border Width | SectionStyleSettingsSection.kt:519 | ✅ Już PRO |
-| 2 | Sekcje → Opacity | SectionStyleSettingsSection.kt:535 | ✅ Już PRO |
+| # | Kategoria | Plik | Opcje | Komentarz |
+|---|-----------|------|-------|-----------|
+| 1 | Kolory SearchBar | SearchBarStyleSettingsSection.kt | 5 kolorów PRO (FocusedBg + Text = free) + leading icon + hide placeholder + corner/padding/border/opacity | 8 pozycji |
+| 2 | Kolory Sekcji | SectionStyleSettingsSection.kt | 7 kolorów + corner/paddings/border/opacity + show header icons | 7 pozycji |
+| 3 | Kolory ikon | SectionIconStyleSettingsSection.kt | files/file_content/settings icon colors | 1 pozycja (łączona) |
+| 4 | Kolory BottomSheet | BottomSheetStyleSettingsSection.kt | 5 kolorów | 5 pozycji |
+| 5 | Kolory Widget | WidgetStyleSettingsSection.kt | 5 kolorów + corner/padding/height/border/opacity + leading icon + hide placeholder | 9 pozycji |
+| 6 | Style presets | LookAndFeelUI.kt + GeneralSettingsSection.kt | Glass, MaterialYou, Custom (dynamiczny check) | ~4 pozycje |
+| 7 | Custom Style Presets | AppearanceUI.kt | Zapis/load presetów | 1 pozycja |
+| 8 | Icon packs | LayoutSettingsSection.kt | Poza SYSTEM | dynamiczny check |
+| 9 | Animacje | AnimationsUI.kt | Load order, Speed | 2 pozycje (SearchBar load i Section resize NIE mają isProFeature) |
+| 10 | Section Load opcje | LookAndFeelUI.kt | 8/11 typów PRO (NONE + FADE + SCALE = free) | dynamiczny check: `!= NONE && != FADE && != SCALE` |
+| 11 | Tapeta | AppearanceUI.kt | Background type + opacity + blur | 3 pozycje |
+| 12 | Pinned Items | BehaviorUI.kt | Link do custom sections | 1 pozycja |
+| 13 | Add custom provider | SearchWithSettingsActivity.kt | `!isPro` blokuje | 1 pozycja |
+| 14 | AI Prompts | AiPromptsSettingsSheet.kt | `freePromptsLimit = 1` | limit-based |
+| 15 | Export/Import | InfoUI.kt | Oba linki | 2 pozycje |
+| 16 | FILE_CONTENT toggle | SectionsOrder.kt | `isPro && SettingsCache.filesEnabled` | 1 pozycja |
+| 17 | Section reorder | SectionsOrder.kt | `canReorder = isPro` | 1 pozycja |
+| 18 | Custom sections limit | SectionsOrder.kt | `canAddSection = isPro \|\| count < 1` | limit-based |
+| 19 | ADS hidden | SectionsOrder.kt | Filtruje ADS dla Pro | implicit |
+| 20 | Cloud: Dropbox | PermissionsUI.kt | `isProFeature = true` | 1 pozycja |
+| 21 | Cloud: OneDrive | PermissionsUI.kt | `isProFeature = true` | 1 pozycja |
 
-### 📋 Do dodania flagi isProFeature = true
+### Brakujące flagi (FREE mimo że powinno być PRO)
 
-#### A. Kolory (wszystkie SkydovesColorPicker)
+| # | Feature | Plik | Stan | Patrz sekcja 26 |
+|---|---------|------|------|-----------------|
+| 1 | Per-section style override entry | Context menu | FREE | #1 |
+| 2 | Search Provider drag & drop | SearchProviderComponents.kt | FREE | #2 |
+| 3 | Section Load Animation link | AnimationsUI.kt | `isProFeature = false` | #3 |
+| 4 | Sections link | BehaviorUI.kt | FREE (wewnątrz drag zablokowany) | #5 |
+| 5 | CustomSection CRUD (edit/delete) | CustomSectionEditSheet.kt | FREE | #4 |
 
-| # | Plik | Opcje |
-|---|------|-------|
-| 1 | SearchBarStyleSettingsSection.kt | 7 kolorów (background, focused bg, border, text, icon, placeholder, cursor) |
-| 2 | SectionStyleSettingsSection.kt | 7 kolorów (background, border, text, header text, highlight, highlight text, header icon) |
-| 3 | SectionIconStyleSettingsSection.kt | 2 kolory (files icon, settings icon) |
-| 4 | BottomSheetStyleSettingsSection.kt | 5 kolorów (background, text, icon, accent, icon background) |
-| 5 | WidgetStyleSettingsSection.kt | 5 kolorów (background, border, text, icon, placeholder) |
+### Celowo FREE (brak isProFeature — nie jest to luka)
 
-#### B. Style presets (RadioButtonRow)
-
-| # | Plik | Opcje do zablokowania |
-|---|------|----------------------|
-| 1 | LookAndFeelUI.kt (StylePreset sheet) | Glass, MaterialYou, Custom — oznacz isProFeature na RadioButtonRow |
-| 2 | GeneralSettingsSection.kt (StylePreset) | j.w. |
-
-#### C. Custom Style Presets
-
-| # | Plik | Opcja |
-|---|------|-------|
-| 1 | LookAndFeelUI.kt / AppearanceUI.kt | Link "Custom Style Presets" — isProFeature = true |
-
-#### D. Section Style Overrides
-
-| # | Plik | Opcja |
-|---|------|-------|
-| 1 | LookAndFeelSectionStyleSettings.kt | Link / wejście do per-section override — isProFeature = true |
-
-#### E. Pakiety ikon
-
-| # | Plik | Opcja |
-|---|------|-------|
-| 1 | LayoutSettingsSection.kt (IconPack radio) | Wszystkie poza SYSTEM — isProFeature na RadioButtonRow |
-
-#### F. Style geometryczne SearchBar
-
-| # | Plik | Opcje |
-|---|------|-------|
-| 1 | SearchBarStyleSettingsSection.kt | Corner radius, Horizontal padding, Border width, Opacity — SettingsLinkRow isProFeature = true |
-| 2 | SearchBarStyleSettingsSection.kt | Lewa ikona, Ukryj placeholder — isProFeature = true |
-
-#### G. Style geometryczne Sekcje (częściowo zrobione)
-
-| # | Plik | Opcje |
-|---|------|-------|
-| 1 | SectionStyleSettingsSection.kt | Corner radius, Horizontal padding, Vertical padding — isProFeature = true |
-| 2 | SectionStyleSettingsSection.kt | Show header icons — isProFeature = true |
-
-#### H. Animacje
-
-| # | Plik | Opcje |
-|---|------|-------|
-| 1 | LookAndFeelUI.kt | Animacja ładowania SearchBar (RadioButtonRow) — isProFeature = true |
-| 2 | LookAndFeelUI.kt | Animacja ładowania sekcji (RadioButtonRow) — isProFeature = true |
-| 3 | LookAndFeelUI.kt | Animacja zmiany rozmiaru sekcji (RadioButtonRow) — isProFeature = true |
-| 4 | LookAndFeelUI.kt | Kolejność ładowania (RadioButtonRow) — isProFeature = true |
-| 5 | LookAndFeelUI.kt | Prędkość animacji (Slider) — isProFeature = true |
-
-#### I. Tapeta
-
-| # | Plik | Opcje |
-|---|------|-------|
-| 1 | WallpaperSettingsSection.kt | ColorPicker — isProFeature = true |
-| 2 | AppearanceUI.kt | Blur wallpaper switch — isProFeature = true |
-
-#### J. Sekcje niestandardowe
-
-| # | Plik | Opcje |
-|---|------|-------|
-| 1 | BehaviorUI.kt | Link "Custom section items" (settings_pinned_items) — isProFeature = true |
-| 2 | CustomSectionEditSheet.kt | Całe CRUD — check isPro na wejściu |
-
-#### K. Kolejność sekcji
-
-| # | Plik | Opcje |
-|---|------|-------|
-| 1 | BehaviorUI.kt | Link "Sections" (settings_sections) — isProFeature = true |
-
-#### L. Search Providers zaawansowane
-
-| # | Plik | Opcje |
-|---|------|-------|
-| 1 | SearchWithSettingsActivity.kt | "Add custom provider" — isProFeature = true |
-| 2 | SearchProviderComponents.kt | Drag & drop reorder — check isPro |
-
-#### M. AI Prompts
-
-| # | Plik | Opcje |
-|---|------|-------|
-| 1 | AiPromptsSettingsSheet.kt | Tworzenie/edycja promptów — isProFeature = true |
-
-#### N. Widget zaawansowany
-
-| # | Plik | Opcje |
-|---|------|-------|
-| 1 | WidgetStyleSettingsSection.kt | Wszystkie opcje (kolory, radius, padding, height, border, opacity, ikona, placeholder) — isProFeature = true |
-
-#### O. Backup/Export
-
-| # | Plik | Opcje |
-|---|------|-------|
-| 1 | InfoUI.kt | Link "Export Settings" — isProFeature = true |
-| 2 | InfoUI.kt | Link "Import Settings" — isProFeature = true |
+| # | Feature | Plik | Uzasadnienie |
+|---|---------|------|-------------|
+| 1 | SearchBar Load Animation (wszystkie 11 typów) | AnimationsUI.kt | Celowo brak flagi — wszystkie typy dostępne |
+| 2 | Section Resize Animation (NONE + ANIMATED) | AnimationsUI.kt | Celowo brak flagi |
+| 3 | SearchBar Corner Radius | SearchBarStyleSettingsSection.kt | Celowo brak flagi |
 
 ---
 
 ## 20. Co jeszcze można dodać / zmienić
 
+### ✅ Zrobione od ostatniej aktualizacji
+
+| # | Feature | Status |
+|---|---------|--------|
+| 1 | **Haptic feedback** | ✅ Zaimplementowany (long-press, drag & drop, context menu, section headers) |
+| 2 | **Google Play Billing** | ✅ BillingManager z auto-reconnect, acknowledge, restore |
+| 3 | **ProFeatureManager.initialize()** | ✅ Wywoływane w ZenSearchApplication + billing verify |
+| 4 | **File Content Search (FTS4)** | ✅ Nowa sekcja FILE_CONTENT z WorkManager indexer |
+| 5 | **PaywallOnboardingScreen** | ✅ Nowy krok onboardingu |
+| 6 | **isProFeature flags** | ✅ ~40+ opcji (z 2 wcześniej) |
+| 7 | **Lokalizacja** | ✅ 25+ języków |
+| 8 | **Cloud Files** | ✅ Nowa sekcja CLOUD_FILES — Google Drive (free), Dropbox (PRO), OneDrive (PRO) |
+
 ### 🟢 Warto dodać (niski wysiłek, duża wartość)
 
 | # | Feature | Wysiłek | Wartość | Opis |
 |---|---------|---------|---------|------|
-| 1 | **Haptic feedback** | Niski | Wysoka | Wibracja przy tapie na wynik, drag & drop, context menu |
-| 2 | **"What's new" bottom sheet** | Niski | Średnia | Po aktualizacji — changelog w apce |
-| 3 | **Share app link** | Niski | Średnia | "Podziel się UniSearch" w InfoUI |
-| 4 | **Rate app** | Niski | Średnia | In-app review prompt (Google Play In-App Review API) |
-| 5 | **Copy to clipboard** | Niski | Średnia | Kopiuj numer/email kontaktu, wynik kalkulatora long-press |
+| 1 | **"What's new" bottom sheet** | Niski | Średnia | Po aktualizacji — changelog w apce |
+| 2 | **Share app link** | Niski | Średnia | "Podziel się UniSearch" w InfoUI |
+| 3 | **Rate app** | Niski | Średnia | In-app review prompt (Google Play In-App Review API) |
+| 4 | **Copy to clipboard** | Niski | Średnia | Kopiuj numer/email kontaktu, wynik kalkulatora long-press |
 
 ### 🟡 Rozważ (średni wysiłek)
 
 | # | Feature | Wysiłek | Wartość | Opis |
 |---|---------|---------|---------|------|
-| 6 | **Więcej animacji wejścia** | Średni | PRO value | Bounce, elastic, stagger per-item (np. 3-4 nowe typy) |
-| 7 | **Smart suggestions** | Średni | Wysoka | Sugestie na podstawie czasu dnia / dnia tygodnia |
-| 8 | **Search history** | Średni | Średnia | Historia wyszukiwań (opcjonalne, off by default) |
-| 9 | **Shortcut pinning** | Średni | Średnia | Pin ulubionego shortcuta do custom section jednym tapem |
-| 10 | **Per-section collapse memory** | Niski | Średnia | Zapamiętaj stan rozwinięcia sekcji |
+| 5 | **Więcej animacji wejścia** | Średni | PRO value | Bounce, elastic, stagger per-item (np. 3-4 nowe typy) |
+| 6 | **Smart suggestions** | Średni | Wysoka | Sugestie na podstawie czasu dnia / dnia tygodnia |
+| 7 | **Search history** | Średni | Średnia | Historia wyszukiwań (opcjonalne, off by default) |
+| 8 | **Shortcut pinning** | Średni | Średnia | Pin ulubionego shortcuta do custom section jednym tapem |
+| 9 | **Per-section collapse memory** | Niski | Średnia | Zapamiętaj stan rozwinięcia sekcji |
 
 ### 🔴 Na przyszłość (duży wysiłek)
 
 | # | Feature | Wysiłek | Wartość | Opis |
 |---|---------|---------|---------|------|
-| 11 | **Google Play Billing** | Duży | Krytyczna | Implementacja faktycznego zakupu Pro |
-| 12 | **Accessibility (TalkBack)** | Średni | Ważna | Content descriptions, focus order |
-| 13 | **Tablet/foldable layout** | Duży | Niszowa | Adaptive layout dla dużych ekranów |
+| 10 | **Accessibility (TalkBack)** | Średni | Ważna | Content descriptions, focus order |
+| 11 | **Tablet/foldable layout** | Duży | Niszowa | Adaptive layout dla dużych ekranów |
 
 ### 🔧 Do poprawienia przed release
 
 | # | Issue | Priorytet |
 |---|-------|-----------|
-| 1 | **ProFeatureManager.initialize()** nie jest wywoływane przy starcie | 🔴 Krytyczny |
-| 2 | **Analytics SectionType** ma STATUS — usunąć | 🟡 Cleanup |
-| 3 | **Ad unit ID** — zmienić z test na produkcyjny | 🔴 Release |
-| 4 | **PaywallActivity** — podpiąć Google Play Billing | 🔴 Release |
-| 5 | **Paywall strings** — zaktualizować listę features (patrz sekcja 21) | 🟡 Ważne |
+| 1 | **Analytics SectionType** ma STATUS — usunąć | 🟡 Cleanup |
+| 2 | **Ad unit ID** — zmienić z test na produkcyjny | 🔴 Release |
+| 3 | **Paywall strings** — zaktualizować listę features (patrz sekcja 21) | 🟡 Ważne |
+| 4 | **isProFeature** — zweryfikować brakujące flagi (sekcja 19, statusy ⚠️) | 🟡 Ważne |
 
 ---
 
 ## 21. Lista do Paywallu (korzyści Pro)
 
-### Obecne paywall_feature_* strings — do aktualizacji:
-
-```
-paywall_feature_customization = "Advanced customization options"
-paywall_feature_themes        = "Premium themes and styles"
-paywall_feature_animations    = "Custom animation settings"
-paywall_feature_backup        = "Settings backup and restore"
-paywall_feature_support       = "Support future development"
-```
+### Obecne paywall_feature_* strings (patrz sekcja 17.3 — 14 zdefiniowanych, 9 wyświetlanych, 5 pominiętych)
 
 ### Rekomendowana lista (bardziej szczegółowa, lepsza konwersja):
 
 | # | Feature (EN) | Feature (PL) | Ikona |
 |---|--------------|--------------|-------|
 | 1 | **No ads** | Brak reklam | 🚫 |
-| 2 | **52 color options** | 52 opcje kolorów — SearchBar, sekcje, widget, bottom panel | 🎨 |
-| 3 | **5 premium themes** | 5 motywów: Glass, Material You, Custom + własne presety | 🖼️ |
+| 2 | **54 customizable color slots** | 54 miejsca z możliwością zmiany koloru (Pasek wyszukiwania, Sekcje, Ikony, Widget, Panel dolny) | 🎨 |
+| 3 | **12 premium themes** | Glass, Nord, Terminal, Material You, Midnight Blue i inne | 🖼️ |
 | 4 | **11 entrance animations** | 11 animacji wejścia z kontrolą prędkości | 🎬 |
 | 5 | **Custom sections** | Twórz własne sekcje z pinami do ulubionych | 📦 |
 | 6 | **AI Prompts** | Własne prompty AI — ChatGPT, Gemini, Claude | 🤖 |
@@ -1239,25 +1316,28 @@ paywall_feature_support       = "Support future development"
 | 11 | **Per-section styling** | Indywidualny styl per sekcja | ✨ |
 | 12 | **Icon packs** | Zewnętrzne pakiety ikon | 🎭 |
 | 13 | **Backup & restore** | Eksport/import pełnej konfiguracji | 💾 |
-| 14 | **Support development** | Wspieraj dalszy rozwój | 💚 |
+| 14 | **Cloud storage** | Dropbox + OneDrive integration | ☁️ |
+| 15 | **Support development** | Wspieraj dalszy rozwój | 💚 |
 
 ### Proponowane paywall_feature_* strings (do strings.xml):
 
 ```xml
-<string name="paywall_feature_no_ads">No ads – clean, distraction-free experience</string>
-<string name="paywall_feature_colors">52 color options for every component</string>
-<string name="paywall_feature_themes">5 premium themes + save your own presets</string>
-<string name="paywall_feature_animations">11 entrance animations with speed control</string>
-<string name="paywall_feature_custom_sections">Create custom sections with pinned favorites</string>
-<string name="paywall_feature_ai_prompts">Custom AI prompts – ChatGPT, Gemini, Claude</string>
-<string name="paywall_feature_search_providers">Add custom search providers</string>
-<string name="paywall_feature_widget">Full widget customization</string>
+<!-- Poprawione: 52→54, naprawiony icon_packs/AI mixup, dodane cloud + geometry, 12 PRO presets -->
+<string name="paywall_feature_no_ads">Remove all ads</string>
+<string name="paywall_feature_colors">54 customizable color slots (Search bar, Sections, Icons, Widget, Bottom panel)</string>
+<string name="paywall_feature_themes">12 premium themes (Glass, Nord, Terminal, Material You, and more)</string>
+<string name="paywall_feature_animations">11 animation types + speed control</string>
+<string name="paywall_feature_file_content_search">File content search (PDF, DOCX, XLSX)</string>
+<string name="paywall_feature_geometry">Full style control (radius, padding, opacity, borders)</string>
+<string name="paywall_feature_custom_sections">Unlimited custom sections (Free: 1 section)</string>
+<string name="paywall_feature_reorder">Reorder sections with drag &amp; drop</string>
+<string name="paywall_feature_icon_packs">Third-party icon packs</string>
+<string name="paywall_feature_ai_prompts">Unlimited AI prompts with custom templates (Free: 1 prompt)</string>
+<string name="paywall_feature_search_providers">Custom search providers</string>
 <string name="paywall_feature_wallpaper">Custom wallpaper color + blur effect</string>
-<string name="paywall_feature_reorder">Drag &amp; drop section reordering</string>
-<string name="paywall_feature_per_section">Individual styling per section</string>
-<string name="paywall_feature_icon_packs">Third-party icon packs support</string>
-<string name="paywall_feature_backup_restore">Backup &amp; restore all settings</string>
-<string name="paywall_feature_support_dev">Support ongoing development</string>
+<string name="paywall_feature_cloud">Dropbox &amp; OneDrive cloud search</string>
+<string name="paywall_feature_backup">Settings backup and restore (JSON)</string>
+<string name="paywall_feature_support">and many many more…</string>
 ```
 
 ---
@@ -1300,23 +1380,245 @@ paywall_feature_support       = "Support future development"
 |---|-------|------|
 | 1 | **One search for everything** | Apps, contacts, files, settings, shortcuts — all found in milliseconds. |
 | 2 | **Quick actions, zero friction** | Call, message, search the web — directly from results. |
-| 3 | **Make it yours** | 5 themes, 52 colors, 11 animations. Upgrade to Pro for the full experience. |
+| 3 | **Make it yours** | 5 themes, 54 miejsca z możliwością zmiany koloru, 11 animations. Upgrade to Pro for the full experience. |
 
 ---
 
-## Commit message proposal
+## 23. Lokalizacja
 
-```
-docs: update FEATURES.md with complete pre-release feature audit
+Aplikacja obsługuje **25+ języków**:
 
-- Update to 6 style presets (add UniSearch, HighContrast)
-- Add Custom Style Presets and Section Style Overrides
-- Add leading icon and hide placeholder for SearchBar/Widget
-- Add BottomSheet accent and icon background colors (52 total)
-- Add Quick Settings Tile and NotificationListenerService
-- Add complete isProFeature implementation checklist
-- Add paywall benefits list (14 items with suggested strings)
-- Add onboarding feature showcase (5 screens with strings)
-- Add "what to add/change" recommendations
-- Update Free vs Pro division
-```
+| Język | Kod |
+|-------|-----|
+| Angielski (domyślny) | `values/` |
+| Afrikaans | `af` |
+| Arabski | `ar` |
+| Amharski | `am` |
+| Czeski | `cs` |
+| Duński | `da` |
+| Niemiecki | `de` |
+| Hiszpański | `es` |
+| Fiński | `fi` |
+| Filipino | `fil` |
+| Francuski | `fr` |
+| Hindi | `hi` |
+| Węgierski | `hu` |
+| Indonezyjski | `id` |
+| Włoski | `it` |
+| Japoński | `ja` |
+| Koreański | `ko` |
+| Holenderski | `nl` |
+| Norweski | `no` |
+| Polski | `pl` |
+| Portugalski | `pt` |
+| Rumuński | `ro` |
+| Rosyjski | `ru` |
+| Słowacki | `sk` |
+| Szwedzki | `sv` |
+| Tajski | `th` |
+| Turecki | `tr` |
+| Wietnamski | `vi` |
+
+Auto-reindeksacja przy zmianie locale: `LocaleChangeReceiver` → `LocaleReindexWorker` (WorkManager).
+
+---
+
+## 24. Haptic Feedback
+
+Zaimplementowany w wielu komponentach:
+
+| Komponent | Zdarzenie |
+|-----------|-----------|
+| AppItem / AppRow | Long-press → HapticFeedbackType.LongPress |
+| ContactsSection | Long-press na kontakcie |
+| FilesSection | Long-press na pliku |
+| FileContentSection | Long-press na wyniku |
+| SettingsSection | Long-press na ustawieniu |
+| ActionsSection | Long-press na akcji |
+| CalculatorSection | Long-press na wyniku |
+| SectionHeader | Long-press na nagłówku |
+| SearchInput | Clear button, back button |
+| SectionsOrder / Drag & Drop | Rozpoczęcie drag |
+| AiPromptsSettingsSheet | Drag & drop |
+| SearchWithSettingsActivity | Drag & drop providers |
+| WheelPicker | Scroll selection |
+| CustomSectionRenderer | Long-press na elemencie |
+
+---
+
+## 25. Receivers (zdarzenia systemowe)
+
+| Receiver | Zdarzenie | Opis |
+|----------|-----------|------|
+| `PackageChangeReceiver` | ACTION_PACKAGE_ADDED/REMOVED/CHANGED | Hot reload indeksu aplikacji i akcji |
+| `LocaleChangeReceiver` | ACTION_LOCALE_CHANGED | Re-indeksowanie w tle (WorkManager) |
+| `SearchBarWidgetProvider` | Widget events | Aktualizacja widgetu paska wyszukiwania |
+
+---
+
+## 26. Luki w paywallu — co powinno być PRO a nie jest
+
+### 🔴 Krytyczne (wyciek wartości Pro)
+
+| # | Feature | Obecny stan | Problem | Rekomendacja |
+|---|---------|-------------|---------|-------------|
+| 1 | **Per-section style override** (context menu) | FREE | Użytkownik może wejść w per-section styling bez Pro. Kolory w środku mają isProFeature, ale samo wejście nie. | Dodaj `isProFeature = true` lub check `isPro` na wejściu do per-section override (context menu "Customize section") |
+| 2 | **Search Provider reorder** (drag & drop) | FREE | Zmiana kolejności search providers działa bez Pro, mimo że to zaawansowana personalizacja | Dodaj check `isPro` w `SearchProviderComponents.kt` na drag handle |
+| 3 | **Section Load Animation link** (AnimationsUI.kt) | `isProFeature = false` | Link do Section Load Animation NIE pokazuje PRO badge, mimo że 9/11 opcji wewnątrz jest PRO. Użytkownik widzi niespójność. | Zmień na `isProFeature = true` lub przynajmniej pokaż badge gdy obecna wartość ≠ NONE/FADE |
+| 4 | **CustomSectionEditSheet CRUD** | FREE (jeśli sekcja istnieje) | Jeśli user ma 1 free custom section, może ją edytować/usuwać bez Pro. To OK, ale dodawanie elementów powinno mieć limit. | Rozważ limit itemów per section dla free (np. 5) |
+| 5 | **Sections link** (BehaviorUI.kt) | FREE | Wejście do ekranu sekcji nie ma `isProFeature`. Drag & drop wewnątrz jest zablokowany, ale enable/disable toggle jest free. | OK — ale rozważ dodanie PRO badge na linku |
+
+### 🟡 Drobne niespójności
+
+| # | Feature | Obecny stan | Uwaga |
+|---|---------|-------------|-------|
+| 6 | **AnimationsUI Section Load** | Link = FREE, opcje wewnątrz = częściowo PRO | Niespójność wizualna — link nie ma badge PRO ale wewnątrz jest paywall |
+| 7 | **1 custom section gratis** | Free | Dobra strategia (teaser), ale CRUD na tej sekcji jest pełny — brak limitu itemów |
+| 8 | **1 AI prompt gratis** | Free | Dobra strategia, spójne z custom sections |
+
+### 🟢 Dobrze zaimplementowane
+
+| # | Feature | Uwaga |
+|---|---------|-------|
+| 1 | Kolory (54 miejsca) | Wszystkie mają `isProFeature = true` |
+| 2 | Style geometryczne (SearchBar/Sekcje/Widget) | Wszystkie zablokowane |
+| 3 | Widget customization | 9 opcji za paywallem |
+| 4 | Backup/Export | Oba zablokowane |
+| 5 | Style presets (Glass/MaterialYou/Custom) | Dynamiczny check preset ID |
+| 6 | Custom Style Presets | Zablokowane |
+| 7 | Icon packs (poza SYSTEM) | Zablokowane |
+| 8 | Tapeta (3 opcje) | Wszystkie zablokowane |
+| 9 | Add custom search provider | Zablokowany |
+| 10 | FILE_CONTENT toggle | Zablokowany |
+| 11 | Section reorder drag & drop | Zablokowany |
+| 12 | ADS hidden for Pro | Filtrowane w SectionsOrder |
+
+### 💡 Sugestie co jeszcze dodać za paywall
+
+| # | Feature | Obecny stan | Sugestia | Wysiłek |
+|---|---------|-------------|----------|---------|
+| 1 | **Limity wyników** (max per section, max recents, max collapsed) | FREE | Rozważ: free = domyślne wartości, PRO = pełny slider. Power userzy chcą więcej wyników. | Niski |
+| 2 | **Pozycja SearchBar** (TOP/BOTTOM) | FREE | Zachowaj free — to podstawa UX | — |
+| 3 | **Grid columns count** (4-6) | FREE | Rozważ PRO: free = 4-5, PRO = 4-6. Lub zachowaj free. | Niski |
+| 4 | **Tryb kompaktowy kontaktów** | FREE | Mało istotne, zachowaj free | — |
+| 5 | **Rozmiar ikon** (S/M/L) | FREE | Mało istotne, zachowaj free | — |
+| 6 | **Opóźnij auto-focus do animacji** | FREE | Zachowaj free — to UX fix, nie premium feature | — |
+
+---
+
+## 27. Ocena Free vs Pro — rekomendacje zmian (2026-03-08)
+
+### ✅ SCALE jest już FREE (potwierdzone w kodzie)
+
+SCALE jest w `allPresets` jako FREE — warunek: `type == NONE || type == FADE || type == SCALE`. Rekomendacja z poprzedniej wersji dokumentu jest już zrealizowana.
+
+### ✅ Material You preset — zachowaj PRO
+
+Material You w UniSearch to **statyczny preset** z hardcoded kolorami M3 (np. `0xFF6750A4`, `0xFFD0BCFF`), NIE dynamiczne kolory z wallpapera/systemu. To po prostu kolejny motyw kolorystyczny — taki sam charakter jak Glass czy Custom. Nie ma argumentu za darmowym dostępem. Słusznie za paywallem.
+
+### 🟡 Rozważ przeniesienie (dyskusyjne)
+
+| # | Feature | Obecny stan | Argumenty ZA free | Argumenty ZA pro | Moja ocena |
+|---|---------|-------------|-------------------|-----------------|------------|
+| 3 | **File Content Search (FTS4)** | PRO | Apka reklamuje się jako "universal search" — blokowanie szukania w treści plików osłabia obietnicę. Negatywne recenzje typu "szuka tylko po nazwach". | Resource-intensive, konkurencja nie ma. Silny differentiator Pro. | **Zachowaj PRO**, ale rozważ limit (np. 50 plików free, unlimited Pro) lub daj free z ograniczeniem do .txt/.md (bez Office/PDF). |
+| 4 | **Animation Speed** | PRO | Użytkownik free z FADE/SCALE ma domyślną prędkość (MEDIUM) — nie ma jak zmienić. | Kontrola prędkości = zaawansowana personalizacja. | **Zachowaj PRO** — domyślna prędkość jest OK. |
+| 5 | **Sekcje: show header icons** | PRO | To drobna opcja wizualna, domyślnie włączona. Wyłączenie = power user. | Zwiększa liczbę "PRO options". | **Zachowaj PRO** — nisko wpływowy ale zwiększa postrzeganą wartość Pro. |
+
+### 🟢 Zachowaj PRO (bez zmian — dobrze ustawione)
+
+| # | Feature | Uzasadnienie |
+|---|---------|-------------|
+| 1 | Kolory (54 miejsca) | Core premium value — pełna personalizacja kolorów |
+| 2 | Glass + Material You + Custom presety | Statyczne presety kolorów — premium look & feel |
+| 3 | Custom Style Presets (zapis/load) | Power user feature |
+| 4 | Icon packs | Nisze, ale wyraźnie premium |
+| 5 | Style geometryczne (SearchBar/Sekcje/Widget) | Zaawansowana personalizacja |
+| 6 | SearchBar Load Animation (11 typów) | Premium animations |
+| 7 | Section Resize / Load Order | Zaawansowane |
+| 8 | Tapeta (kolor/opacity/blur) | Premium visual |
+| 9 | Custom sections (>1) + drag reorder | Silny Pro teaser (1 free) |
+| 10 | Custom search providers | Power user |
+| 11 | AI Prompts (>1) | Silny Pro teaser (1 free) |
+| 12 | Widget customization | Premium visual |
+| 13 | Backup/Export | Standard Pro feature |
+| 14 | Dropbox + OneDrive | Premium cloud |
+
+### 🟢 Zachowaj FREE (bez zmian — dobrze ustawione)
+
+| # | Feature | Uzasadnienie |
+|---|---------|-------------|
+| 1 | Wszystkie algorytmy wyszukiwania | Core value — free musi dobrze szukać |
+| 2 | Wszystkie źródła (Apps, Actions, Contacts, Files, Settings) | Core search |
+| 3 | Google Drive | 1 cloud provider free = dobry teaser |
+| 4 | Motyw (SYSTEM/LIGHT/DARK) | Podstawa UX |
+| 5 | Layout (GRID/LIST, kolumny, rozmiary) | Podstawowa personalizacja |
+| 6 | Zarządzanie widocznością | Użyteczność |
+| 7 | 1 custom section + 1 AI prompt | Dobra strategia teasera |
+| 8 | NONE + FADE + SCALE animacje (Section Load) | SearchBar Load i Section Resize wszystkie FREE |
+| 9 | Search Provider reorder | Niska wartość Pro, frustracja free userów |
+| 10 | Pozycja SearchBar (TOP/BOTTOM) | Podstawa UX |
+
+### 📊 Aktualny stan podziału animacji (potwierdzony w kodzie)
+
+| Kategoria | FREE | PRO |
+|-----------|------|-----|
+| Section Load Animation | 3/11 (NONE, FADE, SCALE) | 8/11 |
+| SearchBar Load Animation | 11/11 (brak isProFeature) | 0/11 |
+| Section Resize Animation | 2/2 (brak isProFeature) | 0/2 |
+| Load Order | 1/3 (SIMULTANEOUSLY) | 2/3 |
+| Animation Speed | — | 5/5 |
+
+**Reszta podziału Free/Pro jest dobrze ustawiona** — presety (12 PRO, 2 FREE), kolory (50 PRO, 4 FREE), geometria, cloud, backup słusznie za paywallem.
+
+---
+
+## 28. Problemy paywallu — co naprawić (2026-03-08)
+
+### 🔴 Bugi
+
+| # | Problem | Plik | Opis | Priorytet |
+|---|---------|------|------|-----------|
+| 1 | **`paywall_feature_icon_packs` ma tekst o AI prompts** | strings.xml (25+ języków) | Klucz mówi "icon_packs", ale tekst: "Unlimited custom AI prompts (Free: 1 prompt)". Brak wzmianki o icon packs na paywallu. | 🔴 Krytyczny |
+| 2 | **Liczba kolorów: 52 → 54** | strings.xml `paywall_feature_colors` | String mówi "52 customizable color slots", realna liczba to 54 (7+7+3+5+5 = 27 × 2 motywy). | 🟡 Drobny |
+
+### 🟡 Brakujące features na paywallu
+
+PaywallContent.kt wyświetla 9 pozycji. 5 zdefiniowanych stringów jest pominiętych:
+
+| # | Pominięty string | Wartość dla konwersji |
+|---|-----------------|---------------------|
+| 1 | `paywall_feature_geometry` — Full style control | Wysoka — użytkownik widzi zablokowane opcje geometrii |
+| 2 | `paywall_feature_wallpaper` — Custom wallpaper + blur | Średnia — wizualnie atrakcyjna feature |
+| 3 | `paywall_feature_reorder` — Section drag & drop | Średnia — power users |
+| 4 | `paywall_feature_search_providers` — Custom providers | Niska — niszowa |
+| 5 | `paywall_feature_ai_prompts` — AI prompts (duplikat z icon_packs bug) | — |
+
+### 🟡 Brakujące features — nie mają nawet stringa
+
+| # | Feature PRO bez stringa | Sugestia |
+|---|------------------------|---------|
+| 1 | **Cloud storage (Dropbox + OneDrive)** | Dodaj `paywall_feature_cloud` |
+| 2 | **Widget customization (9 opcji)** | Dodaj `paywall_feature_widget` |
+| 3 | **Per-section styling** | Dodaj `paywall_feature_per_section` |
+
+### 📋 Rekomendowana PAYWALL_FEATURES lista (do PaywallContent.kt)
+
+Optymalna kolejność — od najsilniejszego argumentu do najsłabszego (~12 pozycji):
+
+| # | Ikona | String key | Tekst |
+|---|-------|-----------|-------|
+| 1 | Block | paywall_feature_no_ads | Remove all ads |
+| 2 | Palette | paywall_feature_colors | 54 customizable color slots |
+| 3 | Style | paywall_feature_themes | Premium themes: Glass, Material You, Custom |
+| 4 | Tune | paywall_feature_geometry | Full style control (radius, padding, opacity, borders) |
+| 5 | Animation | paywall_feature_animations | 11 animation types + speed control |
+| 6 | Article | paywall_feature_file_content_search | File content search (PDF, DOCX, XLSX) |
+| 7 | Dashboard | paywall_feature_custom_sections | Unlimited custom sections (Free: 1) |
+| 8 | SmartToy | paywall_feature_ai_prompts | Unlimited AI prompts (Free: 1) |
+| 9 | AppsBadge | paywall_feature_icon_packs | Third-party icon packs |
+| 10 | Cloud | paywall_feature_cloud | Dropbox & OneDrive cloud search |
+| 11 | Wallpaper | paywall_feature_wallpaper | Custom wallpaper + blur |
+| 12 | Save | paywall_feature_backup | Backup & restore settings |
+| 13 | Favorite | paywall_feature_support | and many many more... |
+
+---

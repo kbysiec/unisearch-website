@@ -84,6 +84,10 @@
       "providers": {
         "title": "ผู้ให้บริการค้นหา",
         "description": "เลือกว่า UniSearch จะส่งคำค้นหาภายนอกไปที่ใด"
+      },
+      "cloud": {
+        "title": "ไฟล์คลาวด์",
+        "description": "ค้นหาใน Google Drive, Dropbox และ OneDrive"
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "ผู้ให้บริการที่ตั้งไว้ล่วงหน้าเช่น Google YouTube หรือ ChatGPT",
         "toggle": "เปิดหรือปิดใช้งานผู้ให้บริการ",
         "always": "ความสามารถในการกำหนดตัวเลือกที่กำหนดเอง"
+      },
+      "cloud": {
+        "drive": "Google Drive (ฟรี)",
+        "dropbox": "Dropbox & OneDrive (Pro)",
+        "search": "ผลลัพธ์คลาวด์ควบคู่กับไฟล์ในเครื่อง"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1 ส่วนที่กำหนดเองฟรี (ไม่มีการเรียงลำดับ)",
         "customAiPrompt": "1 คำสั่ง AI ที่กำหนดเองฟรี (ป้ายกำกับ + เทมเพลต + แอปเป้าหมาย)",
         "privacy": "โหมดความเป็นส่วนตัว",
-        "languages": "รองรับการแปล 25 รูปแบบภาษา",
-        "sponsored": "ส่วนที่ได้รับการสนับสนุน (Native Ads)"
+        "languages": "26 ตัวแปรภาษา",
+        "sponsored": "ส่วนที่ได้รับการสนับสนุน (Native Ads)",
+        "googleDrive": "การค้นหา Google Drive (ฟรี)"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "ยอดนิยมที่สุด",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 ธีมพรีเมียม Glass Material You Minimal Dark",
+        "premiumThemes": "12 ธีมพรีเมียม: Glass, Nord, Terminal, Material You และอื่นๆ",
         "themeCreator": "ตัวสร้างธีมที่กำหนดเอง",
         "presets": "ตั้งค่าล่วงหน้าธีมไม่จำกัด",
         "perSectionStyle": "การแทนที่สไตล์ต่อส่วน",
-        "advancedColors": "52 ตำแหน่งพร้อมความเป็นไปได้ในการเปลี่ยนสี (แถบค้นหา ส่วน วิดเจ็ต แผงด้านล่าง)",
+        "advancedColors": "54 จุดสีที่ปรับแต่งได้ (แถบค้นหา, ส่วน, ไอคอน, วิดเจ็ต, แผงด้านล่าง)",
         "searchbarColors": "สีแถบค้นหา (7 × สว่าง/มืด)",
         "sectionColors": "สีส่วน (7 × สว่าง/มืด)",
-        "itemIconColors": "สีไอคอนรายการ (2 × สว่าง/มืด)",
+        "itemIconColors": "สีไอคอนรายการ (3 × สว่าง/มืด)",
         "bottomSheetColors": "สีแผนด้านล่าง (5 × สว่าง/มืด)",
         "widgetColors": "สีวิดเจ็ต (5 × สว่าง/มืด)",
         "wallpaperBlur": "สีวอลเปเปอร์ที่กำหนดเองและเบลอ",
@@ -235,7 +245,8 @@
         "backupExport": "ตั้งค่าการส่งออก (JSON)",
         "backupImport": "นำเข้าตั้งค่า (กู้คืนการกำหนดค่า)",
         "removeAds": "ลบส่วนที่ได้รับการสนับสนุน",
-        "support": "สนับสนุนการพัฒนาในอนาคต"
+        "support": "สนับสนุนการพัฒนาในอนาคต",
+        "cloudStorage": "การค้นหาคลาวด์ Dropbox & OneDrive"
       }
     },
     "summary": {

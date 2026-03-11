@@ -84,6 +84,10 @@
       "providers": {
         "title": "Poskytovatelia vyhľadávania",
         "description": "Zvoľte, kam UniSearch posiela externé dotazy."
+      },
+      "cloud": {
+        "title": "Cloudové súbory",
+        "description": "Hľadajte v Google Drive, Dropbox a OneDrive."
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "Prednastavení poskytovatelia ako Google, YouTube alebo ChatGPT",
         "toggle": "Povolenie alebo zakázanie poskytovateľov",
         "always": "Možnosť definovať vlastné"
+      },
+      "cloud": {
+        "drive": "Google Drive (zadarmo)",
+        "dropbox": "Dropbox & OneDrive (Pro)",
+        "search": "Cloudové výsledky vedľa lokálnych"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1 bezplatná vlastná sekcia (bez usporiadania)",
         "customAiPrompt": "1 bezplatná vlastná výzva AI (štítok + šablóna + cieľová aplikácia)",
         "privacy": "Režim súkromia",
-        "languages": "Preklad do 25 jazykových variantov",
-        "sponsored": "Sponzorované sekcie (nativní reklamy)"
+        "languages": "26 jazykových variantov",
+        "sponsored": "Sponzorované sekcie (nativní reklamy)",
+        "googleDrive": "Vyhľadávanie v Google Drive (zadarmo)"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "Najviac populárny",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 prémiové témy: Sklo, Material You, Minimálny tmavý",
+        "premiumThemes": "12 prémiových motívov: Glass, Nord, Terminal, Material You a ďalšie",
         "themeCreator": "Tvorca vlastných tém",
         "presets": "Neobmedzené predvoľby tém",
         "perSectionStyle": "Prepísanie štýlu pre každú sekciu",
-        "advancedColors": "52 miest s možnosťou zmeny farieb (vyhľadávacie pole, sekcie, widget, dolný panel)",
+        "advancedColors": "54 prispôsobiteľných farebných miest (Panel hľadania, Sekcie, Ikony, Widget, Spodný panel)",
         "searchbarColors": "Farby vyhľadávacieho poľa (7 × svetlé/tmavé)",
         "sectionColors": "Farby sekcií (7 × svetlé/tmavé)",
-        "itemIconColors": "Farby ikon položiek (2 × svetlé/tmavé)",
+        "itemIconColors": "Farby ikon položiek (3 × Svetlý/Tmavý)",
         "bottomSheetColors": "Farby dolného panela (5 × svetlé/tmavé)",
         "widgetColors": "Farby widgetu (5 × svetlé/tmavé)",
         "wallpaperBlur": "Vlastná farba tapety + rozmazanie",
@@ -235,7 +245,8 @@
         "backupExport": "Exportovať nastavenia (JSON)",
         "backupImport": "Importovať nastavenia (obnovenie konfigurácie)",
         "removeAds": "Odstránite sponzorované sekcie",
-        "support": "Podpora budúceho vývoja"
+        "support": "Podpora budúceho vývoja",
+        "cloudStorage": "Cloudové vyhľadávanie Dropbox & OneDrive"
       }
     },
     "summary": {

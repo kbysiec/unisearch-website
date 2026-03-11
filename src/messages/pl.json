@@ -84,6 +84,10 @@
       "providers": {
         "title": "Dostawcy wyszukiwania",
         "description": "Wybierz, gdzie UniSearch kieruje zapytania zewnętrzne."
+      },
+      "cloud": {
+        "title": "Pliki chmurowe",
+        "description": "Szukaj w Google Drive, Dropbox i OneDrive."
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "Predefiniowani dostawcy jak Google, YouTube lub ChatGPT",
         "toggle": "Włączanie/wyłączanie dostawców",
         "always": "Możliwość definiowania własnych"
+      },
+      "cloud": {
+        "drive": "Google Drive (bezpłatnie)",
+        "dropbox": "Dropbox i OneDrive (Pro)",
+        "search": "Wyniki z chmury obok lokalnych"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1 darmowa sekcja niestandardowa (bez sortowania)",
         "customAiPrompt": "1 darmowy niestandardowy prompt AI (etykieta + szablon + docelowa aplikacja)",
         "privacy": "Tryb prywatności",
-        "languages": "Tłumaczenie na 25 wariantów językowych",
-        "sponsored": "Sponsorowane sekcje (Native Ads)"
+        "languages": "26 wariantów językowych",
+        "sponsored": "Sponsorowane sekcje (Native Ads)",
+        "googleDrive": "Wyszukiwanie plików Google Drive (bezpłatnie)"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "Najpopularniejsze",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 premium motywy: Glass, Material You, Minimal Dark",
+        "premiumThemes": "12 premium motywów: Glass, Nord, Terminal, Material You i inne",
         "themeCreator": "Custom theme creator",
         "presets": "Tworzenie i zapisywanie własnych presetów",
         "perSectionStyle": "Indywidualny styl per sekcja (Section Style Overrides)",
-        "advancedColors": "52 miejsca z możliwością zmiany koloru (Pasek wyszukiwania, Sekcje, Widget, Panel dolny)",
+        "advancedColors": "54 miejsca z możliwością zmiany koloru (Pasek wyszukiwania, Sekcje, Ikony, Widget, Panel dolny)",
         "searchbarColors": "SearchBar: 7 kolorów × Light/Dark",
         "sectionColors": "Sekcje: 7 kolorów × Light/Dark",
-        "itemIconColors": "Ikony elementów: 2 kolory × Light/Dark",
+        "itemIconColors": "Ikony elementów: 3 kolory × Light/Dark",
         "bottomSheetColors": "BottomSheet: 5 kolorów × Light/Dark",
         "widgetColors": "Widget: 5 kolorów × Light/Dark",
         "wallpaperBlur": "Niestandardowy kolor tapety + blur effect",
@@ -235,7 +245,8 @@
         "backupExport": "Eksport ustawień (JSON)",
         "backupImport": "Import ustawień (przywrócenie konfiguracji)",
         "removeAds": "Brak reklam (usunięcie Native Ads)",
-        "support": "Wsparcie rozwoju aplikacji"
+        "support": "Wsparcie rozwoju aplikacji",
+        "cloudStorage": "Wyszukiwanie w chmurze Dropbox i OneDrive"
       }
     },
     "summary": {

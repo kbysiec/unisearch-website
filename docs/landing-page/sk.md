@@ -7,13 +7,15 @@
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
+| Vyhľadávanie v Google Drive | ✓ | ✓ |
+| Vyhľadávanie v Dropbox & OneDrive | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Prispôsobenie
 
 | Funkcia | Free | Pro |
 |---------|:----:|:---:|
-| Motívy | 2 motívy | 5 motívov + vlastný tvorca |
+| Motívy | 2 motívy | 12 motívov + vlastný tvorca |
 | Farby | Predvolené | 54 bodov prispôsobenia |
 | Animácie | Základné | 11 typov + ovládanie rýchlosti |
 | Rozloženie a geometria | Predvolené | Plná kontrola (polomer, odsadenie, okraje) |
@@ -33,7 +35,7 @@
 
 | Funkcia | Free | Pro |
 |---------|:----:|:---:|
-| Jazyky | 25+ | 25+ |
+| Jazyky | 26+ | 26+ |
 | Prispôsobenie widgetu | Základné | Plná kontrola |
 | Zálohovanie a obnovenie | — | Export/Import (JSON) |
 | Reklamy | Zobrazené | Odstránené |

@@ -7,13 +7,15 @@
 | Uniwersalne wyszukiwanie (aplikacje, kontakty, pliki, ustawienia) | ✓ | ✓ |
 | Wszystkie algorytmy (prefix, fuzzy, fonetyczny) | ✓ | ✓ |
 | Wbudowany kalkulator | ✓ | ✓ |
+| Wyszukiwanie Google Drive | ✓ | ✓ |
+| Wyszukiwanie Dropbox & OneDrive | — | ✓ |
 | Wyszukiwanie w treści plików (pełnotekstowe) | — | ✓ |
 
 ## Personalizacja
 
 | Funkcja | Free | Pro |
 |---------|:----:|:---:|
-| Motywy | 2 motywy | 5 motywów + kreator |
+| Motywy | 2 motywy | 12 motywów + kreator |
 | Kolory | Domyślne | 54 punkty personalizacji |
 | Animacje | Podstawowe | 11 typów + kontrola prędkości |
 | Layout i geometria | Domyślne | Pełna kontrola (zaokrąglenia, paddingi, obramowania) |
@@ -33,7 +35,7 @@
 
 | Funkcja | Free | Pro |
 |---------|:----:|:---:|
-| Języki | 25+ | 25+ |
+| Języki | 26+ | 26+ |
 | Personalizacja widżetu | Podstawowa | Pełna kontrola |
 | Backup i przywracanie | — | Eksport/Import (JSON) |
 | Reklamy | Wyświetlane | Usunięte |

@@ -7,13 +7,15 @@
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
+| Google Drive (zoeken) | ✓ | ✓ |
+| Dropbox & OneDrive (zoeken) | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Aanpassing
 
 | Functie | Free | Pro |
 |---------|:----:|:---:|
-| Thema's | 2 thema's | 5 thema's + aangepaste maker |
+| Thema's | 2 thema's | 12 thema's + aangepaste maker |
 | Kleuren | Standaard | 54 aanpassingspunten |
 | Animaties | Basis | 11 types + snelheidscontrole |
 | Layout en geometrie | Standaard | Volledige controle (radius, padding, randen) |
@@ -33,7 +35,7 @@
 
 | Functie | Free | Pro |
 |---------|:----:|:---:|
-| Talen | 25+ | 25+ |
+| Talen | 26+ | 26+ |
 | Widget-aanpassing | Basis | Volledige controle |
 | Backup en herstel | — | Exporteren/Importeren (JSON) |
 | Advertenties | Weergegeven | Verwijderd |

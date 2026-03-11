@@ -84,6 +84,10 @@
       "providers": {
         "title": "Search providers",
         "description": "Choose where UniSearch sends external queries."
+      },
+      "cloud": {
+        "title": "Cloud files",
+        "description": "Search across Google Drive, Dropbox, and OneDrive."
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "Preset providers like Google, YouTube or ChatGPT",
         "toggle": "Enable or disable providers",
         "always": "Ability to define custom ones"
+      },
+      "cloud": {
+        "drive": "Google Drive (free)",
+        "dropbox": "Dropbox & OneDrive (Pro)",
+        "search": "Search cloud files alongside local results"
       }
     }
   },
@@ -183,13 +192,14 @@
         "fileTypes": "File types (7 types)",
         "freeThemes": "2 free themes: UniSearch + High Contrast",
         "modes": "Light and dark mode",
+        "googleDrive": "Google Drive cloud search (free)",
         "providersPreset": "Preset search providers (Google, YouTube, ChatGPT, etc.)",
         "providersToggle": "Enable/disable providers",
         "providersAlwaysShow": "\"Always show\" provider switch",
         "customSection": "1 free custom section (no sorting)",
         "customAiPrompt": "1 free custom AI prompt (label + template + target app)",
         "privacy": "Privacy mode",
-        "languages": "Translation into 25 language variants",
+        "languages": "26 language variants",
         "sponsored": "Sponsored sections (Native Ads)"
       }
     },
@@ -199,14 +209,14 @@
       "badge": "Most popular",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 premium themes: Glass, Material You, Minimal Dark",
+        "premiumThemes": "12 premium themes: Glass, Nord, Terminal, Material You, and more",
         "themeCreator": "Custom theme creator",
-        "presets": "Unlimited theme presets",
+        "presets": "Unlimited saved theme presets",
         "perSectionStyle": "Per-section style overrides",
-        "advancedColors": "52 places with color customization (Search bar, Sections, Widget, Bottom panel)",
+        "advancedColors": "54 places with color customization (Search bar, Sections, Icons, Widget, Bottom panel)",
         "searchbarColors": "Search bar colors (7 × Light/Dark)",
         "sectionColors": "Section colors (7 × Light/Dark)",
-        "itemIconColors": "Item icon colors (2 × Light/Dark)",
+        "itemIconColors": "Item icon colors (3 × Light/Dark)",
         "bottomSheetColors": "Bottom sheet colors (5 × Light/Dark)",
         "widgetColors": "Widget colors (5 × Light/Dark)",
         "wallpaperBlur": "Custom wallpaper color + blur",
@@ -232,6 +242,7 @@
         "aiPrompts": "Unlimited custom AI prompts (Free: 1)",
         "aiManage": "Edit/remove AI prompts",
         "aiReorder": "Drag & drop prompt order",
+        "cloudStorage": "Dropbox & OneDrive cloud search",
         "backupExport": "Export settings (JSON)",
         "backupImport": "Import settings (restore configuration)",
         "removeAds": "Remove sponsored sections",

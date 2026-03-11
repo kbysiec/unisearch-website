@@ -84,6 +84,10 @@
       "providers": {
         "title": "Arama Sağlayıcıları",
         "description": "UniSearch'ün harici sorguları nereye gönderdiğini seçin."
+      },
+      "cloud": {
+        "title": "Bulut dosyaları",
+        "description": "Google Drive, Dropbox ve OneDrive'da arayın."
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "Google, YouTube veya ChatGPT gibi ön ayarlı sağlayıcılar",
         "toggle": "Sağlayıcıları etkinleştirin veya devre dışı bırakın",
         "always": "Özel olanları tanımlama yeteneği"
+      },
+      "cloud": {
+        "drive": "Google Drive (ücretsiz)",
+        "dropbox": "Dropbox & OneDrive (Pro)",
+        "search": "Bulut sonuçları yerel sonuçların yanında"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1 ücretsiz özel bölüm (sıralama yok)",
         "customAiPrompt": "1 ücretsiz özel AI istemi (etiket + şablon + hedef uygulama)",
         "privacy": "Gizlilik modu",
-        "languages": "25 dil varyantına çeviri",
-        "sponsored": "Sponsorlu bölümler (Yerel Reklamlar)"
+        "languages": "26 dil çeşidi",
+        "sponsored": "Sponsorlu bölümler (Yerel Reklamlar)",
+        "googleDrive": "Google Drive araması (ücretsiz)"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "En popüler",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 premium tema: Glass, Material You, Minimal Dark",
+        "premiumThemes": "12 premium tema: Glass, Nord, Terminal, Material You ve daha fazlası",
         "themeCreator": "Özel tema oluşturucu",
         "presets": "Sınırsız tema ön ayarları",
         "perSectionStyle": "Bölüm başına stil geçersiz kılmaları",
-        "advancedColors": "52 renk değiştirme yeri (Arama çubuğu, Bölümler, Widget, Alt Panel)",
+        "advancedColors": "54 renk özelleştirme noktası (Arama çubuğu, Bölümler, Simgeler, Widget, Alt panel)",
         "searchbarColors": "Arama çubuğu renkleri (7 × Açık/Koyu)",
         "sectionColors": "Bölüm renkleri (7 × Açık/Koyu)",
-        "itemIconColors": "Öğe simge renkleri (2 × Açık/Koyu)",
+        "itemIconColors": "Öğe simge renkleri (3 × Açık/Koyu)",
         "bottomSheetColors": "Alt sayfa renkleri (5 × Açık/Koyu)",
         "widgetColors": "Widget renkleri (5 × Açık/Koyu)",
         "wallpaperBlur": "Özel duvar kağıdı rengi + bulanıklık",
@@ -235,7 +245,8 @@
         "backupExport": "Ayarları Dışa Aktar (JSON)",
         "backupImport": "Ayarları İçe Aktar (yapılandırmayı geri yükle)",
         "removeAds": "Sponsorlu bölümleri kaldır",
-        "support": "Gelecek geliştirmeyi destekle"
+        "support": "Gelecek geliştirmeyi destekle",
+        "cloudStorage": "Dropbox & OneDrive bulut araması"
       }
     },
     "summary": {

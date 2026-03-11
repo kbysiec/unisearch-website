@@ -84,6 +84,10 @@
       "providers": {
         "title": "Sökleverantörer",
         "description": "Välj var UniSearch skickar externa sökningar."
+      },
+      "cloud": {
+        "title": "Molnfiler",
+        "description": "Sök i Google Drive, Dropbox och OneDrive."
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "Förinställda leverantörer som Google, YouTube eller ChatGPT",
         "toggle": "Aktivera eller inaktivera leverantörer",
         "always": "Möjlighet att definiera anpassade leverantörer"
+      },
+      "cloud": {
+        "drive": "Google Drive (gratis)",
+        "dropbox": "Dropbox & OneDrive (Pro)",
+        "search": "Molnresultat bredvid lokala"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1 gratis anpassad sektion (ingen sortering)",
         "customAiPrompt": "1 gratis anpassad AI-prompt (etikett + mall + målapp)",
         "privacy": "Sekretessläge",
-        "languages": "Översättning till 25 språkvarianter",
-        "sponsored": "Sponsrade sektioner (inbyggda annonser)"
+        "languages": "26 språkvarianter",
+        "sponsored": "Sponsrade sektioner (inbyggda annonser)",
+        "googleDrive": "Google Drive-sökning (gratis)"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "Mest populär",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 premiumteman: Glass, Material You, Minimal Dark",
+        "premiumThemes": "12 premiumteman: Glass, Nord, Terminal, Material You och mer",
         "themeCreator": "Anpassad temakonstruktör",
         "presets": "Obegränsade temaförinställningar",
         "perSectionStyle": "Per-sektion stilåsidosättningar",
-        "advancedColors": "52 platser med möjlighet att ändra färg (sökfält, sektioner, widget, bottenpanel)",
+        "advancedColors": "54 anpassningsbara färgplatser (Sökfält, Sektioner, Ikoner, Widget, Nedre panel)",
         "searchbarColors": "Sökfältsfärger (7 × Ljust/Mörkt)",
         "sectionColors": "Sektionfärger (7 × Ljust/Mörkt)",
-        "itemIconColors": "Föremålsikonfarger (2 × Ljust/Mörkt)",
+        "itemIconColors": "Objektikoonfärger (3 × Ljus/Mörk)",
         "bottomSheetColors": "Bottenpanelfärger (5 × Ljust/Mörkt)",
         "widgetColors": "Widgetfärger (5 × Ljust/Mörkt)",
         "wallpaperBlur": "Anpassad bakgrundsfärg + blur",
@@ -235,7 +245,8 @@
         "backupExport": "Exportera inställningar (JSON)",
         "backupImport": "Importera inställningar (återställ konfiguration)",
         "removeAds": "Ta bort sponsrade sektioner",
-        "support": "Stöd framtida utveckling"
+        "support": "Stöd framtida utveckling",
+        "cloudStorage": "Dropbox & OneDrive molnsökning"
       }
     },
     "summary": {

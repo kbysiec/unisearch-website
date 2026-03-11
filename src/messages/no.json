@@ -84,6 +84,10 @@
       "providers": {
         "title": "Søkeleverandører",
         "description": "Velg hvor UniSearch sender eksterne spørringer."
+      },
+      "cloud": {
+        "title": "Skyfiler",
+        "description": "Søk i Google Drive, Dropbox og OneDrive."
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "Forhåndsinnstilte leverandører som Google, YouTube eller ChatGPT",
         "toggle": "Aktiver eller deaktiver leverandører",
         "always": "Mulighet til å definere tilpassede"
+      },
+      "cloud": {
+        "drive": "Google Drive (gratis)",
+        "dropbox": "Dropbox & OneDrive (Pro)",
+        "search": "Skyresultater ved siden av lokale"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1 gratis tilpasset seksjon (ingen sortering)",
         "customAiPrompt": "1 gratis tilpasset AI-prompt (etikett + mal + målapp)",
         "privacy": "Personvernmodus",
-        "languages": "Oversettelse til 25 språkvarianter",
-        "sponsored": "Sponsede seksjoner (Native Ads)"
+        "languages": "26 språkvarianter",
+        "sponsored": "Sponsede seksjoner (Native Ads)",
+        "googleDrive": "Google Drive-søk (gratis)"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "Mest populær",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 premium-temaer: Glass, Material You, Minimal Dark",
+        "premiumThemes": "12 premiumtemaer: Glass, Nord, Terminal, Material You og mer",
         "themeCreator": "Tilpasset temaoppretter",
         "presets": "Ubegrensede temavalginnstillinger",
         "perSectionStyle": "Stiloverrideringer per seksjon",
-        "advancedColors": "52 steder med mulighet for fargeendring (søkelinje, seksjoner, widget, nedre panel)",
+        "advancedColors": "54 tilpassbare fargesteder (Søkefelt, Seksjoner, Ikoner, Widget, Nedre panel)",
         "searchbarColors": "Søkeljefargert (7 × Lys/Mørk)",
         "sectionColors": "Seksjonfarger (7 × Lys/Mørk)",
-        "itemIconColors": "Elementikonfarger (2 × Lys/Mørk)",
+        "itemIconColors": "Elementikonfarge (3 × Lys/Mørk)",
         "bottomSheetColors": "Nedre arkfarger (5 × Lys/Mørk)",
         "widgetColors": "Widget-farger (5 × Lys/Mørk)",
         "wallpaperBlur": "Tilpasset bakgrunnfarge + uskarphetseffekt",
@@ -235,7 +245,8 @@
         "backupExport": "Eksporter innstillinger (JSON)",
         "backupImport": "Importer innstillinger (gjenopprett konfigurasjon)",
         "removeAds": "Fjern sponsede seksjoner",
-        "support": "Støtt fremtidig utvikling"
+        "support": "Støtt fremtidig utvikling",
+        "cloudStorage": "Dropbox & OneDrive sky-søk"
       }
     },
     "summary": {

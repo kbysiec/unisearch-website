@@ -84,6 +84,10 @@
       "providers": {
         "title": "Furnizori de căutare",
         "description": "Alegeți unde UniSearch trimite interogări externe."
+      },
+      "cloud": {
+        "title": "Fișiere cloud",
+        "description": "Căutați în Google Drive, Dropbox și OneDrive."
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "Furnizori presetați cum ar fi Google, YouTube sau ChatGPT",
         "toggle": "Activați sau dezactivați furnizorii",
         "always": "Posibilitatea de a defini cei personalizați"
+      },
+      "cloud": {
+        "drive": "Google Drive (gratuit)",
+        "dropbox": "Dropbox & OneDrive (Pro)",
+        "search": "Rezultate cloud alături de locale"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1 secțiune personalizată gratuită (fără sortare)",
         "customAiPrompt": "1 prompt AI personalizat gratuit (etichetă + șablon + aplicație țintă)",
         "privacy": "Modul confidențialitate",
-        "languages": "Traducere în 25 de variante lingvistice",
-        "sponsored": "Secțiuni sponsorizate (Anunțuri native)"
+        "languages": "26 variante de limbă",
+        "sponsored": "Secțiuni sponsorizate (Anunțuri native)",
+        "googleDrive": "Căutare Google Drive (gratuit)"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "Cel mai popular",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 teme premium: Glass, Material You, Minimal Dark",
+        "premiumThemes": "12 teme premium: Glass, Nord, Terminal, Material You și altele",
         "themeCreator": "Creator de teme personalizate",
         "presets": "Presetări de teme nelimitate",
         "perSectionStyle": "Anulări de stil per-secțiune",
-        "advancedColors": "52 locuri cu posibilitate de schimbare a culorii (Bara de căutare, Secțiuni, Widget, Panou inferior)",
+        "advancedColors": "54 locuri de culoare personalizabile (Bară, Secțiuni, Icoane, Widget, Panou inferior)",
         "searchbarColors": "Culori bară de căutare (7 × Luminos/Întunecat)",
         "sectionColors": "Culori secțiuni (7 × Luminos/Întunecat)",
-        "itemIconColors": "Culori pictograme articol (2 × Luminos/Întunecat)",
+        "itemIconColors": "Culori icoane elemente (3 × Luminos/Întunecat)",
         "bottomSheetColors": "Culori foaie inferioară (5 × Luminos/Întunecat)",
         "widgetColors": "Culori widget (5 × Luminos/Întunecat)",
         "wallpaperBlur": "Culoare fundal personalizat + blur",
@@ -235,7 +245,8 @@
         "backupExport": "Exportați setări (JSON)",
         "backupImport": "Importați setări (restaurare configurație)",
         "removeAds": "Eliminați secțiuni sponsorizate",
-        "support": "Sprijiniți dezvoltarea viitoare"
+        "support": "Sprijiniți dezvoltarea viitoare",
+        "cloudStorage": "Căutare cloud Dropbox & OneDrive"
       }
     },
     "summary": {

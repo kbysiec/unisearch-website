@@ -7,13 +7,15 @@
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
+| Google Drive (haku) | ✓ | ✓ |
+| Dropbox & OneDrive (haku) | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Mukauttaminen
 
 | Ominaisuus | Free | Pro |
 |---------|:----:|:---:|
-| Teemat | 2 teemaa | 5 teemaa + mukautettu luoja |
+| Teemat | 2 teemaa | 12 teemaa + mukautettu luoja |
 | Värit | Oletus | 54 mukautuspistettä |
 | Animaatiot | Perus | 11 tyyppiä + nopeudensäätö |
 | Asettelu ja geometria | Oletus | Täysi hallinta (säde, täyte, reunat) |
@@ -33,7 +35,7 @@
 
 | Ominaisuus | Free | Pro |
 |---------|:----:|:---:|
-| Kielet | 25+ | 25+ |
+| Kielet | 26+ | 26+ |
 | Widgetin mukauttaminen | Perus | Täysi hallinta |
 | Varmuuskopiointi ja palautus | — | Vie/Tuo (JSON) |
 | Mainokset | Näkyvissä | Poistettu |

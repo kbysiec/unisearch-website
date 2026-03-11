@@ -84,6 +84,10 @@
       "providers": {
         "title": "Nhà cung cấp tìm kiếm",
         "description": "Chọn nơi UniSearch gửi các truy vấn bên ngoài."
+      },
+      "cloud": {
+        "title": "Tệp đám mây",
+        "description": "Tìm kiếm trong Google Drive, Dropbox và OneDrive."
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "Nhà cung cấp đặt trước như Google, YouTube hoặc ChatGPT",
         "toggle": "Bật hoặc tắt nhà cung cấp",
         "always": "Khả năng xác định các bộ tùy chỉnh"
+      },
+      "cloud": {
+        "drive": "Google Drive (miễn phí)",
+        "dropbox": "Dropbox & OneDrive (Pro)",
+        "search": "Kết quả đám mây bên cạnh kết quả cục bộ"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1 phần tùy chỉnh miễn phí (không sắp xếp)",
         "customAiPrompt": "1 lời nhắc AI tùy chỉnh miễn phí (nhãn + mẫu + ứng dụng đích)",
         "privacy": "Chế độ riêng tư",
-        "languages": "Bản dịch sang 25 biến thể ngôn ngữ",
-        "sponsored": "Phần được tài trợ (Quảng cáo gốc)"
+        "languages": "26 biến thể ngôn ngữ",
+        "sponsored": "Phần được tài trợ (Quảng cáo gốc)",
+        "googleDrive": "Tìm kiếm Google Drive (miễn phí)"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "Được yêu thích nhất",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 chủ đề cao cấp: Glass, Material You, Minimal Dark",
+        "premiumThemes": "12 chủ đề cao cấp: Glass, Nord, Terminal, Material You và hơn nữa",
         "themeCreator": "Trình tạo chủ đề tùy chỉnh",
         "presets": "Cài đặt trước chủ đề không giới hạn",
         "perSectionStyle": "Ghi đè kiểu mỗi phần",
-        "advancedColors": "52 vị trí với khả năng thay đổi màu sắc (Thanh tìm kiếm, Phần, Tiện ích, Bảng điều khiển dưới)",
+        "advancedColors": "54 vị trí màu sắc tùy chỉnh (Thanh tìm kiếm, Phần, Biểu tượng, Widget, Bảng dưới)",
         "searchbarColors": "Màu thanh tìm kiếm (7 × Sáng/Tối)",
         "sectionColors": "Màu phần (7 × Sáng/Tối)",
-        "itemIconColors": "Màu biểu tượng mục (2 × Sáng/Tối)",
+        "itemIconColors": "Màu biểu tượng mục (3 × Sáng/Tối)",
         "bottomSheetColors": "Màu tờ dưới (5 × Sáng/Tối)",
         "widgetColors": "Màu tiện ích (5 × Sáng/Tối)",
         "wallpaperBlur": "Màu hình nền tùy chỉnh + mờ",
@@ -235,7 +245,8 @@
         "backupExport": "Xuất cài đặt (JSON)",
         "backupImport": "Nhập cài đặt (khôi phục cấu hình)",
         "removeAds": "Xóa phần được tài trợ",
-        "support": "Hỗ trợ phát triển trong tương lai"
+        "support": "Hỗ trợ phát triển trong tương lai",
+        "cloudStorage": "Tìm kiếm đám mây Dropbox & OneDrive"
       }
     },
     "summary": {

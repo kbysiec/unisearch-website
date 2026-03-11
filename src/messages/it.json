@@ -84,6 +84,10 @@
       "providers": {
         "title": "Provider di ricerca",
         "description": "Scegli dove UniSearch invia le query esterne."
+      },
+      "cloud": {
+        "title": "File cloud",
+        "description": "Cerca in Google Drive, Dropbox e OneDrive."
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "Provider predefiniti come Google, YouTube o ChatGPT",
         "toggle": "Abilita o disabilita provider",
         "always": "Possibilità di definirne di personalizzati"
+      },
+      "cloud": {
+        "drive": "Google Drive (gratuito)",
+        "dropbox": "Dropbox & OneDrive (Pro)",
+        "search": "Risultati cloud accanto a quelli locali"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1 sezione personalizzata gratuita (senza ordinamento)",
         "customAiPrompt": "1 prompt AI personalizzato gratuito (etichetta + modello + app di destinazione)",
         "privacy": "Modalità privacy",
-        "languages": "Traduzione in 25 varianti linguistiche",
-        "sponsored": "Sezioni sponsorizzate (Annunci nativi)"
+        "languages": "26 varianti linguistiche",
+        "sponsored": "Sezioni sponsorizzate (Annunci nativi)",
+        "googleDrive": "Ricerca Google Drive (gratuita)"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "Più popolare",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 temi premium: Glass, Material You, Minimal Dark",
+        "premiumThemes": "12 temi premium: Glass, Nord, Terminal, Material You e altri",
         "themeCreator": "Creator di temi personalizzati",
         "presets": "Preset di tema illimitati",
         "perSectionStyle": "Override di stile per sezione",
-        "advancedColors": "52 posizioni con possibilità di cambio colore (Barra di ricerca, Sezioni, Widget, Pannello inferiore)",
+        "advancedColors": "54 punti colore personalizzabili (Barra, Sezioni, Icone, Widget, Pannello inferiore)",
         "searchbarColors": "Colori barra di ricerca (7 × Chiaro/Scuro)",
         "sectionColors": "Colori sezione (7 × Chiaro/Scuro)",
-        "itemIconColors": "Colori icone elemento (2 × Chiaro/Scuro)",
+        "itemIconColors": "Colori icone elementi (3 × Chiaro/Scuro)",
         "bottomSheetColors": "Colori foglio inferiore (5 × Chiaro/Scuro)",
         "widgetColors": "Colori widget (5 × Chiaro/Scuro)",
         "wallpaperBlur": "Colore sfondo personalizzato + sfocatura",
@@ -235,7 +245,8 @@
         "backupExport": "Esporta impostazioni (JSON)",
         "backupImport": "Importa impostazioni (ripristina configurazione)",
         "removeAds": "Rimuovi sezioni sponsorizzate",
-        "support": "Supporta lo sviluppo futuro"
+        "support": "Supporta lo sviluppo futuro",
+        "cloudStorage": "Ricerca cloud Dropbox & OneDrive"
       }
     },
     "summary": {

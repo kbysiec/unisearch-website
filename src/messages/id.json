@@ -84,6 +84,10 @@
       "providers": {
         "title": "Penyedia pencarian",
         "description": "Pilih di mana UniSearch mengirim permintaan eksternal."
+      },
+      "cloud": {
+        "title": "File cloud",
+        "description": "Cari di Google Drive, Dropbox, dan OneDrive."
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "Penyedia preset seperti Google, YouTube atau ChatGPT",
         "toggle": "Aktifkan atau nonaktifkan penyedia",
         "always": "Kemampuan untuk menentukan yang kustom"
+      },
+      "cloud": {
+        "drive": "Google Drive (gratis)",
+        "dropbox": "Dropbox & OneDrive (Pro)",
+        "search": "Hasil cloud di samping hasil lokal"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1 bagian kustom gratis (tanpa pengurutan)",
         "customAiPrompt": "1 prompt AI khusus gratis (label + template + aplikasi target)",
         "privacy": "Mode privasi",
-        "languages": "Terjemahan ke 25 varian bahasa",
-        "sponsored": "Bagian bersponsor (Iklan Asli)"
+        "languages": "26 varian bahasa",
+        "sponsored": "Bagian bersponsor (Iklan Asli)",
+        "googleDrive": "Pencarian Google Drive (gratis)"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "Paling populer",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 tema premium: Glass, Material You, Minimal Dark",
+        "premiumThemes": "12 tema premium: Glass, Nord, Terminal, Material You, dan lainnya",
         "themeCreator": "Pembuat tema kustom",
         "presets": "Preset tema tak terbatas",
         "perSectionStyle": "Penggantian gaya per-bagian",
-        "advancedColors": "52 tempat dengan kemungkinan mengubah warna (Bilah pencarian, Bagian, Widget, Panel bawah)",
+        "advancedColors": "54 titik kustomisasi warna (Bilah pencarian, Bagian, Ikon, Widget, Panel bawah)",
         "searchbarColors": "Warna bilah pencarian (7 × Terang/Gelap)",
         "sectionColors": "Warna bagian (7 × Terang/Gelap)",
-        "itemIconColors": "Warna ikon item (2 × Terang/Gelap)",
+        "itemIconColors": "Warna ikon item (3 × Terang/Gelap)",
         "bottomSheetColors": "Warna lembar bawah (5 × Terang/Gelap)",
         "widgetColors": "Warna widget (5 × Terang/Gelap)",
         "wallpaperBlur": "Warna wallpaper kustom + blur",
@@ -235,7 +245,8 @@
         "backupExport": "Pengaturan ekspor (JSON)",
         "backupImport": "Pengaturan impor (pulihkan konfigurasi)",
         "removeAds": "Hapus bagian bersponsor",
-        "support": "Dukung pengembangan di masa depan"
+        "support": "Dukung pengembangan di masa depan",
+        "cloudStorage": "Pencarian cloud Dropbox & OneDrive"
       }
     },
     "summary": {

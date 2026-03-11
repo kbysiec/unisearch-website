@@ -11,13 +11,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
+| Google Drive (vyhledávání) | ✓ | ✓ |
+| Dropbox & OneDrive (vyhledávání) | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Přizpůsobení
 
 | Funkce | Free | Pro |
 |---------|:----:|:---:|
-| Motivy | 2 motivy | 5 motivů + vlastní tvůrce |
+| Motivy | 2 motivy | 12 motivů + vlastní tvůrce |
 | Barvy | Výchozí | 54 bodů přizpůsobení |
 | Animace | Základní | 11 typů + ovládání rychlosti |
 | Rozložení a geometrie | Výchozí | Plná kontrola (poloměr, odsazení, okraje) |
@@ -37,7 +39,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Funkce | Free | Pro |
 |---------|:----:|:---:|
-| Jazyky | 25+ | 25+ |
+| Jazyky | 26+ | 26+ |
 | Přizpůsobení widgetu | Základní | Plná kontrola |
 | Zálohování a obnovení | — | Export/Import (JSON) |
 | Reklamy | Zobrazeny | Odstraněny |
@@ -55,13 +57,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
+| Google Drive (søgning) | ✓ | ✓ |
+| Dropbox & OneDrive (søgning) | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Tilpasning
 
 | Funktion | Free | Pro |
 |---------|:----:|:---:|
-| Temaer | 2 temaer | 5 temaer + tilpasset skaber |
+| Temaer | 2 temaer | 12 temaer + tilpasset skaber |
 | Farver | Standard | 54 tilpasningspunkter |
 | Animationer | Grundlæggende | 11 typer + hastighedskontrol |
 | Layout og geometri | Standard | Fuld kontrol (radius, polstring, kanter) |
@@ -81,7 +85,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Funktion | Free | Pro |
 |---------|:----:|:---:|
-| Sprog | 25+ | 25+ |
+| Sprog | 26+ | 26+ |
 | Widget-tilpasning | Grundlæggende | Fuld kontrol |
 | Sikkerhedskopiering og gendannelse | — | Eksporter/Importer (JSON) |
 | Annoncer | Vist | Fjernet |
@@ -99,13 +103,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universelle Suche (Apps, Kontakte, Dateien, Einstellungen) | ✓ | ✓ |
 | Alle Suchalgorithmen (Präfix, Fuzzy, phonetisch) | ✓ | ✓ |
 | Integrierter Rechner | ✓ | ✓ |
+| Google Drive (Suche) | ✓ | ✓ |
+| Dropbox & OneDrive (Suche) | — | ✓ |
 | Volltextsuche in Dateien | — | ✓ |
 
 ## Anpassung
 
 | Funktion | Free | Pro |
 |---------|:----:|:---:|
-| Designs | 2 Designs | 5 Designs + eigener Creator |
+| Designs | 2 Designs | 12 Designs + eigener Creator |
 | Farben | Standard | 54 Anpassungspunkte |
 | Animationen | Basis | 11 Typen + Geschwindigkeitskontrolle |
 | Layout & Geometrie | Standard | Volle Kontrolle (Radius, Padding, Ränder) |
@@ -125,7 +131,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Funktion | Free | Pro |
 |---------|:----:|:---:|
-| Sprachen | 25+ | 25+ |
+| Sprachen | 26+ | 26+ |
 | Widget-Anpassung | Basis | Volle Kontrolle |
 | Backup & Wiederherstellung | — | Export/Import (JSON) |
 | Werbung | Angezeigt | Entfernt |
@@ -143,13 +149,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
+| Google Drive search | ✓ | ✓ |
+| Dropbox & OneDrive search | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Customization
 
 | Feature | Free | Pro |
 |---------|:----:|:---:|
-| Themes | 2 themes | 5 themes + custom creator |
+| Themes | 2 themes | 12 themes + custom creator |
 | Colors | Default | 54 customization points |
 | Animations | Basic | 11 types + speed control |
 | Layout & geometry | Default | Full control (radius, padding, borders) |
@@ -169,7 +177,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Feature | Free | Pro |
 |---------|:----:|:---:|
-| Languages | 25+ | 25+ |
+| Languages | 26+ | 26+ |
 | Widget customization | Basic | Full control |
 | Backup & restore | — | Export/Import (JSON) |
 | Ads | Shown | Removed |
@@ -187,13 +195,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Búsqueda universal (apps, contactos, archivos, ajustes) | ✓ | ✓ |
 | Todos los algoritmos (prefijo, difuso, fonético) | ✓ | ✓ |
 | Calculadora integrada | ✓ | ✓ |
+| Búsqueda en Google Drive | ✓ | ✓ |
+| Búsqueda en Dropbox y OneDrive | — | ✓ |
 | Búsqueda en contenido de archivos (texto completo) | — | ✓ |
 
 ## Personalización
 
 | Característica | Gratis | Pro |
 |---------|:----:|:---:|
-| Temas | 2 temas | 5 temas + creador personalizado |
+| Temas | 2 temas | 12 temas + creador personalizado |
 | Colores | Predeterminado | 54 puntos de personalización |
 | Animaciones | Básicas | 11 tipos + control de velocidad |
 | Diseño y geometría | Predeterminado | Control total (radio, padding, bordes) |
@@ -213,7 +223,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Característica | Gratis | Pro |
 |---------|:----:|:---:|
-| Idiomas | 25+ | 25+ |
+| Idiomas | 26+ | 26+ |
 | Personalización del widget | Básica | Control total |
 | Copia de seguridad y restauración | — | Exportar/Importar (JSON) |
 | Anuncios | Mostrados | Eliminados |
@@ -231,13 +241,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
+| Google Drive (haku) | ✓ | ✓ |
+| Dropbox & OneDrive (haku) | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Mukauttaminen
 
 | Ominaisuus | Free | Pro |
 |---------|:----:|:---:|
-| Teemat | 2 teemaa | 5 teemaa + mukautettu luoja |
+| Teemat | 2 teemaa | 12 teemaa + mukautettu luoja |
 | Värit | Oletus | 54 mukautuspistettä |
 | Animaatiot | Perus | 11 tyyppiä + nopeudensäätö |
 | Asettelu ja geometria | Oletus | Täysi hallinta (säde, täyte, reunat) |
@@ -257,7 +269,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Ominaisuus | Free | Pro |
 |---------|:----:|:---:|
-| Kielet | 25+ | 25+ |
+| Kielet | 26+ | 26+ |
 | Widgetin mukauttaminen | Perus | Täysi hallinta |
 | Varmuuskopiointi ja palautus | — | Vie/Tuo (JSON) |
 | Mainokset | Näkyvissä | Poistettu |
@@ -275,13 +287,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal na paghahanap (apps, contacts, files, settings) | ✓ | ✓ |
 | Lahat ng algorithm sa paghahanap (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in na calculator | ✓ | ✓ |
+| Google Drive (paghahanap) | ✓ | ✓ |
+| Dropbox & OneDrive (paghahanap) | — | ✓ |
 | Paghahanap sa nilalaman ng file (buong teksto) | — | ✓ |
 
 ## Pag-customize
 
 | Feature | Free | Pro |
 |---------|:----:|:---:|
-| Mga tema | 2 tema | 5 tema + custom creator |
+| Mga tema | 2 tema | 12 tema + custom creator |
 | Mga kulay | Default | 54 customization points |
 | Mga animation | Basic | 11 uri + speed control |
 | Layout at geometry | Default | Buong kontrol (radius, padding, borders) |
@@ -301,7 +315,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Feature | Free | Pro |
 |---------|:----:|:---:|
-| Mga wika | 25+ | 25+ |
+| Mga wika | 26+ | 26+ |
 | Pag-customize ng widget | Basic | Buong kontrol |
 | Backup at restore | — | Export/Import (JSON) |
 | Mga ads | Ipinapakita | Tinanggal |
@@ -319,13 +333,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Recherche universelle (apps, contacts, fichiers, paramètres) | ✓ | ✓ |
 | Tous les algorithmes (préfixe, flou, phonétique) | ✓ | ✓ |
 | Calculatrice intégrée | ✓ | ✓ |
+| Recherche Google Drive | ✓ | ✓ |
+| Recherche Dropbox & OneDrive | — | ✓ |
 | Recherche dans le contenu des fichiers (texte intégral) | — | ✓ |
 
 ## Personnalisation
 
 | Fonctionnalité | Gratuit | Pro |
 |---------|:----:|:---:|
-| Thèmes | 2 thèmes | 5 thèmes + créateur personnalisé |
+| Thèmes | 2 thèmes | 12 thèmes + créateur personnalisé |
 | Couleurs | Par défaut | 54 points de personnalisation |
 | Animations | Basiques | 11 types + contrôle de vitesse |
 | Disposition & géométrie | Par défaut | Contrôle total (rayon, padding, bordures) |
@@ -345,7 +361,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Fonctionnalité | Gratuit | Pro |
 |---------|:----:|:---:|
-| Langues | 25+ | 25+ |
+| Langues | 26+ | 26+ |
 | Personnalisation du widget | Basique | Contrôle total |
 | Sauvegarde & restauration | — | Export/Import (JSON) |
 | Publicités | Affichées | Supprimées |
@@ -363,13 +379,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | यूनिवर्सल सर्च (ऐप्स, संपर्क, फ़ाइलें, सेटिंग्स) | ✓ | ✓ |
 | सभी खोज एल्गोरिदम (प्रीफिक्स, फ़ज़ी, फ़ोनेटिक) | ✓ | ✓ |
 | बिल्ट-इन कैलकुलेटर | ✓ | ✓ |
+| Google Drive खोज | ✓ | ✓ |
+| Dropbox & OneDrive खोज | — | ✓ |
 | फ़ाइल कंटेंट खोज (पूर्ण-टेक्स्ट) | — | ✓ |
 
 ## कस्टमाइज़ेशन
 
 | सुविधा | Free | Pro |
 |---------|:----:|:---:|
-| थीम्स | 2 थीम्स | 5 थीम्स + कस्टम क्रिएटर |
+| थीम्स | 2 थीम्स | 12 थीम्स + कस्टम क्रिएटर |
 | रंग | डिफ़ॉल्ट | 54 कस्टमाइज़ेशन पॉइंट्स |
 | एनिमेशन | बेसिक | 11 प्रकार + स्पीड कंट्रोल |
 | लेआउट और ज्योमेट्री | डिफ़ॉल्ट | पूर्ण नियंत्रण (रेडियस, पैडिंग, बॉर्डर्स) |
@@ -389,7 +407,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | सुविधा | Free | Pro |
 |---------|:----:|:---:|
-| भाषाएँ | 25+ | 25+ |
+| भाषाएँ | 26+ | 26+ |
 | विजेट कस्टमाइज़ेशन | बेसिक | पूर्ण नियंत्रण |
 | बैकअप और रिस्टोर | — | एक्सपोर्ट/इम्पोर्ट (JSON) |
 | विज्ञापन | दिखाए गए | हटाए गए |
@@ -407,13 +425,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
+| Google Drive keresés | ✓ | ✓ |
+| Dropbox & OneDrive keresés | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Testreszabás
 
 | Funkció | Free | Pro |
 |---------|:----:|:---:|
-| Témák | 2 téma | 5 téma + egyéni létrehozó |
+| Témák | 2 téma | 12 téma + egyéni létrehozó |
 | Színek | Alapértelmezett | 54 testreszabási pont |
 | Animációk | Alap | 11 típus + sebességszabályozás |
 | Elrendezés és geometria | Alapértelmezett | Teljes ellenőrzés (sugár, kitöltés, szegélyek) |
@@ -433,7 +453,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Funkció | Free | Pro |
 |---------|:----:|:---:|
-| Nyelvek | 25+ | 25+ |
+| Nyelvek | 26+ | 26+ |
 | Widget testreszabása | Alap | Teljes ellenőrzés |
 | Biztonsági mentés és visszaállítás | — | Exportálás/Importálás (JSON) |
 | Hirdetések | Megjelenítve | Eltávolítva |
@@ -451,13 +471,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Pencarian universal (aplikasi, kontak, file, pengaturan) | ✓ | ✓ |
 | Semua algoritma pencarian (awalan, fuzzy, fonetik) | ✓ | ✓ |
 | Kalkulator bawaan | ✓ | ✓ |
+| Pencarian Google Drive | ✓ | ✓ |
+| Pencarian Dropbox & OneDrive | — | ✓ |
 | Pencarian konten file (teks lengkap) | — | ✓ |
 
 ## Kustomisasi
 
 | Fitur | Free | Pro |
 |---------|:----:|:---:|
-| Tema | 2 tema | 5 tema + pembuat kustom |
+| Tema | 2 tema | 12 tema + pembuat kustom |
 | Warna | Default | 54 titik kustomisasi |
 | Animasi | Dasar | 11 jenis + kontrol kecepatan |
 | Tata letak dan geometri | Default | Kontrol penuh (radius, padding, border) |
@@ -477,7 +499,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Fitur | Free | Pro |
 |---------|:----:|:---:|
-| Bahasa | 25+ | 25+ |
+| Bahasa | 26+ | 26+ |
 | Kustomisasi widget | Dasar | Kontrol penuh |
 | Cadangkan & pulihkan | — | Ekspor/Impor (JSON) |
 | Iklan | Ditampilkan | Dihapus |
@@ -495,13 +517,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Ricerca universale (app, contatti, file, impostazioni) | ✓ | ✓ |
 | Tutti gli algoritmi (prefisso, fuzzy, fonetico) | ✓ | ✓ |
 | Calcolatrice integrata | ✓ | ✓ |
+| Ricerca Google Drive | ✓ | ✓ |
+| Ricerca Dropbox & OneDrive | — | ✓ |
 | Ricerca nel contenuto dei file (testo completo) | — | ✓ |
 
 ## Personalizzazione
 
 | Funzionalità | Gratis | Pro |
 |---------|:----:|:---:|
-| Temi | 2 temi | 5 temi + creatore personalizzato |
+| Temi | 2 temi | 12 temi + creatore personalizzato |
 | Colori | Predefinito | 54 punti di personalizzazione |
 | Animazioni | Base | 11 tipi + controllo velocità |
 | Layout e geometria | Predefinito | Controllo completo (raggio, padding, bordi) |
@@ -521,7 +545,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Funzionalità | Gratis | Pro |
 |---------|:----:|:---:|
-| Lingue | 25+ | 25+ |
+| Lingue | 26+ | 26+ |
 | Personalizzazione widget | Base | Controllo completo |
 | Backup e ripristino | — | Esporta/Importa (JSON) |
 | Annunci | Mostrati | Rimossi |
@@ -539,6 +563,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | ユニバーサル検索（アプリ、連絡先、ファイル、設定） | ✓ | ✓ |
 | すべての検索アルゴリズム（プレフィックス、ファジー、音声） | ✓ | ✓ |
 | 内蔵計算機 | ✓ | ✓ |
+| Google Drive 検索 | ✓ | ✓ |
+| Dropbox & OneDrive 検索 | — | ✓ |
 | ファイル内容検索（全文検索） | — | ✓ |
 
 ## カスタマイズ
@@ -565,7 +591,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | 機能 | Free | Pro |
 |---------|:----:|:---:|
-| 言語 | 25+ | 25+ |
+| 言語 | 26+ | 26+ |
 | ウィジェットのカスタマイズ | 基本 | 完全制御 |
 | バックアップと復元 | — | エクスポート/インポート（JSON） |
 | 広告 | 表示 | 削除 |
@@ -583,6 +609,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | 통합 검색 (앱, 연락처, 파일, 설정) | ✓ | ✓ |
 | 모든 검색 알고리즘 (접두사, 퍼지, 음성) | ✓ | ✓ |
 | 내장 계산기 | ✓ | ✓ |
+| Google Drive 검색 | ✓ | ✓ |
+| Dropbox & OneDrive 검색 | — | ✓ |
 | 파일 내용 검색 (전체 텍스트) | — | ✓ |
 
 ## 사용자 정의
@@ -609,7 +637,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | 기능 | Free | Pro |
 |---------|:----:|:---:|
-| 언어 | 25+ | 25+ |
+| 언어 | 26+ | 26+ |
 | 위젯 사용자 정의 | 기본 | 완전한 제어 |
 | 백업 및 복원 | — | 내보내기/가져오기 (JSON) |
 | 광고 | 표시됨 | 제거됨 |
@@ -627,13 +655,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
+| Google Drive (zoeken) | ✓ | ✓ |
+| Dropbox & OneDrive (zoeken) | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Aanpassing
 
 | Functie | Free | Pro |
 |---------|:----:|:---:|
-| Thema's | 2 thema's | 5 thema's + aangepaste maker |
+| Thema's | 2 thema's | 12 thema's + aangepaste maker |
 | Kleuren | Standaard | 54 aanpassingspunten |
 | Animaties | Basis | 11 types + snelheidscontrole |
 | Layout en geometrie | Standaard | Volledige controle (radius, padding, randen) |
@@ -653,7 +683,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Functie | Free | Pro |
 |---------|:----:|:---:|
-| Talen | 25+ | 25+ |
+| Talen | 26+ | 26+ |
 | Widget-aanpassing | Basis | Volledige controle |
 | Backup en herstel | — | Exporteren/Importeren (JSON) |
 | Advertenties | Weergegeven | Verwijderd |
@@ -671,13 +701,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
+| Google Drive (søk) | ✓ | ✓ |
+| Dropbox & OneDrive (søk) | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Tilpasning
 
 | Funksjon | Free | Pro |
 |---------|:----:|:---:|
-| Temaer | 2 temaer | 5 temaer + tilpasset skaper |
+| Temaer | 2 temaer | 12 temaer + tilpasset skaper |
 | Farger | Standard | 54 tilpasningspunkter |
 | Animasjoner | Grunnleggende | 11 typer + hastighetskontroll |
 | Oppsett og geometri | Standard | Full kontroll (radius, polstring, kanter) |
@@ -697,7 +729,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Funksjon | Free | Pro |
 |---------|:----:|:---:|
-| Språk | 25+ | 25+ |
+| Språk | 26+ | 26+ |
 | Widget-tilpasning | Grunnleggende | Full kontroll |
 | Sikkerhetskopiering og gjenoppretting | — | Eksporter/Importer (JSON) |
 | Annonser | Vist | Fjernet |
@@ -715,13 +747,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Uniwersalne wyszukiwanie (aplikacje, kontakty, pliki, ustawienia) | ✓ | ✓ |
 | Wszystkie algorytmy (prefix, fuzzy, fonetyczny) | ✓ | ✓ |
 | Wbudowany kalkulator | ✓ | ✓ |
+| Wyszukiwanie Google Drive | ✓ | ✓ |
+| Wyszukiwanie Dropbox & OneDrive | — | ✓ |
 | Wyszukiwanie w treści plików (pełnotekstowe) | — | ✓ |
 
 ## Personalizacja
 
 | Funkcja | Free | Pro |
 |---------|:----:|:---:|
-| Motywy | 2 motywy | 5 motywów + kreator |
+| Motywy | 2 motywy | 12 motywów + kreator |
 | Kolory | Domyślne | 54 punkty personalizacji |
 | Animacje | Podstawowe | 11 typów + kontrola prędkości |
 | Layout i geometria | Domyślne | Pełna kontrola (zaokrąglenia, paddingi, obramowania) |
@@ -741,7 +775,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Funkcja | Free | Pro |
 |---------|:----:|:---:|
-| Języki | 25+ | 25+ |
+| Języki | 26+ | 26+ |
 | Personalizacja widżetu | Podstawowa | Pełna kontrola |
 | Backup i przywracanie | — | Eksport/Import (JSON) |
 | Reklamy | Wyświetlane | Usunięte |
@@ -759,13 +793,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Pesquisa universal (apps, contatos, arquivos, configurações) | ✓ | ✓ |
 | Todos os algoritmos de pesquisa (prefixo, difuso, fonético) | ✓ | ✓ |
 | Calculadora integrada | ✓ | ✓ |
+| Pesquisa no Google Drive | ✓ | ✓ |
+| Pesquisa no Dropbox & OneDrive | — | ✓ |
 | Pesquisa no conteúdo de arquivos (texto completo) | — | ✓ |
 
 ## Personalização
 
 | Recurso | Free | Pro |
 |---------|:----:|:---:|
-| Temas | 2 temas | 5 temas + criador personalizado |
+| Temas | 2 temas | 12 temas + criador personalizado |
 | Cores | Padrão | 54 pontos de personalização |
 | Animações | Básicas | 11 tipos + controle de velocidade |
 | Layout e geometria | Padrão | Controle total (raio, padding, bordas) |
@@ -785,7 +821,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Recurso | Free | Pro |
 |---------|:----:|:---:|
-| Idiomas | 25+ | 25+ |
+| Idiomas | 26+ | 26+ |
 | Personalização do widget | Básica | Controle total |
 | Backup e restauração | — | Exportar/Importar (JSON) |
 | Anúncios | Exibidos | Removidos |
@@ -803,13 +839,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
+| Căutare Google Drive | ✓ | ✓ |
+| Căutare Dropbox & OneDrive | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Personalizare
 
 | Caracteristică | Free | Pro |
 |---------|:----:|:---:|
-| Teme | 2 teme | 5 teme + creator personalizat |
+| Teme | 2 teme | 12 teme + creator personalizat |
 | Culori | Implicit | 54 puncte de personalizare |
 | Animații | De bază | 11 tipuri + control viteză |
 | Aspect și geometrie | Implicit | Control complet (rază, padding, borduri) |
@@ -829,7 +867,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Caracteristică | Free | Pro |
 |---------|:----:|:---:|
-| Limbi | 25+ | 25+ |
+| Limbi | 26+ | 26+ |
 | Personalizare widget | De bază | Control complet |
 | Copie de rezervă și restaurare | — | Export/Import (JSON) |
 | Reclame | Afișate | Eliminate |
@@ -847,13 +885,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Универсальный поиск (приложения, контакты, файлы, настройки) | ✓ | ✓ |
 | Все алгоритмы поиска (префикс, нечёткий, фонетический) | ✓ | ✓ |
 | Встроенный калькулятор | ✓ | ✓ |
+| Поиск в Google Drive | ✓ | ✓ |
+| Поиск в Dropbox & OneDrive | — | ✓ |
 | Поиск по содержимому файлов (полнотекстовый) | — | ✓ |
 
 ## Персонализация
 
 | Функция | Free | Pro |
 |---------|:----:|:---:|
-| Темы | 2 темы | 5 тем + создатель тем |
+| Темы | 2 темы | 12 тем + создатель тем |
 | Цвета | По умолчанию | 54 точки настройки |
 | Анимации | Базовые | 11 типов + контроль скорости |
 | Макет и геометрия | По умолчанию | Полный контроль (радиус, отступы, границы) |
@@ -873,7 +913,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Функция | Free | Pro |
 |---------|:----:|:---:|
-| Языки | 25+ | 25+ |
+| Языки | 26+ | 26+ |
 | Настройка виджета | Базовая | Полный контроль |
 | Резервное копирование и восстановление | — | Экспорт/Импорт (JSON) |
 | Реклама | Показывается | Удалена |
@@ -891,13 +931,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
+| Vyhľadávanie v Google Drive | ✓ | ✓ |
+| Vyhľadávanie v Dropbox & OneDrive | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Prispôsobenie
 
 | Funkcia | Free | Pro |
 |---------|:----:|:---:|
-| Motívy | 2 motívy | 5 motívov + vlastný tvorca |
+| Motívy | 2 motívy | 12 motívov + vlastný tvorca |
 | Farby | Predvolené | 54 bodov prispôsobenia |
 | Animácie | Základné | 11 typov + ovládanie rýchlosti |
 | Rozloženie a geometria | Predvolené | Plná kontrola (polomer, odsadenie, okraje) |
@@ -917,7 +959,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Funkcia | Free | Pro |
 |---------|:----:|:---:|
-| Jazyky | 25+ | 25+ |
+| Jazyky | 26+ | 26+ |
 | Prispôsobenie widgetu | Základné | Plná kontrola |
 | Zálohovanie a obnovenie | — | Export/Import (JSON) |
 | Reklamy | Zobrazené | Odstránené |
@@ -935,13 +977,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
+| Google Drive (sökning) | ✓ | ✓ |
+| Dropbox & OneDrive (sökning) | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Anpassning
 
 | Funktion | Free | Pro |
 |---------|:----:|:---:|
-| Teman | 2 teman | 5 teman + anpassad skapare |
+| Teman | 2 teman | 12 teman + anpassad skapare |
 | Färger | Standard | 54 anpassningspunkter |
 | Animationer | Grundläggande | 11 typer + hastighetskontroll |
 | Layout och geometri | Standard | Full kontroll (radie, utfyllnad, kanter) |
@@ -961,7 +1005,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Funktion | Free | Pro |
 |---------|:----:|:---:|
-| Språk | 25+ | 25+ |
+| Språk | 26+ | 26+ |
 | Widgetanpassning | Grundläggande | Full kontroll |
 | Säkerhetskopiering och återställning | — | Exportera/Importera (JSON) |
 | Annonser | Visas | Borttagna |
@@ -979,13 +1023,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | การค้นหาแบบรวม (แอป, ผู้ติดต่อ, ไฟล์, การตั้งค่า) | ✓ | ✓ |
 | อัลกอริทึมการค้นหาทั้งหมด (คำนำหน้า, ฟัซซี่, เสียง) | ✓ | ✓ |
 | เครื่องคิดเลขในตัว | ✓ | ✓ |
+| ค้นหา Google Drive | ✓ | ✓ |
+| ค้นหา Dropbox & OneDrive | — | ✓ |
 | การค้นหาเนื้อหาไฟล์ (ข้อความเต็ม) | — | ✓ |
 
 ## การปรับแต่ง
 
 | คุณสมบัติ | Free | Pro |
 |---------|:----:|:---:|
-| ธีม | 2 ธีม | 5 ธีม + ตัวสร้างกำหนดเอง |
+| ธีม | 2 ธีม | 12 ธีม + ตัวสร้างกำหนดเอง |
 | สี | ค่าเริ่มต้น | 54 จุดการปรับแต่ง |
 | แอนิเมชัน | พื้นฐาน | 11 ประเภท + ควบคุมความเร็ว |
 | เลย์เอาต์และเรขาคณิต | ค่าเริ่มต้น | ควบคุมเต็มรูปแบบ (รัศมี, ระยะห่าง, ขอบ) |
@@ -1005,7 +1051,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | คุณสมบัติ | Free | Pro |
 |---------|:----:|:---:|
-| ภาษา | 25+ | 25+ |
+| ภาษา | 26+ | 26+ |
 | การปรับแต่งวิดเจ็ต | พื้นฐาน | ควบคุมเต็มรูปแบบ |
 | สำรองข้อมูลและคืนค่า | — | ส่งออก/นำเข้า (JSON) |
 | โฆษณา | แสดง | ลบแล้ว |
@@ -1023,13 +1069,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Evrensel arama (uygulamalar, kişiler, dosyalar, ayarlar) | ✓ | ✓ |
 | Tüm arama algoritmaları (önek, belirsiz, fonetik) | ✓ | ✓ |
 | Dahili hesap makinesi | ✓ | ✓ |
+| Google Drive araması | ✓ | ✓ |
+| Dropbox & OneDrive araması | — | ✓ |
 | Dosya içeriği arama (tam metin) | — | ✓ |
 
 ## Özelleştirme
 
 | Özellik | Free | Pro |
 |---------|:----:|:---:|
-| Temalar | 2 tema | 5 tema + özel oluşturucu |
+| Temalar | 2 tema | 12 tema + özel oluşturucu |
 | Renkler | Varsayılan | 54 özelleştirme noktası |
 | Animasyonlar | Temel | 11 tür + hız kontrolü |
 | Düzen ve geometri | Varsayılan | Tam kontrol (yarıçap, dolgu, kenarlıklar) |
@@ -1049,7 +1097,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Özellik | Free | Pro |
 |---------|:----:|:---:|
-| Diller | 25+ | 25+ |
+| Diller | 26+ | 26+ |
 | Widget özelleştirme | Temel | Tam kontrol |
 | Yedekleme ve geri yükleme | — | Dışa Aktar/İçe Aktar (JSON) |
 | Reklamlar | Gösteriliyor | Kaldırıldı |
@@ -1067,13 +1115,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Tìm kiếm toàn cục (ứng dụng, liên hệ, tệp, cài đặt) | ✓ | ✓ |
 | Tất cả thuật toán tìm kiếm (tiền tố, mờ, ngữ âm) | ✓ | ✓ |
 | Máy tính tích hợp | ✓ | ✓ |
+| Tìm kiếm Google Drive | ✓ | ✓ |
+| Tìm kiếm Dropbox & OneDrive | — | ✓ |
 | Tìm kiếm nội dung tệp (toàn văn) | — | ✓ |
 
 ## Tùy chỉnh
 
 | Tính năng | Free | Pro |
 |---------|:----:|:---:|
-| Chủ đề | 2 chủ đề | 5 chủ đề + trình tạo tùy chỉnh |
+| Chủ đề | 2 chủ đề | 12 chủ đề + trình tạo tùy chỉnh |
 | Màu sắc | Mặc định | 54 điểm tùy chỉnh |
 | Hoạt ảnh | Cơ bản | 11 loại + kiểm soát tốc độ |
 | Bố cục và hình học | Mặc định | Kiểm soát đầy đủ (bán kính, đệm, viền) |
@@ -1093,7 +1143,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | Tính năng | Free | Pro |
 |---------|:----:|:---:|
-| Ngôn ngữ | 25+ | 25+ |
+| Ngôn ngữ | 26+ | 26+ |
 | Tùy chỉnh widget | Cơ bản | Kiểm soát đầy đủ |
 | Sao lưu và khôi phục | — | Xuất/Nhập (JSON) |
 | Quảng cáo | Hiển thị | Đã xóa |
@@ -1111,6 +1161,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | 通用搜索（应用、联系人、文件、设置） | ✓ | ✓ |
 | 所有搜索算法（前缀、模糊、语音） | ✓ | ✓ |
 | 内置计算器 | ✓ | ✓ |
+| Google Drive 搜索 | ✓ | ✓ |
+| Dropbox & OneDrive 搜索 | — | ✓ |
 | 文件内容搜索（全文搜索） | — | ✓ |
 
 ## 定制化
@@ -1137,7 +1189,7 @@ export const freeProMarkdownContent: Record<string, string> = {
 
 | 功能 | Free | Pro |
 |---------|:----:|:---:|
-| 语言 | 25+ | 25+ |
+| 语言 | 26+ | 26+ |
 | 小部件定制 | 基础 | 完全控制 |
 | 备份和恢复 | — | 导出/导入（JSON） |
 | 广告 | 显示 | 已删除 |

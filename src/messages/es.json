@@ -84,6 +84,10 @@
       "providers": {
         "title": "Proveedores de búsqueda",
         "description": "Elige dónde UniSearch envía consultas externas."
+      },
+      "cloud": {
+        "title": "Archivos en la nube",
+        "description": "Busca en Google Drive, Dropbox y OneDrive."
       }
     },
     "items": {
@@ -126,6 +130,11 @@
         "preset": "Proveedores preestablecidos como Google, YouTube o ChatGPT",
         "toggle": "Habilitar o deshabilitar proveedores",
         "always": "Capacidad para definir personalizados"
+      },
+      "cloud": {
+        "drive": "Google Drive (gratuito)",
+        "dropbox": "Dropbox y OneDrive (Pro)",
+        "search": "Resultados en la nube junto a los locales"
       }
     }
   },
@@ -189,8 +198,9 @@
         "customSection": "1 sección personalizada gratis (sin ordenación)",
         "customAiPrompt": "1 mensaje de IA personalizado gratis (etiqueta + plantilla + aplicación de destino)",
         "privacy": "Modo de privacidad",
-        "languages": "Traducción en 25 variantes de idioma",
-        "sponsored": "Secciones patrocinadas (Anuncios nativos)"
+        "languages": "26 variantes de idioma",
+        "sponsored": "Secciones patrocinadas (Anuncios nativos)",
+        "googleDrive": "Búsqueda en Google Drive (gratuito)"
       }
     },
     "pro": {
@@ -199,14 +209,14 @@
       "badge": "Más popular",
       "priceNote": "$5.99",
       "items": {
-        "premiumThemes": "3 temas premium: Glass, Material You, Minimal Dark",
+        "premiumThemes": "12 temas premium: Glass, Nord, Terminal, Material You y más",
         "themeCreator": "Creador de tema personalizado",
         "presets": "Ajustes de tema ilimitados",
         "perSectionStyle": "Anulaciones de estilo por sección",
-        "advancedColors": "52 lugares con posibilidad de cambiar color (Barra de búsqueda, Secciones, Widget, Panel inferior)",
+        "advancedColors": "54 puntos de color personalizables (Barra, Secciones, Iconos, Widget, Panel inferior)",
         "searchbarColors": "Colores de barra de búsqueda (7 × Claro/Oscuro)",
         "sectionColors": "Colores de sección (7 × Claro/Oscuro)",
-        "itemIconColors": "Colores de icono de elemento (2 × Claro/Oscuro)",
+        "itemIconColors": "Colores de iconos de elementos (3 × Claro/Oscuro)",
         "bottomSheetColors": "Colores de hoja inferior (5 × Claro/Oscuro)",
         "widgetColors": "Colores de widget (5 × Claro/Oscuro)",
         "wallpaperBlur": "Color de fondo de pantalla personalizado + desenfoque",
@@ -235,7 +245,8 @@
         "backupExport": "Exportar configuración (JSON)",
         "backupImport": "Importar configuración (restaurar configuración)",
         "removeAds": "Eliminar secciones patrocinadas",
-        "support": "Apoyar el desarrollo futuro"
+        "support": "Apoyar el desarrollo futuro",
+        "cloudStorage": "Búsqueda en la nube de Dropbox y OneDrive"
       }
     },
     "summary": {
