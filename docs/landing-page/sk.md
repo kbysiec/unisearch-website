@@ -7,8 +7,8 @@
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
-| Vyhľadávanie v Google Drive | ✓ | ✓ |
-| Vyhľadávanie v Dropbox & OneDrive | — | ✓ |
+| Vyhľadávanie v OneDrive | ✓ | ✓ |
+| Vyhľadávanie v Dropbox | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Prispôsobenie
@@ -29,6 +29,8 @@
 | Vlastné sekcie | 1 sekcia | Neobmedzené + presúvanie |
 | Vlastné AI výzvy | 1 výzva | Neobmedzené + preusporiadanie |
 | Poskytovatelia vyhľadávania | Len predvoľby | + Vlastné URL šablóny |
+| API kľúče: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Miestne modely offline (na zariadení) | ✓ | ✓ |
 | Pripnuté položky | — | ✓ |
 
 ## Viac

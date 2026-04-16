@@ -55,6 +55,17 @@ export const featureGroups = [
     ],
   },
   {
+    id: 'currency',
+    titleKey: 'features.groups.currency.title',
+    descriptionKey: 'features.groups.currency.description',
+    icon: 'Coins',
+    items: [
+      'features.items.currency.live',
+      'features.items.currency.multi',
+      'features.items.currency.inline',
+    ],
+  },
+  {
     id: 'providers',
     titleKey: 'features.groups.providers.title',
     descriptionKey: 'features.groups.providers.description',

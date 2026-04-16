@@ -78,8 +78,8 @@
         "description": "लेआउट, थीम और दृश्यमानता को नियंत्रित करें।"
       },
       "ai": {
-        "title": "AI प्रॉम्प्ट",
-        "description": "स्पष्ट डेटा सीमाओं के साथ वैकल्पिक AI सहायक।"
+        "title": "एआई से पूछें",
+        "description": "एक अनुभाग में एआई से पूछें।"
       },
       "providers": {
         "title": "खोज प्रदाता",
@@ -87,7 +87,11 @@
       },
       "cloud": {
         "title": "क्लाउड फ़ाइलें",
-        "description": "Google Drive, Dropbox और OneDrive में खोजें।"
+        "description": "Dropbox और OneDrive में खोजें।"
+      },
+      "currency": {
+        "title": "मुद्रा परिवर्तक",
+        "description": "लाइव विनिमय दरों के साथ मुद्राएँ परिवर्तित करें।"
       }
     },
     "items": {
@@ -122,9 +126,9 @@
         "sections": "सेक्शन दिखाएं, छुपाएं और पुनः व्यवस्थित करें"
       },
       "ai": {
-        "prompts": "त्वरित AI प्रॉम्प्ट बनाएं",
-        "safe": "स्पष्ट ऑप्ट-इन उपयोग",
-        "optional": "कभी भी AI अक्षम करें"
+        "prompts": "एपीआई मॉडल से कनेक्ट करें: ओपनएआई, क्लाउड, ग्रोक, जेमिनी, ग्रोक, डीपसीक, ओपनराउटर।",
+        "safe": "Tavily के माध्यम से इंटरनेट का उपयोग जोड़ें",
+        "optional": "डिवाइस पर स्थानीय ऑफ़लाइन मॉडल चलाएँ"
       },
       "providers": {
         "preset": "पूर्व निर्धारित प्रदाता जैसे Google, YouTube या ChatGPT",
@@ -132,9 +136,14 @@
         "always": "कस्टम परिभाषित करने की क्षमता"
       },
       "cloud": {
-        "drive": "Google Drive (निःशुल्क)",
-        "dropbox": "Dropbox और OneDrive (Pro)",
+        "drive": "OneDrive (निःशुल्क)",
+        "dropbox": "Dropbox (Pro)",
         "search": "स्थानीय परिणामों के साथ क्लाउड परिणाम"
+      },
+      "currency": {
+        "live": "लाइव विनिमय दरें",
+        "multi": "विश्व की प्रमुख मुद्राएँ",
+        "inline": "खोज परिणामों से इनलाइन रूपांतरण"
       }
     }
   },
@@ -200,7 +209,7 @@
         "privacy": "गोपनीयता मोड",
         "languages": "26 भाषा संस्करण",
         "sponsored": "प्रायोजित सेक्शन (नेटिव विज्ञापन)",
-        "googleDrive": "Google Drive खोज (निःशुल्क)"
+        "googleDrive": "OneDrive खोज (निःशुल्क)"
       }
     },
     "pro": {
@@ -246,7 +255,7 @@
         "backupImport": "सेटिंग्स आयात करें (कॉन्फ़िगरेशन पुनर्स्थापित करें)",
         "removeAds": "प्रायोजित सेक्शन हटाएं",
         "support": "भविष्य के विकास का समर्थन करें",
-        "cloudStorage": "Dropbox और OneDrive क्लाउड खोज"
+        "cloudStorage": "Dropbox क्लाउड खोज"
       }
     },
     "summary": {

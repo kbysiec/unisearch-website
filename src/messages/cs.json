@@ -78,8 +78,8 @@
         "description": "Ovládejte rozložení, motivy a viditelnost."
       },
       "ai": {
-        "title": "AI příkazy",
-        "description": "Volitelní AI pomocníci s jasnými hranicemi dat."
+        "title": "Zeptejte se AI",
+        "description": "Zeptejte se AI v jedné sekci."
       },
       "providers": {
         "title": "Poskytovatelé vyhledávání",
@@ -87,7 +87,11 @@
       },
       "cloud": {
         "title": "Cloudové soubory",
-        "description": "Prohledejte Google Drive, Dropbox a OneDrive."
+        "description": "Prohledejte Dropbox a OneDrive."
+      },
+      "currency": {
+        "title": "Převodník měn",
+        "description": "Převádějte měny pomocí živých směnných kurzů."
       }
     },
     "items": {
@@ -122,9 +126,9 @@
         "sections": "Zobrazení, skrytí a změna pořadí sekcí"
       },
       "ai": {
-        "prompts": "Vytvářejte rychlé AI příkazy",
-        "safe": "Jasné volitelné použití",
-        "optional": "AI můžete kdykoli zakázat"
+        "prompts": "Připojte se k modelům API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter.",
+        "safe": "Přidejte přístup k internetu přes Tavily",
+        "optional": "Spusťte místní offline modely na zařízení"
       },
       "providers": {
         "preset": "Přednastavení poskytovatelé jako Google, YouTube nebo ChatGPT",
@@ -132,9 +136,14 @@
         "always": "Možnost definovat vlastní"
       },
       "cloud": {
-        "drive": "Google Drive (zdarma)",
-        "dropbox": "Dropbox & OneDrive (Pro)",
+        "drive": "OneDrive (zdarma)",
+        "dropbox": "Dropbox (Pro)",
         "search": "Cloudové výsledky vedle lokálních"
+      },
+      "currency": {
+        "live": "Živé směnné kurzy",
+        "multi": "Hlavní světové měny",
+        "inline": "Inline konverze z výsledků vyhledávání"
       }
     }
   },
@@ -200,7 +209,7 @@
         "privacy": "Režim soukromí",
         "languages": "26 jazykových variant",
         "sponsored": "Sponzorované sekce (nativní reklamy)",
-        "googleDrive": "Vyhledávání v Google Drive (zdarma)"
+        "googleDrive": "Vyhledávání v OneDrive (zdarma)"
       }
     },
     "pro": {
@@ -246,7 +255,7 @@
         "backupImport": "Import nastavení (obnovení konfigurace)",
         "removeAds": "Odstranění sponzorovaných sekcí",
         "support": "Podpora budoucího vývoje",
-        "cloudStorage": "Cloudové vyhledávání Dropbox & OneDrive"
+        "cloudStorage": "Cloudové vyhledávání Dropbox"
       }
     },
     "summary": {

@@ -78,8 +78,8 @@
         "description": "Düzen, temalar ve görünürlüğü kontrol edin."
       },
       "ai": {
-        "title": "Yapay zeka İstemleri",
-        "description": "Net veri sınırları olan isteğe bağlı yapay zeka yardımcıları."
+        "title": "Yapay zekaya sor",
+        "description": "Bir bölümde AI'ya sorun."
       },
       "providers": {
         "title": "Arama Sağlayıcıları",
@@ -87,7 +87,11 @@
       },
       "cloud": {
         "title": "Bulut dosyaları",
-        "description": "Google Drive, Dropbox ve OneDrive'da arayın."
+        "description": "Dropbox ve OneDrive'da arayın."
+      },
+      "currency": {
+        "title": "Para birimi dönüştürücü",
+        "description": "Para birimlerini canlı döviz kurlarıyla dönüştürün."
       }
     },
     "items": {
@@ -122,9 +126,9 @@
         "sections": "Bölümleri göster, gizle ve yeniden düzenle"
       },
       "ai": {
-        "prompts": "Hızlı yapay zeka istekleri oluşturun",
-        "safe": "Net kabul edilen kullanım",
-        "optional": "İstediğiniz zaman yapay zekayı devre dışı bırakın"
+        "prompts": "API modellerine bağlanın: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter.",
+        "safe": "Tavily aracılığıyla internet erişimi ekleyin",
+        "optional": "Yerel çevrimdışı modelleri cihazda çalıştırın"
       },
       "providers": {
         "preset": "Google, YouTube veya ChatGPT gibi ön ayarlı sağlayıcılar",
@@ -132,9 +136,14 @@
         "always": "Özel olanları tanımlama yeteneği"
       },
       "cloud": {
-        "drive": "Google Drive (ücretsiz)",
-        "dropbox": "Dropbox & OneDrive (Pro)",
+        "drive": "OneDrive (ücretsiz)",
+        "dropbox": "Dropbox (Pro)",
         "search": "Bulut sonuçları yerel sonuçların yanında"
+      },
+      "currency": {
+        "live": "Canlı döviz kurları",
+        "multi": "Başlıca dünya para birimleri",
+        "inline": "Arama sonuçlarından satır içi dönüşüm"
       }
     }
   },
@@ -200,7 +209,7 @@
         "privacy": "Gizlilik modu",
         "languages": "26 dil çeşidi",
         "sponsored": "Sponsorlu bölümler (Yerel Reklamlar)",
-        "googleDrive": "Google Drive araması (ücretsiz)"
+        "googleDrive": "OneDrive araması (ücretsiz)"
       }
     },
     "pro": {
@@ -246,7 +255,7 @@
         "backupImport": "Ayarları İçe Aktar (yapılandırmayı geri yükle)",
         "removeAds": "Sponsorlu bölümleri kaldır",
         "support": "Gelecek geliştirmeyi destekle",
-        "cloudStorage": "Dropbox & OneDrive bulut araması"
+        "cloudStorage": "Dropbox bulut araması"
       }
     },
     "summary": {

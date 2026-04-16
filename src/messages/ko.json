@@ -78,8 +78,8 @@
         "description": "레이아웃, 테마 및 가시성을 제어합니다."
       },
       "ai": {
-        "title": "AI 프롬프트",
-        "description": "명확한 데이터 경계를 가진 선택적 AI 도우미."
+        "title": "AI에게 물어보세요",
+        "description": "한 섹션에서 AI에게 물어보세요."
       },
       "providers": {
         "title": "검색 제공자",
@@ -87,7 +87,11 @@
       },
       "cloud": {
         "title": "클라우드 파일",
-        "description": "Google Drive, Dropbox, OneDrive를 검색합니다."
+        "description": "Dropbox, OneDrive를 검색합니다."
+      },
+      "currency": {
+        "title": "통화 변환기",
+        "description": "실시간 환율로 통화를 변환하세요."
       }
     },
     "items": {
@@ -122,9 +126,9 @@
         "sections": "섹션 표시, 숨김 및 재정렬"
       },
       "ai": {
-        "prompts": "빠른 AI 프롬프트 만들기",
-        "safe": "명확한 옵트인 사용",
-        "optional": "언제든지 AI 비활성화"
+        "prompts": "API 모델에 연결: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter.",
+        "safe": "Tavily를 통해 인터넷 액세스 추가",
+        "optional": "기기에서 로컬 오프라인 모델 실행"
       },
       "providers": {
         "preset": "Google, YouTube 또는 ChatGPT와 같은 사전 설정 제공자",
@@ -132,9 +136,14 @@
         "always": "사용자 정의 제공자를 정의하는 기능"
       },
       "cloud": {
-        "drive": "Google Drive (무료)",
-        "dropbox": "Dropbox & OneDrive (Pro)",
+        "drive": "OneDrive (무료)",
+        "dropbox": "Dropbox (Pro)",
         "search": "로컬 결과 옆에 클라우드 결과 표시"
+      },
+      "currency": {
+        "live": "실시간 환율",
+        "multi": "세계 주요 통화",
+        "inline": "검색 결과의 인라인 변환"
       }
     }
   },
@@ -246,7 +255,7 @@
         "backupImport": "설정 가져오기(구성 복원)",
         "removeAds": "스폰서 섹션 제거",
         "support": "향후 개발 지원",
-        "cloudStorage": "Dropbox & OneDrive 클라우드 검색"
+        "cloudStorage": "Dropbox 클라우드 검색"
       }
     },
     "summary": {

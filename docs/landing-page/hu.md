@@ -7,8 +7,8 @@
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
-| Google Drive keresés | ✓ | ✓ |
-| Dropbox & OneDrive keresés | — | ✓ |
+| OneDrive keresés | ✓ | ✓ |
+| Dropbox keresés | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Testreszabás
@@ -29,6 +29,8 @@
 | Egyéni szakaszok | 1 szakasz | Korlátlan + húzás és ejtés |
 | Egyéni AI-promptok | 1 prompt | Korlátlan + átrendezés |
 | Keresőszolgáltatók | Csak előbeállítások | + Egyéni URL-sablonok |
+| API kulcsok: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Helyi offline modellek (eszközön) | ✓ | ✓ |
 | Rögzített elemek | — | ✓ |
 
 ## Több

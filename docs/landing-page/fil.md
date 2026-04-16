@@ -7,8 +7,8 @@
 | Universal na paghahanap (apps, contacts, files, settings) | ✓ | ✓ |
 | Lahat ng algorithm sa paghahanap (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in na calculator | ✓ | ✓ |
-| Google Drive (paghahanap) | ✓ | ✓ |
-| Dropbox & OneDrive (paghahanap) | — | ✓ |
+| OneDrive (paghahanap) | ✓ | ✓ |
+| Dropbox (paghahanap) | — | ✓ |
 | Paghahanap sa nilalaman ng file (buong teksto) | — | ✓ |
 
 ## Pag-customize
@@ -29,6 +29,8 @@
 | Custom na sections | 1 section | Walang hangganan + drag & drop |
 | Custom AI prompts | 1 prompt | Walang hangganan + reorder |
 | Mga search provider | Presets lang | + Custom URL templates |
+| Mga API key: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Mga lokal na offline na modelo (sa device) | ✓ | ✓ |
 | Naka-pin na items | — | ✓ |
 
 ## Iba pa

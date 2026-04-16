@@ -78,8 +78,8 @@
         "description": "レイアウト、テーマ、表示を制御します。"
       },
       "ai": {
-        "title": "AIプロンプト",
-        "description": "明確なデータ境界を持つオプションのAIヘルパー。"
+        "title": "AIに聞く",
+        "description": "1 つのセクションで AI に質問します。"
       },
       "providers": {
         "title": "検索プロバイダー",
@@ -87,7 +87,11 @@
       },
       "cloud": {
         "title": "クラウドファイル",
-        "description": "Google Drive、Dropbox、OneDriveを検索。"
+        "description": "Dropbox、OneDriveを検索。"
+      },
+      "currency": {
+        "title": "通貨換算機",
+        "description": "ライブ為替レートで通貨を換算します。"
       }
     },
     "items": {
@@ -122,9 +126,9 @@
         "sections": "セクションを表示、非表示、並び替え"
       },
       "ai": {
-        "prompts": "クイックAIプロンプトを作成",
-        "safe": "明確なオプトイン使用",
-        "optional": "いつでもAIを無効化"
+        "prompts": "API モデルに接続します: OpenAI、Claude、Grok、Gemini、Groq、DeepSeek、OpenRouter。",
+        "safe": "Tavily 経由でインターネット アクセスを追加する",
+        "optional": "ローカルのオフライン モデルをデバイス上で実行する"
       },
       "providers": {
         "preset": "Google、YouTube、ChatGPTなどのプリセットプロバイダー",
@@ -132,9 +136,14 @@
         "always": "カスタムプロバイダーを定義する機能"
       },
       "cloud": {
-        "drive": "Google Drive（無料）",
-        "dropbox": "Dropbox & OneDrive（Pro）",
+        "drive": "OneDrive（無料）",
+        "dropbox": "Dropbox（Pro）",
         "search": "ローカルと並んでクラウド結果を表示"
+      },
+      "currency": {
+        "live": "ライブ為替レート",
+        "multi": "世界の主要通貨",
+        "inline": "検索結果からのインライン変換"
       }
     }
   },
@@ -200,7 +209,7 @@
         "privacy": "プライバシーモード",
         "languages": "26言語対応",
         "sponsored": "スポンサーセクション（ネイティブ広告）",
-        "googleDrive": "Google Driveの検索（無料）"
+        "googleDrive": "OneDriveの検索（無料）"
       }
     },
     "pro": {
@@ -246,7 +255,7 @@
         "backupImport": "設定をインポート（設定を復元）",
         "removeAds": "スポンサーセクションを削除",
         "support": "今後の開発を支援",
-        "cloudStorage": "Dropbox & OneDriveクラウド検索"
+        "cloudStorage": "Dropboxクラウド検索"
       }
     },
     "summary": {

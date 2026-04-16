@@ -78,8 +78,8 @@
         "description": "Beheer indeling, thema's en zichtbaarheid."
       },
       "ai": {
-        "title": "AI-prompts",
-        "description": "Optionele AI-hulpen met duidelijke gegevensgrenzen."
+        "title": "Vraag het AI",
+        "description": "Vraag AI in één sectie."
       },
       "providers": {
         "title": "Zoekproviders",
@@ -87,7 +87,11 @@
       },
       "cloud": {
         "title": "Cloudbestanden",
-        "description": "Zoek in Google Drive, Dropbox en OneDrive."
+        "description": "Zoek in Dropbox en OneDrive."
+      },
+      "currency": {
+        "title": "Valuta-omzetter",
+        "description": "Converteer valuta's met live wisselkoersen."
       }
     },
     "items": {
@@ -122,9 +126,9 @@
         "sections": "Toon, verberg en herschik secties"
       },
       "ai": {
-        "prompts": "Maak snelle AI-prompts",
-        "safe": "Duidelijke opt-in-gebruik",
-        "optional": "Schakel AI op elk moment uit"
+        "prompts": "Maak verbinding met API-modellen: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter.",
+        "safe": "Voeg internettoegang toe via Tavily",
+        "optional": "Voer lokale offline modellen uit op het apparaat"
       },
       "providers": {
         "preset": "Vooraf ingestelde providers zoals Google, YouTube of ChatGPT",
@@ -132,9 +136,14 @@
         "always": "Mogelijkheid om aangepaste providers te definiëren"
       },
       "cloud": {
-        "drive": "Google Drive (gratis)",
-        "dropbox": "Dropbox & OneDrive (Pro)",
+        "drive": "OneDrive (gratis)",
+        "dropbox": "Dropbox (Pro)",
         "search": "Cloudresultaten naast lokale"
+      },
+      "currency": {
+        "live": "Live wisselkoersen",
+        "multi": "Belangrijke wereldvaluta's",
+        "inline": "Inline conversie vanuit zoekresultaten"
       }
     }
   },
@@ -200,7 +209,7 @@
         "privacy": "Privacy-modus",
         "languages": "26 taalvarianten",
         "sponsored": "Gesponsorde secties (Native Ads)",
-        "googleDrive": "Google Drive-zoeken (gratis)"
+        "googleDrive": "OneDrive-zoeken (gratis)"
       }
     },
     "pro": {
@@ -246,7 +255,7 @@
         "backupImport": "Importeer instellingen (herstel configuratie)",
         "removeAds": "Verwijder gesponsorde secties",
         "support": "Ondersteun toekomstige ontwikkeling",
-        "cloudStorage": "Dropbox & OneDrive cloud-zoeken"
+        "cloudStorage": "Dropbox cloud-zoeken"
       }
     },
     "summary": {

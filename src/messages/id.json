@@ -78,8 +78,8 @@
         "description": "Kontrol tata letak, tema, dan visibilitas."
       },
       "ai": {
-        "title": "Prompt AI",
-        "description": "Pembantu AI opsional dengan batasan data yang jelas."
+        "title": "Tanya AI",
+        "description": "Tanyakan AI di satu bagian."
       },
       "providers": {
         "title": "Penyedia pencarian",
@@ -87,7 +87,11 @@
       },
       "cloud": {
         "title": "File cloud",
-        "description": "Cari di Google Drive, Dropbox, dan OneDrive."
+        "description": "Cari di Dropbox, dan OneDrive."
+      },
+      "currency": {
+        "title": "Konverter mata uang",
+        "description": "Konversikan mata uang dengan nilai tukar langsung."
       }
     },
     "items": {
@@ -122,9 +126,9 @@
         "sections": "Tampilkan, sembunyikan, dan atur ulang bagian"
       },
       "ai": {
-        "prompts": "Buat prompt AI cepat",
-        "safe": "Penggunaan opt-in yang jelas",
-        "optional": "Nonaktifkan AI kapan saja"
+        "prompts": "Terhubung ke model API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter.",
+        "safe": "Tambahkan akses internet melalui Tavily",
+        "optional": "Jalankan model offline lokal di perangkat"
       },
       "providers": {
         "preset": "Penyedia preset seperti Google, YouTube atau ChatGPT",
@@ -132,9 +136,14 @@
         "always": "Kemampuan untuk menentukan yang kustom"
       },
       "cloud": {
-        "drive": "Google Drive (gratis)",
-        "dropbox": "Dropbox & OneDrive (Pro)",
+        "drive": "OneDrive (gratis)",
+        "dropbox": "Dropbox (Pro)",
         "search": "Hasil cloud di samping hasil lokal"
+      },
+      "currency": {
+        "live": "Nilai tukar langsung",
+        "multi": "Mata uang utama dunia",
+        "inline": "Konversi sebaris dari hasil pencarian"
       }
     }
   },
@@ -200,7 +209,7 @@
         "privacy": "Mode privasi",
         "languages": "26 varian bahasa",
         "sponsored": "Bagian bersponsor (Iklan Asli)",
-        "googleDrive": "Pencarian Google Drive (gratis)"
+        "googleDrive": "Pencarian OneDrive (gratis)"
       }
     },
     "pro": {
@@ -246,7 +255,7 @@
         "backupImport": "Pengaturan impor (pulihkan konfigurasi)",
         "removeAds": "Hapus bagian bersponsor",
         "support": "Dukung pengembangan di masa depan",
-        "cloudStorage": "Pencarian cloud Dropbox & OneDrive"
+        "cloudStorage": "Pencarian cloud Dropbox"
       }
     },
     "summary": {

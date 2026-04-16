@@ -78,8 +78,8 @@
         "description": "ควบคุมเค้าโครง ธีม และความมองเห็น"
       },
       "ai": {
-        "title": "พรอมต์ AI",
-        "description": "ผู้ช่วย AI เสริมมีขอบเขตข้อมูลที่ชัดเจน"
+        "title": "ถามเอไอ",
+        "description": "ถาม AI ในส่วนเดียว"
       },
       "providers": {
         "title": "ผู้ให้บริการค้นหา",
@@ -87,7 +87,11 @@
       },
       "cloud": {
         "title": "ไฟล์คลาวด์",
-        "description": "ค้นหาใน Google Drive, Dropbox และ OneDrive"
+        "description": "ค้นหาใน Dropbox และ OneDrive"
+      },
+      "currency": {
+        "title": "แปลงสกุลเงิน",
+        "description": "แปลงสกุลเงินด้วยอัตราแลกเปลี่ยนสด"
       }
     },
     "items": {
@@ -122,9 +126,9 @@
         "sections": "แสดง ซ่อน และจัดเรียงส่วนต่างๆ ใหม่"
       },
       "ai": {
-        "prompts": "สร้างพรอมต์ AI ที่รวดเร็ว",
-        "safe": "การใช้งานที่ชัดเจนและเลือกใช้",
-        "optional": "ปิดใช้งาน AI ได้ตลอดเวลา"
+        "prompts": "เชื่อมต่อกับโมเดล API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter",
+        "safe": "เพิ่มการเข้าถึงอินเทอร์เน็ตผ่าน Tavily",
+        "optional": "เรียกใช้โมเดลออฟไลน์ในเครื่องบนอุปกรณ์"
       },
       "providers": {
         "preset": "ผู้ให้บริการที่ตั้งไว้ล่วงหน้าเช่น Google YouTube หรือ ChatGPT",
@@ -132,9 +136,14 @@
         "always": "ความสามารถในการกำหนดตัวเลือกที่กำหนดเอง"
       },
       "cloud": {
-        "drive": "Google Drive (ฟรี)",
-        "dropbox": "Dropbox & OneDrive (Pro)",
+        "drive": "OneDrive (ฟรี)",
+        "dropbox": "Dropbox (Pro)",
         "search": "ผลลัพธ์คลาวด์ควบคู่กับไฟล์ในเครื่อง"
+      },
+      "currency": {
+        "live": "อัตราแลกเปลี่ยนสด",
+        "multi": "สกุลเงินหลักของโลก",
+        "inline": "การแปลงอินไลน์จากผลการค้นหา"
       }
     }
   },
@@ -200,7 +209,7 @@
         "privacy": "โหมดความเป็นส่วนตัว",
         "languages": "26 ตัวแปรภาษา",
         "sponsored": "ส่วนที่ได้รับการสนับสนุน (Native Ads)",
-        "googleDrive": "การค้นหา Google Drive (ฟรี)"
+        "googleDrive": "การค้นหา OneDrive (ฟรี)"
       }
     },
     "pro": {
@@ -246,7 +255,7 @@
         "backupImport": "นำเข้าตั้งค่า (กู้คืนการกำหนดค่า)",
         "removeAds": "ลบส่วนที่ได้รับการสนับสนุน",
         "support": "สนับสนุนการพัฒนาในอนาคต",
-        "cloudStorage": "การค้นหาคลาวด์ Dropbox & OneDrive"
+        "cloudStorage": "การค้นหาคลาวด์ Dropbox"
       }
     },
     "summary": {

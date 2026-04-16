@@ -7,8 +7,8 @@
 | Evrensel arama (uygulamalar, kişiler, dosyalar, ayarlar) | ✓ | ✓ |
 | Tüm arama algoritmaları (önek, belirsiz, fonetik) | ✓ | ✓ |
 | Dahili hesap makinesi | ✓ | ✓ |
-| Google Drive araması | ✓ | ✓ |
-| Dropbox & OneDrive araması | — | ✓ |
+| OneDrive araması | ✓ | ✓ |
+| Dropbox araması | — | ✓ |
 | Dosya içeriği arama (tam metin) | — | ✓ |
 
 ## Özelleştirme
@@ -29,6 +29,8 @@
 | Özel bölümler | 1 bölüm | Sınırsız + sürükle bırak |
 | Özel Yapay Zeka komutları | 1 komut | Sınırsız + yeniden sırala |
 | Arama sağlayıcıları | Sadece ön ayarlar | + Özel URL şablonları |
+| API anahtarları: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Yerel çevrimdışı modeller (cihazda) | ✓ | ✓ |
 | Sabitlenmiş öğeler | — | ✓ |
 
 ## Daha Fazla
@@ -43,3 +45,5 @@
 ---
 
 **Pro:** tek seferlik satın alma. Abonelik yok.
+
+| Yerel çevrimdışı modeller (cihazda) | ✓ | ✓ |

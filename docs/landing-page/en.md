@@ -7,8 +7,8 @@
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
-| Google Drive search | ✓ | ✓ |
-| Dropbox & OneDrive search | — | ✓ |
+| OneDrive search | ✓ | ✓ |
+| Dropbox search | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Customization
@@ -29,6 +29,8 @@
 | Custom sections | 1 section | Unlimited + drag & drop |
 | Custom AI prompts | 1 prompt | Unlimited + reorder |
 | Search providers | Presets only | + Custom URL templates |
+| API keys: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Local offline models (on-device) | ✓ | ✓ |
 | Pinned items | — | ✓ |
 
 ## More

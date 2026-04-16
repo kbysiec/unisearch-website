@@ -78,8 +78,8 @@
         "description": "Controlați aspectul, temele și vizibilitatea."
       },
       "ai": {
-        "title": "Instrucțiuni IA",
-        "description": "Asistenți opționali IA cu limite clare ale datelor."
+        "title": "Întrebați AI",
+        "description": "Întrebați AI într-o secțiune."
       },
       "providers": {
         "title": "Furnizori de căutare",
@@ -87,7 +87,11 @@
       },
       "cloud": {
         "title": "Fișiere cloud",
-        "description": "Căutați în Google Drive, Dropbox și OneDrive."
+        "description": "Căutați în Dropbox și OneDrive."
+      },
+      "currency": {
+        "title": "Convertor valutar",
+        "description": "Convertiți valute cu rate de schimb în direct."
       }
     },
     "items": {
@@ -122,9 +126,9 @@
         "sections": "Afișați, ascundeți și reorganizați secțiuni"
       },
       "ai": {
-        "prompts": "Creați instrucțiuni IA rapide",
-        "safe": "Utilizare clară cu consimțământ",
-        "optional": "Dezactivați IA în orice moment"
+        "prompts": "Conectați-vă la modele API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter.",
+        "safe": "Adăugați acces la internet prin Tavily",
+        "optional": "Rulați modele offline locale pe dispozitiv"
       },
       "providers": {
         "preset": "Furnizori presetați cum ar fi Google, YouTube sau ChatGPT",
@@ -132,9 +136,14 @@
         "always": "Posibilitatea de a defini cei personalizați"
       },
       "cloud": {
-        "drive": "Google Drive (gratuit)",
-        "dropbox": "Dropbox & OneDrive (Pro)",
+        "drive": "OneDrive (gratuit)",
+        "dropbox": "Dropbox (Pro)",
         "search": "Rezultate cloud alături de locale"
+      },
+      "currency": {
+        "live": "Rate de schimb în direct",
+        "multi": "Principalele monede mondiale",
+        "inline": "Conversie inline din rezultatele căutării"
       }
     }
   },
@@ -200,7 +209,7 @@
         "privacy": "Modul confidențialitate",
         "languages": "26 variante de limbă",
         "sponsored": "Secțiuni sponsorizate (Anunțuri native)",
-        "googleDrive": "Căutare Google Drive (gratuit)"
+        "googleDrive": "Căutare OneDrive (gratuit)"
       }
     },
     "pro": {
@@ -246,7 +255,7 @@
         "backupImport": "Importați setări (restaurare configurație)",
         "removeAds": "Eliminați secțiuni sponsorizate",
         "support": "Sprijiniți dezvoltarea viitoare",
-        "cloudStorage": "Căutare cloud Dropbox & OneDrive"
+        "cloudStorage": "Căutare cloud Dropbox"
       }
     },
     "summary": {

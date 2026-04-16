@@ -78,8 +78,8 @@
         "description": "Controle layout, temas e visibilidade."
       },
       "ai": {
-        "title": "Prompts de IA",
-        "description": "Assistentes de IA opcionais com limites de dados claros."
+        "title": "Pergunte à IA",
+        "description": "Pergunte à IA em uma seção."
       },
       "providers": {
         "title": "Provedores de busca",
@@ -87,7 +87,11 @@
       },
       "cloud": {
         "title": "Arquivos na nuvem",
-        "description": "Pesquise no Google Drive, Dropbox e OneDrive."
+        "description": "Pesquise no Dropbox e OneDrive."
+      },
+      "currency": {
+        "title": "Conversor de moeda",
+        "description": "Converta moedas com taxas de câmbio ao vivo."
       }
     },
     "items": {
@@ -122,9 +126,9 @@
         "sections": "Mostrar, ocultar e reordenar seções"
       },
       "ai": {
-        "prompts": "Crie prompts de IA rápidos",
-        "safe": "Uso claro e com consentimento",
-        "optional": "Desabilitar IA a qualquer momento"
+        "prompts": "Conecte-se a modelos de API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter.",
+        "safe": "Adicione acesso à internet via Tavily",
+        "optional": "Execute modelos off-line locais no dispositivo"
       },
       "providers": {
         "preset": "Provedores predefinidos como Google, YouTube ou ChatGPT",
@@ -132,9 +136,14 @@
         "always": "Capacidade de definir personalizados"
       },
       "cloud": {
-        "drive": "Google Drive (grátis)",
-        "dropbox": "Dropbox & OneDrive (Pro)",
+        "drive": "OneDrive (grátis)",
+        "dropbox": "Dropbox (Pro)",
         "search": "Resultados na nuvem ao lado dos locais"
+      },
+      "currency": {
+        "live": "Taxas de câmbio ao vivo",
+        "multi": "Principais moedas mundiais",
+        "inline": "Conversão inline dos resultados da pesquisa"
       }
     }
   },
@@ -200,7 +209,7 @@
         "privacy": "Modo de privacidade",
         "languages": "26 variantes de idioma",
         "sponsored": "Seções patrocinadas (Anúncios nativos)",
-        "googleDrive": "Pesquisa no Google Drive (grátis)"
+        "googleDrive": "Pesquisa no OneDrive (grátis)"
       }
     },
     "pro": {
@@ -246,7 +255,7 @@
         "backupImport": "Importar configurações (restaurar configuração)",
         "removeAds": "Remover seções patrocinadas",
         "support": "Suportar desenvolvimento futuro",
-        "cloudStorage": "Pesquisa na nuvem Dropbox & OneDrive"
+        "cloudStorage": "Pesquisa na nuvem Dropbox"
       }
     },
     "summary": {

@@ -7,8 +7,8 @@
 | Búsqueda universal (apps, contactos, archivos, ajustes) | ✓ | ✓ |
 | Todos los algoritmos (prefijo, difuso, fonético) | ✓ | ✓ |
 | Calculadora integrada | ✓ | ✓ |
-| Búsqueda en Google Drive | ✓ | ✓ |
-| Búsqueda en Dropbox y OneDrive | — | ✓ |
+| Búsqueda en OneDrive | ✓ | ✓ |
+| Búsqueda en Dropbox | — | ✓ |
 | Búsqueda en contenido de archivos (texto completo) | — | ✓ |
 
 ## Personalización
@@ -29,6 +29,8 @@
 | Secciones personalizadas | 1 sección | Ilimitado + arrastrar y soltar |
 | Prompts de IA | 1 prompt | Ilimitado + reordenar |
 | Proveedores de búsqueda | Solo preestablecidos | + Plantillas URL personalizadas |
+| Claves API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Modelos locales fuera de línea (en el dispositivo) | ✓ | ✓ |
 | Elementos fijados | — | ✓ |
 
 ## Más

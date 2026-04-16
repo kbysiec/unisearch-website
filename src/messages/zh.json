@@ -78,8 +78,8 @@
         "description": "控制布局、主题和可见性。"
       },
       "ai": {
-        "title": "AI 提示",
-        "description": "具有明确数据边界的可选 AI 助手。"
+        "title": "询问人工智能",
+        "description": "在一节中询问 AI。"
       },
       "providers": {
         "title": "搜索提供商",
@@ -87,7 +87,11 @@
       },
       "cloud": {
         "title": "云端文件",
-        "description": "搜索 Google Drive、Dropbox 和 OneDrive。"
+        "description": "搜索 Dropbox 和 OneDrive。"
+      },
+      "currency": {
+        "title": "货币转换器",
+        "description": "使用实时汇率转换货币。"
       }
     },
     "items": {
@@ -122,9 +126,9 @@
         "sections": "显示、隐藏和重新排序部分"
       },
       "ai": {
-        "prompts": "创建快速 AI 提示",
-        "safe": "明确的选择使用",
-        "optional": "随时禁用 AI"
+        "prompts": "连接到 API 模型：OpenAI、Claude、Grok、Gemini、Groq、DeepSeek、OpenRouter。",
+        "safe": "通过 Tavilly 添加互联网访问",
+        "optional": "在设备上运行本地离线模型"
       },
       "providers": {
         "preset": "预设提供商如 Google、YouTube 或 ChatGPT",
@@ -132,9 +136,14 @@
         "always": "能够定义自定义提供商"
       },
       "cloud": {
-        "drive": "Google Drive（免费）",
-        "dropbox": "Dropbox & OneDrive（Pro）",
+        "drive": "OneDrive（免费）",
+        "dropbox": "Dropbox（Pro）",
         "search": "云端结果与本地结果并排显示"
+      },
+      "currency": {
+        "live": "实时汇率",
+        "multi": "世界主要货币",
+        "inline": "来自搜索结果的内嵌转换"
       }
     }
   },
@@ -200,7 +209,7 @@
         "privacy": "隐私模式",
         "languages": "26种语言变体",
         "sponsored": "赞助部分（原生广告）",
-        "googleDrive": "Google Drive 搜索（免费）"
+        "googleDrive": "OneDrive 搜索（免费）"
       }
     },
     "pro": {
@@ -246,7 +255,7 @@
         "backupImport": "导入设置（恢复配置）",
         "removeAds": "移除赞助部分",
         "support": "支持未来开发",
-        "cloudStorage": "Dropbox 和 OneDrive 云搜索"
+        "cloudStorage": "Dropbox 云搜索"
       }
     },
     "summary": {

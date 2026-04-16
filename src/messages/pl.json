@@ -78,8 +78,8 @@
         "description": "Kontroluj układ, motywy i widoczność."
       },
       "ai": {
-        "title": "AI prompty",
-        "description": "Opcjonalne AI z jasnymi zasadami danych."
+        "title": "Zapytaj AI",
+        "description": "Zapytaj AI w jednej sekcji."
       },
       "providers": {
         "title": "Dostawcy wyszukiwania",
@@ -87,7 +87,11 @@
       },
       "cloud": {
         "title": "Pliki chmurowe",
-        "description": "Szukaj w Google Drive, Dropbox i OneDrive."
+        "description": "Szukaj w Dropbox i OneDrive."
+      },
+      "currency": {
+        "title": "Przelicznik walut",
+        "description": "Konwertuj waluty za pomocą bieżących kursów wymiany."
       }
     },
     "items": {
@@ -122,9 +126,9 @@
         "sections": "Pokazuj, ukrywaj i sortuj sekcje"
       },
       "ai": {
-        "prompts": "Szybkie prompty AI",
-        "safe": "Wyraźny opt-in",
-        "optional": "Możesz wyłączyć w każdej chwili"
+        "prompts": "Połącz się z modelami API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter.",
+        "safe": "Dodaj dostęp do Internetu poprzez Tavily",
+        "optional": "Uruchamiaj lokalne modele offline na urządzeniu"
       },
       "providers": {
         "preset": "Predefiniowani dostawcy jak Google, YouTube lub ChatGPT",
@@ -132,9 +136,14 @@
         "always": "Możliwość definiowania własnych"
       },
       "cloud": {
-        "drive": "Google Drive (bezpłatnie)",
-        "dropbox": "Dropbox i OneDrive (Pro)",
+        "drive": "OneDrive (bezpłatnie)",
+        "dropbox": "Dropbox (Pro)",
         "search": "Wyniki z chmury obok lokalnych"
+      },
+      "currency": {
+        "live": "Kursy wymiany na żywo",
+        "multi": "Główne waluty świata",
+        "inline": "Konwersja inline z wyników wyszukiwania"
       }
     }
   },
@@ -200,7 +209,7 @@
         "privacy": "Tryb prywatności",
         "languages": "26 wariantów językowych",
         "sponsored": "Sponsorowane sekcje (Native Ads)",
-        "googleDrive": "Wyszukiwanie plików Google Drive (bezpłatnie)"
+        "googleDrive": "Wyszukiwanie plików OneDrive (bezpłatnie)"
       }
     },
     "pro": {
@@ -246,7 +255,7 @@
         "backupImport": "Import ustawień (przywrócenie konfiguracji)",
         "removeAds": "Brak reklam (usunięcie Native Ads)",
         "support": "Wsparcie rozwoju aplikacji",
-        "cloudStorage": "Wyszukiwanie w chmurze Dropbox i OneDrive"
+        "cloudStorage": "Wyszukiwanie w chmurze Dropbox"
       }
     },
     "summary": {

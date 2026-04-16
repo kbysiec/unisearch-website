@@ -7,8 +7,8 @@
 | Pesquisa universal (apps, contatos, arquivos, configurações) | ✓ | ✓ |
 | Todos os algoritmos de pesquisa (prefixo, difuso, fonético) | ✓ | ✓ |
 | Calculadora integrada | ✓ | ✓ |
-| Pesquisa no Google Drive | ✓ | ✓ |
-| Pesquisa no Dropbox & OneDrive | — | ✓ |
+| Pesquisa no OneDrive | ✓ | ✓ |
+| Pesquisa no Dropbox | — | ✓ |
 | Pesquisa no conteúdo de arquivos (texto completo) | — | ✓ |
 
 ## Personalização
@@ -23,12 +23,15 @@
 | Papel de parede | Sistema | Cor personalizada + desfoque |
 
 ## Conteúdo e IA
+| Modelos off-line locais (no dispositivo) | ✓ | ✓ |
 
 | Recurso | Free | Pro |
 |---------|:----:|:---:|
 | Seções personalizadas | 1 seção | Ilimitado + arrastar e soltar |
 | Prompts de IA personalizados | 1 prompt | Ilimitado + reordenar |
 | Provedores de pesquisa | Apenas predefinidos | + Modelos de URL personalizados |
+| Chaves de API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Modelos off-line locais (no dispositivo) | ✓ | ✓ |
 | Itens fixados | — | ✓ |
 
 ## Mais

@@ -7,8 +7,8 @@
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
-| Google Drive (sökning) | ✓ | ✓ |
-| Dropbox & OneDrive (sökning) | — | ✓ |
+| OneDrive (sökning) | ✓ | ✓ |
+| Dropbox (sökning) | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Anpassning
@@ -29,6 +29,8 @@
 | Anpassade sektioner | 1 sektion | Obegränsad + dra och släpp |
 | Anpassade AI-prompter | 1 prompt | Obegränsad + omordna |
 | Sökleverantörer | Endast förinställningar | + Anpassade URL-mallar |
+| API-nycklar: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Lokala offlinemodeller (på enheten) | ✓ | ✓ |
 | Fästa objekt | — | ✓ |
 
 ## Mer

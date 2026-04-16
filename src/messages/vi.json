@@ -78,8 +78,8 @@
         "description": "Kiểm soát bố cục, chủ đề và khả năng hiển thị."
       },
       "ai": {
-        "title": "Lời nhắc AI",
-        "description": "Trợ giúp AI tùy chọn với ranh giới dữ liệu rõ ràng."
+        "title": "Hỏi AI",
+        "description": "Hỏi AI trong một phần."
       },
       "providers": {
         "title": "Nhà cung cấp tìm kiếm",
@@ -87,7 +87,11 @@
       },
       "cloud": {
         "title": "Tệp đám mây",
-        "description": "Tìm kiếm trong Google Drive, Dropbox và OneDrive."
+        "description": "Tìm kiếm trong Dropbox và OneDrive."
+      },
+      "currency": {
+        "title": "Công cụ chuyển đổi tiền tệ",
+        "description": "Chuyển đổi tiền tệ với tỷ giá hối đoái trực tiếp."
       }
     },
     "items": {
@@ -122,9 +126,9 @@
         "sections": "Hiển thị, ẩn và sắp xếp lại các phần"
       },
       "ai": {
-        "prompts": "Tạo lời nhắc AI nhanh chóng",
-        "safe": "Sử dụng rõ ràng được chọn tham gia",
-        "optional": "Vô hiệu hóa AI bất kỳ lúc nào"
+        "prompts": "Kết nối với các mô hình API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter.",
+        "safe": "Thêm quyền truy cập internet qua Tavily",
+        "optional": "Chạy các mô hình ngoại tuyến cục bộ trên thiết bị"
       },
       "providers": {
         "preset": "Nhà cung cấp đặt trước như Google, YouTube hoặc ChatGPT",
@@ -132,9 +136,14 @@
         "always": "Khả năng xác định các bộ tùy chỉnh"
       },
       "cloud": {
-        "drive": "Google Drive (miễn phí)",
-        "dropbox": "Dropbox & OneDrive (Pro)",
+        "drive": "OneDrive (miễn phí)",
+        "dropbox": "Dropbox (Pro)",
         "search": "Kết quả đám mây bên cạnh kết quả cục bộ"
+      },
+      "currency": {
+        "live": "Tỷ giá hối đoái trực tiếp",
+        "multi": "Các loại tiền tệ chính trên thế giới",
+        "inline": "Chuyển đổi nội tuyến từ kết quả tìm kiếm"
       }
     }
   },
@@ -200,7 +209,7 @@
         "privacy": "Chế độ riêng tư",
         "languages": "26 biến thể ngôn ngữ",
         "sponsored": "Phần được tài trợ (Quảng cáo gốc)",
-        "googleDrive": "Tìm kiếm Google Drive (miễn phí)"
+        "googleDrive": "Tìm kiếm OneDrive (miễn phí)"
       }
     },
     "pro": {
@@ -246,7 +255,7 @@
         "backupImport": "Nhập cài đặt (khôi phục cấu hình)",
         "removeAds": "Xóa phần được tài trợ",
         "support": "Hỗ trợ phát triển trong tương lai",
-        "cloudStorage": "Tìm kiếm đám mây Dropbox & OneDrive"
+        "cloudStorage": "Tìm kiếm đám mây Dropbox"
       }
     },
     "summary": {

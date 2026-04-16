@@ -7,8 +7,8 @@
 | Universelle Suche (Apps, Kontakte, Dateien, Einstellungen) | ✓ | ✓ |
 | Alle Suchalgorithmen (Präfix, Fuzzy, phonetisch) | ✓ | ✓ |
 | Integrierter Rechner | ✓ | ✓ |
-| Google Drive (Suche) | ✓ | ✓ |
-| Dropbox & OneDrive (Suche) | — | ✓ |
+| OneDrive (Suche) | ✓ | ✓ |
+| Dropbox (Suche) | — | ✓ |
 | Volltextsuche in Dateien | — | ✓ |
 
 ## Anpassung
@@ -29,6 +29,8 @@
 | Eigene Bereiche | 1 Bereich | Unbegrenzt + Drag & Drop |
 | KI-Prompts | 1 Prompt | Unbegrenzt + Neuordnung |
 | Suchanbieter | Nur Voreinstellungen | + Eigene URL-Vorlagen |
+| API-Schlüssel: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Lokale Offline-Modelle (auf dem Gerät) | ✓ | ✓ |
 | Angeheftete Elemente | — | ✓ |
 
 ## Mehr

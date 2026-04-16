@@ -7,8 +7,8 @@
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
-| Căutare Google Drive | ✓ | ✓ |
-| Căutare Dropbox & OneDrive | — | ✓ |
+| Căutare OneDrive | ✓ | ✓ |
+| Căutare Dropbox | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Personalizare
@@ -29,6 +29,8 @@
 | Secțiuni personalizate | 1 secțiune | Nelimitat + tragere și plasare |
 | Solicitări AI personalizate | 1 solicitare | Nelimitat + reordonare |
 | Furnizori de căutare | Doar presetări | + Șabloane URL personalizate |
+| Chei API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Modele locale offline (pe dispozitiv) | ✓ | ✓ |
 | Elemente fixate | — | ✓ |
 
 ## Mai mult

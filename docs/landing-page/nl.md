@@ -7,8 +7,8 @@
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
-| Google Drive (zoeken) | ✓ | ✓ |
-| Dropbox & OneDrive (zoeken) | — | ✓ |
+| OneDrive (zoeken) | ✓ | ✓ |
+| Dropbox (zoeken) | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Aanpassing
@@ -29,6 +29,8 @@
 | Aangepaste secties | 1 sectie | Onbeperkt + slepen en neerzetten |
 | Aangepaste AI-prompts | 1 prompt | Onbeperkt + herschikken |
 | Zoekaanbieders | Alleen voorinstellingen | + Aangepaste URL-sjablonen |
+| API-sleutels: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Lokale offline modellen (op apparaat) | ✓ | ✓ |
 | Vastgemaakte items | — | ✓ |
 
 ## Meer

@@ -78,8 +78,8 @@
         "description": "Kontroller oppsett, temaer og synlighet."
       },
       "ai": {
-        "title": "AI-instrukser",
-        "description": "Valgfrie AI-hjelper med klare dategrenser."
+        "title": "Spør AI",
+        "description": "Spør AI i ett avsnitt."
       },
       "providers": {
         "title": "Søkeleverandører",
@@ -87,7 +87,11 @@
       },
       "cloud": {
         "title": "Skyfiler",
-        "description": "Søk i Google Drive, Dropbox og OneDrive."
+        "description": "Søk i Dropbox og OneDrive."
+      },
+      "currency": {
+        "title": "Valutaomregner",
+        "description": "Konverter valutaer med gjeldende valutakurser."
       }
     },
     "items": {
@@ -122,9 +126,9 @@
         "sections": "Vis, skjul og omorganiser seksjoner"
       },
       "ai": {
-        "prompts": "Opprett raske AI-instrukser",
-        "safe": "Klar frivillig bruk",
-        "optional": "Deaktiver AI når som helst"
+        "prompts": "Koble til API-modeller: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter.",
+        "safe": "Legg til internettilgang via Tavily",
+        "optional": "Kjør lokale offline-modeller på enheten"
       },
       "providers": {
         "preset": "Forhåndsinnstilte leverandører som Google, YouTube eller ChatGPT",
@@ -132,9 +136,14 @@
         "always": "Mulighet til å definere tilpassede"
       },
       "cloud": {
-        "drive": "Google Drive (gratis)",
-        "dropbox": "Dropbox & OneDrive (Pro)",
+        "drive": "OneDrive (gratis)",
+        "dropbox": "Dropbox (Pro)",
         "search": "Skyresultater ved siden av lokale"
+      },
+      "currency": {
+        "live": "Live valutakurser",
+        "multi": "Verdens viktigste valutaer",
+        "inline": "Inline konvertering fra søkeresultater"
       }
     }
   },
@@ -200,7 +209,7 @@
         "privacy": "Personvernmodus",
         "languages": "26 språkvarianter",
         "sponsored": "Sponsede seksjoner (Native Ads)",
-        "googleDrive": "Google Drive-søk (gratis)"
+        "googleDrive": "OneDrive-søk (gratis)"
       }
     },
     "pro": {
@@ -246,7 +255,7 @@
         "backupImport": "Importer innstillinger (gjenopprett konfigurasjon)",
         "removeAds": "Fjern sponsede seksjoner",
         "support": "Støtt fremtidig utvikling",
-        "cloudStorage": "Dropbox & OneDrive sky-søk"
+        "cloudStorage": "Dropbox sky-søk"
       }
     },
     "summary": {

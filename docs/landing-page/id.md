@@ -7,8 +7,8 @@
 | Pencarian universal (aplikasi, kontak, file, pengaturan) | ✓ | ✓ |
 | Semua algoritma pencarian (awalan, fuzzy, fonetik) | ✓ | ✓ |
 | Kalkulator bawaan | ✓ | ✓ |
-| Pencarian Google Drive | ✓ | ✓ |
-| Pencarian Dropbox & OneDrive | — | ✓ |
+| Pencarian OneDrive | ✓ | ✓ |
+| Pencarian Dropbox | — | ✓ |
 | Pencarian konten file (teks lengkap) | — | ✓ |
 
 ## Kustomisasi
@@ -29,6 +29,8 @@
 | Bagian kustom | 1 bagian | Tidak terbatas + seret & lepas |
 | Prompt AI kustom | 1 prompt | Tidak terbatas + susun ulang |
 | Penyedia pencarian | Hanya preset | + Template URL kustom |
+| Kunci API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Model offline lokal (di perangkat) | ✓ | ✓ |
 | Item yang disematkan | — | ✓ |
 
 ## Lainnya

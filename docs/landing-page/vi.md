@@ -7,8 +7,8 @@
 | Tìm kiếm toàn cục (ứng dụng, liên hệ, tệp, cài đặt) | ✓ | ✓ |
 | Tất cả thuật toán tìm kiếm (tiền tố, mờ, ngữ âm) | ✓ | ✓ |
 | Máy tính tích hợp | ✓ | ✓ |
-| Tìm kiếm Google Drive | ✓ | ✓ |
-| Tìm kiếm Dropbox & OneDrive | — | ✓ |
+| Tìm kiếm OneDrive | ✓ | ✓ |
+| Tìm kiếm Dropbox | — | ✓ |
 | Tìm kiếm nội dung tệp (toàn văn) | — | ✓ |
 
 ## Tùy chỉnh
@@ -23,12 +23,15 @@
 | Hình nền | Hệ thống | Màu tùy chỉnh + làm mờ |
 
 ## Nội dung và AI
+| Mô hình ngoại tuyến cục bộ (trên thiết bị) | ✓ | ✓ |
 
 | Tính năng | Free | Pro |
 |---------|:----:|:---:|
 | Phần tùy chỉnh | 1 phần | Không giới hạn + kéo thả |
 | Lời nhắc AI tùy chỉnh | 1 lời nhắc | Không giới hạn + sắp xếp lại |
 | Nhà cung cấp tìm kiếm | Chỉ sẵn có | + Mẫu URL tùy chỉnh |
+| Khóa API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Mô hình ngoại tuyến cục bộ (trên thiết bị) | ✓ | ✓ |
 | Mục ghim | — | ✓ |
 
 ## Thêm

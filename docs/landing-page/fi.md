@@ -7,8 +7,8 @@
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
-| Google Drive (haku) | ✓ | ✓ |
-| Dropbox & OneDrive (haku) | — | ✓ |
+| OneDrive (haku) | ✓ | ✓ |
+| Dropbox (haku) | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Mukauttaminen
@@ -29,6 +29,8 @@
 | Mukautetut osiot | 1 osio | Rajoittamaton + vedä ja pudota |
 | Mukautetut AI-kehotukset | 1 kehote | Rajoittamaton + uudelleenjärjestä |
 | Hakupalveluntarjoajat | Vain esiasenat | + Mukautetut URL-mallit |
+| API-avaimet: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Paikalliset offline-mallit (laitteessa) | ✓ | ✓ |
 | Kiinnitetyt kohteet | — | ✓ |
 
 ## Lisää
@@ -43,3 +45,5 @@
 ---
 
 **Pro:** kertaostos. Ei tilauksia.
+
+| Paikalliset offline-mallit (laitteessa) | ✓ | ✓ |

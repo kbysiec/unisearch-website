@@ -78,8 +78,8 @@
         "description": "Kontrolliere Layout, Designs und Sichtbarkeit."
       },
       "ai": {
-        "title": "KI-Eingabeaufforderungen",
-        "description": "Optionale KI-Helfer mit klaren Datengrenzen."
+        "title": "Fragen Sie die KI",
+        "description": "Fragen Sie AI in einem Abschnitt."
       },
       "providers": {
         "title": "Suchanbieter",
@@ -87,7 +87,11 @@
       },
       "cloud": {
         "title": "Cloud-Dateien",
-        "description": "Durchsuchen Sie Google Drive, Dropbox und OneDrive."
+        "description": "Durchsuchen Sie Dropbox und OneDrive."
+      },
+      "currency": {
+        "title": "Währungsrechner",
+        "description": "Konvertieren Sie Währungen mit Live-Wechselkursen."
       }
     },
     "items": {
@@ -122,9 +126,9 @@
         "sections": "Abschnitte anzeigen, ausblenden und neu anordnen"
       },
       "ai": {
-        "prompts": "Erstelle schnelle KI-Eingabeaufforderungen",
-        "safe": "Klare Opt-in-Nutzung",
-        "optional": "KI jederzeit deaktivieren"
+        "prompts": "Stellen Sie eine Verbindung zu API-Modellen her: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter.",
+        "safe": "Fügen Sie einen Internetzugang über Tavily hinzu",
+        "optional": "Führen Sie lokale Offline-Modelle auf dem Gerät aus"
       },
       "providers": {
         "preset": "Vordefinierte Anbieter wie Google, YouTube oder ChatGPT",
@@ -132,9 +136,14 @@
         "always": "Möglichkeit, benutzerdefinierte zu definieren"
       },
       "cloud": {
-        "drive": "Google Drive (kostenlos)",
-        "dropbox": "Dropbox & OneDrive (Pro)",
+        "drive": "OneDrive (kostenlos)",
+        "dropbox": "Dropbox (Pro)",
         "search": "Cloud-Ergebnisse neben lokalen"
+      },
+      "currency": {
+        "live": "Live-Wechselkurse",
+        "multi": "Wichtige Weltwährungen",
+        "inline": "Inline-Konvertierung aus Suchergebnissen"
       }
     }
   },
@@ -200,7 +209,7 @@
         "privacy": "Datenschutzmodus",
         "languages": "26 Sprachvarianten",
         "sponsored": "Gesponserte Abschnitte (Native Ads)",
-        "googleDrive": "Google Drive-Suche (kostenlos)"
+        "googleDrive": "OneDrive-Suche (kostenlos)"
       }
     },
     "pro": {
@@ -246,7 +255,7 @@
         "backupImport": "Einstellungen importieren (Konfiguration wiederherstellen)",
         "removeAds": "Gesponserte Abschnitte entfernen",
         "support": "Unterstützung zukünftiger Entwicklung",
-        "cloudStorage": "Dropbox & OneDrive Cloud-Suche"
+        "cloudStorage": "Dropbox Cloud-Suche"
       }
     },
     "summary": {

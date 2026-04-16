@@ -78,8 +78,8 @@
         "description": "Control layout, themes, and visibility."
       },
       "ai": {
-        "title": "AI prompts",
-        "description": "Optional AI helpers with clear data boundaries."
+        "title": "Ask AI",
+        "description": "Ask AI in one section."
       },
       "providers": {
         "title": "Search providers",
@@ -87,7 +87,11 @@
       },
       "cloud": {
         "title": "Cloud files",
-        "description": "Search across Google Drive, Dropbox, and OneDrive."
+        "description": "Search across Dropbox and OneDrive."
+      },
+      "currency": {
+        "title": "Currency converter",
+        "description": "Convert currencies with live exchange rates."
       }
     },
     "items": {
@@ -122,9 +126,9 @@
         "sections": "Show, hide, and reorder sections"
       },
       "ai": {
-        "prompts": "Create quick AI prompts",
-        "safe": "Clear opt-in usage",
-        "optional": "Disable AI anytime"
+        "prompts": "Connect to API models: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter.",
+        "safe": "Add internet access via Tavily",
+        "optional": "Run local offline models on-device"
       },
       "providers": {
         "preset": "Preset providers like Google, YouTube or ChatGPT",
@@ -132,9 +136,14 @@
         "always": "Ability to define custom ones"
       },
       "cloud": {
-        "drive": "Google Drive (free)",
-        "dropbox": "Dropbox & OneDrive (Pro)",
+        "drive": "OneDrive (free)",
+        "dropbox": "Dropbox (Pro)",
         "search": "Search cloud files alongside local results"
+      },
+      "currency": {
+        "live": "Live exchange rates",
+        "multi": "Major world currencies",
+        "inline": "Inline conversion from search results"
       }
     }
   },
@@ -192,7 +201,7 @@
         "fileTypes": "File types (7 types)",
         "freeThemes": "2 free themes: UniSearch + High Contrast",
         "modes": "Light and dark mode",
-        "googleDrive": "Google Drive cloud search (free)",
+        "googleDrive": "OneDrive cloud search (free)",
         "providersPreset": "Preset search providers (Google, YouTube, ChatGPT, etc.)",
         "providersToggle": "Enable/disable providers",
         "providersAlwaysShow": "\"Always show\" provider switch",
@@ -242,7 +251,7 @@
         "aiPrompts": "Unlimited custom AI prompts (Free: 1)",
         "aiManage": "Edit/remove AI prompts",
         "aiReorder": "Drag & drop prompt order",
-        "cloudStorage": "Dropbox & OneDrive cloud search",
+        "cloudStorage": "Dropbox cloud search",
         "backupExport": "Export settings (JSON)",
         "backupImport": "Import settings (restore configuration)",
         "removeAds": "Remove sponsored sections",

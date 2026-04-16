@@ -78,8 +78,8 @@
         "description": "Hallitse asettelua, teemoja ja näkyvyyttä."
       },
       "ai": {
-        "title": "Tekoäly-kehotukset",
-        "description": "Valinnaiset tekoäly-avustajat selkeillä datarajoilla."
+        "title": "Kysy AI:ltä",
+        "description": "Kysy tekoälyä yhdessä osiossa."
       },
       "providers": {
         "title": "Hakupalvelut",
@@ -87,7 +87,11 @@
       },
       "cloud": {
         "title": "Pilvitiedostot",
-        "description": "Hae Google Drivesta, Dropboxista ja OneDrivesta."
+        "description": "Hae sta, Dropboxista ja OneDrivesta."
+      },
+      "currency": {
+        "title": "Valuuttamuunnin",
+        "description": "Muunna valuutat reaaliaikaisilla valuuttakursseilla."
       }
     },
     "items": {
@@ -122,9 +126,9 @@
         "sections": "Näytä, piilota ja järjestele osat uudelleen"
       },
       "ai": {
-        "prompts": "Luo pika tekoäly-kehotuksia",
-        "safe": "Selkeä opt-in -käyttö",
-        "optional": "Poista tekoäly käytöstä milloin tahansa"
+        "prompts": "Yhdistä API-malleihin: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter.",
+        "safe": "Lisää internetyhteys Tavilyn kautta",
+        "optional": "Suorita paikallisia offline-malleja laitteella"
       },
       "providers": {
         "preset": "Ennalta määritetyt palvelut kuten Google, YouTube tai ChatGPT",
@@ -132,9 +136,14 @@
         "always": "Mahdollisuus määritellä mukautettuja"
       },
       "cloud": {
-        "drive": "Google Drive (ilmainen)",
-        "dropbox": "Dropbox & OneDrive (Pro)",
+        "drive": "OneDrive (ilmainen)",
+        "dropbox": "Dropbox (Pro)",
         "search": "Pilvitulokset paikallisten rinnalla"
+      },
+      "currency": {
+        "live": "Live-valuuttakurssit",
+        "multi": "Tärkeimmät maailman valuutat",
+        "inline": "Inline-muunnos hakutuloksista"
       }
     }
   },
@@ -200,7 +209,7 @@
         "privacy": "Yksityisyystila",
         "languages": "26 kielivarianttia",
         "sponsored": "Sponsoroidut osat (Native Ads)",
-        "googleDrive": "Google Drive -haku (ilmainen)"
+        "googleDrive": "OneDrive -haku (ilmainen)"
       }
     },
     "pro": {
@@ -246,7 +255,7 @@
         "backupImport": "Tuo asetukset (palauta konfiguraatio)",
         "removeAds": "Poista sponsoroidut osat",
         "support": "Tue tulevaisuuden kehitystä",
-        "cloudStorage": "Dropbox & OneDrive -pilvihaku"
+        "cloudStorage": "Dropbox -pilvihaku"
       }
     },
     "summary": {

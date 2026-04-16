@@ -11,8 +11,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
-| Google Drive (vyhledávání) | ✓ | ✓ |
-| Dropbox & OneDrive (vyhledávání) | — | ✓ |
+| OneDrive (vyhledávání) | ✓ | ✓ |
+| Dropbox (vyhledávání) | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Přizpůsobení
@@ -33,6 +33,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Vlastní sekce | 1 sekce | Neomezené + přetažení |
 | Vlastní AI výzvy | 1 výzva | Neomezené + přeuspořádání |
 | Poskytovatelé vyhledávání | Pouze předvolby | + Vlastní URL šablony |
+| Klíče API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Místní offline modely (na zařízení) | ✓ | ✓ |
 | Připnuté položky | — | ✓ |
 
 ## Více
@@ -57,8 +59,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
-| Google Drive (søgning) | ✓ | ✓ |
-| Dropbox & OneDrive (søgning) | — | ✓ |
+| OneDrive (søgning) | ✓ | ✓ |
+| Dropbox (søgning) | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Tilpasning
@@ -79,6 +81,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Tilpassede sektioner | 1 sektion | Ubegrænset + træk og slip |
 | Tilpassede AI-meddelelser | 1 meddelelse | Ubegrænset + omarranger |
 | Søgeudbydere | Kun forudindstillinger | + Tilpassede URL-skabeloner |
+| API nøgler: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Lokale offline modeller (på enheden) | ✓ | ✓ |
 | Fastgjorte elementer | — | ✓ |
 
 ## Mere
@@ -103,8 +107,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universelle Suche (Apps, Kontakte, Dateien, Einstellungen) | ✓ | ✓ |
 | Alle Suchalgorithmen (Präfix, Fuzzy, phonetisch) | ✓ | ✓ |
 | Integrierter Rechner | ✓ | ✓ |
-| Google Drive (Suche) | ✓ | ✓ |
-| Dropbox & OneDrive (Suche) | — | ✓ |
+| OneDrive (Suche) | ✓ | ✓ |
+| Dropbox (Suche) | — | ✓ |
 | Volltextsuche in Dateien | — | ✓ |
 
 ## Anpassung
@@ -125,6 +129,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Eigene Bereiche | 1 Bereich | Unbegrenzt + Drag & Drop |
 | KI-Prompts | 1 Prompt | Unbegrenzt + Neuordnung |
 | Suchanbieter | Nur Voreinstellungen | + Eigene URL-Vorlagen |
+| API-Schlüssel: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Lokale Offline-Modelle (auf dem Gerät) | ✓ | ✓ |
 | Angeheftete Elemente | — | ✓ |
 
 ## Mehr
@@ -149,8 +155,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
-| Google Drive search | ✓ | ✓ |
-| Dropbox & OneDrive search | — | ✓ |
+| OneDrive search | ✓ | ✓ |
+| Dropbox search | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Customization
@@ -171,6 +177,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Custom sections | 1 section | Unlimited + drag & drop |
 | Custom AI prompts | 1 prompt | Unlimited + reorder |
 | Search providers | Presets only | + Custom URL templates |
+| API keys: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Local offline models (on-device) | ✓ | ✓ |
 | Pinned items | — | ✓ |
 
 ## More
@@ -195,8 +203,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Búsqueda universal (apps, contactos, archivos, ajustes) | ✓ | ✓ |
 | Todos los algoritmos (prefijo, difuso, fonético) | ✓ | ✓ |
 | Calculadora integrada | ✓ | ✓ |
-| Búsqueda en Google Drive | ✓ | ✓ |
-| Búsqueda en Dropbox y OneDrive | — | ✓ |
+| Búsqueda en OneDrive | ✓ | ✓ |
+| Búsqueda en Dropbox | — | ✓ |
 | Búsqueda en contenido de archivos (texto completo) | — | ✓ |
 
 ## Personalización
@@ -217,6 +225,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Secciones personalizadas | 1 sección | Ilimitado + arrastrar y soltar |
 | Prompts de IA | 1 prompt | Ilimitado + reordenar |
 | Proveedores de búsqueda | Solo preestablecidos | + Plantillas URL personalizadas |
+| Claves API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Modelos locales fuera de línea (en el dispositivo) | ✓ | ✓ |
 | Elementos fijados | — | ✓ |
 
 ## Más
@@ -241,8 +251,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
-| Google Drive (haku) | ✓ | ✓ |
-| Dropbox & OneDrive (haku) | — | ✓ |
+| OneDrive (haku) | ✓ | ✓ |
+| Dropbox (haku) | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Mukauttaminen
@@ -263,6 +273,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Mukautetut osiot | 1 osio | Rajoittamaton + vedä ja pudota |
 | Mukautetut AI-kehotukset | 1 kehote | Rajoittamaton + uudelleenjärjestä |
 | Hakupalveluntarjoajat | Vain esiasenat | + Mukautetut URL-mallit |
+| API-avaimet: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Paikalliset offline-mallit (laitteessa) | ✓ | ✓ |
 | Kiinnitetyt kohteet | — | ✓ |
 
 ## Lisää
@@ -277,7 +289,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 ---
 
 **Pro:** kertaostos. Ei tilauksia.
-`,
+
+| Paikalliset offline-mallit (laitteessa) | ✓ | ✓ |`,
   'fil': `# Free vs Pro — UniSearch
 
 ## Paghahanap
@@ -287,8 +300,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal na paghahanap (apps, contacts, files, settings) | ✓ | ✓ |
 | Lahat ng algorithm sa paghahanap (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in na calculator | ✓ | ✓ |
-| Google Drive (paghahanap) | ✓ | ✓ |
-| Dropbox & OneDrive (paghahanap) | — | ✓ |
+| OneDrive (paghahanap) | ✓ | ✓ |
+| Dropbox (paghahanap) | — | ✓ |
 | Paghahanap sa nilalaman ng file (buong teksto) | — | ✓ |
 
 ## Pag-customize
@@ -309,6 +322,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Custom na sections | 1 section | Walang hangganan + drag & drop |
 | Custom AI prompts | 1 prompt | Walang hangganan + reorder |
 | Mga search provider | Presets lang | + Custom URL templates |
+| Mga API key: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Mga lokal na offline na modelo (sa device) | ✓ | ✓ |
 | Naka-pin na items | — | ✓ |
 
 ## Iba pa
@@ -333,8 +348,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Recherche universelle (apps, contacts, fichiers, paramètres) | ✓ | ✓ |
 | Tous les algorithmes (préfixe, flou, phonétique) | ✓ | ✓ |
 | Calculatrice intégrée | ✓ | ✓ |
-| Recherche Google Drive | ✓ | ✓ |
-| Recherche Dropbox & OneDrive | — | ✓ |
+| Recherche OneDrive | ✓ | ✓ |
+| Recherche Dropbox | — | ✓ |
 | Recherche dans le contenu des fichiers (texte intégral) | — | ✓ |
 
 ## Personnalisation
@@ -349,12 +364,16 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Fond d'écran | Système | Couleur personnalisée + flou |
 
 ## Contenu & IA
+| Modèles locaux hors ligne (sur l'appareil) | ✓ | ✓ |
 
 | Fonctionnalité | Gratuit | Pro |
 |---------|:----:|:---:|
 | Sections personnalisées | 1 section | Illimité + glisser-déposer |
 | Prompts IA | 1 prompt | Illimité + réorganisation |
 | Fournisseurs de recherche | Préréglages uniquement | + Modèles URL personnalisés |
+| Modèles locaux hors ligne (sur l'appareil) | ✓ | ✓ |
+| Clés API : OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Modèles locaux hors ligne (sur l'appareil) | ✓ | ✓ |
 | Éléments épinglés | — | ✓ |
 
 ## Plus
@@ -379,8 +398,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | यूनिवर्सल सर्च (ऐप्स, संपर्क, फ़ाइलें, सेटिंग्स) | ✓ | ✓ |
 | सभी खोज एल्गोरिदम (प्रीफिक्स, फ़ज़ी, फ़ोनेटिक) | ✓ | ✓ |
 | बिल्ट-इन कैलकुलेटर | ✓ | ✓ |
-| Google Drive खोज | ✓ | ✓ |
-| Dropbox & OneDrive खोज | — | ✓ |
+| OneDrive खोज | ✓ | ✓ |
+| Dropbox खोज | — | ✓ |
 | फ़ाइल कंटेंट खोज (पूर्ण-टेक्स्ट) | — | ✓ |
 
 ## कस्टमाइज़ेशन
@@ -395,12 +414,16 @@ export const freeProMarkdownContent: Record<string, string> = {
 | वॉलपेपर | सिस्टम | कस्टम रंग + ब्लर |
 
 ## कंटेंट और AI
+| एपीआई कुंजियाँ: ओपनएआई, क्लाउड, ग्रोक, जेमिनी, ग्रोक, डीपसीक, ओपनराउटर, टैविली | ✓ | ✓ |
+| स्थानीय ऑफ़लाइन मॉडल (डिवाइस पर) | ✓ | ✓ |
 
 | सुविधा | Free | Pro |
 |---------|:----:|:---:|
 | कस्टम सेक्शन | 1 सेक्शन | असीमित + ड्रैग एंड ड्रॉप |
 | कस्टम AI प्रॉम्प्ट्स | 1 प्रॉम्प्ट | असीमित + पुनः व्यवस्थित करें |
 | खोज प्रदाता | केवल प्रीसेट | + कस्टम URL टेम्पलेट्स |
+| एपीआई कुंजियाँ: ओपनएआई, क्लाउड, ग्रोक, जेमिनी, ग्रोक, डीपसीक, ओपनराउटर, टैविली | ✓ | ✓ |
+| स्थानीय ऑफ़लाइन मॉडल (डिवाइस पर) | ✓ | ✓ |
 | पिन किए गए आइटम | — | ✓ |
 
 ## और अधिक
@@ -425,8 +448,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
-| Google Drive keresés | ✓ | ✓ |
-| Dropbox & OneDrive keresés | — | ✓ |
+| OneDrive keresés | ✓ | ✓ |
+| Dropbox keresés | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Testreszabás
@@ -447,6 +470,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Egyéni szakaszok | 1 szakasz | Korlátlan + húzás és ejtés |
 | Egyéni AI-promptok | 1 prompt | Korlátlan + átrendezés |
 | Keresőszolgáltatók | Csak előbeállítások | + Egyéni URL-sablonok |
+| API kulcsok: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Helyi offline modellek (eszközön) | ✓ | ✓ |
 | Rögzített elemek | — | ✓ |
 
 ## Több
@@ -471,8 +496,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Pencarian universal (aplikasi, kontak, file, pengaturan) | ✓ | ✓ |
 | Semua algoritma pencarian (awalan, fuzzy, fonetik) | ✓ | ✓ |
 | Kalkulator bawaan | ✓ | ✓ |
-| Pencarian Google Drive | ✓ | ✓ |
-| Pencarian Dropbox & OneDrive | — | ✓ |
+| Pencarian OneDrive | ✓ | ✓ |
+| Pencarian Dropbox | — | ✓ |
 | Pencarian konten file (teks lengkap) | — | ✓ |
 
 ## Kustomisasi
@@ -493,6 +518,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Bagian kustom | 1 bagian | Tidak terbatas + seret & lepas |
 | Prompt AI kustom | 1 prompt | Tidak terbatas + susun ulang |
 | Penyedia pencarian | Hanya preset | + Template URL kustom |
+| Kunci API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Model offline lokal (di perangkat) | ✓ | ✓ |
 | Item yang disematkan | — | ✓ |
 
 ## Lainnya
@@ -517,8 +544,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Ricerca universale (app, contatti, file, impostazioni) | ✓ | ✓ |
 | Tutti gli algoritmi (prefisso, fuzzy, fonetico) | ✓ | ✓ |
 | Calcolatrice integrata | ✓ | ✓ |
-| Ricerca Google Drive | ✓ | ✓ |
-| Ricerca Dropbox & OneDrive | — | ✓ |
+| Ricerca OneDrive | ✓ | ✓ |
+| Ricerca Dropbox | — | ✓ |
 | Ricerca nel contenuto dei file (testo completo) | — | ✓ |
 
 ## Personalizzazione
@@ -539,6 +566,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Sezioni personalizzate | 1 sezione | Illimitato + drag & drop |
 | Prompt IA | 1 prompt | Illimitato + riordino |
 | Provider di ricerca | Solo preimpostati | + Template URL personalizzati |
+| Chiavi API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Modelli offline locali (sul dispositivo) | ✓ | ✓ |
 | Elementi bloccati | — | ✓ |
 
 ## Altro
@@ -563,8 +592,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | ユニバーサル検索（アプリ、連絡先、ファイル、設定） | ✓ | ✓ |
 | すべての検索アルゴリズム（プレフィックス、ファジー、音声） | ✓ | ✓ |
 | 内蔵計算機 | ✓ | ✓ |
-| Google Drive 検索 | ✓ | ✓ |
-| Dropbox & OneDrive 検索 | — | ✓ |
+| OneDrive 検索 | ✓ | ✓ |
+| Dropbox 検索 | — | ✓ |
 | ファイル内容検索（全文検索） | — | ✓ |
 
 ## カスタマイズ
@@ -579,12 +608,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | 壁紙 | システム | カスタム色 + ぼかし |
 
 ## コンテンツとAI
+| ローカルオフラインモデル（オンデバイス） | ✓ | ✓ |
 
 | 機能 | Free | Pro |
 |---------|:----:|:---:|
 | カスタムセクション | 1セクション | 無制限 + ドラッグ＆ドロップ |
 | カスタムAIプロンプト | 1プロンプト | 無制限 + 並び替え |
 | 検索プロバイダー | プリセットのみ | + カスタムURLテンプレート |
+| API キー: OpenAI、Claude、Grok、Gemini、Groq、DeepSeek、OpenRouter、Tavily | ✓ | ✓ |
+| ローカルオフラインモデル（オンデバイス） | ✓ | ✓ |
 | ピン留めアイテム | — | ✓ |
 
 ## その他
@@ -609,8 +641,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | 통합 검색 (앱, 연락처, 파일, 설정) | ✓ | ✓ |
 | 모든 검색 알고리즘 (접두사, 퍼지, 음성) | ✓ | ✓ |
 | 내장 계산기 | ✓ | ✓ |
-| Google Drive 검색 | ✓ | ✓ |
-| Dropbox & OneDrive 검색 | — | ✓ |
+| OneDrive 검색 | ✓ | ✓ |
+| Dropbox 검색 | — | ✓ |
 | 파일 내용 검색 (전체 텍스트) | — | ✓ |
 
 ## 사용자 정의
@@ -625,12 +657,16 @@ export const freeProMarkdownContent: Record<string, string> = {
 | 배경화면 | 시스템 | 커스텀 색상 + 블러 |
 
 ## 콘텐츠 및 AI
+| 로컬 오프라인 모델(기기 내) | ✓ | ✓ |
 
 | 기능 | Free | Pro |
 |---------|:----:|:---:|
 | 커스텀 섹션 | 1개 섹션 | 무제한 + 드래그 앤 드롭 |
 | 커스텀 AI 프롬프트 | 1개 프롬프트 | 무제한 + 재정렬 |
 | 검색 제공자 | 프리셋만 | + 커스텀 URL 템플릿 |
+| 로컬 오프라인 모델(기기 내) | ✓ | ✓ |
+| API 키: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| 로컬 오프라인 모델(기기 내) | ✓ | ✓ |
 | 고정 항목 | — | ✓ |
 
 ## 더보기
@@ -655,8 +691,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
-| Google Drive (zoeken) | ✓ | ✓ |
-| Dropbox & OneDrive (zoeken) | — | ✓ |
+| OneDrive (zoeken) | ✓ | ✓ |
+| Dropbox (zoeken) | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Aanpassing
@@ -677,6 +713,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Aangepaste secties | 1 sectie | Onbeperkt + slepen en neerzetten |
 | Aangepaste AI-prompts | 1 prompt | Onbeperkt + herschikken |
 | Zoekaanbieders | Alleen voorinstellingen | + Aangepaste URL-sjablonen |
+| API-sleutels: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Lokale offline modellen (op apparaat) | ✓ | ✓ |
 | Vastgemaakte items | — | ✓ |
 
 ## Meer
@@ -701,8 +739,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
-| Google Drive (søk) | ✓ | ✓ |
-| Dropbox & OneDrive (søk) | — | ✓ |
+| OneDrive (søk) | ✓ | ✓ |
+| Dropbox (søk) | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Tilpasning
@@ -717,12 +755,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Bakgrunn | System | Tilpasset farge + uskarphet |
 
 ## Innhold og AI
+| Lokale frakoblede modeller (på enheten) | ✓ | ✓ |
 
 | Funksjon | Free | Pro |
 |---------|:----:|:---:|
 | Tilpassede seksjoner | 1 seksjon | Ubegrenset + dra og slipp |
 | Tilpassede AI-meldinger | 1 melding | Ubegrenset + omorganiser |
 | Søkeleverandører | Kun forhåndsinnstillinger | + Tilpassede URL-maler |
+| API-nøkler: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Lokale frakoblede modeller (på enheten) | ✓ | ✓ |
 | Festede elementer | — | ✓ |
 
 ## Mer
@@ -747,8 +788,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Uniwersalne wyszukiwanie (aplikacje, kontakty, pliki, ustawienia) | ✓ | ✓ |
 | Wszystkie algorytmy (prefix, fuzzy, fonetyczny) | ✓ | ✓ |
 | Wbudowany kalkulator | ✓ | ✓ |
-| Wyszukiwanie Google Drive | ✓ | ✓ |
-| Wyszukiwanie Dropbox & OneDrive | — | ✓ |
+| Wyszukiwanie OneDrive | ✓ | ✓ |
+| Wyszukiwanie Dropbox | — | ✓ |
 | Wyszukiwanie w treści plików (pełnotekstowe) | — | ✓ |
 
 ## Personalizacja
@@ -769,6 +810,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Sekcje niestandardowe | 1 sekcja | Bez limitu + drag & drop |
 | Prompty AI | 1 prompt | Bez limitu + zmiana kolejności |
 | Wyszukiwarki | Tylko predefiniowane | + Własne szablony URL |
+| Klucze API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Lokalne modele offline (na urządzeniu) | ✓ | ✓ |
 | Przypięte elementy | — | ✓ |
 
 ## Więcej
@@ -793,8 +836,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Pesquisa universal (apps, contatos, arquivos, configurações) | ✓ | ✓ |
 | Todos os algoritmos de pesquisa (prefixo, difuso, fonético) | ✓ | ✓ |
 | Calculadora integrada | ✓ | ✓ |
-| Pesquisa no Google Drive | ✓ | ✓ |
-| Pesquisa no Dropbox & OneDrive | — | ✓ |
+| Pesquisa no OneDrive | ✓ | ✓ |
+| Pesquisa no Dropbox | — | ✓ |
 | Pesquisa no conteúdo de arquivos (texto completo) | — | ✓ |
 
 ## Personalização
@@ -809,12 +852,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Papel de parede | Sistema | Cor personalizada + desfoque |
 
 ## Conteúdo e IA
+| Modelos off-line locais (no dispositivo) | ✓ | ✓ |
 
 | Recurso | Free | Pro |
 |---------|:----:|:---:|
 | Seções personalizadas | 1 seção | Ilimitado + arrastar e soltar |
 | Prompts de IA personalizados | 1 prompt | Ilimitado + reordenar |
 | Provedores de pesquisa | Apenas predefinidos | + Modelos de URL personalizados |
+| Chaves de API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Modelos off-line locais (no dispositivo) | ✓ | ✓ |
 | Itens fixados | — | ✓ |
 
 ## Mais
@@ -839,8 +885,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
-| Căutare Google Drive | ✓ | ✓ |
-| Căutare Dropbox & OneDrive | — | ✓ |
+| Căutare OneDrive | ✓ | ✓ |
+| Căutare Dropbox | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Personalizare
@@ -861,6 +907,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Secțiuni personalizate | 1 secțiune | Nelimitat + tragere și plasare |
 | Solicitări AI personalizate | 1 solicitare | Nelimitat + reordonare |
 | Furnizori de căutare | Doar presetări | + Șabloane URL personalizate |
+| Chei API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Modele locale offline (pe dispozitiv) | ✓ | ✓ |
 | Elemente fixate | — | ✓ |
 
 ## Mai mult
@@ -885,8 +933,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Универсальный поиск (приложения, контакты, файлы, настройки) | ✓ | ✓ |
 | Все алгоритмы поиска (префикс, нечёткий, фонетический) | ✓ | ✓ |
 | Встроенный калькулятор | ✓ | ✓ |
-| Поиск в Google Drive | ✓ | ✓ |
-| Поиск в Dropbox & OneDrive | — | ✓ |
+| Поиск в OneDrive | ✓ | ✓ |
+| Поиск в Dropbox | — | ✓ |
 | Поиск по содержимому файлов (полнотекстовый) | — | ✓ |
 
 ## Персонализация
@@ -907,6 +955,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Пользовательские разделы | 1 раздел | Без ограничений + перетаскивание |
 | Пользовательские ИИ-промпты | 1 промпт | Без ограничений + переупорядочивание |
 | Поисковые провайдеры | Только предустановки | + Пользовательские URL-шаблоны |
+| Ключи API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Локальные офлайн-модели (на устройстве) | ✓ | ✓ |
 | Закреплённые элементы | — | ✓ |
 
 ## Дополнительно
@@ -921,7 +971,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 ---
 
 **Pro:** единоразовая покупка. Без подписок.
-`,
+
+| Локальные офлайн-модели (на устройстве) | ✓ | ✓ |`,
   'sk': `# Free vs Pro — UniSearch
 
 ## Vyhľadávanie
@@ -931,8 +982,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
-| Vyhľadávanie v Google Drive | ✓ | ✓ |
-| Vyhľadávanie v Dropbox & OneDrive | — | ✓ |
+| Vyhľadávanie v OneDrive | ✓ | ✓ |
+| Vyhľadávanie v Dropbox | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Prispôsobenie
@@ -953,6 +1004,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Vlastné sekcie | 1 sekcia | Neobmedzené + presúvanie |
 | Vlastné AI výzvy | 1 výzva | Neobmedzené + preusporiadanie |
 | Poskytovatelia vyhľadávania | Len predvoľby | + Vlastné URL šablóny |
+| API kľúče: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Miestne modely offline (na zariadení) | ✓ | ✓ |
 | Pripnuté položky | — | ✓ |
 
 ## Viac
@@ -977,8 +1030,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Universal search (apps, contacts, files, settings) | ✓ | ✓ |
 | All search algorithms (prefix, fuzzy, phonetic) | ✓ | ✓ |
 | Built-in calculator | ✓ | ✓ |
-| Google Drive (sökning) | ✓ | ✓ |
-| Dropbox & OneDrive (sökning) | — | ✓ |
+| OneDrive (sökning) | ✓ | ✓ |
+| Dropbox (sökning) | — | ✓ |
 | File content search (full-text in documents) | — | ✓ |
 
 ## Anpassning
@@ -999,6 +1052,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Anpassade sektioner | 1 sektion | Obegränsad + dra och släpp |
 | Anpassade AI-prompter | 1 prompt | Obegränsad + omordna |
 | Sökleverantörer | Endast förinställningar | + Anpassade URL-mallar |
+| API-nycklar: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Lokala offlinemodeller (på enheten) | ✓ | ✓ |
 | Fästa objekt | — | ✓ |
 
 ## Mer
@@ -1023,8 +1078,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | การค้นหาแบบรวม (แอป, ผู้ติดต่อ, ไฟล์, การตั้งค่า) | ✓ | ✓ |
 | อัลกอริทึมการค้นหาทั้งหมด (คำนำหน้า, ฟัซซี่, เสียง) | ✓ | ✓ |
 | เครื่องคิดเลขในตัว | ✓ | ✓ |
-| ค้นหา Google Drive | ✓ | ✓ |
-| ค้นหา Dropbox & OneDrive | — | ✓ |
+| ค้นหา OneDrive | ✓ | ✓ |
+| ค้นหา Dropbox | — | ✓ |
 | การค้นหาเนื้อหาไฟล์ (ข้อความเต็ม) | — | ✓ |
 
 ## การปรับแต่ง
@@ -1039,12 +1094,16 @@ export const freeProMarkdownContent: Record<string, string> = {
 | วอลเปเปอร์ | ระบบ | สีกำหนดเอง + เบลอ |
 
 ## เนื้อหาและ AI
+| โมเดลออฟไลน์ในเครื่อง (บนอุปกรณ์) | ✓ | ✓ |
 
 | คุณสมบัติ | Free | Pro |
 |---------|:----:|:---:|
 | ส่วนกำหนดเอง | 1 ส่วน | ไม่จำกัด + ลากและวาง |
 | พรอมต์ AI กำหนดเอง | 1 พรอมต์ | ไม่จำกัด + จัดเรียงใหม่ |
 | ผู้ให้บริการการค้นหา | เฉพาะที่ตั้งไว้ | + เทมเพลต URL กำหนดเอง |
+| โมเดลออฟไลน์ในเครื่อง (บนอุปกรณ์) | ✓ | ✓ |
+| คีย์ API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| โมเดลออฟไลน์ในเครื่อง (บนอุปกรณ์) | ✓ | ✓ |
 | รายการที่ปักหมุด | — | ✓ |
 
 ## เพิ่มเติม
@@ -1069,8 +1128,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Evrensel arama (uygulamalar, kişiler, dosyalar, ayarlar) | ✓ | ✓ |
 | Tüm arama algoritmaları (önek, belirsiz, fonetik) | ✓ | ✓ |
 | Dahili hesap makinesi | ✓ | ✓ |
-| Google Drive araması | ✓ | ✓ |
-| Dropbox & OneDrive araması | — | ✓ |
+| OneDrive araması | ✓ | ✓ |
+| Dropbox araması | — | ✓ |
 | Dosya içeriği arama (tam metin) | — | ✓ |
 
 ## Özelleştirme
@@ -1091,6 +1150,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Özel bölümler | 1 bölüm | Sınırsız + sürükle bırak |
 | Özel Yapay Zeka komutları | 1 komut | Sınırsız + yeniden sırala |
 | Arama sağlayıcıları | Sadece ön ayarlar | + Özel URL şablonları |
+| API anahtarları: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Yerel çevrimdışı modeller (cihazda) | ✓ | ✓ |
 | Sabitlenmiş öğeler | — | ✓ |
 
 ## Daha Fazla
@@ -1105,7 +1166,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 ---
 
 **Pro:** tek seferlik satın alma. Abonelik yok.
-`,
+
+| Yerel çevrimdışı modeller (cihazda) | ✓ | ✓ |`,
   'vi': `# Free vs Pro — UniSearch
 
 ## Tìm kiếm
@@ -1115,8 +1177,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Tìm kiếm toàn cục (ứng dụng, liên hệ, tệp, cài đặt) | ✓ | ✓ |
 | Tất cả thuật toán tìm kiếm (tiền tố, mờ, ngữ âm) | ✓ | ✓ |
 | Máy tính tích hợp | ✓ | ✓ |
-| Tìm kiếm Google Drive | ✓ | ✓ |
-| Tìm kiếm Dropbox & OneDrive | — | ✓ |
+| Tìm kiếm OneDrive | ✓ | ✓ |
+| Tìm kiếm Dropbox | — | ✓ |
 | Tìm kiếm nội dung tệp (toàn văn) | — | ✓ |
 
 ## Tùy chỉnh
@@ -1131,12 +1193,15 @@ export const freeProMarkdownContent: Record<string, string> = {
 | Hình nền | Hệ thống | Màu tùy chỉnh + làm mờ |
 
 ## Nội dung và AI
+| Mô hình ngoại tuyến cục bộ (trên thiết bị) | ✓ | ✓ |
 
 | Tính năng | Free | Pro |
 |---------|:----:|:---:|
 | Phần tùy chỉnh | 1 phần | Không giới hạn + kéo thả |
 | Lời nhắc AI tùy chỉnh | 1 lời nhắc | Không giới hạn + sắp xếp lại |
 | Nhà cung cấp tìm kiếm | Chỉ sẵn có | + Mẫu URL tùy chỉnh |
+| Khóa API: OpenAI, Claude, Grok, Gemini, Groq, DeepSeek, OpenRouter, Tavily | ✓ | ✓ |
+| Mô hình ngoại tuyến cục bộ (trên thiết bị) | ✓ | ✓ |
 | Mục ghim | — | ✓ |
 
 ## Thêm
@@ -1161,8 +1226,8 @@ export const freeProMarkdownContent: Record<string, string> = {
 | 通用搜索（应用、联系人、文件、设置） | ✓ | ✓ |
 | 所有搜索算法（前缀、模糊、语音） | ✓ | ✓ |
 | 内置计算器 | ✓ | ✓ |
-| Google Drive 搜索 | ✓ | ✓ |
-| Dropbox & OneDrive 搜索 | — | ✓ |
+| OneDrive 搜索 | ✓ | ✓ |
+| Dropbox 搜索 | — | ✓ |
 | 文件内容搜索（全文搜索） | — | ✓ |
 
 ## 定制化
@@ -1177,12 +1242,16 @@ export const freeProMarkdownContent: Record<string, string> = {
 | 壁纸 | 系统 | 自定义颜色 + 模糊 |
 
 ## 内容和AI
+| 本地离线模型（设备上） | ✓ | ✓ |
 
 | 功能 | Free | Pro |
 |---------|:----:|:---:|
 | 自定义部分 | 1个部分 | 无限 + 拖放 |
 | 自定义AI提示 | 1个提示 | 无限 + 重新排序 |
 | 搜索提供商 | 仅预设 | + 自定义URL模板 |
+| 本地离线模型（设备上） | ✓ | ✓ |
+| API 密钥：OpenAI、Claude、Grok、Gemini、Groq、DeepSeek、OpenRouter、Tavily | ✓ | ✓ |
+| 本地离线模型（设备上） | ✓ | ✓ |
 | 固定项目 | — | ✓ |
 
 ## 更多
